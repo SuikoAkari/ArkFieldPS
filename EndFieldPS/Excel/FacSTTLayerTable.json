@@ -1,0 +1,110 @@
+{
+  "tech_group_jinlong_acid": {
+    "containsYCount": 2,
+    "costItems": [
+      {
+        "costItemCount": 1,
+        "costItemId": "item_factech_jinlong_key"
+      }
+    ],
+    "groupId": "tech_group_jinlong",
+    "isTBD": true,
+    "layerId": "tech_group_jinlong_acid",
+    "name": {
+      "id": "EAF9CB986E0465E3",
+      "text": ""
+    },
+    "order": 3,
+    "preLayer": "tech_group_jinlong_copper"
+  },
+  "tech_group_jinlong_copper": {
+    "containsYCount": 2,
+    "costItems": [
+      {
+        "costItemCount": 1,
+        "costItemId": "item_factech_jinlong_key"
+      }
+    ],
+    "groupId": "tech_group_jinlong",
+    "isTBD": false,
+    "layerId": "tech_group_jinlong_copper",
+    "name": {
+      "id": "AFA3430F1CA351FF",
+      "text": ""
+    },
+    "order": 2,
+    "preLayer": "tech_group_jinlong_liquid"
+  },
+  "tech_group_jinlong_liquid": {
+    "containsYCount": 2,
+    "costItems": [
+      {
+        "costItemCount": 1,
+        "costItemId": "item_factech_jinlong_key"
+      }
+    ],
+    "groupId": "tech_group_jinlong",
+    "isTBD": false,
+    "layerId": "tech_group_jinlong_liquid",
+    "name": {
+      "id": "5D88AF9AA605FA38",
+      "text": ""
+    },
+    "order": 1,
+    "preLayer": ""
+  },
+  "tech_group_tundra_iron": {
+    "containsYCount": 2,
+    "costItems": [
+      {
+        "costItemCount": 1,
+        "costItemId": "item_factech_tundra_key"
+      }
+    ],
+    "groupId": "tech_group_tundra",
+    "isTBD": false,
+    "layerId": "tech_group_tundra_iron",
+    "name": {
+      "id": "44AE0A1FC7B1077C",
+      "text": ""
+    },
+    "order": 3,
+    "preLayer": "tech_group_tundra_quartz"
+  },
+  "tech_group_tundra_originium": {
+    "containsYCount": 2,
+    "costItems": [
+      {
+        "costItemCount": 1,
+        "costItemId": "item_factech_tundra_key"
+      }
+    ],
+    "groupId": "tech_group_tundra",
+    "isTBD": false,
+    "layerId": "tech_group_tundra_originium",
+    "name": {
+      "id": "1B9637B33668C974",
+      "text": ""
+    },
+    "order": 1,
+    "preLayer": ""
+  },
+  "tech_group_tundra_quartz": {
+    "containsYCount": 2,
+    "costItems": [
+      {
+        "costItemCount": 1,
+        "costItemId": "item_factech_tundra_key"
+      }
+    ],
+    "groupId": "tech_group_tundra",
+    "isTBD": false,
+    "layerId": "tech_group_tundra_quartz",
+    "name": {
+      "id": "E9764B3E8187E029",
+      "text": ""
+    },
+    "order": 2,
+    "preLayer": "tech_group_tundra_originium"
+  }
+}

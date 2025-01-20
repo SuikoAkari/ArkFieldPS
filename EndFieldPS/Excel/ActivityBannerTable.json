@@ -1,0 +1,34 @@
+{
+  "test_beginner_gacha": {
+    "bannerId": "test_beginner_gacha",
+    "bannerType": 0,
+    "corrSysId": "beginner_2024_12_1",
+    "image": "new_journey",
+    "index": 1,
+    "jumpId": "jump_gacha"
+  },
+  "test_char_gacha_2024_12": {
+    "bannerId": "test_char_gacha_2024_12",
+    "bannerType": 0,
+    "corrSysId": "special_2024_12_1",
+    "image": "laevat_banner",
+    "index": 3,
+    "jumpId": "jump_gacha_limit_1"
+  },
+  "test_char_gacha_2025_1": {
+    "bannerId": "test_char_gacha_2025_1",
+    "bannerType": 0,
+    "corrSysId": "special_2025_1_1",
+    "image": "yvonne_banner",
+    "index": 4,
+    "jumpId": "jump_gacha_limit_2"
+  },
+  "test_weapon_gacha": {
+    "bannerId": "test_weapon_gacha",
+    "bannerType": 1,
+    "corrSysId": "",
+    "image": "weapon01_banner",
+    "index": 2,
+    "jumpId": "jump_payshop_weapon"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "attractDetailAnimTypes": [
+    "GC_Workstation",
+    "GC_Incubator",
+    "GC_Wall",
+    "MS_Workstation",
+    "MS_Machine",
+    "MS_Box",
+    "CC_Workstation_1FDesk",
+    "CC_Workstation_2FDesk",
+    "CC_Window",
+    "CC_InfoBoard",
+    "CC_ControlPlatform",
+    "CC_Workstation_Terminal",
+    "CH_RestArea",
+    "CH_CenterArea",
+    "CH_ClimbArea",
+    "CH_Display",
+    "CH_Plant",
+    "CH_Statue",
+    "CH_LogisticsCenter",
+    "CH_Bar",
+    "CH_Screen",
+    "CC_Terminal_1F",
+    "CC_Terminal_2F"
+  ],
+  "baseGrowCabinProduceRate": 100,
+  "baseManufacturingStationProduceRate": 100,
+  "basePhysicalStrengthCostRate": 12,
+  "basePhysicalStrengthRecoveryRate": 20,
+  "baseSceneName": "base01_lv001",
+  "charRecvGiftMaxCountPerDay": 5,
+  "controlCenterRoomId": "control_center",
+  "defaultBuiltRooms": [
+    "control_center"
+  ],
+  "defaultGrowCabinProduceRate": 100,
+  "defaultManufacturingStationProduceRate": 100,
+  "favoriteGiftRatio": 1.2,
+  "growCabinBoxCount": 9,
+  "interactCameraVerticalDegrees": [
+    0,
+    20
+  ],
+  "maxFavorability": 1500,
+  "maxPhysicalStrength": 10000,
+  "randEventMaxCountEnterScene": 3,
+  "randEventMaxCountPerDay": 5,
+  "spaceshipLobbyCharMaxCount": 8
+}

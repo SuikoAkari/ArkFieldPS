@@ -1,0 +1,26 @@
+{
+  "factech_recipe_jinlong": {
+    "desc": {
+      "id": "3026BFB0A456D2C0",
+      "text": ""
+    },
+    "name": {
+      "id": "EAC9226D702CBD35",
+      "text": ""
+    },
+    "recipeGroupId": "factech_recipe_jinlong",
+    "sortId": 2
+  },
+  "factech_recipe_tundra": {
+    "desc": {
+      "id": "F612CCE5301C1D66",
+      "text": ""
+    },
+    "name": {
+      "id": "AA927FEB59E87D9E",
+      "text": ""
+    },
+    "recipeGroupId": "factech_recipe_tundra",
+    "sortId": 1
+  }
+}

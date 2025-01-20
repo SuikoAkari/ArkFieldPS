@@ -1,0 +1,16 @@
+{
+  "reportReserveDay": 3,
+  "stmDevelopmentTipsIntervalTime": 300,
+  "stmDevelopmentTipsRetryTime": 600,
+  "stmExpItemId": "item_settlement_exp",
+  "stmIntervalTime": 60,
+  "stmManualSubmitCD": 60,
+  "stmShowTagGroups": [
+    "tag_group_race",
+    "tag_group_power",
+    "tag_group_expert"
+  ],
+  "unlockByStepStmIds": [
+    "stm_tundra_1"
+  ]
+}

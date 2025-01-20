@@ -1,0 +1,74 @@
+{
+  "distribution_dungeon_common": {
+    "areaName": {
+      "id": "E5735377AB2E9285",
+      "text": ""
+    },
+    "distributionId": "distribution_dungeon_common",
+    "jumpId": ""
+  },
+  "distribution_map01_common": {
+    "areaName": {
+      "id": "91ECA2EB4A91FD83",
+      "text": ""
+    },
+    "distributionId": "distribution_map01_common",
+    "jumpId": ""
+  },
+  "distribution_map01_lv001": {
+    "areaName": {
+      "id": "C00891AF420F5366",
+      "text": ""
+    },
+    "distributionId": "distribution_map01_lv001",
+    "jumpId": "jump_map01_lv001"
+  },
+  "distribution_map01_lv002": {
+    "areaName": {
+      "id": "72B5539A150B5178",
+      "text": ""
+    },
+    "distributionId": "distribution_map01_lv002",
+    "jumpId": "jump_map01_lv002"
+  },
+  "distribution_map01_lv003": {
+    "areaName": {
+      "id": "802D2B45B3B28D55",
+      "text": ""
+    },
+    "distributionId": "distribution_map01_lv003",
+    "jumpId": "jump_map01_lv003"
+  },
+  "distribution_map01_lv005": {
+    "areaName": {
+      "id": "05236034807D06FC",
+      "text": ""
+    },
+    "distributionId": "distribution_map01_lv005",
+    "jumpId": "jump_map01_lv005"
+  },
+  "distribution_map01_lv006": {
+    "areaName": {
+      "id": "7012CC0C4812773A",
+      "text": ""
+    },
+    "distributionId": "distribution_map01_lv006",
+    "jumpId": "jump_map01_lv006"
+  },
+  "distribution_map01_lv007": {
+    "areaName": {
+      "id": "7E203890F5174172",
+      "text": ""
+    },
+    "distributionId": "distribution_map01_lv007",
+    "jumpId": "jump_map01_lv007"
+  },
+  "distribution_map02_lv001": {
+    "areaName": {
+      "id": "6E6D920D8BAA9991",
+      "text": ""
+    },
+    "distributionId": "distribution_map02_lv001",
+    "jumpId": "jump_map02_lv001"
+  }
+}

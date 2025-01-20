@@ -1,0 +1,262 @@
+{
+  "stm_hongs_1": {
+    "domainId": "domain_2",
+    "settlementId": "stm_hongs_1",
+    "settlementLevelMap": {
+      "1": {
+        "desc": {
+          "id": "45E6096C1802BF39",
+          "text": ""
+        },
+        "levelUpExp": 9000,
+        "orderIdGroup": [
+          "order_jinlong_1_1_1"
+        ],
+        "settlementPicId": "pic_stm_hongs_1_1"
+      },
+      "2": {
+        "desc": {
+          "id": "56C6B70AD12121C1",
+          "text": ""
+        },
+        "levelUpExp": 17000,
+        "orderIdGroup": [
+          "order_jinlong_1_2_1",
+          "order_jinlong_1_2_2"
+        ],
+        "settlementPicId": "pic_stm_hongs_1_2"
+      },
+      "3": {
+        "desc": {
+          "id": "65DAF7EC76AAF896",
+          "text": ""
+        },
+        "levelUpExp": 26000,
+        "orderIdGroup": [
+          "order_jinlong_1_3_1",
+          "order_jinlong_1_3_2"
+        ],
+        "settlementPicId": "pic_stm_hongs_1_3"
+      },
+      "4": {
+        "desc": {
+          "id": "7CFC05E02C804701",
+          "text": ""
+        },
+        "levelUpExp": 0,
+        "orderIdGroup": [
+          "order_jinlong_1_4_1",
+          "order_jinlong_1_4_2"
+        ],
+        "settlementPicId": "pic_stm_hongs_1_4"
+      }
+    },
+    "settlementName": {
+      "id": "1DE45B2A2A55A016",
+      "text": ""
+    },
+    "wantTagIdGroup": [
+      "stm_tag_hongs_1_1",
+      "stm_tag_hongs_1_2",
+      "stm_tag_hongs_1_3"
+    ]
+  },
+  "stm_tundra_1": {
+    "domainId": "domain_1",
+    "settlementId": "stm_tundra_1",
+    "settlementLevelMap": {
+      "1": {
+        "desc": {
+          "id": "819544217B5C744F",
+          "text": ""
+        },
+        "levelUpExp": 9000,
+        "orderIdGroup": [
+          "order_tundra_1_1_1"
+        ],
+        "settlementPicId": "pic_stm_tundra_1_1"
+      },
+      "2": {
+        "desc": {
+          "id": "A728566A6128D98A",
+          "text": ""
+        },
+        "levelUpExp": 12000,
+        "orderIdGroup": [
+          "order_tundra_1_2_1",
+          "order_tundra_1_2_2"
+        ],
+        "settlementPicId": "pic_stm_tundra_1_2"
+      },
+      "3": {
+        "desc": {
+          "id": "993961FDC8CC4DCD",
+          "text": ""
+        },
+        "levelUpExp": 30000,
+        "orderIdGroup": [
+          "order_tundra_1_3_1",
+          "order_tundra_1_3_2",
+          "order_tundra_1_3_3"
+        ],
+        "settlementPicId": "pic_stm_tundra_1_3"
+      },
+      "4": {
+        "desc": {
+          "id": "31F4AE98EB077FFC",
+          "text": ""
+        },
+        "levelUpExp": 0,
+        "orderIdGroup": [
+          "order_tundra_1_4_1",
+          "order_tundra_1_4_2",
+          "order_tundra_1_4_3",
+          "order_tundra_1_4_4",
+          "order_tundra_1_4_5"
+        ],
+        "settlementPicId": "pic_stm_tundra_1_4"
+      }
+    },
+    "settlementName": {
+      "id": "606EBD815365710C",
+      "text": ""
+    },
+    "wantTagIdGroup": [
+      "stm_tag_tundra_1_1",
+      "stm_tag_tundra_1_2",
+      "stm_tag_tundra_1_3"
+    ]
+  },
+  "stm_tundra_2": {
+    "domainId": "domain_1",
+    "settlementId": "stm_tundra_2",
+    "settlementLevelMap": {
+      "1": {
+        "desc": {
+          "id": "DD144F87DCDC3945",
+          "text": ""
+        },
+        "levelUpExp": 9000,
+        "orderIdGroup": [
+          "order_tundra_2_1_1"
+        ],
+        "settlementPicId": "pic_stm_tundra_2_1"
+      },
+      "2": {
+        "desc": {
+          "id": "6AA33A7EB16F4994",
+          "text": ""
+        },
+        "levelUpExp": 13000,
+        "orderIdGroup": [
+          "order_tundra_2_2_1",
+          "order_tundra_2_2_2"
+        ],
+        "settlementPicId": "pic_stm_tundra_2_2"
+      },
+      "3": {
+        "desc": {
+          "id": "53057A2BB8B871A4",
+          "text": ""
+        },
+        "levelUpExp": 27500,
+        "orderIdGroup": [
+          "order_tundra_2_3_1",
+          "order_tundra_2_3_2",
+          "order_tundra_2_3_3"
+        ],
+        "settlementPicId": "pic_stm_tundra_2_3"
+      },
+      "4": {
+        "desc": {
+          "id": "6088ABA21208684B",
+          "text": ""
+        },
+        "levelUpExp": 0,
+        "orderIdGroup": [
+          "order_tundra_2_4_1",
+          "order_tundra_2_4_2",
+          "order_tundra_2_4_3",
+          "order_tundra_2_4_4",
+          "order_tundra_2_4_5"
+        ],
+        "settlementPicId": "pic_stm_tundra_2_4"
+      }
+    },
+    "settlementName": {
+      "id": "E4F0B84B8195F3DF",
+      "text": ""
+    },
+    "wantTagIdGroup": [
+      "stm_tag_tundra_2_1",
+      "stm_tag_tundra_2_2",
+      "stm_tag_tundra_2_3"
+    ]
+  },
+  "stm_tundra_3": {
+    "domainId": "domain_1",
+    "settlementId": "stm_tundra_3",
+    "settlementLevelMap": {
+      "1": {
+        "desc": {
+          "id": "25C86926B68D8DB0",
+          "text": ""
+        },
+        "levelUpExp": 5000,
+        "orderIdGroup": [
+          "order_tundra_3_1_1"
+        ],
+        "settlementPicId": "pic_stm_tundra_3_1"
+      },
+      "2": {
+        "desc": {
+          "id": "C0800CC2B26270B7",
+          "text": ""
+        },
+        "levelUpExp": 12000,
+        "orderIdGroup": [
+          "order_tundra_3_2_1",
+          "order_tundra_3_2_2"
+        ],
+        "settlementPicId": "pic_stm_tundra_3_2"
+      },
+      "3": {
+        "desc": {
+          "id": "7C8B257E02A0B1F4",
+          "text": ""
+        },
+        "levelUpExp": 17000,
+        "orderIdGroup": [
+          "order_tundra_3_3_1",
+          "order_tundra_3_3_2",
+          "order_tundra_3_3_3"
+        ],
+        "settlementPicId": "pic_stm_tundra_3_3"
+      },
+      "4": {
+        "desc": {
+          "id": "8D85E1786BCE791A",
+          "text": ""
+        },
+        "levelUpExp": 0,
+        "orderIdGroup": [
+          "order_tundra_3_4_1",
+          "order_tundra_3_4_2",
+          "order_tundra_3_4_3",
+          "order_tundra_3_4_4",
+          "order_tundra_3_4_5"
+        ],
+        "settlementPicId": "pic_stm_tundra_3_4"
+      }
+    },
+    "settlementName": {
+      "id": "65CD226A517D71E1",
+      "text": ""
+    },
+    "wantTagIdGroup": [
+      "stm_tag_tundra_3_1",
+      "stm_tag_tundra_3_2",
+      "stm_tag_tundra_3_3"
+    ]
+  }
+}

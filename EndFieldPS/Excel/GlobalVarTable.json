@@ -1,0 +1,187 @@
+{
+  "002BossFight": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "002BossFight"
+  },
+  "BigNestSmoke": {
+    "bClientOp": true,
+    "defaultValue": 1,
+    "name": "BigNestSmoke"
+  },
+  "base01_center_controller_activated": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "base01_center_controller_activated"
+  },
+  "can_scan_erosion": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "can_scan_erosion"
+  },
+  "e4m1_all_erosion_unlock": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "e4m1_all_erosion_unlock"
+  },
+  "general_ability_bomb_time_stamp": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "general_ability_bomb_time_stamp"
+  },
+  "general_ability_fluidinteract_time_stamp": {
+    "bClientOp": false,
+    "defaultValue": 0,
+    "name": "general_ability_fluidinteract_time_stamp"
+  },
+  "general_ability_map01lv005bomb_time_stamp": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "general_ability_map01lv005bomb_time_stamp"
+  },
+  "general_ability_scan_time_stamp": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "general_ability_scan_time_stamp"
+  },
+  "huanzhuline_game_finish": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "huanzhuline_game_finish"
+  },
+  "lv001_damaged_sunny": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "lv001_damaged_sunny"
+  },
+  "lv001_large_lifter_state": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "lv001_large_lifter_state"
+  },
+  "lv003_crane_state": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "lv003_crane_state"
+  },
+  "lv005_all_erosion_unlock": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "lv005_all_erosion_unlock"
+  },
+  "lv005_special_erosion_unlock": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "lv005_special_erosion_unlock"
+  },
+  "lv006_all_erosion_unlock": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "lv006_all_erosion_unlock"
+  },
+  "lv007_boss_fight_sky_ring": {
+    "bClientOp": false,
+    "defaultValue": 1,
+    "name": "lv007_boss_fight_sky_ring"
+  },
+  "map001_lv007_boss_effect_01": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map001_lv007_boss_effect_01"
+  },
+  "map001_lv007_boss_effect_02": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map001_lv007_boss_effect_02"
+  },
+  "map001_lv007_smoke_02": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map001_lv007_smoke_02"
+  },
+  "map01_lv001_find_rabbit_state": {
+    "bClientOp": false,
+    "defaultValue": 0,
+    "name": "map01_lv001_find_rabbit_state"
+  },
+  "map01_lv006_anchor_01": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map01_lv006_anchor_01"
+  },
+  "map01_lv006_anchor_02": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map01_lv006_anchor_02"
+  },
+  "map01_lv006_anchor_03": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map01_lv006_anchor_03"
+  },
+  "map01_lv006_find_slime_state": {
+    "bClientOp": false,
+    "defaultValue": 0,
+    "name": "map01_lv006_find_slime_state"
+  },
+  "map01_lv006_tree_state": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map01_lv006_tree_state"
+  },
+  "map02_lv001_tianshitan": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map02_lv001_tianshitan"
+  },
+  "map02_lv001_tianshizhuang_01": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map02_lv001_tianshizhuang_01"
+  },
+  "map02_lv001_tianshizhuang_02": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map02_lv001_tianshizhuang_02"
+  },
+  "map02_lv001_tianshizhuang_03": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map02_lv001_tianshizhuang_03"
+  },
+  "map02_lv001_tianshizhuang_04": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map02_lv001_tianshizhuang_04"
+  },
+  "map02_lv001_tianshizhuang_05": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "map02_lv001_tianshizhuang_05"
+  },
+  "nar_stone_pattern": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "nar_stone_pattern"
+  },
+  "npc_firstmeet_thurston": {
+    "bClientOp": true,
+    "defaultValue": 0,
+    "name": "npc_firstmeet_thurston"
+  },
+  "sm1l1m8_ground": {
+    "bClientOp": true,
+    "defaultValue": 1,
+    "name": "sm1l1m8_ground"
+  },
+  "test1": {
+    "bClientOp": false,
+    "defaultValue": 0,
+    "name": "test1"
+  },
+  "test2": {
+    "bClientOp": true,
+    "defaultValue": 22,
+    "name": "test2"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "item_case_example1": {
+    "id": "item_case_example1",
+    "randomChestItemCounts": [
+      10,
+      20
+    ],
+    "randomChestItemIds": [
+      "item_anglel_corp1_1",
+      "item_ebs_corp2_1"
+    ],
+    "rewardIdList": [
+      "reward_doodad_originium_ore"
+    ],
+    "selectedCount": 0,
+    "type": 0
+  },
+  "item_case_example2": {
+    "id": "item_case_example2",
+    "randomChestItemCounts": [],
+    "randomChestItemIds": [],
+    "rewardIdList": [
+      "reward_doodad_originium_ore",
+      "reward_doodad_quartz_sand",
+      "reward_doodad_iron_ore",
+      "reward_doodad_sp_metal_ore"
+    ],
+    "selectedCount": 3,
+    "type": 1
+  },
+  "item_case_gem_random_1": {
+    "id": "item_case_gem_random_1",
+    "randomChestItemCounts": [
+      1
+    ],
+    "randomChestItemIds": [
+      "item_gem_rarity_5"
+    ],
+    "rewardIdList": [
+      "reward_case_gem_random_1"
+    ],
+    "selectedCount": 0,
+    "type": 0
+  },
+  "item_case_wpn_selfselect_1": {
+    "id": "item_case_wpn_selfselect_1",
+    "randomChestItemCounts": [],
+    "randomChestItemIds": [],
+    "rewardIdList": [
+      "reward_case_wpn_sword_0007",
+      "reward_case_wpn_claym_0011",
+      "reward_case_wpn_lance_0010",
+      "reward_case_wpn_funnel_0005",
+      "reward_case_wpn_pistol_0006"
+    ],
+    "selectedCount": 1,
+    "type": 1
+  }
+}

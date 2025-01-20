@@ -1,0 +1,4043 @@
+{
+  "dung01_bossrush01_01": {
+    "dungeonDesc": {
+      "id": "739620C8CADCF66A",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush01_01",
+    "dungeonLevelDesc": {
+      "id": "4DA10FE8CBF5ABBE",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "92904E89660EE9D9",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush01",
+    "enemyIds": [
+      "eny_0051_rodin"
+    ],
+    "enemyLevels": [
+      25
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 25,
+    "sceneId": "dung01_bdg001"
+  },
+  "dung01_bossrush01_02": {
+    "dungeonDesc": {
+      "id": "BBAC0C3EBF1EC7AE",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush01_02",
+    "dungeonLevelDesc": {
+      "id": "E87461CF4DCF2E65",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "99C107A86402F6B4",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush01",
+    "enemyIds": [
+      "eny_0051_rodin"
+    ],
+    "enemyLevels": [
+      40
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 40,
+    "sceneId": "dung01_bdg001"
+  },
+  "dung01_bossrush01_03": {
+    "dungeonDesc": {
+      "id": "EEB063BD296E1C5E",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush01_03",
+    "dungeonLevelDesc": {
+      "id": "89B9308869B19D45",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "5FD22FE95D6563E7",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush01",
+    "enemyIds": [
+      "eny_0051_rodin"
+    ],
+    "enemyLevels": [
+      60
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 60,
+    "sceneId": "dung01_bdg001"
+  },
+  "dung01_bossrush02_01": {
+    "dungeonDesc": {
+      "id": "3CB760716F7DFB51",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush02_01",
+    "dungeonLevelDesc": {
+      "id": "7A7660BF32398C85",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "A76B4DC10BF929F4",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush02",
+    "enemyIds": [
+      "eny_0045_agtrinit"
+    ],
+    "enemyLevels": [
+      50
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 50,
+    "sceneId": "dung01_bdg002"
+  },
+  "dung01_bossrush02_02": {
+    "dungeonDesc": {
+      "id": "B0D121BDD6421028",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush02_02",
+    "dungeonLevelDesc": {
+      "id": "D2F277CC049D5C60",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "F2BAC5789B94E26F",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush02",
+    "enemyIds": [
+      "eny_0045_agtrinit"
+    ],
+    "enemyLevels": [
+      60
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 60,
+    "sceneId": "dung01_bdg002"
+  },
+  "dung01_bossrush02_03": {
+    "dungeonDesc": {
+      "id": "13DD163185DDD65C",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush02_03",
+    "dungeonLevelDesc": {
+      "id": "BDBE3EE2DBEAF9AC",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "9429C7267E989F3C",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush02",
+    "enemyIds": [
+      "eny_0045_agtrinit"
+    ],
+    "enemyLevels": [
+      70
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 70,
+    "sceneId": "dung01_bdg002"
+  },
+  "dung01_bossrush03_01": {
+    "dungeonDesc": {
+      "id": "DC0CEFBD42096ADA",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush03_01",
+    "dungeonLevelDesc": {
+      "id": "A6396147A3B23349",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "CEC06128B537F9EC",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush03",
+    "enemyIds": [
+      "eny_0052_palesent"
+    ],
+    "enemyLevels": [
+      55
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 55,
+    "sceneId": "dung01_bdg003"
+  },
+  "dung01_bossrush03_02": {
+    "dungeonDesc": {
+      "id": "1FECF28A7E5FB7A7",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush03_02",
+    "dungeonLevelDesc": {
+      "id": "03EAAAF70DCE0FFE",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "E54C03CB79D89E16",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush03",
+    "enemyIds": [
+      "eny_0052_palesent"
+    ],
+    "enemyLevels": [
+      65
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 65,
+    "sceneId": "dung01_bdg003"
+  },
+  "dung01_bossrush03_03": {
+    "dungeonDesc": {
+      "id": "E1248C279BBF1C88",
+      "text": ""
+    },
+    "dungeonId": "dung01_bossrush03_03",
+    "dungeonLevelDesc": {
+      "id": "92A9DDA22BF64E22",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "20277ADA1ECB06E9",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_bossrush03",
+    "enemyIds": [
+      "eny_0052_palesent"
+    ],
+    "enemyLevels": [
+      75
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 75,
+    "sceneId": "dung01_bdg003"
+  },
+  "dung01_charbreak01": {
+    "dungeonDesc": {
+      "id": "2925AA30149098EE",
+      "text": ""
+    },
+    "dungeonId": "dung01_charbreak01",
+    "dungeonLevelDesc": {
+      "id": "30572FDD7C60E2B4",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "039AA68A049FB371",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_charbreak01",
+    "enemyIds": [
+      "eny_0050_hound_dungeon",
+      "eny_0033_lbhunt_dungeon"
+    ],
+    "enemyLevels": [
+      10,
+      10
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "ABE30D6587E9CF27",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv002_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 20,
+    "sceneId": "dung01_sdg001"
+  },
+  "dung01_charbreak02": {
+    "dungeonDesc": {
+      "id": "76E09AB01764A3DE",
+      "text": ""
+    },
+    "dungeonId": "dung01_charbreak02",
+    "dungeonLevelDesc": {
+      "id": "335D1520892D2E66",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "2020B6B4986D0BF0",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_charbreak01",
+    "enemyIds": [
+      "eny_0050_hound_dungeon",
+      "eny_0029_lbmob_dungeon",
+      "eny_0046_lbshamman_dungeon"
+    ],
+    "enemyLevels": [
+      35,
+      35,
+      35
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "3074CFD9B8CE5B5F",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv002_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 40,
+    "sceneId": "dung01_sdg001"
+  },
+  "dung01_charbreak03": {
+    "dungeonDesc": {
+      "id": "0D9E49EDE76B73CF",
+      "text": ""
+    },
+    "dungeonId": "dung01_charbreak03",
+    "dungeonLevelDesc": {
+      "id": "0EA65C25148E8FD7",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "4F0DFC4FF62E7EF6",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_charbreak02",
+    "enemyIds": [
+      "eny_0050_hound_dungeon",
+      "eny_0029_lbmob_dungeon",
+      "eny_0066_lbhunt2",
+      "eny_0046_lbshamman_dungeon"
+    ],
+    "enemyLevels": [
+      60,
+      60,
+      60,
+      60
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "E68D3ECDA5EA3842",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv002_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 60,
+    "sceneId": "dung01_sdg004"
+  },
+  "dung01_charbreak04": {
+    "dungeonDesc": {
+      "id": "067BD907FDD2B8AB",
+      "text": ""
+    },
+    "dungeonId": "dung01_charbreak04",
+    "dungeonLevelDesc": {
+      "id": "C25977DB15AE20E9",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "0DC326BAF7BB817F",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_charbreak02",
+    "enemyIds": [
+      "eny_0050_hound_dungeon",
+      "eny_0067_hound2",
+      "eny_0029_lbmob_dungeon",
+      "eny_0047_firebat_dungeon"
+    ],
+    "enemyLevels": [
+      75,
+      75,
+      75,
+      75
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "AD4487936C837973",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv006_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 70,
+    "sceneId": "dung01_sdg004"
+  },
+  "dung01_exp01": {
+    "dungeonDesc": {
+      "id": "A9C10BB4391F31C4",
+      "text": ""
+    },
+    "dungeonId": "dung01_exp01",
+    "dungeonLevelDesc": {
+      "id": "4CF5665C1D478882",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "0C1F0F3D3DE445BB",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_exp01",
+    "enemyIds": [
+      "eny_0021_agmelee_dungeon",
+      "eny_0025_agrange_dungeon"
+    ],
+    "enemyLevels": [
+      10,
+      10
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 20,
+    "sceneId": "dung01_sdg001"
+  },
+  "dung01_exp02": {
+    "dungeonDesc": {
+      "id": "7A9C55F3E8017D5D",
+      "text": ""
+    },
+    "dungeonId": "dung01_exp02",
+    "dungeonLevelDesc": {
+      "id": "C9BC2E5E254DB336",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "29E46A9FDA613709",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_exp01",
+    "enemyIds": [
+      "eny_0021_agmelee_dungeon",
+      "eny_0025_agrange_dungeon",
+      "eny_0023_aghornb_dungeon"
+    ],
+    "enemyLevels": [
+      35,
+      35,
+      35
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "CA3155BA94EFD5F0",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 40,
+    "sceneId": "dung01_sdg001"
+  },
+  "dung01_exp03": {
+    "dungeonDesc": {
+      "id": "EB48B1EB6C358613",
+      "text": ""
+    },
+    "dungeonId": "dung01_exp03",
+    "dungeonLevelDesc": {
+      "id": "809850FF7415E0EB",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "F91946AC60E71A96",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_exp02",
+    "enemyIds": [
+      "eny_0021_agmelee_dungeon",
+      "eny_0025_agrange_dungeon",
+      "eny_0063_agmelee2",
+      "eny_0023_aghornb_dungeon"
+    ],
+    "enemyLevels": [
+      60,
+      60,
+      60,
+      60
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "4B184548ACE58A91",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 60,
+    "sceneId": "dung01_sdg004"
+  },
+  "dung01_exp04": {
+    "dungeonDesc": {
+      "id": "C796E8F8654EB0A1",
+      "text": ""
+    },
+    "dungeonId": "dung01_exp04",
+    "dungeonLevelDesc": {
+      "id": "F8149F85DB6DAAFC",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "288A0C881B20E4CB",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_exp02",
+    "enemyIds": [
+      "eny_0021_agmelee_dungeon",
+      "eny_0063_agmelee2",
+      "eny_0023_aghornb_dungeon",
+      "eny_0027_agscorp_dungeon"
+    ],
+    "enemyLevels": [
+      75,
+      75,
+      75,
+      75
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "0479F90BE52E6D34",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv005_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 70,
+    "sceneId": "dung01_sdg004"
+  },
+  "dung01_gold01": {
+    "dungeonDesc": {
+      "id": "9C8EAB3817C6FCF8",
+      "text": ""
+    },
+    "dungeonId": "dung01_gold01",
+    "dungeonLevelDesc": {
+      "id": "EF5B19716C4B488B",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "00E24FFF7A523E9E",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_gold01",
+    "enemyIds": [
+      "eny_0025_agrange_dungeon"
+    ],
+    "enemyLevels": [
+      10
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "DA283CA75459BB3C",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv003_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 20,
+    "sceneId": "dung01_sdg003"
+  },
+  "dung01_gold02": {
+    "dungeonDesc": {
+      "id": "BAB220B0DA120635",
+      "text": ""
+    },
+    "dungeonId": "dung01_gold02",
+    "dungeonLevelDesc": {
+      "id": "D71B4A078599E237",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "98DD597D42AF2E10",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_gold01",
+    "enemyIds": [
+      "eny_0025_agrange_dungeon",
+      "eny_0027_agscorp_dungeon"
+    ],
+    "enemyLevels": [
+      35,
+      35
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "BD11FB57B8654CC8",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv003_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 40,
+    "sceneId": "dung01_sdg003"
+  },
+  "dung01_gold03": {
+    "dungeonDesc": {
+      "id": "66B45749E1A66462",
+      "text": ""
+    },
+    "dungeonId": "dung01_gold03",
+    "dungeonLevelDesc": {
+      "id": "A75CE3EE5963593D",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "3E81041060870F94",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_gold02",
+    "enemyIds": [
+      "eny_0025_agrange_dungeon",
+      "eny_0021_agmelee_dungeon",
+      "eny_0027_agscorp_dungeon"
+    ],
+    "enemyLevels": [
+      60,
+      60,
+      60
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "039ABB550356FEE5",
+      "text": ""
+    },
+    "levelId": "map01_lv005",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv003_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 60,
+    "sceneId": "dung01_sdg006"
+  },
+  "dung01_gold04": {
+    "dungeonDesc": {
+      "id": "C2389D2A2C37F6A9",
+      "text": ""
+    },
+    "dungeonId": "dung01_gold04",
+    "dungeonLevelDesc": {
+      "id": "353E21432BC38E4E",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "C43A080304EFBF81",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_gold02",
+    "enemyIds": [
+      "eny_0025_agrange_dungeon",
+      "eny_0063_agmelee2",
+      "eny_0007_mimicw_dungeon"
+    ],
+    "enemyLevels": [
+      75,
+      75,
+      75
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "83BB5E53166A7E80",
+      "text": ""
+    },
+    "levelId": "map01_lv005",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv006_4",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 70,
+    "sceneId": "dung01_sdg006"
+  },
+  "dung01_puzzle01": {
+    "dungeonDesc": {
+      "id": "87D9511823486525",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle01",
+    "dungeonLevelDesc": {
+      "id": "F2574393FB3B889B",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "FC06DEB197982C92",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle01",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "1F633CD158F98596",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "1FD04F285A7EA12B",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_1",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg001"
+  },
+  "dung01_puzzle02": {
+    "dungeonDesc": {
+      "id": "2C00FB55F14B5259",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle02",
+    "dungeonLevelDesc": {
+      "id": "4704761895A6624D",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "5D1F86C7AC45F81D",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle02",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "EE482D233040AA5C",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "2D14524BD905E20E",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg002"
+  },
+  "dung01_puzzle03": {
+    "dungeonDesc": {
+      "id": "FC88CC40201CEC74",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle03",
+    "dungeonLevelDesc": {
+      "id": "248BAFD246188D77",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "AC5B0734800F8493",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle04",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "1296D02229F82C89",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "63DC39C83C807CE7",
+      "text": ""
+    },
+    "levelId": "map01_lv003",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_3",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg003"
+  },
+  "dung01_puzzle04": {
+    "dungeonDesc": {
+      "id": "017ECFD2856A6E56",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle04",
+    "dungeonLevelDesc": {
+      "id": "84A2F794E62E9DB4",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "A828DC694A53C3C5",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle08",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "0397431B1A17FAB4",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "277B30071C72E462",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_4",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg004"
+  },
+  "dung01_puzzle05": {
+    "dungeonDesc": {
+      "id": "FD8A21306F7D34C3",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle05",
+    "dungeonLevelDesc": {
+      "id": "CA13B1D18FEF2388",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "8CEABBF078828E90",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle05",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "8C137FBBBBF24B0D",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "3633D58CBBB0BED9",
+      "text": ""
+    },
+    "levelId": "map01_lv005",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_5",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg005"
+  },
+  "dung01_puzzle06": {
+    "dungeonDesc": {
+      "id": "63FA8983221AE367",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle06",
+    "dungeonLevelDesc": {
+      "id": "88522A368B0A60A4",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "275F96080A5AD292",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle07",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "8F2F4E22D9D01361",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "A5BB6F2D828563AC",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_6",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg006"
+  },
+  "dung01_puzzle07": {
+    "dungeonDesc": {
+      "id": "C34ECC9202624C15",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle07",
+    "dungeonLevelDesc": {
+      "id": "723A0B8AAD26EFF5",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "BA55F433FCC57E2D",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle09",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "61FBE3351E8DAEAF",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "BC074A8E51087A40",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_7",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg007"
+  },
+  "dung01_puzzle08": {
+    "dungeonDesc": {
+      "id": "69C9F6427E119879",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle08",
+    "dungeonLevelDesc": {
+      "id": "B13D823FBF04A898",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "978C0401421D91AE",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle06",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "1F695F7E4DCC1EB4",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "675F3FEB31C12252",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_8",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg008"
+  },
+  "dung01_puzzle10": {
+    "dungeonDesc": {
+      "id": "F360679482944C40",
+      "text": ""
+    },
+    "dungeonId": "dung01_puzzle10",
+    "dungeonLevelDesc": {
+      "id": "DC22781840E5B59B",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "E316F79BE4306250",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_puzzle03",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "26592AB0543B4B41",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "43751CB20DD5A2EE",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv002_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_cdg010"
+  },
+  "dung01_rdg001": {
+    "dungeonDesc": {
+      "id": "8B6621BF82C39287",
+      "text": ""
+    },
+    "dungeonId": "dung01_rdg001",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "5F9CD91448E9974F",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_rdg001",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "dung_rdg001_wolfgd",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_rdg001"
+  },
+  "dung01_rdg002": {
+    "dungeonDesc": {
+      "id": "91BD858A9269E427",
+      "text": ""
+    },
+    "dungeonId": "dung01_rdg002",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "3363BF6C82DFDE8C",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_rdg002",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "dung_rdg002_aglina",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "dung01_rdg002"
+  },
+  "dung01_skill01": {
+    "dungeonDesc": {
+      "id": "208BD934598047B4",
+      "text": ""
+    },
+    "dungeonId": "dung01_skill01",
+    "dungeonLevelDesc": {
+      "id": "B2934306149C97CF",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "F8A1FE5049178FD5",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_skill01",
+    "enemyIds": [
+      "eny_0029_lbmob_dungeon",
+      "eny_0033_lbhunt_dungeon"
+    ],
+    "enemyLevels": [
+      10,
+      10
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "D91EC84CFFA1E909",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv003_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 20,
+    "sceneId": "dung01_sdg003"
+  },
+  "dung01_skill02": {
+    "dungeonDesc": {
+      "id": "FD37B0EBBA2A7EDC",
+      "text": ""
+    },
+    "dungeonId": "dung01_skill02",
+    "dungeonLevelDesc": {
+      "id": "C0A475EB57F86CF2",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "3F11057624C26532",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_skill01",
+    "enemyIds": [
+      "eny_0050_hound_dungeon",
+      "eny_0029_lbmob_dungeon",
+      "eny_0033_lbhunt_dungeon",
+      "eny_0046_lbshamman_dungeon"
+    ],
+    "enemyLevels": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "1B747BF509D9E817",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv003_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 40,
+    "sceneId": "dung01_sdg003"
+  },
+  "dung01_skill03": {
+    "dungeonDesc": {
+      "id": "252DA917D10F927F",
+      "text": ""
+    },
+    "dungeonId": "dung01_skill03",
+    "dungeonLevelDesc": {
+      "id": "3F2D726760A0CA35",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "1E7E83FCBC880185",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_skill02",
+    "enemyIds": [
+      "eny_0049_rogue_dungeon",
+      "eny_0029_lbmob_dungeon",
+      "eny_0065_lbmob2",
+      "eny_0046_lbshamman_dungeon"
+    ],
+    "enemyLevels": [
+      60,
+      60,
+      60,
+      60
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "700257713328C341",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv003_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 60,
+    "sceneId": "dung01_sdg006"
+  },
+  "dung01_skill04": {
+    "dungeonDesc": {
+      "id": "011F5950BB0D58CA",
+      "text": ""
+    },
+    "dungeonId": "dung01_skill04",
+    "dungeonLevelDesc": {
+      "id": "5D6CABA7061B56A7",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "DDA285A0445521BC",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_skill02",
+    "enemyIds": [
+      "eny_0050_hound_dungeon",
+      "eny_0067_hound2",
+      "eny_0049_rogue_dungeon",
+      "eny_0046_lbshamman_dungeon"
+    ],
+    "enemyLevels": [
+      75,
+      75,
+      75,
+      75
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "CE2C500DD685E5BD",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv006_5",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 70,
+    "sceneId": "dung01_sdg006"
+  },
+  "dung01_wpbreak01": {
+    "dungeonDesc": {
+      "id": "1A225624DC6DBD85",
+      "text": ""
+    },
+    "dungeonId": "dung01_wpbreak01",
+    "dungeonLevelDesc": {
+      "id": "07CE05703490DCC8",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "8F72F363BF54B036",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_wpbreak01",
+    "enemyIds": [
+      "eny_0029_lbmob_dungeon",
+      "eny_0033_lbhunt_dungeon"
+    ],
+    "enemyLevels": [
+      10,
+      10
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "8A4013A38E6F6DA6",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_3",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 20,
+    "sceneId": "dung01_sdg002"
+  },
+  "dung01_wpbreak02": {
+    "dungeonDesc": {
+      "id": "A31EBCB2B10E630E",
+      "text": ""
+    },
+    "dungeonId": "dung01_wpbreak02",
+    "dungeonLevelDesc": {
+      "id": "4252836D49984765",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "028F7B3472C612E7",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_wpbreak01",
+    "enemyIds": [
+      "eny_0029_lbmob_dungeon",
+      "eny_0033_lbhunt_dungeon",
+      "eny_0066_lbhunt2",
+      "eny_0047_firebat_dungeon"
+    ],
+    "enemyLevels": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "175AB471C403DAC8",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_3",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 40,
+    "sceneId": "dung01_sdg002"
+  },
+  "dung01_wpbreak03": {
+    "dungeonDesc": {
+      "id": "BA19A80414B07E90",
+      "text": ""
+    },
+    "dungeonId": "dung01_wpbreak03",
+    "dungeonLevelDesc": {
+      "id": "2BB639261CED48AC",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "3B71B0E68770BA1B",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_wpbreak02",
+    "enemyIds": [
+      "eny_0029_lbmob_dungeon",
+      "eny_0066_lbhunt2",
+      "eny_0047_firebat_dungeon"
+    ],
+    "enemyLevels": [
+      60,
+      60,
+      60
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "FC20C7489FB7CD59",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_3",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 60,
+    "sceneId": "dung01_sdg005"
+  },
+  "dung01_wpbreak04": {
+    "dungeonDesc": {
+      "id": "3CC8599A24DC4A8F",
+      "text": ""
+    },
+    "dungeonId": "dung01_wpbreak04",
+    "dungeonLevelDesc": {
+      "id": "42AD9C8017003219",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "3BBDF843147FB956",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_wpbreak02",
+    "enemyIds": [
+      "eny_0050_hound_dungeon",
+      "eny_0066_lbhunt2",
+      "eny_0047_firebat_dungeon"
+    ],
+    "enemyLevels": [
+      75,
+      75,
+      75
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "B9E35DEE41EE1288",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv006_3",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 70,
+    "sceneId": "dung01_sdg005"
+  },
+  "dung01_wpexp01": {
+    "dungeonDesc": {
+      "id": "F18F1BAF8777FFFB",
+      "text": ""
+    },
+    "dungeonId": "dung01_wpexp01",
+    "dungeonLevelDesc": {
+      "id": "44AE04F077853A8E",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "FF10FF2F270FDDE9",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_wpexp01",
+    "enemyIds": [
+      "eny_0021_agmelee_dungeon",
+      "eny_0025_agrange_dungeon"
+    ],
+    "enemyLevels": [
+      10,
+      10
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "380FEA5FB58977C9",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 20,
+    "sceneId": "dung01_sdg002"
+  },
+  "dung01_wpexp02": {
+    "dungeonDesc": {
+      "id": "73CC8BB5F5CC2EBE",
+      "text": ""
+    },
+    "dungeonId": "dung01_wpexp02",
+    "dungeonLevelDesc": {
+      "id": "BDD7098685B34F9A",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "152AEEB8DA749180",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_wpexp01",
+    "enemyIds": [
+      "eny_0021_agmelee_dungeon",
+      "eny_0025_agrange_dungeon",
+      "eny_0023_aghornb_dungeon"
+    ],
+    "enemyLevels": [
+      35,
+      35,
+      35
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "1B25CB57EAD5B069",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 40,
+    "sceneId": "dung01_sdg002"
+  },
+  "dung01_wpexp03": {
+    "dungeonDesc": {
+      "id": "340177AF3BD42EB8",
+      "text": ""
+    },
+    "dungeonId": "dung01_wpexp03",
+    "dungeonLevelDesc": {
+      "id": "546C8F06CA7F10A3",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "C4D703B3D92BFC0E",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_wpexp02",
+    "enemyIds": [
+      "eny_0021_agmelee_dungeon",
+      "eny_0063_agmelee2",
+      "eny_0023_aghornb_dungeon"
+    ],
+    "enemyLevels": [
+      60,
+      60,
+      60
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "92AA58AC413497D8",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv001_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 60,
+    "sceneId": "dung01_sdg005"
+  },
+  "dung01_wpexp04": {
+    "dungeonDesc": {
+      "id": "BBA8094E8704E523",
+      "text": ""
+    },
+    "dungeonId": "dung01_wpexp04",
+    "dungeonLevelDesc": {
+      "id": "4F62000B8EBB6ADA",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "3E4EB74272A8B526",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_group_wpexp02",
+    "enemyIds": [
+      "eny_0021_agmelee_dungeon",
+      "eny_0064_agrange2",
+      "eny_0069_aghornb2",
+      "eny_0027_agscorp_dungeon"
+    ],
+    "enemyLevels": [
+      75,
+      75,
+      75,
+      75
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "75066C2DBC7CBEB0",
+      "text": ""
+    },
+    "levelId": "map01_lv007",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "dgpoint_lv005_2",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 70,
+    "sceneId": "dung01_sdg005"
+  },
+  "dung_blackbox_assebling_1": {
+    "dungeonDesc": {
+      "id": "9CEFFC8A03A264A1",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_assebling_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "22D506824F5F84AB",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_assebling_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "D800E2F3BD9405C5",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "3A0BEF5F4521DFE3",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "99C1E90E998C7493",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_cmpt_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_assebling_1"
+  },
+  "dung_blackbox_assebling_2": {
+    "dungeonDesc": {
+      "id": "B712F6F9D1F2267F",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_assebling_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "C14556D366EFE47A",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_assebling_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "03B9977EAF25380D",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "90411EBAEF46B17C",
+      "text": ""
+    },
+    "levelId": "map01_lv005",
+    "mainGoalDesc": {
+      "id": "ECDDB56644882D1F",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_assebling_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_assebling_2"
+  },
+  "dung_blackbox_asseblingbomb_1": {
+    "dungeonDesc": {
+      "id": "6677FC4B27CDC83C",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_asseblingbomb_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "1CF801BA5D1E8106",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_asseblingbomb_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "4CEBD3BEA899BB6F",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "10F599268EEE5BAD",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "7D6B894B45DDC867",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_assebling_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_asseblingbomb_1"
+  },
+  "dung_blackbox_basic_1": {
+    "dungeonDesc": {
+      "id": "2EFC11A9EF4512FB",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_basic_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "2BE24DFB0DC7C328",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_basic_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "ABF5B8A2948EC312",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "348DA7CE0E0B09EE",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_basic_1"
+  },
+  "dung_blackbox_belt_1": {
+    "dungeonDesc": {
+      "id": "AFAEC7F432A83006",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_belt_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "DBCD105237B63C8E",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_belt_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "E637A5737AB31C48",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "D8B666E68904D9AF",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_belt_1"
+  },
+  "dung_blackbox_belt_2": {
+    "dungeonDesc": {
+      "id": "6F95C1CD9065BA3C",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_belt_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "54F8F4DFBEE3922B",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_belt_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "FBA7DE94A0C2BB4F",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "9EB578B9244E6C4E",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "FCF06CD2590964E5",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_planter_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_belt_2"
+  },
+  "dung_blackbox_bus_1": {
+    "dungeonDesc": {
+      "id": "2935C7DDC897CD4C",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_bus_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "AD1D45835701D078",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_bus_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "4C85FA95C2EC2EE8",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "8BB65C0FD8552F1C",
+      "text": ""
+    },
+    "levelId": "map01_lv003",
+    "mainGoalDesc": {
+      "id": "C18BC1FC6E4C34FE",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_filling_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_bus_1"
+  },
+  "dung_blackbox_bus_2": {
+    "dungeonDesc": {
+      "id": "4E66D01974BF2F92",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_bus_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "A07F39BA516B3FCD",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_bus_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "9125654382FD9AF8",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "B024409E4815178E",
+      "text": ""
+    },
+    "levelId": "map01_lv003",
+    "mainGoalDesc": {
+      "id": "22608B978635F86A",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_assebling_1",
+      "dung_blackbox_filling_1",
+      "dung_blackbox_bus_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_bus_2"
+  },
+  "dung_blackbox_cmpt_1": {
+    "dungeonDesc": {
+      "id": "E0FBA13D82A1E81F",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_cmpt_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "CB7800ED00D83B7B",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_cmpt_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "89BC4741ECB0A750",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "C9DF0D2E910746A2",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "D4270176895069B6",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_hub_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_cmpt_1"
+  },
+  "dung_blackbox_connector_1": {
+    "dungeonDesc": {
+      "id": "3FEC92C27EE89C14",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_connector_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "852884FA41B942DC",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_connector_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "5A72446D9B4B5C16",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "0D03D8C91709D8B4",
+      "text": ""
+    },
+    "levelId": "map01_lv003",
+    "mainGoalDesc": {
+      "id": "72F41C35C18E1F4F",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_hub_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_connector_1"
+  },
+  "dung_blackbox_converger_1": {
+    "dungeonDesc": {
+      "id": "5AC9377EFF413CDC",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_converger_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "D788C2E047937228",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_converger_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "7B66726CE516740C",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "D53A560AB157071A",
+      "text": ""
+    },
+    "levelId": "map01_lv005",
+    "mainGoalDesc": {
+      "id": "D7F7100C9AF0592F",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_bus_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_converger_1"
+  },
+  "dung_blackbox_filling_1": {
+    "dungeonDesc": {
+      "id": "7DB6D0BB38129AEE",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_filling_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "0073A39B8B88726E",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_filling_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "803A24C7B63934DC",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "D687EB32B9B94035",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "E3322F9E42B54500",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_shaper_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_filling_1"
+  },
+  "dung_blackbox_filling_2": {
+    "dungeonDesc": {
+      "id": "94AAB3CB72DF54F6",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_filling_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "1CA63C916C4098E2",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_filling_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "6AF3E2322B6B0110",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "68173341B0915E40",
+      "text": ""
+    },
+    "levelId": "map01_lv005",
+    "mainGoalDesc": {
+      "id": "FA85546988586ABE",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_filling_1",
+      "dung_blackbox_miner_2"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_filling_2"
+  },
+  "dung_blackbox_filling_3": {
+    "dungeonDesc": {
+      "id": "F30F9919C2EF108A",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_filling_3",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "0891A7188E611459",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_filling_3",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "1D7ECEDF30205BD8",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "27F24CE779E23C91",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "90937CB20E40D0A2",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_filling_1",
+      "dung_blackbox_thickener_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_filling_3"
+  },
+  "dung_blackbox_filling_4": {
+    "dungeonDesc": {
+      "id": "C01C1671AA2BF386",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_filling_4",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "C441B26E57D579C4",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_filling_4",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "FB0165AA51DEE2F2",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "5F572F433A0391EA",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "E06C46BADFAF0313",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_mix_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_filling_4"
+  },
+  "dung_blackbox_filling_5": {
+    "dungeonDesc": {
+      "id": "C210AFF3BA291A50",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_filling_5",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "2C4FFBD07471DCC4",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_filling_5",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "1F12F47A84469D2E",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "F4EEC0A1412C18CE",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "B9648FE6C656C2A1",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_filling_5"
+  },
+  "dung_blackbox_grinder_1": {
+    "dungeonDesc": {
+      "id": "7DAA0CBE4F91C768",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_grinder_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "C2E89BEAD4990AC9",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_grinder_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "210F276DEF773FA2",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "A46BA2FE2A825AF1",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "530E2B9DF8245198",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_belt_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_grinder_1"
+  },
+  "dung_blackbox_hub_1": {
+    "dungeonDesc": {
+      "id": "1FE28EFF98CE3E87",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_hub_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "CBBB566CA196ECEE",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_hub_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "979A46794BE9BCBA",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "C5690BBAA336CDDD",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "CCCFCA18EB561E9F",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_hub_1"
+  },
+  "dung_blackbox_liquidcleaner_1": {
+    "dungeonDesc": {
+      "id": "E1BEF728351B8E24",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_liquidcleaner_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "AE571E13E2F718FC",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_liquidcleaner_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "E5066C6642D05544",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "0A744D58C9225B06",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "106A1FEE7C3B6705",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_pipe_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_liquidcleaner_1"
+  },
+  "dung_blackbox_miner_1": {
+    "dungeonDesc": {
+      "id": "28A643785D8174DD",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_miner_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "AE2BBEC07707B928",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_miner_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "298D6CF718D8BE50",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "ED2024BB60B9F34D",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "B90EA0DBB3068DF8",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_miner_1"
+  },
+  "dung_blackbox_miner_2": {
+    "dungeonDesc": {
+      "id": "B6E2BED100153E26",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_miner_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "41448B0B4C336F50",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_miner_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "0D640BBA7099E02B",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "B5168DD3F87B8E8B",
+      "text": ""
+    },
+    "levelId": "map01_lv005",
+    "mainGoalDesc": {
+      "id": "D350D48E8D1DA3F9",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_miner_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_miner_2"
+  },
+  "dung_blackbox_miner_3": {
+    "dungeonDesc": {
+      "id": "DF3506EC95009FAA",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_miner_3",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "F05D03BE4AD9FB86",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_miner_3",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "2594104DF33C60E9",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "D5952BE01CD6A6C0",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "05EB67DC2FF24064",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_pipe_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_miner_3"
+  },
+  "dung_blackbox_mix_1": {
+    "dungeonDesc": {
+      "id": "72142197969D616F",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_mix_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "A8C03F102764F543",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_mix_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "2C14D8722BCCBBA3",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "C8B45168B589D897",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "BC1182D5452EF0F9",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_pipe_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_mix_1"
+  },
+  "dung_blackbox_mix_2": {
+    "dungeonDesc": {
+      "id": "CE777ADC2B5922D5",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_mix_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "98727EEC796830E7",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_mix_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "26B042BE2F89D5D2",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "CCCC513EB067F838",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "7FE89BA679A149BA",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_mix_1",
+      "dung_blackbox_filling_4"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_mix_2"
+  },
+  "dung_blackbox_pipe_1": {
+    "dungeonDesc": {
+      "id": "9E38BA828759AA64",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_pipe_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "0E9ED0DC05E766D0",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_pipe_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "EBEB95130169830A",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "98C5EE209D1F05C6",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "1B3372988311F363",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_pipe_1"
+  },
+  "dung_blackbox_pipe_2": {
+    "dungeonDesc": {
+      "id": "D98A47BFE4A75901",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_pipe_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "4A2CDAC044838E08",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_pipe_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "B9F96594A040AA4E",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "D6DBEE523372F593",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "D35227F981B09337",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_pipe_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_pipe_2"
+  },
+  "dung_blackbox_planter_1": {
+    "dungeonDesc": {
+      "id": "28521F10B1FA44C7",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_planter_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "EFCFA1382C17093F",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_planter_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "4E5575A89861A8D2",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "B6FE4FDEB5BBB9A0",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "B5899260782686B8",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_shaper_1",
+      "dung_blackbox_filling_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_planter_1"
+  },
+  "dung_blackbox_planter_2": {
+    "dungeonDesc": {
+      "id": "031128094EEF28B6",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_planter_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "452E7E9069F36ECC",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_planter_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "FC31934BF35C9ED4",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "3F3E034A5E4498CB",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "E01B693E62639511",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_filling_4"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_planter_2"
+  },
+  "dung_blackbox_power_1": {
+    "dungeonDesc": {
+      "id": "8CBA29310FC58178",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_power_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "A07313AD9AD14C0E",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_power_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "39D850325841A018",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "2995E97B12B8B037",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "5768CBCE8B0FB42B",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_power_1"
+  },
+  "dung_blackbox_powerstation_1": {
+    "dungeonDesc": {
+      "id": "AE11EEF3DC85405C",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_powerstation_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "2355F67019D17830",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_powerstation_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "C7AAED00460787CB",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "4B44DFAFDD9C017E",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "CF7E6F04F3F37F10",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_hub_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_powerstation_1"
+  },
+  "dung_blackbox_shaper_1": {
+    "dungeonDesc": {
+      "id": "B6B013860AE75090",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_shaper_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "757A9E7677600633",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_shaper_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "9F1E8C17C24D0EDC",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "0CA15E34668712A7",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "FF730734E74D2FF3",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_hub_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_shaper_1"
+  },
+  "dung_blackbox_shaper_2": {
+    "dungeonDesc": {
+      "id": "B61BBEAF884C76E2",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_shaper_2",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "2E870FED03BD38FC",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_shaper_2",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "3182A75D66B862F9",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "C5DAFEFA8907A942",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "9F00DB5C3CDA7483",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_filling_4",
+      "dung_blackbox_liquidcleaner_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_shaper_2"
+  },
+  "dung_blackbox_splitter_1": {
+    "dungeonDesc": {
+      "id": "FAAAD3E1EAEA03CE",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_splitter_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "05AACF3270D83AC7",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_splitter_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "1A5B3BA284767D04",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "1B9AA349F384FBBB",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "DA2F0B3F2BDD6B9B",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_powerstation_1",
+      "dung_blackbox_belt_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_splitter_1"
+  },
+  "dung_blackbox_squirter_1": {
+    "dungeonDesc": {
+      "id": "36D6178F84011013",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_squirter_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "DADF94627E8793E3",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_squirter_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "FED92788FBDE7CDD",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "89CAA267D0324943",
+      "text": ""
+    },
+    "levelId": "map02_lv001",
+    "mainGoalDesc": {
+      "id": "F26288ED265ACFCF",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_pipe_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_squirter_1"
+  },
+  "dung_blackbox_storager_1": {
+    "dungeonDesc": {
+      "id": "C53061DEEEFFDFBB",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_storager_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "25D158B6A677D22E",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_storager_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "A8DC6271CDD7AD4F",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "1ECC4386E38B777E",
+      "text": ""
+    },
+    "levelId": "map01_lv002",
+    "mainGoalDesc": {
+      "id": "A72096871DDB5E49",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_storager_1"
+  },
+  "dung_blackbox_thickener_1": {
+    "dungeonDesc": {
+      "id": "0121C3C4ED0897DC",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_thickener_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "C1437F0D3CB1CC88",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_thickener_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "973A8072B12DDF7E",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "C0F8AC8335A3C59E",
+      "text": ""
+    },
+    "levelId": "map01_lv006",
+    "mainGoalDesc": {
+      "id": "94AD59ADECB0E348",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_hub_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_thickener_1"
+  },
+  "dung_blackbox_winder_1": {
+    "dungeonDesc": {
+      "id": "50986B17A3171A04",
+      "text": ""
+    },
+    "dungeonId": "dung_blackbox_winder_1",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "D3922B6C9DB9A630",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_blackbox_winder_1",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "04BE0F37171271EA",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "D6C8A92D99E25C6C",
+      "text": ""
+    },
+    "levelId": "map01_lv001",
+    "mainGoalDesc": {
+      "id": "64B962B60743AE8F",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [
+      "dung_blackbox_hub_1"
+    ],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "blackbox_winder_1"
+  },
+  "dung_demo_blackbox02": {
+    "dungeonDesc": {
+      "id": "1B5F16122660EDE3",
+      "text": ""
+    },
+    "dungeonId": "dung_demo_blackbox02",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "0D3BFCBB7ADA14E5",
+      "text": ""
+    },
+    "dungeonSeriesId": "entrance_dung_demo_blackbox02",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "47F04CC67857A846",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "DBB78778FCB7533A",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "86701065E00DCB4C",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "demo_blackbox02"
+  },
+  "dung_race001": {
+    "dungeonDesc": {
+      "id": "7469E62276FF498A",
+      "text": ""
+    },
+    "dungeonId": "dung_race001",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "B4FDDF19BD17D54F",
+      "text": ""
+    },
+    "dungeonSeriesId": "",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "indie_race001"
+  },
+  "dung_rpg001": {
+    "dungeonDesc": {
+      "id": "9603245EFB0D1CD7",
+      "text": ""
+    },
+    "dungeonId": "dung_rpg001",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "43CF18F4AC1144E7",
+      "text": ""
+    },
+    "dungeonSeriesId": "",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "749494810456DB80",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "indie_rpg001"
+  },
+  "dung_test_blackbox_01": {
+    "dungeonDesc": {
+      "id": "E1C7DD2018CF8AC3",
+      "text": ""
+    },
+    "dungeonId": "dung_test_blackbox_01",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "0CA80642F1C47A48",
+      "text": ""
+    },
+    "dungeonSeriesId": "",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "3A93685AC04FBAB5",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "demo_blackbox"
+  },
+  "dung_test_factory": {
+    "dungeonDesc": {
+      "id": "017D6DE851C69B21",
+      "text": ""
+    },
+    "dungeonId": "dung_test_factory",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "32AF31EE0670C894",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung01_test_factory",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "D50CABC1B4E714F0",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "D12006607E3A89BB",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "1A4B5E059B6C9052",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "factory_benchmark"
+  },
+  "dung_test_rpg": {
+    "dungeonDesc": {
+      "id": "5ED8E6AA340AE949",
+      "text": ""
+    },
+    "dungeonId": "dung_test_rpg",
+    "dungeonLevelDesc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "2DB0EDCE327635E1",
+      "text": ""
+    },
+    "dungeonSeriesId": "",
+    "enemyIds": [],
+    "enemyLevels": [],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "demo_rpgdungeon"
+  },
+  "dung_train01": {
+    "dungeonDesc": {
+      "id": "71B4D4B5CE514025",
+      "text": ""
+    },
+    "dungeonId": "dung_train01",
+    "dungeonLevelDesc": {
+      "id": "0BFD7BBAE8D446F5",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "575C70B50D56FFC7",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0018_lbtough_train",
+      "eny_0023_aghornb_train"
+    ],
+    "enemyLevels": [
+      20,
+      20
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train01",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train02": {
+    "dungeonDesc": {
+      "id": "AD6A6D2B38B254E9",
+      "text": ""
+    },
+    "dungeonId": "dung_train02",
+    "dungeonLevelDesc": {
+      "id": "8D47B436743AC6CC",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "84716FC557D739F9",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0018_lbtough",
+      "eny_0050_hound",
+      "eny_0029_lbmob"
+    ],
+    "enemyLevels": [
+      15,
+      15,
+      20
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train02",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train03": {
+    "dungeonDesc": {
+      "id": "938A700E3F5B0B14",
+      "text": ""
+    },
+    "dungeonId": "dung_train03",
+    "dungeonLevelDesc": {
+      "id": "423F74B06D022BB2",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "102F55D5A452A232",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0033_lbhunt",
+      "eny_0050_hound"
+    ],
+    "enemyLevels": [
+      25,
+      25
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train03",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train04": {
+    "dungeonDesc": {
+      "id": "9A46AD3F1B4FAF13",
+      "text": ""
+    },
+    "dungeonId": "dung_train04",
+    "dungeonLevelDesc": {
+      "id": "CCEB57FEA4287E72",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "970EF834A2467A9F",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0029_lbmob",
+      "eny_0050_hound"
+    ],
+    "enemyLevels": [
+      25,
+      25
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train04",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train05": {
+    "dungeonDesc": {
+      "id": "0D4F11672941A875",
+      "text": ""
+    },
+    "dungeonId": "dung_train05",
+    "dungeonLevelDesc": {
+      "id": "B2200FF124A90D97",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "AD451460ECD012A9",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0023_aghornb",
+      "eny_0021_agmelee",
+      "eny_0023_aghornb"
+    ],
+    "enemyLevels": [
+      20,
+      20,
+      25
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train05",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train06": {
+    "dungeonDesc": {
+      "id": "8B0A0A73CF2CF89A",
+      "text": ""
+    },
+    "dungeonId": "dung_train06",
+    "dungeonLevelDesc": {
+      "id": "738161F0B5AC0884",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "51998C1EF71ECF8D",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0023_aghornb",
+      "eny_0021_agmelee",
+      "eny_0023_aghornb"
+    ],
+    "enemyLevels": [
+      20,
+      20,
+      25
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train06",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train07": {
+    "dungeonDesc": {
+      "id": "5D2B4105CC0F6252",
+      "text": ""
+    },
+    "dungeonId": "dung_train07",
+    "dungeonLevelDesc": {
+      "id": "765BE4063209146C",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "8F9E366404C47CCE",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0023_aghornb",
+      "eny_0025_agrange",
+      "eny_0021_agmelee"
+    ],
+    "enemyLevels": [
+      20,
+      30,
+      30
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train07",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train08": {
+    "dungeonDesc": {
+      "id": "89C25EFD46419722",
+      "text": ""
+    },
+    "dungeonId": "dung_train08",
+    "dungeonLevelDesc": {
+      "id": "018E6EC79812C1D1",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "7D3DF1815E5104B4",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0023_aghornb",
+      "eny_0021_agmelee",
+      "eny_0023_aghornb"
+    ],
+    "enemyLevels": [
+      20,
+      20,
+      25
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train08",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train09": {
+    "dungeonDesc": {
+      "id": "9AC554E191E7D6F5",
+      "text": ""
+    },
+    "dungeonId": "dung_train09",
+    "dungeonLevelDesc": {
+      "id": "A32EDCD256390924",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "0C2C4D2B39071343",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0023_aghornb",
+      "eny_0021_agmelee",
+      "eny_0023_aghornb"
+    ],
+    "enemyLevels": [
+      20,
+      20,
+      25
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train09",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train10": {
+    "dungeonDesc": {
+      "id": "530FCC2F3AF1F78D",
+      "text": ""
+    },
+    "dungeonId": "dung_train10",
+    "dungeonLevelDesc": {
+      "id": "3E222CA8DB91BA79",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "B1AE7FF02950B4FD",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0021_agmelee",
+      "eny_0023_aghornb_train"
+    ],
+    "enemyLevels": [
+      20,
+      30
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "D7E8E63BB9FB6350",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train10",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train11": {
+    "dungeonDesc": {
+      "id": "27B956CFBC086BA8",
+      "text": ""
+    },
+    "dungeonId": "dung_train11",
+    "dungeonLevelDesc": {
+      "id": "B4E1D1437F1E4A17",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "B196948BD3D56CBD",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0049_rogue"
+    ],
+    "enemyLevels": [
+      24
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "38D32734B7C6EBF0",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train11",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  },
+  "dung_train12": {
+    "dungeonDesc": {
+      "id": "3FE32B6C7E061407",
+      "text": ""
+    },
+    "dungeonId": "dung_train12",
+    "dungeonLevelDesc": {
+      "id": "037E61341729D4A2",
+      "text": ""
+    },
+    "dungeonName": {
+      "id": "67DA19EC99598030",
+      "text": ""
+    },
+    "dungeonSeriesId": "dung_group_train01",
+    "enemyIds": [
+      "eny_0033_lbhunt",
+      "eny_0029_lbmob"
+    ],
+    "enemyLevels": [
+      20,
+      25
+    ],
+    "extraGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "featureDesc": {
+      "id": "0AAB51262CC1E9D3",
+      "text": ""
+    },
+    "levelId": "base01_lv001",
+    "mainGoalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "markInstId": "",
+    "preDependencies": [],
+    "previewCharTeamId": "train12",
+    "probRewardItemIds": [],
+    "recommendLv": 0,
+    "sceneId": "base01_dg001"
+  }
+}

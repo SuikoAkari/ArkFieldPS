@@ -1,0 +1,1295 @@
+{
+  "gameSetting_account": {
+    "tabIcon": "account",
+    "tabId": "gameSetting_account",
+    "tabItems": {
+      "account_goto_account_center": {
+        "buttonGetStateFunction": "ButtonGetAccountCenterState",
+        "buttonIcon": "button_link",
+        "buttonOnClickFunction": "ButtonOnAccountCenterClick",
+        "buttonText": {
+          "id": "8A3816F0B5EAD18D",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "account_goto_account_center",
+        "settingItemType": 2,
+        "settingSortOrder": 1,
+        "settingTabId": "gameSetting_account",
+        "settingText": {
+          "id": "61915D434ABEBAB7",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "account_goto_customer_service_center": {
+        "buttonGetStateFunction": "ButtonGetCustomerServiceCenterState",
+        "buttonIcon": "button_link",
+        "buttonOnClickFunction": "ButtonOnCustomerServiceCenterClick",
+        "buttonText": {
+          "id": "AB13ED73FDD039F4",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "account_goto_customer_service_center",
+        "settingItemType": 2,
+        "settingSortOrder": 1,
+        "settingTabId": "gameSetting_account",
+        "settingText": {
+          "id": "7C03393C0A4D2729",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      }
+    },
+    "tabSortOrder": 6,
+    "tabText": {
+      "id": "37C3C767BAE335B1",
+      "text": ""
+    }
+  },
+  "gameSetting_audio": {
+    "tabIcon": "audio",
+    "tabId": "gameSetting_audio",
+    "tabItems": {
+      "audio_global": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1
+          ],
+          "valueIntList": [
+            1
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "audio_global",
+        "settingItemType": 1,
+        "settingSortOrder": 1,
+        "settingTabId": "gameSetting_audio",
+        "settingText": {
+          "id": "6DEEBE7063A9C426",
+          "text": ""
+        },
+        "sliderIconList": [
+          "audio_mute",
+          "audio_normal"
+        ],
+        "sliderIconOnClickFunction": "SliderOnGlobalVolumeIconClicked",
+        "sliderIconRangeList": [
+          0,
+          10
+        ],
+        "sliderMaxValue": 10,
+        "sliderMinValue": 0,
+        "sliderUseFill": true,
+        "sliderValueGetFunction": "SliderGetGlobalVolume",
+        "sliderValueSetFunction": "SliderSetGlobalVolume",
+        "sliderWholeNumbers": true,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "audio_music": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1
+          ],
+          "valueIntList": [
+            1
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "audio_music",
+        "settingItemType": 1,
+        "settingSortOrder": 3,
+        "settingTabId": "gameSetting_audio",
+        "settingText": {
+          "id": "1002AEAB902592E1",
+          "text": ""
+        },
+        "sliderIconList": [
+          "audio_mute",
+          "audio_normal"
+        ],
+        "sliderIconOnClickFunction": "SliderOnMusicVolumeIconClicked",
+        "sliderIconRangeList": [
+          0,
+          10
+        ],
+        "sliderMaxValue": 10,
+        "sliderMinValue": 0,
+        "sliderUseFill": true,
+        "sliderValueGetFunction": "SliderGetMusicVolume",
+        "sliderValueSetFunction": "SliderSetMusicVolume",
+        "sliderWholeNumbers": true,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "audio_sfx": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1
+          ],
+          "valueIntList": [
+            1
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "audio_sfx",
+        "settingItemType": 1,
+        "settingSortOrder": 4,
+        "settingTabId": "gameSetting_audio",
+        "settingText": {
+          "id": "E2F8F8EAFA5EB78D",
+          "text": ""
+        },
+        "sliderIconList": [
+          "audio_mute",
+          "audio_normal"
+        ],
+        "sliderIconOnClickFunction": "SliderOnSfxVolumeIconClicked",
+        "sliderIconRangeList": [
+          0,
+          10
+        ],
+        "sliderMaxValue": 10,
+        "sliderMinValue": 0,
+        "sliderUseFill": true,
+        "sliderValueGetFunction": "SliderGetSfxVolume",
+        "sliderValueSetFunction": "SliderSetSfxVolume",
+        "sliderWholeNumbers": true,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "audio_suite_mode": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "DropdownOnSelectAudioSuiteMode",
+        "dropdownOptionTextList": [
+          {
+            "id": "AF645822C47E2BC8",
+            "text": ""
+          },
+          {
+            "id": "40AC4D091E66EABB",
+            "text": ""
+          },
+          {
+            "id": "8711F8F7B107929F",
+            "text": ""
+          },
+          {
+            "id": "19B0513CCD93F1C7",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "audio_suite_mode",
+        "settingItemType": 0,
+        "settingSortOrder": 5,
+        "settingTabId": "gameSetting_audio",
+        "settingText": {
+          "id": "2AE9C7C9E29DF9D8",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "audio_suspend_unfocused": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "audio_suspend_unfocused",
+        "settingItemType": 3,
+        "settingSortOrder": 6,
+        "settingTabId": "gameSetting_audio",
+        "settingText": {
+          "id": "AD019C608F34C41A",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "ToggleGetSuspendUnfocused",
+        "toggleValueSetFunction": "ToggleSetSuspendUnfocused"
+      },
+      "audio_voice": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1
+          ],
+          "valueIntList": [
+            1
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "audio_voice",
+        "settingItemType": 1,
+        "settingSortOrder": 2,
+        "settingTabId": "gameSetting_audio",
+        "settingText": {
+          "id": "B6644A2FCF633701",
+          "text": ""
+        },
+        "sliderIconList": [
+          "audio_mute",
+          "audio_normal"
+        ],
+        "sliderIconOnClickFunction": "SliderOnVoiceVolumeIconClicked",
+        "sliderIconRangeList": [
+          0,
+          10
+        ],
+        "sliderMaxValue": 10,
+        "sliderMinValue": 0,
+        "sliderUseFill": true,
+        "sliderValueGetFunction": "SliderGetVoiceVolume",
+        "sliderValueSetFunction": "SliderSetVoiceVolume",
+        "sliderWholeNumbers": true,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      }
+    },
+    "tabSortOrder": 2,
+    "tabText": {
+      "id": "6868E8A72FE8787D",
+      "text": ""
+    }
+  },
+  "gameSetting_controller": {
+    "tabIcon": "controller",
+    "tabId": "gameSetting_controller",
+    "tabItems": {
+      "controller_camera_reverse_x": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": [
+            false
+          ],
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "FALSE"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "controller_camera_reverse_x",
+        "settingItemType": 3,
+        "settingSortOrder": 3,
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "id": "8A4384DA1D677685",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "ToggleGetCameraReverseX",
+        "toggleValueSetFunction": "ToggleSetCameraReverseX"
+      },
+      "controller_camera_reverse_y": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": [
+            false
+          ],
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "FALSE"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "controller_camera_reverse_y",
+        "settingItemType": 3,
+        "settingSortOrder": 4,
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "id": "1F50C094ADD8285A",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "ToggleGetCameraReverseY",
+        "toggleValueSetFunction": "ToggleSetCameraReverseY"
+      },
+      "controller_camera_speed_x": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            0
+          ],
+          "valueIntList": [
+            0
+          ],
+          "valueStringList": [
+            "0"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "controller_camera_speed_x",
+        "settingItemType": 1,
+        "settingSortOrder": 1,
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "id": "03356A00D242F858",
+          "text": ""
+        },
+        "sliderIconList": [],
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": [],
+        "sliderMaxValue": 5,
+        "sliderMinValue": -5,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "SliderGetCameraSpeedX",
+        "sliderValueSetFunction": "SliderSetCameraSpeedX",
+        "sliderWholeNumbers": true,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "controller_camera_speed_y": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            0
+          ],
+          "valueIntList": [
+            0
+          ],
+          "valueStringList": [
+            "0"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "controller_camera_speed_y",
+        "settingItemType": 1,
+        "settingSortOrder": 1,
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "id": "8A3BC27467F88D52",
+          "text": ""
+        },
+        "sliderIconList": [],
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": [],
+        "sliderMaxValue": 5,
+        "sliderMinValue": -5,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "SliderGetCameraSpeedY",
+        "sliderValueSetFunction": "SliderSetCameraSpeedY",
+        "sliderWholeNumbers": true,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "controller_camera_top_view_speed": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            0
+          ],
+          "valueIntList": [
+            0
+          ],
+          "valueStringList": [
+            "0"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "controller_camera_top_view_speed",
+        "settingItemType": 1,
+        "settingSortOrder": 2,
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "id": "7689629EEDE55C66",
+          "text": ""
+        },
+        "sliderIconList": [],
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": [],
+        "sliderMaxValue": 5,
+        "sliderMinValue": -5,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "SliderGetCameraTopViewSpeed",
+        "sliderValueSetFunction": "SliderSetCameraTopViewSpeed",
+        "sliderWholeNumbers": true,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      }
+    },
+    "tabSortOrder": 3,
+    "tabText": {
+      "id": "499DD8D8C99B2383",
+      "text": ""
+    }
+  },
+  "gameSetting_key_hint": {
+    "tabIcon": "key",
+    "tabId": "gameSetting_key_hint",
+    "tabItems": {},
+    "tabSortOrder": 4,
+    "tabText": {
+      "id": "9D7510BDBA63DB29",
+      "text": ""
+    }
+  },
+  "gameSetting_language": {
+    "tabIcon": "language",
+    "tabId": "gameSetting_language",
+    "tabItems": {
+      "language_audio": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "DropdownOnSelectLanguageAudio",
+        "dropdownOptionTextList": [
+          {
+            "id": "9F0C319CA826026B",
+            "text": ""
+          },
+          {
+            "id": "14B4FDF2EA526638",
+            "text": ""
+          },
+          {
+            "id": "39692AB72C745A08",
+            "text": ""
+          },
+          {
+            "id": "A58C3B61BEFA2C83",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "language_audio",
+        "settingItemType": 0,
+        "settingSortOrder": 2,
+        "settingTabId": "gameSetting_language",
+        "settingText": {
+          "id": "F193824EFCEADE90",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "language_text": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "DropdownOnSelectLanguageText",
+        "dropdownOptionTextList": [
+          {
+            "id": "83F8FF4382E03F9B",
+            "text": ""
+          },
+          {
+            "id": "807A534F8F632762",
+            "text": ""
+          },
+          {
+            "id": "0BA10C97713E1FD5",
+            "text": ""
+          },
+          {
+            "id": "5D6E4861C1621744",
+            "text": ""
+          },
+          {
+            "id": "2592085D90B4A709",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "language_text",
+        "settingItemType": 0,
+        "settingSortOrder": 1,
+        "settingTabId": "gameSetting_language",
+        "settingText": {
+          "id": "8818BFA2C383F0A0",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      }
+    },
+    "tabSortOrder": 5,
+    "tabText": {
+      "id": "049C8967AD9F4142",
+      "text": ""
+    }
+  },
+  "gameSetting_video": {
+    "tabIcon": "video",
+    "tabId": "gameSetting_video",
+    "tabItems": {
+      "video_frame_rate": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "DropdownOnSelectVideoFrameRate",
+        "dropdownOptionTextList": [
+          {
+            "id": "2FDC64962723D1F3",
+            "text": ""
+          },
+          {
+            "id": "E0A0FD439CA939ED",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "video_frame_rate",
+        "settingItemType": 0,
+        "settingSortOrder": 3,
+        "settingTabId": "gameSetting_video",
+        "settingText": {
+          "id": "2C9C69C211D6FDD0",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "video_quality_effect": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [
+          {
+            "id": "DE20C282ABA6FF12",
+            "text": ""
+          },
+          {
+            "id": "2F8734B601DD66A5",
+            "text": ""
+          },
+          {
+            "id": "797960FD3DCC106F",
+            "text": ""
+          },
+          {
+            "id": "E289ADD399DFE5EE",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "video_quality_effect",
+        "settingItemType": 0,
+        "settingSortOrder": 6,
+        "settingTabId": "gameSetting_video",
+        "settingText": {
+          "id": "4DD7C9F3B4E9CEB1",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "video_quality_main": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "DropdownGetIndexVideoQuality",
+        "dropdownOptionSelectFunction": "DropdownOnSelectVideoQuality",
+        "dropdownOptionTextList": [
+          {
+            "id": "BBA17D25EECB3F5B",
+            "text": ""
+          },
+          {
+            "id": "DEA033407CDE6885",
+            "text": ""
+          },
+          {
+            "id": "91D456275570929D",
+            "text": ""
+          },
+          {
+            "id": "47AA47A59673451B",
+            "text": ""
+          },
+          {
+            "id": "F1B4C4548977A9CE",
+            "text": ""
+          },
+          {
+            "id": "DCC8715D526C1939",
+            "text": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "DropdownGetVideoMainQualityTextList",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "video_quality_main",
+        "settingItemType": 0,
+        "settingSortOrder": 1,
+        "settingTabId": "gameSetting_video",
+        "settingText": {
+          "id": "DFED46BEBE9A952B",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "video_quality_vsync": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "video_quality_vsync",
+        "settingItemType": 3,
+        "settingSortOrder": 5,
+        "settingTabId": "gameSetting_video",
+        "settingText": {
+          "id": "FF9F4DA905777D18",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "video_render_scale": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "DropdownOnSelectVideoRenderScale",
+        "dropdownOptionTextList": [
+          {
+            "id": "1AC0BCEC48ED5F3C",
+            "text": ""
+          },
+          {
+            "id": "16FF51B9CB1CA1C7",
+            "text": ""
+          },
+          {
+            "id": "CC5B00DF8054AE96",
+            "text": ""
+          },
+          {
+            "id": "37C159BAC67C7D65",
+            "text": ""
+          },
+          {
+            "id": "4F8EB2DFD1FC6375",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "isDefaultValueValid": false,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            -1
+          ],
+          "valueIntList": [
+            -1
+          ],
+          "valueStringList": [
+            "-1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "video_render_scale",
+        "settingItemType": 0,
+        "settingSortOrder": 4,
+        "settingTabId": "gameSetting_video",
+        "settingText": {
+          "id": "171290D1EDFFF6A9",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      },
+      "video_resolution": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "id": "",
+          "text": ""
+        },
+        "dropdownOptionGetFunction": "DropdownGetIndexVideoResolution",
+        "dropdownOptionSelectFunction": "DropdownOnSelectVideoResolution",
+        "dropdownOptionTextList": [
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "DropdownGetVideoResolutionTextList",
+        "isDefaultValueValid": true,
+        "settingDefaultValue": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1
+          ],
+          "valueIntList": [
+            1
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "settingId": "video_resolution",
+        "settingItemType": 0,
+        "settingSortOrder": 2,
+        "settingTabId": "gameSetting_video",
+        "settingText": {
+          "id": "D69275AAD1750F57",
+          "text": ""
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": 1,
+        "sliderMinValue": 0,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": ""
+      }
+    },
+    "tabSortOrder": 1,
+    "tabText": {
+      "id": "ACEC9075A55EE765",
+      "text": ""
+    }
+  }
+}

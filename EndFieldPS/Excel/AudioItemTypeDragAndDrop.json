@@ -1,0 +1,46 @@
+{
+  "0": {
+    "audioDrag": "Au_UI_Item_Drag_None",
+    "audioDrop": "Au_UI_Item_Put_None"
+  },
+  "1": {
+    "audioDrag": "Au_UI_Item_Drag_Ore",
+    "audioDrop": "Au_UI_Item_Put_Ore"
+  },
+  "2": {
+    "audioDrag": "Au_UI_Item_Drag_Plant",
+    "audioDrop": "Au_UI_Item_Put_Plant"
+  },
+  "4": {
+    "audioDrag": "Au_UI_Item_Drag_Product",
+    "audioDrop": "Au_UI_Item_Put_Product"
+  },
+  "5": {
+    "audioDrag": "Au_UI_Item_Drag_Usable",
+    "audioDrop": "Au_UI_Item_Put_Usable"
+  },
+  "8": {
+    "audioDrag": "Au_UI_Item_Drag_EquipHead",
+    "audioDrop": "Au_UI_Item_Put_EquipHead"
+  },
+  "9": {
+    "audioDrag": "Au_UI_Item_Drag_EquipBody",
+    "audioDrop": "Au_UI_Item_Put_EquipBody"
+  },
+  "10": {
+    "audioDrag": "Au_UI_Item_Drag_EquipRing",
+    "audioDrop": "Au_UI_Item_Put_EquipRing"
+  },
+  "15": {
+    "audioDrag": "Au_UI_Item_Drag_Doodad",
+    "audioDrop": "Au_UI_Item_Put_Doodad"
+  },
+  "16": {
+    "audioDrag": "Au_UI_Item_Drag_Nurturance",
+    "audioDrop": "Au_UI_Item_Put_Nurturance"
+  },
+  "17": {
+    "audioDrag": "Au_UI_Item_Drag_Producer",
+    "audioDrop": "Au_UI_Item_Put_Producer"
+  }
+}

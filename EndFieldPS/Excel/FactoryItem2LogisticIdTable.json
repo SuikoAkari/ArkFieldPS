@@ -1,0 +1,47 @@
+{
+  "item_log_belt_01": {
+    "itemId": "item_log_belt_01",
+    "logisticId": "grid_belt_01",
+    "type": 0
+  },
+  "item_log_connector": {
+    "itemId": "item_log_connector",
+    "logisticId": "log_connector",
+    "type": 1
+  },
+  "item_log_converger": {
+    "itemId": "item_log_converger",
+    "logisticId": "log_converger",
+    "type": 2
+  },
+  "item_log_pipe_01": {
+    "itemId": "item_log_pipe_01",
+    "logisticId": "log_pipe_01",
+    "type": 3
+  },
+  "item_log_pipe_connector": {
+    "itemId": "item_log_pipe_connector",
+    "logisticId": "log_pipe_connector",
+    "type": 4
+  },
+  "item_log_pipe_converger": {
+    "itemId": "item_log_pipe_converger",
+    "logisticId": "log_pipe_converger",
+    "type": 6
+  },
+  "item_log_pipe_repeater": {
+    "itemId": "item_log_pipe_repeater",
+    "logisticId": "log_pipe_repeater",
+    "type": 6
+  },
+  "item_log_pipe_splitter": {
+    "itemId": "item_log_pipe_splitter",
+    "logisticId": "log_pipe_splitter",
+    "type": 6
+  },
+  "item_log_splitter": {
+    "itemId": "item_log_splitter",
+    "logisticId": "log_splitter",
+    "type": 2
+  }
+}

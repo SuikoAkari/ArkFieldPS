@@ -1,0 +1,180 @@
+{
+  "tundra_bloc01_endfield": {
+    "blocId": "tundra_bloc01_endfield",
+    "engName": "Endfield Engineering Dept",
+    "icon": "Faction_logo01",
+    "levelData": {
+      "1": {
+        "exp": 0,
+        "level": 1,
+        "name": {
+          "id": "9F83615B78AD3A32",
+          "text": ""
+        },
+        "rewardId": "",
+        "unlockIds": [
+          "bloc01_1_unlock"
+        ]
+      },
+      "2": {
+        "exp": 100,
+        "level": 2,
+        "name": {
+          "id": "AA0213A9BC1EC637",
+          "text": ""
+        },
+        "rewardId": "reward_bloc01_level2",
+        "unlockIds": [
+          "bloc01_2_unlock"
+        ]
+      },
+      "3": {
+        "exp": 200,
+        "level": 3,
+        "name": {
+          "id": "49DC986520475412",
+          "text": ""
+        },
+        "rewardId": "reward_bloc01_level3",
+        "unlockIds": [
+          "bloc01_3_unlock"
+        ]
+      },
+      "4": {
+        "exp": 300,
+        "level": 4,
+        "name": {
+          "id": "867C51126BBAD5D0",
+          "text": ""
+        },
+        "rewardId": "reward_bloc01_level4",
+        "unlockIds": [
+          "bloc01_4_unlock"
+        ]
+      },
+      "5": {
+        "exp": 400,
+        "level": 5,
+        "name": {
+          "id": "571A9D5FA6563D4C",
+          "text": ""
+        },
+        "rewardId": "reward_bloc01_level5",
+        "unlockIds": [
+          "bloc01_5_unlock"
+        ]
+      },
+      "6": {
+        "exp": 500,
+        "level": 6,
+        "name": {
+          "id": "3FD9BF684A853B71",
+          "text": ""
+        },
+        "rewardId": "reward_bloc01_level6",
+        "unlockIds": [
+          "bloc01_6_unlock"
+        ]
+      }
+    },
+    "name": {
+      "id": "3D9757F1590A1277",
+      "text": ""
+    },
+    "regionId": "region_102",
+    "shopID": "bloc01_shop",
+    "unionName": {
+      "id": "7B967356209E9116",
+      "text": ""
+    }
+  },
+  "tundra_bloc02_ursus": {
+    "blocId": "tundra_bloc02_ursus",
+    "engName": "Ursus Labour Union",
+    "icon": "Faction_logo02",
+    "levelData": {
+      "1": {
+        "exp": 0,
+        "level": 1,
+        "name": {
+          "id": "BA748BA67B0392AD",
+          "text": ""
+        },
+        "rewardId": "",
+        "unlockIds": [
+          "bloc02_1_unlock"
+        ]
+      },
+      "2": {
+        "exp": 100,
+        "level": 2,
+        "name": {
+          "id": "328DD48E296A82D0",
+          "text": ""
+        },
+        "rewardId": "reward_bloc02_level2",
+        "unlockIds": [
+          "bloc02_2_unlock"
+        ]
+      },
+      "3": {
+        "exp": 200,
+        "level": 3,
+        "name": {
+          "id": "D476FC01ABE0E4E3",
+          "text": ""
+        },
+        "rewardId": "reward_bloc02_level3",
+        "unlockIds": [
+          "bloc02_3_unlock"
+        ]
+      },
+      "4": {
+        "exp": 300,
+        "level": 4,
+        "name": {
+          "id": "3F8B46A6E00CCF22",
+          "text": ""
+        },
+        "rewardId": "reward_bloc02_level4",
+        "unlockIds": [
+          "bloc02_4_unlock"
+        ]
+      },
+      "5": {
+        "exp": 400,
+        "level": 5,
+        "name": {
+          "id": "C4D7B0F1A5FC6D2A",
+          "text": ""
+        },
+        "rewardId": "reward_bloc02_level5",
+        "unlockIds": [
+          "bloc02_5_unlock"
+        ]
+      },
+      "6": {
+        "exp": 500,
+        "level": 6,
+        "name": {
+          "id": "9FB93D5CD0F01592",
+          "text": ""
+        },
+        "rewardId": "reward_bloc02_level6",
+        "unlockIds": [
+          "bloc02_6_unlock"
+        ]
+      }
+    },
+    "name": {
+      "id": "144998ED8989B1FA",
+      "text": ""
+    },
+    "regionId": "region_102",
+    "shopID": "bloc02_shop",
+    "unionName": {
+      "id": "8E44B71758137103",
+      "text": ""
+    }
+  }
+}

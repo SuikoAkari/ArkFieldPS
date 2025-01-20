@@ -1,0 +1,18 @@
+{
+  "item_diamond_to_item_gachabyproducts_weapongold": {
+    "id": "item_diamond_to_item_gachabyproducts_weapongold",
+    "sourceMoneyCost": 3,
+    "sourceMoneyId": "item_diamond",
+    "sourceMoneyMinSwap": 30,
+    "targetMoneyGet": 1,
+    "targetMoneyId": "item_gachabyproducts_weapongold"
+  },
+  "item_originium_to_item_diamond": {
+    "id": "item_originium_to_item_diamond",
+    "sourceMoneyCost": 1,
+    "sourceMoneyId": "item_originium_recharge",
+    "sourceMoneyMinSwap": 1,
+    "targetMoneyGet": 75,
+    "targetMoneyId": "item_diamond"
+  }
+}

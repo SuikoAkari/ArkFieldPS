@@ -1,0 +1,121 @@
+{
+  "item_icon_composite_blueprint": {
+    "bgIcons": [
+      "item_icon_bg_blueprint",
+      "item_icon_bg_blueprint",
+      "item_icon_bg_blueprint",
+      "item_icon_bg_blueprint",
+      "item_icon_bg_blueprint",
+      "item_icon_bg_blueprint"
+    ],
+    "iconTransType": 1,
+    "id": "item_icon_composite_blueprint",
+    "markIcon": "item_icon_mark_unlocked",
+    "showRarity": false
+  },
+  "item_icon_composite_charpotentialup": {
+    "bgIcons": [
+      "item_potential_4star",
+      "item_potential_4star",
+      "item_potential_4star",
+      "item_potential_4star",
+      "item_potential_5star",
+      "item_potential_6star"
+    ],
+    "iconTransType": 0,
+    "id": "item_icon_composite_charpotentialup",
+    "markIcon": "",
+    "showRarity": true
+  },
+  "item_icon_composite_formulaUnlock_equip": {
+    "bgIcons": [
+      "item_icon_bg_equip_qualitycolor_grey",
+      "item_icon_bg_equip_qualitycolor_green",
+      "item_icon_bg_equip_qualitycolor_blue",
+      "item_icon_bg_equip_qualitycolor_purple",
+      "item_icon_bg_equip_qualitycolor_gold",
+      "item_icon_bg_equip_qualitycolor_gold"
+    ],
+    "iconTransType": 1,
+    "id": "item_icon_composite_formulaUnlock_equip",
+    "markIcon": "item_icon_mark_unlocked",
+    "showRarity": false
+  },
+  "item_icon_composite_formulaUnlock_food": {
+    "bgIcons": [
+      "item_icon_bg_food_qualitycolor_grey",
+      "item_icon_bg_food_qualitycolor_green",
+      "item_icon_bg_food_qualitycolor_blue",
+      "item_icon_bg_food_qualitycolor_purple",
+      "item_icon_bg_food_qualitycolor_gold",
+      "item_icon_bg_food_qualitycolor_gold"
+    ],
+    "iconTransType": 1,
+    "id": "item_icon_composite_formulaUnlock_food",
+    "markIcon": "item_icon_mark_unlocked",
+    "showRarity": false
+  },
+  "item_icon_composite_formulaUnlock_medicine": {
+    "bgIcons": [
+      "item_icon_bg_medicine_qualitycolor_grey",
+      "item_icon_bg_medicine_qualitycolor_green",
+      "item_icon_bg_medicine_qualitycolor_blue",
+      "item_icon_bg_medicine_qualitycolor_purple",
+      "item_icon_bg_medicine_qualitycolor_gold",
+      "item_icon_bg_medicine_qualitycolor_gold"
+    ],
+    "iconTransType": 1,
+    "id": "item_icon_composite_formulaUnlock_medicine",
+    "markIcon": "item_icon_mark_unlocked",
+    "showRarity": false
+  },
+  "item_icon_composite_itemUpgrade_food": {
+    "bgIcons": [],
+    "iconTransType": 0,
+    "id": "item_icon_composite_itemUpgrade_food",
+    "markIcon": "item_icon_mark_upgrade",
+    "showRarity": false
+  },
+  "item_icon_composite_itemUpgrade_medicine": {
+    "bgIcons": [],
+    "iconTransType": 0,
+    "id": "item_icon_composite_itemUpgrade_medicine",
+    "markIcon": "item_icon_mark_upgrade",
+    "showRarity": false
+  },
+  "item_icon_composite_minePoint": {
+    "bgIcons": [
+      "item_icon_bg_miner",
+      "item_icon_bg_miner",
+      "item_icon_bg_miner",
+      "item_icon_bg_miner",
+      "item_icon_bg_miner",
+      "item_icon_bg_miner"
+    ],
+    "iconTransType": 1,
+    "id": "item_icon_composite_minePoint",
+    "markIcon": "",
+    "showRarity": false
+  },
+  "item_icon_composite_onlyIcon": {
+    "bgIcons": [],
+    "iconTransType": 0,
+    "id": "item_icon_composite_onlyIcon",
+    "markIcon": "",
+    "showRarity": false
+  },
+  "item_icon_composite_waterPoint": {
+    "bgIcons": [
+      "item_icon_bg_liquid",
+      "item_icon_bg_liquid",
+      "item_icon_bg_liquid",
+      "item_icon_bg_liquid",
+      "item_icon_bg_liquid",
+      "item_icon_bg_liquid"
+    ],
+    "iconTransType": 1,
+    "id": "item_icon_composite_waterPoint",
+    "markIcon": "",
+    "showRarity": false
+  }
+}

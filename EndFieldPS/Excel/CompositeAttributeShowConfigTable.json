@@ -1,0 +1,376 @@
+{
+  "AbnormalAndBurstIncrease": {
+    "list": [
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 99999,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 101,
+        "name": {
+          "id": "1643248037C59B53",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 5,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "1643248037C59B53",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      }
+    ]
+  },
+  "All": {
+    "list": [
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 99999,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 3,
+        "name": {
+          "id": "D34582B0350B1C69",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": false
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 5,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "D34582B0350B1C69",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": false
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 6,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "D34582B0350B1C69",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      }
+    ]
+  },
+  "AllDamageTakenScalar": {
+    "list": [
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 99999,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 102,
+        "name": {
+          "id": "9221AB962059F94F",
+          "text": ""
+        },
+        "showDiffFromDefault": true,
+        "showPercent": true
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 8,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "9221AB962059F94F",
+          "text": ""
+        },
+        "showDiffFromDefault": true,
+        "showPercent": true
+      }
+    ]
+  },
+  "AllSkillDamageIncrease": {
+    "list": [
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 99999,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 105,
+        "name": {
+          "id": "CEE6C7AFE894F7D9",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 5,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "CEE6C7AFE894F7D9",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      }
+    ]
+  },
+  "CrystAndPulseDamageIncrease": {
+    "list": [
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 99999,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 103,
+        "name": {
+          "id": "FA52EF7626CA649D",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 5,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "FA52EF7626CA649D",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      }
+    ]
+  },
+  "FireAndNaturalDamageIncrease": {
+    "list": [
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 99999,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 104,
+        "name": {
+          "id": "2D6064FDA2722125",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 5,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "2D6064FDA2722125",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      }
+    ]
+  },
+  "Main": {
+    "list": [
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 99999,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 1,
+        "name": {
+          "id": "36E902B161FB801B",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": false
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 5,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "36E902B161FB801B",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": false
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 6,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "36E902B161FB801B",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      }
+    ]
+  },
+  "Sub": {
+    "list": [
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 99999,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 2,
+        "name": {
+          "id": "8A2F349F18258FA6",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": false
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 5,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "8A2F349F18258FA6",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": false
+      },
+      {
+        "attributeHint": {
+          "id": "",
+          "text": ""
+        },
+        "attributeHintSubs": [],
+        "attributeModifier": 6,
+        "charFullAttrDisplayType": 0,
+        "defaultDisplayType": 2,
+        "equipFullAttrDisplayType": 0,
+        "index": 9999,
+        "name": {
+          "id": "8A2F349F18258FA6",
+          "text": ""
+        },
+        "showDiffFromDefault": false,
+        "showPercent": true
+      }
+    ]
+  }
+}

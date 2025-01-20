@@ -1,0 +1,130 @@
+{
+  "item_levelup_anglel_corp1_1": {
+    "itemId": "item_levelup_anglel_corp1_1",
+    "levelUpItemId": "item_anglel_corp1_1"
+  },
+  "item_levelup_anglel_flower2_1": {
+    "itemId": "item_levelup_anglel_flower2_1",
+    "levelUpItemId": "item_anglel_flower2_1"
+  },
+  "item_levelup_anglem_corp1_1": {
+    "itemId": "item_levelup_anglem_corp1_1",
+    "levelUpItemId": "item_anglem_corp1_1"
+  },
+  "item_levelup_anglem_flower2_1": {
+    "itemId": "item_levelup_anglem_flower2_1",
+    "levelUpItemId": "item_anglem_flower2_1"
+  },
+  "item_levelup_angles_corp1_1": {
+    "itemId": "item_levelup_angles_corp1_1",
+    "levelUpItemId": "item_angles_corp1_1"
+  },
+  "item_levelup_angles_flower2_1": {
+    "itemId": "item_levelup_angles_flower2_1",
+    "levelUpItemId": "item_angles_flower2_1"
+  },
+  "item_levelup_animal_angles_1": {
+    "itemId": "item_levelup_animal_angles_1",
+    "levelUpItemId": "item_animal_angles_1"
+  },
+  "item_levelup_animal_insec2_angles_1": {
+    "itemId": "item_levelup_animal_insec2_angles_1",
+    "levelUpItemId": "item_animal_insec2_angles_1"
+  },
+  "item_levelup_bottled_insec2_1": {
+    "itemId": "item_levelup_bottled_insec2_1",
+    "levelUpItemId": "item_bottled_insec2_1"
+  },
+  "item_levelup_bottled_insec2_2": {
+    "itemId": "item_levelup_bottled_insec2_2",
+    "levelUpItemId": "item_bottled_insec2_2"
+  },
+  "item_levelup_corp1_animal_1": {
+    "itemId": "item_levelup_corp1_animal_1",
+    "levelUpItemId": "item_corp1_animal_1"
+  },
+  "item_levelup_corp1_flower1_1": {
+    "itemId": "item_levelup_corp1_flower1_1",
+    "levelUpItemId": "item_corp1_flower1_1"
+  },
+  "item_levelup_corp2_animal_1": {
+    "itemId": "item_levelup_corp2_animal_1",
+    "levelUpItemId": "item_corp2_animal_1"
+  },
+  "item_levelup_corp2_flower2_1": {
+    "itemId": "item_levelup_corp2_flower2_1",
+    "levelUpItemId": "item_corp2_flower2_1"
+  },
+  "item_levelup_corp3_animal_1": {
+    "itemId": "item_levelup_corp3_animal_1",
+    "levelUpItemId": "item_corp3_animal_1"
+  },
+  "item_levelup_corp3_grass1_1": {
+    "itemId": "item_levelup_corp3_grass1_1",
+    "levelUpItemId": "item_corp3_grass1_1"
+  },
+  "item_levelup_corp4_animal_1": {
+    "itemId": "item_levelup_corp4_animal_1",
+    "levelUpItemId": "item_corp4_animal_1"
+  },
+  "item_levelup_corp4_grass2_1": {
+    "itemId": "item_levelup_corp4_grass2_1",
+    "levelUpItemId": "item_corp4_grass2_1"
+  },
+  "item_levelup_ebl_corp2_1": {
+    "itemId": "item_levelup_ebl_corp2_1",
+    "levelUpItemId": "item_ebl_corp2_1"
+  },
+  "item_levelup_ebl_flower1_1": {
+    "itemId": "item_levelup_ebl_flower1_1",
+    "levelUpItemId": "item_ebl_flower1_1"
+  },
+  "item_levelup_ebm_corp2_1": {
+    "itemId": "item_levelup_ebm_corp2_1",
+    "levelUpItemId": "item_ebm_corp2_1"
+  },
+  "item_levelup_ebm_flower1_1": {
+    "itemId": "item_levelup_ebm_flower1_1",
+    "levelUpItemId": "item_ebm_flower1_1"
+  },
+  "item_levelup_ebs_corp2_1": {
+    "itemId": "item_levelup_ebs_corp2_1",
+    "levelUpItemId": "item_ebs_corp2_1"
+  },
+  "item_levelup_ebs_flower1_1": {
+    "itemId": "item_levelup_ebs_flower1_1",
+    "levelUpItemId": "item_ebs_flower1_1"
+  },
+  "item_levelup_erosionm_corp3_1": {
+    "itemId": "item_levelup_erosionm_corp3_1",
+    "levelUpItemId": "item_erosionm_corp3_1"
+  },
+  "item_levelup_erosionm_grass2_1": {
+    "itemId": "item_levelup_erosionm_grass2_1",
+    "levelUpItemId": "item_erosionm_grass2_1"
+  },
+  "item_levelup_erosions_corp3_1": {
+    "itemId": "item_levelup_erosions_corp3_1",
+    "levelUpItemId": "item_erosions_corp3_1"
+  },
+  "item_levelup_erosions_grass2_1": {
+    "itemId": "item_levelup_erosions_grass2_1",
+    "levelUpItemId": "item_erosions_grass2_1"
+  },
+  "item_levelup_jlebm_corp4_1": {
+    "itemId": "item_levelup_jlebm_corp4_1",
+    "levelUpItemId": "item_jlebm_corp4_1"
+  },
+  "item_levelup_jlebm_grass1_1": {
+    "itemId": "item_levelup_jlebm_grass1_1",
+    "levelUpItemId": "item_jlebm_grass1_1"
+  },
+  "item_levelup_jlebs_corp4_1": {
+    "itemId": "item_levelup_jlebs_corp4_1",
+    "levelUpItemId": "item_jlebs_corp4_1"
+  },
+  "item_levelup_jlebs_grass1_1": {
+    "itemId": "item_levelup_jlebs_grass1_1",
+    "levelUpItemId": "item_jlebs_grass1_1"
+  }
+}

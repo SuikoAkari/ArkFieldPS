@@ -1,0 +1,2660 @@
+{
+  "dung01_bossrush01_02_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush01_02_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "E78F81651DE9C347",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush01_02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_bossrush01_01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_bossrush01_02_cond_2": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush01_02_cond_2",
+    "conditionType": 5253,
+    "desc": {
+      "id": "7B79B28A6CF77484",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush01_02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "map01_lv002"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 3
+  },
+  "dung01_bossrush01_03_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush01_03_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "9634C5FAB5D56865",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush01_03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_bossrush01_02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_bossrush01_03_cond_2": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush01_03_cond_2",
+    "conditionType": 5253,
+    "desc": {
+      "id": "B1C791B79A8E5248",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush01_03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "map01_lv002"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 4
+  },
+  "dung01_bossrush02_02_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush02_02_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "E1A8CB6ED5A0CDEC",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush02_02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_bossrush02_01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_bossrush02_02_cond_2": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush02_02_cond_2",
+    "conditionType": 5253,
+    "desc": {
+      "id": "0870AD8D081D735D",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush02_02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "map01_lv006"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 3
+  },
+  "dung01_bossrush02_03_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush02_03_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "8B131E8820D4D89D",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush02_03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_bossrush02_02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_bossrush02_03_cond_2": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush02_03_cond_2",
+    "conditionType": 5253,
+    "desc": {
+      "id": "B464185862984164",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush02_03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "map01_lv006"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 4
+  },
+  "dung01_bossrush03_02_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush03_02_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "D04C9CF08571A8D6",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush03_02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_bossrush03_01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_bossrush03_02_cond_2": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush03_02_cond_2",
+    "conditionType": 5253,
+    "desc": {
+      "id": "A622CA8DB9B5856D",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush03_02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "map01_lv007"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 3
+  },
+  "dung01_bossrush03_03_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush03_03_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "76007E634EA7C751",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush03_03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_bossrush03_02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_bossrush03_03_cond_2": {
+    "compareOperator": 3,
+    "conditionId": "dung01_bossrush03_03_cond_2",
+    "conditionType": 5253,
+    "desc": {
+      "id": "38B4B714DF35AF9C",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_bossrush03_03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "map01_lv007"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 4
+  },
+  "dung01_charbreak02_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_charbreak02_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "1198D53C45A1FD13",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_charbreak02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_charbreak01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_charbreak03_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_charbreak03_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "8D171678D9D620AE",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_charbreak03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_charbreak02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_charbreak04_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_charbreak04_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "28B279110356EAB3",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_charbreak04",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_charbreak03"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_exp02_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_exp02_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "C07B3347D8734B60",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_exp02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_exp01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_exp03_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_exp03_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "91782902EF9550C9",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_exp03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_exp02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_exp04_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_exp04_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "6D1DD3299E0D0F36",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_exp04",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_exp03"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_gold02_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_gold02_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "1BF8E885D398FAB0",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_gold02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_gold01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_gold03_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_gold03_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "302582F5FB8EC571",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_gold03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_gold02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_gold04_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_gold04_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "A367BDE9CF8D852A",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_gold04",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_gold03"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_skill02_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_skill02_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "0DBA0FC8169339AB",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_skill02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_skill01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_skill03_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_skill03_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "21794B13BD63DB0C",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_skill03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_skill02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_skill04_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_skill04_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "BB623ACB983F8814",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_skill04",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_skill03"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_wpbreak02_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_wpbreak02_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "CC9C9CDE6F8DEDE8",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_wpbreak02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_wpbreak01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_wpbreak03_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_wpbreak03_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "FF745B99F54FA64C",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_wpbreak03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_wpbreak02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_wpbreak04_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_wpbreak04_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "C33DE404F5B53377",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_wpbreak04",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_wpbreak03"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_wpexp02_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_wpexp02_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "E7A11B96D29F4C90",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_wpexp02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_wpexp01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_wpexp03_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_wpexp03_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "C0A6EC875626D2D6",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_wpexp03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_wpexp02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung01_wpexp04_condition_1": {
+    "compareOperator": 3,
+    "conditionId": "dung01_wpexp04_condition_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "2578E5F43FDDDCE6",
+      "text": ""
+    },
+    "gameMechanicsId": "dung01_wpexp04",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung01_wpexp03"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_assebling_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_assebling_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "8BD035FE3EC6A655",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_assebling_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_assebling_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_assebling_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "B3BA8DEEDB8657EA",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_assebling_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m5"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_asseblingbomb_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_asseblingbomb_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "2FD752C2DC2007D3",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_asseblingbomb_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_basic_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_basic_1_cond_1",
+    "conditionType": 18,
+    "desc": {
+      "id": "20D7E6D18E743017",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_basic_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m9_q#6"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_belt_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_belt_1_cond_1",
+    "conditionType": 18,
+    "desc": {
+      "id": "8334BB6500F3AB01",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_belt_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m9_q#6"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_belt_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_belt_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "FCC54164CD2154E9",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_belt_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m5"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_bus_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_bus_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "BC84E2F1414BA387",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_bus_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m4"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_bus_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_bus_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "F6B32D4923618FA1",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_bus_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m4"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_cmpt_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_cmpt_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "20CE93AF3796B82D",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_cmpt_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_connector_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_connector_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "856D6F0366CA3DD0",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_connector_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m4"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_converger_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_converger_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "53F8893A60097F89",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_converger_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m4"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_filling_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_filling_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "DBBA4F365112ACE3",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_filling_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_filling_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_filling_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "E2BC01AF93EC3D24",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_filling_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m5"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_filling_3_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_filling_3_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "68E88BAA788E5404",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_filling_3",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m5"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_filling_4_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_filling_4_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "B3050C9B171593E1",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_filling_4",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m7"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_filling_5_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_filling_5_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "9643A1DB801AE314",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_filling_5",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m8"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_grinder_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_grinder_1_cond_1",
+    "conditionType": 18,
+    "desc": {
+      "id": "F35EAF71EBB4D38F",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_grinder_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m9_q#6"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_hub_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_hub_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "19F0765704B25129",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_hub_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_liquidcleaner_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_liquidcleaner_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "808A10D4DB46B55F",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_liquidcleaner_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m7"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_miner_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_miner_1_cond_1",
+    "conditionType": 18,
+    "desc": {
+      "id": "9069CADA4E724076",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_miner_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m9_q#6"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_miner_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_miner_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "9C5EE4831E752E5B",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_miner_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m4"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_miner_3_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_miner_3_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "C87B80360275B325",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_miner_3",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m7"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_mix_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_mix_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "9D549CF41AAFE85E",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_mix_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m7"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_mix_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_mix_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "953A8E34881A83DF",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_mix_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m8"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_pipe_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_pipe_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "44177C0292A37021",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_pipe_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m7"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_pipe_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_pipe_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "A78E1A2BB93D103C",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_pipe_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m8"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_planter_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_planter_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "294A08A9E2231B24",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_planter_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m4"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_planter_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_planter_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "850EF08F0A31BA89",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_planter_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m7"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_powerstation_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_powerstation_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "42BADAEAC696FF67",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_powerstation_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_shaper_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_shaper_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "43A9B4ED64B1892A",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_shaper_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_shaper_2_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_shaper_2_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "5314F50EFE668A18",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_shaper_2",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m8"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_splitter_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_splitter_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "942C34B3D7CF81B7",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_splitter_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_squirter_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_squirter_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "FAB618F93FBB8E6B",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_squirter_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m7"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_storager_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_storager_1_cond_1",
+    "conditionType": 18,
+    "desc": {
+      "id": "DC1D85D7821A7F9A",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_storager_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m9_q#6"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_thickener_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_thickener_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "81D8974B6E3B0C14",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_thickener_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m5"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_blackbox_winder_1_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_blackbox_winder_1_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "6BAB0F40FF6CE48C",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_blackbox_winder_1",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dm01m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train03_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train03_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "720D11FB3C204D7E",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train03",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train04_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train04_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "77BF02DFB4C3C1EA",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train04",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train02"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train06_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train06_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "73D3B9D2A5B2872E",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train06",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train05"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train07_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train07_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "8561B709192F42B7",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train07",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train05"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train08_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train08_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "93164069A935774A",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train08",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train05"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train09_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train09_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "615E470E848EEF8D",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train09",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train05"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train10_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train10_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "710DF23EA902EBFF",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train10",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train01"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train11_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train11_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "7867F05B9E9643D8",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train11",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train10"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "dung_train12_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "dung_train12_cond_1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "07B5A0494446C338",
+      "text": ""
+    },
+    "gameMechanicsId": "dung_train12",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "dung_train11"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_1_2_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_1_2_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_1_2_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_1_1_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_1_3_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_1_3_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_1_3_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_1_2_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_1_4_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_1_4_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_1_4_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_1_3_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_1_5_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_1_5_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_1_5_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_1_4_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_1_6_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_1_6_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_1_6_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_1_5_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_2_2_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_2_2_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_2_2_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_2_1_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_2_3_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_2_3_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_2_3_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_2_2_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_2_4_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_2_4_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_2_4_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_2_3_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_2_5_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_2_5_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_2_5_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_2_4_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "stm_tundra_2_6_normal_cond1": {
+    "compareOperator": 3,
+    "conditionId": "stm_tundra_2_6_normal_cond1",
+    "conditionType": 5031,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "stm_tundra_2_6_normal",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "stm_tundra_2_5_normal"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "world_energy_point02_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "world_energy_point02_cond_1",
+    "conditionType": 19,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "world_energy_point02",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e2m5"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "world_energy_point05_cond_1": {
+    "compareOperator": 3,
+    "conditionId": "world_energy_point05_cond_1",
+    "conditionType": 18,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "gameMechanicsId": "world_energy_point05",
+    "parameter": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e5m4_q#3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  }
+}

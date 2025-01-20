@@ -1,0 +1,718 @@
+{
+  "bark_action_blight_cleaned": {
+    "array": [
+      {
+        "barkId": "bark_action_blight_cleaned",
+        "barkOdd": [
+          1,
+          4
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_blight_break",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          3,
+          0
+        ]
+      }
+    ]
+  },
+  "bark_action_rest": {
+    "array": [
+      {
+        "barkId": "bark_action_rest",
+        "barkOdd": [
+          1,
+          4
+        ],
+        "delay": 0.5,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_rest",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          3,
+          0
+        ]
+      }
+    ]
+  },
+  "bark_action_target_scanned": {
+    "array": [
+      {
+        "barkId": "bark_action_target_scanned",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_scan_find",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_attack_mine": {
+    "array": [
+      {
+        "barkId": "bark_attack_mine",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_mine",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          3
+        ]
+      }
+    ]
+  },
+  "bark_attack_tree": {
+    "array": [
+      {
+        "barkId": "bark_attack_tree",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_wood",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          3
+        ]
+      }
+    ]
+  },
+  "bark_battle_break": {
+    "array": [
+      {
+        "barkId": "bark_battle_break",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": false,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "combat_remind_break",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_battle_defeat": {
+    "array": [
+      {
+        "barkId": "bark_battle_defeat",
+        "barkOdd": [
+          1
+        ],
+        "delay": 1,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "combat_battle_defeat",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_battle_encourage": {
+    "array": [
+      {
+        "barkId": "bark_battle_encourage",
+        "barkOdd": [
+          1,
+          1
+        ],
+        "delay": 0,
+        "isEnabled": false,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "combat_remind_encourage",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "bark_battle_end": {
+    "array": [
+      {
+        "barkId": "bark_battle_end",
+        "barkOdd": [
+          1,
+          2,
+          2
+        ],
+        "delay": 1.5,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "combat_outbattle",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          3,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "bark_battle_enemyskillthreat": {
+    "array": [
+      {
+        "barkId": "bark_battle_enemyskillthreat",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 1,
+        "triggerKey": "combat_dodge_danger",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          0
+        ]
+      },
+      {
+        "barkId": "bark_battle_enemyskillthreat",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 0,
+        "triggerKey": "combat_remind_danger",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_battle_playerlowhp": {
+    "array": [
+      {
+        "barkId": "bark_battle_playerlowhp",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 0,
+        "triggerKey": "combat_remind_lowhp",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_battle_praise": {
+    "array": [
+      {
+        "barkId": "bark_battle_praise",
+        "barkOdd": [
+          1,
+          2,
+          2
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 0,
+        "triggerKey": "combat_remind_praise",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          3,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "bark_battle_start": {
+    "array": [
+      {
+        "barkId": "bark_battle_start",
+        "barkOdd": [
+          1,
+          2,
+          2
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "combat_intobattle",
+        "triggerOdd": 1,
+        "type": 1,
+        "voType": [
+          3,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "bark_idle_chitchat": {
+    "array": [
+      {
+        "barkId": "bark_idle_chitchat",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": false,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_bonus_joke",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_blackbox": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_blackbox",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_dungeon",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_blight": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_blight",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_blight",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_chest": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_chest",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_resour",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_collection": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_collection",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_treasure",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_dungeon": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_dungeon",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_dungeon",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_elite": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_elite",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_danger",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_garbage": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_garbage",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_resour",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_mine": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_mine",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_resour",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_mine_rare": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_mine_rare",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_resour",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_plant": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_plant",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_resour",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_puzzle": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_puzzle",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_locked",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_secret": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_secret",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_locked",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_find_teleporter": {
+    "array": [
+      {
+        "barkId": "bark_idle_find_teleporter",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_find_locked",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_idle_playeridle": {
+    "array": [
+      {
+        "barkId": "bark_idle_playeridle",
+        "barkOdd": [
+          1,
+          4
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_idletalk",
+        "triggerOdd": 5,
+        "type": 2,
+        "voType": [
+          3,
+          0
+        ]
+      },
+      {
+        "barkId": "bark_idle_playeridle",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "explore_easteridletalk",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          3
+        ]
+      }
+    ]
+  },
+  "bark_idle_playerstartmove": {
+    "array": [
+      {
+        "barkId": "bark_idle_playerstartmove",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": false,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "action_follow",
+        "triggerOdd": 1,
+        "type": 2,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_opentreasure_common": {
+    "array": [
+      {
+        "barkId": "bark_opentreasure_common",
+        "barkOdd": [
+          1,
+          4
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_treasure_comm",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          3,
+          0
+        ]
+      }
+    ]
+  },
+  "bark_opentreasure_valuable": {
+    "array": [
+      {
+        "barkId": "bark_opentreasure_valuable",
+        "barkOdd": [
+          1,
+          4
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_treasure_valub",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          3,
+          0
+        ]
+      }
+    ]
+  },
+  "bark_pickup_new": {
+    "array": [
+      {
+        "barkId": "bark_pickup_new",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_pickup_brnew",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  },
+  "bark_pickup_valuable": {
+    "array": [
+      {
+        "barkId": "bark_pickup_valuable",
+        "barkOdd": [
+          1
+        ],
+        "delay": 0,
+        "isEnabled": true,
+        "isShuffle": true,
+        "speakerType": 2,
+        "triggerKey": "interact_pickup_valub",
+        "triggerOdd": 1,
+        "type": 3,
+        "voType": [
+          0
+        ]
+      }
+    ]
+  }
+}

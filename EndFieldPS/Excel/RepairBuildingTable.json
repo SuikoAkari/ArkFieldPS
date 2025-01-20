@@ -1,0 +1,24 @@
+{
+  "repair_sp_hub_1_1": {
+    "buildingId": "sp_hub_1",
+    "costItems": [
+      {
+        "count": 1,
+        "id": "item_hub_key"
+      }
+    ],
+    "id": "repair_sp_hub_1_1",
+    "levelId": "map01_lv001"
+  },
+  "repair_sp_proc_sta_1_1": {
+    "buildingId": "sp_proc_sta_1",
+    "costItems": [
+      {
+        "count": 5,
+        "id": "item_crystal_powder"
+      }
+    ],
+    "id": "repair_sp_proc_sta_1_1",
+    "levelId": "map01_lv001"
+  }
+}

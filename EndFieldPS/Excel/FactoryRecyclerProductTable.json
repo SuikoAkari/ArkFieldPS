@@ -1,0 +1,44 @@
+{
+  "item_expcard_3_1": {
+    "id": "item_expcard_3_1"
+  },
+  "item_mtl_skillup_normal_01": {
+    "id": "item_mtl_skillup_normal_01"
+  },
+  "item_mtl_skillup_normal_02": {
+    "id": "item_mtl_skillup_normal_02"
+  },
+  "item_mtl_skillup_rare_01": {
+    "id": "item_mtl_skillup_rare_01"
+  },
+  "item_mtl_skillup_rare_02": {
+    "id": "item_mtl_skillup_rare_02"
+  },
+  "item_mtl_stageup_normal_01": {
+    "id": "item_mtl_stageup_normal_01"
+  },
+  "item_mtl_stageup_normal_02": {
+    "id": "item_mtl_stageup_normal_02"
+  },
+  "item_mtl_stageup_rare_01": {
+    "id": "item_mtl_stageup_rare_01"
+  },
+  "item_mtl_stageup_rare_02": {
+    "id": "item_mtl_stageup_rare_02"
+  },
+  "item_weapon_breakthrough_a1": {
+    "id": "item_weapon_breakthrough_a1"
+  },
+  "item_weapon_breakthrough_a2": {
+    "id": "item_weapon_breakthrough_a2"
+  },
+  "item_weapon_breakthrough_b1": {
+    "id": "item_weapon_breakthrough_b1"
+  },
+  "item_weapon_breakthrough_b2": {
+    "id": "item_weapon_breakthrough_b2"
+  },
+  "item_weapon_upgrade_low": {
+    "id": "item_weapon_upgrade_low"
+  }
+}

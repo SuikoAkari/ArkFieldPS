@@ -1,0 +1,402 @@
+{
+  "ld_proto_region_power_port_1": {
+    "buildingDesc": {
+      "id": "4703E44A1C21525E",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "57DB8650B622B471",
+      "text": ""
+    },
+    "id": "ld_proto_region_power_port_1",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "ld_proto_region_power_port_2": {
+    "buildingDesc": {
+      "id": "969406E2DFBFD37C",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "F020353DA373B30A",
+      "text": ""
+    },
+    "id": "ld_proto_region_power_port_2",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "ld_proto_region_power_terminal_1": {
+    "buildingDesc": {
+      "id": "8CB097437E04A8E7",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "B0EDF8A0B1D4C573",
+      "text": ""
+    },
+    "id": "ld_proto_region_power_terminal_1",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_1": {
+    "buildingDesc": {
+      "id": "864A47AF0001356E",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "21E79809EE8A6AEE",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_1",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_10": {
+    "buildingDesc": {
+      "id": "EB71C3FC9FE98931",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "497CAB55ED3C173E",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_10",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_2": {
+    "buildingDesc": {
+      "id": "3BA6591E60EE83BE",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "007DD3C0E995C7E4",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_2",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_3": {
+    "buildingDesc": {
+      "id": "3EBEA52DC2F7DF58",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "E52FE058020CA0EE",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_3",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_4": {
+    "buildingDesc": {
+      "id": "9B7DBE73F80B3746",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "F8BC22181622B12D",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_4",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_5": {
+    "buildingDesc": {
+      "id": "34B184AC25EE59F0",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "A9352A1F57C68F06",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_5",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_6": {
+    "buildingDesc": {
+      "id": "C7C1C32A9E81546B",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "45E5CCB435D48285",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_6",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_7": {
+    "buildingDesc": {
+      "id": "CA2A80376C68A8C4",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "065C98E2FCF48A08",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_7",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_8": {
+    "buildingDesc": {
+      "id": "FF869630049A856B",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "6903C48CDAB2F493",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_8",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_port_1_9": {
+    "buildingDesc": {
+      "id": "BE9B0AEA8E3F45F7",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "7DE0FFB3A1305FD3",
+      "text": ""
+    },
+    "id": "map01_lv001_power_port_1_9",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv001_power_terminal_1": {
+    "buildingDesc": {
+      "id": "818BBDBE8D30D34E",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "D649F614C29E2E81",
+      "text": ""
+    },
+    "id": "map01_lv001_power_terminal_1",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv002_power_port_1_1": {
+    "buildingDesc": {
+      "id": "CBA89F55C1ACCC74",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "9132D9B20F4704E4",
+      "text": ""
+    },
+    "id": "map01_lv002_power_port_1_1",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv003_power_port_1": {
+    "buildingDesc": {
+      "id": "CF3ECA334B6F4CF8",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "D2B0892C3F3BC523",
+      "text": ""
+    },
+    "id": "map01_lv003_power_port_1",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv005_power_pro": {
+    "buildingDesc": {
+      "id": "967BF932A3EB95F4",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "346B922E7B41CE85",
+      "text": ""
+    },
+    "id": "map01_lv005_power_pro",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv006_power_port_1_1": {
+    "buildingDesc": {
+      "id": "A61D22B78AA49026",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "C4F8287CEB284894",
+      "text": ""
+    },
+    "id": "map01_lv006_power_port_1_1",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv006_power_port_1_2": {
+    "buildingDesc": {
+      "id": "69FBCF95D9A0CADC",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "5DF95F94453BFB0E",
+      "text": ""
+    },
+    "id": "map01_lv006_power_port_1_2",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "map01_lv007_power_port_1": {
+    "buildingDesc": {
+      "id": "653465E4C33FA2FD",
+      "text": ""
+    },
+    "buildingName": {
+      "id": "24D99AC80550DA07",
+      "text": ""
+    },
+    "id": "map01_lv007_power_port_1",
+    "mapId": "",
+    "mapName": {
+      "id": "",
+      "text": ""
+    },
+    "positionDesc": {
+      "id": "",
+      "text": ""
+    }
+  }
+}

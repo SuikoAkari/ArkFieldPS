@@ -1,0 +1,167 @@
+{
+  "chr_0002_endminm": {
+    "charId": "chr_0002_endminm",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0003_endminf": {
+    "charId": "chr_0003_endminf",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0004_pelica": {
+    "charId": "chr_0004_pelica",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0005_chen": {
+    "charId": "chr_0005_chen",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0006_wolfgd": {
+    "charId": "chr_0006_wolfgd",
+    "cropEnv": "envEmoji_common_normal",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_normal",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0007_ikut": {
+    "charId": "chr_0007_ikut",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0009_azrila": {
+    "charId": "chr_0009_azrila",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0011_seraph": {
+    "charId": "chr_0011_seraph",
+    "cropEnv": "envEmoji_common_think",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_surprise",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_think",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_surprise",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0012_avywen": {
+    "charId": "chr_0012_avywen",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0013_aglina": {
+    "charId": "chr_0013_aglina",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0014_aurora": {
+    "charId": "chr_0014_aurora",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0015_lifeng": {
+    "charId": "chr_0015_lifeng",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0016_laevat": {
+    "charId": "chr_0016_laevat",
+    "cropEnv": "envEmoji_common_empty",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_normal",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_empty",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_normal",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0017_yvonne": {
+    "charId": "chr_0017_yvonne",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  },
+  "chr_0018_dapan": {
+    "charId": "chr_0018_dapan",
+    "cropEnv": "envEmoji_common_workhard",
+    "cropEnvCD": 10,
+    "cropFinishEnv": "envEmoji_common_happy",
+    "cropFinishEnvCD": 10,
+    "doodadEnv": "envEmoji_common_workhard",
+    "doodadEnvCD": 30,
+    "doodadFinishEnv": "envEmoji_common_happy",
+    "doodadFinishEnvCD": 30
+  }
+}

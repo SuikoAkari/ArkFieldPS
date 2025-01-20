@@ -1,0 +1,60 @@
+{
+  "control_center": {
+    "id": "control_center",
+    "name": {
+      "id": "DBB92B67F646EF01",
+      "text": ""
+    },
+    "roomType": 0,
+    "sortId": 4,
+    "upgradeDialogIds": [
+      "dlg_control_center_level_2",
+      "dlg_control_center_level_2",
+      "dlg_control_center_level_3",
+      "dlg_control_center_level_4",
+      "dlg_control_center_level_5"
+    ]
+  },
+  "grow_cabin_1": {
+    "id": "grow_cabin_1",
+    "name": {
+      "id": "21619B6F2CD85B38",
+      "text": ""
+    },
+    "roomType": 2,
+    "sortId": 3,
+    "upgradeDialogIds": [
+      "dlg_grow_cabin_level_1",
+      "dlg_grow_cabin_level_2",
+      "dlg_grow_cabin_level_3"
+    ]
+  },
+  "manufacturing_station_1": {
+    "id": "manufacturing_station_1",
+    "name": {
+      "id": "94CEFD0147B09435",
+      "text": ""
+    },
+    "roomType": 1,
+    "sortId": 2,
+    "upgradeDialogIds": [
+      "dlg_manufacturing_station1_level_1",
+      "dlg_manufacturing_station1_level_2",
+      "dlg_manufacturing_station1_level_3"
+    ]
+  },
+  "manufacturing_station_2": {
+    "id": "manufacturing_station_2",
+    "name": {
+      "id": "E2F1402CE2EAAA16",
+      "text": ""
+    },
+    "roomType": 1,
+    "sortId": 1,
+    "upgradeDialogIds": [
+      "dlg_manufacturing_station2_level_1",
+      "dlg_manufacturing_station2_level_2",
+      "dlg_manufacturing_station2_level_3"
+    ]
+  }
+}

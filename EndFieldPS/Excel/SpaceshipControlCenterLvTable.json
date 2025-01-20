@@ -1,0 +1,72 @@
+{
+  "1": {
+    "dormitoryMaxCount": 5,
+    "id": "control_center_level_1",
+    "level": 1,
+    "performanceTimeline": "",
+    "roomDisplayLevel": {
+      "id": "",
+      "text": ""
+    },
+    "roomPrefab": "prefab_1",
+    "roomType": 0,
+    "stationMaxCount": 1,
+    "unlockRoom": "manufacturing_station_1"
+  },
+  "2": {
+    "dormitoryMaxCount": 10,
+    "id": "control_center_level_2",
+    "level": 2,
+    "performanceTimeline": "",
+    "roomDisplayLevel": {
+      "id": "A1A0CC842160DCBD",
+      "text": ""
+    },
+    "roomPrefab": "prefab_2",
+    "roomType": 0,
+    "stationMaxCount": 2,
+    "unlockRoom": "grow_cabin_1"
+  },
+  "3": {
+    "dormitoryMaxCount": -1,
+    "id": "control_center_level_3",
+    "level": 3,
+    "performanceTimeline": "",
+    "roomDisplayLevel": {
+      "id": "CCB1EF957D7AA0AE",
+      "text": ""
+    },
+    "roomPrefab": "prefab_3",
+    "roomType": 0,
+    "stationMaxCount": 3,
+    "unlockRoom": "manufacturing_station_2"
+  },
+  "4": {
+    "dormitoryMaxCount": -1,
+    "id": "control_center_level_4",
+    "level": 4,
+    "performanceTimeline": "",
+    "roomDisplayLevel": {
+      "id": "06A33B9C0561C87A",
+      "text": ""
+    },
+    "roomPrefab": "prefab_4",
+    "roomType": 0,
+    "stationMaxCount": 4,
+    "unlockRoom": ""
+  },
+  "5": {
+    "dormitoryMaxCount": -1,
+    "id": "control_center_level_5",
+    "level": 5,
+    "performanceTimeline": "",
+    "roomDisplayLevel": {
+      "id": "DBE8AA09EAB78C00",
+      "text": ""
+    },
+    "roomPrefab": "prefab_5",
+    "roomType": 0,
+    "stationMaxCount": 5,
+    "unlockRoom": ""
+  }
+}

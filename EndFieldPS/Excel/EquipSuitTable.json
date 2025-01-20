@@ -1,0 +1,310 @@
+{
+  "suit_agi_01": {
+    "equipList": [
+      "item_unit_t3_body_01_suit_agi",
+      "item_unit_t3_hand_01_suit_agi",
+      "item_unit_t3_edc_01_suit_agi",
+      "item_unit_t3_edc_02_suit_agi",
+      "item_unit_t4_body_01_suit_agi",
+      "item_unit_t4_hand_01_suit_agi",
+      "item_unit_t4_edc_01_suit_agi",
+      "item_unit_t4_edc_02_suit_agi"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_agi_01",
+        "skillLv": 1,
+        "suitID": "suit_agi_01",
+        "suitLogoName": "icon_suit_agi_01",
+        "suitName": {
+          "id": "E85A02792AFD274D",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_atb_01": {
+    "equipList": [
+      "item_unit_t4_body_01_suit_atb",
+      "item_unit_t4_body_02_suit_atb",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t4_hand_02_suit_atb",
+      "item_unit_t4_edc_01_suit_atb",
+      "item_unit_t4_edc_02_suit_atb",
+      "item_unit_t4_edc_03_suit_atb",
+      "item_unit_t5_body_01_suit_atb",
+      "item_unit_t5_body_02_suit_atb",
+      "item_unit_t5_hand_01_suit_atb",
+      "item_unit_t5_hand_02_suit_atb",
+      "item_unit_t5_edc_01_suit_atb",
+      "item_unit_t5_edc_02_suit_atb",
+      "item_unit_t5_edc_03_suit_atb"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_combosuit_01",
+        "skillLv": 1,
+        "suitID": "suit_atb_01",
+        "suitLogoName": "icon_suit_atb_01",
+        "suitName": {
+          "id": "3444434EFFEFCD55",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_attri_01": {
+    "equipList": [
+      "item_unit_t4_body_01_suit_attri",
+      "item_unit_t4_hand_01_suit_attri",
+      "item_unit_t4_edc_01_suit_attri",
+      "item_unit_t4_edc_02_suit_attri",
+      "item_unit_t5_body_01_suit_attri",
+      "item_unit_t5_hand_01_suit_attri",
+      "item_unit_t5_edc_01_suit_attri",
+      "item_unit_t5_edc_02_suit_attri"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_attrisuit_01",
+        "skillLv": 1,
+        "suitID": "suit_attri_01",
+        "suitLogoName": "icon_suit_attri_01",
+        "suitName": {
+          "id": "73B23804A9ACE6DC",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_criti_01": {
+    "equipList": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_body_02_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_hand_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_03_suit_criti",
+      "item_unit_t4_edc_04_suit_criti",
+      "item_unit_t5_body_01_suit_criti",
+      "item_unit_t5_body_02_suit_criti",
+      "item_unit_t5_hand_01_suit_criti",
+      "item_unit_t5_hand_02_suit_criti",
+      "item_unit_t5_edc_01_suit_criti",
+      "item_unit_t5_edc_02_suit_criti",
+      "item_unit_t5_edc_03_suit_criti",
+      "item_unit_t5_edc_04_suit_criti"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_critsuit_01",
+        "skillLv": 1,
+        "suitID": "suit_criti_01",
+        "suitLogoName": "icon_suit_criti_01",
+        "suitName": {
+          "id": "2728F24D34E4C142",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_fire_natr_01": {
+    "equipList": [
+      "item_unit_t5_body_01_suit_fire_natr",
+      "item_unit_t5_body_02_suit_fire_natr",
+      "item_unit_t5_hand_01_suit_fire_natr",
+      "item_unit_t5_hand_02_suit_fire_natr",
+      "item_unit_t5_edc_01_suit_fire_natr",
+      "item_unit_t5_edc_02_suit_fire_natr",
+      "item_unit_t5_edc_03_suit_fire_natr"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_fninflict_01",
+        "skillLv": 1,
+        "suitID": "suit_fire_natr_01",
+        "suitLogoName": "icon_suit_fire_natr_01",
+        "suitName": {
+          "id": "C3D48DDDB830FF15",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_heal_01": {
+    "equipList": [
+      "item_unit_t4_body_01_suit_heal",
+      "item_unit_t4_hand_01_suit_heal",
+      "item_unit_t4_edc_01_suit_heal",
+      "item_unit_t4_edc_02_suit_heal",
+      "item_unit_t4_edc_03_suit_heal",
+      "item_unit_t5_body_01_suit_heal",
+      "item_unit_t5_hand_01_suit_heal",
+      "item_unit_t5_edc_01_suit_heal",
+      "item_unit_t5_edc_02_suit_heal",
+      "item_unit_t5_edc_03_suit_heal"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_healup_01",
+        "skillLv": 1,
+        "suitID": "suit_heal_01",
+        "suitLogoName": "icon_suit_heal_01",
+        "suitName": {
+          "id": "2801DEED65421DCB",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_phy_01": {
+    "equipList": [
+      "item_unit_t5_body_01_suit_phy",
+      "item_unit_t5_body_02_suit_phy",
+      "item_unit_t5_hand_01_suit_phy",
+      "item_unit_t5_hand_02_suit_phy",
+      "item_unit_t5_edc_01_suit_phy",
+      "item_unit_t5_edc_02_suit_phy",
+      "item_unit_t5_edc_03_suit_phy"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_physuit_01",
+        "skillLv": 1,
+        "suitID": "suit_phy_01",
+        "suitLogoName": "icon_suit_phy_01",
+        "suitName": {
+          "id": "62E9B5956DE9EBC9",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_poise_01": {
+    "equipList": [
+      "item_unit_t5_body_01_suit_poise",
+      "item_unit_t5_hand_01_suit_poise",
+      "item_unit_t5_edc_01_suit_poise",
+      "item_unit_t5_edc_02_suit_poise",
+      "item_unit_t5_edc_03_suit_poise"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_poisebreak_01",
+        "skillLv": 1,
+        "suitID": "suit_poise_01",
+        "suitLogoName": "icon_suit_poise_01",
+        "suitName": {
+          "id": "E28AA62E530F2A77",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_pulse_cryst_01": {
+    "equipList": [
+      "item_unit_t5_body_01_suit_pulse_cryst",
+      "item_unit_t5_hand_01_suit_pulse_cryst",
+      "item_unit_t5_edc_01_suit_pulse_cryst",
+      "item_unit_t5_edc_02_suit_pulse_cryst",
+      "item_unit_t5_edc_03_suit_pulse_cryst"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_cpinflict_01",
+        "skillLv": 1,
+        "suitID": "suit_pulse_cryst_01",
+        "suitLogoName": "icon_suit_pulse_cryst_01",
+        "suitName": {
+          "id": "1B4812F9AEA6B8C4",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_str_01": {
+    "equipList": [
+      "item_unit_t3_body_01_suit_str",
+      "item_unit_t3_hand_01_suit_str",
+      "item_unit_t3_edc_01_suit_str",
+      "item_unit_t3_edc_02_suit_str",
+      "item_unit_t4_body_01_suit_str",
+      "item_unit_t4_hand_01_suit_str",
+      "item_unit_t4_edc_01_suit_str",
+      "item_unit_t4_edc_02_suit_str"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_str_01",
+        "skillLv": 1,
+        "suitID": "suit_str_01",
+        "suitLogoName": "icon_suit_str_01",
+        "suitName": {
+          "id": "ADB0DCB041FEE62B",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_will_01": {
+    "equipList": [
+      "item_unit_t3_body_01_suit_will",
+      "item_unit_t3_hand_01_suit_will",
+      "item_unit_t3_edc_01_suit_will",
+      "item_unit_t3_edc_02_suit_will",
+      "item_unit_t4_body_01_suit_will",
+      "item_unit_t4_hand_01_suit_will",
+      "item_unit_t4_edc_01_suit_will",
+      "item_unit_t4_edc_02_suit_will"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_will_01",
+        "skillLv": 1,
+        "suitID": "suit_will_01",
+        "suitLogoName": "icon_suit_will_01",
+        "suitName": {
+          "id": "E8DCABDD35FE0B3D",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "suit_wisd_01": {
+    "equipList": [
+      "item_unit_t3_body_01_suit_wisd",
+      "item_unit_t3_hand_01_suit_wisd",
+      "item_unit_t3_edc_01_suit_wisd",
+      "item_unit_t3_edc_02_suit_wisd",
+      "item_unit_t4_body_01_suit_wisd",
+      "item_unit_t4_hand_01_suit_wisd",
+      "item_unit_t4_edc_01_suit_wisd",
+      "item_unit_t4_edc_02_suit_wisd"
+    ],
+    "list": [
+      {
+        "equipCnt": 3,
+        "skillID": "passive_equipsuit_wisd_01",
+        "skillLv": 1,
+        "suitID": "suit_wisd_01",
+        "suitLogoName": "icon_suit_wisd_01",
+        "suitName": {
+          "id": "730DD3FD97822B48",
+          "text": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dumper_1": {
+    "dumperPosition": {
+      "x": 4,
+      "y": 0,
+      "z": 1
+    },
+    "id": "dumper_1",
+    "maximumSuply": 3
+  },
+  "dumper_nop_1": {
+    "dumperPosition": {
+      "x": 4,
+      "y": 0,
+      "z": 1
+    },
+    "id": "dumper_nop_1",
+    "maximumSuply": 3
+  }
+}

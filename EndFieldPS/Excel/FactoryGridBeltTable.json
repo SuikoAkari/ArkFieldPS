@@ -1,0 +1,15 @@
+{
+  "grid_belt_01": {
+    "beltData": {
+      "buildCamState": "Factory/CCS_Fac_Building_Medium",
+      "iconOnPanel": "icon_log_belt_01",
+      "itemId": "item_log_belt_01",
+      "msPerRound": 2000,
+      "name": {
+        "id": "933E6244AEA30B38",
+        "text": ""
+      }
+    },
+    "id": "grid_belt_01"
+  }
+}

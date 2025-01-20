@@ -1,0 +1,3210 @@
+{
+  "c13m1_1": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "00DC94EF2BA34E09",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_challenge_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "c13m1_1",
+    "gameName": {
+      "id": "3CDA25FDE3D5D718",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "c13m1_2": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "8D2BCC94ADC619F7",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_challenge_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "c13m1_2",
+    "gameName": {
+      "id": "EC8999EE44248994",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "c13m1_3": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "801912F3F21FFF80",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_challenge_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "c13m1_3",
+    "gameName": {
+      "id": "72612D326E290054",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush01_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "15D632FD5FD11F38",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush01_01",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush01_01",
+    "gameName": {
+      "id": "D7E42E7971295CB9",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush01_02": {
+    "conditionIds": [
+      "dung01_bossrush01_02_cond_1",
+      "dung01_bossrush01_02_cond_2"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "025358083802E1C1",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush01_02",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush01_02",
+    "gameName": {
+      "id": "B5560746B8807C2B",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush01_03": {
+    "conditionIds": [
+      "dung01_bossrush01_03_cond_1",
+      "dung01_bossrush01_03_cond_2"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "66F41860B69CA222",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush01_03",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush01_03",
+    "gameName": {
+      "id": "D5DCBCCF0633CEAC",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush02_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "6090FCB41D0BDC7E",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush02_01",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush02_01",
+    "gameName": {
+      "id": "DB8B447714B69C21",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush02_02": {
+    "conditionIds": [
+      "dung01_bossrush02_02_cond_1",
+      "dung01_bossrush02_02_cond_2"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "444F2A75691ABC13",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush02_02",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush02_02",
+    "gameName": {
+      "id": "C620589A3ACDEE38",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush02_03": {
+    "conditionIds": [
+      "dung01_bossrush02_03_cond_1",
+      "dung01_bossrush02_03_cond_2"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "D2841356A802A9B6",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush02_03",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush02_03",
+    "gameName": {
+      "id": "1D8C6E1FA545E30E",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush03_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "AFE453B99C4F0367",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush03_01",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush03_01",
+    "gameName": {
+      "id": "52EC9B99C67725FE",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush03_02": {
+    "conditionIds": [
+      "dung01_bossrush03_02_cond_1",
+      "dung01_bossrush03_02_cond_2"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "2C9522606B15BDD1",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush03_02",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush03_02",
+    "gameName": {
+      "id": "FF1A965D9ADB1C4B",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_bossrush03_03": {
+    "conditionIds": [
+      "dung01_bossrush03_03_cond_1",
+      "dung01_bossrush03_03_cond_2"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "0EAFA0B2A9D8FB8E",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_bossrush03_03",
+    "gameCategory": "dungeon_bossrush",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_bossrush03_03",
+    "gameName": {
+      "id": "C00BA6822CE34303",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_charbreak01": {
+    "conditionIds": [],
+    "costStamina": 40,
+    "desc": {
+      "id": "2F69A4D0C858E1FA",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_charbreak01",
+    "gameName": {
+      "id": "DEA870C39CE9D3F6",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_charbreak01"
+  },
+  "dung01_charbreak02": {
+    "conditionIds": [
+      "dung01_charbreak02_condition_1"
+    ],
+    "costStamina": 50,
+    "desc": {
+      "id": "065C462F802D3E86",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_charbreak02",
+    "gameName": {
+      "id": "F7B7A04BAF267DB8",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_charbreak02"
+  },
+  "dung01_charbreak03": {
+    "conditionIds": [
+      "dung01_charbreak03_condition_1"
+    ],
+    "costStamina": 60,
+    "desc": {
+      "id": "1EBBA86489A6931A",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_charbreak03",
+    "gameName": {
+      "id": "68C576F66C20615A",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_charbreak03"
+  },
+  "dung01_charbreak04": {
+    "conditionIds": [
+      "dung01_charbreak04_condition_1"
+    ],
+    "costStamina": 80,
+    "desc": {
+      "id": "68A5014EE07E06B2",
+      "text": ""
+    },
+    "difficulty": 4,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_charbreak04",
+    "gameName": {
+      "id": "4267F3DCCA4B907B",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_charbreak04"
+  },
+  "dung01_exp01": {
+    "conditionIds": [],
+    "costStamina": 40,
+    "desc": {
+      "id": "76142144961483A8",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_exp01",
+    "gameName": {
+      "id": "2A42D0FFD4ECC646",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_exp01"
+  },
+  "dung01_exp02": {
+    "conditionIds": [
+      "dung01_exp02_condition_1"
+    ],
+    "costStamina": 50,
+    "desc": {
+      "id": "70F6EF172DF28CB1",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_exp02",
+    "gameName": {
+      "id": "F78943537445CB5C",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_exp02"
+  },
+  "dung01_exp03": {
+    "conditionIds": [
+      "dung01_exp03_condition_1"
+    ],
+    "costStamina": 60,
+    "desc": {
+      "id": "179ECBB61ED7977C",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_exp03",
+    "gameName": {
+      "id": "C3EE4EDDFF28DA89",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_exp03"
+  },
+  "dung01_exp04": {
+    "conditionIds": [
+      "dung01_exp04_condition_1"
+    ],
+    "costStamina": 80,
+    "desc": {
+      "id": "8DD5B08E9FCAFD3C",
+      "text": ""
+    },
+    "difficulty": 4,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_exp04",
+    "gameName": {
+      "id": "75B6F59C97506361",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_exp04"
+  },
+  "dung01_gold01": {
+    "conditionIds": [],
+    "costStamina": 40,
+    "desc": {
+      "id": "027A3F255DBE48F7",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_gold01",
+    "gameName": {
+      "id": "6B5098B9D0624B16",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_gold01"
+  },
+  "dung01_gold02": {
+    "conditionIds": [
+      "dung01_gold02_condition_1"
+    ],
+    "costStamina": 50,
+    "desc": {
+      "id": "C5AADF9001D819A1",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_gold02",
+    "gameName": {
+      "id": "BF455D3ACBC6E006",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_gold02"
+  },
+  "dung01_gold03": {
+    "conditionIds": [
+      "dung01_gold03_condition_1"
+    ],
+    "costStamina": 60,
+    "desc": {
+      "id": "A48FEB1539514127",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_gold03",
+    "gameName": {
+      "id": "5F28E20156C4B258",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_gold03"
+  },
+  "dung01_gold04": {
+    "conditionIds": [
+      "dung01_gold04_condition_1"
+    ],
+    "costStamina": 80,
+    "desc": {
+      "id": "ABED55D51B00D46E",
+      "text": ""
+    },
+    "difficulty": 4,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_gold04",
+    "gameName": {
+      "id": "30D7BBC382BF35D9",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_gold04"
+  },
+  "dung01_puzzle01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "55F3C777F2B2D02E",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle01_extra",
+    "firstPassRewardId": "reward_dung01_puzzle01",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle01",
+    "gameName": {
+      "id": "6A731E78BFCBC161",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_puzzle02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "85AA786F26069008",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle02_extra",
+    "firstPassRewardId": "reward_dung01_puzzle02",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle02",
+    "gameName": {
+      "id": "90942E23F7DA1691",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_puzzle03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "BEEDB0602E430DB9",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle03_extra",
+    "firstPassRewardId": "reward_dung01_puzzle03",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle03",
+    "gameName": {
+      "id": "5DB2BDE87262D34B",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_puzzle04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "313C9C961DFAC4AE",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle04_extra",
+    "firstPassRewardId": "reward_dung01_puzzle04",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle04",
+    "gameName": {
+      "id": "1511171B176563F7",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_puzzle05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "390D4A82D7D84A8D",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle05_extra",
+    "firstPassRewardId": "reward_dung01_puzzle05",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle05",
+    "gameName": {
+      "id": "6A982D87FA6589EA",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_puzzle06": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "257E6183DD6F0FA6",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle06_extra",
+    "firstPassRewardId": "reward_dung01_puzzle06",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle06",
+    "gameName": {
+      "id": "393565A9F5CD3729",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_puzzle07": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "6472DF1CA01AF5CB",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle07_extra",
+    "firstPassRewardId": "reward_dung01_puzzle07",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle07",
+    "gameName": {
+      "id": "82630090E5D24307",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_puzzle08": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "2BFE6C006EC406C4",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle08_extra",
+    "firstPassRewardId": "reward_dung01_puzzle08",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle08",
+    "gameName": {
+      "id": "10A3CFBBDAE9BE90",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_puzzle10": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "7AC9AE030F966771",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward_dung01_puzzle10_extra",
+    "firstPassRewardId": "reward_dung01_puzzle10",
+    "gameCategory": "dungeon_challenge",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_puzzle10",
+    "gameName": {
+      "id": "CF7EBFB0AFE3D44E",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_rdg001": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_rdg001",
+    "gameCategory": "dungeon_char",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_rdg001",
+    "gameName": {
+      "id": "A1D2667BC5467A5D",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_rdg002": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung01_rdg002",
+    "gameCategory": "dungeon_char",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_rdg002",
+    "gameName": {
+      "id": "7271D76119B765C3",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung01_skill01": {
+    "conditionIds": [],
+    "costStamina": 40,
+    "desc": {
+      "id": "117A04E311886C5D",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_skill01",
+    "gameName": {
+      "id": "58FAF1E02A3E9638",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_skill01"
+  },
+  "dung01_skill02": {
+    "conditionIds": [
+      "dung01_skill02_condition_1"
+    ],
+    "costStamina": 50,
+    "desc": {
+      "id": "FD3CFDF5F2CEC758",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_skill02",
+    "gameName": {
+      "id": "E2B8AC9271962FDD",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_skill02"
+  },
+  "dung01_skill03": {
+    "conditionIds": [
+      "dung01_skill03_condition_1"
+    ],
+    "costStamina": 60,
+    "desc": {
+      "id": "155863A49BB18EDE",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_skill03",
+    "gameName": {
+      "id": "E62EB8CD666075A7",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_skill03"
+  },
+  "dung01_skill04": {
+    "conditionIds": [
+      "dung01_skill04_condition_1"
+    ],
+    "costStamina": 80,
+    "desc": {
+      "id": "CAEA2AC091F2757B",
+      "text": ""
+    },
+    "difficulty": 4,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_skill04",
+    "gameName": {
+      "id": "0364877841E53150",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_skill04"
+  },
+  "dung01_wpbreak01": {
+    "conditionIds": [],
+    "costStamina": 40,
+    "desc": {
+      "id": "B0E2489EDE4A0DC4",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_wpbreak01",
+    "gameName": {
+      "id": "3E2230A402C681C8",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_wpbreak01"
+  },
+  "dung01_wpbreak02": {
+    "conditionIds": [
+      "dung01_wpbreak02_condition_1"
+    ],
+    "costStamina": 50,
+    "desc": {
+      "id": "0C950BFF6BEC17FE",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_wpbreak02",
+    "gameName": {
+      "id": "9756B7BCD11316BA",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_wpbreak02"
+  },
+  "dung01_wpbreak03": {
+    "conditionIds": [
+      "dung01_wpbreak03_condition_1"
+    ],
+    "costStamina": 60,
+    "desc": {
+      "id": "419180274CF8172B",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_wpbreak03",
+    "gameName": {
+      "id": "CA8C146D1C3B2AE4",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_wpbreak03"
+  },
+  "dung01_wpbreak04": {
+    "conditionIds": [
+      "dung01_wpbreak04_condition_1"
+    ],
+    "costStamina": 80,
+    "desc": {
+      "id": "050E313E9A0A54AE",
+      "text": ""
+    },
+    "difficulty": 4,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_wpbreak04",
+    "gameName": {
+      "id": "DA1442349D776AC7",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_wpbreak04"
+  },
+  "dung01_wpexp01": {
+    "conditionIds": [],
+    "costStamina": 40,
+    "desc": {
+      "id": "6282DDD7ED388790",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_wpexp01",
+    "gameName": {
+      "id": "75F31FDD84149921",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_wpexp01"
+  },
+  "dung01_wpexp02": {
+    "conditionIds": [
+      "dung01_wpexp02_condition_1"
+    ],
+    "costStamina": 50,
+    "desc": {
+      "id": "B82E51AD3E7DB8DD",
+      "text": ""
+    },
+    "difficulty": 2,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_wpexp02",
+    "gameName": {
+      "id": "B19F8341DEB7AD18",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_wpexp02"
+  },
+  "dung01_wpexp03": {
+    "conditionIds": [
+      "dung01_wpexp03_condition_1"
+    ],
+    "costStamina": 60,
+    "desc": {
+      "id": "04DC734989E709D8",
+      "text": ""
+    },
+    "difficulty": 3,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_wpexp03",
+    "gameName": {
+      "id": "964F65AA4C34D2A3",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_wpexp03"
+  },
+  "dung01_wpexp04": {
+    "conditionIds": [
+      "dung01_wpexp04_condition_1"
+    ],
+    "costStamina": 80,
+    "desc": {
+      "id": "136BEA1F503D315D",
+      "text": ""
+    },
+    "difficulty": 4,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_resource",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung01_wpexp04",
+    "gameName": {
+      "id": "049AC5A9A957CA37",
+      "text": ""
+    },
+    "rewardId": "reward_dung01_wpexp04"
+  },
+  "dung_blackbox_assebling_1": {
+    "conditionIds": [
+      "dung_blackbox_assebling_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_assebling_1",
+    "gameName": {
+      "id": "54B9176373AF34E8",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_assebling_2": {
+    "conditionIds": [
+      "dung_blackbox_assebling_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_assebling_2",
+    "gameName": {
+      "id": "D88E70C4C0BDF323",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_asseblingbomb_1": {
+    "conditionIds": [
+      "dung_blackbox_asseblingbomb_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_asseblingbomb_1",
+    "gameName": {
+      "id": "6FFEABE8F619D4AF",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_basic_1": {
+    "conditionIds": [
+      "dung_blackbox_basic_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_basic_1",
+    "gameName": {
+      "id": "1DB3B91689DDC23E",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_belt_1": {
+    "conditionIds": [
+      "dung_blackbox_belt_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_belt_1",
+    "gameName": {
+      "id": "DCDA27C9A6AC8BB4",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_belt_2": {
+    "conditionIds": [
+      "dung_blackbox_belt_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_belt_2",
+    "gameName": {
+      "id": "CED3D03CA28FCF03",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_bus_1": {
+    "conditionIds": [
+      "dung_blackbox_bus_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_bus_1",
+    "gameName": {
+      "id": "2015D54EF4F50B73",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_bus_2": {
+    "conditionIds": [
+      "dung_blackbox_bus_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_bus_2",
+    "gameName": {
+      "id": "04B151134BC967C6",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_cmpt_1": {
+    "conditionIds": [
+      "dung_blackbox_cmpt_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_cmpt_1",
+    "gameName": {
+      "id": "6D273F0E4CD8DE92",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_connector_1": {
+    "conditionIds": [
+      "dung_blackbox_connector_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_connector_1",
+    "gameName": {
+      "id": "9872B46C535CA3B6",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_converger_1": {
+    "conditionIds": [
+      "dung_blackbox_converger_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_converger_1",
+    "gameName": {
+      "id": "830E1608F4E17662",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_filling_1": {
+    "conditionIds": [
+      "dung_blackbox_filling_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_filling_1",
+    "gameName": {
+      "id": "D08CDDBAC1012F0B",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_filling_2": {
+    "conditionIds": [
+      "dung_blackbox_filling_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_filling_2",
+    "gameName": {
+      "id": "2F579BA86D1ECBBE",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_filling_3": {
+    "conditionIds": [
+      "dung_blackbox_filling_3_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_filling_3",
+    "gameName": {
+      "id": "0B3A6D20C902A719",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_filling_4": {
+    "conditionIds": [
+      "dung_blackbox_filling_4_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_filling_4",
+    "gameName": {
+      "id": "1565BF030EC34D13",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_filling_5": {
+    "conditionIds": [
+      "dung_blackbox_filling_5_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_filling_5",
+    "gameName": {
+      "id": "847A40DED0FBEAA5",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_grinder_1": {
+    "conditionIds": [
+      "dung_blackbox_grinder_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_grinder_1",
+    "gameName": {
+      "id": "B86EC07CA9628680",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_hub_1": {
+    "conditionIds": [
+      "dung_blackbox_hub_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_hub_1",
+    "gameName": {
+      "id": "661D37B5C9BE428A",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_liquidcleaner_1": {
+    "conditionIds": [
+      "dung_blackbox_liquidcleaner_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_liquidcleaner_1",
+    "gameName": {
+      "id": "A6EBF00AC684C789",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_miner_1": {
+    "conditionIds": [
+      "dung_blackbox_miner_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_miner_1",
+    "gameName": {
+      "id": "49358B5DE183BAC6",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_miner_2": {
+    "conditionIds": [
+      "dung_blackbox_miner_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_miner_2",
+    "gameName": {
+      "id": "8AF8918DA0AB64E7",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_miner_3": {
+    "conditionIds": [
+      "dung_blackbox_miner_3_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_miner_3",
+    "gameName": {
+      "id": "B7459DF44D17A9E0",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_mix_1": {
+    "conditionIds": [
+      "dung_blackbox_mix_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_mix_1",
+    "gameName": {
+      "id": "EFA88CADC85E487E",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_mix_2": {
+    "conditionIds": [
+      "dung_blackbox_mix_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_mix_2",
+    "gameName": {
+      "id": "B9889C68FABA2109",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_pipe_1": {
+    "conditionIds": [
+      "dung_blackbox_pipe_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_pipe_1",
+    "gameName": {
+      "id": "A84D442781111CE7",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_pipe_2": {
+    "conditionIds": [
+      "dung_blackbox_pipe_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_pipe_2",
+    "gameName": {
+      "id": "16A25A5BB24338EC",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_planter_1": {
+    "conditionIds": [
+      "dung_blackbox_planter_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_planter_1",
+    "gameName": {
+      "id": "2BEFB46F3FCFDB07",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_planter_2": {
+    "conditionIds": [
+      "dung_blackbox_planter_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_planter_2",
+    "gameName": {
+      "id": "42C92EB364767FCE",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_power_1": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_power_1",
+    "gameName": {
+      "id": "8EE6F9570E89FB70",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_powerstation_1": {
+    "conditionIds": [
+      "dung_blackbox_powerstation_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_powerstation_1",
+    "gameName": {
+      "id": "B57D34C8314AD8E3",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_shaper_1": {
+    "conditionIds": [
+      "dung_blackbox_shaper_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_shaper_1",
+    "gameName": {
+      "id": "868974284A1688CF",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_shaper_2": {
+    "conditionIds": [
+      "dung_blackbox_shaper_2_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_shaper_2",
+    "gameName": {
+      "id": "3F28722A9052E54E",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_splitter_1": {
+    "conditionIds": [
+      "dung_blackbox_splitter_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_splitter_1",
+    "gameName": {
+      "id": "F666FBAEB62B6D80",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_squirter_1": {
+    "conditionIds": [
+      "dung_blackbox_squirter_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_jinlong",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_squirter_1",
+    "gameName": {
+      "id": "0DD104FB023F1DCC",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_storager_1": {
+    "conditionIds": [
+      "dung_blackbox_storager_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_storager_1",
+    "gameName": {
+      "id": "2207CBB7AB0E415D",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_thickener_1": {
+    "conditionIds": [
+      "dung_blackbox_thickener_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_thickener_1",
+    "gameName": {
+      "id": "A4DF49A98139327D",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_blackbox_winder_1": {
+    "conditionIds": [
+      "dung_blackbox_winder_1_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_blackbox_winder_1",
+    "gameName": {
+      "id": "DFD4AF7ADBE546E7",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_demo_blackbox02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "reward__blackbox_extra_diamond",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_demo_blackbox02",
+    "gameName": {
+      "id": "BB7514D61E443CEA",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_race001": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "AB4889C4E6FF2504",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_race001",
+    "gameName": {
+      "id": "624FAD168DBA698E",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_rpg001": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_rpg",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_rpg001",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_test_blackbox_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward__blackbox_factechpoint_tundra",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_test_blackbox_01",
+    "gameName": {
+      "id": "C5CDA3158B14BF7C",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_test_factory": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_factory",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_test_factory",
+    "gameName": {
+      "id": "25C68DE9435348E1",
+      "text": ""
+    },
+    "rewardId": "reward_dung_gold_20"
+  },
+  "dung_test_rpg": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "dungeon_rpg",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_test_rpg",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "3D3FD42F6CDA9300",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train01",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train01",
+    "gameName": {
+      "id": "3EE118DF666F882C",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "DFF4A4FA05F0C2FC",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train02",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train02",
+    "gameName": {
+      "id": "64F2D90EAA5E95D1",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train03": {
+    "conditionIds": [
+      "dung_train03_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "DCB16E5502243AC5",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train03",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train03",
+    "gameName": {
+      "id": "A8CA85B1BB7844B6",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train04": {
+    "conditionIds": [
+      "dung_train04_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "FE4487C20A0C9E24",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train04",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train04",
+    "gameName": {
+      "id": "6BD0C29D921E8973",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "BC4F96EAEB3C2A33",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train05",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train05",
+    "gameName": {
+      "id": "1ACEB381A7CE4D04",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train06": {
+    "conditionIds": [
+      "dung_train06_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "1BC1EA6BD8766117",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train06",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train06",
+    "gameName": {
+      "id": "7DD572F64BB03261",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train07": {
+    "conditionIds": [
+      "dung_train07_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "E0A7A6DDBA74E26D",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train07",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train07",
+    "gameName": {
+      "id": "71112D6DACAE0EE3",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train08": {
+    "conditionIds": [
+      "dung_train08_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "F25EABA140639F5E",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train08",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train08",
+    "gameName": {
+      "id": "D89FBC0DE9D59C3D",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train09": {
+    "conditionIds": [
+      "dung_train09_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "07A4909F6CF49DB2",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train09",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train09",
+    "gameName": {
+      "id": "6CBE78BB8526B529",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train10": {
+    "conditionIds": [
+      "dung_train10_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "D31CDBD083A6EDB7",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train10",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train10",
+    "gameName": {
+      "id": "40089B04166B0B97",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train11": {
+    "conditionIds": [
+      "dung_train11_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "AC1FF54FE5323991",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train11",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train11",
+    "gameName": {
+      "id": "6D129B2BFC08642A",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "dung_train12": {
+    "conditionIds": [
+      "dung_train12_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "61375184F5B442B4",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_dung_train12",
+    "gameCategory": "dungeon_train",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "dung_train12",
+    "gameName": {
+      "id": "EC3DFDBE20658EA9",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "stm_tundra_1_1_normal": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_1_1_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_1_1_normal"
+  },
+  "stm_tundra_1_2_normal": {
+    "conditionIds": [
+      "stm_tundra_1_2_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_1_2_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_1_2_normal"
+  },
+  "stm_tundra_1_3_normal": {
+    "conditionIds": [
+      "stm_tundra_1_3_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_1_3_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_1_3_normal"
+  },
+  "stm_tundra_1_4_normal": {
+    "conditionIds": [
+      "stm_tundra_1_4_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_1_4_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_1_4_normal"
+  },
+  "stm_tundra_1_5_normal": {
+    "conditionIds": [
+      "stm_tundra_1_5_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_1_5_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_1_5_normal"
+  },
+  "stm_tundra_1_6_normal": {
+    "conditionIds": [
+      "stm_tundra_1_6_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_1_6_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_1_6_normal"
+  },
+  "stm_tundra_2_1_normal": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_2_1_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_2_1_normal"
+  },
+  "stm_tundra_2_2_normal": {
+    "conditionIds": [
+      "stm_tundra_2_2_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_2_2_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_2_2_normal"
+  },
+  "stm_tundra_2_3_normal": {
+    "conditionIds": [
+      "stm_tundra_2_3_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_2_3_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_2_3_normal"
+  },
+  "stm_tundra_2_4_normal": {
+    "conditionIds": [
+      "stm_tundra_2_4_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_2_4_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_2_4_normal"
+  },
+  "stm_tundra_2_5_normal": {
+    "conditionIds": [
+      "stm_tundra_2_5_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_2_5_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_2_5_normal"
+  },
+  "stm_tundra_2_6_normal": {
+    "conditionIds": [
+      "stm_tundra_2_6_normal_cond1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "settlement_defence",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "stm_tundra_2_6_normal",
+    "gameName": {
+      "id": "",
+      "text": ""
+    },
+    "rewardId": "reward_stm_tundra_2_6_normal"
+  },
+  "world_challenge_race_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "5AFE8F34B3E8E6CE",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_mission_gm01m2",
+    "gameCategory": "world_challenge_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_challenge_race_01",
+    "gameName": {
+      "id": "D2808EDC2DA07C14",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_challenge_race_02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "911BDD615FD91A33",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_mission_gm01m24",
+    "gameCategory": "world_challenge_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_challenge_race_02",
+    "gameName": {
+      "id": "C3DB5AE846B8F227",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_challenge_race_03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "9EFD3E9A0C4C0C97",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_mission_gm01m25",
+    "gameCategory": "world_challenge_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_challenge_race_03",
+    "gameName": {
+      "id": "1B4E2868F8C1EBD8",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_challenge_race_04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "5FE4829C7CCEDEBD",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_mission_gm01m26",
+    "gameCategory": "world_challenge_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_challenge_race_04",
+    "gameName": {
+      "id": "2C10DCD6299D9460",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_challenge_race_05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "A5146534F63DB9DC",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_mission_gm02m3",
+    "gameCategory": "world_challenge_race",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_challenge_race_05",
+    "gameName": {
+      "id": "19ACC59FC552D2B9",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "6B617231A51C32FD",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_world_energy_point01",
+    "gameCategory": "world_energy_point",
+    "gameCoolDown": 1800,
+    "gameMechanicsId": "world_energy_point01",
+    "gameName": {
+      "id": "FE586EB3AAE43578",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point02": {
+    "conditionIds": [
+      "world_energy_point02_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "EC00000D0A0EA376",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_world_energy_point02",
+    "gameCategory": "world_energy_point",
+    "gameCoolDown": 1800,
+    "gameMechanicsId": "world_energy_point02",
+    "gameName": {
+      "id": "035732AA6F90EC5A",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "7B92CA40835660A5",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_world_energy_point03",
+    "gameCategory": "world_energy_point",
+    "gameCoolDown": 1800,
+    "gameMechanicsId": "world_energy_point03",
+    "gameName": {
+      "id": "3C3E85C00ED50254",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "167A4536BA61CDF0",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_world_energy_point04",
+    "gameCategory": "world_energy_point",
+    "gameCoolDown": 1800,
+    "gameMechanicsId": "world_energy_point04",
+    "gameName": {
+      "id": "964C432F64E95E39",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point05": {
+    "conditionIds": [
+      "world_energy_point05_cond_1"
+    ],
+    "costStamina": 0,
+    "desc": {
+      "id": "4AC8AE37C566E377",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "reward_world_energy_point05",
+    "gameCategory": "world_energy_point",
+    "gameCoolDown": 1800,
+    "gameMechanicsId": "world_energy_point05",
+    "gameName": {
+      "id": "22C2E99FBB75D3F4",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv001_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "D033F4770FBDD642",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv001_01",
+    "gameName": {
+      "id": "CC6BAEBA84387EF9",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv001_02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "B8F7B2FE0B337944",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv001_02",
+    "gameName": {
+      "id": "01BAC745C74FB5E3",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv001_03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "1D32E64CEC2E0090",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv001_03",
+    "gameName": {
+      "id": "7C5BAAFBFA003B89",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv001_04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "53CF5DFC6218A127",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv001_04",
+    "gameName": {
+      "id": "AE5C2D4DB0189754",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv001_05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "EE46A310CE56A1A2",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv001_05",
+    "gameName": {
+      "id": "183E783035C877AD",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv002_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "AC625CF51371EB2D",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv002_01",
+    "gameName": {
+      "id": "7BD85705DE73CD36",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv002_02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "C962B6D4BDC4EE04",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv002_02",
+    "gameName": {
+      "id": "A3D5EB861DAC42F0",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv002_03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "01DA2286DB47A444",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv002_03",
+    "gameName": {
+      "id": "3B1C1CE4934AEC46",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv002_04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "EB2C40B19FB01B66",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv002_04",
+    "gameName": {
+      "id": "16CA6AD455C2815A",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv002_05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "47B760DF77756DE0",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv002_05",
+    "gameName": {
+      "id": "8C4433E360A17326",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv003_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "5F39F33BC0394E6B",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv003_01",
+    "gameName": {
+      "id": "6B56D0D805E3C569",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv003_02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "1C9CBDC06CB91E37",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv003_02",
+    "gameName": {
+      "id": "6F8F7F235BDAE673",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv003_03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "7AC81AEE0CB55344",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv003_03",
+    "gameName": {
+      "id": "E72E018C87727C14",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv003_04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "9CF60983F77E5DA5",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv003_04",
+    "gameName": {
+      "id": "3E1515992EABF5EE",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv003_05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "8D0D2859C2855A72",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv003_05",
+    "gameName": {
+      "id": "CE03ADB24A7D9539",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv005_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "26EDB145E0F0EAF6",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv005_01",
+    "gameName": {
+      "id": "DD160AFD980DDB06",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv005_02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "4A477D807F0004D4",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv005_02",
+    "gameName": {
+      "id": "9AD12FA88A770971",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv005_03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "5F1681EC3B66B77B",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv005_03",
+    "gameName": {
+      "id": "EBAE8EFB5C0F6E9C",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv005_04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "7F20D1FD22B8A12D",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv005_04",
+    "gameName": {
+      "id": "83A67170CF8049F8",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv005_05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "9A3566E8A69F3CE0",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv005_05",
+    "gameName": {
+      "id": "8274636F0CFB9008",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv006_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "4C33A567C61854F0",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv006_01",
+    "gameName": {
+      "id": "A5AC6719E4245B56",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv006_02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "94B77C3F77D310DC",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv006_02",
+    "gameName": {
+      "id": "877C3FF03A620F0A",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv006_03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "C08336F799A90555",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv006_03",
+    "gameName": {
+      "id": "35F7F0898B304F2B",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv006_04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "9DC620483D0A31AD",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv006_04",
+    "gameName": {
+      "id": "289B1B8652D7C197",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv006_05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "29BDB2B35EF88C52",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv006_05",
+    "gameName": {
+      "id": "D8E4A2FF0BB15000",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv007_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "D8CD1F962D0EBA29",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv007_01",
+    "gameName": {
+      "id": "7D1144E5A80EB106",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv007_02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "49E026386742F992",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv007_02",
+    "gameName": {
+      "id": "342884A29A76D395",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv007_03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "B95495096B14A0ED",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv007_03",
+    "gameName": {
+      "id": "C200E8451B864A4A",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv007_04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "0220AFC6E51298AB",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv007_04",
+    "gameName": {
+      "id": "5C7659D19B4F2E7B",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map01_lv007_05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "2364EB10527AC34A",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map01_lv007_05",
+    "gameName": {
+      "id": "DCAA7D1D33A268BE",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map02_lv001_01": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "6311ABC94CD6C4E3",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map02_lv001_01",
+    "gameName": {
+      "id": "3A52E7781244EFE8",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map02_lv001_02": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "23F1CDD037B768C0",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map02_lv001_02",
+    "gameName": {
+      "id": "EF74372DE0F4B9B2",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map02_lv001_03": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "97000E463316C22F",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map02_lv001_03",
+    "gameName": {
+      "id": "8947BA97395B89AB",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map02_lv001_04": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "5D5A2EF528C22661",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map02_lv001_04",
+    "gameName": {
+      "id": "D7422859066228D4",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_map02_lv001_05": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "5262E9D1A4172000",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_map02_lv001_05",
+    "gameName": {
+      "id": "CEC612087B7C9F86",
+      "text": ""
+    },
+    "rewardId": ""
+  },
+  "world_energy_point_small_test": {
+    "conditionIds": [],
+    "costStamina": 0,
+    "desc": {
+      "id": "68D84E65569CC4F8",
+      "text": ""
+    },
+    "difficulty": 1,
+    "extraRewardId": "",
+    "firstPassRewardId": "",
+    "gameCategory": "world_energy_point_small",
+    "gameCoolDown": 0,
+    "gameMechanicsId": "world_energy_point_small_test",
+    "gameName": {
+      "id": "DB631D0ADC4D2402",
+      "text": ""
+    },
+    "rewardId": ""
+  }
+}

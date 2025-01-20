@@ -1,0 +1,38 @@
+{
+  "1": {
+    "expItemId": "",
+    "itemExp": 0,
+    "weaponExp": 0,
+    "weaponExpConvertRatio": 1
+  },
+  "2": {
+    "expItemId": "item_weapon_expcard_low",
+    "itemExp": 200,
+    "weaponExp": 0,
+    "weaponExpConvertRatio": 1
+  },
+  "3": {
+    "expItemId": "item_weapon_expcard_mid",
+    "itemExp": 1000,
+    "weaponExp": 1000,
+    "weaponExpConvertRatio": 1
+  },
+  "4": {
+    "expItemId": "item_weapon_expcard_high",
+    "itemExp": 10000,
+    "weaponExp": 5000,
+    "weaponExpConvertRatio": 1
+  },
+  "5": {
+    "expItemId": "",
+    "itemExp": 0,
+    "weaponExp": 15000,
+    "weaponExpConvertRatio": 1
+  },
+  "6": {
+    "expItemId": "",
+    "itemExp": 0,
+    "weaponExp": 30000,
+    "weaponExpConvertRatio": 1
+  }
+}

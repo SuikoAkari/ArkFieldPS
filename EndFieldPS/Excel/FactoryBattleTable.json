@@ -1,0 +1,275 @@
+{
+  "": {
+    "attackCost": 1,
+    "attackRange": 48,
+    "chargeInterval": 1.5,
+    "commonSkillId": "int_fac_battle_cannon_1_dg002_skill",
+    "energyChargeCount": 1,
+    "energyChargeMillSec": 1,
+    "energyMax": 1,
+    "id": "battle_cannon_1_dg002",
+    "minAttackRange": 9,
+    "normalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "",
+      "text": ""
+    },
+    "overloadSkillId": "",
+    "relateTempBuildingId": ""
+  },
+  "battle_cannon_1": {
+    "attackCost": 300,
+    "attackRange": 10,
+    "chargeInterval": 3,
+    "commonSkillId": "int_fac_battle_cannon_1_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_cannon_1",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "BCA407DA2FCC2076",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "B3E842B0012A07D6",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_cannon_1_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_cannon_1_dg002": {
+    "attackCost": 1,
+    "attackRange": 48,
+    "chargeInterval": 1.5,
+    "commonSkillId": "int_fac_battle_cannon_1_dg002_skill",
+    "energyChargeCount": 1,
+    "energyChargeMillSec": 1,
+    "energyMax": 1,
+    "id": "battle_cannon_1_dg002",
+    "minAttackRange": 9,
+    "normalDesc": {
+      "id": "",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "",
+      "text": ""
+    },
+    "overloadSkillId": "",
+    "relateTempBuildingId": ""
+  },
+  "battle_cannon_2": {
+    "attackCost": 300,
+    "attackRange": 10,
+    "chargeInterval": 3,
+    "commonSkillId": "int_fac_battle_cannon_2_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_cannon_2",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "7BA648CABEEA55AF",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "F299E4AD38565B7D",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_cannon_2_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_frost_1": {
+    "attackCost": 400,
+    "attackRange": 12.5,
+    "chargeInterval": 2,
+    "commonSkillId": "int_fac_battle_frost_1_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_frost_1",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "EDDAAC0B0EA0A83E",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "5757F9729A823325",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_frost_1_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_laser_1": {
+    "attackCost": 1200,
+    "attackRange": 12.5,
+    "chargeInterval": 8,
+    "commonSkillId": "int_fac_battle_laser_1_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_laser_1",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "FFC6BEB0CB48635A",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "8A12036BCE092DA6",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_laser_1_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_laser_2": {
+    "attackCost": 1200,
+    "attackRange": 12.5,
+    "chargeInterval": 8,
+    "commonSkillId": "int_fac_battle_laser_2_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_laser_2",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "63ADF5EA54B6EE23",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "78CDB935D352EC56",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_laser_2_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_lightning_1": {
+    "attackCost": 800,
+    "attackRange": 12.5,
+    "chargeInterval": 5,
+    "commonSkillId": "int_fac_battle_lightning_1_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_lightning_1",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "25C67F08ACF3C50D",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "6BCF04DB9344EAE3",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_lightning_1_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_medic_1": {
+    "attackCost": 6000,
+    "attackRange": 6,
+    "chargeInterval": 5,
+    "commonSkillId": "int_fac_battle_medic_1_skill",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 30000,
+    "id": "battle_medic_1",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "8496F839FB42A001",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "003B08745A54E91B",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_medic_1_skill",
+    "relateTempBuildingId": ""
+  },
+  "battle_shockwave_1": {
+    "attackCost": 600,
+    "attackRange": 9,
+    "chargeInterval": 6,
+    "commonSkillId": "int_fac_battle_shockwave_1_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_shockwave_1",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "139C49104926CEFA",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "71D04B71BD71585D",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_shockwave_1_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_sniper_1": {
+    "attackCost": 500,
+    "attackRange": 20,
+    "chargeInterval": 5,
+    "commonSkillId": "int_fac_battle_sniper_1_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_sniper_1",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "133A2B3CD8E02116",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "816118501B14A7A7",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_sniper_1_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_turret_1": {
+    "attackCost": 100,
+    "attackRange": 12,
+    "chargeInterval": 1,
+    "commonSkillId": "int_fac_battle_turret_1_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_turret_1",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "A9962D3E311D012D",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "0CBB31F51FEFB5F3",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_turret_1_skill_plus",
+    "relateTempBuildingId": ""
+  },
+  "battle_turret_2": {
+    "attackCost": 100,
+    "attackRange": 12,
+    "chargeInterval": 1,
+    "commonSkillId": "int_fac_battle_turret_2_skill_plus",
+    "energyChargeCount": 100,
+    "energyChargeMillSec": 1000,
+    "energyMax": 2000,
+    "id": "battle_turret_2",
+    "minAttackRange": 0,
+    "normalDesc": {
+      "id": "91978D0ADB0809BE",
+      "text": ""
+    },
+    "overloadDesc": {
+      "id": "5020717D7D244DB6",
+      "text": ""
+    },
+    "overloadSkillId": "int_fac_battle_turret_2_skill_plus",
+    "relateTempBuildingId": ""
+  }
+}

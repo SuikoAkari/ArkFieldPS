@@ -1,0 +1,110 @@
+{
+  "1": {
+    "adventureBookStage": 1,
+    "rewardId": "reward_adventure_book_stage_1",
+    "taskIds": [
+      "ab_01_01",
+      "ab_01_02",
+      "ab_01_03",
+      "ab_01_04",
+      "ab_01_05",
+      "ab_01_06"
+    ]
+  },
+  "2": {
+    "adventureBookStage": 2,
+    "rewardId": "reward_adventure_book_stage_2",
+    "taskIds": [
+      "ab_02_01",
+      "ab_02_02",
+      "ab_02_03",
+      "ab_02_04",
+      "ab_02_05",
+      "ab_02_06"
+    ]
+  },
+  "3": {
+    "adventureBookStage": 3,
+    "rewardId": "reward_adventure_book_stage_3",
+    "taskIds": [
+      "ab_03_01",
+      "ab_03_02",
+      "ab_03_03",
+      "ab_03_04",
+      "ab_03_05",
+      "ab_03_06"
+    ]
+  },
+  "4": {
+    "adventureBookStage": 4,
+    "rewardId": "reward_adventure_book_stage_4",
+    "taskIds": [
+      "ab_04_01",
+      "ab_04_02",
+      "ab_04_03",
+      "ab_04_04",
+      "ab_04_05",
+      "ab_04_06"
+    ]
+  },
+  "5": {
+    "adventureBookStage": 5,
+    "rewardId": "reward_adventure_book_stage_5",
+    "taskIds": [
+      "ab_05_01",
+      "ab_05_02",
+      "ab_05_03",
+      "ab_05_04",
+      "ab_05_05",
+      "ab_05_06"
+    ]
+  },
+  "6": {
+    "adventureBookStage": 6,
+    "rewardId": "reward_adventure_book_stage_6",
+    "taskIds": [
+      "ab_06_01",
+      "ab_06_02",
+      "ab_06_03",
+      "ab_06_04",
+      "ab_06_05",
+      "ab_06_06"
+    ]
+  },
+  "7": {
+    "adventureBookStage": 7,
+    "rewardId": "reward_adventure_book_stage_7",
+    "taskIds": [
+      "ab_07_01",
+      "ab_07_02",
+      "ab_07_03",
+      "ab_07_04",
+      "ab_07_05",
+      "ab_07_06"
+    ]
+  },
+  "8": {
+    "adventureBookStage": 8,
+    "rewardId": "reward_adventure_book_stage_8",
+    "taskIds": [
+      "ab_08_01",
+      "ab_08_02",
+      "ab_08_03",
+      "ab_08_04",
+      "ab_08_05",
+      "ab_08_06"
+    ]
+  },
+  "9": {
+    "adventureBookStage": 9,
+    "rewardId": "reward_adventure_book_stage_9",
+    "taskIds": [
+      "ab_09_01",
+      "ab_09_02",
+      "ab_09_03",
+      "ab_09_04",
+      "ab_09_05",
+      "ab_09_06"
+    ]
+  }
+}

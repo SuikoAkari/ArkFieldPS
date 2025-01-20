@@ -1,0 +1,16 @@
+{
+  "apRecoverValue": 40,
+  "apRecoverValueByMoney": 40,
+  "dungeonFactoryCategory": "dungeon_factory",
+  "dungeonTrainEmptyTabCount": 1,
+  "dungeonTrainSeriesIds": [
+    "dung_group_train01"
+  ],
+  "initStaminaLimit": 120,
+  "recoverApByMoneyDailyLimit": 0,
+  "recoverApItemId": "item_ap_supply_nlt",
+  "recoverApMoneyId": "item_originium_recharge",
+  "staminaCapacity": 1000,
+  "staminaRecoverDuration": 432,
+  "staminaRecoverValue": 1
+}

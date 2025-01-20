@@ -1,0 +1,362 @@
+{
+  "wiki_type_building": {
+    "list": [
+      {
+        "groupId": "wiki_group_building_source",
+        "groupName": {
+          "id": "BC386AE1961FFD38",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_building_source"
+      },
+      {
+        "groupId": "wiki_group_building_basic",
+        "groupName": {
+          "id": "9F7AD9BEC31ABD1F",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_building_basic"
+      },
+      {
+        "groupId": "wiki_group_building_assemble",
+        "groupName": {
+          "id": "6074933D7F87892E",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_building_assemble"
+      },
+      {
+        "groupId": "wiki_group_building_logistic",
+        "groupName": {
+          "id": "69268F39EBAF0EDE",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_building_logistic"
+      },
+      {
+        "groupId": "wiki_group_building_electric",
+        "groupName": {
+          "id": "041A03D2159013EE",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_building_electric"
+      },
+      {
+        "groupId": "wiki_group_building_extra",
+        "groupName": {
+          "id": "42711E808EAF46EF",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_building_extra"
+      },
+      {
+        "groupId": "wiki_group_building_battle",
+        "groupName": {
+          "id": "9EDF6613693DB804",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_building_battle"
+      },
+      {
+        "groupId": "wiki_group_building_soil",
+        "groupName": {
+          "id": "56699DDCDA25F153",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_building_soil"
+      }
+    ]
+  },
+  "wiki_type_equip": {
+    "list": [
+      {
+        "groupId": "wiki_group_equip_default",
+        "groupName": {
+          "id": "5C9943EBA5C5D356",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_str_01",
+        "groupName": {
+          "id": "ADB0DCB041FEE62B",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_agi_01",
+        "groupName": {
+          "id": "E85A02792AFD274D",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_wisd_01",
+        "groupName": {
+          "id": "730DD3FD97822B48",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_will_01",
+        "groupName": {
+          "id": "E8DCABDD35FE0B3D",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_criti_01",
+        "groupName": {
+          "id": "2728F24D34E4C142",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_attri_01",
+        "groupName": {
+          "id": "73B23804A9ACE6DC",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_atb_01",
+        "groupName": {
+          "id": "3444434EFFEFCD55",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_heal_01",
+        "groupName": {
+          "id": "2801DEED65421DCB",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_pulse_cryst_01",
+        "groupName": {
+          "id": "1B4812F9AEA6B8C4",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_fire_natr_01",
+        "groupName": {
+          "id": "C3D48DDDB830FF15",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_poise_01",
+        "groupName": {
+          "id": "E28AA62E530F2A77",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "suit_phy_01",
+        "groupName": {
+          "id": "62E9B5956DE9EBC9",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "domain_1",
+        "groupName": {
+          "id": "D908C0DE3C6E78E0",
+          "text": ""
+        },
+        "iconId": ""
+      },
+      {
+        "groupId": "domain_2",
+        "groupName": {
+          "id": "133CE8D1A63A2EB2",
+          "text": ""
+        },
+        "iconId": ""
+      }
+    ]
+  },
+  "wiki_type_item": {
+    "list": [
+      {
+        "groupId": "wiki_group_item_special",
+        "groupName": {
+          "id": "13E3223F6DCC6A78",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_item_special"
+      },
+      {
+        "groupId": "wiki_group_item_nature",
+        "groupName": {
+          "id": "3519F4453CA14D41",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_item_nature"
+      },
+      {
+        "groupId": "wiki_group_item_material",
+        "groupName": {
+          "id": "8CB8CB2DCEB70381",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_item_material"
+      },
+      {
+        "groupId": "wiki_group_item_nurturance",
+        "groupName": {
+          "id": "176FC9D6828866C0",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_item_nurturance"
+      },
+      {
+        "groupId": "wiki_group_item_product",
+        "groupName": {
+          "id": "2ABBE08EDDEB4B08",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_item_product"
+      },
+      {
+        "groupId": "wiki_group_item_usable",
+        "groupName": {
+          "id": "1508AA04F16B0EC0",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_item_usable"
+      },
+      {
+        "groupId": "wiki_group_item_other",
+        "groupName": {
+          "id": "6261A0B5BFAA6A51",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_item_other"
+      },
+      {
+        "groupId": "wiki_group_item_gift",
+        "groupName": {
+          "id": "598C94B7F410D044",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_item_gift"
+      }
+    ]
+  },
+  "wiki_type_monster": {
+    "list": [
+      {
+        "groupId": "wiki_group_monster_angel",
+        "groupName": {
+          "id": "ABDFD067CDCE7C28",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_monster_angel"
+      },
+      {
+        "groupId": "wiki_group_monster_landbreaker",
+        "groupName": {
+          "id": "576E5FAC7FF69795",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_monster_landbreaker"
+      },
+      {
+        "groupId": "wiki_group_monster_hongshan",
+        "groupName": {
+          "id": "51D3E8C33A974115",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_monster_hongshan"
+      }
+    ]
+  },
+  "wiki_type_tutorial": {
+    "list": [
+      {
+        "groupId": "wiki_group_tutorial_adventure",
+        "groupName": {
+          "id": "6897FF769219ED14",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_guide_adventure"
+      },
+      {
+        "groupId": "wiki_group_tutorial_factory",
+        "groupName": {
+          "id": "6725056B7A6F913C",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_guide_factory"
+      },
+      {
+        "groupId": "wiki_group_tutorial_battle",
+        "groupName": {
+          "id": "1120D357D3006163",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_guide_battle"
+      }
+    ]
+  },
+  "wiki_type_weapon": {
+    "list": [
+      {
+        "groupId": "wiki_group_weapon_sword",
+        "groupName": {
+          "id": "FF3DAA706D0DECB4",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_weapon_sword"
+      },
+      {
+        "groupId": "wiki_group_weapon_claymores",
+        "groupName": {
+          "id": "15ED5D79B69253DD",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_weapon_claymores"
+      },
+      {
+        "groupId": "wiki_group_weapon_lance",
+        "groupName": {
+          "id": "E04FE68066B89676",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_weapon_lance"
+      },
+      {
+        "groupId": "wiki_group_weapon_pistol",
+        "groupName": {
+          "id": "93DEBC15CF4D1F95",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_weapon_pistol"
+      },
+      {
+        "groupId": "wiki_group_weapon_wand",
+        "groupName": {
+          "id": "BEF1A5BB40162766",
+          "text": ""
+        },
+        "iconId": "icon_wiki_group_weapon_wand"
+      }
+    ]
+  }
+}

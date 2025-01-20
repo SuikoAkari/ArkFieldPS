@@ -1,0 +1,10 @@
+{
+  "liquid_storager_1": {
+    "capacity": 500,
+    "id": "liquid_storager_1"
+  },
+  "liquid_storager_nop_1": {
+    "capacity": 10,
+    "id": "liquid_storager_nop_1"
+  }
+}

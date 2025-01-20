@@ -1,0 +1,292 @@
+{
+  "weapon_breakthrough_3star": {
+    "list": [
+      {
+        "breakItemList": [
+          {
+            "count": 0,
+            "id": "item_weapon_break_low"
+          }
+        ],
+        "breakthroughGold": 0,
+        "breakthroughLv": 1,
+        "breakthroughShowLv": 0,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 1,
+            "upperBound": 3
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ]
+      },
+      {
+        "breakItemList": [
+          {
+            "count": 6,
+            "id": "item_weapon_break_low"
+          },
+          {
+            "count": 3,
+            "id": "item_plant_spcstone_1_1"
+          }
+        ],
+        "breakthroughGold": 3000,
+        "breakthroughLv": 20,
+        "breakthroughShowLv": 1,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 2,
+            "upperBound": 5
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ]
+      },
+      {
+        "breakItemList": [
+          {
+            "count": 24,
+            "id": "item_weapon_break_low"
+          },
+          {
+            "count": 3,
+            "id": "item_plant_spcstone_1_2"
+          }
+        ],
+        "breakthroughGold": 12000,
+        "breakthroughLv": 40,
+        "breakthroughShowLv": 2,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 3,
+            "upperBound": 6
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ]
+      },
+      {
+        "breakItemList": [
+          {
+            "count": 18,
+            "id": "item_weapon_break_high"
+          },
+          {
+            "count": 3,
+            "id": "item_plant_spcstone_1_3"
+          }
+        ],
+        "breakthroughGold": 24000,
+        "breakthroughLv": 60,
+        "breakthroughShowLv": 3,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 4,
+            "upperBound": 8
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ]
+      },
+      {
+        "breakItemList": [
+          {
+            "count": 27,
+            "id": "item_weapon_break_high"
+          },
+          {
+            "count": 8,
+            "id": "item_plant_spcstone_2_1"
+          }
+        ],
+        "breakthroughGold": 54000,
+        "breakthroughLv": 70,
+        "breakthroughShowLv": 4,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 5,
+            "upperBound": 9
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ]
+      }
+    ]
+  },
+  "weapon_breakthrough_456star": {
+    "list": [
+      {
+        "breakItemList": [
+          {
+            "count": 0,
+            "id": "item_weapon_break_low"
+          }
+        ],
+        "breakthroughGold": 0,
+        "breakthroughLv": 1,
+        "breakthroughShowLv": 0,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 1,
+            "upperBound": 3
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 3
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          }
+        ]
+      },
+      {
+        "breakItemList": [
+          {
+            "count": 6,
+            "id": "item_weapon_break_low"
+          },
+          {
+            "count": 3,
+            "id": "item_plant_spcstone_1_1"
+          }
+        ],
+        "breakthroughGold": 3000,
+        "breakthroughLv": 20,
+        "breakthroughShowLv": 1,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 2,
+            "upperBound": 5
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 4
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          }
+        ]
+      },
+      {
+        "breakItemList": [
+          {
+            "count": 24,
+            "id": "item_weapon_break_low"
+          },
+          {
+            "count": 3,
+            "id": "item_plant_spcstone_1_2"
+          }
+        ],
+        "breakthroughGold": 12000,
+        "breakthroughLv": 40,
+        "breakthroughShowLv": 2,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 2,
+            "upperBound": 6
+          },
+          {
+            "lowerBound": 2,
+            "upperBound": 6
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          }
+        ]
+      },
+      {
+        "breakItemList": [
+          {
+            "count": 18,
+            "id": "item_weapon_break_high"
+          },
+          {
+            "count": 3,
+            "id": "item_plant_spcstone_1_3"
+          }
+        ],
+        "breakthroughGold": 24000,
+        "breakthroughLv": 60,
+        "breakthroughShowLv": 3,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 3,
+            "upperBound": 8
+          },
+          {
+            "lowerBound": 2,
+            "upperBound": 7
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          }
+        ]
+      },
+      {
+        "breakItemList": [
+          {
+            "count": 27,
+            "id": "item_weapon_break_high"
+          },
+          {
+            "count": 8,
+            "id": "item_plant_spcstone_2_1"
+          }
+        ],
+        "breakthroughGold": 54000,
+        "breakthroughLv": 70,
+        "breakthroughShowLv": 4,
+        "skillLevelBounds": [
+          {
+            "lowerBound": 3,
+            "upperBound": 9
+          },
+          {
+            "lowerBound": 3,
+            "upperBound": 9
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 7
+          }
+        ]
+      }
+    ]
+  }
+}

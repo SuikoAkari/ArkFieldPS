@@ -1,0 +1,170 @@
+{
+  "mission_blc_e1m1": {
+    "difficulty": {
+      "id": "681F7A82210CB4AA",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m1"
+  },
+  "mission_blc_e1m10": {
+    "difficulty": {
+      "id": "DC826BF7E71CE0BE",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m10"
+  },
+  "mission_blc_e1m11": {
+    "difficulty": {
+      "id": "E1F41963E325DF5F",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m11"
+  },
+  "mission_blc_e1m12": {
+    "difficulty": {
+      "id": "69E08FD974084E88",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m12"
+  },
+  "mission_blc_e1m13": {
+    "difficulty": {
+      "id": "47B8ACC1E4C8D37F",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m13"
+  },
+  "mission_blc_e1m14": {
+    "difficulty": {
+      "id": "A7925AEE4CB31D3E",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m14"
+  },
+  "mission_blc_e1m15": {
+    "difficulty": {
+      "id": "951C22533E6B2E59",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m15"
+  },
+  "mission_blc_e1m16": {
+    "difficulty": {
+      "id": "35AF1EE2994AF636",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m16"
+  },
+  "mission_blc_e1m17": {
+    "difficulty": {
+      "id": "F7DEBB876E1E7828",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m17"
+  },
+  "mission_blc_e1m18": {
+    "difficulty": {
+      "id": "DDC3277647596825",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m18"
+  },
+  "mission_blc_e1m19": {
+    "difficulty": {
+      "id": "1B93D8E18A4EE9E1",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m19"
+  },
+  "mission_blc_e1m2": {
+    "difficulty": {
+      "id": "F4673AF03CA300AF",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m2"
+  },
+  "mission_blc_e1m20": {
+    "difficulty": {
+      "id": "82452F38CBEEF5BC",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m20"
+  },
+  "mission_blc_e1m21": {
+    "difficulty": {
+      "id": "E49ABA5A99DB65CB",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m21"
+  },
+  "mission_blc_e1m22": {
+    "difficulty": {
+      "id": "DB75E78003D811D9",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m22"
+  },
+  "mission_blc_e1m23": {
+    "difficulty": {
+      "id": "655E2860DF3FFE61",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m23"
+  },
+  "mission_blc_e1m24": {
+    "difficulty": {
+      "id": "31195EE58B69D230",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m24"
+  },
+  "mission_blc_e1m3": {
+    "difficulty": {
+      "id": "6CCB71690841BD2E",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m3"
+  },
+  "mission_blc_e1m4": {
+    "difficulty": {
+      "id": "09DB9353A0174995",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m4"
+  },
+  "mission_blc_e1m5": {
+    "difficulty": {
+      "id": "10920857FD217562",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m5"
+  },
+  "mission_blc_e1m6": {
+    "difficulty": {
+      "id": "ED9D759C3B3F8941",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m6"
+  },
+  "mission_blc_e1m7": {
+    "difficulty": {
+      "id": "9E9A738D96A43CC9",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m7"
+  },
+  "mission_blc_e1m8": {
+    "difficulty": {
+      "id": "B3FB4A8A902EC416",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m8"
+  },
+  "mission_blc_e1m9": {
+    "difficulty": {
+      "id": "86B98EC0C803CA12",
+      "text": ""
+    },
+    "missionId": "mission_blc_e1m9"
+  }
+}

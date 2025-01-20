@@ -1,0 +1,919 @@
+{
+  "battle_cannon_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_cannon_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_cannon_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 21,
+    "sortId": 27,
+    "usableLevel": 1
+  },
+  "battle_cannon_2": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_cannon_2",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_cannon_2"
+      }
+    ],
+    "rarity": 4,
+    "showingType": 21,
+    "sortId": 28,
+    "usableLevel": 1
+  },
+  "battle_frost_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_frost_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_frost_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 21,
+    "sortId": 30,
+    "usableLevel": 1
+  },
+  "battle_laser_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_laser_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_laser_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 21,
+    "sortId": 32,
+    "usableLevel": 1
+  },
+  "battle_laser_2": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_laser_2",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_laser_2"
+      }
+    ],
+    "rarity": 4,
+    "showingType": 21,
+    "sortId": 33,
+    "usableLevel": 1
+  },
+  "battle_lightning_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_lightning_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_lightning_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 21,
+    "sortId": 29,
+    "usableLevel": 1
+  },
+  "battle_medic_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_medic_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_medic_1"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 21,
+    "sortId": 26,
+    "usableLevel": 1
+  },
+  "battle_shockwave_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_shockwave_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_shockwave_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 21,
+    "sortId": 31,
+    "usableLevel": 1
+  },
+  "battle_sniper_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_sniper_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_sniper_1"
+      }
+    ],
+    "rarity": 4,
+    "showingType": 21,
+    "sortId": 25,
+    "usableLevel": 1
+  },
+  "battle_turret_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_turret_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_turret_1"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 21,
+    "sortId": 23,
+    "usableLevel": 1
+  },
+  "battle_turret_2": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "battle_turret_2",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_battle_turret_2"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 21,
+    "sortId": 24,
+    "usableLevel": 1
+  },
+  "component_mc_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "component_mc_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_cmpt_mc_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 2,
+    "sortId": 10,
+    "usableLevel": 1
+  },
+  "dumper_1": {
+    "belongingGroupIds": [
+      "factech_recipe_jinlong"
+    ],
+    "defaultUnlock": false,
+    "id": "dumper_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_dumper_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 2,
+    "sortId": 104,
+    "usableLevel": 1
+  },
+  "filling_powder_mc_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "filling_powder_mc_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_filling_pd_mc_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 3,
+    "sortId": 13,
+    "usableLevel": 1
+  },
+  "furnance_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": true,
+    "id": "furnance_1",
+    "ingredients": [
+      {
+        "count": 5,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_furnance_1"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 2,
+    "sortId": 7,
+    "usableLevel": 1
+  },
+  "grinder_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": true,
+    "id": "grinder_1",
+    "ingredients": [
+      {
+        "count": 5,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_grinder_1"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 2,
+    "sortId": 8,
+    "usableLevel": 1
+  },
+  "liquid_cleaner_1": {
+    "belongingGroupIds": [
+      "factech_recipe_jinlong"
+    ],
+    "defaultUnlock": false,
+    "id": "liquid_cleaner_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_copper_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_liquid_cleaner_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 2,
+    "sortId": 105,
+    "usableLevel": 1
+  },
+  "liquid_stoager_1": {
+    "belongingGroupIds": [
+      "factech_recipe_jinlong"
+    ],
+    "defaultUnlock": false,
+    "id": "liquid_stoager_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_liquid_storager_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 23,
+    "sortId": 106,
+    "usableLevel": 1
+  },
+  "loader_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "loader_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_loader_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 23,
+    "sortId": 17,
+    "usableLevel": 1
+  },
+  "miner_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": true,
+    "id": "miner_1",
+    "ingredients": [
+      {
+        "count": 5,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_miner_1"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 1,
+    "sortId": 1,
+    "usableLevel": 1
+  },
+  "miner_2": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "miner_2",
+    "ingredients": [
+      {
+        "count": 1,
+        "id": "item_port_miner_1"
+      },
+      {
+        "count": 5,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_miner_2"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 1,
+    "sortId": 2,
+    "usableLevel": 1
+  },
+  "miner_3": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "miner_3",
+    "ingredients": [
+      {
+        "count": 1,
+        "id": "item_port_miner_1"
+      },
+      {
+        "count": 10,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_miner_3"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 1,
+    "sortId": 3,
+    "usableLevel": 1
+  },
+  "miner_4": {
+    "belongingGroupIds": [
+      "factech_recipe_jinlong"
+    ],
+    "defaultUnlock": false,
+    "id": "miner_4",
+    "ingredients": [
+      {
+        "count": 1,
+        "id": "item_port_miner_1"
+      },
+      {
+        "count": 10,
+        "id": "item_copper_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_miner_4"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 1,
+    "sortId": 102,
+    "usableLevel": 1
+  },
+  "mix_pool_1": {
+    "belongingGroupIds": [
+      "factech_recipe_jinlong"
+    ],
+    "defaultUnlock": false,
+    "id": "mix_pool_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_mix_pool_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 3,
+    "sortId": 103,
+    "usableLevel": 1
+  },
+  "planter_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "planter_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 10,
+        "id": "item_carbon_mtl"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_planter_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 2,
+    "sortId": 15,
+    "usableLevel": 1
+  },
+  "power_diffuser_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": true,
+    "id": "power_diffuser_1",
+    "ingredients": [
+      {
+        "count": 5,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_power_diffuser_1"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 22,
+    "sortId": 5,
+    "usableLevel": 1
+  },
+  "power_pole_2": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": true,
+    "id": "power_pole_2",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_power_pole_2"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 22,
+    "sortId": 6,
+    "usableLevel": 1
+  },
+  "power_station_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "power_station_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_shell"
+      },
+      {
+        "count": 10,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_power_sta_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 22,
+    "sortId": 4,
+    "usableLevel": 1
+  },
+  "pump_1": {
+    "belongingGroupIds": [
+      "factech_recipe_jinlong"
+    ],
+    "defaultUnlock": false,
+    "id": "pump_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_pump_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 1,
+    "sortId": 101,
+    "usableLevel": 1
+  },
+  "seedcollector_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "seedcollector_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_seedcol_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 2,
+    "sortId": 16,
+    "usableLevel": 1
+  },
+  "shaper_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "shaper_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_shaper_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 2,
+    "sortId": 11,
+    "usableLevel": 1
+  },
+  "squirter_1": {
+    "belongingGroupIds": [
+      "factech_recipe_jinlong"
+    ],
+    "defaultUnlock": false,
+    "id": "squirter_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_copper_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_squirter_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 23,
+    "sortId": 107,
+    "usableLevel": 1
+  },
+  "storager_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "storager_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_storager_1"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 23,
+    "sortId": 19,
+    "usableLevel": 1
+  },
+  "thickener_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "thickener_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_thickener_1"
+      }
+    ],
+    "rarity": 4,
+    "showingType": 3,
+    "sortId": 14,
+    "usableLevel": 1
+  },
+  "tools_assebling_mc_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "tools_assebling_mc_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_tools_asm_mc_1"
+      }
+    ],
+    "rarity": 3,
+    "showingType": 3,
+    "sortId": 12,
+    "usableLevel": 1
+  },
+  "travel_pole_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "travel_pole_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_travel_pole_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 23,
+    "sortId": 20,
+    "usableLevel": 1
+  },
+  "travel_pole_2": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "travel_pole_2",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_enr_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_travel_pole_2"
+      }
+    ],
+    "rarity": 4,
+    "showingType": 23,
+    "sortId": 21,
+    "usableLevel": 1
+  },
+  "unloader_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "unloader_1",
+    "ingredients": [
+      {
+        "count": 20,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_unloader_1"
+      }
+    ],
+    "rarity": 2,
+    "showingType": 23,
+    "sortId": 18,
+    "usableLevel": 1
+  },
+  "winder_1": {
+    "belongingGroupIds": [
+      "factech_recipe_tundra"
+    ],
+    "defaultUnlock": false,
+    "id": "winder_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcomes": [
+      {
+        "count": 1,
+        "id": "item_port_winder_1"
+      }
+    ],
+    "rarity": 1,
+    "showingType": 2,
+    "sortId": 9,
+    "usableLevel": 1
+  }
+}

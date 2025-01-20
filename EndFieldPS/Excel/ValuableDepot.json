@@ -1,0 +1,138 @@
+{
+  "1": {
+    "gridLimit": 2000,
+    "icon": "valuable_depot_weapon_icon",
+    "isHidden": false,
+    "name": {
+      "id": "7C1AB2C71CD7A58E",
+      "text": ""
+    },
+    "sortId": 1,
+    "storageItemType": [
+      5
+    ],
+    "type": 1
+  },
+  "2": {
+    "gridLimit": 2000,
+    "icon": "valuable_depot_gem_icon",
+    "isHidden": false,
+    "name": {
+      "id": "958DE281826974C4",
+      "text": ""
+    },
+    "sortId": 2,
+    "storageItemType": [
+      19
+    ],
+    "type": 2
+  },
+  "3": {
+    "gridLimit": 500,
+    "icon": "valuable_depot_equip_icon",
+    "isHidden": false,
+    "name": {
+      "id": "02D7AEA1C06C898A",
+      "text": ""
+    },
+    "sortId": 3,
+    "storageItemType": [
+      6
+    ],
+    "type": 3
+  },
+  "4": {
+    "gridLimit": 1500,
+    "icon": "valuable_depot_exp_icon",
+    "isHidden": false,
+    "name": {
+      "id": "9F08CB6A58BD3F8A",
+      "text": ""
+    },
+    "sortId": 4,
+    "storageItemType": [
+      7,
+      27,
+      25,
+      26,
+      45,
+      34
+    ],
+    "type": 4
+  },
+  "5": {
+    "gridLimit": 1000,
+    "icon": "valuable_depot_quest_item_icon",
+    "isHidden": false,
+    "name": {
+      "id": "15BB9AA26FDA07E7",
+      "text": ""
+    },
+    "sortId": 5,
+    "storageItemType": [
+      13
+    ],
+    "type": 5
+  },
+  "7": {
+    "gridLimit": 1000,
+    "icon": "valuable_depot_quest_item_icon",
+    "isHidden": true,
+    "name": {
+      "id": "B7998A214518D156",
+      "text": ""
+    },
+    "sortId": 100,
+    "storageItemType": [
+      32,
+      37,
+      51
+    ],
+    "type": 7
+  },
+  "8": {
+    "gridLimit": 100,
+    "icon": "valuable_depot_quest_item_icon",
+    "isHidden": true,
+    "name": {
+      "id": "434943F17457D952",
+      "text": ""
+    },
+    "sortId": 100,
+    "storageItemType": [
+      36
+    ],
+    "type": 8
+  },
+  "9": {
+    "gridLimit": 100,
+    "icon": "",
+    "isHidden": true,
+    "name": {
+      "id": "8597B48D0B5F8555",
+      "text": ""
+    },
+    "sortId": 100,
+    "storageItemType": [],
+    "type": 9
+  },
+  "10": {
+    "gridLimit": 1000,
+    "icon": "valuable_depot_commercial_item_icon",
+    "isHidden": false,
+    "name": {
+      "id": "238262F094EA0D4F",
+      "text": ""
+    },
+    "sortId": 6,
+    "storageItemType": [
+      14,
+      22,
+      42,
+      49,
+      43,
+      33
+    ],
+    "type": 10
+  }
+}

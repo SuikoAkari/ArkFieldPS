@@ -1,0 +1,370 @@
+{
+  "tag_disposition_active": {
+    "tagGroupId": "tag_group_disposition",
+    "tagId": "tag_disposition_active",
+    "tagName": {
+      "id": "B1DD5312C8975758",
+      "text": ""
+    }
+  },
+  "tag_disposition_casual": {
+    "tagGroupId": "tag_group_disposition",
+    "tagId": "tag_disposition_casual",
+    "tagName": {
+      "id": "5C3950B23A5F6AE2",
+      "text": ""
+    }
+  },
+  "tag_disposition_diligent": {
+    "tagGroupId": "tag_group_disposition",
+    "tagId": "tag_disposition_diligent",
+    "tagName": {
+      "id": "8CDE969DD4B3D413",
+      "text": ""
+    }
+  },
+  "tag_disposition_extrovert": {
+    "tagGroupId": "tag_group_disposition",
+    "tagId": "tag_disposition_extrovert",
+    "tagName": {
+      "id": "5FCE48AD3D757EBF",
+      "text": ""
+    }
+  },
+  "tag_disposition_inactive": {
+    "tagGroupId": "tag_group_disposition",
+    "tagId": "tag_disposition_inactive",
+    "tagName": {
+      "id": "8526C9F2C6D622FB",
+      "text": ""
+    }
+  },
+  "tag_disposition_introvert": {
+    "tagGroupId": "tag_group_disposition",
+    "tagId": "tag_disposition_introvert",
+    "tagName": {
+      "id": "B78224EDA2CA07BA",
+      "text": ""
+    }
+  },
+  "tag_disposition_secret": {
+    "tagGroupId": "tag_group_disposition",
+    "tagId": "tag_disposition_secret",
+    "tagName": {
+      "id": "BBA43451DCE25A60",
+      "text": ""
+    }
+  },
+  "tag_expert_cognition": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_cognition",
+    "tagName": {
+      "id": "DDB007E4C620C866",
+      "text": ""
+    }
+  },
+  "tag_expert_comm": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_comm",
+    "tagName": {
+      "id": "A3D7DD0A518A7DE3",
+      "text": ""
+    }
+  },
+  "tag_expert_knowledge": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_knowledge",
+    "tagName": {
+      "id": "58BF9F68DF94C549",
+      "text": ""
+    }
+  },
+  "tag_expert_melee": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_melee",
+    "tagName": {
+      "id": "CDF11223E4E532A2",
+      "text": ""
+    }
+  },
+  "tag_expert_mgmt": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_mgmt",
+    "tagName": {
+      "id": "655BEB5E6E852AEB",
+      "text": ""
+    }
+  },
+  "tag_expert_pf": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_pf",
+    "tagName": {
+      "id": "C005D764058DD8C8",
+      "text": ""
+    }
+  },
+  "tag_expert_secret": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_secret",
+    "tagName": {
+      "id": "4785F50816546B81",
+      "text": ""
+    }
+  },
+  "tag_expert_spell": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_spell",
+    "tagName": {
+      "id": "E834A5CAB5EB1BF9",
+      "text": ""
+    }
+  },
+  "tag_expert_support": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_support",
+    "tagName": {
+      "id": "E1EB064A12E3078B",
+      "text": ""
+    }
+  },
+  "tag_expert_tactics": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_tactics",
+    "tagName": {
+      "id": "1651C89C5E9601CC",
+      "text": ""
+    }
+  },
+  "tag_expert_techapp": {
+    "tagGroupId": "tag_group_expert",
+    "tagId": "tag_expert_techapp",
+    "tagName": {
+      "id": "D4D2A01800F67AB7",
+      "text": ""
+    }
+  },
+  "tag_hobby_ent": {
+    "tagGroupId": "tag_group_hobby",
+    "tagId": "tag_hobby_ent",
+    "tagName": {
+      "id": "C800EE49F7CE788C",
+      "text": ""
+    }
+  },
+  "tag_hobby_exercise": {
+    "tagGroupId": "tag_group_hobby",
+    "tagId": "tag_hobby_exercise",
+    "tagName": {
+      "id": "7BC32769578F1AA6",
+      "text": ""
+    }
+  },
+  "tag_hobby_fashion": {
+    "tagGroupId": "tag_group_hobby",
+    "tagId": "tag_hobby_fashion",
+    "tagName": {
+      "id": "E7D4E8045136C02C",
+      "text": ""
+    }
+  },
+  "tag_hobby_food": {
+    "tagGroupId": "tag_group_hobby",
+    "tagId": "tag_hobby_food",
+    "tagName": {
+      "id": "B84D37FB64B139C2",
+      "text": ""
+    }
+  },
+  "tag_hobby_knowledge": {
+    "tagGroupId": "tag_group_hobby",
+    "tagId": "tag_hobby_knowledge",
+    "tagName": {
+      "id": "432699914FCE3560",
+      "text": ""
+    }
+  },
+  "tag_hobby_leisure": {
+    "tagGroupId": "tag_group_hobby",
+    "tagId": "tag_hobby_leisure",
+    "tagName": {
+      "id": "33918A7EA7DCA772",
+      "text": ""
+    }
+  },
+  "tag_hobby_secret": {
+    "tagGroupId": "tag_group_hobby",
+    "tagId": "tag_hobby_secret",
+    "tagName": {
+      "id": "F48A4F97B39F1DD6",
+      "text": ""
+    }
+  },
+  "tag_hobby_tech": {
+    "tagGroupId": "tag_group_hobby",
+    "tagId": "tag_hobby_tech",
+    "tagName": {
+      "id": "D2DBDC04CCAE0CE0",
+      "text": ""
+    }
+  },
+  "tag_power_army": {
+    "tagGroupId": "tag_group_power",
+    "tagId": "tag_power_army",
+    "tagName": {
+      "id": "C3AA89AFB600F888",
+      "text": ""
+    }
+  },
+  "tag_power_commerce": {
+    "tagGroupId": "tag_group_power",
+    "tagId": "tag_power_commerce",
+    "tagName": {
+      "id": "66C39C57F224824F",
+      "text": ""
+    }
+  },
+  "tag_power_divider": {
+    "tagGroupId": "tag_group_power",
+    "tagId": "tag_power_divider",
+    "tagName": {
+      "id": "08FF7D0F51A265B6",
+      "text": ""
+    }
+  },
+  "tag_power_endfield": {
+    "tagGroupId": "tag_group_power",
+    "tagId": "tag_power_endfield",
+    "tagName": {
+      "id": "3EDB9CF6C7950DC5",
+      "text": ""
+    }
+  },
+  "tag_power_hongshan": {
+    "tagGroupId": "tag_group_power",
+    "tagId": "tag_power_hongshan",
+    "tagName": {
+      "id": "9657A3B7E92E9343",
+      "text": ""
+    }
+  },
+  "tag_power_monastery": {
+    "tagGroupId": "tag_group_power",
+    "tagId": "tag_power_monastery",
+    "tagName": {
+      "id": "6FCAFD9E73C09D25",
+      "text": ""
+    }
+  },
+  "tag_power_rhodes": {
+    "tagGroupId": "tag_group_power",
+    "tagId": "tag_power_rhodes",
+    "tagName": {
+      "id": "CC38993768CC270F",
+      "text": ""
+    }
+  },
+  "tag_power_tribe": {
+    "tagGroupId": "tag_group_power",
+    "tagId": "tag_power_tribe",
+    "tagName": {
+      "id": "AB2DE7B5407963DD",
+      "text": ""
+    }
+  },
+  "tag_race_angel": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_angel",
+    "tagName": {
+      "id": "772A606A775F9EB8",
+      "text": ""
+    }
+  },
+  "tag_race_bear": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_bear",
+    "tagName": {
+      "id": "A80F5C26B60860B6",
+      "text": ""
+    }
+  },
+  "tag_race_bird": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_bird",
+    "tagName": {
+      "id": "1E9BFC76A214DBD3",
+      "text": ""
+    }
+  },
+  "tag_race_deavil": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_deavil",
+    "tagName": {
+      "id": "9131B489E27F8F07",
+      "text": ""
+    }
+  },
+  "tag_race_dragon": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_dragon",
+    "tagName": {
+      "id": "A4DA4630F87F254A",
+      "text": ""
+    }
+  },
+  "tag_race_fox": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_fox",
+    "tagName": {
+      "id": "275AF739FB692004",
+      "text": ""
+    }
+  },
+  "tag_race_horse": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_horse",
+    "tagName": {
+      "id": "8247B16B24514F89",
+      "text": ""
+    }
+  },
+  "tag_race_long": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_long",
+    "tagName": {
+      "id": "37A6FA66436D9705",
+      "text": ""
+    }
+  },
+  "tag_race_rabbit": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_rabbit",
+    "tagName": {
+      "id": "0F23461EC4E81324",
+      "text": ""
+    }
+  },
+  "tag_race_rootless": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_rootless",
+    "tagName": {
+      "id": "34F99EAC65D5E888",
+      "text": ""
+    }
+  },
+  "tag_race_secret": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_secret",
+    "tagName": {
+      "id": "02BCE48916A781FC",
+      "text": ""
+    }
+  },
+  "tag_race_wolf": {
+    "tagGroupId": "tag_group_race",
+    "tagId": "tag_race_wolf",
+    "tagName": {
+      "id": "A5919D0B2BB4EB8C",
+      "text": ""
+    }
+  }
+}

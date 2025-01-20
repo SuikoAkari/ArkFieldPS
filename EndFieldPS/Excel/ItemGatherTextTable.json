@@ -1,0 +1,236 @@
+{
+  "item_drop_angle_l_1": {
+    "desc": {
+      "id": "EEBEA1C0AA08F0F9",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_angle_l_1"
+  },
+  "item_drop_angle_m_1": {
+    "desc": {
+      "id": "5997752475B96DDF",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_angle_m_1"
+  },
+  "item_drop_angle_s_1": {
+    "desc": {
+      "id": "BEDF7239F8D46AF6",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_angle_s_1"
+  },
+  "item_drop_animal_1": {
+    "desc": {
+      "id": "D38D2D2C7DE8EB80",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_animal_1"
+  },
+  "item_drop_eb_jl_m_1": {
+    "desc": {
+      "id": "1F22CC5A6A20BE9C",
+      "text": ""
+    },
+    "domainId": "domain_2",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_eb_jl_m_1"
+  },
+  "item_drop_eb_jl_s_1": {
+    "desc": {
+      "id": "B37FF7A020D7B36D",
+      "text": ""
+    },
+    "domainId": "domain_2",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_eb_jl_s_1"
+  },
+  "item_drop_eb_l_1": {
+    "desc": {
+      "id": "97972F5AFB4729A1",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_eb_l_1"
+  },
+  "item_drop_eb_m_1": {
+    "desc": {
+      "id": "E13A942CFA9871F6",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_eb_m_1"
+  },
+  "item_drop_eb_s_1": {
+    "desc": {
+      "id": "F481647A29215288",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_eb_s_1"
+  },
+  "item_drop_erosion_m_1": {
+    "desc": {
+      "id": "CE28DB8045004C50",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_erosion_m_1"
+  },
+  "item_drop_erosion_s_1": {
+    "desc": {
+      "id": "43BBF95714C6B688",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_drop_erosion_s_1"
+  },
+  "item_plant_bbflower_1": {
+    "desc": {
+      "id": "BA672B2A2E6FBBFC",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_bbflower_1"
+  },
+  "item_plant_grass_1": {
+    "desc": {
+      "id": "D412F2BE93D5916A",
+      "text": ""
+    },
+    "domainId": "domain_2",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_grass_1"
+  },
+  "item_plant_grass_2": {
+    "desc": {
+      "id": "A898390660CA44E7",
+      "text": ""
+    },
+    "domainId": "domain_2",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_grass_2"
+  },
+  "item_plant_grass_spc_1": {
+    "desc": {
+      "id": "24FBBC054C322806",
+      "text": ""
+    },
+    "domainId": "domain_2",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_grass_spc_1"
+  },
+  "item_plant_grass_spc_2": {
+    "desc": {
+      "id": "C42C6EF72D1AAF55",
+      "text": ""
+    },
+    "domainId": "domain_2",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_grass_spc_2"
+  },
+  "item_plant_moss_1": {
+    "desc": {
+      "id": "FDEB72F85403DC15",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_moss_1"
+  },
+  "item_plant_moss_2": {
+    "desc": {
+      "id": "E7E78451A42F345D",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_moss_2"
+  },
+  "item_plant_moss_spc_1": {
+    "desc": {
+      "id": "3D8FB0F36A1DA153",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_moss_spc_1"
+  },
+  "item_plant_moss_spc_2": {
+    "desc": {
+      "id": "D73B2E418A966CFE",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_moss_spc_2"
+  },
+  "item_plant_sp_1": {
+    "desc": {
+      "id": "7E2EC6B6E6FFAD48",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_sp_1"
+  },
+  "item_plant_sp_2": {
+    "desc": {
+      "id": "2C05F1D2B3DC296E",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_sp_2"
+  },
+  "item_plant_sp_3": {
+    "desc": {
+      "id": "2717CCDB9F228A65",
+      "text": ""
+    },
+    "domainId": "domain_2",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_sp_3"
+  },
+  "item_plant_sp_4": {
+    "desc": {
+      "id": "1017A0B545107313",
+      "text": ""
+    },
+    "domainId": "domain_2",
+    "icon": "icon_item_b_type_plant",
+    "id": "item_plant_sp_4"
+  },
+  "item_plant_tundra_insect_1": {
+    "desc": {
+      "id": "ABF27887EB6F53C0",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_plant_tundra_insect_1"
+  },
+  "item_plant_tundra_insect_2": {
+    "desc": {
+      "id": "6F6B709EEBCB36A7",
+      "text": ""
+    },
+    "domainId": "domain_1",
+    "icon": "icon_item_b_type_doodad",
+    "id": "item_plant_tundra_insect_2"
+  }
+}

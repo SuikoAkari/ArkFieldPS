@@ -1,0 +1,622 @@
+{
+  "0": {
+    "attributeType": 0,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "1": {
+    "attributeType": 1,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_attribute_maxHp",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "2": {
+    "attributeType": 2,
+    "bigIconName": "",
+    "defaultValue": 10,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_attribute_atk",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "3": {
+    "attributeType": 3,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_attribute_def",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "4": {
+    "attributeType": 4,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_physicalDamageTakenScalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "5": {
+    "attributeType": 5,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_fireDamageTakenScalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "6": {
+    "attributeType": 6,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_pulseDamageTakenScalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "7": {
+    "attributeType": 7,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_crystDamageTakenScalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "8": {
+    "attributeType": 8,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "9": {
+    "attributeType": 9,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_attribute_criticalRate",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "10": {
+    "attributeType": 10,
+    "bigIconName": "",
+    "defaultValue": 0.5,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_attribute_criticalDamageIncrease",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "11": {
+    "attributeType": 11,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "12": {
+    "attributeType": 12,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "13": {
+    "attributeType": 13,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": true,
+    "hasMinValue": true,
+    "iconName": "",
+    "maxValue": 3,
+    "minValue": 0.1
+  },
+  "14": {
+    "attributeType": 14,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "15": {
+    "attributeType": 15,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "16": {
+    "attributeType": 16,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "17": {
+    "attributeType": 17,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_battle_buff_atk_up",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "18": {
+    "attributeType": 18,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "19": {
+    "attributeType": 19,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "20": {
+    "attributeType": 20,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "21": {
+    "attributeType": 21,
+    "bigIconName": "",
+    "defaultValue": 10,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "22": {
+    "attributeType": 22,
+    "bigIconName": "",
+    "defaultValue": 10,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "23": {
+    "attributeType": 23,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "24": {
+    "attributeType": 24,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "25": {
+    "attributeType": 25,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "26": {
+    "attributeType": 26,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "27": {
+    "attributeType": 27,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "28": {
+    "attributeType": 28,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_battle_buff_atk_up",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "29": {
+    "attributeType": 29,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "icon_heal_output_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "30": {
+    "attributeType": 30,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "icon_heal_taken_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "31": {
+    "attributeType": 31,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "32": {
+    "attributeType": 32,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_battle_buff_atk_up",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "33": {
+    "attributeType": 33,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_battle_buff_atk_up",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "34": {
+    "attributeType": 34,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "35": {
+    "attributeType": 35,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_fire_burst_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "36": {
+    "attributeType": 36,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_pulse_burst_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "37": {
+    "attributeType": 37,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_cryst_burst_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "38": {
+    "attributeType": 38,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_natural_burst_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "39": {
+    "attributeType": 39,
+    "bigIconName": "icon_attribute_big_str",
+    "defaultValue": 0,
+    "hasMaxValue": true,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_str",
+    "maxValue": 100000,
+    "minValue": 0
+  },
+  "40": {
+    "attributeType": 40,
+    "bigIconName": "icon_attribute_big_agi",
+    "defaultValue": 0,
+    "hasMaxValue": true,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_agi",
+    "maxValue": 100000,
+    "minValue": 0
+  },
+  "41": {
+    "attributeType": 41,
+    "bigIconName": "icon_attribute_big_wisd",
+    "defaultValue": 0,
+    "hasMaxValue": true,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_wisd",
+    "maxValue": 100000,
+    "minValue": 0
+  },
+  "42": {
+    "attributeType": 42,
+    "bigIconName": "icon_attribute_big_will",
+    "defaultValue": 0,
+    "hasMaxValue": true,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_will",
+    "maxValue": 100000,
+    "minValue": 0
+  },
+  "43": {
+    "attributeType": 43,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "44": {
+    "attributeType": 44,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_ultimate_sp_gain_scalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "45": {
+    "attributeType": 45,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "46": {
+    "attributeType": 46,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "47": {
+    "attributeType": 47,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_comboskill_cooldown_scalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "48": {
+    "attributeType": 48,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "icon_attribute_natural_damage_taken_scalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "49": {
+    "attributeType": 49,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "50": {
+    "attributeType": 50,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_physical_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "51": {
+    "attributeType": 51,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_fire_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "52": {
+    "attributeType": 52,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_pulse_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "53": {
+    "attributeType": 53,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_cryst_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "54": {
+    "attributeType": 54,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_natural_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "55": {
+    "attributeType": 55,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_ether_damage_taken_scalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "56": {
+    "attributeType": 56,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_fire_abnormal_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "57": {
+    "attributeType": 57,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_pulse_abnormal_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "58": {
+    "attributeType": 58,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_cryst_abnormal_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "59": {
+    "attributeType": 59,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_natural_abnormal_damage_increase",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "60": {
+    "attributeType": 60,
+    "bigIconName": "",
+    "defaultValue": 1,
+    "hasMaxValue": false,
+    "hasMinValue": true,
+    "iconName": "icon_ether_damage_taken_scalar",
+    "maxValue": 0,
+    "minValue": 0
+  },
+  "61": {
+    "attributeType": 61,
+    "bigIconName": "",
+    "defaultValue": 0,
+    "hasMaxValue": false,
+    "hasMinValue": false,
+    "iconName": "icon_attr_damage_to_broken_unit_increase",
+    "maxValue": 0,
+    "minValue": 0
+  }
+}

@@ -1,0 +1,3974 @@
+{
+  "common_2x3_l": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_003_chips_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_003_chips_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_003_chips_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_add_endurance": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_adventureexp": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_anglel_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_anglel_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_anglem_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_anglem_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_angles_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_angles_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_animal_angles_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_animal_insec2_angles_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ap": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ap_supply_nlt": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_book_002_01": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_flower1spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_flower1spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_flower1spc_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_flower2spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_flower2spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_flower2spc_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_food_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_food_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_food_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_food_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_food_5": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_grass1spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_grass1spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_grass2spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_grass2spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_insec1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_insec1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_insec2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_insec2_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_moss_1_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_moss_2_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_moss_spc_1_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_rec_hp_0": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_rec_hp_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_rec_hp_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_rec_hp_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_rec_hp_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bottled_rec_hp_5": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_cannon_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_cannon_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_frost_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_laser_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_laser_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_lightning_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_medic_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_shockwave_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_sniper_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_turret_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_battle_turret_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_bus_supply_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_cmpt_mc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_dumper_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_filling_mode_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_filling_pd_mc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_furnance_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_furnance_mode_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_grinder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_handwork_bomb_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_handwork_equip_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_handwork_power_pole_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_handwork_power_pole_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_liquid_cleaner_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_liquid_storager_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_loader_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_miner_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_miner_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_miner_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_miner_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_mix_pool_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_mix_pool_1_unlock": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_planter_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_planter_mode_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_power_diffuser_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_power_pole_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_power_sta_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_pump_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_seedcol_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_shaper_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_shaper_mode_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_squirter_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_storager_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_thickener_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_tools_asm_mc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_travel_pole_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_travel_pole_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_unloader_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_bp_winder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_carbon_enr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_carbon_enr_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_carbon_mtl": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_carbon_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_case_example1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_case_example2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_case_example3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_case_example4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_case_example5": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_char_break_stage_1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_char_break_stage_3_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_char_skill_level_10_12": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_char_skill_level_1_6": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_char_skill_level_7_12": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0002_endminm": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0003_endminf": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0004_pelica": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0005_chen": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0006_wolfgd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0007_ikut": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0009_azrila": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0011_seraph": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0012_avywen": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0013_aglina": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0014_aurora": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0015_lifeng": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0016_laevat": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0017_yvonne": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_charpotentialup_chr_0018_dapan": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0002_endminm": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0003_endminf": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0004_pelica": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0005_chen": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0006_wolfgd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0007_ikut": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0009_azrila": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0011_seraph": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0012_avywen": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0013_aglina": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0014_aurora": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0015_lifeng": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0016_laevat": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0017_yvonne": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_chr_0018_dapan": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_collection_ether": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_collection_frag": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_collection_instance": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_copper_cmpt": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_copper_jar": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_copper_nugget": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_copper_ore": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_copper_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_corp1_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_corp1_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_corp2_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_corp2_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_corp3_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_corp3_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_corp4_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_corp4_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_crystal_enr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_crystal_enr_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_crystal_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_crystal_shell": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_daily_activation": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_databasefor006_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_databasefor006_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_databasefor006_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_diamond": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_angle_l_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_angle_m_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_angle_s_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_eb_jl_m_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_eb_jl_s_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_eb_l_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_eb_m_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_eb_s_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_enemycommon_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_erosion_m_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_drop_erosion_s_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_e1m1_treasure": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_e2m2_ID": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ebl_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ebl_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ebm_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ebm_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ebs_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ebs_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_equip_script_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_equip_script_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_equip_script_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_equip_script_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_erosionm_corp3_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_erosionm_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_erosions_corp3_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_erosions_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_expcard_stage1_high": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_expcard_stage1_low": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_expcard_stage1_mid": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_expcard_stage2_high": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_expcard_stage2_low": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_f1m7_Medi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_f1m9_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_factech_jinlong_key": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_factech_jinlong_point": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_factech_tundra_bus_lv1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_factech_tundra_bus_lv2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_factech_tundra_field_lv1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_factech_tundra_field_lv2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_factech_tundra_key": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_factech_tundra_point": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_fbottle_copper_grass_1": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_copper_grass_2": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_copper_sewage": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_copper_water": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_glass_grass_1": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_glass_grass_2": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_glass_sewage": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_glass_water": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_glassenr_grass_1": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_glassenr_grass_2": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_glassenr_sewage": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_glassenr_water": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_iron_grass_1": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_iron_grass_2": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_iron_sewage": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_iron_water": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_ironenr2_grass_1": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_ironenr2_grass_2": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_ironenr2_sewage": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_ironenr2_water": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_ironenr_grass_1": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_ironenr_grass_2": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_ironenr_sewage": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_fbottle_ironenr_water": {
+    "audioDrag": "Au_UI_Item_Drag_Bottle",
+    "audioDrop": "Au_UI_Item_Put_Bottle"
+  },
+  "item_formu_t05_body_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t05_body_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t05_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t05_hand_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t1_body_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t1_body_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t1_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t1_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t1_hand_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t1_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_body_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_body_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_body_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_body_02_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_edc_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_edc_02_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_hand_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_hand_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t2_hand_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_body_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_body_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_body_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_body_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_02_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_02_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_02_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_02_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_edc_02_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_hand_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_hand_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_hand_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_hand_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t3_hand_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_body_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_02_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_03_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_03_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_03_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_edc_04_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t4_hand_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_01_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_02_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_body_02_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_01_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_02_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_03_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_03_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_03_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_03_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_03_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_03_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_03_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_edc_04_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_01_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_02_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_02_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formu_t5_hand_02_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_anglel_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_anglel_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_anglem_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_anglem_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_angles_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_angles_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_animal_angles_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_animal_insec2_angles_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_flower1spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_flower1spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_flower1spc_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_flower2spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_flower2spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_flower2spc_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_food_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_food_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_food_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_food_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_food_5": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_grass1spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_grass1spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_grass2spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_grass2spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_insec1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_insec1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_insec2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_insec2_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_moss_1_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_moss_2_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_moss_spc_1_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_rec_hp_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_rec_hp_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_rec_hp_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_rec_hp_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_bottled_rec_hp_5": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_corp1_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_corp1_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_corp2_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_corp2_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_corp3_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_corp3_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_corp4_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_corp4_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_ebl_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_ebl_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_ebm_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_ebm_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_ebs_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_ebs_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_erosionm_corp3_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_erosionm_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_erosions_corp3_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_erosions_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_bbflower_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_grass_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_grass_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_moss_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_moss_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_moss_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_sp_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_sp_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_sp_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_field_sp_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_jlebm_corp4_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_jlebm_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_jlebs_corp4_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_jlebs_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_legend_tea_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_plant_grass_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_plant_grass_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_plant_grass_spc_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_plant_grass_spc_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_plant_moss_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_plant_moss_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_plant_moss_spc_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_plant_moss_spc_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_formula_proc_bomb_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gachabyproducts_charticket": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gachabyproducts_weapongold": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gachabyproducts_weaponticket": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gem_rarity_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gem_rarity_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gem_rarity_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gem_rarity_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gem_rarity_5": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_ent_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_ent_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_ent_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_ent_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_exercise_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_exercise_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_fashion_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_fashion_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_fashion_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_food_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_food_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_food_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_food_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_knowledge_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_knowledge_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_leisure_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_tech_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gift_tech_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_glass_bottle": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_glass_cmpt": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_glass_enr_bottle": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_glass_enr_cmpt": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gm01m10_watch": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gm01m16_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_gold": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_hub_key": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_bottle": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_cmpt": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_enr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_enr_bottle": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_enr_cmpt": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_enr_jar": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_enr_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_nugget": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_ore": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_iron_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_jlebm_corp4_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_jlebm_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_jlebs_corp4_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_jlebs_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_legend_tea_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_anglel_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_anglel_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_anglem_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_anglem_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_angles_corp1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_angles_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_animal_angles_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_animal_insec2_angles_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_bottled_insec2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_bottled_insec2_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_corp1_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_corp1_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_corp2_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_corp2_flower2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_corp3_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_corp3_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_corp4_animal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_corp4_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_ebl_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_ebl_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_ebm_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_ebm_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_ebs_corp2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_ebs_flower1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_erosionm_corp3_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_erosionm_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_erosions_corp3_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_erosions_grass2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_jlebm_corp4_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_jlebm_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_jlebs_corp4_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_levelup_jlebs_grass1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_liquid_plant_grass_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_liquid_plant_grass_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_liquid_sewage": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_liquid_water": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_liquidpoint_plant_grass_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_liquidpoint_plant_grass_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_liquidpoint_sewage": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_liquidpoint_water": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_belt_01": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_connector": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_converger": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_pipe_01": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_pipe_connector": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_pipe_converger": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_pipe_repeater": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_pipe_splitter": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_router": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_log_splitter": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_m1m8_grassSample_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_m1m8_grassSample_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_m1m8_grassSample_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_m1m8_grassSample_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_minepoint_copper_ore": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_minepoint_iron_ore": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_minepoint_originium_ore": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_minepoint_quartz_sand": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_c13_pack1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_c13_pack2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_c13_pack3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_c1m1_wolftracker": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_e2m3_key": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_e4m1_tatapica": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_e4m1_tatapicb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_sm1l2m2_key": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_sm1l2m2_metal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_sm1l2m3_aedkit": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_sm1l3m3_elevatorcard": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_sm1l3m4_keycard": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_sm1l6m2_brokenmedicinebox": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_mission_tianshi_talisman": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_originium_enr_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_originium_ore": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_originium_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_originium_recharge": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_paper_001_01": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_paper_001_02": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_paper_002_01": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_paper_002_02": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_paper_002_03": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_bbflower_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_bbflower_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_bbflower_seed_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_crylplant_1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_crylplant_1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_crylplant_1_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_crylplant_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_crylplant_seed_1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_crylplant_seed_1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_crylplant_seed_1_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_crylplant_seed_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_seed_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_seed_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_spc_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_grass_spc_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_enr_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_enr_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_powder_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_seed_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_seed_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_seed_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_spc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_spc_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_moss_spc_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_1_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_seed_1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_seed_1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_seed_1_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_seed_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_mushroom_spc_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_seed_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_seed_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_seed_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_seed_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_sp_spc_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_spcstone_1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_spcstone_1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_spcstone_1_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_spcstone_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_spcstone_seed_1_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_spcstone_seed_1_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_spcstone_seed_1_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_spcstone_seed_2_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_tundra_impts": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_tundra_insect_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_tundra_insect_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_tundra_insect_powder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_tundra_insect_powder_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_plant_tundra_wood": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_cannon_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_cannon_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_frost_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_laser_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_laser_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_lightning_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_medic_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_shockwave_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_sniper_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_turret_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_battle_turret_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_cmpt_mc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_dumper_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_dumper_nop_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_filling_pd_mc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_furnance_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_furnance_nop_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_grinder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_liquid_cleaner_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_liquid_storager_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_liquid_storager_nop_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_loader_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_miner_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_miner_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_miner_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_miner_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_mix_pool_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_planter_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_power_diffuser_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_power_gate_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_power_pole_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_power_pole_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_power_port_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_power_sta_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_power_terminal_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_pump_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_seedcol_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_shaper_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_bbflower_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_grass_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_grass_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_grass_fast_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_grass_fast_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_moss_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_moss_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_moss_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_sp_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_sp_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_sp_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_sp_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_sp_fast_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_soil_sp_fast_4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_sp_hub_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_sp_mfg_sta_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_sp_proc_sta_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_sp_rec_sta_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_sp_sub_hub_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_sp_trd_sta_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_sp_workshop_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_squirter_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_squirter_nop_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_storager_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_storager_nop_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_thickener_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_tools_asm_mc_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_travel_pole_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_travel_pole_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_travel_pole_nop_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_unloader_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_port_winder_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_proc_battery_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_proc_battery_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_proc_battery_3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_proc_bomb_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m1l2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m1l3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m1l4": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m1l5": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m1l6": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m1l6_mission": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m1l7": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m2l1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_puzzle_m2l2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quartz_enr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quartz_enr_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quartz_glass": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quartz_powder": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quartz_sand": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_building_materials": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_common_battery": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m2_bfix": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m3_fixtool": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m4_endfieldbox": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m4_ring": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m5_inhibit": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m6_battery": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m6_drug": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m6_needle": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m6_tool": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e1m8_fixbox": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e2m3_idcard": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e2m5_headdress": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e2m6_battery": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e2m6_battery2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_e2m6_fixboard": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_gpl_e2m5_trophy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_sid_e1m1_goods": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_quest_sid_e1m4_powerstation": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_record_002_01": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_rubbishKing_camera": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_rubbishKing_cd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_rubbishKing_compressor": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_rubbishKing_gift1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_rubbishKing_gift2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_rubbishKing_tool1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_rubbishKing_tool2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_rubbishKing_tool3": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_settlement_exp": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sm1l1m5_Alexander_docbag": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sm1l1m5_Eriksson_workphone": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sm1l5m1_reporter": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sm1l5m3_foodpack": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sm1l5m3_karlnote": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sm1l5m3_rice": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sm1l5m4_repair": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sm1l5m4_snack": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_sp_metal_ore_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_spaceship_cmpt_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_spaceship_cmpt_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_spaceship_jinlong_gold": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_spaceship_key_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_spaceship_tundra_gold": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_test_settlement_coin_1": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_test_settlement_coin_2": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ticketgacha_special_single": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_ticketgacha_special_ten": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t05_body_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t05_body_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t05_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t05_hand_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t1_body_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t1_body_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t1_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t1_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t1_hand_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t1_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_body_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_body_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_body_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_body_02_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_edc_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_edc_02_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_hand_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_hand_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t2_hand_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_body_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_body_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_body_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_body_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_02_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_02_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_02_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_02_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_edc_02_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_hand_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_hand_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_hand_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_hand_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t3_hand_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_body_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_02_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_03_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_03_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_03_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_edc_04_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_suit_agi": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_suit_str": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_suit_will": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_01_suit_wisd": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t4_hand_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_01_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_02_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_body_02_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_parts_def": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_01_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_parts_spe": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_02_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_03_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_03_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_03_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_03_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_03_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_03_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_03_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_edc_04_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_suit_attri": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_suit_heal": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_suit_poise": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_01_suit_pulse_cryst": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_02_parts_atk": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_02_suit_atb": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_02_suit_criti": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_02_suit_fire_natr": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_unit_t5_hand_02_suit_phy": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_weapon_break_high": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_weapon_break_low": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_weapon_expcard_high": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_weapon_expcard_low": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_weapon_expcard_mid": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "item_wpngem_upgrade_r5": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0003": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0004": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0006": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0007": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0008": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0009": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0010": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0011": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_claym_0012": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0001": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0002": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0003": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0004": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0005": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0006": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0007": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0008": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0009": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_funnel_0010": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0003": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0004": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0006": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0007": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0008": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0009": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0010": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0011": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_lance_0012": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0001": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0002": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0003": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0004": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0005": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0006": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0007": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0008": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_pistol_0009": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0003": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0005": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0006": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0007": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0008": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0009": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0010": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0011": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0012": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0013": {
+    "audioDrag": "",
+    "audioDrop": ""
+  },
+  "wpn_sword_0014": {
+    "audioDrag": "",
+    "audioDrop": ""
+  }
+}

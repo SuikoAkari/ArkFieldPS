@@ -1,0 +1,11 @@
+{
+  "0": {
+    "hardGuarantee": 80,
+    "softGuarantee": 40,
+    "star4BaseRate": 810000,
+    "star5BaseRate": 150000,
+    "star5SoftGuarantee": 10,
+    "star6BaseRate": 40000,
+    "type": 0
+  }
+}

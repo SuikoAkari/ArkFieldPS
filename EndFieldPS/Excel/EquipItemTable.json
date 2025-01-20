@@ -1,0 +1,800 @@
+{
+  "item_anglel_flower2_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 1,
+    "condParams": [
+      "any",
+      "0.25"
+    ],
+    "condType": 3,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "44C545DCBAF2DB8A",
+      "text": ""
+    },
+    "itemId": "item_anglel_flower2_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_anglem_corp1_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 2,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "D287D8AD5B621E4A",
+      "text": ""
+    },
+    "itemId": "item_anglem_corp1_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 1
+  },
+  "item_anglem_flower2_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 2,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "EDC206D494207724",
+      "text": ""
+    },
+    "itemId": "item_anglem_flower2_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 1
+  },
+  "item_animal_angles_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 1,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "FFC1DDD6E96B6649",
+      "text": ""
+    },
+    "itemId": "item_animal_angles_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_flower1spc_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "23AA364F24A17AF8",
+      "text": ""
+    },
+    "itemId": "item_bottled_flower1spc_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_flower1spc_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "845A21441FBD3D99",
+      "text": ""
+    },
+    "itemId": "item_bottled_flower1spc_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_flower1spc_3": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "3FC705B73C770F19",
+      "text": ""
+    },
+    "itemId": "item_bottled_flower1spc_3",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_flower2spc_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "5D0627C081C070C7",
+      "text": ""
+    },
+    "itemId": "item_bottled_flower2spc_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_flower2spc_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "88426E1EC9C0F589",
+      "text": ""
+    },
+    "itemId": "item_bottled_flower2spc_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_flower2spc_3": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "DD566985F83A5330",
+      "text": ""
+    },
+    "itemId": "item_bottled_flower2spc_3",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_food_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "D6BCEF67A9EC978D",
+      "text": ""
+    },
+    "itemId": "item_bottled_food_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_food_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "30E0FCAEF06EFE04",
+      "text": ""
+    },
+    "itemId": "item_bottled_food_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_food_3": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "AF0B5864A7A16571",
+      "text": ""
+    },
+    "itemId": "item_bottled_food_3",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_food_4": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "8F69CBA4C9DEC9E7",
+      "text": ""
+    },
+    "itemId": "item_bottled_food_4",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_food_5": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "FBAD1A8D0671286D",
+      "text": ""
+    },
+    "itemId": "item_bottled_food_5",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_grass1spc_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "AB4A429BA96D030E",
+      "text": ""
+    },
+    "itemId": "item_bottled_grass1spc_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_grass1spc_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "7B67ED3D12AC8CF9",
+      "text": ""
+    },
+    "itemId": "item_bottled_grass1spc_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_grass2spc_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "A1EF37547992B08C",
+      "text": ""
+    },
+    "itemId": "item_bottled_grass2spc_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_grass2spc_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "230019BA2AEE92AE",
+      "text": ""
+    },
+    "itemId": "item_bottled_grass2spc_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_moss_2_animal_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.35",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "52E2C22172421DC5",
+      "text": ""
+    },
+    "itemId": "item_bottled_moss_2_animal_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_moss_spc_1_2_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.35",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "25FA82BA64A1A15B",
+      "text": ""
+    },
+    "itemId": "item_bottled_moss_spc_1_2_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_rec_hp_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "1AB95A82974D9CFE",
+      "text": ""
+    },
+    "itemId": "item_bottled_rec_hp_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_rec_hp_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "52E206EF4B9AF532",
+      "text": ""
+    },
+    "itemId": "item_bottled_rec_hp_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_rec_hp_3": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "4F67793A02547BD0",
+      "text": ""
+    },
+    "itemId": "item_bottled_rec_hp_3",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_rec_hp_4": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "7B365228C38BCC2A",
+      "text": ""
+    },
+    "itemId": "item_bottled_rec_hp_4",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_bottled_rec_hp_5": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "8312B025FC545837",
+      "text": ""
+    },
+    "itemId": "item_bottled_rec_hp_5",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_corp1_animal_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 2,
+    "condParams": [
+      "0.4",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "D9DDCBB2AA4BAF77",
+      "text": ""
+    },
+    "itemId": "item_corp1_animal_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 1
+  },
+  "item_corp1_flower1_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 1,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "423D2089BC877C82",
+      "text": ""
+    },
+    "itemId": "item_corp1_flower1_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_corp2_animal_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "any",
+      "0.25"
+    ],
+    "condType": 3,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "1391314325722028",
+      "text": ""
+    },
+    "itemId": "item_corp2_animal_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_corp2_flower2_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 1,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "F8B3C270D4D20894",
+      "text": ""
+    },
+    "itemId": "item_corp2_flower2_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_corp4_grass2_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 2,
+    "condParams": [
+      "0.4",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "E069C0714D161DA6",
+      "text": ""
+    },
+    "itemId": "item_corp4_grass2_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 1
+  },
+  "item_ebl_corp2_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 1,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "F2630BAE48368058",
+      "text": ""
+    },
+    "itemId": "item_ebl_corp2_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_ebl_flower1_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 1,
+    "condParams": [
+      "any",
+      "0.25"
+    ],
+    "condType": 3,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "1A1BE330D1A90A5E",
+      "text": ""
+    },
+    "itemId": "item_ebl_flower1_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_jlebs_grass1_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 2,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "55A999F1FC925018",
+      "text": ""
+    },
+    "itemId": "item_jlebs_grass1_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 1
+  },
+  "item_plant_grass_powder_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "FFCA6F4F2F902FF4",
+      "text": ""
+    },
+    "itemId": "item_plant_grass_powder_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_plant_grass_powder_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "CA179761948F73CB",
+      "text": ""
+    },
+    "itemId": "item_plant_grass_powder_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_plant_grass_spc_powder_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "EB079EE5E88B6292",
+      "text": ""
+    },
+    "itemId": "item_plant_grass_spc_powder_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_plant_grass_spc_powder_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "B40F51A58BAB6750",
+      "text": ""
+    },
+    "itemId": "item_plant_grass_spc_powder_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_plant_moss_powder_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "BB1BED5208D4C724",
+      "text": ""
+    },
+    "itemId": "item_plant_moss_powder_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_plant_moss_powder_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "0B862C02714C4224",
+      "text": ""
+    },
+    "itemId": "item_plant_moss_powder_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_plant_moss_spc_powder_1": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.6",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "52E5F27C7A9BB6EA",
+      "text": ""
+    },
+    "itemId": "item_plant_moss_spc_powder_1",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  },
+  "item_plant_moss_spc_powder_2": {
+    "autoCheckNotInFight": true,
+    "castTime": 3,
+    "chargeCount": 3,
+    "checkTarget": 0,
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": 0,
+    "cooldown": 3,
+    "equipDesc": {
+      "id": "8CEA494714AF0A2A",
+      "text": ""
+    },
+    "itemId": "item_plant_moss_spc_powder_2",
+    "levelUpChargeCount": 4,
+    "useTarget": 0
+  }
+}

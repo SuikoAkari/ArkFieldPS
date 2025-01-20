@@ -1,0 +1,54 @@
+{
+  "cond_tech_group_jinlong_1": {
+    "conditionId": "cond_tech_group_jinlong_1",
+    "conditionType": 511,
+    "desc": {
+      "id": "606272061CA06F9D",
+      "text": ""
+    },
+    "groupId": "tech_group_jinlong",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          100
+        ],
+        "valueIntList": [
+          100
+        ],
+        "valueStringList": [
+          "100"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ]
+  },
+  "cond_tech_group_tundra_1": {
+    "conditionId": "cond_tech_group_tundra_1",
+    "conditionType": 511,
+    "desc": {
+      "id": "FBC32CA922E5B7C6",
+      "text": ""
+    },
+    "groupId": "tech_group_tundra",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          100
+        ],
+        "valueIntList": [
+          100
+        ],
+        "valueStringList": [
+          "100"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ]
+  }
+}

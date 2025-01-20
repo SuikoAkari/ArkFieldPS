@@ -1,0 +1,11 @@
+{
+  "exchangeCharGachaCostItemCount": 75,
+  "exchangeableCharGachaCostItemId": "item_diamond",
+  "repeatStar5CharRewardIdAfterPotentialFull": "reward_5starChar_charTicket_fullPotential",
+  "repeatStar5CharRewardIdBeforePotentialFull": "reward_5starChar_charTicket",
+  "repeatStar6CharRewardIdAfterPotentialFull": "reward_6starChar_charTicket_fullPotential",
+  "repeatStar6CharRewardIdBeforePotentialFull": "reward_6starChar_charTicket",
+  "weaponCoinRewardIdOfStar4": "reward_4starChar_weaponCoin",
+  "weaponCoinRewardIdOfStar5": "reward_5starChar_weaponCoin",
+  "weaponCoinRewardIdOfStar6": "reward_6starChar_weaponCoin"
+}

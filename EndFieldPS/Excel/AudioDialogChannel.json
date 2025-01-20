@@ -1,0 +1,1124 @@
+{
+  "Debug": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_debug_default",
+    "radioWwiseEvent": "vo_narrating_debug_radio",
+    "speakerType": 5
+  },
+  "NEEDMANUAL": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_NEEDMANUAL_default",
+    "radioWwiseEvent": "vo_narrating_NEEDMANUAL_radio",
+    "speakerType": 5
+  },
+  "None": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_none_default",
+    "radioWwiseEvent": "vo_narrating_none_radio",
+    "speakerType": 5
+  },
+  "aglina": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_aglina_default",
+    "radioWwiseEvent": "vo_narrating_aglina_radio",
+    "speakerType": 5
+  },
+  "aleeza": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_aleeza_default",
+    "radioWwiseEvent": "vo_narrating_aleeza_radio",
+    "speakerType": 5
+  },
+  "andre": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_andre_default",
+    "radioWwiseEvent": "vo_narrating_andre_radio",
+    "speakerType": 5
+  },
+  "borreal": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_borreal_default",
+    "radioWwiseEvent": "vo_narrating_borreal_radio",
+    "speakerType": 5
+  },
+  "cannot": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_cannot_default",
+    "radioWwiseEvent": "vo_narrating_cannot_radio",
+    "speakerType": 5
+  },
+  "cap_vannikov": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_cap_vannikov_default",
+    "radioWwiseEvent": "vo_narrating_cap_vannikov_radio",
+    "speakerType": 5
+  },
+  "chen": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_chen_default",
+    "radioWwiseEvent": "vo_narrating_chen_radio",
+    "speakerType": 5
+  },
+  "chr_0002_endminm": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_endminm_default",
+    "radioWwiseEvent": "vo_narrating_endminm_radio",
+    "speakerType": 1
+  },
+  "chr_0003_endmin": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_endmin_default",
+    "radioWwiseEvent": "vo_narrating_endmin_radio",
+    "speakerType": 1
+  },
+  "chr_0003_endminf": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_endminf_default",
+    "radioWwiseEvent": "vo_narrating_endminf_radio",
+    "speakerType": 1
+  },
+  "chr_0004_pelica": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_pelica_default",
+    "radioWwiseEvent": "vo_narrating_pelica_radio",
+    "speakerType": 1
+  },
+  "chr_0005_chen": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_chen_default",
+    "radioWwiseEvent": "vo_narrating_chen_radio",
+    "speakerType": 1
+  },
+  "chr_0006_wolfgd": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_wolfgd_default",
+    "radioWwiseEvent": "vo_narrating_wolfgd_radio",
+    "speakerType": 1
+  },
+  "chr_0007_ikut": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_ikut_default",
+    "radioWwiseEvent": "vo_narrating_ikut_radio",
+    "speakerType": 1
+  },
+  "chr_0008_kholec": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_kholec_default",
+    "radioWwiseEvent": "vo_narrating_kholec_radio",
+    "speakerType": 1
+  },
+  "chr_0009_azrila": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_azrila_default",
+    "radioWwiseEvent": "vo_narrating_azrila_radio",
+    "speakerType": 1
+  },
+  "chr_0011_seraph": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_seraph_default",
+    "radioWwiseEvent": "vo_narrating_seraph_radio",
+    "speakerType": 1
+  },
+  "chr_0012_avywen": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_avywen_default",
+    "radioWwiseEvent": "vo_narrating_avywen_radio",
+    "speakerType": 1
+  },
+  "chr_0013_aglina": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_aglina_default",
+    "radioWwiseEvent": "vo_narrating_aglina_radio",
+    "speakerType": 1
+  },
+  "chr_0014_aurora": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_aurora_default",
+    "radioWwiseEvent": "vo_narrating_aurora_radio",
+    "speakerType": 1
+  },
+  "chr_0015_lifeng": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_yvonne_default",
+    "radioWwiseEvent": "vo_narrating_yvonne_radio",
+    "speakerType": 1
+  },
+  "chr_0016_laevat": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_laevat_default",
+    "radioWwiseEvent": "vo_narrating_laevat_radio",
+    "speakerType": 1
+  },
+  "chr_0017_yvonne": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lifeng_default",
+    "radioWwiseEvent": "vo_narrating_lifeng_radio",
+    "speakerType": 1
+  },
+  "chr_0018_dapan": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_dapan_default",
+    "radioWwiseEvent": "vo_narrating_dapan_radio",
+    "speakerType": 1
+  },
+  "clerk_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_clerk_a_default",
+    "radioWwiseEvent": "vo_narrating_clerk_a_radio",
+    "speakerType": 5
+  },
+  "debug_001": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_debug_001_default",
+    "radioWwiseEvent": "vo_narrating_debug_001_radio",
+    "speakerType": 5
+  },
+  "debug_002": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_debug_002_default",
+    "radioWwiseEvent": "vo_narrating_debug_002_radio",
+    "speakerType": 5
+  },
+  "debug_003": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_debug_003_default",
+    "radioWwiseEvent": "vo_narrating_debug_003_radio",
+    "speakerType": 5
+  },
+  "dexasco": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_dexasco_default",
+    "radioWwiseEvent": "vo_narrating_dexasco_radio",
+    "speakerType": 5
+  },
+  "doctr_jack": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_doctr_jack_default",
+    "radioWwiseEvent": "vo_narrating_doctr_jack_radio",
+    "speakerType": 5
+  },
+  "driver_evan": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_driver_evan_default",
+    "radioWwiseEvent": "vo_narrating_driver_evan_radio",
+    "speakerType": 5
+  },
+  "e2m6-npc1": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_e2m6_npc1_default",
+    "radioWwiseEvent": "vo_narrating_e2m6_npc1_radio",
+    "speakerType": 5
+  },
+  "e2m6-npc2": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_e2m6_npc2_default",
+    "radioWwiseEvent": "vo_narrating_e2m6_npc2_radio",
+    "speakerType": 5
+  },
+  "e2m6_miner_npc": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_e2m6_miner_npc_default",
+    "radioWwiseEvent": "vo_narrating_e2m6_miner_npc_radio",
+    "speakerType": 5
+  },
+  "edf_annelle": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_annelle_default",
+    "radioWwiseEvent": "vo_narrating_edf_annelle_radio",
+    "speakerType": 5
+  },
+  "edf_bernard": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_bernard_default",
+    "radioWwiseEvent": "vo_narrating_edf_bernard_radio",
+    "speakerType": 5
+  },
+  "edf_c3m6": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_c3m6_default",
+    "radioWwiseEvent": "vo_narrating_edf_c3m6_radio",
+    "speakerType": 5
+  },
+  "edf_clerk_carolyn": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_clerk_carolyn_default",
+    "radioWwiseEvent": "vo_narrating_edf_clerk_carolyn_radio",
+    "speakerType": 5
+  },
+  "edf_clerk_jenny": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_clerk_jenny_default",
+    "radioWwiseEvent": "vo_narrating_edf_clerk_jenny_radio",
+    "speakerType": 5
+  },
+  "edf_doctor_migur": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_doctor_migur_default",
+    "radioWwiseEvent": "vo_narrating_edf_doctor_migur_radio",
+    "speakerType": 5
+  },
+  "edf_engineer_miao": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_engineer_miao_default",
+    "radioWwiseEvent": "vo_narrating_edf_engineer_miao_radio",
+    "speakerType": 5
+  },
+  "edf_lam": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_lam_default",
+    "radioWwiseEvent": "vo_narrating_edf_lam_radio",
+    "speakerType": 5
+  },
+  "edf_pocus": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_pocus_default",
+    "radioWwiseEvent": "vo_narrating_edf_pocus_radio",
+    "speakerType": 5
+  },
+  "edf_popnpc_f_01": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_popnpc_f_01_default",
+    "radioWwiseEvent": "vo_narrating_edf_popnpc_f_01_radio",
+    "speakerType": 5
+  },
+  "edf_popnpc_m_01": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_popnpc_m_01_default",
+    "radioWwiseEvent": "vo_narrating_edf_popnpc_m_01_radio",
+    "speakerType": 5
+  },
+  "edf_ram": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_ram_default",
+    "radioWwiseEvent": "vo_narrating_edf_ram_radio",
+    "speakerType": 5
+  },
+  "edf_resch_mei": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_resch_mei_default",
+    "radioWwiseEvent": "vo_narrating_edf_resch_mei_radio",
+    "speakerType": 5
+  },
+  "edf_rope": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_rope_default",
+    "radioWwiseEvent": "vo_narrating_edf_rope_radio",
+    "speakerType": 5
+  },
+  "edf_secu_panic": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_secu_panic_default",
+    "radioWwiseEvent": "vo_narrating_edf_secu_panic_radio",
+    "speakerType": 5
+  },
+  "edf_vaso": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_edf_vaso_default",
+    "radioWwiseEvent": "vo_narrating_edf_vaso_radio",
+    "speakerType": 5
+  },
+  "efd_ambas": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_efd_ambas_default",
+    "radioWwiseEvent": "vo_narrating_efd_ambas_radio",
+    "speakerType": 5
+  },
+  "efd_driver": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_efd_driver_default",
+    "radioWwiseEvent": "vo_narrating_efd_driver_radio",
+    "speakerType": 5
+  },
+  "efd_worker_e": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_efd_worker_e_default",
+    "radioWwiseEvent": "vo_narrating_efd_worker_e_radio",
+    "speakerType": 5
+  },
+  "efis": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_efis_default",
+    "radioWwiseEvent": "vo_narrating_efis_radio",
+    "speakerType": 5
+  },
+  "endmin": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_endmin_default",
+    "radioWwiseEvent": "vo_narrating_endmin_radio",
+    "speakerType": 5
+  },
+  "endminf": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_endminf_default",
+    "radioWwiseEvent": "vo_narrating_endminf_radio",
+    "speakerType": 5
+  },
+  "endminm": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_endminm_default",
+    "radioWwiseEvent": "vo_narrating_endminm_radio",
+    "speakerType": 5
+  },
+  "engineer_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_engineer_a_default",
+    "radioWwiseEvent": "vo_narrating_engineer_a_radio",
+    "speakerType": 5
+  },
+  "engineer_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_engineer_b_default",
+    "radioWwiseEvent": "vo_narrating_engineer_b_radio",
+    "speakerType": 5
+  },
+  "engineer_c": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_engineer_c_default",
+    "radioWwiseEvent": "vo_narrating_engineer_c_radio",
+    "speakerType": 5
+  },
+  "eny_0017_dexasco": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 2
+  },
+  "eny_0018_lbtough": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 2
+  },
+  "eny_0046_lbshamman": {
+    "cdTime": 0.5,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 3
+  },
+  "eny_0047_firebat": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 2
+  },
+  "eny_0048_hvybow": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 2
+  },
+  "eny_0049_rogue": {
+    "cdTime": 0.5,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 3
+  },
+  "eny_0051_rodin": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 2
+  },
+  "eny_0052_palesent": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 2
+  },
+  "eny_0053_hsmob": {
+    "cdTime": 0.5,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 3
+  },
+  "eny_0054_hsmino": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 2
+  },
+  "eny_0055_hscrane": {
+    "cdTime": 6,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 2
+  },
+  "eny_0060_lbmad": {
+    "cdTime": 0.5,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 3
+  },
+  "eny_lb": {
+    "cdTime": 0.5,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 3
+  },
+  "eny_lbhs": {
+    "cdTime": 0.5,
+    "narratingWwiseEvent": "",
+    "radioWwiseEvent": "",
+    "speakerType": 3
+  },
+  "fabian": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_fabian_default",
+    "radioWwiseEvent": "vo_narrating_fabian_radio",
+    "speakerType": 5
+  },
+  "femvo_desp": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_none_default",
+    "radioWwiseEvent": "vo_narrating_none_default",
+    "speakerType": 5
+  },
+  "fiona": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_fiona_default",
+    "radioWwiseEvent": "vo_narrating_fiona_radio",
+    "speakerType": 5
+  },
+  "frgm_announcer": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_frgm_announcer_default",
+    "radioWwiseEvent": "vo_narrating_frgm_announcer_radio",
+    "speakerType": 5
+  },
+  "frgm_anthony": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_frgm_anthony_default",
+    "radioWwiseEvent": "vo_narrating_frgm_anthony_radio",
+    "speakerType": 5
+  },
+  "frgm_euqipm": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_frgm_euqipm_default",
+    "radioWwiseEvent": "vo_narrating_frgm_euqipm_radio",
+    "speakerType": 5
+  },
+  "frgm_uni_semtry": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_frgm_uni_semtry_default",
+    "radioWwiseEvent": "vo_narrating_frgm_uni_semtry_radio",
+    "speakerType": 5
+  },
+  "ginny": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_ginny_default",
+    "radioWwiseEvent": "vo_narrating_ginny_radio",
+    "speakerType": 5
+  },
+  "hawthorne": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_hawthorne_default",
+    "radioWwiseEvent": "vo_narrating_hawthorne_radio",
+    "speakerType": 5
+  },
+  "karja": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_karja_default",
+    "radioWwiseEvent": "vo_narrating_karja_radio",
+    "speakerType": 5
+  },
+  "kholec": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_kholec_default",
+    "radioWwiseEvent": "vo_narrating_kholec_radio",
+    "speakerType": 5
+  },
+  "kid_kaeya": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_kid_kaeya_default",
+    "radioWwiseEvent": "vo_narrating_kid_kaeya_radio",
+    "speakerType": 5
+  },
+  "lb_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_a_default",
+    "radioWwiseEvent": "vo_narrating_lb_a_radio",
+    "speakerType": 5
+  },
+  "lb_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_b_default",
+    "radioWwiseEvent": "vo_narrating_lb_b_radio",
+    "speakerType": 5
+  },
+  "lb_e1_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_e1_a_default",
+    "radioWwiseEvent": "vo_narrating_lb_e1_a_radio",
+    "speakerType": 5
+  },
+  "lb_e1_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_e1_b_default",
+    "radioWwiseEvent": "vo_narrating_lb_e1_b_radio",
+    "speakerType": 5
+  },
+  "lb_e1_c": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_e1_c_default",
+    "radioWwiseEvent": "vo_narrating_lb_e1_c_radio",
+    "speakerType": 5
+  },
+  "lb_giovanni": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_giovanni_default",
+    "radioWwiseEvent": "vo_narrating_lb_giovanni_radio",
+    "speakerType": 5
+  },
+  "lb_harlan": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_harlan_default",
+    "radioWwiseEvent": "vo_narrating_lb_harlan_radio",
+    "speakerType": 5
+  },
+  "lb_minion-ChLA": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_minion_ChLA_default",
+    "radioWwiseEvent": "vo_narrating_lb_minion_ChLA_radio",
+    "speakerType": 5
+  },
+  "lb_minion-a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_minion_a_default",
+    "radioWwiseEvent": "vo_narrating_lb_minion_a_radio",
+    "speakerType": 5
+  },
+  "lb_minion_e3m2": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_minion_e3m2_default",
+    "radioWwiseEvent": "vo_narrating_lb_minion_e3m2_radio",
+    "speakerType": 5
+  },
+  "lb_minion_e3m4": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_minion_e3m4_default",
+    "radioWwiseEvent": "vo_narrating_lb_minion_e3m4_radio",
+    "speakerType": 5
+  },
+  "lb_monster": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_monster_default",
+    "radioWwiseEvent": "vo_narrating_lb_monster_radio",
+    "speakerType": 5
+  },
+  "lb_pati": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_pati_default",
+    "radioWwiseEvent": "vo_narrating_lb_pati_radio",
+    "speakerType": 5
+  },
+  "lb_scout": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_scout_default",
+    "radioWwiseEvent": "vo_narrating_lb_scout_radio",
+    "speakerType": 5
+  },
+  "lb_tough-a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_tough_a_default",
+    "radioWwiseEvent": "vo_narrating_lb_tough_a_radio",
+    "speakerType": 5
+  },
+  "lb_tough_e1_c": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_tough_e1_c_default",
+    "radioWwiseEvent": "vo_narrating_lb_tough_e1_c_radio",
+    "speakerType": 5
+  },
+  "lb_unpati": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lb_unpati_default",
+    "radioWwiseEvent": "vo_narrating_lb_unpati_radio",
+    "speakerType": 5
+  },
+  "lycia": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_lycia_default",
+    "radioWwiseEvent": "vo_narrating_lycia_radio",
+    "speakerType": 5
+  },
+  "m3": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_m3_default",
+    "radioWwiseEvent": "vo_narrating_m3_radio",
+    "speakerType": 5
+  },
+  "mainten_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_mainten_a_default",
+    "radioWwiseEvent": "vo_narrating_mainten_a_radio",
+    "speakerType": 5
+  },
+  "mainten_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_mainten_b_default",
+    "radioWwiseEvent": "vo_narrating_mainten_b_radio",
+    "speakerType": 5
+  },
+  "nephth": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_nephth_default",
+    "radioWwiseEvent": "vo_narrating_nephth_radio",
+    "speakerType": 5
+  },
+  "nomad_slzy": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_nomad_slzy_default",
+    "radioWwiseEvent": "vo_narrating_nomad_slzy_radio",
+    "speakerType": 5
+  },
+  "nomad_sus": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_nomad_sus_default",
+    "radioWwiseEvent": "vo_narrating_nomad_sus_radio",
+    "speakerType": 5
+  },
+  "nomad_work": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_nomad_work_default",
+    "radioWwiseEvent": "vo_narrating_nomad_work_radio",
+    "speakerType": 5
+  },
+  "pelica": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_pelica_default",
+    "radioWwiseEvent": "vo_narrating_pelica_radio",
+    "speakerType": 5
+  },
+  "pelicapt": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_pelicapt_default",
+    "radioWwiseEvent": "vo_narrating_pelicapt_radio",
+    "speakerType": 5
+  },
+  "petrov": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_petrov_default",
+    "radioWwiseEvent": "vo_narrating_petrov_radio",
+    "speakerType": 5
+  },
+  "prevendminf": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_prevendminf_default",
+    "radioWwiseEvent": "vo_narrating_prevendminf_radio",
+    "speakerType": 5
+  },
+  "prevendminm": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_prevendminm_default",
+    "radioWwiseEvent": "vo_narrating_prevendminm_radio",
+    "speakerType": 5
+  },
+  "qinjc": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_qinjc_default",
+    "radioWwiseEvent": "vo_narrating_qinjc_radio",
+    "speakerType": 5
+  },
+  "rbt_tata": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_rbt_tata_default",
+    "radioWwiseEvent": "vo_narrating_rbt_tata_radio",
+    "speakerType": 5
+  },
+  "researcherinj_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_researcherinj_a_default",
+    "radioWwiseEvent": "vo_narrating_researcherinj_a_radio",
+    "speakerType": 5
+  },
+  "ri_liaison": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_ri_liaison_default",
+    "radioWwiseEvent": "vo_narrating_ri_liaison_radio",
+    "speakerType": 5
+  },
+  "ri_staff": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_ri_staff_default",
+    "radioWwiseEvent": "vo_narrating_ri_staff_radio",
+    "speakerType": 5
+  },
+  "richardson": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_richardson_default",
+    "radioWwiseEvent": "vo_narrating_richardson_radio",
+    "speakerType": 5
+  },
+  "sci_mary": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_sci_mary_default",
+    "radioWwiseEvent": "vo_narrating_sci_mary_radio",
+    "speakerType": 5
+  },
+  "seraph": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_seraph_default",
+    "radioWwiseEvent": "vo_narrating_seraph_radio",
+    "speakerType": 5
+  },
+  "sfx": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_none_default",
+    "radioWwiseEvent": "vo_narrating_none_radio",
+    "speakerType": 5
+  },
+  "shawna": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_shawna_default",
+    "radioWwiseEvent": "vo_narrating_shawna_radio",
+    "speakerType": 5
+  },
+  "soth": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_soth_default",
+    "radioWwiseEvent": "vo_narrating_soth_radio",
+    "speakerType": 5
+  },
+  "uni_alia": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_alia_default",
+    "radioWwiseEvent": "vo_narrating_uni_alia_radio",
+    "speakerType": 5
+  },
+  "uni_announcer": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_announcer_default",
+    "radioWwiseEvent": "vo_narrating_uni_announcer_radio",
+    "speakerType": 5
+  },
+  "uni_announcer_sm13": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_announcer_sm13_default",
+    "radioWwiseEvent": "vo_narrating_uni_announcer_sm13_radio",
+    "speakerType": 5
+  },
+  "uni_broadcast": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_broadcast_default",
+    "radioWwiseEvent": "vo_narrating_uni_broadcast_radio",
+    "speakerType": 5
+  },
+  "uni_canteen_staff": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_canteen_staff_default",
+    "radioWwiseEvent": "vo_narrating_uni_canteen_staff_radio",
+    "speakerType": 5
+  },
+  "uni_crew_c13": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_c13_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_c13_radio",
+    "speakerType": 5
+  },
+  "uni_crew_c3m6": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_c3m6_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_c3m6_radio",
+    "speakerType": 5
+  },
+  "uni_crew_currie": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_currie_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_currie_radio",
+    "speakerType": 5
+  },
+  "uni_crew_e1m1_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_e1m1_a_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_e1m1_a_radio",
+    "speakerType": 5
+  },
+  "uni_crew_hamm": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_hamm_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_hamm_radio",
+    "speakerType": 5
+  },
+  "uni_crew_mace": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_mace_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_mace_radio",
+    "speakerType": 5
+  },
+  "uni_crew_peggy": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_peggy_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_peggy_radio",
+    "speakerType": 5
+  },
+  "uni_crew_sm13_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_sm13_a_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_sm13_a_radio",
+    "speakerType": 5
+  },
+  "uni_crew_sm13_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_sm13_b_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_sm13_b_radio",
+    "speakerType": 5
+  },
+  "uni_crew_sm13_c": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_sm13_c_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_sm13_c_radio",
+    "speakerType": 5
+  },
+  "uni_crew_survive_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_survive_a_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_survive_a_radio",
+    "speakerType": 5
+  },
+  "uni_crew_survive_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_survive_b_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_survive_b_radio",
+    "speakerType": 5
+  },
+  "uni_crew_survive_c": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_survive_c_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_survive_c_radio",
+    "speakerType": 5
+  },
+  "uni_crew_wrench": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_crew_wrench_default",
+    "radioWwiseEvent": "vo_narrating_uni_crew_wrench_radio",
+    "speakerType": 5
+  },
+  "uni_dalia": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_dalia_default",
+    "radioWwiseEvent": "vo_narrating_uni_dalia_radio",
+    "speakerType": 5
+  },
+  "uni_danny": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_danny_default",
+    "radioWwiseEvent": "vo_narrating_uni_danny_radio",
+    "speakerType": 5
+  },
+  "uni_doctor_yue": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_doctor_yue_default",
+    "radioWwiseEvent": "vo_narrating_uni_doctor_yue_radio",
+    "speakerType": 5
+  },
+  "uni_girl_dolly": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_girl_dolly_default",
+    "radioWwiseEvent": "vo_narrating_uni_girl_dolly_radio",
+    "speakerType": 5
+  },
+  "uni_guard_c13": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_guard_c13_default",
+    "radioWwiseEvent": "vo_narrating_uni_guard_c13_radio",
+    "speakerType": 5
+  },
+  "uni_jenna": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_jenna_default",
+    "radioWwiseEvent": "vo_narrating_uni_jenna_radio",
+    "speakerType": 5
+  },
+  "uni_leader": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_leader_default",
+    "radioWwiseEvent": "vo_narrating_uni_leader_radio",
+    "speakerType": 5
+  },
+  "uni_medical": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_medical_default",
+    "radioWwiseEvent": "vo_narrating_uni_medical_radio",
+    "speakerType": 5
+  },
+  "uni_mira": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_mira_default",
+    "radioWwiseEvent": "vo_narrating_uni_mira_radio",
+    "speakerType": 5
+  },
+  "uni_ncurse_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_ncurse_a_default",
+    "radioWwiseEvent": "vo_narrating_uni_ncurse_a_radio",
+    "speakerType": 5
+  },
+  "uni_patient_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_patient_a_default",
+    "radioWwiseEvent": "vo_narrating_uni_patient_a_radio",
+    "speakerType": 5
+  },
+  "uni_patient_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_patient_b_default",
+    "radioWwiseEvent": "vo_narrating_uni_patient_b_radio",
+    "speakerType": 5
+  },
+  "uni_patient_c": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_patient_c_default",
+    "radioWwiseEvent": "vo_narrating_uni_patient_c_radio",
+    "speakerType": 5
+  },
+  "uni_penny": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_penny_default",
+    "radioWwiseEvent": "vo_narrating_uni_penny_radio",
+    "speakerType": 5
+  },
+  "uni_phyllis": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_phyllis_default",
+    "radioWwiseEvent": "vo_narrating_uni_phyllis_radio",
+    "speakerType": 5
+  },
+  "uni_ramon": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_ramon_default",
+    "radioWwiseEvent": "vo_narrating_uni_ramon_radio",
+    "speakerType": 5
+  },
+  "uni_resch_andrew": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_resch_andrew_default",
+    "radioWwiseEvent": "vo_narrating_uni_resch_andrew_radio",
+    "speakerType": 5
+  },
+  "uni_resch_bost": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_resch_bost_default",
+    "radioWwiseEvent": "vo_narrating_uni_resch_bost_radio",
+    "speakerType": 5
+  },
+  "uni_rescuer_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_rescuer_a_default",
+    "radioWwiseEvent": "vo_narrating_uni_rescuer_a_radio",
+    "speakerType": 5
+  },
+  "uni_rescuer_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_rescuer_b_default",
+    "radioWwiseEvent": "vo_narrating_uni_rescuer_b_radio",
+    "speakerType": 5
+  },
+  "uni_secur_a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_secur_a_default",
+    "radioWwiseEvent": "vo_narrating_uni_secur_a_radio",
+    "speakerType": 5
+  },
+  "uni_secur_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_secur_b_default",
+    "radioWwiseEvent": "vo_narrating_uni_secur_b_radio",
+    "speakerType": 5
+  },
+  "uni_secur_c": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_secur_c_default",
+    "radioWwiseEvent": "vo_narrating_uni_secur_c_radio",
+    "speakerType": 5
+  },
+  "uni_secur_wang": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_secur_wang_default",
+    "radioWwiseEvent": "vo_narrating_uni_secur_wang_radio",
+    "speakerType": 5
+  },
+  "uni_staff_run-a": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_staff_run_a_default",
+    "radioWwiseEvent": "vo_narrating_uni_staff_run_a_radio",
+    "speakerType": 5
+  },
+  "uni_staff_run-b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_staff_run_b_default",
+    "radioWwiseEvent": "vo_narrating_uni_staff_run_b_radio",
+    "speakerType": 5
+  },
+  "uni_tech_aitas": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_tech_aitas_default",
+    "radioWwiseEvent": "vo_narrating_uni_tech_aitas_radio",
+    "speakerType": 5
+  },
+  "uni_tech_dunn": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_tech_dunn_default",
+    "radioWwiseEvent": "vo_narrating_uni_tech_dunn_radio",
+    "speakerType": 5
+  },
+  "uni_tech_searles": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_tech_searles_default",
+    "radioWwiseEvent": "vo_narrating_uni_tech_searles_radio",
+    "speakerType": 5
+  },
+  "uni_vender": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_vender_default",
+    "radioWwiseEvent": "vo_narrating_uni_vender_radio",
+    "speakerType": 5
+  },
+  "uni_victor": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_victor_default",
+    "radioWwiseEvent": "vo_narrating_uni_victor_radio",
+    "speakerType": 5
+  },
+  "uni_worker_frustrated": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_uni_worker_frustrated_default",
+    "radioWwiseEvent": "vo_narrating_uni_worker_frustrated_radio",
+    "speakerType": 5
+  },
+  "urs_ambas": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_urs_ambas_default",
+    "radioWwiseEvent": "vo_narrating_urs_ambas_radio",
+    "speakerType": 5
+  },
+  "wolfgd": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_wolfgd_default",
+    "radioWwiseEvent": "vo_narrating_wolfgd_radio",
+    "speakerType": 5
+  },
+  "worker_cowering": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_worker_cowering_default",
+    "radioWwiseEvent": "vo_narrating_worker_cowering_radio",
+    "speakerType": 5
+  },
+  "workerinj_b": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_workerinj_b_default",
+    "radioWwiseEvent": "vo_narrating_workerinj_b_radio",
+    "speakerType": 5
+  },
+  "yvonne": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_yvonne_default",
+    "radioWwiseEvent": "vo_narrating_yvonne_radio",
+    "speakerType": 5
+  },
+  "zeszka": {
+    "cdTime": 0,
+    "narratingWwiseEvent": "vo_narrating_zeszka_default",
+    "radioWwiseEvent": "vo_narrating_zeszka_radio",
+    "speakerType": 5
+  }
+}

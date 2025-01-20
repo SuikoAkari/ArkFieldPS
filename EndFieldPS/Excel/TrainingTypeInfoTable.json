@@ -1,0 +1,38 @@
+{
+  "squadEquipLvSum": {
+    "priority": 3,
+    "progressBarLabel": {
+      "id": "F58FB5D8EBA49312",
+      "text": ""
+    },
+    "trainingThresholdFactor": 0.75,
+    "trainingType": "squadEquipLvSum"
+  },
+  "squadLvSum": {
+    "priority": 1,
+    "progressBarLabel": {
+      "id": "D1522BDE8D7553B4",
+      "text": ""
+    },
+    "trainingThresholdFactor": 0.75,
+    "trainingType": "squadLvSum"
+  },
+  "squadSkillLvSum": {
+    "priority": 4,
+    "progressBarLabel": {
+      "id": "C61AB675681EC942",
+      "text": ""
+    },
+    "trainingThresholdFactor": 0.75,
+    "trainingType": "squadSkillLvSum"
+  },
+  "squadWeaponLvSum": {
+    "priority": 2,
+    "progressBarLabel": {
+      "id": "04D0445949D7BCC1",
+      "text": ""
+    },
+    "trainingThresholdFactor": 0.75,
+    "trainingType": "squadWeaponLvSum"
+  }
+}

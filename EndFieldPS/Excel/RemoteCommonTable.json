@@ -1,0 +1,4835 @@
+{
+  "remotecomm_1": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "46B52F290EAB7850",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "remotecomm_test_video01",
+          "RemoteComm/BG/RemoteCommTestImage01",
+          "RemoteComm/BG/RemoteCommTestImage02"
+        ],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_test_video01",
+        "remoteCommText": {
+          "id": "F790FFAB6BD680FE",
+          "text": ""
+        },
+        "singleId": "remotecomm_1_001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "531F6009C3040310",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 6,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage01",
+          "RemoteComm/BG/RemoteCommTestImage02"
+        ],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage01",
+        "remoteCommText": {
+          "id": "8083F4B1F2678AA6",
+          "text": ""
+        },
+        "singleId": "remotecomm_1_002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_9999_endmin",
+          "chr_0004_pelica",
+          "chr_0005_chen"
+        ],
+        "actorName": {
+          "id": "7521C0FFD44FB297",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 7,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage02"
+        ],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage02",
+        "remoteCommText": {
+          "id": "FDCFD13C211BA865",
+          "text": ""
+        },
+        "singleId": "remotecomm_1_003",
+        "voiceId": ""
+      }
+    ]
+  },
+  "remotecomm_e1m2": {
+    "autoPlay": true,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 6.5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": -1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_wait001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "FA7EF82019FEF736",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 6.5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "F725E3FEC8C48FF8",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "9A65ED14E51C22BA",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 8,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "2093A132B6616D8C",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "B361C2330AE69B54",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 8,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "490739E2D39216D9",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_003",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "15736FA61A275C4A",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 9.5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "E1279A0A0A6F56AC",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_004",
+        "voiceId": ""
+      }
+    ]
+  },
+  "remotecomm_e1m2_1": {
+    "autoPlay": true,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "EF2DDD26239B7D52",
+          "text": ""
+        },
+        "audioId": "au_sfx_remotecomm_e1m2_1",
+        "autoPlayTime": 2.8,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m1_2",
+          "RemoteComm/BG/remotecomm_image_e1m1_3"
+        ],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "274EB97E9CFD3C20",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_001",
+        "voiceId": "au_dlg_e1m1_6d4_001"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "884AF89FE805C3C7",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 3.833,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m1_2",
+          "RemoteComm/BG/remotecomm_image_e1m1_3"
+        ],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "F85E56F3B67D5FA9",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_002",
+        "voiceId": "au_dlg_e1m1_6d4_002"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "8C4A7E2FC828EA4C",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 3.467,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m1_2",
+          "RemoteComm/BG/remotecomm_image_e1m1_3"
+        ],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "97DE2B87581C6CD3",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_003",
+        "voiceId": "au_dlg_e1m1_6d4_003"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "",
+          "text": ""
+        },
+        "audioId": "au_sfx_remotecomm_e1m2_2",
+        "autoPlayTime": 0.7,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m1_3"
+        ],
+        "index": -1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_2",
+        "remoteCommText": {
+          "id": "",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_wait001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "6E12F5BECE3DC6C2",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 3.167,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m1_3"
+        ],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_2",
+        "remoteCommText": {
+          "id": "C615FB14ABA35F2E",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_004",
+        "voiceId": "au_dlg_e1m1_6d4_004"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "472A38043D5C365D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 2.533,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m1_3"
+        ],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_2",
+        "remoteCommText": {
+          "id": "0F31C960B40440A5",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_005",
+        "voiceId": "au_dlg_e1m1_6d4_005"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "B2DAE077C3437F09",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 3.533,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m1_3"
+        ],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_2",
+        "remoteCommText": {
+          "id": "CA0E60DCECC366D8",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_006",
+        "voiceId": "au_dlg_e1m1_6d4_006"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "1D917F54680F030D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 6.034,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m1_3"
+        ],
+        "index": 7,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_2",
+        "remoteCommText": {
+          "id": "E1E0EE7193356342",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_007",
+        "voiceId": "au_dlg_e1m1_6d4_007"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "12AF53F5544F06A5",
+          "text": ""
+        },
+        "audioId": "au_sfx_remotecomm_e1m2_3",
+        "autoPlayTime": 7.167,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 8,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_3",
+        "remoteCommText": {
+          "id": "4C70DCC9462A40B6",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_008",
+        "voiceId": "au_dlg_e1m1_6d4_008"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "C8DF25F3B713EC86",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 6.3,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 9,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_3",
+        "remoteCommText": {
+          "id": "931F9DD4EC73C57B",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_009",
+        "voiceId": "au_dlg_e1m1_6d4_009"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "589DB7BD2AE3AE54",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 4.3,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 10,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_3",
+        "remoteCommText": {
+          "id": "3EE85D92DF990D98",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_010",
+        "voiceId": "au_dlg_e1m1_6d4_010"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0BCC6F0ECC80FBF1",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 6.103,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 11,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_3",
+        "remoteCommText": {
+          "id": "EC61C16A25F3D159",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_011",
+        "voiceId": "au_dlg_e1m1_6d4_011"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "21AD3D83C06CC153",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 4.83,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 12,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_3",
+        "remoteCommText": {
+          "id": "7272D72E89AB3BB1",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_012",
+        "voiceId": "au_dlg_e1m1_6d4_012"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "054F33E40D1A10C5",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 4.133,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 13,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_3",
+        "remoteCommText": {
+          "id": "C1A4366852B646FE",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_013",
+        "voiceId": "au_dlg_e1m1_6d4_013"
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "E7B2937EF81D8556",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 2.5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 14,
+        "isVideoLoop": false,
+        "middleId": "chr_0005_chen",
+        "remoteCommText": {
+          "id": "CA5E2008A5149012",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m2_1_014",
+        "voiceId": "au_dlg_e1m1_6d4_014"
+      }
+    ]
+  },
+  "remotecomm_e1m3_1": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "EFD1D7E34959F9B1",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m3_1",
+        "remoteCommText": {
+          "id": "22AC4E788B88BAB7",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_001",
+        "voiceId": "au_dlg_e1m3_1d5_001"
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "EF3A3258CB0AAD65",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "chr_0005_chen",
+        "remoteCommText": {
+          "id": "B2FB7E0B2F486798",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_002",
+        "voiceId": "au_dlg_e1m3_1d5_002"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "B80981F84B6FAB90",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "97587889FD8EBF78",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_003",
+        "voiceId": "au_dlg_e1m3_1d5_003"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "6E9B811029494714",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "BA0F665AC7DD7117",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_004",
+        "voiceId": "au_dlg_e1m3_1d5_004"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "A589A8551235152D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "DA11800A106743EA",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_005",
+        "voiceId": "au_dlg_e1m3_1d5_005"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F8D579DC39FB9AA3",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "7AB3B6BE91B78050",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_006",
+        "voiceId": "au_dlg_e1m3_1d5_006"
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "3A19A9462C243A15",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 7,
+        "isVideoLoop": false,
+        "middleId": "chr_0005_chen",
+        "remoteCommText": {
+          "id": "7637D2B15D096715",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_007",
+        "voiceId": "au_dlg_e1m3_1d5_007"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "9B7D16F1A4800024",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 8,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "4FB482F09F27FBCF",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_008",
+        "voiceId": "au_dlg_e1m3_1d5_008"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "E9B949A622E8FE9B",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 9,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "13C4B1761AF5B49C",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_009",
+        "voiceId": "au_dlg_e1m3_1d5_009"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "330A1E77B996381D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 10,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "9D776DED5118FF56",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_1_010",
+        "voiceId": "au_dlg_e1m3_1d5_010"
+      }
+    ]
+  },
+  "remotecomm_e1m3_2": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "910BD1DB7CF38553",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "npc_1002_qinjc",
+        "remoteCommText": {
+          "id": "E830EAC16ACAB254",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_2_001",
+        "voiceId": "au_dlg_e1m3_7d5_001"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "83ADF95861F8D2C9",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "npc_1002_qinjc",
+        "remoteCommText": {
+          "id": "DDF2497B250D3693",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_2_002",
+        "voiceId": "au_dlg_e1m3_7d5_002"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "7228F3E4A00B9D78",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "npc_1002_qinjc",
+        "remoteCommText": {
+          "id": "EF898A6B5FAADD31",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_2_003",
+        "voiceId": "au_dlg_e1m3_7d5_003"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "C0861E936CF7E88F",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "npc_1002_qinjc",
+        "remoteCommText": {
+          "id": "F2151EC338BF7C73",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_2_004",
+        "voiceId": "au_dlg_e1m3_7d5_004"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "npc_1002_qinjc",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "8A709E1B037775F6",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m3_2",
+        "remoteCommText": {
+          "id": "7F9D19DC823311D4",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_2_005",
+        "voiceId": "au_dlg_e1m3_7d5_005"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "npc_1002_qinjc",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "9D7F14FEE15FD4EE",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "829F4554B20C4C40",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_2_006",
+        "voiceId": "au_dlg_e1m3_7d5_006"
+      }
+    ]
+  },
+  "remotecomm_e1m3_3": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "npc_common",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0A6D2DF80D68FBF7",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "91B08C22BE676F3B",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_3_001",
+        "voiceId": "au_dlg_e1m3_13d2_001"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0EC28DC11D660609",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "5E3F6CF01F89B913",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_3_002",
+        "voiceId": "au_dlg_e1m3_13d2_002"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "CE71BAB15AC25226",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "D94967B106F369D2",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_3_003",
+        "voiceId": "au_dlg_e1m3_13d2_003"
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "npc_common",
+          "npc_1001_andrew",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "2030A75FCEE52C91",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "chr_0005_chen",
+        "remoteCommText": {
+          "id": "41A1F8150FA1A194",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_3_004",
+        "voiceId": "au_dlg_e1m3_13d2_004"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "CAF48C05ABA757FE",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "BED0AF48EC1323A7",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_3_005",
+        "voiceId": "au_dlg_e1m3_13d2_005"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "D958E0594525F8B6",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "BADE258DF7B20D58",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m3_3_006",
+        "voiceId": "au_dlg_e1m3_13d2_006"
+      }
+    ]
+  },
+  "remotecomm_e1m5_1": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1003_fiona",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F3995F7F887F5621",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "5F590549E535A576",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m5_1_005",
+        "voiceId": "au_radio_e1m5_1_001"
+      },
+      {
+        "actorList": [
+          "npc_1003_fiona",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "B38A8B8F62E4F4EA",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "npc_1003_fiona",
+        "remoteCommText": {
+          "id": "B5BA3C0966E48C6D",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m5_1_006",
+        "voiceId": "au_radio_e1m5_1_002"
+      },
+      {
+        "actorList": [
+          "npc_1003_fiona",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "A441BE3623013A6A",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m5_2",
+          "RemoteComm/BG/remotecomm_image_e1m5_3"
+        ],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m5_1",
+        "remoteCommText": {
+          "id": "824AE9FC4CD37687",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m5_1_001",
+        "voiceId": "au_dlg_e1m5_0d2_001"
+      },
+      {
+        "actorList": [
+          "npc_1003_fiona",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F14B5E23284F6CEC",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m5_3"
+        ],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m5_2",
+        "remoteCommText": {
+          "id": "3088A18B31DF4110",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m5_1_002",
+        "voiceId": "au_dlg_e1m5_0d2_002"
+      },
+      {
+        "actorList": [
+          "npc_1003_fiona",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F87DBCA0BB4043FE",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m5_3",
+        "remoteCommText": {
+          "id": "5D03E9D641A2C0A3",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m5_1_003",
+        "voiceId": "au_dlg_e1m5_0d2_003"
+      },
+      {
+        "actorList": [
+          "npc_1003_fiona",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "2D30AF19BBC13FD2",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "npc_1003_fiona",
+        "remoteCommText": {
+          "id": "B7DDCBF5839C1007",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m5_1_004",
+        "voiceId": "au_dlg_e1m5_0d2_004"
+      }
+    ]
+  },
+  "remotecomm_e1m9_1d5": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "5E5DA57542887246",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m9_1",
+          "RemoteComm/BG/remotecomm_image_e1m9_2"
+        ],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m9_1",
+        "remoteCommText": {
+          "id": "8921E827953A0F6A",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m9_1d5_001",
+        "voiceId": "au_dlg_e1m9_1d5_001"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "A9BEAA968C2C0E5C",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m9_2"
+        ],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m9_1",
+        "remoteCommText": {
+          "id": "DDE79612FC3E258F",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m9_1d5_002",
+        "voiceId": "au_dlg_e1m9_1d5_002"
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "5A5D0E61A0899F99",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m9_2"
+        ],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m9_1",
+        "remoteCommText": {
+          "id": "308EA28799303356",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m9_1d5_003",
+        "voiceId": "au_dlg_e1m9_1d5_003"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "A468BE16C388271C",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e1m9_2"
+        ],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "DB5372B0BA8A453D",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m9_1d5_004",
+        "voiceId": "au_dlg_e1m9_1d5_004"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "03732CD7FE098719",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e1m9_2",
+        "remoteCommText": {
+          "id": "76F46CB716CCE33A",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m9_1d5_005",
+        "voiceId": "au_dlg_e1m9_1d5_005"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1001_andrew",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "62D982556B399586",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "E07316CCDB8DDE9D",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m9_1d5_006",
+        "voiceId": "au_dlg_e1m9_1d5_006"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "32D21A238FA00DD5",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 7,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "BADACD15D662F6A5",
+          "text": ""
+        },
+        "singleId": "remotecomm_e1m9_1d5_007",
+        "voiceId": "au_dlg_e1m9_1d5_007"
+      }
+    ]
+  },
+  "remotecomm_e2m1": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "AF33F9BFA504B33F",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m1_1"
+        ],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "chr_0013_aglina",
+        "remoteCommText": {
+          "id": "6CFAB27F32D151B5",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_001",
+        "voiceId": "au_dlg_e2m1_2d2_001"
+      },
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "23B086B6CAB9B04D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m1_1"
+        ],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "chr_0013_aglina",
+        "remoteCommText": {
+          "id": "D084A5D464B50F63",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_002",
+        "voiceId": "au_dlg_e2m1_2d2_002"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0013_aglina",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "E4672D1EFD422447",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m1_1"
+        ],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "C8E3F6BE447434C8",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_003",
+        "voiceId": "au_dlg_e2m1_2d2_003"
+      },
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "E39B95A249A16AE2",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m1_1",
+        "remoteCommText": {
+          "id": "73DEA8609829B3B4",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_004",
+        "voiceId": "au_dlg_e2m1_2d2_004"
+      },
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "1FC08AAE47F413EA",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m1_1",
+        "remoteCommText": {
+          "id": "06C57F2B8A2595D1",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_005",
+        "voiceId": "au_dlg_e2m1_2d2_005"
+      },
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "872FF7C80AFACE24",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m1_1",
+        "remoteCommText": {
+          "id": "2E6FF802096251FC",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_006",
+        "voiceId": "au_dlg_e2m1_2d2_006"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0013_aglina",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "5F948F981AC149B9",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 7,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "64A46D0FFCC23106",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_007",
+        "voiceId": "au_dlg_e2m1_2d2_007"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0013_aglina",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0042C70EBDCA930B",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 8,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "986AAB0E361BD380",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_008",
+        "voiceId": "au_dlg_e2m1_2d2_008"
+      },
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "D7073A68E48C1616",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 9,
+        "isVideoLoop": false,
+        "middleId": "chr_0013_aglina",
+        "remoteCommText": {
+          "id": "8CEDEC7DA4879223",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_009",
+        "voiceId": "au_dlg_e2m1_2d2_009"
+      },
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "4D49E635E386C8E1",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 10,
+        "isVideoLoop": false,
+        "middleId": "chr_0013_aglina",
+        "remoteCommText": {
+          "id": "33F06E956899814F",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_010",
+        "voiceId": "au_dlg_e2m1_2d2_010"
+      },
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0F8CAF32C0D14D04",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 11,
+        "isVideoLoop": false,
+        "middleId": "chr_0013_aglina",
+        "remoteCommText": {
+          "id": "66BECC5564735EDB",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_011",
+        "voiceId": "au_dlg_e2m1_2d2_011"
+      },
+      {
+        "actorList": [
+          "chr_0013_aglina",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "2E75D9EFEA4BAE21",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 12,
+        "isVideoLoop": false,
+        "middleId": "chr_0013_aglina",
+        "remoteCommText": {
+          "id": "DAF6E334E9A749ED",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_012",
+        "voiceId": "au_dlg_e2m1_2d2_012"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "2471DCBE3F424C05",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 13,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "CE3D527F184235D2",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m1_013",
+        "voiceId": "au_dlg_e2m1_2d2_013"
+      }
+    ]
+  },
+  "remotecomm_e2m2_6": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "22E8C6AB0B05C46F",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "4CC99123281CFAC4",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_001",
+        "voiceId": "au_dlg_e2m2_6_001"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "4978F8CBF3A017DD",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "npc_1002_qinjc",
+        "remoteCommText": {
+          "id": "BF292009D0CE5492",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_002",
+        "voiceId": "au_dlg_e2m2_6_002"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "D919ABBD7077A7E6",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_4",
+        "remoteCommText": {
+          "id": "B50ED06ED400AA9E",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_003",
+        "voiceId": "au_dlg_e2m2_6_003"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "3CAC37B3EA0C6266",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "npc_1002_qinjc",
+        "remoteCommText": {
+          "id": "D4616A6D86F0225A",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_004",
+        "voiceId": "au_dlg_e2m2_6_004"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "25D85006A4FB3020",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m2_5"
+        ],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_3",
+        "remoteCommText": {
+          "id": "57D113A3A772C23D",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_005",
+        "voiceId": "au_dlg_e2m2_6_005"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "9B126D9439006929",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m2_5"
+        ],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_3",
+        "remoteCommText": {
+          "id": "07162E289C18D1DD",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_006",
+        "voiceId": "au_dlg_e2m2_6_006"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "AE6E9F7F7A889978",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m2_5"
+        ],
+        "index": 7,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_3",
+        "remoteCommText": {
+          "id": "295D240B16EABD1F",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_007",
+        "voiceId": "au_dlg_e2m2_6_007"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "8E5833AAC4396CAA",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m2_5"
+        ],
+        "index": 8,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_3",
+        "remoteCommText": {
+          "id": "4F6138A6650E7981",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_008",
+        "voiceId": "au_dlg_e2m2_6_008"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "88EA20A1C85942BF",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m2_5"
+        ],
+        "index": 9,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_3",
+        "remoteCommText": {
+          "id": "C8C156D48AF8C455",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_009",
+        "voiceId": "au_dlg_e2m2_6_009"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "6ED3FB2B524DAC57",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 10,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_5",
+        "remoteCommText": {
+          "id": "E6B61389D7C7E418",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_010",
+        "voiceId": "au_dlg_e2m2_6_010"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "949503B611F87DBE",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 11,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_5",
+        "remoteCommText": {
+          "id": "01B0E3F0E9F29FFA",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_011",
+        "voiceId": "au_dlg_e2m2_6_011"
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "792D59B14010717D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 12,
+        "isVideoLoop": false,
+        "middleId": "npc_1002_qinjc",
+        "remoteCommText": {
+          "id": "470235BD26BFFC26",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_012",
+        "voiceId": "au_dlg_e2m2_6_012"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F028117AC2D7D43A",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 13,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "38184410AAF518F8",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_013",
+        "voiceId": "au_dlg_e2m2_6_013"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "7114112A29D0B805",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 14,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "27E0064D27DE61BE",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_014",
+        "voiceId": "au_dlg_e2m2_6_014"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1001_andrew",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "2F9FC0EF123D305A",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 15,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "A0920264D9C5FED4",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_015",
+        "voiceId": "au_dlg_e2m2_6_015"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1001_andrew",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "7A72912D50527D49",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 16,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "26A90050724D093E",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_016",
+        "voiceId": "au_dlg_e2m2_6_016"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "B065440DD24A0C76",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 17,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "4CCF80AB1E1C7C30",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_017",
+        "voiceId": "au_dlg_e2m2_6_017"
+      },
+      {
+        "actorList": [
+          "npc_1001_andrew",
+          "chr_0004_pelica",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "909DC473E40D5F47",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 18,
+        "isVideoLoop": false,
+        "middleId": "npc_1001_andrew",
+        "remoteCommText": {
+          "id": "C5B973620FF5AC11",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_018",
+        "voiceId": "au_dlg_e2m2_6_018"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_1001_andrew",
+          "npc_1002_qinjc",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "EDDFE4B8388BE1A9",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 19,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "4B2E81F2AEFB3BE7",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m2_6_019",
+        "voiceId": "au_dlg_e2m2_6_019"
+      }
+    ]
+  },
+  "remotecomm_e2m4_8": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "B1CD386610DBFD08",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "9A7C92C99B073628",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_001",
+        "voiceId": "au_dlg_e2m4_8_001"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "CE8623F59864D713",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "A5DB2A17E388CDEE",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_002",
+        "voiceId": "au_dlg_e2m4_8_002"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "E035DC3AE31D79E3",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "A4050388B3CDA24B",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_003",
+        "voiceId": "au_dlg_e2m4_8_003"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "6A235B003456F450",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "2C3605DE85DAB848",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_004",
+        "voiceId": "au_dlg_e2m4_8_004"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "79E2C34A05D5207D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "E13C138F5C298F94",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_005",
+        "voiceId": "au_dlg_e2m4_8_005"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "2EEE1D485FACD755",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m4_2",
+        "remoteCommText": {
+          "id": "96383F4CFC0C442C",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_006",
+        "voiceId": "au_dlg_e2m4_8_006"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "E711E1EEFFB378E5",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 7,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "FE2330DC1AE8AFD4",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_007",
+        "voiceId": "au_dlg_e2m4_8_007"
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "chr_0004_pelica",
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F598A1131AFA8E8B",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 8,
+        "isVideoLoop": false,
+        "middleId": "chr_0005_chen",
+        "remoteCommText": {
+          "id": "E600DD59A5146C6C",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_008",
+        "voiceId": "au_dlg_e2m4_8_008"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "070AEEED79C88877",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 9,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "855625B1EFE8AC18",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_009",
+        "voiceId": "au_dlg_e2m4_8_009"
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "chr_0004_pelica",
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "5626F3526974484E",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 10,
+        "isVideoLoop": false,
+        "middleId": "chr_0005_chen",
+        "remoteCommText": {
+          "id": "B405E60A5B567999",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_010",
+        "voiceId": "au_dlg_e2m4_8_010"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "2ED298E993E96FF7",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 11,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "6F5572C95661D876",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_011",
+        "voiceId": "au_dlg_e2m4_8_011"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "npc_common",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "89B069D5DB4D13A4",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 12,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m4_3",
+        "remoteCommText": {
+          "id": "2049681E1F7BA024",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_012",
+        "voiceId": "au_dlg_e2m4_8_012"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "26C8E6A013F233FD",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 13,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m2_1",
+        "remoteCommText": {
+          "id": "D44708A3FEB22A24",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_013",
+        "voiceId": "au_dlg_e2m4_8_013"
+      },
+      {
+        "actorList": [
+          "chr_0005_chen",
+          "chr_0004_pelica",
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "4C8E1A000841C566",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 14,
+        "isVideoLoop": false,
+        "middleId": "chr_0005_chen",
+        "remoteCommText": {
+          "id": "DAAEE20609DE7CAE",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_014",
+        "voiceId": "au_dlg_e2m4_8_014"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "149B9B543E7DA29C",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m2_1"
+        ],
+        "index": 15,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "845F9203C083E179",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_015",
+        "voiceId": "au_dlg_e2m4_8_015"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "9AC0C14CC8D51F5C",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m2_1"
+        ],
+        "index": 16,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "58ABF0251982C10F",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_016",
+        "voiceId": "au_dlg_e2m4_8_016"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "37383370EA8364F2",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m2_1"
+        ],
+        "index": 17,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "B6D9787B7E52140A",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_017",
+        "voiceId": "au_dlg_e2m4_8_017"
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0FE1B285432A20E1",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 19,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "735014B26290C7F1",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m4_8_019",
+        "voiceId": "au_dlg_e2m4_8_019"
+      }
+    ]
+  },
+  "remotecomm_e2m6_2": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "126310CF7B1832FD",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m6_1",
+          "RemoteComm/BG/remotecomm_image_e2m6_2",
+          "RemoteComm/BG/remotecomm_image_e2m6_3",
+          "RemoteComm/BG/remotecomm_image_e2m6_4"
+        ],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "F36EB3B11BDE39CB",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m6_2_001",
+        "voiceId": "au_dlg_e2m6_2_001"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "4EA4884F098AD35E",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m6_2",
+          "RemoteComm/BG/remotecomm_image_e2m6_3",
+          "RemoteComm/BG/remotecomm_image_e2m6_4"
+        ],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m6_1",
+        "remoteCommText": {
+          "id": "5329344491D51CB3",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m6_2_002",
+        "voiceId": "au_dlg_e2m6_2_002"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "D631F4851E65D425",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m6_3",
+          "RemoteComm/BG/remotecomm_image_e2m6_4"
+        ],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m6_2",
+        "remoteCommText": {
+          "id": "4CAC76CEAFD78A11",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m6_2_003",
+        "voiceId": "au_dlg_e2m6_2_003"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "AE85FE29113164E6",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_e2m6_4"
+        ],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m6_3",
+        "remoteCommText": {
+          "id": "0D8146F25575BFB9",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m6_2_004",
+        "voiceId": "au_dlg_e2m6_2_004"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "740B346BE8BD1723",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m6_4",
+        "remoteCommText": {
+          "id": "38616793BF2AC0AB",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m6_2_005",
+        "voiceId": "au_dlg_e2m6_2_005"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F5501959BEA59852",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_e2m6_4",
+        "remoteCommText": {
+          "id": "279A0B96170AB3DF",
+          "text": ""
+        },
+        "singleId": "remotecomm_e2m6_2_006",
+        "voiceId": "au_dlg_e2m6_2_006"
+      }
+    ]
+  },
+  "remotecomm_e3m1_1": {
+    "autoPlay": true,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0006_wolfgd",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "",
+          "text": ""
+        },
+        "audioId": "au_sfx_remotecomm_e3m1_1",
+        "autoPlayTime": 1.167,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": -1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e3m1_1",
+        "remoteCommText": {
+          "id": "",
+          "text": ""
+        },
+        "singleId": "remotecomm_e3m1_1_wait001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0006_wolfgd",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "23B639726953BDBF",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 3.833,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e3m1_1",
+        "remoteCommText": {
+          "id": "E74359BC461E6F31",
+          "text": ""
+        },
+        "singleId": "remotecomm_e3m1_1_001",
+        "voiceId": "au_dlg_e3m1_2_016"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0006_wolfgd",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "8E981B15DBAB4CB5",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 5.8,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e3m1_1",
+        "remoteCommText": {
+          "id": "CC429D9D8FF04F2A",
+          "text": ""
+        },
+        "singleId": "remotecomm_e3m1_1_002",
+        "voiceId": "au_dlg_e3m1_2_017"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0006_wolfgd",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "56599873850EE803",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 6.633,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e3m1_1",
+        "remoteCommText": {
+          "id": "CF0D49B82F994AD5",
+          "text": ""
+        },
+        "singleId": "remotecomm_e3m1_1_003",
+        "voiceId": "au_dlg_e3m1_2_019"
+      },
+      {
+        "actorList": [
+          "chr_0006_wolfgd",
+          "chr_0004_pelica",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "AFDF285072963054",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 7.267,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e3m1_1",
+        "remoteCommText": {
+          "id": "CC5C92F02263260A",
+          "text": ""
+        },
+        "singleId": "remotecomm_e3m1_1_004",
+        "voiceId": "au_dlg_e3m1_2_020"
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0006_wolfgd",
+          "chr_0005_chen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "7B1998FCAA9BB31C",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 5.45,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e3m1_1",
+        "remoteCommText": {
+          "id": "75E28F84549DB5AF",
+          "text": ""
+        },
+        "singleId": "remotecomm_e3m1_1_005",
+        "voiceId": "au_dlg_e3m1_2_022"
+      }
+    ]
+  },
+  "remotecomm_sm1l5m1_3": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "6CACC65E9C119C6F",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "207625E66DDE2955",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m1_3_001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "26DE2B2E0ED88629",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "F7347D196D86BE59",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m1_3_002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "54484AFDC8B16F9F",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "1E1A048B07F6D2A6",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m1_3_003",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "C999A0C8683313CD",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "99567B928A4B8345",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m1_3_004",
+        "voiceId": ""
+      }
+    ]
+  },
+  "remotecomm_sm1l5m1_4": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "259D13DF67B625C9",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "C651C4E642F6B0C8",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m1_4_001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "270FAD65395E166A",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "26CF0573AB684022",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m1_4_002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "DBE413DB351F09DD",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "9BC6BE5162E7BAC7",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m1_4_003",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0C052794E56570FE",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "B09585E427EBEEC8",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m1_4_004",
+        "voiceId": ""
+      }
+    ]
+  },
+  "remotecomm_sm1l5m2_2": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "npc_common"
+        ],
+        "actorName": {
+          "id": "6B267AC590A7CE9B",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "FCAB1CC7F45D1600",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0012_avywen"
+        ],
+        "actorName": {
+          "id": "237E2FD9754150C1",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "44BDAAA39799C496",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "npc_common"
+        ],
+        "actorName": {
+          "id": "721E1D741F8A633E",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "61A72BFF824F8C27",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_003",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0012_avywen"
+        ],
+        "actorName": {
+          "id": "CF8E9A3978835C79",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "70A3EC489EA154FA",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_004",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "npc_common"
+        ],
+        "actorName": {
+          "id": "FE9B72C2A0AA57B5",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "188C33047B20CEEA",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_005",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0012_avywen"
+        ],
+        "actorName": {
+          "id": "4C19336FA6361BF8",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "274A158273D5AD9E",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_006",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "npc_common"
+        ],
+        "actorName": {
+          "id": "AAFCA2C4E8C688F3",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 7,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "EAEA7D3F2AE2B518",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_007",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0012_avywen"
+        ],
+        "actorName": {
+          "id": "74FC76E3EDADA76B",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 8,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "43EC325054FC3361",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_008",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F0EAA32C953A9AEA",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 9,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "6224D1148CC4777E",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_009",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_9999_endmin",
+          "chr_0012_avywen"
+        ],
+        "actorName": {
+          "id": "73348A6C0BF02B0D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 10,
+        "isVideoLoop": false,
+        "middleId": "chr_9999_endmin",
+        "remoteCommText": {
+          "id": "DA4C9DC7DD031971",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_010",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "chr_9999_endmin",
+          "npc_common"
+        ],
+        "actorName": {
+          "id": "84709304BC689D1B",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 11,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "66804D91F6582E00",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_011",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "chr_9999_endmin",
+          "npc_common"
+        ],
+        "actorName": {
+          "id": "FD8EE4DFF4F24D9D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 12,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "A9475841203FC6CA",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_012",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0012_avywen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "69BB1A73901970C0",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 13,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/remotecomm_image_sm1l5m2_1",
+        "remoteCommText": {
+          "id": "430282C9CC7A1543",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_013",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "231F6D9D29B84E8A",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/remotecomm_image_sm1l5m2_1"
+        ],
+        "index": 14,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "753A2F7984C1F07B",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_014",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0286D77CA0CA7C37",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 15,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "C10E7339F7B8B8DF",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_015",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0012_avywen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "82792CC7B60149CB",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 16,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "22C14E8068F4C941",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_016",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "CF20015104CC94D7",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 17,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "091EE8C54B4E15C8",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_017",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0012_avywen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "8768B42523ABFB0E",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 18,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "03278373F87B9827",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_018",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0012_avywen",
+          "npc_common",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "EDE15AEC75A801B1",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 19,
+        "isVideoLoop": false,
+        "middleId": "chr_0012_avywen",
+        "remoteCommText": {
+          "id": "1824794C04AB3FF7",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_019",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_common",
+          "chr_0012_avywen",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "6B7D53CC2E372954",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 20,
+        "isVideoLoop": false,
+        "middleId": "npc_common",
+        "remoteCommText": {
+          "id": "BFDDB8352BDB086E",
+          "text": ""
+        },
+        "singleId": "remotecomm_sm1l5m2_2_020",
+        "voiceId": ""
+      }
+    ]
+  },
+  "remotecomm_templatetest": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0D994E64C3F81659",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage01_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage02_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage03_1600x900"
+        ],
+        "index": 0,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "EB7D91CFB36050DD",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetest_000",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "04D90370570F89BC",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage02_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage03_1600x900"
+        ],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage01_1600x900",
+        "remoteCommText": {
+          "id": "C379C7617D6E0D35",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetest_001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "13009E256DCC6E59",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage03_1600x900"
+        ],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage02_1600x900",
+        "remoteCommText": {
+          "id": "2982CD32595950B4",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetest_002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "FBDB91F647A964D5",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage03_1600x900",
+        "remoteCommText": {
+          "id": "5153BB31AF661385",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetest_003",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "B68092E782AEBC74",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "0E4DE5C6E8A02C13",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetest_004",
+        "voiceId": ""
+      }
+    ]
+  },
+  "remotecomm_templatetestallmove": {
+    "autoPlay": false,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "E4D9C278C0C027B2",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage01_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage02_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage03_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage04_1600x900"
+        ],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "DB30B6243FF01110",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "4AB46EE5AA1AB98D",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage02_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage03_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage04_1600x900"
+        ],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage01_1600x900",
+        "remoteCommText": {
+          "id": "621821898761660E",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "E7DEDBE9FB9421EA",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage03_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage04_1600x900"
+        ],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage02_1600x900",
+        "remoteCommText": {
+          "id": "1A5BD025FF52D14C",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_003",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "C0E4176733B50B51",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage04_1600x900"
+        ],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage03_1600x900",
+        "remoteCommText": {
+          "id": "B2779704A46DC04C",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_004",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "F1634738E2C25278",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "RemoteCommTestImage04_1600x900",
+        "remoteCommText": {
+          "id": "ECBFA9ADF9F9D976",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_005",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "4BDAFB00FE99D915",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage01_1600x900",
+          "RemoteComm/BG/RemoteCommTestImage02_1600x900"
+        ],
+        "index": 6,
+        "isVideoLoop": false,
+        "middleId": "chr_0009_azrila",
+        "remoteCommText": {
+          "id": "76F80C11D62280E1",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_006",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "9F0B754311F2B696",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [
+          "RemoteComm/BG/RemoteCommTestImage02_1600x900"
+        ],
+        "index": 7,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage01_1600x900",
+        "remoteCommText": {
+          "id": "7C857668EF062EA2",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_007",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "FBBF8EDE3BA4AFD3",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 8,
+        "isVideoLoop": false,
+        "middleId": "RemoteComm/BG/RemoteCommTestImage02_1600x900",
+        "remoteCommText": {
+          "id": "5E6465C2A8FCC818",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_008",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "chr_0004_pelica",
+          "chr_0009_azrila",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "D886714530F38230",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": -1,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 9,
+        "isVideoLoop": false,
+        "middleId": "",
+        "remoteCommText": {
+          "id": "8BC233E9874F0C6E",
+          "text": ""
+        },
+        "singleId": "remotecomm_templatetestallmove_009",
+        "voiceId": ""
+      }
+    ]
+  },
+  "remotecomm_videotest": {
+    "autoPlay": true,
+    "remoteCommSingleDataList": [
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "53C6298A4CC2FDE8",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "EB6326E4C4F9D3F5",
+          "text": ""
+        },
+        "singleId": "remotecomm_videotest_001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 1.5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": -1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "",
+          "text": ""
+        },
+        "singleId": "remotecomm_videotest_wait001",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "0122CC6612124686",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 6.8,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 2,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "BD98A1BC2BCCAFFA",
+          "text": ""
+        },
+        "singleId": "remotecomm_videotest_002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 1.2,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": -1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "",
+          "text": ""
+        },
+        "singleId": "remotecomm_videotest_wait002",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "54688440D1857B2E",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 8,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 3,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "9D5F5A60E8451B0B",
+          "text": ""
+        },
+        "singleId": "remotecomm_videotest_003",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 1.5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": -1,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "",
+          "text": ""
+        },
+        "singleId": "remotecomm_videotest_wait003",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "9A553E3251B01298",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 9.5,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 4,
+        "isVideoLoop": false,
+        "middleId": "remotecomm_e1m2_1",
+        "remoteCommText": {
+          "id": "63F303CC7EC325C0",
+          "text": ""
+        },
+        "singleId": "remotecomm_videotest_004",
+        "voiceId": ""
+      },
+      {
+        "actorList": [
+          "npc_1002_qinjc",
+          "chr_0004_pelica",
+          "chr_9999_endmin"
+        ],
+        "actorName": {
+          "id": "B3AE95267CB90143",
+          "text": ""
+        },
+        "audioId": "",
+        "autoPlayTime": 4,
+        "hint": {
+          "id": "",
+          "text": ""
+        },
+        "imageList": [],
+        "index": 5,
+        "isVideoLoop": false,
+        "middleId": "chr_0004_pelica",
+        "remoteCommText": {
+          "id": "C8E33972D2BB0F0A",
+          "text": ""
+        },
+        "singleId": "remotecomm_videotest_005",
+        "voiceId": ""
+      }
+    ]
+  }
+}

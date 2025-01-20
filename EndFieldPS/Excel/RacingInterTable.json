@@ -1,0 +1,830 @@
+{
+  "race_big_item_1": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 18,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 23.4,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_atk_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_1",
+    "desc": {
+      "id": "5A44CB82E13FD482",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_item_3",
+    "interId": "race_big_item_1",
+    "name": {
+      "id": "246BCF4260BB6293",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 2,
+    "teamEffectBBDatas": []
+  },
+  "race_big_item_10": {
+    "buffBBDatas": [],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_10",
+    "desc": {
+      "id": "27AE010315886FA3",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_10",
+    "interId": "race_big_item_10",
+    "name": {
+      "id": "82900662B6A9C34D",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 13,
+    "teamEffectBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "count",
+            "value": 0,
+            "valueStr": ""
+          },
+          {
+            "key": "charge_speed",
+            "value": 0.225,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_dash_count_up_item"
+      },
+      {
+        "blackboard": [
+          {
+            "key": "count",
+            "value": 0,
+            "valueStr": ""
+          },
+          {
+            "key": "charge_speed",
+            "value": 0.2925,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_dash_count_up_item_stronger"
+      }
+    ]
+  },
+  "race_big_item_11": {
+    "buffBBDatas": [],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_11",
+    "desc": {
+      "id": "F283B0311540E7AB",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_11",
+    "interId": "race_big_item_11",
+    "name": {
+      "id": "17BA73FE83D02810",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 14,
+    "teamEffectBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "atb_recover",
+            "value": 0.10384216,
+            "valueStr": ""
+          },
+          {
+            "key": "atb_gain",
+            "value": 0,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_atb_recovery_up_item"
+      },
+      {
+        "blackboard": [
+          {
+            "key": "atb_recover",
+            "value": 0.1349948,
+            "valueStr": ""
+          },
+          {
+            "key": "atb_gain",
+            "value": 0,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_atb_recovery_up_item_stronger"
+      }
+    ]
+  },
+  "race_big_item_12": {
+    "buffBBDatas": [],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_12",
+    "desc": {
+      "id": "038BF7C93E9FB0E4",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_12",
+    "interId": "race_big_item_12",
+    "name": {
+      "id": "EB733C382A41D60B",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 15,
+    "teamEffectBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "atb_recover",
+            "value": 0,
+            "valueStr": ""
+          },
+          {
+            "key": "atb_gain",
+            "value": 0.31152648,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_atb_recovery_up_item"
+      },
+      {
+        "blackboard": [
+          {
+            "key": "atb_recover",
+            "value": 0,
+            "valueStr": ""
+          },
+          {
+            "key": "atb_gain",
+            "value": 0.4049844,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_atb_recovery_up_item_stronger"
+      }
+    ]
+  },
+  "race_big_item_13": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.3,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 0.39,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_power_attack_dmg_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_13",
+    "desc": {
+      "id": "CF7C52BE524FD9A2",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_13",
+    "interId": "race_big_item_13",
+    "name": {
+      "id": "325956CAB522FDA5",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 10,
+    "teamEffectBBDatas": []
+  },
+  "race_big_item_2": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 18,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 23.4,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_def_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_2",
+    "desc": {
+      "id": "0C8C0D5EE1218394",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_item_4",
+    "interId": "race_big_item_2",
+    "name": {
+      "id": "889EF3AB399DFE84",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 4,
+    "teamEffectBBDatas": []
+  },
+  "race_big_item_3": {
+    "buffBBDatas": [],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_3",
+    "desc": {
+      "id": "FA6C8560B885ECE7",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_3",
+    "interId": "race_big_item_3",
+    "name": {
+      "id": "0BAF03E6D932A411",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 5,
+    "teamEffectBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "count",
+            "value": 1,
+            "valueStr": ""
+          },
+          {
+            "key": "charge_speed",
+            "value": 0,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_dash_count_up_item"
+      },
+      {
+        "blackboard": [
+          {
+            "key": "count",
+            "value": 2,
+            "valueStr": ""
+          },
+          {
+            "key": "charge_speed",
+            "value": 0,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_dash_count_up_item_stronger"
+      }
+    ]
+  },
+  "race_big_item_4": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.08181818,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 0.10636364,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_ult_dmg_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_4",
+    "desc": {
+      "id": "29E271824FD7C6C7",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_4",
+    "interId": "race_big_item_4",
+    "name": {
+      "id": "04FFF9A7A704DDD0",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 6,
+    "teamEffectBBDatas": []
+  },
+  "race_big_item_5": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.12857144,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 0.16714285,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_combo_skill_dmg_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_5",
+    "desc": {
+      "id": "9FFF47C4A18200EE",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_5",
+    "interId": "race_big_item_5",
+    "name": {
+      "id": "310D4803F5C8F56B",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 7,
+    "teamEffectBBDatas": []
+  },
+  "race_big_item_6": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.15,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 0.195,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_skill_dmg_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_6",
+    "desc": {
+      "id": "5162A2FC99DDE987",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_6",
+    "interId": "race_big_item_6",
+    "name": {
+      "id": "FD41BC098D6B09B7",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 8,
+    "teamEffectBBDatas": []
+  },
+  "race_big_item_7": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.06923077,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 0.09,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_normal_attack_dmg_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_7",
+    "desc": {
+      "id": "B7F3050C8D4C7A70",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_7",
+    "interId": "race_big_item_7",
+    "name": {
+      "id": "A9BDEF6787B51094",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 9,
+    "teamEffectBBDatas": []
+  },
+  "race_big_item_8": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "crit",
+            "value": 0.03,
+            "valueStr": ""
+          },
+          {
+            "key": "crit_dmg",
+            "value": 0,
+            "valueStr": ""
+          },
+          {
+            "key": "crit_stronger_items",
+            "value": 0.039,
+            "valueStr": ""
+          },
+          {
+            "key": "crit_dmg_stronger_items",
+            "value": 0,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_crit_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_8",
+    "desc": {
+      "id": "29DC01A2111DF8A5",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_8",
+    "interId": "race_big_item_8",
+    "name": {
+      "id": "443F237410325C98",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 11,
+    "teamEffectBBDatas": []
+  },
+  "race_big_item_9": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "crit",
+            "value": 0,
+            "valueStr": ""
+          },
+          {
+            "key": "crit_dmg",
+            "value": 0.09,
+            "valueStr": ""
+          },
+          {
+            "key": "crit_stronger_items",
+            "value": 0,
+            "valueStr": ""
+          },
+          {
+            "key": "crit_dmg_stronger_items",
+            "value": 0.117,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_crit_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      216,
+      97
+    ],
+    "buffIcon": "icon_buff_racedg_big_item_9",
+    "desc": {
+      "id": "F8ED7E9A4766C29C",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_yellow"
+      }
+    ],
+    "icon": "icon_buff_racedg_big_item_9",
+    "interId": "race_big_item_9",
+    "name": {
+      "id": "0F84950FCDDB6446",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 12,
+    "teamEffectBBDatas": []
+  },
+  "race_item_1": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.17,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 0.221,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_heal_item"
+      }
+    ],
+    "buffColor": [
+      110,
+      255,
+      134
+    ],
+    "buffIcon": "icon_buff_racedg_item_1",
+    "desc": {
+      "id": "E3A1A6AF307A9428",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_green"
+      }
+    ],
+    "icon": "icon_buff_racedg_item_1",
+    "interId": "race_item_1",
+    "name": {
+      "id": "E6DE8060E465A9DC",
+      "text": ""
+    },
+    "oneTimeOnly": true,
+    "sortValue": 99,
+    "teamEffectBBDatas": []
+  },
+  "race_item_2": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.13,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 0.169,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_usp_item"
+      }
+    ],
+    "buffColor": [
+      120,
+      214,
+      255
+    ],
+    "buffIcon": "icon_buff_racedg_item_2",
+    "desc": {
+      "id": "96B5A6EF0EA727BD",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_blue"
+      }
+    ],
+    "icon": "icon_buff_racedg_item_2",
+    "interId": "race_item_2",
+    "name": {
+      "id": "BF3003D50CC6C274",
+      "text": ""
+    },
+    "oneTimeOnly": true,
+    "sortValue": 99,
+    "teamEffectBBDatas": []
+  },
+  "race_item_3": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 4.5,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 5.85,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_atk_up"
+      }
+    ],
+    "buffColor": [
+      255,
+      150,
+      105
+    ],
+    "buffIcon": "icon_buff_racedg_item_3",
+    "desc": {
+      "id": "CB40FF59C0EEF48D",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_red"
+      }
+    ],
+    "icon": "icon_buff_racedg_item_3",
+    "interId": "race_item_3",
+    "name": {
+      "id": "BC31DC74DDB88CC9",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 1,
+    "teamEffectBBDatas": []
+  },
+  "race_item_4": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 4.5,
+            "valueStr": ""
+          },
+          {
+            "key": "value_stronger_items",
+            "value": 5.85,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_def_up"
+      }
+    ],
+    "buffColor": [
+      215,
+      215,
+      215
+    ],
+    "buffIcon": "icon_buff_racedg_item_4",
+    "desc": {
+      "id": "52A99B1914E64CF8",
+      "text": ""
+    },
+    "fxBuffs": [
+      {
+        "blackboard": [],
+        "buffId": "buff_race_item_fx_white"
+      }
+    ],
+    "icon": "icon_buff_racedg_item_4",
+    "interId": "race_item_4",
+    "name": {
+      "id": "DADEA24A3B818A15",
+      "text": ""
+    },
+    "oneTimeOnly": false,
+    "sortValue": 3,
+    "teamEffectBBDatas": []
+  }
+}

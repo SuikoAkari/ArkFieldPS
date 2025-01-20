@@ -1,0 +1,57 @@
+{
+  "control_center_level_1": {
+    "id": "control_center_level_1",
+    "level": 1,
+    "roomType": 0
+  },
+  "control_center_level_2": {
+    "id": "control_center_level_2",
+    "level": 2,
+    "roomType": 0
+  },
+  "control_center_level_3": {
+    "id": "control_center_level_3",
+    "level": 3,
+    "roomType": 0
+  },
+  "control_center_level_4": {
+    "id": "control_center_level_4",
+    "level": 4,
+    "roomType": 0
+  },
+  "control_center_level_5": {
+    "id": "control_center_level_5",
+    "level": 5,
+    "roomType": 0
+  },
+  "grow_cabin_level_1": {
+    "id": "grow_cabin_level_1",
+    "level": 1,
+    "roomType": 2
+  },
+  "grow_cabin_level_2": {
+    "id": "grow_cabin_level_2",
+    "level": 2,
+    "roomType": 2
+  },
+  "grow_cabin_level_3": {
+    "id": "grow_cabin_level_3",
+    "level": 3,
+    "roomType": 2
+  },
+  "manufacturing_station_level_1": {
+    "id": "manufacturing_station_level_1",
+    "level": 1,
+    "roomType": 1
+  },
+  "manufacturing_station_level_2": {
+    "id": "manufacturing_station_level_2",
+    "level": 2,
+    "roomType": 1
+  },
+  "manufacturing_station_level_3": {
+    "id": "manufacturing_station_level_3",
+    "level": 3,
+    "roomType": 1
+  }
+}
