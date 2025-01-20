@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using EndFieldPS;
 using Newtonsoft.Json;
-using SethosImpact.Proxy;
 
 class Program
 {
@@ -25,8 +24,7 @@ class Program
         {
             File.WriteAllText("server_config.json", JsonConvert.SerializeObject(config, Formatting.Indented));
         }
-        ProxyService service = null;
-        if (config.InternalProxy) service = new();
+        
 
         new Thread(() =>
         {
@@ -35,7 +33,7 @@ class Program
         AppDomain.CurrentDomain.ProcessExit += (_, _) =>
         {
             Console.WriteLine("Shutting down...");
-            if (service != null) service.Shutdown();
+            
             Server.Shutdown(); //TODO
         };
 

@@ -325,6 +325,10 @@ namespace EndFieldPS.Packets.Cs
             {
                 unlock.UnlockSystems.Add(item.Value.unlockSystemType);
             }
+            foreach (var item in systemJumpTable)
+            {
+                unlock.UnlockSystems.Add(item.Value.bindSystem);
+            }
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
             {
                 CollectionList =
@@ -354,11 +358,16 @@ namespace EndFieldPS.Packets.Cs
             {
                 GameVars.ClientVars.Add(cVar, 1);
             }
+            for (int sVar= 1; sVar <= 50; sVar++)
+            {
+                GameVars.ServerVars.Add(sVar, 1);
+            }
             ScAdventureSyncAll adventure = new()
             {
                 Exp = 0,
                 Level = 20,
             };
+           
             ScSyncAllRoleScene role = new ScSyncAllRoleScene()
             {
                 SceneGradeInfo =
@@ -382,7 +391,7 @@ namespace EndFieldPS.Packets.Cs
                     info = new()
                     {
                         SceneId = item.Value.sceneId
-
+                        
                     };
 
                     info.UnlockAreaId.Add(item.Value.areaId);
@@ -401,10 +410,6 @@ namespace EndFieldPS.Packets.Cs
                 }
             }
             session.Send(Packet.EncodePacket((int)ScMessageId.ScSyncAllRoleScene, role));
-            for (int i=1; i < 50; i++)
-            {
-                GameVars.ClientVars.Add(i,0);
-            }
             foreach (var item in blocMissionTable)
             {
                 missions.Missions.Add(item.Key,new Mission()
@@ -422,7 +427,12 @@ namespace EndFieldPS.Packets.Cs
             session.Send(Packet.EncodePacket((int)ScMessageId.ScSyncAllUnlock, unlock));
             session.Send(Packet.EncodePacket((int)ScMessageId.ScSyncAllMission, missions));
             session.Send(Packet.EncodePacket((int)ScMessageId.ScAdventureSyncAll, adventure));
-            ScMessageId.
+            ScSpaceshipSync spaceship = new()
+            {
+                
+            };
+            
+            session.Send(Packet.EncodePacket((int)ScMessageId.ScSpaceshipSync, spaceship));
             session.EnterScene(101);
         }
         [Server.Handler(CsMessageId.CsLogin)]
