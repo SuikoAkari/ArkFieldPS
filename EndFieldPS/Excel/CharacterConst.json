@@ -1,0 +1,12 @@
+{
+  "defaultEquipTierLimit": 2,
+  "maxBreak": 4,
+  "maxLevel": 80,
+  "maxPotential": 5,
+  "maxWeaponSkillLevel": 9,
+  "weaponExpItem": [
+    "item_weapon_expcard_low",
+    "item_weapon_expcard_mid",
+    "item_weapon_expcard_high"
+  ]
+}

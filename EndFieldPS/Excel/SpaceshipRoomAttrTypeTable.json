@@ -1,0 +1,107 @@
+{
+  "0": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "ss_room_attr_icon_ps_recovery_rate",
+    "isPercent": true,
+    "name": {
+      "id": "269E94DF7C3E6B46",
+      "text": ""
+    },
+    "showRate": 0.6,
+    "sortId": 6,
+    "type": 0
+  },
+  "1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "ss_room_attr_icon_room_ps_cost_rate",
+    "isPercent": true,
+    "name": {
+      "id": "806F03D2180C103B",
+      "text": ""
+    },
+    "showRate": 0.6,
+    "sortId": 1,
+    "type": 1
+  },
+  "2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "ss_room_attr_icon_room_produce_rate",
+    "isPercent": true,
+    "name": {
+      "id": "552D3A4711D5876B",
+      "text": ""
+    },
+    "showRate": 1,
+    "sortId": 2,
+    "type": 2
+  },
+  "3": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "ss_room_attr_icon_grow_cabin_char_material_produce_rate",
+    "isPercent": true,
+    "name": {
+      "id": "7726C8A7C49BB284",
+      "text": ""
+    },
+    "showRate": 1,
+    "sortId": 3,
+    "type": 3
+  },
+  "4": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "ss_room_attr_icon_grow_cabin_skill_material_produce_rate",
+    "isPercent": true,
+    "name": {
+      "id": "A2A89A1D0960F156",
+      "text": ""
+    },
+    "showRate": 1,
+    "sortId": 4,
+    "type": 4
+  },
+  "5": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "ss_room_attr_icon_grow_cabin_weapon_material_produce_rate",
+    "isPercent": true,
+    "name": {
+      "id": "2E6C3F8F9FDE145C",
+      "text": ""
+    },
+    "showRate": 1,
+    "sortId": 5,
+    "type": 5
+  },
+  "7": {
+    "desc": {
+      "id": "8F42D83F111E630E",
+      "text": ""
+    },
+    "icon": "icon_spaceship_room_effect_trust",
+    "isPercent": false,
+    "name": {
+      "id": "DF2BC2622326C147",
+      "text": ""
+    },
+    "showRate": 0,
+    "sortId": 7,
+    "type": 7
+  }
+}

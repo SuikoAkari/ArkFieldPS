@@ -1,0 +1,4739 @@
+{
+  "constant_payshop_wpn_claym_0003": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_claym_0003",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_claym_0003",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_claym_0009": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_claym_0009",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_claym_0009",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_claym_0011": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_claym_0011",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_claym_0011",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_funnel_0001": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_funnel_0001",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0001",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_funnel_0003": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_funnel_0003",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0003",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 13,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_funnel_0004": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_funnel_0004",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0004",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_lance_0003": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_lance_0003",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_lance_0003",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_lance_0008": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_lance_0008",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_lance_0008",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_lance_0010": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_lance_0010",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_lance_0010",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_pistol_0002": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_pistol_0002",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_pistol_0002",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 14,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_pistol_0003": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_pistol_0003",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_pistol_0003",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 15,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_pistol_0005": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_pistol_0005",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_pistol_0005",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_sword_0007": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_sword_0007",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0007",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_sword_0008": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_sword_0008",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0008",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_payshop_wpn_sword_0009": {
+    "cnDiscount": 1,
+    "goodsId": "constant_payshop_wpn_sword_0009",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0009",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "constant_weaponbox_constant_1": {
+    "cnDiscount": 1,
+    "goodsId": "constant_weaponbox_constant_1",
+    "isShowWhenLock": false,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 2980,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": "weaponbox_constant_1"
+  },
+  "constant_weaponbox_constant_2": {
+    "cnDiscount": 1,
+    "goodsId": "constant_weaponbox_constant_2",
+    "isShowWhenLock": false,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 2980,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": "weaponbox_constant_2"
+  },
+  "constant_weaponbox_constant_3": {
+    "cnDiscount": 1,
+    "goodsId": "constant_weaponbox_constant_3",
+    "isShowWhenLock": false,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 2980,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "",
+    "shopId": "shop_pay_weapon_constant",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": "weaponbox_constant_3"
+  },
+  "daily_payshop_wpn_claym_0003": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_claym_0003",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_claym_0003",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 20,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_claym_0004": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_claym_0004",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_claym_0004",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_claym_0009": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_claym_0009",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_claym_0009",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 21,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_claym_0011": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_claym_0011",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_claym_0011",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_claym_0012": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_claym_0012",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_claym_0012",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_funnel_0001": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_funnel_0001",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0001",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 23,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_funnel_0003": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_funnel_0003",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0003",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 25,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_funnel_0004": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_funnel_0004",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0004",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_funnel_0005": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_funnel_0005",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0005",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_funnel_0006": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_funnel_0006",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0006",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 13,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_funnel_0007": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_funnel_0007",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_funnel_0007",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 14,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_lance_0003": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_lance_0003",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_lance_0003",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 22,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_lance_0004": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_lance_0004",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_lance_0004",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_lance_0007": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_lance_0007",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_lance_0007",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_lance_0008": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_lance_0008",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_lance_0008",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 24,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_lance_0010": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_lance_0010",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_lance_0010",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_pistol_0002": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_pistol_0002",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_pistol_0002",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 26,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_pistol_0003": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_pistol_0003",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_pistol_0003",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 27,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_pistol_0004": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_pistol_0004",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_pistol_0004",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 15,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_pistol_0005": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_pistol_0005",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_pistol_0005",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 16,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_pistol_0006": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_pistol_0006",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_pistol_0006",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 17,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_sword_0005": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_sword_0005",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0005",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_sword_0007": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_sword_0007",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0007",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_sword_0008": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_sword_0008",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0008",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 19,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_sword_0009": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_sword_0009",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0009",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 18,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_sword_0010": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_sword_0010",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0010",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "daily_payshop_wpn_sword_0012": {
+    "cnDiscount": 1,
+    "goodsId": "daily_payshop_wpn_sword_0012",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 1,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_wpn_sword_0012",
+    "shopId": "shop_pay_weapon_daily",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_1": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_1_1",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "0519AFA93AC01B4B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_1",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_10": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_10",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "6DD6CCDE00BAB200",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_10",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_11": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_11",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "E9EE209661C8E466",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_11",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_12": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_12",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "1D6CAA1077623C0F",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_12",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_2": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_2",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "E5D2D9955DC20A6F",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_2",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_3": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_3",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "0047E78BF232EDD7",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_3",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_4": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_4",
+    "isShowWhenLock": false,
+    "limitCount": 16,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "90B74A164EA6A270",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 4000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_4",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_5": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_5",
+    "isShowWhenLock": false,
+    "limitCount": 16,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "26BDF22596561952",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_5",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_6": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_6",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "9A41549BD8AC3E8D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_6",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_7": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_7",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "18469D8D9CE9E47A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_7",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_8": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_8",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "CE04F8085C6BA687",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_8",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_1_9": {
+    "cnDiscount": 0.04,
+    "goodsId": "hongshan_1_9",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "B3DBE2FE470A092C",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_1_9",
+    "shopId": "shop_spaceship_hongshan_1",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_1": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_2_1",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "D4B806C245F5FA8D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_1",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_10": {
+    "cnDiscount": 0.08,
+    "goodsId": "hongshan_2_10",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "F4F853E7B087AFCD",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_10",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_13": {
+    "cnDiscount": 0.08,
+    "goodsId": "hongshan_2_13",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A19D6FA373014B0B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_13",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_17": {
+    "cnDiscount": 0.08,
+    "goodsId": "hongshan_2_17",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "B88624F113EFA85A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_17",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_19": {
+    "cnDiscount": 0.08,
+    "goodsId": "hongshan_2_19",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "20E6AC4266633F1E",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_19",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_2": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_2_2",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "3681F80BDEC18E96",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_2",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_20": {
+    "cnDiscount": 0.08,
+    "goodsId": "hongshan_2_20",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "97A04804BB0432E8",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_20",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_22": {
+    "cnDiscount": 0.08,
+    "goodsId": "hongshan_2_22",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "6211D506648F36FB",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_22",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_3": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_2_3",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "2108B0F6504CA65F",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_3",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_4": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_2_4",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "154410338D95A614",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 4000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_4",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_5": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_2_5",
+    "isShowWhenLock": false,
+    "limitCount": 15,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "D89C5C9FE90BCA81",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_5",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_2_7": {
+    "cnDiscount": 0.08,
+    "goodsId": "hongshan_2_7",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "7DD471D60E5803AB",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_2_7",
+    "shopId": "shop_spaceship_hongshan_2",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_1": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_3_1",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A16357C7002CA21A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 7000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_1",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_11": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_3_11",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "DA01BF20BE292659",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_11",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_14": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_3_14",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A1D9F98D9ACE421C",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_14",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_18": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_3_18",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "01960D3E4AB68CE9",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_18",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_19": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_3_19",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "4385D139B20DD34A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_19",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_2": {
+    "cnDiscount": 0.25,
+    "goodsId": "hongshan_3_2",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "8398F629E830789B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_2",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_21": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_3_21",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "F7907E5BC7949B78",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_21",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_23": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_3_23",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "30BD8D8E236646F2",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_23",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_3": {
+    "cnDiscount": 0.25,
+    "goodsId": "hongshan_3_3",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "233BE3BC8F4A34C9",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_3",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_4": {
+    "cnDiscount": 0.25,
+    "goodsId": "hongshan_3_4",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "1ED56F8422EF0C05",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 4000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_4",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_5": {
+    "cnDiscount": 0.25,
+    "goodsId": "hongshan_3_5",
+    "isShowWhenLock": false,
+    "limitCount": 10,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "8E26E7CDDD3DECF9",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 2500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_5",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_3_8": {
+    "cnDiscount": 0.12,
+    "goodsId": "hongshan_3_8",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "7F741CE2811A0841",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_3_8",
+    "shopId": "shop_spaceship_hongshan_3",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_1": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_1",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "FEAFAD1BE27EF9EB",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_1",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 28,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_10": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_10",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "63FF5BA02BCDE58E",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_10",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 19,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_11": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_11",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "2D1D2FE9BED85EDA",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_11",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 18,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_12": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_12",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "DC0FD3D59D5969E7",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_12",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 17,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_13": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_13",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "41E8F2B9465BF31A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_13",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 16,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_14": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_14",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "11B34C7268F2A2CA",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_14",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 15,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_15": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_15",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "7FA436DCA0B13FE1",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_15",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 14,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_16": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_16",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "3EC5F1C567077BDE",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_16",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 13,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_17": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_17",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "0D28F672A302BFFD",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_17",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_18": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_18",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "71EEF729956289BD",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_18",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_19": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_19",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "1CFCA0B1ABC49C0B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_19",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_2": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_2",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "DC0AD69C80E74D6D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_2",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 27,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_20": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_20",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "CCB53C32A9E6BB15",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_20",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_21": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_21",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "6C6FC6D8BA404853",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_21",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_22": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_22",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "8F2DE17CEC44E795",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_22",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_23": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_23",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "3B2D2BAC18438C0A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_23",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_24": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_24",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "BDE28EB55130C1BE",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_24",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_25": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_25",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A9C40DC48B278773",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_25",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_26": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_26",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "E404C6561E9563ED",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_26",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_27": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_27",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A3C8ADFA2A159E9B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_27",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_28": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_28",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "44EFF1258D528CB5",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_28",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_3": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_3",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "E6188DA1CE89638E",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_3",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 26,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_4": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_4",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A81580DB1D55709D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_4",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 25,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_5": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_5",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "EEBAA7BC5C3680FB",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_5",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 24,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_6": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_6",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "EB18C24FFB950560",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_6",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 23,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_7": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_7",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "61D0748469A551CD",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_7",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 22,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_8": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_8",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A670673BDEB49AC1",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_8",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 21,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "hongshan_4_9": {
+    "cnDiscount": 1,
+    "goodsId": "hongshan_4_9",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "139E9A0D132E62C6",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_jinlong_gold",
+    "price": 12000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_jinlong_4_9",
+    "shopId": "shop_spaceship_hongshan_4",
+    "sortId": 20,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_char_break_stage_1_2": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_char_break_stage_1_2",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 5,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_char_break_stage_1_2",
+    "shopId": "shop_pay_green_1",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_char_break_stage_3_4": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_char_break_stage_3_4",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "BDB410C400AFDC12",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 10,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_char_break_stage_3_4",
+    "shopId": "shop_pay_green_1",
+    "sortId": 5,
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_payshop_green_item_char_break_stage_3_4_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_char_skill_level_1_6": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_char_skill_level_1_6",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 2,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_char_skill_level_1_6",
+    "shopId": "shop_pay_green_1",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_char_skill_level_7_12": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_char_skill_level_7_12",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "820CC0CD4A8777F6",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 4,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_char_skill_level_7_12",
+    "shopId": "shop_pay_green_1",
+    "sortId": 3,
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_payshop_green_item_char_skill_level_7_12_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_expcard_stage1_high": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_expcard_stage1_high",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 10,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_expcard_stage1_high",
+    "shopId": "shop_pay_green_1",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_expcard_stage2_high": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_expcard_stage2_high",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "75AB3359B15DA8A9",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 20,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_expcard_stage2_high",
+    "shopId": "shop_pay_green_1",
+    "sortId": 1,
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_payshop_green_item_expcard_stage2_high_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_gold": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_gold",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 5,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_gold",
+    "shopId": "shop_pay_green_1",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_weapon_break_high": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_weapon_break_high",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 10,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_weapon_break_high",
+    "shopId": "shop_pay_green_1",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_weapon_break_low": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_weapon_break_low",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 5,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_weapon_break_low",
+    "shopId": "shop_pay_green_1",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_green_item_weapon_expcard_high": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_green_item_weapon_expcard_high",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weaponticket",
+    "price": 10,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_weapon_expcard_high",
+    "shopId": "shop_pay_green_1",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_chr_0009_azrila": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_yellow_chr_0009_azrila",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_chr_0009_azrila",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_chr_0013_aglina": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_yellow_chr_0013_aglina",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_chr_0013_aglina",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_chr_0015_lifeng": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_yellow_chr_0015_lifeng",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_chr_0015_lifeng",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_gachabyproducts_weapongold_1": {
+    "cnDiscount": 0.6,
+    "goodsId": "payshop_yellow_gachabyproducts_weapongold_1",
+    "isShowWhenLock": true,
+    "limitCount": 15,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 15,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_gachabyproducts_weapongold",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_gachabyproducts_weapongold_2": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_yellow_gachabyproducts_weapongold_2",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "51C051B99FAB8F05",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 15,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_gachabyproducts_weapongold",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 4,
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_gachabyproducts_weapongold_2_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_item_char_break_stage_3_4": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_yellow_item_char_break_stage_3_4",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 5,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_char_break_stage_3_4",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_item_weapon_break_high": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_yellow_item_weapon_break_high",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 5,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_item_weapon_break_high",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_ticketgacha_special_single_1": {
+    "cnDiscount": 0.6,
+    "goodsId": "payshop_yellow_ticketgacha_special_single_1",
+    "isShowWhenLock": true,
+    "limitCount": 15,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 25,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_ticketgacha_special_single",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "payshop_yellow_ticketgacha_special_single_2": {
+    "cnDiscount": 1,
+    "goodsId": "payshop_yellow_ticketgacha_special_single_2",
+    "isShowWhenLock": true,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "5B454065CC770B85",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_charticket",
+    "price": 25,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_payshop_ticketgacha_special_single",
+    "shopId": "shop_pay_yellow_1",
+    "sortId": 2,
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_ticketgacha_special_single_2_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_common_map01_lv005_1_1_item_plant_bbflower_seed_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_common_map01_lv005_1_1_item_plant_bbflower_seed_1",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 300,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_bbflower_seed_1",
+    "shopId": "shop_common_map01_lv005_1_1",
+    "sortId": 3,
+    "unlockConditions": [
+      {
+        "conditionId": "m1l5_1_cond_4",
+        "desc": {
+          "id": "758E704C42FCFC60",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_common_map01_lv005_1_1_item_plant_moss_seed_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_common_map01_lv005_1_1_item_plant_moss_seed_1",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 200,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_moss_seed_1",
+    "shopId": "shop_common_map01_lv005_1_1",
+    "sortId": 6,
+    "unlockConditions": [
+      {
+        "conditionId": "m1l5_1_cond_1",
+        "desc": {
+          "id": "BAED1BE2553A6C7E",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_common_map01_lv005_1_1_item_plant_moss_seed_2": {
+    "cnDiscount": 1,
+    "goodsId": "shop_common_map01_lv005_1_1_item_plant_moss_seed_2",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 200,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_moss_seed_2",
+    "shopId": "shop_common_map01_lv005_1_1",
+    "sortId": 5,
+    "unlockConditions": [
+      {
+        "conditionId": "m1l5_1_cond_2",
+        "desc": {
+          "id": "4FE78C99491AEEEB",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_common_map01_lv005_1_1_item_plant_moss_seed_3": {
+    "cnDiscount": 1,
+    "goodsId": "shop_common_map01_lv005_1_1_item_plant_moss_seed_3",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 200,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_moss_seed_3",
+    "shopId": "shop_common_map01_lv005_1_1",
+    "sortId": 4,
+    "unlockConditions": [
+      {
+        "conditionId": "m1l5_1_cond_3",
+        "desc": {
+          "id": "6EAA29CC59F71538",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_common_map01_lv005_1_1_item_plant_sp_seed_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_common_map01_lv005_1_1_item_plant_sp_seed_1",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_sp_seed_1",
+    "shopId": "shop_common_map01_lv005_1_1",
+    "sortId": 2,
+    "unlockConditions": [
+      {
+        "conditionId": "m1l5_1_cond_5",
+        "desc": {
+          "id": "2362449949C93827",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_common_map01_lv005_1_1_item_plant_sp_seed_2": {
+    "cnDiscount": 1,
+    "goodsId": "shop_common_map01_lv005_1_1_item_plant_sp_seed_2",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_sp_seed_2",
+    "shopId": "shop_common_map01_lv005_1_1",
+    "sortId": 1,
+    "unlockConditions": [
+      {
+        "conditionId": "m1l5_1_cond_6",
+        "desc": {
+          "id": "958CA2781C106DEA",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_angles_corp1_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_angles_corp1_1",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_angles_corp1_1",
+    "shopId": "shop_common_map01_lv003_1_1",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_angles_flower2_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_angles_flower2_1",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 300,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_angles_flower2_1",
+    "shopId": "shop_common_map01_lv003_1_1",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_animal_insec2_angles_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_animal_insec2_angles_1",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_animal_insec2_angles_1",
+    "shopId": "shop_common_map01_lv006_1_1",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_bottled_flower1spc_2": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_bottled_flower1spc_2",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_bottled_flower1spc_2",
+    "shopId": "shop_common_map01_lv006_1_1",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_bottled_flower1spc_3": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_bottled_flower1spc_3",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 750,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_bottled_flower1spc_3",
+    "shopId": "shop_common_map01_lv006_1_1",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_bottled_insec1_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_bottled_insec1_1",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_bottled_insec1_1",
+    "shopId": "shop_common_map01_lv003_1_1",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_bottled_insec2_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_bottled_insec2_1",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 750,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_bottled_insec2_1",
+    "shopId": "shop_common_map01_lv003_1_1",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_bottled_rec_hp_2": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_bottled_rec_hp_2",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 300,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_bottled_rec_hp_2",
+    "shopId": "shop_common_map01_lv006_1_1",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_bottled_rec_hp_3": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_bottled_rec_hp_3",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_bottled_rec_hp_3",
+    "shopId": "shop_common_map01_lv006_1_1",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_char_break_stage_1_2": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_char_break_stage_1_2",
+    "isShowWhenLock": false,
+    "limitCount": 10,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_char_break_stage_1_2",
+    "shopId": "shop_common_map01_lv001_1_1",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_char_skill_level_1_6": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_char_skill_level_1_6",
+    "isShowWhenLock": false,
+    "limitCount": 25,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 200,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_char_skill_level_1_6",
+    "shopId": "shop_common_map01_lv001_1_1",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_corp1_flower1_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_corp1_flower1_1",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 750,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_corp1_flower1_1",
+    "shopId": "shop_common_map01_lv003_1_1",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_ebs_corp2_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_ebs_corp2_1",
+    "isShowWhenLock": false,
+    "limitCount": 3,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 300,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_ebs_corp2_1",
+    "shopId": "shop_common_map01_lv006_1_1",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_equip_script_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_equip_script_1",
+    "isShowWhenLock": false,
+    "limitCount": 10,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 50,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_equip_script_1",
+    "shopId": "shop_common_map01_lv001_2_1",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_expcard_stage1_high": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_expcard_stage1_high",
+    "isShowWhenLock": false,
+    "limitCount": 10,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_expcard_stage1_high",
+    "shopId": "shop_common_map01_lv001_1_1",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_mission_sm1l3m4_keycard": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_mission_sm1l3m4_keycard",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 100,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_mission_sm1l3m4_keycard",
+    "shopId": "shop_common_map01_lv003_1_1",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_plant_crylplant_1_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_plant_crylplant_1_1",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_plant_crylplant_1_1",
+    "shopId": "shop_common_map01_lv001_1_1",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_plant_grass_seed_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_plant_grass_seed_1",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_grass_seed_1",
+    "shopId": "shop_common_map02_lv001_1_1",
+    "sortId": 4,
+    "unlockConditions": [
+      {
+        "conditionId": "m2l1_1_cond_1",
+        "desc": {
+          "id": "9F3C5366D8E44F05",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_plant_grasss_seed_2": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_plant_grasss_seed_2",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 750,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_grasss_seed_2",
+    "shopId": "shop_common_map02_lv001_1_1",
+    "sortId": 3,
+    "unlockConditions": [
+      {
+        "conditionId": "m2l1_1_cond_2",
+        "desc": {
+          "id": "DA97779AC6A097B1",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_plant_mushroom_1_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_plant_mushroom_1_1",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_plant_mushroom_1_1",
+    "shopId": "shop_common_map01_lv001_1_1",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_plant_sp_seed_3": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_plant_sp_seed_3",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_sp_seed_3",
+    "shopId": "shop_common_map02_lv001_1_1",
+    "sortId": 2,
+    "unlockConditions": [
+      {
+        "conditionId": "m2l1_1_cond_3",
+        "desc": {
+          "id": "03F2B374ECFFCFA8",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_plant_sp_seed_4": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_plant_sp_seed_4",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_item_plant_sp_seed_4",
+    "shopId": "shop_common_map02_lv001_1_1",
+    "sortId": 1,
+    "unlockConditions": [
+      {
+        "conditionId": "m2l1_1_cond_4",
+        "desc": {
+          "id": "79E6A1933E046499",
+          "text": ""
+        }
+      }
+    ],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_plant_spcstone_1_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_plant_spcstone_1_1",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_plant_spcstone_1_1",
+    "shopId": "shop_common_map01_lv001_2_1",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_prts_nar_col_lv001_37": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_prts_nar_col_lv001_37",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 100,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_prts_nar_col_lv001_37",
+    "shopId": "shop_common_map01_lv001_2_1",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_prts_nar_col_lv001_63": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_prts_nar_col_lv001_63",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 100,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_prts_nar_col_lv001_63",
+    "shopId": "shop_common_map01_lv003_1_1",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_prts_nar_col_lv005_18": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_prts_nar_col_lv005_18",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 100,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_prts_nar_col_lv005_18",
+    "shopId": "shop_common_map01_lv006_1_1",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_spaceship_cmpt_1": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_spaceship_cmpt_1",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 300,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_spaceship_cmpt_1",
+    "shopId": "shop_common_map01_lv006_1_1",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_weapon_break_low": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_weapon_break_low",
+    "isShowWhenLock": false,
+    "limitCount": 10,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_weapon_break_low",
+    "shopId": "shop_common_map01_lv001_2_1",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "shop_item_weapon_expcard_high": {
+    "cnDiscount": 1,
+    "goodsId": "shop_item_weapon_expcard_high",
+    "isShowWhenLock": false,
+    "limitCount": 10,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_shop_item_weapon_expcard_high",
+    "shopId": "shop_common_map01_lv001_2_1",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_1": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_1_1",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "2C5370D05130FB44",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_1",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 14,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_10": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_10",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "5DC44847CA9FCA4F",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_10",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_11": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_11",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "E0C2D67C935CB117",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_11",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_12": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_12",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "008515D97757DA13",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_12",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_13": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_13",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "19DFE930BE811F90",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_13",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_14": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_14",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "437DE264E38EE99C",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_14",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_2": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_2",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "57568098E92F1C30",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_2",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 13,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_3": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_3",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "62BE38ECB76924B4",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 1000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_3",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_4": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_4",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "17325EEE5B50612A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_4",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_5": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_5",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "F2D5CE94B82A0326",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_5",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_6": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_6",
+    "isShowWhenLock": false,
+    "limitCount": 12,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "B9F690A12FF5067A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_6",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_7": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_7",
+    "isShowWhenLock": false,
+    "limitCount": 12,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "4F103D1ACAA40ED7",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 2500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_7",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_8": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_8",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "E29B4197A9A4B49D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_8",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_1_9": {
+    "cnDiscount": 0.04,
+    "goodsId": "taiyuan_1_9",
+    "isShowWhenLock": false,
+    "limitCount": 1,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "AF403A1AF34D0F4A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_1_9",
+    "shopId": "shop_spaceship_taiyuan_1",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_1": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_2_1",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A8CA019207E0235A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 2500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_1",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 14,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_12": {
+    "cnDiscount": 0.08,
+    "goodsId": "taiyuan_2_12",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "14132C7B14A4F2C3",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_12",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_15": {
+    "cnDiscount": 0.08,
+    "goodsId": "taiyuan_2_15",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "B1A29B4215C14987",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_15",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_19": {
+    "cnDiscount": 0.08,
+    "goodsId": "taiyuan_2_19",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "FB624087744C26CC",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_19",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_2": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_2_2",
+    "isShowWhenLock": false,
+    "limitCount": 12,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A738EBAAD349FA75",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_2",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 13,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_21": {
+    "cnDiscount": 0.08,
+    "goodsId": "taiyuan_2_21",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "B06B4BFC6F4D445E",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_21",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_22": {
+    "cnDiscount": 0.08,
+    "goodsId": "taiyuan_2_22",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "CA519515DBB42DF8",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_22",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_24": {
+    "cnDiscount": 0.08,
+    "goodsId": "taiyuan_2_24",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "56DFC80E7C558A6B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_24",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_3": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_2_3",
+    "isShowWhenLock": false,
+    "limitCount": 12,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "56A6CE76E1EA7C2A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_3",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_4": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_2_4",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "DF99446E66AB89EC",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_4",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_5": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_2_5",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "99CC93CD59F25FDB",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_5",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_6": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_2_6",
+    "isShowWhenLock": false,
+    "limitCount": 25,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "0022C69AEFBF8804",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_6",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_7": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_2_7",
+    "isShowWhenLock": false,
+    "limitCount": 25,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "DFBA1FED3388AB71",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 2500,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_7",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_2_9": {
+    "cnDiscount": 0.08,
+    "goodsId": "taiyuan_2_9",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "0695BF1435BFDCBF",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 3000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_2_9",
+    "shopId": "shop_spaceship_taiyuan_2",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_1": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_3_1",
+    "isShowWhenLock": false,
+    "limitCount": 2,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "85732A9482C20318",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 7000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_1",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 18,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_10": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_10",
+    "isShowWhenLock": false,
+    "limitCount": 15,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "F08914CB7F97669B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 4000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_10",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_11": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_11",
+    "isShowWhenLock": false,
+    "limitCount": 20,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "755822622A3266D1",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_11",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_14": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_3_14",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "9D8CF7B3F067A26B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_14",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_17": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_3_17",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "F77129A872ECFFDF",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_17",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_2": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_2",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "EA21E58F55F19EBE",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_2",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 17,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_20": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_3_20",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "54B7D3580C43F21E",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_20",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_24": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_3_24",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "19589DA8E1DB4D36",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_24",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_25": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_3_25",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "E12440958CAC323C",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_25",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_27": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_3_27",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "CD02DC5DF7C26B50",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_27",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_29": {
+    "cnDiscount": 0.12,
+    "goodsId": "taiyuan_3_29",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "774AED5BE1C85DB8",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 15000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_29",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_3": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_3",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "41210130310FB818",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_3",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 16,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_4": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_4",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "57094997FA08E871",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_4",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 15,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_5": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_5",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "CFB86988DF9D0509",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_5",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 14,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_6": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_6",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "139C315603404AE4",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_6",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 13,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_7": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_7",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A7C6BC7FFF132EFB",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 5000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_7",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_8": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_8",
+    "isShowWhenLock": false,
+    "limitCount": 8,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "76AFE6D9DB1146C5",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_8",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_3_9": {
+    "cnDiscount": 0.25,
+    "goodsId": "taiyuan_3_9",
+    "isShowWhenLock": false,
+    "limitCount": 15,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "DE9710CDB9FCDE59",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 2000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_3_9",
+    "shopId": "shop_spaceship_taiyuan_3",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_1": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_1",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "C2CA883327EF6A97",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_1",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 28,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_10": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_10",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "316C8C26F8F865ED",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_10",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 19,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_11": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_11",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "3EA7E26D1E69DF7D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_11",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 18,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_12": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_12",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "AD5AD2BE1F6FE2EE",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_12",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 17,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_13": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_13",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "FF0E417C771F99F8",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_13",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 16,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_14": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_14",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "0DBCAFA400FA785D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_14",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 15,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_15": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_15",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "3581381EAA237970",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_15",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 14,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_16": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_16",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "9193D59F8B16094F",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_16",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 13,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_17": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_17",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "0E98ABC4C75969F4",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_17",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 12,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_18": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_18",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "2C2D1C29C4841B20",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_18",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 11,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_19": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_19",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A1DD50C734621F0B",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_19",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 10,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_2": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_2",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "ACB7E7B46B4A988C",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_2",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 27,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_20": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_20",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "44A71CE5733C4B7E",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_20",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 9,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_21": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_21",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "83016B0DCFB1722F",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_21",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 8,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_22": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_22",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "261400D9AAC34B4D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_22",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 7,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_23": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_23",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "12B796E40441C8B7",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_23",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 6,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_24": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_24",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "CF71642970BC71B8",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_24",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 5,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_25": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_25",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "464BCF69CBF1618F",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_25",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_26": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_26",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "82F0DCBEFADD427D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_26",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_27": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_27",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "2A9ACDF6F7BA4A0A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_27",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_28": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_28",
+    "isShowWhenLock": false,
+    "limitCount": 4,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "0EE78DF41A542CF1",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 30000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_28",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_3": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_3",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "8E6C8C5C5D209F2A",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_3",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 26,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_4": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_4",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "AB3C3BC4FCEF7DAD",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_4",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 25,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_5": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_5",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "A0E0ECBE644580EB",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_5",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 24,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_6": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_6",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "340B6A59C088D3D3",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_6",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 23,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_7": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_7",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "F59988C91A698A1C",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_7",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 22,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_8": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_8",
+    "isShowWhenLock": false,
+    "limitCount": 6,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "FEADFC7FE5E2E9FF",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 10000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_8",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 21,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "taiyuan_4_9": {
+    "cnDiscount": 1,
+    "goodsId": "taiyuan_4_9",
+    "isShowWhenLock": false,
+    "limitCount": 5,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "860144134DC13F5D",
+      "text": ""
+    },
+    "moneyId": "item_spaceship_tundra_gold",
+    "price": 12000,
+    "relatedWeaponGachPoolId": "",
+    "rewardId": "reward_spaceship_taiyuan_4_9",
+    "shopId": "shop_spaceship_taiyuan_4",
+    "sortId": 20,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "weekly_payshop_wpn_lance_0007": {
+    "cnDiscount": 1,
+    "goodsId": "weekly_payshop_wpn_lance_0007",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 4,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "weaponbox_2024_12_1",
+    "rewardId": "reward_payshop_wpn_lance_0007",
+    "shopId": "shop_pay_weapon_weekly",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "weekly_payshop_wpn_pistol_0007": {
+    "cnDiscount": 1,
+    "goodsId": "weekly_payshop_wpn_pistol_0007",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 4,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 2580,
+    "relatedWeaponGachPoolId": "weaponbox_2024_12_1",
+    "rewardId": "reward_payshop_wpn_pistol_0007",
+    "shopId": "shop_pay_weapon_weekly",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "weekly_payshop_wpn_sword_0010": {
+    "cnDiscount": 1,
+    "goodsId": "weekly_payshop_wpn_sword_0010",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 4,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 780,
+    "relatedWeaponGachPoolId": "weaponbox_2025_1_1",
+    "rewardId": "reward_payshop_wpn_sword_0010",
+    "shopId": "shop_pay_weapon_weekly",
+    "sortId": 4,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "weekly_payshop_wpn_sword_0011": {
+    "cnDiscount": 1,
+    "goodsId": "weekly_payshop_wpn_sword_0011",
+    "isShowWhenLock": true,
+    "limitCount": 1,
+    "limitCountRefreshType": 4,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 2580,
+    "relatedWeaponGachPoolId": "weaponbox_2025_1_1",
+    "rewardId": "reward_payshop_wpn_sword_0011",
+    "shopId": "shop_pay_weapon_weekly",
+    "sortId": 3,
+    "unlockConditions": [],
+    "weaponGachaPoolId": ""
+  },
+  "weekly_weaponbox_2024_12_1": {
+    "cnDiscount": 1,
+    "goodsId": "weekly_weaponbox_2024_12_1",
+    "isShowWhenLock": false,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 2980,
+    "relatedWeaponGachPoolId": "weaponbox_2024_12_1",
+    "rewardId": "",
+    "shopId": "shop_pay_weapon_weekly",
+    "sortId": 1,
+    "unlockConditions": [],
+    "weaponGachaPoolId": "weaponbox_2024_12_1"
+  },
+  "weekly_weaponbox_2025_1_1": {
+    "cnDiscount": 1,
+    "goodsId": "weekly_weaponbox_2025_1_1",
+    "isShowWhenLock": false,
+    "limitCount": 0,
+    "limitCountRefreshType": 0,
+    "lockDesc": {
+      "id": "",
+      "text": ""
+    },
+    "moneyId": "item_gachabyproducts_weapongold",
+    "price": 2980,
+    "relatedWeaponGachPoolId": "weaponbox_2025_1_1",
+    "rewardId": "",
+    "shopId": "shop_pay_weapon_weekly",
+    "sortId": 2,
+    "unlockConditions": [],
+    "weaponGachaPoolId": "weaponbox_2025_1_1"
+  }
+}

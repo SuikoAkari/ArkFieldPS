@@ -1,0 +1,212 @@
+{
+  "shop_common_map01_lv001_1": {
+    "icon": "",
+    "shopGroupId": "shop_common_map01_lv001_1",
+    "shopGroupName": {
+      "id": "1865CB2A95D128BB",
+      "text": ""
+    },
+    "shopGroupType": 0,
+    "shopIds": [
+      "shop_common_map01_lv001_1_1"
+    ],
+    "unlockConditions": []
+  },
+  "shop_common_map01_lv001_2": {
+    "icon": "",
+    "shopGroupId": "shop_common_map01_lv001_2",
+    "shopGroupName": {
+      "id": "ADF3E36D94966B8B",
+      "text": ""
+    },
+    "shopGroupType": 0,
+    "shopIds": [
+      "shop_common_map01_lv001_2_1"
+    ],
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_map01_lv001_1_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "shop_common_map01_lv003_1": {
+    "icon": "",
+    "shopGroupId": "shop_common_map01_lv003_1",
+    "shopGroupName": {
+      "id": "641E00ABE453D6FD",
+      "text": ""
+    },
+    "shopGroupType": 0,
+    "shopIds": [
+      "shop_common_map01_lv003_1_1"
+    ],
+    "unlockConditions": []
+  },
+  "shop_common_map01_lv005_1": {
+    "icon": "",
+    "shopGroupId": "shop_common_map01_lv005_1",
+    "shopGroupName": {
+      "id": "A1C06433A8232B5F",
+      "text": ""
+    },
+    "shopGroupType": 0,
+    "shopIds": [
+      "shop_common_map01_lv005_1_1"
+    ],
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_map01_lv005_1_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "shop_common_map01_lv006_1": {
+    "icon": "",
+    "shopGroupId": "shop_common_map01_lv006_1",
+    "shopGroupName": {
+      "id": "07C8EA297F8E1CE0",
+      "text": ""
+    },
+    "shopGroupType": 0,
+    "shopIds": [
+      "shop_common_map01_lv006_1_1"
+    ],
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_map01_lv006_1_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "shop_common_map02_lv001_1": {
+    "icon": "",
+    "shopGroupId": "shop_common_map02_lv001_1",
+    "shopGroupName": {
+      "id": "B29388C5979143C6",
+      "text": ""
+    },
+    "shopGroupType": 0,
+    "shopIds": [
+      "shop_common_map02_lv001_1_1"
+    ],
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_map02_lv001_1_condition_1",
+        "desc": {
+          "id": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "shop_pay_gacha": {
+    "icon": "icon_type_shopEntry",
+    "shopGroupId": "shop_pay_gacha",
+    "shopGroupName": {
+      "id": "02875EEA85B428DC",
+      "text": ""
+    },
+    "shopGroupType": 2,
+    "shopIds": [],
+    "unlockConditions": []
+  },
+  "shop_pay_green": {
+    "icon": "icon_type_shopGreen",
+    "shopGroupId": "shop_pay_green",
+    "shopGroupName": {
+      "id": "661E450A3BBF746B",
+      "text": ""
+    },
+    "shopGroupType": 2,
+    "shopIds": [
+      "shop_pay_green_1"
+    ],
+    "unlockConditions": []
+  },
+  "shop_pay_weapon": {
+    "icon": "icon_type_shopWeapon",
+    "shopGroupId": "shop_pay_weapon",
+    "shopGroupName": {
+      "id": "06C8B8CFBEF9CE8C",
+      "text": ""
+    },
+    "shopGroupType": 2,
+    "shopIds": [
+      "shop_pay_weapon_weekly",
+      "shop_pay_weapon_daily",
+      "shop_pay_weapon_constant"
+    ],
+    "unlockConditions": []
+  },
+  "shop_pay_yellow": {
+    "icon": "icon_type_shopYellow",
+    "shopGroupId": "shop_pay_yellow",
+    "shopGroupName": {
+      "id": "3E168DCC9D1D46B4",
+      "text": ""
+    },
+    "shopGroupType": 2,
+    "shopIds": [
+      "shop_pay_yellow_1"
+    ],
+    "unlockConditions": []
+  },
+  "shop_spaceship_hongshan": {
+    "icon": "icon_spaceship_store_tabicon_01",
+    "shopGroupId": "shop_spaceship_hongshan",
+    "shopGroupName": {
+      "id": "44176D899F4C16E2",
+      "text": ""
+    },
+    "shopGroupType": 1,
+    "shopIds": [
+      "shop_spaceship_hongshan_1",
+      "shop_spaceship_hongshan_2",
+      "shop_spaceship_hongshan_3",
+      "shop_spaceship_hongshan_4"
+    ],
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_hongshan_condition_1",
+        "desc": {
+          "id": "3A76D3425C008289",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "shop_spaceship_taiyuan": {
+    "icon": "icon_spaceship_store_tabicon_02",
+    "shopGroupId": "shop_spaceship_taiyuan",
+    "shopGroupName": {
+      "id": "5BC815DE0544A1AA",
+      "text": ""
+    },
+    "shopGroupType": 1,
+    "shopIds": [
+      "shop_spaceship_taiyuan_1",
+      "shop_spaceship_taiyuan_2",
+      "shop_spaceship_taiyuan_3",
+      "shop_spaceship_taiyuan_4"
+    ],
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_taiyuan_condition_1",
+        "desc": {
+          "id": "7E114675F61BC5AF",
+          "text": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "liquid": {
+    "machineModeTypeDes": {
+      "id": "C21300389C7D5AA6",
+      "text": ""
+    },
+    "machineModeTypeName": {
+      "id": "D38E2FAFF6E425CB",
+      "text": ""
+    }
+  },
+  "normal": {
+    "machineModeTypeDes": {
+      "id": "5E40A8E2460B0FFE",
+      "text": ""
+    },
+    "machineModeTypeName": {
+      "id": "2B69BE55A834FFEA",
+      "text": ""
+    }
+  }
+}

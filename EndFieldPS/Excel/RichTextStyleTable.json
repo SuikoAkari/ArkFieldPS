@@ -1,0 +1,297 @@
+{
+  "ap.key": {
+    "id": "ap.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#46C1F8\u003E"
+  },
+  "ba.cd": {
+    "id": "ba.cd",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFD800\u003E\u003Cshadow\u003E"
+  },
+  "ba.chan": {
+    "id": "ba.chan",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFD800\u003E\u003Cshadow\u003E"
+  },
+  "ba.cryst": {
+    "id": "ba.cryst",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#21C6D0\u003E\u003Cshadow\u003E"
+  },
+  "ba.ether": {
+    "id": "ba.ether",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#9651F3\u003E\u003Cshadow\u003E"
+  },
+  "ba.fire": {
+    "id": "ba.fire",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FD623D\u003E\u003Cshadow\u003E"
+  },
+  "ba.heal": {
+    "id": "ba.heal",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#c7fe02\u003E\u003Cshadow\u003E"
+  },
+  "ba.key": {
+    "id": "ba.key",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#22BBFF\u003E\u003Cshadow\u003E"
+  },
+  "ba.keylight": {
+    "id": "ba.keylight",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#0075aa\u003E\u003Cshadow\u003E"
+  },
+  "ba.natur": {
+    "id": "ba.natur",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#c3e25a\u003E\u003Cshadow\u003E"
+  },
+  "ba.pd": {
+    "id": "ba.pd",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ffdd93\u003E\u003Cshadow\u003E"
+  },
+  "ba.phy": {
+    "id": "ba.phy",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ffdd93\u003E\u003Cshadow\u003E"
+  },
+  "ba.poise": {
+    "id": "ba.poise",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ffb96b\u003E\u003Cshadow\u003E"
+  },
+  "ba.pulse": {
+    "id": "ba.pulse",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#f8c224\u003E\u003Cshadow\u003E"
+  },
+  "ba.stren": {
+    "id": "ba.stren",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#c7fe02\u003E\u003Cshadow\u003E"
+  },
+  "ba.vdown": {
+    "id": "ba.vdown",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ff7d7d\u003E\u003Cshadow\u003E"
+  },
+  "ba.vup": {
+    "id": "ba.vup",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#25b9fb\u003E\u003Cshadow\u003E"
+  },
+  "bl.key": {
+    "id": "bl.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ffbb03\u003E"
+  },
+  "cc.vdown": {
+    "id": "cc.vdown",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#F74612\u003E"
+  },
+  "cc.vup": {
+    "id": "cc.vup",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#22BBFF\u003E"
+  },
+  "cul.blue": {
+    "id": "cul.blue",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#26BBFD\u003E"
+  },
+  "cul.gold": {
+    "id": "cul.gold",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFBB03\u003E"
+  },
+  "cul.green": {
+    "id": "cul.green",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ABCE42\u003E"
+  },
+  "cul.grey": {
+    "id": "cul.grey",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#9B9B9B\u003E"
+  },
+  "cul.purple": {
+    "id": "cul.purple",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#9452FA\u003E"
+  },
+  "dlg.r_name": {
+    "id": "dlg.r_name",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#87CEFA\u003E"
+  },
+  "dlg.r_title": {
+    "id": "dlg.r_title",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=white\u003E"
+  },
+  "dung.feature": {
+    "id": "dung.feature",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#22BBFF\u003E"
+  },
+  "dung.key": {
+    "id": "dung.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ffcc00\u003E"
+  },
+  "dung.red": {
+    "id": "dung.red",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=red\u003E"
+  },
+  "fac.blue": {
+    "id": "fac.blue",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#2f8baf\u003E"
+  },
+  "fac.green": {
+    "id": "fac.green",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#009d82\u003E"
+  },
+  "gd.key": {
+    "id": "gd.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFD800\u003E"
+  },
+  "nar.center": {
+    "id": "nar.center",
+    "postDef": "\u003C/align\u003E",
+    "preDef": "\u003Calign=\u0022center\u0022\u003E"
+  },
+  "nar.clue": {
+    "id": "nar.clue",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#22BBFF\u003E"
+  },
+  "nar.key": {
+    "id": "nar.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFD800\u003E"
+  },
+  "nar.left": {
+    "id": "nar.left",
+    "postDef": "\u003C/align\u003E",
+    "preDef": "\u003Calign=\u0022left\u0022\u003E"
+  },
+  "nar.mark": {
+    "id": "nar.mark",
+    "postDef": "\u003C/color\u003E \u003C/mark\u003E",
+    "preDef": "\u003Cmark=#E6E6E6\u003E\u003Ccolor=#E6E6E600\u003E"
+  },
+  "nar.quote": {
+    "id": "nar.quote",
+    "postDef": "\u003C/i\u003E",
+    "preDef": "\u003Ci\u003E"
+  },
+  "nar.right": {
+    "id": "nar.right",
+    "postDef": "\u003C/align\u003E",
+    "preDef": "\u003Calign=\u0022right\u0022\u003E"
+  },
+  "obt.key": {
+    "id": "obt.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#000000\u003E"
+  },
+  "opt.key": {
+    "id": "opt.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#5ECDFF\u003E"
+  },
+  "profile.key": {
+    "id": "profile.key",
+    "postDef": "\u003C/align\u003E",
+    "preDef": "\u003Calign=\u0022justified\u0022\u003E"
+  },
+  "qu.key": {
+    "id": "qu.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFD800\u003E"
+  },
+  "rac.tec": {
+    "id": "rac.tec",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFCC00\u003E"
+  },
+  "scene_grade.down": {
+    "id": "scene_grade.down",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#D12E42\u003E"
+  },
+  "scene_grade.up": {
+    "id": "scene_grade.up",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ABCD47\u003E"
+  },
+  "sns.key": {
+    "id": "sns.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#169ED9\u003E"
+  },
+  "sred.key": {
+    "id": "sred.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#D25F69\u003E"
+  },
+  "ss.key": {
+    "id": "ss.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#22BBFF\u003E"
+  },
+  "sshop.key": {
+    "id": "sshop.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FF0000\u003E"
+  },
+  "tech.get": {
+    "id": "tech.get",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#1e1e1e\u003E"
+  },
+  "tech.key": {
+    "id": "tech.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#ffcc00\u003E"
+  },
+  "tips.key": {
+    "id": "tips.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#444444\u003E"
+  },
+  "toast.key": {
+    "id": "toast.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFD800\u003E"
+  },
+  "toast_craft.key": {
+    "id": "toast_craft.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFD800\u003E"
+  },
+  "toast_focal.key": {
+    "id": "toast_focal.key",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFFFFF\u003E"
+  },
+  "usableitem.num": {
+    "id": "usableitem.num",
+    "postDef": "\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFF200\u003E"
+  },
+  "wiki.key": {
+    "id": "wiki.key",
+    "postDef": "\u003C/shadow\u003E\u003C/color\u003E",
+    "preDef": "\u003Ccolor=#FFD800\u003E\u003Cshadow\u003E"
+  }
+}

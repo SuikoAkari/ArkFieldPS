@@ -1,0 +1,358 @@
+{
+  "control_center_level_1": {
+    "conditionDesc": {
+      "id": "",
+      "text": ""
+    },
+    "conditionId": "",
+    "conditionType": 2147483647,
+    "costItems": [],
+    "id": "control_center_level_1",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "\u0022\u0022"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 1
+  },
+  "control_center_level_2": {
+    "conditionDesc": {
+      "id": "0CB808EB67E58717",
+      "text": ""
+    },
+    "conditionId": "control_center_level_2",
+    "conditionType": 5022,
+    "costItems": [
+      {
+        "count": 8,
+        "id": "item_spaceship_cmpt_1"
+      },
+      {
+        "count": 1,
+        "id": "item_spaceship_key_1"
+      },
+      {
+        "count": 1000,
+        "id": "item_gold"
+      }
+    ],
+    "id": "control_center_level_2",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "control_center"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 1
+  },
+  "control_center_level_3": {
+    "conditionDesc": {
+      "id": "74CC0476640AE33C",
+      "text": ""
+    },
+    "conditionId": "control_center_level_3",
+    "conditionType": 5022,
+    "costItems": [
+      {
+        "count": 16,
+        "id": "item_spaceship_cmpt_1"
+      },
+      {
+        "count": 1,
+        "id": "item_spaceship_key_1"
+      },
+      {
+        "count": 3000,
+        "id": "item_gold"
+      }
+    ],
+    "id": "control_center_level_3",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "control_center"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 2
+  },
+  "control_center_level_4": {
+    "conditionDesc": {
+      "id": "9EE2C32087FA1756",
+      "text": ""
+    },
+    "conditionId": "control_center_level_4",
+    "conditionType": 5022,
+    "costItems": [
+      {
+        "count": 24,
+        "id": "item_spaceship_cmpt_1"
+      },
+      {
+        "count": 12,
+        "id": "item_spaceship_cmpt_2"
+      },
+      {
+        "count": 1,
+        "id": "item_spaceship_key_1"
+      },
+      {
+        "count": 10000,
+        "id": "item_gold"
+      }
+    ],
+    "id": "control_center_level_4",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "control_center"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 3
+  },
+  "control_center_level_5": {
+    "conditionDesc": {
+      "id": "6B24FF67C7F512D7",
+      "text": ""
+    },
+    "conditionId": "control_center_level_5",
+    "conditionType": 5022,
+    "costItems": [
+      {
+        "count": 32,
+        "id": "item_spaceship_cmpt_1"
+      },
+      {
+        "count": 64,
+        "id": "item_spaceship_cmpt_2"
+      },
+      {
+        "count": 1,
+        "id": "item_spaceship_key_1"
+      },
+      {
+        "count": 20000,
+        "id": "item_gold"
+      }
+    ],
+    "id": "control_center_level_5",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "control_center"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 4
+  },
+  "grow_cabin_level_1": {
+    "conditionDesc": {
+      "id": "",
+      "text": ""
+    },
+    "conditionId": "",
+    "conditionType": 2147483647,
+    "costItems": [
+      {
+        "count": 3,
+        "id": "item_spaceship_cmpt_1"
+      }
+    ],
+    "id": "grow_cabin_level_1",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "\u0022\u0022"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 1
+  },
+  "grow_cabin_level_2": {
+    "conditionDesc": {
+      "id": "95540703B90CD383",
+      "text": ""
+    },
+    "conditionId": "grow_cabin_level_2",
+    "conditionType": 5022,
+    "costItems": [
+      {
+        "count": 8,
+        "id": "item_spaceship_cmpt_1"
+      },
+      {
+        "count": 2000,
+        "id": "item_gold"
+      }
+    ],
+    "id": "grow_cabin_level_2",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "control_center"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 3
+  },
+  "grow_cabin_level_3": {
+    "conditionDesc": {
+      "id": "3644AA567AEDD793",
+      "text": ""
+    },
+    "conditionId": "grow_cabin_level_3",
+    "conditionType": 5022,
+    "costItems": [
+      {
+        "count": 16,
+        "id": "item_spaceship_cmpt_1"
+      },
+      {
+        "count": 16,
+        "id": "item_spaceship_cmpt_2"
+      },
+      {
+        "count": 6400,
+        "id": "item_gold"
+      }
+    ],
+    "id": "grow_cabin_level_3",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "control_center"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 5
+  },
+  "manufacturing_station_level_1": {
+    "conditionDesc": {
+      "id": "",
+      "text": ""
+    },
+    "conditionId": "",
+    "conditionType": 2147483647,
+    "costItems": [
+      {
+        "count": 3,
+        "id": "item_spaceship_cmpt_1"
+      }
+    ],
+    "id": "manufacturing_station_level_1",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "\u0022\u0022"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 1
+  },
+  "manufacturing_station_level_2": {
+    "conditionDesc": {
+      "id": "65AC204E329BDE1F",
+      "text": ""
+    },
+    "conditionId": "manufacturing_station_level_2",
+    "conditionType": 5022,
+    "costItems": [
+      {
+        "count": 6,
+        "id": "item_spaceship_cmpt_1"
+      },
+      {
+        "count": 1500,
+        "id": "item_gold"
+      }
+    ],
+    "id": "manufacturing_station_level_2",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "control_center"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 2
+  },
+  "manufacturing_station_level_3": {
+    "conditionDesc": {
+      "id": "C7E7F0322E56B0DF",
+      "text": ""
+    },
+    "conditionId": "manufacturing_station_level_3",
+    "conditionType": 5022,
+    "costItems": [
+      {
+        "count": 12,
+        "id": "item_spaceship_cmpt_1"
+      },
+      {
+        "count": 6,
+        "id": "item_spaceship_cmpt_2"
+      },
+      {
+        "count": 5000,
+        "id": "item_gold"
+      }
+    ],
+    "id": "manufacturing_station_level_3",
+    "parameter1": {
+      "realType": 0,
+      "valueBoolList": null,
+      "valueFloatList": null,
+      "valueIntList": null,
+      "valueStringList": [
+        "control_center"
+      ],
+      "valueType": 0,
+      "valueVector3": null
+    },
+    "progressToCompare": 4
+  }
+}

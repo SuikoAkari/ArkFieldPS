@@ -1,0 +1,26 @@
+{
+  "0": {
+    "category": 0,
+    "name": {
+      "id": "03F88A2552048E5E",
+      "text": ""
+    },
+    "sortId": 3
+  },
+  "1": {
+    "category": 1,
+    "name": {
+      "id": "A769DE4388BFDEF5",
+      "text": ""
+    },
+    "sortId": 2
+  },
+  "2": {
+    "category": 2,
+    "name": {
+      "id": "4EAB78D8E2CEBEEB",
+      "text": ""
+    },
+    "sortId": 1
+  }
+}

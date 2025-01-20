@@ -1,0 +1,78 @@
+{
+  "item_liquid_plant_grass_1": {
+    "emptyBottleItems": [
+      "item_glass_bottle",
+      "item_glass_enr_bottle",
+      "item_iron_bottle",
+      "item_iron_enr_bottle",
+      "item_iron_enr_jar",
+      "item_copper_jar"
+    ],
+    "fullBottleItems": [
+      "item_fbottle_glass_grass_1",
+      "item_fbottle_glassenr_grass_1",
+      "item_fbottle_iron_grass_1",
+      "item_fbottle_ironenr_grass_1",
+      "item_fbottle_ironenr2_grass_1",
+      "item_fbottle_copper_grass_1"
+    ],
+    "id": "item_liquid_plant_grass_1"
+  },
+  "item_liquid_plant_grass_2": {
+    "emptyBottleItems": [
+      "item_glass_bottle",
+      "item_glass_enr_bottle",
+      "item_iron_bottle",
+      "item_iron_enr_bottle",
+      "item_iron_enr_jar",
+      "item_copper_jar"
+    ],
+    "fullBottleItems": [
+      "item_fbottle_glass_grass_2",
+      "item_fbottle_glassenr_grass_2",
+      "item_fbottle_iron_grass_2",
+      "item_fbottle_ironenr_grass_2",
+      "item_fbottle_ironenr2_grass_2",
+      "item_fbottle_copper_grass_2"
+    ],
+    "id": "item_liquid_plant_grass_2"
+  },
+  "item_liquid_sewage": {
+    "emptyBottleItems": [
+      "item_glass_bottle",
+      "item_glass_enr_bottle",
+      "item_iron_bottle",
+      "item_iron_enr_bottle",
+      "item_iron_enr_jar",
+      "item_copper_jar"
+    ],
+    "fullBottleItems": [
+      "item_fbottle_glass_sewage",
+      "item_fbottle_glassenr_sewage",
+      "item_fbottle_iron_sewage",
+      "item_fbottle_ironenr_sewage",
+      "item_fbottle_ironenr2_sewage",
+      "item_fbottle_copper_sewage"
+    ],
+    "id": "item_liquid_sewage"
+  },
+  "item_liquid_water": {
+    "emptyBottleItems": [
+      "item_glass_bottle",
+      "item_glass_enr_bottle",
+      "item_iron_bottle",
+      "item_iron_enr_bottle",
+      "item_iron_enr_jar",
+      "item_copper_jar"
+    ],
+    "fullBottleItems": [
+      "item_fbottle_glass_water",
+      "item_fbottle_glassenr_water",
+      "item_fbottle_iron_water",
+      "item_fbottle_ironenr_water",
+      "item_fbottle_ironenr2_water",
+      "item_fbottle_copper_water"
+    ],
+    "id": "item_liquid_water"
+  }
+}

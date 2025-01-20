@@ -1,0 +1,3194 @@
+{
+  "building_f_unit_1_4": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_1_4",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_parts_edc_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 3,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "item_unit_t1_parts_edc_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_1_5": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_1_5",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_parts_hand_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 15,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "item_unit_t1_parts_hand_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_1_6": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_1_6",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_parts_body_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 16,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "item_unit_t1_parts_body_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_1_7": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_1_7",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_parts_edc_02"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 17,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "item_unit_t1_parts_edc_02",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_2_4": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_2_4",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_parts_hand_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 4,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "item_unit_t2_parts_hand_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_2_5": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_2_5",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_parts_body_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 5,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "item_unit_t2_parts_body_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_2_6": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_2_6",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_parts_edc_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 18,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "item_unit_t2_parts_edc_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_3_10": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_3_10",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_parts_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 21,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "item_unit_t3_parts_edc_02",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_3_5": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_3_5",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_parts_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 6,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "item_unit_t3_parts_hand_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_3_6": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_3_6",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_parts_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 7,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "item_unit_t3_parts_body_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_3_7": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_3_7",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_parts_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 8,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "item_unit_t3_parts_edc_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_3_8": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_3_8",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_parts_hand_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 19,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "item_unit_t3_parts_hand_02",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_3_9": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_3_9",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_parts_body_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 20,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "item_unit_t3_parts_body_02",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_1": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_1",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 9,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_hand_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_10": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_10",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_body_04"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 25,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_body_04",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_11": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_11",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_edc_03"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 26,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_edc_03",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_12": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_12",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_edc_04"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 27,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_edc_04",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_2": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_2",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_hand_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 10,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_hand_02",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_3": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_3",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 11,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_body_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_4": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_4",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_body_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 12,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_body_02",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_5": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_5",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 13,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_edc_01",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_6": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_6",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 14,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_edc_02",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_7": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_7",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_hand_03"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 22,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_hand_03",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_8": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_8",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_hand_04"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 23,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_hand_04",
+    "visibleByLevel": -1
+  },
+  "building_f_unit_4_9": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_f_unit_4_9",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_parts_body_03"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 24,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "item_unit_t4_parts_body_03",
+    "visibleByLevel": -1
+  },
+  "building_item_expcard_2_2": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Item",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_item_expcard_2_2",
+    "ingredients": [
+      {
+        "count": 5,
+        "id": "item_expcard_2_1"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_expcard_2_2"
+    },
+    "procType": 0,
+    "rarity": 4,
+    "sortId": 1,
+    "type": 14,
+    "uiSlot": 1,
+    "usableLevel": 5,
+    "visibleByItemId": "",
+    "visibleByLevel": 5
+  },
+  "building_item_expcard_2_3": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Item",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_item_expcard_2_3",
+    "ingredients": [
+      {
+        "count": 5,
+        "id": "item_expcard_2_2"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_expcard_2_3"
+    },
+    "procType": 0,
+    "rarity": 5,
+    "sortId": 2,
+    "type": 14,
+    "uiSlot": 1,
+    "usableLevel": 5,
+    "visibleByItemId": "",
+    "visibleByLevel": 5
+  },
+  "building_unit_05_1": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_05_1",
+    "ingredients": [
+      {
+        "count": 5,
+        "id": "item_plant_tundra_wood"
+      },
+      {
+        "count": 5,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t05_suit_01_hand_01"
+    },
+    "procType": 1,
+    "rarity": 2,
+    "sortId": 1,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "item_unit_t05_suit_01_hand_01",
+    "visibleByLevel": -1
+  },
+  "building_unit_05_2": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_05_2",
+    "ingredients": [
+      {
+        "count": 5,
+        "id": "item_plant_tundra_wood"
+      },
+      {
+        "count": 5,
+        "id": "item_crystal_shell"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t05_suit_01_body_01"
+    },
+    "procType": 1,
+    "rarity": 2,
+    "sortId": 2,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "item_unit_t05_suit_01_body_01",
+    "visibleByLevel": -1
+  },
+  "building_unit_1_1": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_1_1",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_suit_01_hand_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 28,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "",
+    "visibleByLevel": 1
+  },
+  "building_unit_1_2": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_1_2",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_suit_01_edc_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 29,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "",
+    "visibleByLevel": 1
+  },
+  "building_unit_1_3": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_1_3",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_suit_02_hand_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 36,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "",
+    "visibleByLevel": 1
+  },
+  "building_unit_1_4": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_1_4",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_suit_02_body_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 37,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "",
+    "visibleByLevel": 1
+  },
+  "building_unit_1_5": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_1_5",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_suit_03_body_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 43,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "",
+    "visibleByLevel": 1
+  },
+  "building_unit_1_6": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_1_6",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_suit_03_edc_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 44,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "",
+    "visibleByLevel": 1
+  },
+  "building_unit_1_7": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_1_7",
+    "ingredients": [
+      {
+        "count": 10,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 10,
+        "id": "item_quartz_glass"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t1_suit_04_edc_01"
+    },
+    "procType": 1,
+    "rarity": 3,
+    "sortId": 50,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 1,
+    "visibleByItemId": "",
+    "visibleByLevel": 1
+  },
+  "building_unit_2_1": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_1",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_01_body_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 30,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_10": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_10",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_05_edc_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 58,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_11": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_11",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_06_body_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 65,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_12": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_12",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_06_edc_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 66,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_13": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_13",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_07_edc_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 73,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_2": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_2",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_01_edc_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 31,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_3": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_3",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_02_edc_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 38,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_4": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_4",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_02_hand_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 39,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_5": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_5",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_03_hand_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 45,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_6": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_6",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_03_edc_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 46,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_7": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_7",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_04_hand_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 51,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_8": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_8",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_04_body_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 52,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_2_9": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_2_9",
+    "ingredients": [
+      {
+        "count": 50,
+        "id": "item_crystal_powder"
+      },
+      {
+        "count": 25,
+        "id": "item_glass_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t2_suit_05_hand_01"
+    },
+    "procType": 1,
+    "rarity": 4,
+    "sortId": 57,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 2,
+    "visibleByItemId": "",
+    "visibleByLevel": 2
+  },
+  "building_unit_3_1": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_1",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_01_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 32,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_10": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_10",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_07_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 74,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_11": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_11",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_07_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 75,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_12": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_12",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_08_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 80,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_13": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_13",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_08_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 81,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_14": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_14",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_09_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 86,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_15": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_15",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_09_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 87,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_16": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_16",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_10_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 92,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_17": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_17",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_10_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 93,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_2": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_2",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_02_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 40,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_3": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_3",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_03_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 47,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_4": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_4",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_04_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 53,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_5": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_5",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_04_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 54,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_6": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_6",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_05_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 59,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_7": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_7",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_05_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 60,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_8": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_8",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_06_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 67,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_3_9": {
+    "canRefine": false,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_3_9",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t3_suit_06_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 68,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 3,
+    "visibleByItemId": "",
+    "visibleByLevel": 3
+  },
+  "building_unit_4_1": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_1",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_01_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 33,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_10": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_10",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_05_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 61,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_11": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_11",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_05_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 62,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_12": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_12",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_05_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 63,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_13": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_13",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_05_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 64,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_14": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_14",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_06_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 69,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_15": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_15",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_06_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 70,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_16": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_16",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_06_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 71,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_17": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_17",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_06_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 72,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_18": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_18",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_07_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 76,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_19": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_19",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_07_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 77,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_2": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_2",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_01_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 34,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_20": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_20",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_07_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 78,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_21": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_21",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_07_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 79,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_22": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_22",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_08_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 82,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_23": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_23",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_08_body_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 83,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_24": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_24",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_08_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 84,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_25": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_25",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_08_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 85,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_26": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_26",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_09_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 88,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_27": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_27",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_09_hand_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 89,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_28": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_28",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_09_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 90,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_29": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_29",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_09_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 91,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_3": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_3",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_01_edc_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 35,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_30": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_30",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_10_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 94,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_31": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_31",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_10_hand_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 95,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_32": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_32",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_10_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 96,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_33": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_33",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_10_body_02"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 97,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_34": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_34",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_10_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 98,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_4": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_4",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_02_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 41,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_5": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_5",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_02_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 42,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_6": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_6",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_03_hand_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 48,
+    "type": 7,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_7": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_7",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_03_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 49,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_8": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_8",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_04_body_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 55,
+    "type": 8,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  },
+  "building_unit_4_9": {
+    "canRefine": true,
+    "filterType": 0,
+    "groupId": "Equip",
+    "groupName": {
+      "id": "",
+      "text": ""
+    },
+    "id": "building_unit_4_9",
+    "ingredients": [
+      {
+        "count": 100,
+        "id": "item_glass_enr_cmpt"
+      },
+      {
+        "count": 50,
+        "id": "item_iron_enr_cmpt"
+      }
+    ],
+    "outcome": {
+      "count": 1,
+      "id": "item_unit_t4_suit_04_edc_01"
+    },
+    "procType": 1,
+    "rarity": 5,
+    "sortId": 56,
+    "type": 9,
+    "uiSlot": 1,
+    "usableLevel": 4,
+    "visibleByItemId": "",
+    "visibleByLevel": 4
+  }
+}

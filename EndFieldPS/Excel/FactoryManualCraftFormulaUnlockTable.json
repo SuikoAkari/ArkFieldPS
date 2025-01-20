@@ -1,0 +1,849 @@
+{
+  "hdwk_item_drop_angle_l_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_angle_l_1_1",
+    "itemId": "item_drop_angle_l_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_anglel_flower2_1"
+  },
+  "hdwk_item_drop_angle_l_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_angle_l_1_10",
+    "itemId": "item_drop_angle_l_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_anglel_flower2_1"
+  },
+  "hdwk_item_drop_angle_l_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_angle_l_1_30",
+    "itemId": "item_drop_angle_l_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_anglel_corp1_1"
+  },
+  "hdwk_item_drop_angle_l_1_5": {
+    "gainItemNum": 5,
+    "id": "hdwk_item_drop_angle_l_1_5",
+    "itemId": "item_drop_angle_l_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_angle_l_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_angle_l_1_50",
+    "itemId": "item_drop_angle_l_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_angle_m_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_angle_m_1_1",
+    "itemId": "item_drop_angle_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_anglem_flower2_1"
+  },
+  "hdwk_item_drop_angle_m_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_angle_m_1_10",
+    "itemId": "item_drop_angle_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_angle_m_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_drop_angle_m_1_100",
+    "itemId": "item_drop_angle_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_anglem_corp1_1"
+  },
+  "hdwk_item_drop_angle_m_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_angle_m_1_30",
+    "itemId": "item_drop_angle_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_anglem_flower2_1"
+  },
+  "hdwk_item_drop_angle_m_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_angle_m_1_50",
+    "itemId": "item_drop_angle_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_anglem_corp1_1"
+  },
+  "hdwk_item_drop_angle_s_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_angle_s_1_1",
+    "itemId": "item_drop_angle_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_angles_flower2_1"
+  },
+  "hdwk_item_drop_angle_s_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_angle_s_1_10",
+    "itemId": "item_drop_angle_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_angle_s_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_drop_angle_s_1_100",
+    "itemId": "item_drop_angle_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_angle_s_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_angle_s_1_30",
+    "itemId": "item_drop_angle_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_angle_s_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_angle_s_1_50",
+    "itemId": "item_drop_angle_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_angles_corp1_1"
+  },
+  "hdwk_item_drop_animal_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_animal_1_1",
+    "itemId": "item_drop_animal_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_animal_angles_1"
+  },
+  "hdwk_item_drop_animal_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_animal_1_10",
+    "itemId": "item_drop_animal_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_animal_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_drop_animal_1_100",
+    "itemId": "item_drop_animal_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_animal_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_animal_1_30",
+    "itemId": "item_drop_animal_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_animal_angles_1"
+  },
+  "hdwk_item_drop_animal_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_animal_1_50",
+    "itemId": "item_drop_animal_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_animal_insec2_angles_1"
+  },
+  "hdwk_item_drop_eb_jl_m_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_eb_jl_m_1_1",
+    "itemId": "item_drop_eb_jl_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_jlebm_grass1_1"
+  },
+  "hdwk_item_drop_eb_jl_m_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_eb_jl_m_1_10",
+    "itemId": "item_drop_eb_jl_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_jl_m_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_eb_jl_m_1_30",
+    "itemId": "item_drop_eb_jl_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_jlebm_corp4_1"
+  },
+  "hdwk_item_drop_eb_jl_m_1_5": {
+    "gainItemNum": 5,
+    "id": "hdwk_item_drop_eb_jl_m_1_5",
+    "itemId": "item_drop_eb_jl_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_jl_m_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_eb_jl_m_1_50",
+    "itemId": "item_drop_eb_jl_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_jl_s_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_eb_jl_s_1_1",
+    "itemId": "item_drop_eb_jl_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_jlebs_grass1_1"
+  },
+  "hdwk_item_drop_eb_jl_s_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_eb_jl_s_1_10",
+    "itemId": "item_drop_eb_jl_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_jlebs_grass1_1"
+  },
+  "hdwk_item_drop_eb_jl_s_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_eb_jl_s_1_30",
+    "itemId": "item_drop_eb_jl_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_jlebs_corp4_1"
+  },
+  "hdwk_item_drop_eb_jl_s_1_5": {
+    "gainItemNum": 5,
+    "id": "hdwk_item_drop_eb_jl_s_1_5",
+    "itemId": "item_drop_eb_jl_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_jl_s_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_eb_jl_s_1_50",
+    "itemId": "item_drop_eb_jl_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_l_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_eb_l_1_1",
+    "itemId": "item_drop_eb_l_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_ebl_flower1_1"
+  },
+  "hdwk_item_drop_eb_l_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_eb_l_1_10",
+    "itemId": "item_drop_eb_l_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_ebl_flower1_1"
+  },
+  "hdwk_item_drop_eb_l_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_eb_l_1_30",
+    "itemId": "item_drop_eb_l_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_ebl_corp2_1"
+  },
+  "hdwk_item_drop_eb_l_1_5": {
+    "gainItemNum": 5,
+    "id": "hdwk_item_drop_eb_l_1_5",
+    "itemId": "item_drop_eb_l_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_l_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_eb_l_1_50",
+    "itemId": "item_drop_eb_l_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_ebl_corp2_1"
+  },
+  "hdwk_item_drop_eb_m_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_eb_m_1_1",
+    "itemId": "item_drop_eb_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_ebm_flower1_1"
+  },
+  "hdwk_item_drop_eb_m_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_eb_m_1_10",
+    "itemId": "item_drop_eb_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_m_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_drop_eb_m_1_100",
+    "itemId": "item_drop_eb_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_m_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_eb_m_1_30",
+    "itemId": "item_drop_eb_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_m_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_eb_m_1_50",
+    "itemId": "item_drop_eb_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_ebm_corp2_1"
+  },
+  "hdwk_item_drop_eb_s_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_eb_s_1_1",
+    "itemId": "item_drop_eb_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_ebs_flower1_1"
+  },
+  "hdwk_item_drop_eb_s_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_eb_s_1_10",
+    "itemId": "item_drop_eb_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_s_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_drop_eb_s_1_100",
+    "itemId": "item_drop_eb_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_s_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_eb_s_1_30",
+    "itemId": "item_drop_eb_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_eb_s_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_eb_s_1_50",
+    "itemId": "item_drop_eb_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_ebs_corp2_1"
+  },
+  "hdwk_item_drop_erosion_m_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_erosion_m_1_1",
+    "itemId": "item_drop_erosion_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_erosionm_grass2_1"
+  },
+  "hdwk_item_drop_erosion_m_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_erosion_m_1_10",
+    "itemId": "item_drop_erosion_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_erosion_m_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_erosion_m_1_30",
+    "itemId": "item_drop_erosion_m_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_erosionm_corp3_1"
+  },
+  "hdwk_item_drop_erosion_m_1_5": {
+    "gainItemNum": 5,
+    "id": "hdwk_item_drop_erosion_m_1_5",
+    "itemId": "item_drop_erosion_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_erosion_m_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_erosion_m_1_50",
+    "itemId": "item_drop_erosion_m_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_erosion_s_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_drop_erosion_s_1_1",
+    "itemId": "item_drop_erosion_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_erosions_grass2_1"
+  },
+  "hdwk_item_drop_erosion_s_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_drop_erosion_s_1_10",
+    "itemId": "item_drop_erosion_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_erosion_s_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_drop_erosion_s_1_30",
+    "itemId": "item_drop_erosion_s_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_erosions_corp3_1"
+  },
+  "hdwk_item_drop_erosion_s_1_5": {
+    "gainItemNum": 5,
+    "id": "hdwk_item_drop_erosion_s_1_5",
+    "itemId": "item_drop_erosion_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_drop_erosion_s_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_drop_erosion_s_1_50",
+    "itemId": "item_drop_erosion_s_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_bbflower_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_bbflower_1_1",
+    "itemId": "item_plant_bbflower_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_bbflower_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_bbflower_1_100",
+    "itemId": "item_plant_bbflower_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_bbflower_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_bbflower_1_50",
+    "itemId": "item_plant_bbflower_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_grass_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_grass_1_1",
+    "itemId": "item_plant_grass_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_plant_grass_powder_1"
+  },
+  "hdwk_item_plant_grass_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_grass_1_100",
+    "itemId": "item_plant_grass_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_grass_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_plant_grass_1_30",
+    "itemId": "item_plant_grass_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_grass_2_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_grass_2_1",
+    "itemId": "item_plant_grass_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_plant_grass_powder_2"
+  },
+  "hdwk_item_plant_grass_2_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_grass_2_100",
+    "itemId": "item_plant_grass_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_grass_2_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_plant_grass_2_30",
+    "itemId": "item_plant_grass_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_grass_spc_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_grass_spc_1_1",
+    "itemId": "item_plant_grass_spc_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_plant_grass_spc_powder_1"
+  },
+  "hdwk_item_plant_grass_spc_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_plant_grass_spc_1_10",
+    "itemId": "item_plant_grass_spc_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_grass_spc_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_grass_spc_1_100",
+    "itemId": "item_plant_grass_spc_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_grass1spc_2"
+  },
+  "hdwk_item_plant_grass_spc_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_plant_grass_spc_1_30",
+    "itemId": "item_plant_grass_spc_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_grass1spc_1"
+  },
+  "hdwk_item_plant_grass_spc_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_grass_spc_1_50",
+    "itemId": "item_plant_grass_spc_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_grass_spc_2_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_grass_spc_2_1",
+    "itemId": "item_plant_grass_spc_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_plant_grass_spc_powder_2"
+  },
+  "hdwk_item_plant_grass_spc_2_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_plant_grass_spc_2_10",
+    "itemId": "item_plant_grass_spc_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_grass_spc_2_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_grass_spc_2_100",
+    "itemId": "item_plant_grass_spc_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_grass2spc_2"
+  },
+  "hdwk_item_plant_grass_spc_2_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_plant_grass_spc_2_30",
+    "itemId": "item_plant_grass_spc_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_grass2spc_1"
+  },
+  "hdwk_item_plant_grass_spc_2_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_grass_spc_2_50",
+    "itemId": "item_plant_grass_spc_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_moss_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_moss_1_1",
+    "itemId": "item_plant_moss_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_moss_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_moss_1_100",
+    "itemId": "item_plant_moss_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_moss_1_15": {
+    "gainItemNum": 15,
+    "id": "hdwk_item_plant_moss_1_15",
+    "itemId": "item_plant_moss_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_rec_hp_1"
+  },
+  "hdwk_item_plant_moss_1_150": {
+    "gainItemNum": 150,
+    "id": "hdwk_item_plant_moss_1_150",
+    "itemId": "item_plant_moss_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_rec_hp_2"
+  },
+  "hdwk_item_plant_moss_2_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_moss_2_1",
+    "itemId": "item_plant_moss_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_plant_moss_powder_2"
+  },
+  "hdwk_item_plant_moss_2_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_moss_2_100",
+    "itemId": "item_plant_moss_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_moss_2_150": {
+    "gainItemNum": 150,
+    "id": "hdwk_item_plant_moss_2_150",
+    "itemId": "item_plant_moss_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_food_2"
+  },
+  "hdwk_item_plant_moss_2_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_plant_moss_2_30",
+    "itemId": "item_plant_moss_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_moss_2_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_moss_2_50",
+    "itemId": "item_plant_moss_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_food_1"
+  },
+  "hdwk_item_plant_moss_spc_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_moss_spc_1_1",
+    "itemId": "item_plant_moss_spc_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_plant_moss_spc_powder_1"
+  },
+  "hdwk_item_plant_moss_spc_1_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_plant_moss_spc_1_10",
+    "itemId": "item_plant_moss_spc_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_flower1spc_1"
+  },
+  "hdwk_item_plant_moss_spc_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_moss_spc_1_100",
+    "itemId": "item_plant_moss_spc_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_flower1spc_3"
+  },
+  "hdwk_item_plant_moss_spc_1_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_plant_moss_spc_1_30",
+    "itemId": "item_plant_moss_spc_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_flower1spc_2"
+  },
+  "hdwk_item_plant_moss_spc_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_moss_spc_1_50",
+    "itemId": "item_plant_moss_spc_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_moss_spc_2_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_moss_spc_2_1",
+    "itemId": "item_plant_moss_spc_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_plant_moss_spc_powder_2"
+  },
+  "hdwk_item_plant_moss_spc_2_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_plant_moss_spc_2_10",
+    "itemId": "item_plant_moss_spc_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_flower2spc_1"
+  },
+  "hdwk_item_plant_moss_spc_2_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_moss_spc_2_100",
+    "itemId": "item_plant_moss_spc_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_flower2spc_3"
+  },
+  "hdwk_item_plant_moss_spc_2_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_plant_moss_spc_2_30",
+    "itemId": "item_plant_moss_spc_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_flower2spc_2"
+  },
+  "hdwk_item_plant_moss_spc_2_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_moss_spc_2_50",
+    "itemId": "item_plant_moss_spc_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_sp_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_sp_1_1",
+    "itemId": "item_plant_sp_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_corp1_flower1_1"
+  },
+  "hdwk_item_plant_sp_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_sp_1_100",
+    "itemId": "item_plant_sp_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_corp1_animal_1"
+  },
+  "hdwk_item_plant_sp_1_20": {
+    "gainItemNum": 20,
+    "id": "hdwk_item_plant_sp_1_20",
+    "itemId": "item_plant_sp_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_sp_1_200": {
+    "gainItemNum": 200,
+    "id": "hdwk_item_plant_sp_1_200",
+    "itemId": "item_plant_sp_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_corp1_animal_1"
+  },
+  "hdwk_item_plant_sp_1_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_sp_1_50",
+    "itemId": "item_plant_sp_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_corp1_flower1_1"
+  },
+  "hdwk_item_plant_sp_2_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_sp_2_1",
+    "itemId": "item_plant_sp_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_corp2_flower2_1"
+  },
+  "hdwk_item_plant_sp_2_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_sp_2_100",
+    "itemId": "item_plant_sp_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_corp2_animal_1"
+  },
+  "hdwk_item_plant_sp_2_20": {
+    "gainItemNum": 20,
+    "id": "hdwk_item_plant_sp_2_20",
+    "itemId": "item_plant_sp_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_sp_2_200": {
+    "gainItemNum": 200,
+    "id": "hdwk_item_plant_sp_2_200",
+    "itemId": "item_plant_sp_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_corp2_animal_1"
+  },
+  "hdwk_item_plant_sp_2_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_sp_2_50",
+    "itemId": "item_plant_sp_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_corp2_flower2_1"
+  },
+  "hdwk_item_plant_sp_3_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_sp_3_1",
+    "itemId": "item_plant_sp_3",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_corp3_grass1_1"
+  },
+  "hdwk_item_plant_sp_3_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_sp_3_100",
+    "itemId": "item_plant_sp_3",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_corp3_animal_1"
+  },
+  "hdwk_item_plant_sp_3_20": {
+    "gainItemNum": 20,
+    "id": "hdwk_item_plant_sp_3_20",
+    "itemId": "item_plant_sp_3",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_sp_3_200": {
+    "gainItemNum": 200,
+    "id": "hdwk_item_plant_sp_3_200",
+    "itemId": "item_plant_sp_3",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_sp_3_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_sp_3_50",
+    "itemId": "item_plant_sp_3",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_sp_4_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_sp_4_1",
+    "itemId": "item_plant_sp_4",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_corp4_grass2_1"
+  },
+  "hdwk_item_plant_sp_4_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_sp_4_100",
+    "itemId": "item_plant_sp_4",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_corp4_animal_1"
+  },
+  "hdwk_item_plant_sp_4_20": {
+    "gainItemNum": 20,
+    "id": "hdwk_item_plant_sp_4_20",
+    "itemId": "item_plant_sp_4",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_sp_4_200": {
+    "gainItemNum": 200,
+    "id": "hdwk_item_plant_sp_4_200",
+    "itemId": "item_plant_sp_4",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_sp_4_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_sp_4_50",
+    "itemId": "item_plant_sp_4",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_levelup_corp4_grass2_1"
+  },
+  "hdwk_item_plant_tundra_insect_1_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_tundra_insect_1_1",
+    "itemId": "item_plant_tundra_insect_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_insec1_1"
+  },
+  "hdwk_item_plant_tundra_insect_1_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_tundra_insect_1_100",
+    "itemId": "item_plant_tundra_insect_1",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_insec1_2"
+  },
+  "hdwk_item_plant_tundra_insect_1_20": {
+    "gainItemNum": 20,
+    "id": "hdwk_item_plant_tundra_insect_1_20",
+    "itemId": "item_plant_tundra_insect_1",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_tundra_insect_2_1": {
+    "gainItemNum": 1,
+    "id": "hdwk_item_plant_tundra_insect_2_1",
+    "itemId": "item_plant_tundra_insect_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_insec2_1"
+  },
+  "hdwk_item_plant_tundra_insect_2_10": {
+    "gainItemNum": 10,
+    "id": "hdwk_item_plant_tundra_insect_2_10",
+    "itemId": "item_plant_tundra_insect_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_tundra_insect_2_100": {
+    "gainItemNum": 100,
+    "id": "hdwk_item_plant_tundra_insect_2_100",
+    "itemId": "item_plant_tundra_insect_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_tundra_insect_2_30": {
+    "gainItemNum": 30,
+    "id": "hdwk_item_plant_tundra_insect_2_30",
+    "itemId": "item_plant_tundra_insect_2",
+    "rewardItemCount1": 80,
+    "rewardItemId1": "item_diamond"
+  },
+  "hdwk_item_plant_tundra_insect_2_50": {
+    "gainItemNum": 50,
+    "id": "hdwk_item_plant_tundra_insect_2_50",
+    "itemId": "item_plant_tundra_insect_2",
+    "rewardItemCount1": 1,
+    "rewardItemId1": "item_formula_bottled_insec2_2"
+  }
+}

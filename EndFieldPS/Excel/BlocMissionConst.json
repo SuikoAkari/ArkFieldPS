@@ -1,0 +1,6 @@
+{
+  "addRefreshNumDuration": 1800,
+  "livenessMissionId": "mission_blc_e1m100",
+  "maxBlocMissionCompletedNum": 3,
+  "maxRefreshNum": 5
+}

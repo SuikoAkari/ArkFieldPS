@@ -1,0 +1,1750 @@
+{
+  "eny_0007_mimicw": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0007_mimicw",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0007_mimicw"
+  },
+  "eny_0007_mimicw_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0007_mimicw_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0007_mimicw"
+  },
+  "eny_0007_mimicw_quest01": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0007_mimicw_quest01",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0007_mimicw"
+  },
+  "eny_0018_lbtough": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0018_lbtough",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_001": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0018_lbtough_001",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_cardefend": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0018_lbtough_cardefend",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0018_lbtough_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_quest01": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0018_lbtough_quest01",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_race": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0018_lbtough_race",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_settlement": {
+    "abilityDescIds": [
+      "eny_0018_lbtough_settlement_ability_1"
+    ],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0018_lbtough_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_train": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0018_lbtough_train",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0021_agmelee": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_agtrinit": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee_agtrinit",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_ce_1hp": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee_ce_1hp",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_dummy": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee_dummy",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_prolog": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee_prolog",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_prolog2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee_prolog2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_prolog_xl": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee_prolog_xl",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_settlement": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0021_agmelee_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0023_aghornb": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0023_aghornb",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_agtrinit": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0023_aghornb_agtrinit",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0023_aghornb_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_noborneffect": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0023_aghornb_noborneffect",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_prolog": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0023_aghornb_prolog",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_race": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0023_aghornb_race",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_settlement": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0023_aghornb_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_train": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0023_aghornb_train",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0025_agrange": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0025_agrange",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_agtrinit": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0025_agrange_agtrinit",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0025_agrange_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_noborneffect": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0025_agrange_noborneffect",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_prolog": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0025_agrange_prolog",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_quest01": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0025_agrange_quest01",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_race": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0025_agrange_race",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_settlement": {
+    "abilityDescIds": [
+      "eny_0025_agrange_settlement_ability_1"
+    ],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0025_agrange_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0027_agscorp": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0027_agscorp",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0027_agscorp_agtrinit": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0027_agscorp_agtrinit",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0027_agscorp_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0027_agscorp_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0027_agscorp_quest01": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0027_agscorp_quest01",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0027_agscorp_settlement": {
+    "abilityDescIds": [
+      "eny_0027_agscorp_settlement_ability_1"
+    ],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0027_agscorp_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0029_lbmob": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0029_lbmob",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0029_lbmob_cardefend": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0029_lbmob_cardefend",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0029_lbmob_dummy": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0029_lbmob_dummy",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0029_lbmob_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0029_lbmob_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0029_lbmob_settlment": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0029_lbmob_settlment",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0033_lbhunt": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0033_lbhunt",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0033_lbhunt_cardefend": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0033_lbhunt_cardefend",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0033_lbhunt_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0033_lbhunt_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0033_lbhunt_noborneffect": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0033_lbhunt_noborneffect",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0033_lbhunt_settlement": {
+    "abilityDescIds": [
+      "eny_0033_lbhunt_settlement_ability_1"
+    ],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0033_lbhunt_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0039_agcanno": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0039_agcanno",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0039_agcanno"
+  },
+  "eny_0039_agcanno_dung01": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0039_agcanno_dung01",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0039_agcanno"
+  },
+  "eny_0045_agtrinit": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0045_agtrinit",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0045_agtrinit"
+  },
+  "eny_0045_agtrinit_race": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0045_agtrinit_race",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0045_agtrinit"
+  },
+  "eny_0046_lbshamman": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0046_lbshamman",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_cardefend": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0046_lbshamman_cardefend",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0046_lbshamman_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_phantom": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0046_lbshamman_phantom",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_race": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0046_lbshamman_race",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_settlement": {
+    "abilityDescIds": [
+      "eny_0046_lbshamman_settlement_ability_1"
+    ],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0046_lbshamman_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0047_firebat": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0047_firebat",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0047_firebat"
+  },
+  "eny_0047_firebat_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0047_firebat_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0047_firebat"
+  },
+  "eny_0047_firebat_race": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0047_firebat_race",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0047_firebat"
+  },
+  "eny_0048_hvybow": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0048_hvybow",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0048_hvybow_bridge_warden": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0048_hvybow_bridge_warden",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0048_hvybow_cardefend": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0048_hvybow_cardefend",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0048_hvybow_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0048_hvybow_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0048_hvybow_race": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0048_hvybow_race",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0049_rogue": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0049_rogue",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0049_rogue"
+  },
+  "eny_0049_rogue_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0049_rogue_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0049_rogue"
+  },
+  "eny_0049_rogue_settlement": {
+    "abilityDescIds": [
+      "eny_0049_rogue_settlement_ability_1"
+    ],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0049_rogue_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0049_rogue"
+  },
+  "eny_0050_hound": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0050_hound",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0050_hound_cardefend": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0050_hound_cardefend",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0050_hound_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0050_hound_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0050_hound_noborneffect": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0050_hound_noborneffect",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0050_hound_settlement": {
+    "abilityDescIds": [
+      "eny_0050_hound_settlement_ability_1"
+    ],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0050_hound_settlement",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0051_rodin": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0051_rodin",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0051_rodin"
+  },
+  "eny_0052_palesent": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0052_palesent",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0052_palesent"
+  },
+  "eny_0053_hsmob": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0053_hsmob",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0053_hsmob"
+  },
+  "eny_0054_hsmino": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0054_hsmino",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0054_hsmino"
+  },
+  "eny_0055_hscrane": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0055_hscrane",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0055_hscrane"
+  },
+  "eny_0057_dog": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0057_dog",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0057_dog"
+  },
+  "eny_0058_agdisk": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0058_agdisk",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0058_agdisk"
+  },
+  "eny_0058_agdisk_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0058_agdisk_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0058_agdisk"
+  },
+  "eny_0058_agdisk_race": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0058_agdisk_race",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0058_agdisk"
+  },
+  "eny_0059_erhound": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0059_erhound",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0059_erhound"
+  },
+  "eny_0059_erhound_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0059_erhound_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0059_erhound"
+  },
+  "eny_0060_lbmad": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0060_lbmad",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0060_lbmad"
+  },
+  "eny_0060_lbmad_dungeon": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0060_lbmad_dungeon",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0060_lbmad"
+  },
+  "eny_0061_palecore": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0061_palecore",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0061_palecore"
+  },
+  "eny_0062_paletent": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0062_paletent",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0062_paletent"
+  },
+  "eny_0062_paletent_melee": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0062_paletent_melee",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0062_paletent"
+  },
+  "eny_0062_paletent_range": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0062_paletent_range",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0062_paletent"
+  },
+  "eny_0063_agmelee2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0063_agmelee2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0063_agmelee2"
+  },
+  "eny_0064_agrange2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0064_agrange2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0064_agrange2"
+  },
+  "eny_0065_lbmob2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0065_lbmob2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0065_lbmob2"
+  },
+  "eny_0066_lbhunt2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0066_lbhunt2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0066_lbhunt2"
+  },
+  "eny_0067_hound2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0067_hound2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0067_hound2"
+  },
+  "eny_0068_lbtough2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0068_lbtough2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0068_lbtough2"
+  },
+  "eny_0069_aghornb2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0069_aghornb2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0069_aghornb2"
+  },
+  "eny_0070_agscorp2": {
+    "abilityDescIds": [],
+    "description": {
+      "id": "",
+      "text": ""
+    },
+    "enemyId": "eny_0070_agscorp2",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "nickname": {
+      "id": "",
+      "text": ""
+    },
+    "templateId": "eny_0070_agscorp2"
+  }
+}

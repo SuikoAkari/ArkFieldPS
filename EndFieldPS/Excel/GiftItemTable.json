@@ -1,0 +1,133 @@
+{
+  "item_gift_ent_1": {
+    "favorablePoint": 30,
+    "id": "item_gift_ent_1",
+    "tagList": [
+      "tag_hobby_ent"
+    ]
+  },
+  "item_gift_ent_2": {
+    "favorablePoint": 30,
+    "id": "item_gift_ent_2",
+    "tagList": [
+      "tag_hobby_ent"
+    ]
+  },
+  "item_gift_ent_3": {
+    "favorablePoint": 30,
+    "id": "item_gift_ent_3",
+    "tagList": [
+      "tag_hobby_ent"
+    ]
+  },
+  "item_gift_ent_4": {
+    "favorablePoint": 30,
+    "id": "item_gift_ent_4",
+    "tagList": [
+      "tag_hobby_ent",
+      "tag_hobby_knowledge"
+    ]
+  },
+  "item_gift_exercise_1": {
+    "favorablePoint": 30,
+    "id": "item_gift_exercise_1",
+    "tagList": [
+      "tag_hobby_exercise"
+    ]
+  },
+  "item_gift_exercise_2": {
+    "favorablePoint": 30,
+    "id": "item_gift_exercise_2",
+    "tagList": [
+      "tag_hobby_exercise"
+    ]
+  },
+  "item_gift_fashion_1": {
+    "favorablePoint": 30,
+    "id": "item_gift_fashion_1",
+    "tagList": [
+      "tag_hobby_fashion"
+    ]
+  },
+  "item_gift_fashion_2": {
+    "favorablePoint": 30,
+    "id": "item_gift_fashion_2",
+    "tagList": [
+      "tag_hobby_fashion"
+    ]
+  },
+  "item_gift_fashion_3": {
+    "favorablePoint": 30,
+    "id": "item_gift_fashion_3",
+    "tagList": [
+      "tag_hobby_fashion"
+    ]
+  },
+  "item_gift_food_1": {
+    "favorablePoint": 30,
+    "id": "item_gift_food_1",
+    "tagList": [
+      "tag_hobby_food"
+    ]
+  },
+  "item_gift_food_2": {
+    "favorablePoint": 30,
+    "id": "item_gift_food_2",
+    "tagList": [
+      "tag_hobby_food"
+    ]
+  },
+  "item_gift_food_3": {
+    "favorablePoint": 30,
+    "id": "item_gift_food_3",
+    "tagList": [
+      "tag_hobby_food"
+    ]
+  },
+  "item_gift_food_4": {
+    "favorablePoint": 30,
+    "id": "item_gift_food_4",
+    "tagList": [
+      "tag_hobby_food",
+      "tag_hobby_leisure"
+    ]
+  },
+  "item_gift_knowledge_1": {
+    "favorablePoint": 30,
+    "id": "item_gift_knowledge_1",
+    "tagList": [
+      "tag_hobby_knowledge",
+      "tag_hobby_tech"
+    ]
+  },
+  "item_gift_knowledge_2": {
+    "favorablePoint": 30,
+    "id": "item_gift_knowledge_2",
+    "tagList": [
+      "tag_hobby_knowledge"
+    ]
+  },
+  "item_gift_leisure_1": {
+    "favorablePoint": 30,
+    "id": "item_gift_leisure_1",
+    "tagList": [
+      "tag_hobby_leisure",
+      "tag_hobby_knowledge"
+    ]
+  },
+  "item_gift_tech_1": {
+    "favorablePoint": 30,
+    "id": "item_gift_tech_1",
+    "tagList": [
+      "tag_hobby_tech",
+      "tag_hobby_leisure"
+    ]
+  },
+  "item_gift_tech_2": {
+    "favorablePoint": 30,
+    "id": "item_gift_tech_2",
+    "tagList": [
+      "tag_hobby_tech"
+    ]
+  }
+}

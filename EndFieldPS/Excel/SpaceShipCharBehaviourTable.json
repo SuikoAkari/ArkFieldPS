@@ -1,0 +1,297 @@
+{
+  "chr_0004_pelica": {
+    "behaviourTypes": [
+      0,
+      2
+    ],
+    "charId": "chr_0004_pelica",
+    "commonNegativeEnvTalk": "envEmoji_common_sigh",
+    "commonNormalEnvTalk": "envEmoji_common_think",
+    "commonPositiveEnvTalk": "envEmoji_common_surprise",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_pelica_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_pelica_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_pelica_3"
+    ],
+    "npcId": "npc_0004_pelica_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0005_chen": {
+    "behaviourTypes": [
+      1,
+      0
+    ],
+    "charId": "chr_0005_chen",
+    "commonNegativeEnvTalk": "envEmoji_common_sad",
+    "commonNormalEnvTalk": "envEmoji_common_think",
+    "commonPositiveEnvTalk": "envEmoji_common_happy",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_chen_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_chen_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_chen_3"
+    ],
+    "npcId": "npc_0005_chen_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0006_wolfgd": {
+    "behaviourTypes": [
+      1,
+      0
+    ],
+    "charId": "chr_0006_wolfgd",
+    "commonNegativeEnvTalk": "envEmoji_common_sigh",
+    "commonNormalEnvTalk": "envEmoji_common_normal",
+    "commonPositiveEnvTalk": "envEmoji_common_happy",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_wolfgd_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_wolfgd_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_wolfgd_3"
+    ],
+    "npcId": "npc_0006_wolfgd_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0007_ikut": {
+    "behaviourTypes": [
+      0,
+      2
+    ],
+    "charId": "chr_0007_ikut",
+    "commonNegativeEnvTalk": "envEmoji_common_sad",
+    "commonNormalEnvTalk": "envEmoji_common_normal",
+    "commonPositiveEnvTalk": "envEmoji_common_happy",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_ikut_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_ikut_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_ikut_3"
+    ],
+    "npcId": "npc_0007_ikut_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0009_azrila": {
+    "behaviourTypes": [
+      1
+    ],
+    "charId": "chr_0009_azrila",
+    "commonNegativeEnvTalk": "envEmoji_common_sad",
+    "commonNormalEnvTalk": "envEmoji_common_think",
+    "commonPositiveEnvTalk": "envEmoji_common_thumbsup",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_azrila_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_azrila_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_azrila_3"
+    ],
+    "npcId": "npc_0009_azrila_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0011_seraph": {
+    "behaviourTypes": [
+      0,
+      2
+    ],
+    "charId": "chr_0011_seraph",
+    "commonNegativeEnvTalk": "envEmoji_common_sad",
+    "commonNormalEnvTalk": "envEmoji_common_think",
+    "commonPositiveEnvTalk": "envEmoji_common_thumbsup",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_seraph_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_seraph_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_seraph_3"
+    ],
+    "npcId": "npc_0011_seraph_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0012_avywen": {
+    "behaviourTypes": [
+      0,
+      2
+    ],
+    "charId": "chr_0012_avywen",
+    "commonNegativeEnvTalk": "envEmoji_common_sad",
+    "commonNormalEnvTalk": "envEmoji_common_normal",
+    "commonPositiveEnvTalk": "envEmoji_common_happy",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_avywen_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_avywen_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_avywen_3"
+    ],
+    "npcId": "npc_0012_avywen_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0013_aglina": {
+    "behaviourTypes": [
+      1
+    ],
+    "charId": "chr_0013_aglina",
+    "commonNegativeEnvTalk": "envEmoji_common_sigh",
+    "commonNormalEnvTalk": "envEmoji_common_normal",
+    "commonPositiveEnvTalk": "envEmoji_common_happy",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_aglina_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_aglina_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_aglina_3"
+    ],
+    "npcId": "npc_0013_aglina_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0014_aurora": {
+    "behaviourTypes": [
+      1,
+      2
+    ],
+    "charId": "chr_0014_aurora",
+    "commonNegativeEnvTalk": "envEmoji_common_dislike",
+    "commonNormalEnvTalk": "envEmoji_common_think",
+    "commonPositiveEnvTalk": "envEmoji_common_surprise",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_aurora_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_aurora_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_aurora_3"
+    ],
+    "npcId": "npc_0014_aurora_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0015_lifeng": {
+    "behaviourTypes": [
+      0
+    ],
+    "charId": "chr_0015_lifeng",
+    "commonNegativeEnvTalk": "envEmoji_common_dislike",
+    "commonNormalEnvTalk": "envEmoji_common_think",
+    "commonPositiveEnvTalk": "envEmoji_common_thumbsup",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_lifeng_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_lifeng_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_lifeng_3"
+    ],
+    "npcId": "npc_0015_lifeng_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0016_laevat": {
+    "behaviourTypes": [
+      0
+    ],
+    "charId": "chr_0016_laevat",
+    "commonNegativeEnvTalk": "envEmoji_common_sigh",
+    "commonNormalEnvTalk": "envEmoji_common_think",
+    "commonPositiveEnvTalk": "envEmoji_common_thumbsup",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_laevat_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_laevat_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_laevat_3"
+    ],
+    "npcId": "npc_0016_laevat_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0017_yvonne": {
+    "behaviourTypes": [
+      1,
+      0
+    ],
+    "charId": "chr_0017_yvonne",
+    "commonNegativeEnvTalk": "envEmoji_common_dislike",
+    "commonNormalEnvTalk": "envEmoji_common_think",
+    "commonPositiveEnvTalk": "envEmoji_common_thumbsup",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_yvonne_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_yvonne_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_yvonne_3"
+    ],
+    "npcId": "npc_0017_yvonne_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  },
+  "chr_0018_dapan": {
+    "behaviourTypes": [
+      1,
+      0
+    ],
+    "charId": "chr_0018_dapan",
+    "commonNegativeEnvTalk": "envEmoji_common_sigh",
+    "commonNormalEnvTalk": "envEmoji_common_normal",
+    "commonPositiveEnvTalk": "envEmoji_common_happy",
+    "greetEnvTalkIds1": [
+      "greetEnvTalk_dapan_1"
+    ],
+    "greetEnvTalkIds2": [
+      "greetEnvTalk_dapan_2"
+    ],
+    "greetEnvTalkIds3": [
+      "greetEnvTalk_dapan_3"
+    ],
+    "npcId": "npc_0018_dapan_spaceship_i001",
+    "unlockGreetFavorability": 1,
+    "workNegativeEnvTalk": "envEmoji_common_unhappywork",
+    "workPositiveEnvTalk": "envEmoji_common_adaptationwork"
+  }
+}

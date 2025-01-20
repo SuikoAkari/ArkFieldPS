@@ -1,0 +1,528 @@
+{
+  "bloc01_shop": {
+    "map": {
+      "1": {
+        "list": [
+          {
+            "availCount": 4,
+            "id": 1,
+            "itemCount": 100,
+            "itemId": "item_expcard_2_1",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc01_shop",
+            "sortId": 1
+          },
+          {
+            "availCount": 4,
+            "id": 2,
+            "itemCount": 20,
+            "itemId": "item_expcard_2_2",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc01_shop",
+            "sortId": 2
+          },
+          {
+            "availCount": 2,
+            "id": 3,
+            "itemCount": 50,
+            "itemId": "item_mtl_stageup_normal_01",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 3
+          },
+          {
+            "availCount": 2,
+            "id": 4,
+            "itemCount": 50,
+            "itemId": "item_mtl_stageup_normal_02",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 4
+          },
+          {
+            "availCount": 2,
+            "id": 5,
+            "itemCount": 50,
+            "itemId": "item_mtl_skillup_normal_01",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 5
+          },
+          {
+            "availCount": 2,
+            "id": 6,
+            "itemCount": 50,
+            "itemId": "item_mtl_skillup_normal_02",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 6
+          },
+          {
+            "availCount": 4,
+            "id": 7,
+            "itemCount": 100,
+            "itemId": "item_weapon_upgrade_low",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc01_shop",
+            "sortId": 7
+          },
+          {
+            "availCount": 4,
+            "id": 8,
+            "itemCount": 20,
+            "itemId": "item_weapon_upgrade_mid",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc01_shop",
+            "sortId": 8
+          },
+          {
+            "availCount": 2,
+            "id": 9,
+            "itemCount": 50,
+            "itemId": "item_weapon_breakthrough_a1",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 9
+          },
+          {
+            "availCount": 2,
+            "id": 10,
+            "itemCount": 50,
+            "itemId": "item_weapon_breakthrough_b1",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 10
+          }
+        ]
+      },
+      "2": {
+        "list": [
+          {
+            "availCount": 2,
+            "id": 13,
+            "itemCount": 25,
+            "itemId": "item_mtl_stageup_rare_01",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 13
+          },
+          {
+            "availCount": 2,
+            "id": 14,
+            "itemCount": 25,
+            "itemId": "item_mtl_stageup_rare_02",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 14
+          }
+        ]
+      },
+      "3": {
+        "list": [
+          {
+            "availCount": 4,
+            "id": 11,
+            "itemCount": 50,
+            "itemId": "item_expcard_3_1",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc01_shop",
+            "sortId": 11
+          },
+          {
+            "availCount": 4,
+            "id": 12,
+            "itemCount": 10,
+            "itemId": "item_expcard_3_2",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc01_shop",
+            "sortId": 12
+          }
+        ]
+      },
+      "4": {
+        "list": [
+          {
+            "availCount": 2,
+            "id": 17,
+            "itemCount": 25,
+            "itemId": "item_weapon_breakthrough_a2",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 17
+          },
+          {
+            "availCount": 2,
+            "id": 18,
+            "itemCount": 25,
+            "itemId": "item_weapon_breakthrough_b2",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 18
+          }
+        ]
+      },
+      "5": {
+        "list": [
+          {
+            "availCount": 2,
+            "id": 15,
+            "itemCount": 25,
+            "itemId": "item_mtl_skillup_rare_01",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 15
+          },
+          {
+            "availCount": 2,
+            "id": 16,
+            "itemCount": 25,
+            "itemId": "item_mtl_skillup_rare_02",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc01_shop",
+            "sortId": 16
+          }
+        ]
+      }
+    }
+  },
+  "bloc02_shop": {
+    "map": {
+      "1": {
+        "list": [
+          {
+            "availCount": 4,
+            "id": 19,
+            "itemCount": 100,
+            "itemId": "item_expcard_2_1",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc02_shop",
+            "sortId": 1
+          },
+          {
+            "availCount": 4,
+            "id": 20,
+            "itemCount": 20,
+            "itemId": "item_expcard_2_2",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc02_shop",
+            "sortId": 2
+          },
+          {
+            "availCount": 2,
+            "id": 21,
+            "itemCount": 50,
+            "itemId": "item_mtl_stageup_normal_01",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 3
+          },
+          {
+            "availCount": 2,
+            "id": 22,
+            "itemCount": 50,
+            "itemId": "item_mtl_stageup_normal_02",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 4
+          },
+          {
+            "availCount": 2,
+            "id": 23,
+            "itemCount": 50,
+            "itemId": "item_mtl_skillup_normal_01",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 5
+          },
+          {
+            "availCount": 2,
+            "id": 24,
+            "itemCount": 50,
+            "itemId": "item_mtl_skillup_normal_02",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 6
+          },
+          {
+            "availCount": 4,
+            "id": 25,
+            "itemCount": 100,
+            "itemId": "item_weapon_upgrade_low",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc02_shop",
+            "sortId": 7
+          },
+          {
+            "availCount": 4,
+            "id": 26,
+            "itemCount": 20,
+            "itemId": "item_weapon_upgrade_mid",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc02_shop",
+            "sortId": 8
+          },
+          {
+            "availCount": 2,
+            "id": 27,
+            "itemCount": 50,
+            "itemId": "item_weapon_breakthrough_a1",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 9
+          },
+          {
+            "availCount": 2,
+            "id": 28,
+            "itemCount": 50,
+            "itemId": "item_weapon_breakthrough_b1",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 10
+          }
+        ]
+      },
+      "2": {
+        "list": [
+          {
+            "availCount": 2,
+            "id": 31,
+            "itemCount": 25,
+            "itemId": "item_mtl_stageup_rare_01",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 13
+          },
+          {
+            "availCount": 2,
+            "id": 32,
+            "itemCount": 25,
+            "itemId": "item_mtl_stageup_rare_02",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 14
+          }
+        ]
+      },
+      "3": {
+        "list": [
+          {
+            "availCount": 4,
+            "id": 29,
+            "itemCount": 50,
+            "itemId": "item_expcard_3_1",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc02_shop",
+            "sortId": 11
+          },
+          {
+            "availCount": 4,
+            "id": 30,
+            "itemCount": 10,
+            "itemId": "item_expcard_3_2",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 100,
+            "shopId": "bloc02_shop",
+            "sortId": 12
+          }
+        ]
+      },
+      "4": {
+        "list": [
+          {
+            "availCount": 2,
+            "id": 35,
+            "itemCount": 25,
+            "itemId": "item_weapon_breakthrough_a2",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 17
+          },
+          {
+            "availCount": 2,
+            "id": 36,
+            "itemCount": 25,
+            "itemId": "item_weapon_breakthrough_b2",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 18
+          }
+        ]
+      },
+      "5": {
+        "list": [
+          {
+            "availCount": 2,
+            "id": 33,
+            "itemCount": 25,
+            "itemId": "item_mtl_skillup_rare_01",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 15
+          },
+          {
+            "availCount": 2,
+            "id": 34,
+            "itemCount": 25,
+            "itemId": "item_mtl_skillup_rare_02",
+            "moneyId": "item_bloc_tundra_gold",
+            "price": 200,
+            "shopId": "bloc02_shop",
+            "sortId": 16
+          }
+        ]
+      }
+    }
+  },
+  "temp_shop": {
+    "map": {
+      "1": {
+        "list": [
+          {
+            "availCount": 1,
+            "id": 52,
+            "itemCount": 1,
+            "itemId": "wpn_0002",
+            "moneyId": "item_diamond",
+            "price": 100,
+            "shopId": "temp_shop",
+            "sortId": 1
+          },
+          {
+            "availCount": 1,
+            "id": 53,
+            "itemCount": 1,
+            "itemId": "wpn_0008",
+            "moneyId": "item_diamond",
+            "price": 100,
+            "shopId": "temp_shop",
+            "sortId": 2
+          },
+          {
+            "availCount": 1,
+            "id": 54,
+            "itemCount": 1,
+            "itemId": "wpn_0009",
+            "moneyId": "item_diamond",
+            "price": 100,
+            "shopId": "temp_shop",
+            "sortId": 3
+          },
+          {
+            "availCount": 1,
+            "id": 55,
+            "itemCount": 1,
+            "itemId": "wpn_0035",
+            "moneyId": "item_diamond",
+            "price": 100,
+            "shopId": "temp_shop",
+            "sortId": 4
+          },
+          {
+            "availCount": 1,
+            "id": 56,
+            "itemCount": 1,
+            "itemId": "wpn_0036",
+            "moneyId": "item_diamond",
+            "price": 100,
+            "shopId": "temp_shop",
+            "sortId": 5
+          },
+          {
+            "availCount": 1,
+            "id": 57,
+            "itemCount": 1,
+            "itemId": "wpn_0037",
+            "moneyId": "item_diamond",
+            "price": 100,
+            "shopId": "temp_shop",
+            "sortId": 6
+          },
+          {
+            "availCount": 1,
+            "id": 58,
+            "itemCount": 1,
+            "itemId": "wpn_0038",
+            "moneyId": "item_diamond",
+            "price": 100,
+            "shopId": "temp_shop",
+            "sortId": 7
+          },
+          {
+            "availCount": 1,
+            "id": 59,
+            "itemCount": 1,
+            "itemId": "chr_0009_azrila",
+            "moneyId": "item_diamond",
+            "price": 150,
+            "shopId": "temp_shop",
+            "sortId": 8
+          },
+          {
+            "availCount": 1,
+            "id": 60,
+            "itemCount": 1,
+            "itemId": "chr_0011_seraph",
+            "moneyId": "item_diamond",
+            "price": 150,
+            "shopId": "temp_shop",
+            "sortId": 9
+          },
+          {
+            "availCount": 1,
+            "id": 61,
+            "itemCount": 1,
+            "itemId": "chr_0012_avywen",
+            "moneyId": "item_diamond",
+            "price": 150,
+            "shopId": "temp_shop",
+            "sortId": 10
+          },
+          {
+            "availCount": 1,
+            "id": 62,
+            "itemCount": 1,
+            "itemId": "chr_0013_aglina",
+            "moneyId": "item_diamond",
+            "price": 150,
+            "shopId": "temp_shop",
+            "sortId": 11
+          }
+        ]
+      }
+    }
+  }
+}

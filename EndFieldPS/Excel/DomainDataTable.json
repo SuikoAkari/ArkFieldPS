@@ -1,0 +1,70 @@
+{
+  "domain_1": {
+    "domainBlackboxIcon": "blackbox_icon_domain_1",
+    "domainBlackboxPic": "blackbox_pic_domain_1",
+    "domainColor": "C7C739",
+    "domainDeco": "deco_domain_1",
+    "domainIcon": "icon_domain_1",
+    "domainId": "domain_1",
+    "domainMap": "Region01",
+    "domainName": {
+      "id": "D908C0DE3C6E78E0",
+      "text": ""
+    },
+    "domainPic": "pic_domain_1",
+    "facTechPackageId": "tech_group_tundra",
+    "levelGroup": [
+      "map01_lv001",
+      "map01_lv002",
+      "map01_lv003",
+      "map01_lv005",
+      "map01_lv006",
+      "map01_lv007"
+    ],
+    "machineModeTypeGroup": [
+      "normal"
+    ],
+    "machineModeTypePriority": "normal",
+    "settlementGroup": [
+      "stm_tundra_1",
+      "stm_tundra_2",
+      "stm_tundra_3"
+    ],
+    "sortId": 1,
+    "storageName": {
+      "id": "57AD7173DF901766",
+      "text": ""
+    }
+  },
+  "domain_2": {
+    "domainBlackboxIcon": "blackbox_icon_domain_2",
+    "domainBlackboxPic": "blackbox_pic_domain_2",
+    "domainColor": "8BD3B9",
+    "domainDeco": "deco_domain_2",
+    "domainIcon": "icon_domain_2",
+    "domainId": "domain_2",
+    "domainMap": "Region02",
+    "domainName": {
+      "id": "133CE8D1A63A2EB2",
+      "text": ""
+    },
+    "domainPic": "pic_domain_2",
+    "facTechPackageId": "tech_group_jinlong",
+    "levelGroup": [
+      "map02_lv001"
+    ],
+    "machineModeTypeGroup": [
+      "normal",
+      "liquid"
+    ],
+    "machineModeTypePriority": "liquid",
+    "settlementGroup": [
+      "stm_hongs_1"
+    ],
+    "sortId": 2,
+    "storageName": {
+      "id": "2333E8FAF5DB1424",
+      "text": ""
+    }
+  }
+}

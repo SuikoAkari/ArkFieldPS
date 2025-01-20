@@ -1,0 +1,78 @@
+{
+  "1": {
+    "btnText": {
+      "id": "5576D0087DAE1F8F",
+      "text": ""
+    },
+    "hintText": {
+      "id": "0ECDC7FEDA4D1675",
+      "text": ""
+    },
+    "id": 1,
+    "progressText": {
+      "id": "C83079280A75423A",
+      "text": ""
+    },
+    "stepDescription": {
+      "id": "622854B80686F289",
+      "text": ""
+    }
+  },
+  "2": {
+    "btnText": {
+      "id": "E73EE5B304CCFC36",
+      "text": ""
+    },
+    "hintText": {
+      "id": "CAA68043ED136317",
+      "text": ""
+    },
+    "id": 2,
+    "progressText": {
+      "id": "2943998B3332A310",
+      "text": ""
+    },
+    "stepDescription": {
+      "id": "B8947CDB0526CD4B",
+      "text": ""
+    }
+  },
+  "3": {
+    "btnText": {
+      "id": "D39A63EF0CC9E732",
+      "text": ""
+    },
+    "hintText": {
+      "id": "89A5F981AB6F3996",
+      "text": ""
+    },
+    "id": 3,
+    "progressText": {
+      "id": "C20C756C976BEBA1",
+      "text": ""
+    },
+    "stepDescription": {
+      "id": "747643A109DCF2C5",
+      "text": ""
+    }
+  },
+  "4": {
+    "btnText": {
+      "id": "82104CD132FF66DB",
+      "text": ""
+    },
+    "hintText": {
+      "id": "6BC3B557AEA0B57E",
+      "text": ""
+    },
+    "id": 4,
+    "progressText": {
+      "id": "38C9070ED9624434",
+      "text": ""
+    },
+    "stepDescription": {
+      "id": "222388CE9FB2DF70",
+      "text": ""
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "0": {
+    "icon": "icon_type_all_02",
+    "name": {
+      "id": "9D5844FACD5526FA",
+      "text": ""
+    },
+    "type": 0
+  },
+  "1": {
+    "icon": "icon_equipment_fungus",
+    "name": {
+      "id": "B2CD4237F5CCAE0F",
+      "text": ""
+    },
+    "type": 1
+  },
+  "2": {
+    "icon": "icon_airship_plant",
+    "name": {
+      "id": "90C5194600E2B589",
+      "text": ""
+    },
+    "type": 2
+  },
+  "3": {
+    "icon": "icon_airship_mineral",
+    "name": {
+      "id": "621306C8EF7A39C5",
+      "text": ""
+    },
+    "type": 3
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "BLOC_SHOP_MONEY_IDS": {
+    "value": "[\r\n  \u0022item_bloc_tundra_gold\u0022\r\n]"
+  },
+  "CONTROLLER_DIALOG_CAMERA_MOVE_SPEED": {
+    "value": "[\r\n  15\r\n]"
+  },
+  "DIALOG_OPEN_UI_PARAM_BLOC": {
+    "value": "{\r\n  \u0022blocId\u0022: \u0022aaa\u0022\r\n}"
+  },
+  "DIALOG_OPEN_UI_PARAM_BLOCMISSION": {
+    "value": "{\r\n  \u0022fromDialog\u0022: true\r\n}"
+  },
+  "DIALOG_OPEN_UI_PARAM_BLOCSHOP": {
+    "value": "{\r\n  \u0022blocId\u0022: \u0022aaa\u0022\r\n}"
+  },
+  "DIALOG_OPEN_UI_PARAM_BLOCTAG": {
+    "value": "{\r\n  \u0022blocId\u0022: \u0022aaa\u0022\r\n}"
+  },
+  "DIALOG_OPEN_UI_PARAM_DUNGEONENTRY": {
+    "value": "{\r\n  \u0022dungeonSeriesId\u0022: \u0022\u526F\u672C\u7CFB\u5217Id\u0022\r\n}"
+  },
+  "DIALOG_OPEN_UI_PARAM_DUNGEONTRAINOVERVIEW": {
+    "value": "{}"
+  },
+  "DIALOG_OPEN_UI_PARAM_FRIENDSHIPPRESENT": {
+    "value": "{\r\n  \u0022charId\u0022: \u0022\u89D2\u8272Id\u0022\r\n}"
+  },
+  "DIALOG_OPEN_UI_PARAM_MANUALCOLLECT": {
+    "value": "{\r\n  \u0022onlyShow\u0022: true\r\n}"
+  },
+  "DIALOG_OPEN_UI_PARAM_SHOP": {
+    "value": "{\r\n  \u0022shopGroupId\u0022: \u0022\u5546\u5E97ID\u0022\r\n}"
+  },
+  "DIALOG_OPEN_UI_PARAM_SUBMITITEM": {
+    "value": "{\r\n  \u0022submitId\u0022: \u0022\u63D0\u4EA4id\u0022,\r\n  \u0022questId\u0022: \u0022\u4EFB\u52A1questId\u0022,\r\n  \u0022objId\u0022: \u0022\u53EF\u9009\u53C2\u6570\u0022\r\n}"
+  },
+  "INVENTORY_MONEY_IDS": {
+    "value": "[\r\n  \u0022item_gold\u0022,\r\n  \u0022item_diamond\u0022\r\n]"
+  },
+  "SHOP_MONEY_IDS": {
+    "value": "[\r\n  \u0022item_gold\u0022\r\n]"
+  },
+  "VALUABLE_DEPOT_MONEY_IDS": {
+    "value": "[\r\n  \u0022item_gold\u0022,\r\n  \u0022item_diamond\u0022\r\n]"
+  }
+}

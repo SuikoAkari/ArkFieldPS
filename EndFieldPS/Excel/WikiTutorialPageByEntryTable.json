@@ -1,0 +1,1055 @@
+{
+  "wiki_tut_adv_accelerate_mushroom": {
+    "pageIds": [
+      "wiki_tut_adv_accelerate_mushroom_1"
+    ]
+  },
+  "wiki_tut_adv_adventure_book": {
+    "pageIds": [
+      "wiki_tut_adv_adventure_book_1"
+    ]
+  },
+  "wiki_tut_adv_adventure_level": {
+    "pageIds": [
+      "wiki_tut_adv_adventure_level_1",
+      "wiki_tut_adv_adventure_level_2"
+    ]
+  },
+  "wiki_tut_adv_anchor_wave": {
+    "pageIds": [
+      "wiki_tut_adv_anchor_wave_1",
+      "wiki_tut_adv_anchor_wave_2",
+      "wiki_tut_adv_anchor_wave_3",
+      "wiki_tut_adv_anchor_wave_4"
+    ]
+  },
+  "wiki_tut_adv_ap": {
+    "pageIds": [
+      "wiki_tut_adv_ap_1"
+    ]
+  },
+  "wiki_tut_adv_attribute": {
+    "pageIds": [
+      "wiki_tut_adv_attribute_1",
+      "wiki_tut_adv_attribute_2"
+    ]
+  },
+  "wiki_tut_adv_bag": {
+    "pageIds": [
+      "wiki_tut_adv_bag_1"
+    ]
+  },
+  "wiki_tut_adv_bomb_wall": {
+    "pageIds": [
+      "wiki_tut_adv_bomb_wall_1"
+    ]
+  },
+  "wiki_tut_adv_camp": {
+    "pageIds": [
+      "wiki_tut_adv_camp_1",
+      "wiki_tut_adv_camp_2"
+    ]
+  },
+  "wiki_tut_adv_char_levelup": {
+    "pageIds": [
+      "wiki_tut_adv_char_levelup_1"
+    ]
+  },
+  "wiki_tut_adv_chasingrabbit": {
+    "pageIds": [
+      "wiki_tut_adv_chasingrabbit_1",
+      "wiki_tut_adv_chasingrabbit_2"
+    ]
+  },
+  "wiki_tut_adv_crane": {
+    "pageIds": [
+      "wiki_tut_adv_crane_1",
+      "wiki_tut_adv_crane_2",
+      "wiki_tut_adv_crane_3"
+    ]
+  },
+  "wiki_tut_adv_crane_controller": {
+    "pageIds": [
+      "wiki_tut_adv_crane_controller_1"
+    ]
+  },
+  "wiki_tut_adv_crystal_tree": {
+    "pageIds": [
+      "wiki_tut_adv_crystal_tree_1"
+    ]
+  },
+  "wiki_tut_adv_defence_laser": {
+    "pageIds": [
+      "wiki_tut_adv_defence_laser_1"
+    ]
+  },
+  "wiki_tut_adv_delta_robot": {
+    "pageIds": [
+      "wiki_tut_adv_delta_robot_1"
+    ]
+  },
+  "wiki_tut_adv_doodad": {
+    "pageIds": [
+      "wiki_tut_adv_doodad_1"
+    ]
+  },
+  "wiki_tut_adv_drain_valves": {
+    "pageIds": [
+      "wiki_tut_adv_drain_valves_1",
+      "wiki_tut_adv_drain_valves_2"
+    ]
+  },
+  "wiki_tut_adv_dungeon": {
+    "pageIds": [
+      "wiki_tut_adv_dungeon_1"
+    ]
+  },
+  "wiki_tut_adv_electric_fence": {
+    "pageIds": [
+      "wiki_tut_adv_electric_fence_1"
+    ]
+  },
+  "wiki_tut_adv_energy_point": {
+    "pageIds": [
+      "wiki_tut_adv_energy_point_1",
+      "wiki_tut_adv_energy_point_2"
+    ]
+  },
+  "wiki_tut_adv_equip": {
+    "pageIds": [
+      "wiki_tut_adv_equip_1"
+    ]
+  },
+  "wiki_tut_adv_equip_produce": {
+    "pageIds": [
+      "wiki_tut_adv_equip_produce_1",
+      "wiki_tut_adv_equip_produce_2",
+      "wiki_tut_adv_equip_produce_3"
+    ]
+  },
+  "wiki_tut_adv_erosion": {
+    "pageIds": [
+      "wiki_tut_adv_erosion_1",
+      "wiki_tut_adv_erosion_2",
+      "wiki_tut_adv_erosion_3"
+    ]
+  },
+  "wiki_tut_adv_ether": {
+    "pageIds": [
+      "wiki_tut_adv_ether_1",
+      "wiki_tut_adv_ether_2",
+      "wiki_tut_adv_ether_3"
+    ]
+  },
+  "wiki_tut_adv_ewitch": {
+    "pageIds": [
+      "wiki_tut_adv_ewitch_1"
+    ]
+  },
+  "wiki_tut_adv_flame_desctruct": {
+    "pageIds": [
+      "wiki_tut_adv_flame_desctruct_1"
+    ]
+  },
+  "wiki_tut_adv_hdwork": {
+    "pageIds": [
+      "wiki_tut_adv_hdwork_1"
+    ]
+  },
+  "wiki_tut_adv_hdwork_book": {
+    "pageIds": [
+      "wiki_tut_adv_hdwork_book_1"
+    ]
+  },
+  "wiki_tut_adv_hit_iron": {
+    "pageIds": [
+      "wiki_tut_adv_hit_iron_1"
+    ]
+  },
+  "wiki_tut_adv_jump_machine": {
+    "pageIds": [
+      "wiki_tut_adv_jump_machine_1",
+      "wiki_tut_adv_jump_machine_2"
+    ]
+  },
+  "wiki_tut_adv_liqiud_fill": {
+    "pageIds": [
+      "wiki_tut_adv_liqiud_fill_1",
+      "wiki_tut_adv_liqiud_fill_2"
+    ]
+  },
+  "wiki_tut_adv_liqiud_height": {
+    "pageIds": [
+      "wiki_tut_adv_liqiud_height_1",
+      "wiki_tut_adv_liqiud_height_2",
+      "wiki_tut_adv_liqiud_height_3"
+    ]
+  },
+  "wiki_tut_adv_locked_box": {
+    "pageIds": [
+      "wiki_tut_adv_locked_box_1"
+    ]
+  },
+  "wiki_tut_adv_map": {
+    "pageIds": [
+      "wiki_tut_adv_map_1",
+      "wiki_tut_adv_map_2"
+    ]
+  },
+  "wiki_tut_adv_map_level": {
+    "pageIds": [
+      "wiki_tut_adv_map_level_1",
+      "wiki_tut_adv_map_level_2"
+    ]
+  },
+  "wiki_tut_adv_mine": {
+    "pageIds": [
+      "wiki_tut_adv_mine_1",
+      "wiki_tut_adv_mine_2"
+    ]
+  },
+  "wiki_tut_adv_plant": {
+    "pageIds": [
+      "wiki_tut_adv_plant_1",
+      "wiki_tut_adv_plant_2"
+    ]
+  },
+  "wiki_tut_adv_power_terminal": {
+    "pageIds": [
+      "wiki_tut_adv_power_terminal_1"
+    ]
+  },
+  "wiki_tut_adv_pushedbox1": {
+    "pageIds": [
+      "wiki_tut_adv_pushedbox1_1"
+    ]
+  },
+  "wiki_tut_adv_pushedbox2": {
+    "pageIds": [
+      "wiki_tut_adv_pushedbox2_1"
+    ]
+  },
+  "wiki_tut_adv_racing_dungeon": {
+    "pageIds": [
+      "wiki_tut_adv_racing_dungeon_1",
+      "wiki_tut_adv_racing_dungeon_2",
+      "wiki_tut_adv_racing_dungeon_3",
+      "wiki_tut_adv_racing_dungeon_4"
+    ]
+  },
+  "wiki_tut_adv_recycle_station": {
+    "pageIds": [
+      "wiki_tut_adv_recycle_station_1"
+    ]
+  },
+  "wiki_tut_adv_repair": {
+    "pageIds": [
+      "wiki_tut_adv_repair_1"
+    ]
+  },
+  "wiki_tut_adv_restoration": {
+    "pageIds": [
+      "wiki_tut_adv_restoration_1",
+      "wiki_tut_adv_restoration_2"
+    ]
+  },
+  "wiki_tut_adv_scan": {
+    "pageIds": [
+      "wiki_tut_adv_scan_1",
+      "wiki_tut_adv_scan_2",
+      "wiki_tut_adv_scan_3"
+    ]
+  },
+  "wiki_tut_adv_scan_erosion": {
+    "pageIds": [
+      "wiki_tut_adv_scan_erosion_1"
+    ]
+  },
+  "wiki_tut_adv_scan_find": {
+    "pageIds": [
+      "wiki_tut_adv_scan_find_1"
+    ]
+  },
+  "wiki_tut_adv_scan_liqiud": {
+    "pageIds": [
+      "wiki_tut_adv_scan_liqiud_1"
+    ]
+  },
+  "wiki_tut_adv_second_energy_point": {
+    "pageIds": [
+      "wiki_tut_adv_second_energy_point_1"
+    ]
+  },
+  "wiki_tut_adv_seesaw": {
+    "pageIds": [
+      "wiki_tut_adv_seesaw_1"
+    ]
+  },
+  "wiki_tut_adv_spaceship_build": {
+    "pageIds": [
+      "wiki_tut_adv_spaceship_build_1"
+    ]
+  },
+  "wiki_tut_adv_spaceship_center": {
+    "pageIds": [
+      "wiki_tut_adv_spaceship_center_1"
+    ]
+  },
+  "wiki_tut_adv_spaceship_grow": {
+    "pageIds": [
+      "wiki_tut_adv_spaceship_grow_1",
+      "wiki_tut_adv_spaceship_grow_2"
+    ]
+  },
+  "wiki_tut_adv_spaceship_manu": {
+    "pageIds": [
+      "wiki_tut_adv_spaceship_manu_1",
+      "wiki_tut_adv_spaceship_manu_2"
+    ]
+  },
+  "wiki_tut_adv_spaceship_operator": {
+    "pageIds": [
+      "wiki_tut_adv_spaceship_operator_1",
+      "wiki_tut_adv_spaceship_operator_2"
+    ]
+  },
+  "wiki_tut_adv_spaceship_reliance": {
+    "pageIds": [
+      "wiki_tut_adv_spaceship_reliance_1",
+      "wiki_tut_adv_spaceship_reliance_2",
+      "wiki_tut_adv_spaceship_reliance_3"
+    ]
+  },
+  "wiki_tut_adv_spaceship_shop": {
+    "pageIds": [
+      "wiki_tut_adv_spaceship_shop_1",
+      "wiki_tut_adv_spaceship_shop_2"
+    ]
+  },
+  "wiki_tut_adv_start_bomb": {
+    "pageIds": [
+      "wiki_tut_adv_start_bomb_1",
+      "wiki_tut_adv_start_bomb_2"
+    ]
+  },
+  "wiki_tut_adv_tactical_item": {
+    "pageIds": [
+      "wiki_tut_adv_tactical_item_1",
+      "wiki_tut_adv_tactical_item_2"
+    ]
+  },
+  "wiki_tut_adv_talent_tree": {
+    "pageIds": [
+      "wiki_tut_adv_talent_tree_1",
+      "wiki_tut_adv_talent_tree_2",
+      "wiki_tut_adv_talent_tree_3"
+    ]
+  },
+  "wiki_tut_adv_team": {
+    "pageIds": [
+      "wiki_tut_adv_team_1"
+    ]
+  },
+  "wiki_tut_adv_timid_insect": {
+    "pageIds": [
+      "wiki_tut_adv_timid_insect_1",
+      "wiki_tut_adv_timid_insect_2",
+      "wiki_tut_adv_timid_insect_3",
+      "wiki_tut_adv_timid_insect_4"
+    ]
+  },
+  "wiki_tut_adv_tower_defence": {
+    "pageIds": [
+      "wiki_tut_adv_tower_defence_1",
+      "wiki_tut_adv_tower_defence_2",
+      "wiki_tut_adv_tower_defence_3",
+      "wiki_tut_adv_tower_defence_4",
+      "wiki_tut_adv_tower_defence_5"
+    ]
+  },
+  "wiki_tut_adv_tst": {
+    "pageIds": [
+      "wiki_tut_adv_tst_1",
+      "wiki_tut_adv_tst_2"
+    ]
+  },
+  "wiki_tut_adv_tsz": {
+    "pageIds": [
+      "wiki_tut_adv_tsz_1",
+      "wiki_tut_adv_tsz_2",
+      "wiki_tut_adv_tsz_3"
+    ]
+  },
+  "wiki_tut_adv_tszkey": {
+    "pageIds": [
+      "wiki_tut_adv_tszkey_1"
+    ]
+  },
+  "wiki_tut_adv_use_bomb": {
+    "pageIds": [
+      "wiki_tut_adv_use_bomb_1"
+    ]
+  },
+  "wiki_tut_adv_use_item": {
+    "pageIds": [
+      "wiki_tut_adv_use_item_1"
+    ]
+  },
+  "wiki_tut_adv_valuable": {
+    "pageIds": [
+      "wiki_tut_adv_valuable_1"
+    ]
+  },
+  "wiki_tut_adv_watch": {
+    "pageIds": [
+      "wiki_tut_adv_watch_1"
+    ]
+  },
+  "wiki_tut_adv_weapon": {
+    "pageIds": [
+      "wiki_tut_adv_weapon_1",
+      "wiki_tut_adv_weapon_2",
+      "wiki_tut_adv_weapon_3"
+    ]
+  },
+  "wiki_tut_adv_weapon_gem": {
+    "pageIds": [
+      "wiki_tut_adv_weapon_gem_1",
+      "wiki_tut_adv_weapon_gem_2"
+    ]
+  },
+  "wiki_tut_adv_wiki": {
+    "pageIds": [
+      "wiki_tut_adv_wiki_1"
+    ]
+  },
+  "wiki_tut_bat_airborne": {
+    "pageIds": [
+      "wiki_tut_bat_airborne_1"
+    ]
+  },
+  "wiki_tut_bat_break": {
+    "pageIds": [
+      "wiki_tut_bat_break_1"
+    ]
+  },
+  "wiki_tut_bat_break_defence": {
+    "pageIds": [
+      "wiki_tut_bat_break_defence_1"
+    ]
+  },
+  "wiki_tut_bat_cold": {
+    "pageIds": [
+      "wiki_tut_bat_cold_1"
+    ]
+  },
+  "wiki_tut_bat_cold_outbreak": {
+    "pageIds": [
+      "wiki_tut_bat_cold_outbreak_1"
+    ]
+  },
+  "wiki_tut_bat_combo": {
+    "pageIds": [
+      "wiki_tut_bat_combo_1",
+      "wiki_tut_bat_combo_2"
+    ]
+  },
+  "wiki_tut_bat_combo_1": {
+    "pageIds": [
+      "wiki_tut_bat_combo_1_1",
+      "wiki_tut_bat_combo_1_2"
+    ]
+  },
+  "wiki_tut_bat_combo_10": {
+    "pageIds": [
+      "wiki_tut_bat_combo_10_1"
+    ]
+  },
+  "wiki_tut_bat_combo_11": {
+    "pageIds": [
+      "wiki_tut_bat_combo_11_1"
+    ]
+  },
+  "wiki_tut_bat_combo_12": {
+    "pageIds": [
+      "wiki_tut_bat_combo_12_1",
+      "wiki_tut_bat_combo_12_2"
+    ]
+  },
+  "wiki_tut_bat_combo_13": {
+    "pageIds": [
+      "wiki_tut_bat_combo_13_1"
+    ]
+  },
+  "wiki_tut_bat_combo_14": {
+    "pageIds": [
+      "wiki_tut_bat_combo_14_1"
+    ]
+  },
+  "wiki_tut_bat_combo_2": {
+    "pageIds": [
+      "wiki_tut_bat_combo_2_1",
+      "wiki_tut_bat_combo_2_2"
+    ]
+  },
+  "wiki_tut_bat_combo_3": {
+    "pageIds": [
+      "wiki_tut_bat_combo_3_1",
+      "wiki_tut_bat_combo_3_2"
+    ]
+  },
+  "wiki_tut_bat_combo_4": {
+    "pageIds": [
+      "wiki_tut_bat_combo_4_1",
+      "wiki_tut_bat_combo_4_2"
+    ]
+  },
+  "wiki_tut_bat_combo_5": {
+    "pageIds": [
+      "wiki_tut_bat_combo_5_1",
+      "wiki_tut_bat_combo_5_2"
+    ]
+  },
+  "wiki_tut_bat_combo_6": {
+    "pageIds": [
+      "wiki_tut_bat_combo_6_1"
+    ]
+  },
+  "wiki_tut_bat_combo_7": {
+    "pageIds": [
+      "wiki_tut_bat_combo_7_1"
+    ]
+  },
+  "wiki_tut_bat_combo_8": {
+    "pageIds": [
+      "wiki_tut_bat_combo_8_1"
+    ]
+  },
+  "wiki_tut_bat_combo_9": {
+    "pageIds": [
+      "wiki_tut_bat_combo_9_1",
+      "wiki_tut_bat_combo_9_2"
+    ]
+  },
+  "wiki_tut_bat_combust": {
+    "pageIds": [
+      "wiki_tut_bat_combust_1"
+    ]
+  },
+  "wiki_tut_bat_conduct": {
+    "pageIds": [
+      "wiki_tut_bat_conduct_1"
+    ]
+  },
+  "wiki_tut_bat_corrode": {
+    "pageIds": [
+      "wiki_tut_bat_corrode_1"
+    ]
+  },
+  "wiki_tut_bat_dash": {
+    "pageIds": [
+      "wiki_tut_bat_dash_1",
+      "wiki_tut_bat_dash_2"
+    ]
+  },
+  "wiki_tut_bat_execute": {
+    "pageIds": [
+      "wiki_tut_bat_execute_1",
+      "wiki_tut_bat_execute_2"
+    ]
+  },
+  "wiki_tut_bat_fire": {
+    "pageIds": [
+      "wiki_tut_bat_fire_1"
+    ]
+  },
+  "wiki_tut_bat_fire_outbreak": {
+    "pageIds": [
+      "wiki_tut_bat_fire_outbreak_1"
+    ]
+  },
+  "wiki_tut_bat_freeze": {
+    "pageIds": [
+      "wiki_tut_bat_freeze_1",
+      "wiki_tut_bat_freeze_2"
+    ]
+  },
+  "wiki_tut_bat_heavy_attack": {
+    "pageIds": [
+      "wiki_tut_bat_heavy_attack_1"
+    ]
+  },
+  "wiki_tut_bat_knockback": {
+    "pageIds": [
+      "wiki_tut_bat_knockback_1"
+    ]
+  },
+  "wiki_tut_bat_knockdown": {
+    "pageIds": [
+      "wiki_tut_bat_knockdown_1"
+    ]
+  },
+  "wiki_tut_bat_lockon": {
+    "pageIds": [
+      "wiki_tut_bat_lockon_1",
+      "wiki_tut_bat_lockon_2"
+    ]
+  },
+  "wiki_tut_bat_nature": {
+    "pageIds": [
+      "wiki_tut_bat_nature_1"
+    ]
+  },
+  "wiki_tut_bat_nature_outbreak": {
+    "pageIds": [
+      "wiki_tut_bat_nature_outbreak_1"
+    ]
+  },
+  "wiki_tut_bat_normal_attack": {
+    "pageIds": [
+      "wiki_tut_bat_normal_attack_1"
+    ]
+  },
+  "wiki_tut_bat_normal_skill": {
+    "pageIds": [
+      "wiki_tut_bat_normal_skill_1"
+    ]
+  },
+  "wiki_tut_bat_phy": {
+    "pageIds": [
+      "wiki_tut_bat_phy_1",
+      "wiki_tut_bat_phy_2"
+    ]
+  },
+  "wiki_tut_bat_poise": {
+    "pageIds": [
+      "wiki_tut_bat_poise_1",
+      "wiki_tut_bat_poise_2"
+    ]
+  },
+  "wiki_tut_bat_pulse": {
+    "pageIds": [
+      "wiki_tut_bat_pulse_1"
+    ]
+  },
+  "wiki_tut_bat_pulse_outbreak": {
+    "pageIds": [
+      "wiki_tut_bat_pulse_outbreak_1"
+    ]
+  },
+  "wiki_tut_bat_sp": {
+    "pageIds": [
+      "wiki_tut_bat_sp_1"
+    ]
+  },
+  "wiki_tut_bat_team": {
+    "pageIds": [
+      "wiki_tut_bat_team_1"
+    ]
+  },
+  "wiki_tut_bat_ultimite_skill": {
+    "pageIds": [
+      "wiki_tut_bat_ultimite_skill_1"
+    ]
+  },
+  "wiki_tut_fac_bandwidth": {
+    "pageIds": [
+      "wiki_tut_fac_bandwidth_1"
+    ]
+  },
+  "wiki_tut_fac_battle": {
+    "pageIds": [
+      "wiki_tut_fac_battle_1",
+      "wiki_tut_fac_battle_2",
+      "wiki_tut_fac_battle_3"
+    ]
+  },
+  "wiki_tut_fac_battle_energy": {
+    "pageIds": [
+      "wiki_tut_fac_battle_energy_1",
+      "wiki_tut_fac_battle_energy_2"
+    ]
+  },
+  "wiki_tut_fac_belt": {
+    "pageIds": [
+      "wiki_tut_fac_belt_1",
+      "wiki_tut_fac_belt_2",
+      "wiki_tut_fac_belt_3",
+      "wiki_tut_fac_belt_4",
+      "wiki_tut_fac_belt_5"
+    ]
+  },
+  "wiki_tut_fac_blackbox": {
+    "pageIds": [
+      "wiki_tut_fac_blackbox_1",
+      "wiki_tut_fac_blackbox_2",
+      "wiki_tut_fac_blackbox_3"
+    ]
+  },
+  "wiki_tut_fac_building_cache": {
+    "pageIds": [
+      "wiki_tut_fac_building_cache_1",
+      "wiki_tut_fac_building_cache_2"
+    ]
+  },
+  "wiki_tut_fac_building_list": {
+    "pageIds": [
+      "wiki_tut_fac_building_list_1",
+      "wiki_tut_fac_building_list_2"
+    ]
+  },
+  "wiki_tut_fac_building_produce": {
+    "pageIds": [
+      "wiki_tut_fac_building_produce_1"
+    ]
+  },
+  "wiki_tut_fac_cannon_1": {
+    "pageIds": [
+      "wiki_tut_fac_cannon_1_1"
+    ]
+  },
+  "wiki_tut_fac_cannon_2": {
+    "pageIds": [
+      "wiki_tut_fac_cannon_2_1"
+    ]
+  },
+  "wiki_tut_fac_caps": {
+    "pageIds": [
+      "wiki_tut_fac_caps_1",
+      "wiki_tut_fac_caps_2",
+      "wiki_tut_fac_caps_3",
+      "wiki_tut_fac_caps_4"
+    ]
+  },
+  "wiki_tut_fac_cmpt_mc": {
+    "pageIds": [
+      "wiki_tut_fac_cmpt_mc_1"
+    ]
+  },
+  "wiki_tut_fac_connector": {
+    "pageIds": [
+      "wiki_tut_fac_connector_1"
+    ]
+  },
+  "wiki_tut_fac_converger": {
+    "pageIds": [
+      "wiki_tut_fac_converger_1"
+    ]
+  },
+  "wiki_tut_fac_delete": {
+    "pageIds": [
+      "wiki_tut_fac_delete_1",
+      "wiki_tut_fac_delete_2"
+    ]
+  },
+  "wiki_tut_fac_dumper": {
+    "pageIds": [
+      "wiki_tut_fac_dumper_1",
+      "wiki_tut_fac_dumper_2",
+      "wiki_tut_fac_dumper_3"
+    ]
+  },
+  "wiki_tut_fac_facmode": {
+    "pageIds": [
+      "wiki_tut_fac_facmode_1"
+    ]
+  },
+  "wiki_tut_fac_filling_pd_mc": {
+    "pageIds": [
+      "wiki_tut_fac_filling_pd_mc_1"
+    ]
+  },
+  "wiki_tut_fac_formula": {
+    "pageIds": [
+      "wiki_tut_fac_formula_1"
+    ]
+  },
+  "wiki_tut_fac_frost": {
+    "pageIds": [
+      "wiki_tut_fac_frost_1"
+    ]
+  },
+  "wiki_tut_fac_furnance": {
+    "pageIds": [
+      "wiki_tut_fac_furnance_1"
+    ]
+  },
+  "wiki_tut_fac_grinder": {
+    "pageIds": [
+      "wiki_tut_fac_grinder_1"
+    ]
+  },
+  "wiki_tut_fac_hub": {
+    "pageIds": [
+      "wiki_tut_fac_hub_1",
+      "wiki_tut_fac_hub_2"
+    ]
+  },
+  "wiki_tut_fac_hub_plink": {
+    "pageIds": [
+      "wiki_tut_fac_hub_plink_1",
+      "wiki_tut_fac_hub_plink_2"
+    ]
+  },
+  "wiki_tut_fac_jinlong_techtree": {
+    "pageIds": [
+      "wiki_tut_fac_jinlong_techtree_1"
+    ]
+  },
+  "wiki_tut_fac_laser_1": {
+    "pageIds": [
+      "wiki_tut_fac_laser_1_1"
+    ]
+  },
+  "wiki_tut_fac_laser_2": {
+    "pageIds": [
+      "wiki_tut_fac_laser_2_1"
+    ]
+  },
+  "wiki_tut_fac_lightning": {
+    "pageIds": [
+      "wiki_tut_fac_lightning_1"
+    ]
+  },
+  "wiki_tut_fac_liquid_cleaner": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_cleaner_1",
+      "wiki_tut_fac_liquid_cleaner_2"
+    ]
+  },
+  "wiki_tut_fac_liquid_connector": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_connector_1"
+    ]
+  },
+  "wiki_tut_fac_liquid_converger": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_converger_1"
+    ]
+  },
+  "wiki_tut_fac_liquid_fill_pd_mc": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_fill_pd_mc_1"
+    ]
+  },
+  "wiki_tut_fac_liquid_furnance": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_furnance_1"
+    ]
+  },
+  "wiki_tut_fac_liquid_planter": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_planter_1"
+    ]
+  },
+  "wiki_tut_fac_liquid_shaper": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_shaper_1"
+    ]
+  },
+  "wiki_tut_fac_liquid_splitter": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_splitter_1"
+    ]
+  },
+  "wiki_tut_fac_liquid_storage": {
+    "pageIds": [
+      "wiki_tut_fac_liquid_storage_1"
+    ]
+  },
+  "wiki_tut_fac_map_storage": {
+    "pageIds": [
+      "wiki_tut_fac_map_storage_1",
+      "wiki_tut_fac_map_storage_2",
+      "wiki_tut_fac_map_storage_3"
+    ]
+  },
+  "wiki_tut_fac_medic_sta": {
+    "pageIds": [
+      "wiki_tut_fac_medic_sta_1"
+    ]
+  },
+  "wiki_tut_fac_miner1": {
+    "pageIds": [
+      "wiki_tut_fac_miner1_1",
+      "wiki_tut_fac_miner1_2"
+    ]
+  },
+  "wiki_tut_fac_miner2": {
+    "pageIds": [
+      "wiki_tut_fac_miner2_1",
+      "wiki_tut_fac_miner2_2"
+    ]
+  },
+  "wiki_tut_fac_miner3": {
+    "pageIds": [
+      "wiki_tut_fac_miner3_1"
+    ]
+  },
+  "wiki_tut_fac_miner4": {
+    "pageIds": [
+      "wiki_tut_fac_miner4_1",
+      "wiki_tut_fac_miner4_2"
+    ]
+  },
+  "wiki_tut_fac_miner_intro": {
+    "pageIds": [
+      "wiki_tut_fac_miner_intro_1",
+      "wiki_tut_fac_miner_intro_2"
+    ]
+  },
+  "wiki_tut_fac_mix_pool": {
+    "pageIds": [
+      "wiki_tut_fac_mix_pool_1",
+      "wiki_tut_fac_mix_pool_2",
+      "wiki_tut_fac_mix_pool_3"
+    ]
+  },
+  "wiki_tut_fac_mix_unlock": {
+    "pageIds": [
+      "wiki_tut_fac_mix_unlock_1"
+    ]
+  },
+  "wiki_tut_fac_pipe": {
+    "pageIds": [
+      "wiki_tut_fac_pipe_1",
+      "wiki_tut_fac_pipe_2",
+      "wiki_tut_fac_pipe_3"
+    ]
+  },
+  "wiki_tut_fac_planter": {
+    "pageIds": [
+      "wiki_tut_fac_planter_1"
+    ]
+  },
+  "wiki_tut_fac_port": {
+    "pageIds": [
+      "wiki_tut_fac_port_1",
+      "wiki_tut_fac_port_2"
+    ]
+  },
+  "wiki_tut_fac_power_link": {
+    "pageIds": [
+      "wiki_tut_fac_power_link_1",
+      "wiki_tut_fac_power_link_2",
+      "wiki_tut_fac_power_link_3"
+    ]
+  },
+  "wiki_tut_fac_power_sta": {
+    "pageIds": [
+      "wiki_tut_fac_power_sta_1"
+    ]
+  },
+  "wiki_tut_fac_pump": {
+    "pageIds": [
+      "wiki_tut_fac_pump_1",
+      "wiki_tut_fac_pump_2"
+    ]
+  },
+  "wiki_tut_fac_seedcol": {
+    "pageIds": [
+      "wiki_tut_fac_seedcol_1",
+      "wiki_tut_fac_seedcol_2"
+    ]
+  },
+  "wiki_tut_fac_settlement": {
+    "pageIds": [
+      "wiki_tut_fac_settlement_1",
+      "wiki_tut_fac_settlement_2",
+      "wiki_tut_fac_settlement_3",
+      "wiki_tut_fac_settlement_4"
+    ]
+  },
+  "wiki_tut_fac_shaper": {
+    "pageIds": [
+      "wiki_tut_fac_shaper_1"
+    ]
+  },
+  "wiki_tut_fac_shockwave": {
+    "pageIds": [
+      "wiki_tut_fac_shockwave_1"
+    ]
+  },
+  "wiki_tut_fac_sniper": {
+    "pageIds": [
+      "wiki_tut_fac_sniper_1"
+    ]
+  },
+  "wiki_tut_fac_splitter": {
+    "pageIds": [
+      "wiki_tut_fac_splitter_1",
+      "wiki_tut_fac_splitter_2"
+    ]
+  },
+  "wiki_tut_fac_squirter": {
+    "pageIds": [
+      "wiki_tut_fac_squirter_1",
+      "wiki_tut_fac_squirter_2"
+    ]
+  },
+  "wiki_tut_fac_storager": {
+    "pageIds": [
+      "wiki_tut_fac_storager_1",
+      "wiki_tut_fac_storager_2"
+    ]
+  },
+  "wiki_tut_fac_subhub": {
+    "pageIds": [
+      "wiki_tut_fac_subhub_1"
+    ]
+  },
+  "wiki_tut_fac_techtree": {
+    "pageIds": [
+      "wiki_tut_fac_techtree_1",
+      "wiki_tut_fac_techtree_2",
+      "wiki_tut_fac_techtree_3"
+    ]
+  },
+  "wiki_tut_fac_thickener": {
+    "pageIds": [
+      "wiki_tut_fac_thickener_1"
+    ]
+  },
+  "wiki_tut_fac_tools_asm_mc": {
+    "pageIds": [
+      "wiki_tut_fac_tools_asm_mc_1",
+      "wiki_tut_fac_tools_asm_mc_2"
+    ]
+  },
+  "wiki_tut_fac_travelpole": {
+    "pageIds": [
+      "wiki_tut_fac_travelpole_1",
+      "wiki_tut_fac_travelpole_2"
+    ]
+  },
+  "wiki_tut_fac_travelpole2": {
+    "pageIds": [
+      "wiki_tut_fac_travelpole2_1",
+      "wiki_tut_fac_travelpole2_2",
+      "wiki_tut_fac_travelpole2_3"
+    ]
+  },
+  "wiki_tut_fac_turret_2": {
+    "pageIds": [
+      "wiki_tut_fac_turret_2_1"
+    ]
+  },
+  "wiki_tut_fac_usb_loader_unloader": {
+    "pageIds": [
+      "wiki_tut_fac_usb_loader_unloader_1",
+      "wiki_tut_fac_usb_loader_unloader_2",
+      "wiki_tut_fac_usb_loader_unloader_3"
+    ]
+  },
+  "wiki_tut_fac_winder": {
+    "pageIds": [
+      "wiki_tut_fac_winder_1",
+      "wiki_tut_fac_winder_2"
+    ]
+  },
+  "wiki_tut_fac_xmode": {
+    "pageIds": [
+      "wiki_tut_fac_xmode_1"
+    ]
+  }
+}

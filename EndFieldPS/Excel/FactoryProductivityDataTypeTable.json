@@ -1,0 +1,42 @@
+{
+  "2": {
+    "count": 10,
+    "name": {
+      "id": "333A58AF7D6BE3FF",
+      "text": ""
+    },
+    "type": 2
+  },
+  "3": {
+    "count": 15,
+    "name": {
+      "id": "908758EBDAE1DF87",
+      "text": ""
+    },
+    "type": 3
+  },
+  "4": {
+    "count": 15,
+    "name": {
+      "id": "165354F4FE62605B",
+      "text": ""
+    },
+    "type": 4
+  },
+  "5": {
+    "count": 12,
+    "name": {
+      "id": "38ADAC515CE032D5",
+      "text": ""
+    },
+    "type": 5
+  },
+  "6": {
+    "count": 14,
+    "name": {
+      "id": "2B9DF52BBE99342F",
+      "text": ""
+    },
+    "type": 6
+  }
+}

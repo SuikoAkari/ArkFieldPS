@@ -1,0 +1,12 @@
+{
+  "domain_1": {
+    "domainId": "domain_1",
+    "routeNum": 1,
+    "unlockQuestID": "e5m2_q#5d3"
+  },
+  "domain_2": {
+    "domainId": "domain_2",
+    "routeNum": 1,
+    "unlockQuestID": "e5m2_q#14"
+  }
+}

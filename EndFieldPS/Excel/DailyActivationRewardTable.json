@@ -1,0 +1,27 @@
+{
+  "1": {
+    "activation": 20,
+    "id": 1,
+    "rewardId": "reward_activation_1"
+  },
+  "2": {
+    "activation": 40,
+    "id": 2,
+    "rewardId": "reward_activation_2"
+  },
+  "3": {
+    "activation": 60,
+    "id": 3,
+    "rewardId": "reward_activation_3"
+  },
+  "4": {
+    "activation": 80,
+    "id": 4,
+    "rewardId": "reward_activation_4"
+  },
+  "5": {
+    "activation": 100,
+    "id": 5,
+    "rewardId": "reward_activation_5"
+  }
+}

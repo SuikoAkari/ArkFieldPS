@@ -1,0 +1,2929 @@
+{
+  "item_anglel_corp1_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_anglel_corp1_1",
+    "itemUseDesc": {
+      "id": "F6003C03A0FF57EB",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 46.74141,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_mainattri_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_anglel_flower2_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_anglel_flower2_1",
+    "itemUseDesc": {
+      "id": "A1A42267D2F11A7C",
+      "text": ""
+    },
+    "targetNumType": 1,
+    "targetType": 1,
+    "uiType": 1,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 614.346,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.08888889,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 3
+      }
+    ]
+  },
+  "item_anglem_corp1_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_anglem_corp1_1",
+    "itemUseDesc": {
+      "id": "4F17BE4AFD455404",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 354.9578,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_anglem_flower2_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_anglem_flower2_1",
+    "itemUseDesc": {
+      "id": "19654E0A403D9C8F",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 955.6962,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_angles_corp1_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_angles_corp1_1",
+    "itemUseDesc": {
+      "id": "9B1D1931EFE62061",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.21659635,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_phydmg_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_angles_flower2_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_angles_flower2_1",
+    "itemUseDesc": {
+      "id": "D36AA7853481EAC4",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.09468354,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_animal_angles_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_animal_angles_1",
+    "itemUseDesc": {
+      "id": "C4430172CDABF1E7",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.14,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ultsp_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_animal_insec2_angles_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_animal_insec2_angles_1",
+    "itemUseDesc": {
+      "id": "8C84201EBC325E6C",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.064978905,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.04331927,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.12995781,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctrdmg_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_flower1spc_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_flower1spc_1",
+    "itemUseDesc": {
+      "id": "871760E4BC84A0F2",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 909.2827,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_flower1spc_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_flower1spc_2",
+    "itemUseDesc": {
+      "id": "A8E091FC688AE0A6",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1187.7637,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_flower1spc_3": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_flower1spc_3",
+    "itemUseDesc": {
+      "id": "6CE71BAAF135D508",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1443.038,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_flower2spc_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_flower2spc_1",
+    "itemUseDesc": {
+      "id": "36671EB13E9B4AAC",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 227.32068,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_flower2spc_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_flower2spc_2",
+    "itemUseDesc": {
+      "id": "5ABC032387BC3972",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 296.94092,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_flower2spc_3": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_flower2spc_3",
+    "itemUseDesc": {
+      "id": "3067BC35406D6E10",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 360.7595,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_food_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_food_1",
+    "itemUseDesc": {
+      "id": "2B8E79980971A519",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 163.5021,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_food_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_food_2",
+    "itemUseDesc": {
+      "id": "8E97F93A796E6EC1",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 227.32068,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_food_3": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_food_3",
+    "itemUseDesc": {
+      "id": "1F58DE794952DF22",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 296.94092,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_food_4": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_food_4",
+    "itemUseDesc": {
+      "id": "AFC5AAC9184629FA",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1628.692,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_food_5": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_food_5",
+    "itemUseDesc": {
+      "id": "88311860209944EA",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1791.1393,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_grass1spc_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_grass1spc_1",
+    "itemUseDesc": {
+      "id": "417076124EAEFA8C",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1791.1393,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_grass1spc_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_grass1spc_2",
+    "itemUseDesc": {
+      "id": "455EAA27D999B361",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1953.5865,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_grass2spc_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_grass2spc_1",
+    "itemUseDesc": {
+      "id": "DCAAB236584E9911",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 447.78482,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_grass2spc_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_grass2spc_2",
+    "itemUseDesc": {
+      "id": "727E79D9FB94049B",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 488.39664,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_insec1_1": {
+    "disableInBattle": false,
+    "effectType": 1,
+    "exitUiIfNoCd": true,
+    "itemId": "item_bottled_insec1_1",
+    "itemUseDesc": {
+      "id": "4D2C717D265FD89B",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 4,
+    "useActions": []
+  },
+  "item_bottled_insec1_2": {
+    "disableInBattle": false,
+    "effectType": 1,
+    "exitUiIfNoCd": true,
+    "itemId": "item_bottled_insec1_2",
+    "itemUseDesc": {
+      "id": "5B9290C91393BF31",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 4,
+    "useActions": []
+  },
+  "item_bottled_insec2_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_insec2_1",
+    "itemUseDesc": {
+      "id": "E43CBABADBDDE85A",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.19493671,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_dmg_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_insec2_2": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_insec2_2",
+    "itemUseDesc": {
+      "id": "5923B7702398DD12",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.28607595,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_dmg_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_moss_1_2_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_moss_1_2_1",
+    "itemUseDesc": {
+      "id": "7CFCD992419D0103",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.29535866,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_usprt_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_moss_2_animal_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_moss_2_animal_1",
+    "itemUseDesc": {
+      "id": "900FF4D0CF08A310",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1187.7637,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_moss_spc_1_2_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_moss_spc_1_2_1",
+    "itemUseDesc": {
+      "id": "1268D1F618271D8A",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 296.94092,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_rec_hp_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_rec_hp_1",
+    "itemUseDesc": {
+      "id": "12995FD26FEF6CA9",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 654.0084,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_rec_hp_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_rec_hp_2",
+    "itemUseDesc": {
+      "id": "C0922B56DC047CCA",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 909.2827,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_rec_hp_3": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_rec_hp_3",
+    "itemUseDesc": {
+      "id": "092471CAA3FAFA64",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1187.7637,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_rec_hp_4": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_rec_hp_4",
+    "itemUseDesc": {
+      "id": "D594AB079B5CCE4B",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 407.173,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_bottled_rec_hp_5": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_bottled_rec_hp_5",
+    "itemUseDesc": {
+      "id": "6EBF21F68D3D58C4",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 447.78482,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_corp1_animal_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_corp1_animal_1",
+    "itemUseDesc": {
+      "id": "1A64A52B932884CB",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1303.7975,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_corp1_flower1_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_corp1_flower1_1",
+    "itemUseDesc": {
+      "id": "9E9B88F9B14A1973",
+      "text": ""
+    },
+    "targetNumType": 1,
+    "targetType": 1,
+    "uiType": 1,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 382.27847,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.08888889,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 3
+      }
+    ]
+  },
+  "item_corp2_animal_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_corp2_animal_1",
+    "itemUseDesc": {
+      "id": "7E3EB46B5F521FAD",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1303.7975,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_corp2_flower2_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_corp2_flower2_1",
+    "itemUseDesc": {
+      "id": "9E5AF049C569E2DD",
+      "text": ""
+    },
+    "targetNumType": 1,
+    "targetType": 1,
+    "uiType": 1,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 95.56962,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.022222223,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 3
+      }
+    ]
+  },
+  "item_corp3_animal_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_corp3_animal_1",
+    "itemUseDesc": {
+      "id": "23456A49D97DB64F",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 127.24051,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.121181436,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_corp3_grass1_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_corp3_grass1_1",
+    "itemUseDesc": {
+      "id": "E3D67F211D4FEF0C",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.10902954,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.3270886,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctrdmg_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_corp4_animal_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_corp4_animal_1",
+    "itemUseDesc": {
+      "id": "74CB641FABC67BB7",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.4674141,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_def_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_corp4_grass2_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_corp4_grass2_1",
+    "itemUseDesc": {
+      "id": "CAE08F127A84F3AD",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1628.692,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_ebl_corp2_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_ebl_corp2_1",
+    "itemUseDesc": {
+      "id": "6EBA24B490C64171",
+      "text": ""
+    },
+    "targetNumType": 1,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.21,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ultsp_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 3
+      }
+    ]
+  },
+  "item_ebl_flower1_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_ebl_flower1_1",
+    "itemUseDesc": {
+      "id": "96E709F49981686F",
+      "text": ""
+    },
+    "targetNumType": 1,
+    "targetType": 1,
+    "uiType": 1,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 153.5865,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.022222223,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 3
+      }
+    ]
+  },
+  "item_ebm_corp2_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_ebm_corp2_1",
+    "itemUseDesc": {
+      "id": "E9FD7699F04A9846",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.28607595,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_ebm_flower1_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_ebm_flower1_1",
+    "itemUseDesc": {
+      "id": "97141F34BAE72ED3",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.2506329,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_def_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_ebs_corp2_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_ebs_corp2_1",
+    "itemUseDesc": {
+      "id": "7ED62A6E7AA2724A",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.8368644,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_ebs_flower1_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_ebs_flower1_1",
+    "itemUseDesc": {
+      "id": "F27B9E995C886C5B",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.12173598,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_def_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_erosionm_corp3_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_erosionm_corp3_1",
+    "itemUseDesc": {
+      "id": "E7FFB023E28172EE",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.2616034,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_usprt_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.34531647,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_healrt_buff_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_erosionm_grass2_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_erosionm_grass2_1",
+    "itemUseDesc": {
+      "id": "A0231D6688F0BC48",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.1635443,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.10902954,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_erosions_corp3_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_erosions_corp3_1",
+    "itemUseDesc": {
+      "id": "7A750F6D3BDFD503",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.6617801,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_cdr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_erosions_grass2_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_erosions_grass2_1",
+    "itemUseDesc": {
+      "id": "AA60ADF35E640A24",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.20590717,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_jlebm_corp4_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_jlebm_corp4_1",
+    "itemUseDesc": {
+      "id": "7C4DE1BFC606D71F",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.8527634,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 77.696205,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_def_buff_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_jlebm_grass1_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_jlebm_grass1_1",
+    "itemUseDesc": {
+      "id": "5B142B7319EBFA78",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.14018083,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_def_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.90168923,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.10902954,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_healrt_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_jlebs_corp4_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_jlebs_corp4_1",
+    "itemUseDesc": {
+      "id": "90BC921FD82E7C8B",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.7535292,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_jlebs_grass1_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_jlebs_grass1_1",
+    "itemUseDesc": {
+      "id": "2A5E339803ED9207",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 383.96625,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_legend_tea_1": {
+    "disableInBattle": false,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_legend_tea_1",
+    "itemUseDesc": {
+      "id": "640839E14BFEFA8C",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 3,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.25,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_dmg_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.75,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 180,
+              "valueStr": ""
+            },
+            {
+              "key": "display_value",
+              "value": 0.25,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "buff",
+        "useType": 2
+      }
+    ]
+  },
+  "item_plant_grass_powder_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_plant_grass_powder_1",
+    "itemUseDesc": {
+      "id": "73BB505820FB7A9A",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1466.2448,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_plant_grass_powder_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_plant_grass_powder_2",
+    "itemUseDesc": {
+      "id": "2B2148F65072EE06",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 366.5612,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_plant_grass_spc_powder_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_plant_grass_spc_powder_1",
+    "itemUseDesc": {
+      "id": "2C29787D11FEE750",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1628.692,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_plant_grass_spc_powder_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_plant_grass_spc_powder_2",
+    "itemUseDesc": {
+      "id": "AF1E44D9B8816843",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 407.173,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_plant_moss_powder_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_plant_moss_powder_1",
+    "itemUseDesc": {
+      "id": "9D0517C923813FD6",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 445.14767,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_plant_moss_powder_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_plant_moss_powder_2",
+    "itemUseDesc": {
+      "id": "EB7C2B0B1475576D",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 111.28692,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_plant_moss_spc_powder_1": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_plant_moss_spc_powder_1",
+    "itemUseDesc": {
+      "id": "3E4EA988CDEBD4DD",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 654.0084,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.22222222,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_plant_moss_spc_powder_2": {
+    "disableInBattle": false,
+    "effectType": 0,
+    "exitUiIfNoCd": false,
+    "itemId": "item_plant_moss_spc_powder_2",
+    "itemUseDesc": {
+      "id": "DE4AD606A815AFA3",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 1,
+    "uiType": 0,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 163.5021,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.055555556,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": 6,
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": 5,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": ""
+        },
+        "stackingKey": "",
+        "useType": 2
+      }
+    ]
+  },
+  "item_proc_bomb_1": {
+    "disableInBattle": true,
+    "effectType": 2,
+    "exitUiIfNoCd": false,
+    "itemId": "item_proc_bomb_1",
+    "itemUseDesc": {
+      "id": "0B63DA74F26557C1",
+      "text": ""
+    },
+    "targetNumType": 0,
+    "targetType": 0,
+    "uiType": 2,
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [],
+          "buffId": ""
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillPath": "SkillData/Common/common_character_bomb_create.json"
+        },
+        "stackingKey": "",
+        "useType": 1
+      }
+    ]
+  }
+}

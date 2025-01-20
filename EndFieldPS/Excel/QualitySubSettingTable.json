@@ -1,0 +1,12 @@
+{
+  "video_quality_effect": {
+    "componentType": "EffectSettingQuality",
+    "ignoreMainChange": false,
+    "settingId": "video_quality_effect"
+  },
+  "video_quality_vsync": {
+    "componentType": "VSyncQuality",
+    "ignoreMainChange": true,
+    "settingId": "video_quality_vsync"
+  }
+}

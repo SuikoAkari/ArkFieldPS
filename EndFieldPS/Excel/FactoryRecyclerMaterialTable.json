@@ -1,0 +1,582 @@
+{
+  "item_drop_lbmob_1": {
+    "id": "item_drop_lbmob_1",
+    "needValue": 10
+  },
+  "item_unit_t05_suit_01_body_01": {
+    "id": "item_unit_t05_suit_01_body_01",
+    "needValue": 5
+  },
+  "item_unit_t05_suit_01_hand_01": {
+    "id": "item_unit_t05_suit_01_hand_01",
+    "needValue": 5
+  },
+  "item_unit_t1_parts_body_01": {
+    "id": "item_unit_t1_parts_body_01",
+    "needValue": 10
+  },
+  "item_unit_t1_parts_edc_01": {
+    "id": "item_unit_t1_parts_edc_01",
+    "needValue": 10
+  },
+  "item_unit_t1_parts_edc_02": {
+    "id": "item_unit_t1_parts_edc_02",
+    "needValue": 10
+  },
+  "item_unit_t1_parts_hand_01": {
+    "id": "item_unit_t1_parts_hand_01",
+    "needValue": 10
+  },
+  "item_unit_t1_suit_01_edc_01": {
+    "id": "item_unit_t1_suit_01_edc_01",
+    "needValue": 10
+  },
+  "item_unit_t1_suit_01_hand_01": {
+    "id": "item_unit_t1_suit_01_hand_01",
+    "needValue": 10
+  },
+  "item_unit_t1_suit_02_body_01": {
+    "id": "item_unit_t1_suit_02_body_01",
+    "needValue": 10
+  },
+  "item_unit_t1_suit_02_hand_01": {
+    "id": "item_unit_t1_suit_02_hand_01",
+    "needValue": 10
+  },
+  "item_unit_t1_suit_03_body_01": {
+    "id": "item_unit_t1_suit_03_body_01",
+    "needValue": 10
+  },
+  "item_unit_t1_suit_03_edc_01": {
+    "id": "item_unit_t1_suit_03_edc_01",
+    "needValue": 10
+  },
+  "item_unit_t1_suit_04_edc_01": {
+    "id": "item_unit_t1_suit_04_edc_01",
+    "needValue": 10
+  },
+  "item_unit_t2_parts_body_01": {
+    "id": "item_unit_t2_parts_body_01",
+    "needValue": 20
+  },
+  "item_unit_t2_parts_edc_01": {
+    "id": "item_unit_t2_parts_edc_01",
+    "needValue": 20
+  },
+  "item_unit_t2_parts_hand_01": {
+    "id": "item_unit_t2_parts_hand_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_01_body_01": {
+    "id": "item_unit_t2_suit_01_body_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_01_edc_01": {
+    "id": "item_unit_t2_suit_01_edc_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_02_edc_01": {
+    "id": "item_unit_t2_suit_02_edc_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_02_hand_01": {
+    "id": "item_unit_t2_suit_02_hand_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_03_edc_01": {
+    "id": "item_unit_t2_suit_03_edc_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_03_hand_01": {
+    "id": "item_unit_t2_suit_03_hand_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_04_body_01": {
+    "id": "item_unit_t2_suit_04_body_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_04_hand_01": {
+    "id": "item_unit_t2_suit_04_hand_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_05_edc_01": {
+    "id": "item_unit_t2_suit_05_edc_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_05_hand_01": {
+    "id": "item_unit_t2_suit_05_hand_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_06_body_01": {
+    "id": "item_unit_t2_suit_06_body_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_06_edc_01": {
+    "id": "item_unit_t2_suit_06_edc_01",
+    "needValue": 20
+  },
+  "item_unit_t2_suit_07_edc_01": {
+    "id": "item_unit_t2_suit_07_edc_01",
+    "needValue": 20
+  },
+  "item_unit_t3_parts_body_01": {
+    "id": "item_unit_t3_parts_body_01",
+    "needValue": 30
+  },
+  "item_unit_t3_parts_body_02": {
+    "id": "item_unit_t3_parts_body_02",
+    "needValue": 30
+  },
+  "item_unit_t3_parts_edc_01": {
+    "id": "item_unit_t3_parts_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t3_parts_edc_02": {
+    "id": "item_unit_t3_parts_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t3_parts_hand_01": {
+    "id": "item_unit_t3_parts_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t3_parts_hand_02": {
+    "id": "item_unit_t3_parts_hand_02",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_01_hand_01": {
+    "id": "item_unit_t3_suit_01_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_02_body_01": {
+    "id": "item_unit_t3_suit_02_body_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_03_body_01": {
+    "id": "item_unit_t3_suit_03_body_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_04_edc_01": {
+    "id": "item_unit_t3_suit_04_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_04_hand_01": {
+    "id": "item_unit_t3_suit_04_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_05_body_01": {
+    "id": "item_unit_t3_suit_05_body_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_05_edc_01": {
+    "id": "item_unit_t3_suit_05_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_06_edc_01": {
+    "id": "item_unit_t3_suit_06_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_06_hand_01": {
+    "id": "item_unit_t3_suit_06_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_07_body_01": {
+    "id": "item_unit_t3_suit_07_body_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_07_hand_01": {
+    "id": "item_unit_t3_suit_07_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_08_edc_01": {
+    "id": "item_unit_t3_suit_08_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_08_hand_01": {
+    "id": "item_unit_t3_suit_08_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_09_body_01": {
+    "id": "item_unit_t3_suit_09_body_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_09_edc_01": {
+    "id": "item_unit_t3_suit_09_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_10_edc_01": {
+    "id": "item_unit_t3_suit_10_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t3_suit_10_edc_02": {
+    "id": "item_unit_t3_suit_10_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_body_01": {
+    "id": "item_unit_t4_parts_body_01",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_body_01_eh": {
+    "id": "item_unit_t4_parts_body_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_body_02": {
+    "id": "item_unit_t4_parts_body_02",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_body_02_eh": {
+    "id": "item_unit_t4_parts_body_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_body_03": {
+    "id": "item_unit_t4_parts_body_03",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_body_03_eh": {
+    "id": "item_unit_t4_parts_body_03_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_body_04": {
+    "id": "item_unit_t4_parts_body_04",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_body_04_eh": {
+    "id": "item_unit_t4_parts_body_04_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_edc_01": {
+    "id": "item_unit_t4_parts_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_edc_01_eh": {
+    "id": "item_unit_t4_parts_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_edc_02": {
+    "id": "item_unit_t4_parts_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_edc_02_eh": {
+    "id": "item_unit_t4_parts_edc_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_edc_03": {
+    "id": "item_unit_t4_parts_edc_03",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_edc_03_eh": {
+    "id": "item_unit_t4_parts_edc_03_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_edc_04": {
+    "id": "item_unit_t4_parts_edc_04",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_edc_04_eh": {
+    "id": "item_unit_t4_parts_edc_04_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_hand_01": {
+    "id": "item_unit_t4_parts_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_hand_01_eh": {
+    "id": "item_unit_t4_parts_hand_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_hand_02": {
+    "id": "item_unit_t4_parts_hand_02",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_hand_02_eh": {
+    "id": "item_unit_t4_parts_hand_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_hand_03": {
+    "id": "item_unit_t4_parts_hand_03",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_hand_03_eh": {
+    "id": "item_unit_t4_parts_hand_03_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_parts_hand_04": {
+    "id": "item_unit_t4_parts_hand_04",
+    "needValue": 30
+  },
+  "item_unit_t4_parts_hand_04_eh": {
+    "id": "item_unit_t4_parts_hand_04_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_01_body_01": {
+    "id": "item_unit_t4_suit_01_body_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_01_body_01_eh": {
+    "id": "item_unit_t4_suit_01_body_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_01_edc_01": {
+    "id": "item_unit_t4_suit_01_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_01_edc_01_eh": {
+    "id": "item_unit_t4_suit_01_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_01_edc_02": {
+    "id": "item_unit_t4_suit_01_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_01_edc_02_eh": {
+    "id": "item_unit_t4_suit_01_edc_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_02_edc_01": {
+    "id": "item_unit_t4_suit_02_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_02_edc_01_eh": {
+    "id": "item_unit_t4_suit_02_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_02_hand_01": {
+    "id": "item_unit_t4_suit_02_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_02_hand_01_eh": {
+    "id": "item_unit_t4_suit_02_hand_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_03_edc_01": {
+    "id": "item_unit_t4_suit_03_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_03_edc_01_eh": {
+    "id": "item_unit_t4_suit_03_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_03_hand_01": {
+    "id": "item_unit_t4_suit_03_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_03_hand_01_eh": {
+    "id": "item_unit_t4_suit_03_hand_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_04_body_01": {
+    "id": "item_unit_t4_suit_04_body_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_04_body_01_eh": {
+    "id": "item_unit_t4_suit_04_body_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_04_edc_01": {
+    "id": "item_unit_t4_suit_04_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_04_edc_01_eh": {
+    "id": "item_unit_t4_suit_04_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_05_body_01": {
+    "id": "item_unit_t4_suit_05_body_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_05_body_01_eh": {
+    "id": "item_unit_t4_suit_05_body_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_05_edc_01": {
+    "id": "item_unit_t4_suit_05_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_05_edc_01_eh": {
+    "id": "item_unit_t4_suit_05_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_05_edc_02": {
+    "id": "item_unit_t4_suit_05_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_05_edc_02_eh": {
+    "id": "item_unit_t4_suit_05_edc_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_05_hand_01": {
+    "id": "item_unit_t4_suit_05_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_05_hand_01_eh": {
+    "id": "item_unit_t4_suit_05_hand_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_06_body_01": {
+    "id": "item_unit_t4_suit_06_body_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_06_body_01_eh": {
+    "id": "item_unit_t4_suit_06_body_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_06_edc_01": {
+    "id": "item_unit_t4_suit_06_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_06_edc_01_eh": {
+    "id": "item_unit_t4_suit_06_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_06_edc_02": {
+    "id": "item_unit_t4_suit_06_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_06_edc_02_eh": {
+    "id": "item_unit_t4_suit_06_edc_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_06_hand_01": {
+    "id": "item_unit_t4_suit_06_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_06_hand_01_eh": {
+    "id": "item_unit_t4_suit_06_hand_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_07_body_01": {
+    "id": "item_unit_t4_suit_07_body_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_07_body_01_eh": {
+    "id": "item_unit_t4_suit_07_body_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_07_edc_01": {
+    "id": "item_unit_t4_suit_07_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_07_edc_01_eh": {
+    "id": "item_unit_t4_suit_07_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_07_edc_02": {
+    "id": "item_unit_t4_suit_07_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_07_edc_02_eh": {
+    "id": "item_unit_t4_suit_07_edc_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_07_hand_01": {
+    "id": "item_unit_t4_suit_07_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_07_hand_01_eh": {
+    "id": "item_unit_t4_suit_07_hand_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_08_body_01": {
+    "id": "item_unit_t4_suit_08_body_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_08_body_01_eh": {
+    "id": "item_unit_t4_suit_08_body_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_08_body_02": {
+    "id": "item_unit_t4_suit_08_body_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_08_body_02_eh": {
+    "id": "item_unit_t4_suit_08_body_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_08_edc_01": {
+    "id": "item_unit_t4_suit_08_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_08_edc_01_eh": {
+    "id": "item_unit_t4_suit_08_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_08_edc_02": {
+    "id": "item_unit_t4_suit_08_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_08_edc_02_eh": {
+    "id": "item_unit_t4_suit_08_edc_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_09_edc_01": {
+    "id": "item_unit_t4_suit_09_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_09_edc_01_eh": {
+    "id": "item_unit_t4_suit_09_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_09_edc_02": {
+    "id": "item_unit_t4_suit_09_edc_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_09_edc_02_eh": {
+    "id": "item_unit_t4_suit_09_edc_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_09_hand_01": {
+    "id": "item_unit_t4_suit_09_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_09_hand_01_eh": {
+    "id": "item_unit_t4_suit_09_hand_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_09_hand_02": {
+    "id": "item_unit_t4_suit_09_hand_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_09_hand_02_eh": {
+    "id": "item_unit_t4_suit_09_hand_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_10_body_01": {
+    "id": "item_unit_t4_suit_10_body_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_10_body_01_eh": {
+    "id": "item_unit_t4_suit_10_body_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_10_body_02": {
+    "id": "item_unit_t4_suit_10_body_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_10_body_02_eh": {
+    "id": "item_unit_t4_suit_10_body_02_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_10_edc_01": {
+    "id": "item_unit_t4_suit_10_edc_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_10_edc_01_eh": {
+    "id": "item_unit_t4_suit_10_edc_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_10_hand_01": {
+    "id": "item_unit_t4_suit_10_hand_01",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_10_hand_01_eh": {
+    "id": "item_unit_t4_suit_10_hand_01_eh",
+    "needValue": 50
+  },
+  "item_unit_t4_suit_10_hand_02": {
+    "id": "item_unit_t4_suit_10_hand_02",
+    "needValue": 30
+  },
+  "item_unit_t4_suit_10_hand_02_eh": {
+    "id": "item_unit_t4_suit_10_hand_02_eh",
+    "needValue": 50
+  }
+}

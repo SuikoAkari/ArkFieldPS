@@ -1,0 +1,68 @@
+{
+  "adventure_reward": {
+    "content": {
+      "id": "CB4B7EF9EE6B1478",
+      "text": ""
+    },
+    "id": "adventure_reward",
+    "title": {
+      "id": "81482162777BC982",
+      "text": ""
+    }
+  },
+  "collection_submit": {
+    "content": {
+      "id": "15673C8657DABB65",
+      "text": ""
+    },
+    "id": "collection_submit",
+    "title": {
+      "id": "6A031FBD233860FE",
+      "text": ""
+    }
+  },
+  "fac_hub_offline": {
+    "content": {
+      "id": "BBCA511AC856BD72",
+      "text": ""
+    },
+    "id": "fac_hub_offline",
+    "title": {
+      "id": "581CB159DA07C332",
+      "text": ""
+    }
+  },
+  "hub_data": {
+    "content": {
+      "id": "98B24740B5518C30",
+      "text": ""
+    },
+    "id": "hub_data",
+    "title": {
+      "id": "B96CC98D2C0BB369",
+      "text": ""
+    }
+  },
+  "mail": {
+    "content": {
+      "id": "DB5EFF2A7F83F599",
+      "text": ""
+    },
+    "id": "mail",
+    "title": {
+      "id": "3AD6E2DBA54D3EF2",
+      "text": ""
+    }
+  },
+  "scene_grade": {
+    "content": {
+      "id": "4BA50A8532D96AD2",
+      "text": ""
+    },
+    "id": "scene_grade",
+    "title": {
+      "id": "7AF4A0732224D124",
+      "text": ""
+    }
+  }
+}

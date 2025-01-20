@@ -1,0 +1,1956 @@
+{
+  "soil_1": {
+    "cropModelId": "crop_moss_1_postmodel",
+    "id": "soil_1",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_1",
+    "name": {
+      "id": "B95C7FF6C38FAC6D",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            120
+          ],
+          "valueIntList": [
+            120
+          ],
+          "valueStringList": [
+            "120"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_moss_1"
+  },
+  "soil_2": {
+    "cropModelId": "crop_moss_1_postmodel",
+    "id": "soil_2",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_2",
+    "name": {
+      "id": "383839F600943420",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            60
+          ],
+          "valueIntList": [
+            60
+          ],
+          "valueStringList": [
+            "60"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            60
+          ],
+          "valueIntList": [
+            60
+          ],
+          "valueStringList": [
+            "60"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            60
+          ],
+          "valueIntList": [
+            60
+          ],
+          "valueStringList": [
+            "60"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_moss_2"
+  },
+  "soil_bbflower_1": {
+    "cropModelId": "crop_bbflower_1_postmodel",
+    "id": "soil_bbflower_1",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_1",
+    "name": {
+      "id": "9CC834D5F598DA4B",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            300
+          ],
+          "valueIntList": [
+            300
+          ],
+          "valueStringList": [
+            "300"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_bbflower_1"
+  },
+  "soil_grass_1": {
+    "cropModelId": "crop_grass_1_postmodel",
+    "id": "soil_grass_1",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_2",
+    "name": {
+      "id": "E38DC8D65CC71FD5",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1800
+          ],
+          "valueIntList": [
+            1800
+          ],
+          "valueStringList": [
+            "1800"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1800
+          ],
+          "valueIntList": [
+            1800
+          ],
+          "valueStringList": [
+            "1800"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_grass_1"
+  },
+  "soil_grass_2": {
+    "cropModelId": "crop_grass_2_postmodel",
+    "id": "soil_grass_2",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_2",
+    "name": {
+      "id": "A5246FD90B721057",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1800
+          ],
+          "valueIntList": [
+            1800
+          ],
+          "valueStringList": [
+            "1800"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            1800
+          ],
+          "valueIntList": [
+            1800
+          ],
+          "valueStringList": [
+            "1800"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_grass_2"
+  },
+  "soil_grass_fast_1": {
+    "cropModelId": "crop_grass_1_postmodel",
+    "id": "soil_grass_fast_1",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_2",
+    "name": {
+      "id": "8B97F6293B055B35",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_grass_1"
+  },
+  "soil_grass_fast_2": {
+    "cropModelId": "crop_grass_2_postmodel",
+    "id": "soil_grass_fast_2",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_2",
+    "name": {
+      "id": "339B259DFDEDE427",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_grass_2"
+  },
+  "soil_moss_1": {
+    "cropModelId": "crop_moss_1_postmodel",
+    "id": "soil_moss_1",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_1",
+    "name": {
+      "id": "33E3BFA192417B91",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            3600
+          ],
+          "valueIntList": [
+            3600
+          ],
+          "valueStringList": [
+            "3600"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_moss_1"
+  },
+  "soil_moss_2": {
+    "cropModelId": "crop_moss_2_postmodel",
+    "id": "soil_moss_2",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_1",
+    "name": {
+      "id": "CC904ACD1E75EDF6",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            3600
+          ],
+          "valueIntList": [
+            3600
+          ],
+          "valueStringList": [
+            "3600"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_moss_2"
+  },
+  "soil_moss_3": {
+    "cropModelId": "crop_moss_3_postmodel",
+    "id": "soil_moss_3",
+    "littleCropModelId": "crop_sprouts_postmodel",
+    "modelTemplateId": "soil_1",
+    "name": {
+      "id": "242E5619FA332494",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            300
+          ],
+          "valueIntList": [
+            300
+          ],
+          "valueStringList": [
+            "300"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_moss_3"
+  },
+  "soil_sp_1": {
+    "cropModelId": "crop_sp_1_postmodel",
+    "id": "soil_sp_1",
+    "littleCropModelId": "crop_sp_sprouts_1_postmodel",
+    "modelTemplateId": "soil_3",
+    "name": {
+      "id": "C581DE58E05B2FCA",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            43200
+          ],
+          "valueIntList": [
+            43200
+          ],
+          "valueStringList": [
+            "43200"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_1"
+  },
+  "soil_sp_2": {
+    "cropModelId": "crop_sp_2_postmodel",
+    "id": "soil_sp_2",
+    "littleCropModelId": "crop_sp_sprouts_2_postmodel",
+    "modelTemplateId": "soil_3",
+    "name": {
+      "id": "D8774AD13B98EF8D",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            43200
+          ],
+          "valueIntList": [
+            43200
+          ],
+          "valueStringList": [
+            "43200"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_2"
+  },
+  "soil_sp_3": {
+    "cropModelId": "crop_sp_3_postmodel",
+    "id": "soil_sp_3",
+    "littleCropModelId": "crop_sp_sprouts_3_postmodel",
+    "modelTemplateId": "soil_4",
+    "name": {
+      "id": "DE96E5A677B5AFC7",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            14400
+          ],
+          "valueIntList": [
+            14400
+          ],
+          "valueStringList": [
+            "14400"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            14400
+          ],
+          "valueIntList": [
+            14400
+          ],
+          "valueStringList": [
+            "14400"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            14400
+          ],
+          "valueIntList": [
+            14400
+          ],
+          "valueStringList": [
+            "14400"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_3"
+  },
+  "soil_sp_4": {
+    "cropModelId": "crop_sp_4_postmodel",
+    "id": "soil_sp_4",
+    "littleCropModelId": "crop_sp_sprouts_4_postmodel",
+    "modelTemplateId": "soil_4",
+    "name": {
+      "id": "A11D80C565736FC2",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            14400
+          ],
+          "valueIntList": [
+            14400
+          ],
+          "valueStringList": [
+            "14400"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            14400
+          ],
+          "valueIntList": [
+            14400
+          ],
+          "valueStringList": [
+            "14400"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            30
+          ],
+          "valueIntList": [
+            5,
+            30
+          ],
+          "valueStringList": [
+            "5",
+            "30"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            14400
+          ],
+          "valueIntList": [
+            14400
+          ],
+          "valueStringList": [
+            "14400"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_4"
+  },
+  "soil_sp_fast_3": {
+    "cropModelId": "crop_sp_3_postmodel",
+    "id": "soil_sp_fast_3",
+    "littleCropModelId": "crop_sp_sprouts_3_postmodel",
+    "modelTemplateId": "soil_4",
+    "name": {
+      "id": "7A68F12C2D2A219F",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_3"
+  },
+  "soil_sp_fast_4": {
+    "cropModelId": "crop_sp_4_postmodel",
+    "id": "soil_sp_fast_4",
+    "littleCropModelId": "crop_sp_sprouts_4_postmodel",
+    "modelTemplateId": "soil_4",
+    "name": {
+      "id": "1C47E3A17928A3FA",
+      "text": ""
+    },
+    "plantingSteps": [
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 1
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5,
+            15
+          ],
+          "valueIntList": [
+            5,
+            15
+          ],
+          "valueStringList": [
+            "5",
+            "15"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 2
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 3
+      },
+      {
+        "plantingStepParameter": {
+          "realType": 0,
+          "valueBoolList": null,
+          "valueFloatList": [
+            5
+          ],
+          "valueIntList": [
+            5
+          ],
+          "valueStringList": [
+            "5"
+          ],
+          "valueType": 0,
+          "valueVector3": null
+        },
+        "plantingStepType": 4
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_4"
+  }
+}

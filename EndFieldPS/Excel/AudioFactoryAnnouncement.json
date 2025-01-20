@@ -1,0 +1,67 @@
+{
+  "au_efos_fort_battle": {
+    "cd": 0,
+    "delay": 0,
+    "voiceId": "au_efos_factory_battle_01"
+  },
+  "au_efos_fort_damage": {
+    "cd": 0,
+    "delay": 0,
+    "voiceId": "au_efos_factory_damage_01"
+  },
+  "au_efos_fort_defend": {
+    "cd": 0,
+    "delay": 0,
+    "voiceId": "au_efos_factory_defend_01"
+  },
+  "au_efos_fort_dffailure": {
+    "cd": 0,
+    "delay": 1,
+    "voiceId": "au_efos_factory_dffailure_01"
+  },
+  "au_efos_fort_dfsuccess": {
+    "cd": 0,
+    "delay": 1,
+    "voiceId": "au_efos_factory_dfsuccess_01"
+  },
+  "au_efos_fort_recharge": {
+    "cd": 0,
+    "delay": 0,
+    "voiceId": "au_efos_factory_recharge_01"
+  },
+  "au_efos_fort_warnatk": {
+    "cd": 60,
+    "delay": 0,
+    "voiceId": "au_efos_factory_warnatk_01"
+  },
+  "au_efos_fort_warnboss": {
+    "cd": 0,
+    "delay": 0,
+    "voiceId": "au_efos_factory_warnboss_01"
+  },
+  "au_efos_fort_warncore": {
+    "cd": 0,
+    "delay": 1,
+    "voiceId": "au_efos_factory_warncore_01"
+  },
+  "au_fac_announcement_into_factory_region": {
+    "cd": 60,
+    "delay": 3,
+    "voiceId": "au_efos_factory_enter_01"
+  },
+  "au_fac_announcement_low_power": {
+    "cd": 0,
+    "delay": 0,
+    "voiceId": "au_efos_factory_batterylow_01"
+  },
+  "au_fac_announcement_techtree_unlock": {
+    "cd": 0,
+    "delay": 1,
+    "voiceId": "au_efos_factory_levelupt_01"
+  },
+  "au_fac_announcement_techtree_upgrade": {
+    "cd": 0,
+    "delay": 1,
+    "voiceId": "au_efos_factory_levelupp_01"
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "item_carbon_enr_powder": {
+    "machineIds": [
+      "furnance_1"
+    ]
+  },
+  "item_carbon_mtl": {
+    "machineIds": [
+      "grinder_1"
+    ]
+  },
+  "item_carbon_powder": {
+    "machineIds": [
+      "thickener_1"
+    ]
+  },
+  "item_copper_jar": {
+    "machineIds": [
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_copper_nugget": {
+    "machineIds": [
+      "component_mc_1",
+      "winder_1",
+      "shaper_1"
+    ]
+  },
+  "item_copper_ore": {
+    "machineIds": [
+      "furnance_1"
+    ]
+  },
+  "item_crystal_enr": {
+    "machineIds": [
+      "winder_1"
+    ]
+  },
+  "item_crystal_enr_powder": {
+    "machineIds": [
+      "furnance_1"
+    ]
+  },
+  "item_crystal_powder": {
+    "machineIds": [
+      "furnance_1",
+      "thickener_1"
+    ]
+  },
+  "item_crystal_shell": {
+    "machineIds": [
+      "grinder_1",
+      "winder_1"
+    ]
+  },
+  "item_glass_bottle": {
+    "machineIds": [
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_glass_cmpt": {
+    "machineIds": [
+      "tools_assebling_mc_1"
+    ]
+  },
+  "item_iron_bottle": {
+    "machineIds": [
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_iron_cmpt": {
+    "machineIds": [
+      "tools_assebling_mc_1"
+    ]
+  },
+  "item_iron_enr": {
+    "machineIds": [
+      "component_mc_1",
+      "shaper_1"
+    ]
+  },
+  "item_iron_enr_bottle": {
+    "machineIds": [
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_iron_enr_cmpt": {
+    "machineIds": [
+      "tools_assebling_mc_1"
+    ]
+  },
+  "item_iron_enr_jar": {
+    "machineIds": [
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_iron_enr_powder": {
+    "machineIds": [
+      "furnance_1"
+    ]
+  },
+  "item_iron_nugget": {
+    "machineIds": [
+      "grinder_1",
+      "component_mc_1",
+      "winder_1",
+      "shaper_1"
+    ]
+  },
+  "item_iron_ore": {
+    "machineIds": [
+      "furnance_1"
+    ]
+  },
+  "item_iron_powder": {
+    "machineIds": [
+      "furnance_1",
+      "thickener_1"
+    ]
+  },
+  "item_liquid_plant_grass_1": {
+    "machineIds": [
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_liquid_plant_grass_2": {
+    "machineIds": [
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_liquid_water": {
+    "machineIds": [
+      "furnance_1",
+      "shaper_1",
+      "planter_1",
+      "mix_pool_1"
+    ]
+  },
+  "item_originium_enr_powder": {
+    "machineIds": [
+      "furnance_1",
+      "tools_assebling_mc_1"
+    ]
+  },
+  "item_originium_ore": {
+    "machineIds": [
+      "furnance_1",
+      "grinder_1"
+    ]
+  },
+  "item_originium_powder": {
+    "machineIds": [
+      "furnance_1",
+      "thickener_1",
+      "tools_assebling_mc_1"
+    ]
+  },
+  "item_plant_bbflower_1": {
+    "machineIds": [
+      "grinder_1",
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_bbflower_powder_1": {
+    "machineIds": [
+      "tools_assebling_mc_1"
+    ]
+  },
+  "item_plant_bbflower_seed_1": {
+    "machineIds": [
+      "planter_1"
+    ]
+  },
+  "item_plant_grass_1": {
+    "machineIds": [
+      "furnance_1",
+      "grinder_1",
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_grass_2": {
+    "machineIds": [
+      "furnance_1",
+      "grinder_1",
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_grass_powder_1": {
+    "machineIds": [
+      "furnance_1",
+      "mix_pool_1"
+    ]
+  },
+  "item_plant_grass_powder_2": {
+    "machineIds": [
+      "furnance_1",
+      "mix_pool_1"
+    ]
+  },
+  "item_plant_grass_seed_1": {
+    "machineIds": [
+      "planter_1"
+    ]
+  },
+  "item_plant_grass_seed_2": {
+    "machineIds": [
+      "planter_1"
+    ]
+  },
+  "item_plant_moss_1": {
+    "machineIds": [
+      "furnance_1",
+      "grinder_1",
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_moss_2": {
+    "machineIds": [
+      "furnance_1",
+      "grinder_1",
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_moss_3": {
+    "machineIds": [
+      "furnance_1",
+      "grinder_1",
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_moss_enr_powder_1": {
+    "machineIds": [
+      "furnance_1",
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_plant_moss_enr_powder_2": {
+    "machineIds": [
+      "furnance_1",
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_plant_moss_powder_1": {
+    "machineIds": [
+      "furnance_1",
+      "thickener_1",
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_plant_moss_powder_2": {
+    "machineIds": [
+      "furnance_1",
+      "thickener_1",
+      "filling_powder_mc_1"
+    ]
+  },
+  "item_plant_moss_powder_3": {
+    "machineIds": [
+      "furnance_1",
+      "thickener_1"
+    ]
+  },
+  "item_plant_moss_seed_1": {
+    "machineIds": [
+      "planter_1"
+    ]
+  },
+  "item_plant_moss_seed_2": {
+    "machineIds": [
+      "planter_1"
+    ]
+  },
+  "item_plant_moss_seed_3": {
+    "machineIds": [
+      "planter_1"
+    ]
+  },
+  "item_plant_sp_1": {
+    "machineIds": [
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_sp_2": {
+    "machineIds": [
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_sp_3": {
+    "machineIds": [
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_sp_4": {
+    "machineIds": [
+      "seedcollector_1"
+    ]
+  },
+  "item_plant_tundra_wood": {
+    "machineIds": [
+      "furnance_1"
+    ]
+  },
+  "item_quartz_enr": {
+    "machineIds": [
+      "component_mc_1",
+      "winder_1",
+      "shaper_1"
+    ]
+  },
+  "item_quartz_enr_powder": {
+    "machineIds": [
+      "furnance_1"
+    ]
+  },
+  "item_quartz_glass": {
+    "machineIds": [
+      "grinder_1",
+      "component_mc_1",
+      "winder_1",
+      "shaper_1"
+    ]
+  },
+  "item_quartz_powder": {
+    "machineIds": [
+      "furnance_1",
+      "thickener_1"
+    ]
+  },
+  "item_quartz_sand": {
+    "machineIds": [
+      "furnance_1"
+    ]
+  }
+}

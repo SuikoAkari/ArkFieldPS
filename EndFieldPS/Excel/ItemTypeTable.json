@@ -1,0 +1,802 @@
+{
+  "0": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 0,
+    "name": {
+      "id": "73D5F76C81F98B22",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": false,
+    "storageSpace": 0,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "1": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 1,
+    "name": {
+      "id": "9853271539F2CB5A",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "2": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 2,
+    "name": {
+      "id": "69E268B05AEBC26B",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "3": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 3,
+    "name": {
+      "id": "F535DC42510E3577",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "4": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 4,
+    "name": {
+      "id": "8F8FB21854EAF614",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "5": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 5,
+    "name": {
+      "id": "1454CFCBD3763872",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 2,
+    "unlockSystemType": 251,
+    "valuableTabType": 1
+  },
+  "6": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 6,
+    "name": {
+      "id": "BCB18D6F78E32CDF",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 3
+  },
+  "7": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 7,
+    "name": {
+      "id": "9D9775BCCCC7C4E5",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 4
+  },
+  "8": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 8,
+    "name": {
+      "id": "5B333B105D0E7411",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 3,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "9": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 9,
+    "name": {
+      "id": "E67C9FB1B41EE310",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 3,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "10": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 10,
+    "name": {
+      "id": "1DE0E408CBC59B23",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 3,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "11": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 11,
+    "name": {
+      "id": "95BE34F6FF676FA4",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "12": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 12,
+    "name": {
+      "id": "790114CC6F4F183C",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "13": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 13,
+    "name": {
+      "id": "7909A6C11D7069E5",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 5
+  },
+  "14": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 14,
+    "name": {
+      "id": "E84FF2C45EA656DC",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 10
+  },
+  "15": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 15,
+    "name": {
+      "id": "0EC4F14D72003EF8",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "17": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 17,
+    "name": {
+      "id": "B549860BC9FE99A0",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "19": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 19,
+    "name": {
+      "id": "CC7AEFBD12825C40",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 2,
+    "unlockSystemType": 251,
+    "valuableTabType": 2
+  },
+  "20": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 20,
+    "name": {
+      "id": "0E17E8C534898F0D",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "21": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 21,
+    "name": {
+      "id": "36D85534DE6244CE",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "22": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 22,
+    "name": {
+      "id": "8A77FEFBA73E56D8",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 10
+  },
+  "23": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 23,
+    "name": {
+      "id": "93DFC8BCD54364B3",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "24": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 24,
+    "name": {
+      "id": "4BE51D1DE0219F33",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "25": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 25,
+    "name": {
+      "id": "15B93A7487196AC2",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 4
+  },
+  "26": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 26,
+    "name": {
+      "id": "158F4F976B23DCA3",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 4
+  },
+  "27": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 27,
+    "name": {
+      "id": "47EA1B80C0B478FD",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 4
+  },
+  "28": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 28,
+    "name": {
+      "id": "0F75514DB0ABD779",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "29": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 29,
+    "name": {
+      "id": "266CD84B9E3A9C98",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "30": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 30,
+    "name": {
+      "id": "3987CA6547D97524",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "31": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 31,
+    "name": {
+      "id": "32E1D5762716F019",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 3,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "32": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": true,
+    "hideNewToast": true,
+    "itemType": 32,
+    "name": {
+      "id": "DBED45296A5E91D2",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 7
+  },
+  "33": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 33,
+    "name": {
+      "id": "D9B580E6835403A7",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 10
+  },
+  "34": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 34,
+    "name": {
+      "id": "60C7150765283F4C",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 4
+  },
+  "35": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 35,
+    "name": {
+      "id": "FDCA0B1D7DF3483B",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "36": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 36,
+    "name": {
+      "id": "A316659EDA030BEE",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 8
+  },
+  "37": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 37,
+    "name": {
+      "id": "30C1E2FD514DE93D",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 7
+  },
+  "38": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 38,
+    "name": {
+      "id": "6091F93BC17CAA28",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "39": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 39,
+    "name": {
+      "id": "A9E82E27A6A9B4DC",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "40": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 40,
+    "name": {
+      "id": "4FD550BB6E65F9DA",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "41": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 41,
+    "name": {
+      "id": "9EB09B4F42A6BB66",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "42": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 42,
+    "name": {
+      "id": "B5875AB2F34506C5",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 10
+  },
+  "43": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 43,
+    "name": {
+      "id": "89E6B6FE0C4C7051",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 10
+  },
+  "44": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": true,
+    "hideNewToast": false,
+    "itemType": 44,
+    "name": {
+      "id": "02892C4439597BFB",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "45": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 45,
+    "name": {
+      "id": "5F1D7E837E716DAC",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 4
+  },
+  "47": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 47,
+    "name": {
+      "id": "24F0AC028736EF7D",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "48": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 48,
+    "name": {
+      "id": "E35915AAD6FB9F86",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 3,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "49": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 49,
+    "name": {
+      "id": "458E732039DA674E",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 2,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 10
+  },
+  "50": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 50,
+    "name": {
+      "id": "5696B3521BC7C66B",
+      "text": ""
+    },
+    "showCount": false,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  },
+  "51": {
+    "barkWhenGot": false,
+    "bgType": 1,
+    "hideItemInBagToast": true,
+    "hideNewToast": false,
+    "itemType": 51,
+    "name": {
+      "id": "3010F470BE1C3962",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": false,
+    "storageSpace": 1,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 7
+  },
+  "52": {
+    "barkWhenGot": false,
+    "bgType": 0,
+    "hideItemInBagToast": false,
+    "hideNewToast": false,
+    "itemType": 52,
+    "name": {
+      "id": "25C30DEB1672485F",
+      "text": ""
+    },
+    "showCount": true,
+    "showCountInTips": true,
+    "storageSpace": 3,
+    "unlockSystemType": 10000000,
+    "valuableTabType": 6
+  }
+}

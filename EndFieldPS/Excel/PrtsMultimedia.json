@@ -1,0 +1,32 @@
+{
+  "nar_col_message_gm01m7_9": {
+    "contentId": "radio_gm01m7_9",
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "firstLvId": "media_2",
+    "id": "nar_col_message_gm01m7_9",
+    "name": {
+      "id": "C38395D51FACAB4B",
+      "text": ""
+    },
+    "order": 3,
+    "type": "multi_media"
+  },
+  "nar_col_radio_5": {
+    "contentId": "radio_gm01m23_4",
+    "desc": {
+      "id": "02C41404CF50CC3C",
+      "text": ""
+    },
+    "firstLvId": "media_1",
+    "id": "nar_col_radio_5",
+    "name": {
+      "id": "BE22051E8BAC04DD",
+      "text": ""
+    },
+    "order": 5,
+    "type": "multi_media"
+  }
+}

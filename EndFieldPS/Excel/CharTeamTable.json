@@ -1,0 +1,478 @@
+{
+  "002test": {
+    "id": "002test",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endmin_002",
+      "perlica_002",
+      "chen_002",
+      "wolf_002"
+    ],
+    "presetTeam": [
+      "endmin_002",
+      "perlica_002",
+      "chen_002",
+      "wolf_002"
+    ],
+    "requireCharTids": []
+  },
+  "20": {
+    "id": "20",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_T1",
+      "pelica_T1",
+      "chen_T1",
+      "wolfgd_T1"
+    ],
+    "presetTeam": [
+      "endminf_T1",
+      "pelica_T1",
+      "chen_T1",
+      "wolfgd_T1"
+    ],
+    "requireCharTids": []
+  },
+  "28": {
+    "id": "28",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_T2",
+      "pelica_T2",
+      "chen_T2",
+      "aglina_T2"
+    ],
+    "presetTeam": [
+      "endminf_T2",
+      "pelica_T2",
+      "chen_T2",
+      "aglina_T2"
+    ],
+    "requireCharTids": []
+  },
+  "36": {
+    "id": "36",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_T3",
+      "pelica_T3",
+      "chen_T3",
+      "aglina_T3"
+    ],
+    "presetTeam": [
+      "endminf_T3",
+      "pelica_T3",
+      "chen_T3",
+      "aglina_T3"
+    ],
+    "requireCharTids": []
+  },
+  "40": {
+    "id": "40",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_40",
+      "pelica_40",
+      "chen_40",
+      "aglina_40"
+    ],
+    "presetTeam": [
+      "endminf_40",
+      "pelica_40",
+      "chen_40",
+      "aglina_40"
+    ],
+    "requireCharTids": []
+  },
+  "4250": {
+    "id": "4250",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "std50_42",
+      "std50_wolf",
+      "std50_aglina",
+      "std50_azrila"
+    ],
+    "presetTeam": [
+      "std50_42",
+      "std50_wolf",
+      "std50_aglina",
+      "std50_azrila"
+    ],
+    "requireCharTids": []
+  },
+  "50": {
+    "id": "50",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_T4",
+      "pelica_T4",
+      "chen_T4",
+      "aglina_T4"
+    ],
+    "presetTeam": [
+      "endminf_T4",
+      "pelica_T4",
+      "chen_T4",
+      "aglina_T4"
+    ],
+    "requireCharTids": []
+  },
+  "60": {
+    "id": "60",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_60",
+      "pelica_60",
+      "chen_60",
+      "aglina_60"
+    ],
+    "presetTeam": [
+      "endminf_60",
+      "pelica_60",
+      "chen_60",
+      "aglina_60"
+    ],
+    "requireCharTids": []
+  },
+  "70": {
+    "id": "70",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_T5",
+      "pelica_T5",
+      "chen_T5",
+      "aglina_T5"
+    ],
+    "presetTeam": [
+      "endminf_T5",
+      "pelica_T5",
+      "chen_T5",
+      "aglina_T5"
+    ],
+    "requireCharTids": []
+  },
+  "80": {
+    "id": "80",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_80",
+      "pelica_80",
+      "chen_80",
+      "aglina_80"
+    ],
+    "presetTeam": [
+      "endminf_80",
+      "pelica_80",
+      "chen_80",
+      "aglina_80"
+    ],
+    "requireCharTids": []
+  },
+  "dung_challenge_default": {
+    "id": "dung_challenge_default",
+    "maxMemberCount": 1,
+    "presetCharList": [],
+    "presetTeam": [],
+    "requireCharTids": []
+  },
+  "dung_rdg001_wolfgd": {
+    "id": "dung_rdg001_wolfgd",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "rdg001_wolfgd"
+    ],
+    "presetTeam": [],
+    "requireCharTids": [
+      "chr_0006_wolfgd"
+    ]
+  },
+  "dung_rdg002_aglina": {
+    "id": "dung_rdg002_aglina",
+    "maxMemberCount": 2,
+    "presetCharList": [
+      "rdg002_aglina",
+      "rdg002_endmin"
+    ],
+    "presetTeam": [],
+    "requireCharTids": [
+      "chr_0013_aglina",
+      "chr_9999_endmin"
+    ]
+  },
+  "healer50": {
+    "id": "healer50",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "std50_saixi",
+      "std50_snow",
+      "std50_azrila"
+    ],
+    "presetTeam": [
+      "std50_saixi",
+      "std50_snow",
+      "std50_azrila"
+    ],
+    "requireCharTids": []
+  },
+  "ld20": {
+    "id": "ld20",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_201",
+      "pelica_201",
+      "chen_201",
+      "wolfgd_201"
+    ],
+    "presetTeam": [
+      "endminf_201",
+      "pelica_201",
+      "chen_201",
+      "wolfgd_201"
+    ],
+    "requireCharTids": []
+  },
+  "luodan": {
+    "id": "luodan",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_luodan",
+      "pelica_luodan",
+      "chen_luodan",
+      "wolfgd_luodan"
+    ],
+    "presetTeam": [
+      "endminf_luodan",
+      "pelica_luodan",
+      "chen_luodan",
+      "wolfgd_luodan"
+    ],
+    "requireCharTids": []
+  },
+  "pv1": {
+    "id": "pv1",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_pv1",
+      "pelica_pv1",
+      "chen_pv1",
+      "wolfgd_pv1"
+    ],
+    "presetTeam": [
+      "endminf_pv1",
+      "pelica_pv1",
+      "chen_pv1",
+      "wolfgd_pv1"
+    ],
+    "requireCharTids": []
+  },
+  "pv2": {
+    "id": "pv2",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "endminf_pv2",
+      "chen_pv2",
+      "lifeng_pv2",
+      "dapan_pv2"
+    ],
+    "presetTeam": [
+      "endminf_pv2",
+      "chen_pv2",
+      "lifeng_pv2",
+      "dapan_pv2"
+    ],
+    "requireCharTids": []
+  },
+  "train01": {
+    "id": "train01",
+    "maxMemberCount": 1,
+    "presetCharList": [
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train02": {
+    "id": "train02",
+    "maxMemberCount": 1,
+    "presetCharList": [
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train03": {
+    "id": "train03",
+    "maxMemberCount": 2,
+    "presetCharList": [
+      "training_chen",
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_chen",
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train04": {
+    "id": "train04",
+    "maxMemberCount": 2,
+    "presetCharList": [
+      "training_azrila",
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_azrila",
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train05": {
+    "id": "train05",
+    "maxMemberCount": 2,
+    "presetCharList": [
+      "training_pelica",
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_pelica",
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train06": {
+    "id": "train06",
+    "maxMemberCount": 3,
+    "presetCharList": [
+      "training_laevat",
+      "training_pelica",
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_laevat",
+      "training_pelica",
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train07": {
+    "id": "train07",
+    "maxMemberCount": 3,
+    "presetCharList": [
+      "training_yvonne",
+      "training_pelica",
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_yvonne",
+      "training_pelica",
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train08": {
+    "id": "train08",
+    "maxMemberCount": 3,
+    "presetCharList": [
+      "training_pelica",
+      "training_laevat",
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_pelica",
+      "training_laevat",
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train09": {
+    "id": "train09",
+    "maxMemberCount": 3,
+    "presetCharList": [
+      "training_aglina",
+      "training_pelica",
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_aglina",
+      "training_pelica",
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train10": {
+    "id": "train10",
+    "maxMemberCount": 3,
+    "presetCharList": [
+      "training_endmin",
+      "training_chen",
+      "training_pelica"
+    ],
+    "presetTeam": [
+      "training_endmin",
+      "training_chen",
+      "training_pelica"
+    ],
+    "requireCharTids": []
+  },
+  "train11": {
+    "id": "train11",
+    "maxMemberCount": 1,
+    "presetCharList": [
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "train12": {
+    "id": "train12",
+    "maxMemberCount": 1,
+    "presetCharList": [
+      "training_endmin"
+    ],
+    "presetTeam": [
+      "training_endmin"
+    ],
+    "requireCharTids": []
+  },
+  "tuzi50": {
+    "id": "tuzi50",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "std50_tuzi",
+      "std50_pelica",
+      "std50_jr",
+      "std50_azrila"
+    ],
+    "presetTeam": [
+      "std50_tuzi",
+      "std50_pelica",
+      "std50_jr",
+      "std50_azrila"
+    ],
+    "requireCharTids": []
+  },
+  "yf50": {
+    "id": "yf50",
+    "maxMemberCount": 4,
+    "presetCharList": [
+      "std50_yifeng",
+      "std50_pelica",
+      "std50_jr",
+      "std50_azrila"
+    ],
+    "presetTeam": [
+      "std50_yifeng",
+      "std50_pelica",
+      "std50_jr",
+      "std50_azrila"
+    ],
+    "requireCharTids": []
+  }
+}

@@ -1,0 +1,2074 @@
+{
+  "item_formu_t05_body_01_parts_spe": {
+    "costItemId": [
+      "item_plant_tundra_wood",
+      "item_crystal_shell"
+    ],
+    "costItemNum": [
+      2,
+      10
+    ],
+    "formulaId": "item_formu_t05_body_01_parts_spe",
+    "outcomeEquipId": "item_unit_t05_body_01_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t05_body_02_parts_spe": {
+    "costItemId": [
+      "item_plant_tundra_wood",
+      "item_crystal_shell"
+    ],
+    "costItemNum": [
+      2,
+      10
+    ],
+    "formulaId": "item_formu_t05_body_02_parts_spe",
+    "outcomeEquipId": "item_unit_t05_body_02_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t05_hand_01_parts_spe": {
+    "costItemId": [
+      "item_plant_tundra_wood",
+      "item_crystal_shell"
+    ],
+    "costItemNum": [
+      2,
+      10
+    ],
+    "formulaId": "item_formu_t05_hand_01_parts_spe",
+    "outcomeEquipId": "item_unit_t05_hand_01_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t05_hand_02_parts_spe": {
+    "costItemId": [
+      "item_plant_tundra_wood",
+      "item_crystal_shell"
+    ],
+    "costItemNum": [
+      2,
+      10
+    ],
+    "formulaId": "item_formu_t05_hand_02_parts_spe",
+    "outcomeEquipId": "item_unit_t05_hand_02_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t1_body_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      5,
+      30
+    ],
+    "formulaId": "item_formu_t1_body_01_parts_atk",
+    "outcomeEquipId": "item_unit_t1_body_01_parts_atk",
+    "unlockType": 1,
+    "unlockValue": 7
+  },
+  "item_formu_t1_body_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      5,
+      30
+    ],
+    "formulaId": "item_formu_t1_body_01_parts_spe",
+    "outcomeEquipId": "item_unit_t1_body_01_parts_spe",
+    "unlockType": 1,
+    "unlockValue": 6
+  },
+  "item_formu_t1_edc_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      5,
+      30
+    ],
+    "formulaId": "item_formu_t1_edc_01_parts_def",
+    "outcomeEquipId": "item_unit_t1_edc_01_parts_def",
+    "unlockType": 1,
+    "unlockValue": 5
+  },
+  "item_formu_t1_edc_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      5,
+      30
+    ],
+    "formulaId": "item_formu_t1_edc_01_parts_spe",
+    "outcomeEquipId": "item_unit_t1_edc_01_parts_spe",
+    "unlockType": 1,
+    "unlockValue": 4
+  },
+  "item_formu_t1_hand_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      5,
+      30
+    ],
+    "formulaId": "item_formu_t1_hand_01_parts_atk",
+    "outcomeEquipId": "item_unit_t1_hand_01_parts_atk",
+    "unlockType": 1,
+    "unlockValue": 9
+  },
+  "item_formu_t1_hand_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      5,
+      30
+    ],
+    "formulaId": "item_formu_t1_hand_01_parts_spe",
+    "outcomeEquipId": "item_unit_t1_hand_01_parts_spe",
+    "unlockType": 1,
+    "unlockValue": 8
+  },
+  "item_formu_t2_body_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_body_01_parts_atk",
+    "outcomeEquipId": "item_unit_t2_body_01_parts_atk",
+    "unlockType": 1,
+    "unlockValue": 12
+  },
+  "item_formu_t2_body_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_body_01_parts_def",
+    "outcomeEquipId": "item_unit_t2_body_01_parts_def",
+    "unlockType": 1,
+    "unlockValue": 12
+  },
+  "item_formu_t2_body_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_body_01_parts_spe",
+    "outcomeEquipId": "item_unit_t2_body_01_parts_spe",
+    "unlockType": 1,
+    "unlockValue": 13
+  },
+  "item_formu_t2_body_02_parts_atk": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_body_02_parts_atk",
+    "outcomeEquipId": "item_unit_t2_body_02_parts_atk",
+    "unlockType": 1,
+    "unlockValue": 13
+  },
+  "item_formu_t2_edc_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_edc_01_parts_atk",
+    "outcomeEquipId": "item_unit_t2_edc_01_parts_atk",
+    "unlockType": 1,
+    "unlockValue": 14
+  },
+  "item_formu_t2_edc_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_edc_01_parts_def",
+    "outcomeEquipId": "item_unit_t2_edc_01_parts_def",
+    "unlockType": 1,
+    "unlockValue": 14
+  },
+  "item_formu_t2_edc_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_edc_01_parts_spe",
+    "outcomeEquipId": "item_unit_t2_edc_01_parts_spe",
+    "unlockType": 1,
+    "unlockValue": 15
+  },
+  "item_formu_t2_edc_02_parts_def": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_edc_02_parts_def",
+    "outcomeEquipId": "item_unit_t2_edc_02_parts_def",
+    "unlockType": 1,
+    "unlockValue": 15
+  },
+  "item_formu_t2_hand_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_hand_01_parts_atk",
+    "outcomeEquipId": "item_unit_t2_hand_01_parts_atk",
+    "unlockType": 1,
+    "unlockValue": 10
+  },
+  "item_formu_t2_hand_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_hand_01_parts_def",
+    "outcomeEquipId": "item_unit_t2_hand_01_parts_def",
+    "unlockType": 1,
+    "unlockValue": 11
+  },
+  "item_formu_t2_hand_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_hand_01_parts_spe",
+    "outcomeEquipId": "item_unit_t2_hand_01_parts_spe",
+    "unlockType": 1,
+    "unlockValue": 10
+  },
+  "item_formu_t2_hand_02_parts_spe": {
+    "costItemId": [
+      "item_equip_script_1",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      20,
+      50
+    ],
+    "formulaId": "item_formu_t2_hand_02_parts_spe",
+    "outcomeEquipId": "item_unit_t2_hand_02_parts_spe",
+    "unlockType": 1,
+    "unlockValue": 11
+  },
+  "item_formu_t3_body_01_suit_agi": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_body_01_suit_agi",
+    "outcomeEquipId": "item_unit_t3_body_01_suit_agi",
+    "unlockType": 1,
+    "unlockValue": 18
+  },
+  "item_formu_t3_body_01_suit_str": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_body_01_suit_str",
+    "outcomeEquipId": "item_unit_t3_body_01_suit_str",
+    "unlockType": 1,
+    "unlockValue": 18
+  },
+  "item_formu_t3_body_01_suit_will": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_body_01_suit_will",
+    "outcomeEquipId": "item_unit_t3_body_01_suit_will",
+    "unlockType": 1,
+    "unlockValue": 19
+  },
+  "item_formu_t3_body_01_suit_wisd": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_body_01_suit_wisd",
+    "outcomeEquipId": "item_unit_t3_body_01_suit_wisd",
+    "unlockType": 1,
+    "unlockValue": 19
+  },
+  "item_formu_t3_edc_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_01_parts_atk",
+    "outcomeEquipId": "item_unit_t3_edc_01_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t3_edc_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_01_parts_def",
+    "outcomeEquipId": "item_unit_t3_edc_01_parts_def",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t3_edc_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_01_parts_spe",
+    "outcomeEquipId": "item_unit_t3_edc_01_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t3_edc_01_suit_agi": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_01_suit_agi",
+    "outcomeEquipId": "item_unit_t3_edc_01_suit_agi",
+    "unlockType": 1,
+    "unlockValue": 20
+  },
+  "item_formu_t3_edc_01_suit_str": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_01_suit_str",
+    "outcomeEquipId": "item_unit_t3_edc_01_suit_str",
+    "unlockType": 1,
+    "unlockValue": 20
+  },
+  "item_formu_t3_edc_01_suit_will": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_01_suit_will",
+    "outcomeEquipId": "item_unit_t3_edc_01_suit_will",
+    "unlockType": 1,
+    "unlockValue": 21
+  },
+  "item_formu_t3_edc_01_suit_wisd": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_01_suit_wisd",
+    "outcomeEquipId": "item_unit_t3_edc_01_suit_wisd",
+    "unlockType": 1,
+    "unlockValue": 21
+  },
+  "item_formu_t3_edc_02_parts_atk": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_02_parts_atk",
+    "outcomeEquipId": "item_unit_t3_edc_02_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t3_edc_02_suit_agi": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_02_suit_agi",
+    "outcomeEquipId": "item_unit_t3_edc_02_suit_agi",
+    "unlockType": 1,
+    "unlockValue": 22
+  },
+  "item_formu_t3_edc_02_suit_str": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_02_suit_str",
+    "outcomeEquipId": "item_unit_t3_edc_02_suit_str",
+    "unlockType": 1,
+    "unlockValue": 22
+  },
+  "item_formu_t3_edc_02_suit_will": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_02_suit_will",
+    "outcomeEquipId": "item_unit_t3_edc_02_suit_will",
+    "unlockType": 1,
+    "unlockValue": 23
+  },
+  "item_formu_t3_edc_02_suit_wisd": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_edc_02_suit_wisd",
+    "outcomeEquipId": "item_unit_t3_edc_02_suit_wisd",
+    "unlockType": 1,
+    "unlockValue": 23
+  },
+  "item_formu_t3_hand_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_hand_01_parts_def",
+    "outcomeEquipId": "item_unit_t3_hand_01_parts_def",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t3_hand_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_hand_01_parts_spe",
+    "outcomeEquipId": "item_unit_t3_hand_01_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t3_hand_01_suit_agi": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_hand_01_suit_agi",
+    "outcomeEquipId": "item_unit_t3_hand_01_suit_agi",
+    "unlockType": 1,
+    "unlockValue": 16
+  },
+  "item_formu_t3_hand_01_suit_str": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_hand_01_suit_str",
+    "outcomeEquipId": "item_unit_t3_hand_01_suit_str",
+    "unlockType": 1,
+    "unlockValue": 16
+  },
+  "item_formu_t3_hand_01_suit_will": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_hand_01_suit_will",
+    "outcomeEquipId": "item_unit_t3_hand_01_suit_will",
+    "unlockType": 1,
+    "unlockValue": 17
+  },
+  "item_formu_t3_hand_01_suit_wisd": {
+    "costItemId": [
+      "item_equip_script_2",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      90
+    ],
+    "formulaId": "item_formu_t3_hand_01_suit_wisd",
+    "outcomeEquipId": "item_unit_t3_hand_01_suit_wisd",
+    "unlockType": 1,
+    "unlockValue": 17
+  },
+  "item_formu_t4_body_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_parts_atk",
+    "outcomeEquipId": "item_unit_t4_body_01_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t4_body_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_parts_spe",
+    "outcomeEquipId": "item_unit_t4_body_01_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t4_body_01_suit_agi": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_suit_agi",
+    "outcomeEquipId": "item_unit_t4_body_01_suit_agi",
+    "unlockType": 1,
+    "unlockValue": 27
+  },
+  "item_formu_t4_body_01_suit_atb": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_suit_atb",
+    "outcomeEquipId": "item_unit_t4_body_01_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 28
+  },
+  "item_formu_t4_body_01_suit_attri": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_suit_attri",
+    "outcomeEquipId": "item_unit_t4_body_01_suit_attri",
+    "unlockType": 1,
+    "unlockValue": 28
+  },
+  "item_formu_t4_body_01_suit_criti": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_suit_criti",
+    "outcomeEquipId": "item_unit_t4_body_01_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 28
+  },
+  "item_formu_t4_body_01_suit_heal": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_suit_heal",
+    "outcomeEquipId": "item_unit_t4_body_01_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 29
+  },
+  "item_formu_t4_body_01_suit_str": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_suit_str",
+    "outcomeEquipId": "item_unit_t4_body_01_suit_str",
+    "unlockType": 1,
+    "unlockValue": 27
+  },
+  "item_formu_t4_body_01_suit_will": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_suit_will",
+    "outcomeEquipId": "item_unit_t4_body_01_suit_will",
+    "unlockType": 1,
+    "unlockValue": 27
+  },
+  "item_formu_t4_body_01_suit_wisd": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_01_suit_wisd",
+    "outcomeEquipId": "item_unit_t4_body_01_suit_wisd",
+    "unlockType": 1,
+    "unlockValue": 27
+  },
+  "item_formu_t4_body_02_suit_atb": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_02_suit_atb",
+    "outcomeEquipId": "item_unit_t4_body_02_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 29
+  },
+  "item_formu_t4_body_02_suit_criti": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_body_02_suit_criti",
+    "outcomeEquipId": "item_unit_t4_body_02_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 29
+  },
+  "item_formu_t4_edc_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_parts_atk",
+    "outcomeEquipId": "item_unit_t4_edc_01_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t4_edc_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_parts_def",
+    "outcomeEquipId": "item_unit_t4_edc_01_parts_def",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t4_edc_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_parts_spe",
+    "outcomeEquipId": "item_unit_t4_edc_01_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t4_edc_01_suit_agi": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_suit_agi",
+    "outcomeEquipId": "item_unit_t4_edc_01_suit_agi",
+    "unlockType": 1,
+    "unlockValue": 30
+  },
+  "item_formu_t4_edc_01_suit_atb": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_suit_atb",
+    "outcomeEquipId": "item_unit_t4_edc_01_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 33
+  },
+  "item_formu_t4_edc_01_suit_attri": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_suit_attri",
+    "outcomeEquipId": "item_unit_t4_edc_01_suit_attri",
+    "unlockType": 1,
+    "unlockValue": 32
+  },
+  "item_formu_t4_edc_01_suit_criti": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_suit_criti",
+    "outcomeEquipId": "item_unit_t4_edc_01_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 32
+  },
+  "item_formu_t4_edc_01_suit_heal": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_suit_heal",
+    "outcomeEquipId": "item_unit_t4_edc_01_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 33
+  },
+  "item_formu_t4_edc_01_suit_str": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_suit_str",
+    "outcomeEquipId": "item_unit_t4_edc_01_suit_str",
+    "unlockType": 1,
+    "unlockValue": 30
+  },
+  "item_formu_t4_edc_01_suit_will": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_suit_will",
+    "outcomeEquipId": "item_unit_t4_edc_01_suit_will",
+    "unlockType": 1,
+    "unlockValue": 30
+  },
+  "item_formu_t4_edc_01_suit_wisd": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_01_suit_wisd",
+    "outcomeEquipId": "item_unit_t4_edc_01_suit_wisd",
+    "unlockType": 1,
+    "unlockValue": 30
+  },
+  "item_formu_t4_edc_02_parts_spe": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_parts_spe",
+    "outcomeEquipId": "item_unit_t4_edc_02_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t4_edc_02_suit_agi": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_suit_agi",
+    "outcomeEquipId": "item_unit_t4_edc_02_suit_agi",
+    "unlockType": 1,
+    "unlockValue": 31
+  },
+  "item_formu_t4_edc_02_suit_atb": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_suit_atb",
+    "outcomeEquipId": "item_unit_t4_edc_02_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 34
+  },
+  "item_formu_t4_edc_02_suit_attri": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_suit_attri",
+    "outcomeEquipId": "item_unit_t4_edc_02_suit_attri",
+    "unlockType": 1,
+    "unlockValue": 32
+  },
+  "item_formu_t4_edc_02_suit_criti": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_suit_criti",
+    "outcomeEquipId": "item_unit_t4_edc_02_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 34
+  },
+  "item_formu_t4_edc_02_suit_heal": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_suit_heal",
+    "outcomeEquipId": "item_unit_t4_edc_02_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 34
+  },
+  "item_formu_t4_edc_02_suit_str": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_suit_str",
+    "outcomeEquipId": "item_unit_t4_edc_02_suit_str",
+    "unlockType": 1,
+    "unlockValue": 31
+  },
+  "item_formu_t4_edc_02_suit_will": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_suit_will",
+    "outcomeEquipId": "item_unit_t4_edc_02_suit_will",
+    "unlockType": 1,
+    "unlockValue": 31
+  },
+  "item_formu_t4_edc_02_suit_wisd": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_02_suit_wisd",
+    "outcomeEquipId": "item_unit_t4_edc_02_suit_wisd",
+    "unlockType": 1,
+    "unlockValue": 31
+  },
+  "item_formu_t4_edc_03_suit_atb": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_03_suit_atb",
+    "outcomeEquipId": "item_unit_t4_edc_03_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 35
+  },
+  "item_formu_t4_edc_03_suit_criti": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_03_suit_criti",
+    "outcomeEquipId": "item_unit_t4_edc_03_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 33
+  },
+  "item_formu_t4_edc_03_suit_heal": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_03_suit_heal",
+    "outcomeEquipId": "item_unit_t4_edc_03_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 35
+  },
+  "item_formu_t4_edc_04_suit_criti": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_edc_04_suit_criti",
+    "outcomeEquipId": "item_unit_t4_edc_04_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 35
+  },
+  "item_formu_t4_hand_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_parts_atk",
+    "outcomeEquipId": "item_unit_t4_hand_01_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t4_hand_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_parts_spe",
+    "outcomeEquipId": "item_unit_t4_hand_01_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t4_hand_01_suit_agi": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_suit_agi",
+    "outcomeEquipId": "item_unit_t4_hand_01_suit_agi",
+    "unlockType": 1,
+    "unlockValue": 24
+  },
+  "item_formu_t4_hand_01_suit_atb": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_suit_atb",
+    "outcomeEquipId": "item_unit_t4_hand_01_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 25
+  },
+  "item_formu_t4_hand_01_suit_attri": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_suit_attri",
+    "outcomeEquipId": "item_unit_t4_hand_01_suit_attri",
+    "unlockType": 1,
+    "unlockValue": 25
+  },
+  "item_formu_t4_hand_01_suit_criti": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_suit_criti",
+    "outcomeEquipId": "item_unit_t4_hand_01_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 25
+  },
+  "item_formu_t4_hand_01_suit_heal": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_suit_heal",
+    "outcomeEquipId": "item_unit_t4_hand_01_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 26
+  },
+  "item_formu_t4_hand_01_suit_str": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_suit_str",
+    "outcomeEquipId": "item_unit_t4_hand_01_suit_str",
+    "unlockType": 1,
+    "unlockValue": 24
+  },
+  "item_formu_t4_hand_01_suit_will": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_suit_will",
+    "outcomeEquipId": "item_unit_t4_hand_01_suit_will",
+    "unlockType": 1,
+    "unlockValue": 24
+  },
+  "item_formu_t4_hand_01_suit_wisd": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_01_suit_wisd",
+    "outcomeEquipId": "item_unit_t4_hand_01_suit_wisd",
+    "unlockType": 1,
+    "unlockValue": 24
+  },
+  "item_formu_t4_hand_02_suit_atb": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_02_suit_atb",
+    "outcomeEquipId": "item_unit_t4_hand_02_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 26
+  },
+  "item_formu_t4_hand_02_suit_criti": {
+    "costItemId": [
+      "item_equip_script_3",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      180
+    ],
+    "formulaId": "item_formu_t4_hand_02_suit_criti",
+    "outcomeEquipId": "item_unit_t4_hand_02_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 26
+  },
+  "item_formu_t5_body_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_parts_atk",
+    "outcomeEquipId": "item_unit_t5_body_01_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t5_body_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_parts_def",
+    "outcomeEquipId": "item_unit_t5_body_01_parts_def",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t5_body_01_suit_atb": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_suit_atb",
+    "outcomeEquipId": "item_unit_t5_body_01_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 46
+  },
+  "item_formu_t5_body_01_suit_attri": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_suit_attri",
+    "outcomeEquipId": "item_unit_t5_body_01_suit_attri",
+    "unlockType": 1,
+    "unlockValue": 47
+  },
+  "item_formu_t5_body_01_suit_criti": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_suit_criti",
+    "outcomeEquipId": "item_unit_t5_body_01_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 46
+  },
+  "item_formu_t5_body_01_suit_fire_natr": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_suit_fire_natr",
+    "outcomeEquipId": "item_unit_t5_body_01_suit_fire_natr",
+    "unlockType": 1,
+    "unlockValue": 48
+  },
+  "item_formu_t5_body_01_suit_heal": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_suit_heal",
+    "outcomeEquipId": "item_unit_t5_body_01_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 48
+  },
+  "item_formu_t5_body_01_suit_phy": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_suit_phy",
+    "outcomeEquipId": "item_unit_t5_body_01_suit_phy",
+    "unlockType": 1,
+    "unlockValue": 47
+  },
+  "item_formu_t5_body_01_suit_poise": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_suit_poise",
+    "outcomeEquipId": "item_unit_t5_body_01_suit_poise",
+    "unlockType": 1,
+    "unlockValue": 47
+  },
+  "item_formu_t5_body_01_suit_pulse_cryst": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_01_suit_pulse_cryst",
+    "outcomeEquipId": "item_unit_t5_body_01_suit_pulse_cryst",
+    "unlockType": 1,
+    "unlockValue": 48
+  },
+  "item_formu_t5_body_02_suit_atb": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_02_suit_atb",
+    "outcomeEquipId": "item_unit_t5_body_02_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 46
+  },
+  "item_formu_t5_body_02_suit_criti": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_02_suit_criti",
+    "outcomeEquipId": "item_unit_t5_body_02_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 46
+  },
+  "item_formu_t5_body_02_suit_fire_natr": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_02_suit_fire_natr",
+    "outcomeEquipId": "item_unit_t5_body_02_suit_fire_natr",
+    "unlockType": 1,
+    "unlockValue": 48
+  },
+  "item_formu_t5_body_02_suit_phy": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_body_02_suit_phy",
+    "outcomeEquipId": "item_unit_t5_body_02_suit_phy",
+    "unlockType": 1,
+    "unlockValue": 47
+  },
+  "item_formu_t5_edc_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_parts_atk",
+    "outcomeEquipId": "item_unit_t5_edc_01_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t5_edc_01_parts_def": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_parts_def",
+    "outcomeEquipId": "item_unit_t5_edc_01_parts_def",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t5_edc_01_parts_spe": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_parts_spe",
+    "outcomeEquipId": "item_unit_t5_edc_01_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t5_edc_01_suit_atb": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_suit_atb",
+    "outcomeEquipId": "item_unit_t5_edc_01_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 49
+  },
+  "item_formu_t5_edc_01_suit_attri": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_suit_attri",
+    "outcomeEquipId": "item_unit_t5_edc_01_suit_attri",
+    "unlockType": 1,
+    "unlockValue": 53
+  },
+  "item_formu_t5_edc_01_suit_criti": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_suit_criti",
+    "outcomeEquipId": "item_unit_t5_edc_01_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 49
+  },
+  "item_formu_t5_edc_01_suit_fire_natr": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_suit_fire_natr",
+    "outcomeEquipId": "item_unit_t5_edc_01_suit_fire_natr",
+    "unlockType": 1,
+    "unlockValue": 52
+  },
+  "item_formu_t5_edc_01_suit_heal": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_suit_heal",
+    "outcomeEquipId": "item_unit_t5_edc_01_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 52
+  },
+  "item_formu_t5_edc_01_suit_phy": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_suit_phy",
+    "outcomeEquipId": "item_unit_t5_edc_01_suit_phy",
+    "unlockType": 1,
+    "unlockValue": 49
+  },
+  "item_formu_t5_edc_01_suit_poise": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_suit_poise",
+    "outcomeEquipId": "item_unit_t5_edc_01_suit_poise",
+    "unlockType": 1,
+    "unlockValue": 49
+  },
+  "item_formu_t5_edc_01_suit_pulse_cryst": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_01_suit_pulse_cryst",
+    "outcomeEquipId": "item_unit_t5_edc_01_suit_pulse_cryst",
+    "unlockType": 1,
+    "unlockValue": 52
+  },
+  "item_formu_t5_edc_02_parts_spe": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_parts_spe",
+    "outcomeEquipId": "item_unit_t5_edc_02_parts_spe",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t5_edc_02_suit_atb": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_suit_atb",
+    "outcomeEquipId": "item_unit_t5_edc_02_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 50
+  },
+  "item_formu_t5_edc_02_suit_attri": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_suit_attri",
+    "outcomeEquipId": "item_unit_t5_edc_02_suit_attri",
+    "unlockType": 1,
+    "unlockValue": 54
+  },
+  "item_formu_t5_edc_02_suit_criti": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_suit_criti",
+    "outcomeEquipId": "item_unit_t5_edc_02_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 50
+  },
+  "item_formu_t5_edc_02_suit_fire_natr": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_suit_fire_natr",
+    "outcomeEquipId": "item_unit_t5_edc_02_suit_fire_natr",
+    "unlockType": 1,
+    "unlockValue": 53
+  },
+  "item_formu_t5_edc_02_suit_heal": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_suit_heal",
+    "outcomeEquipId": "item_unit_t5_edc_02_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 53
+  },
+  "item_formu_t5_edc_02_suit_phy": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_suit_phy",
+    "outcomeEquipId": "item_unit_t5_edc_02_suit_phy",
+    "unlockType": 1,
+    "unlockValue": 50
+  },
+  "item_formu_t5_edc_02_suit_poise": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_suit_poise",
+    "outcomeEquipId": "item_unit_t5_edc_02_suit_poise",
+    "unlockType": 1,
+    "unlockValue": 50
+  },
+  "item_formu_t5_edc_02_suit_pulse_cryst": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_02_suit_pulse_cryst",
+    "outcomeEquipId": "item_unit_t5_edc_02_suit_pulse_cryst",
+    "unlockType": 1,
+    "unlockValue": 53
+  },
+  "item_formu_t5_edc_03_suit_atb": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_03_suit_atb",
+    "outcomeEquipId": "item_unit_t5_edc_03_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 51
+  },
+  "item_formu_t5_edc_03_suit_criti": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_03_suit_criti",
+    "outcomeEquipId": "item_unit_t5_edc_03_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 51
+  },
+  "item_formu_t5_edc_03_suit_fire_natr": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_03_suit_fire_natr",
+    "outcomeEquipId": "item_unit_t5_edc_03_suit_fire_natr",
+    "unlockType": 1,
+    "unlockValue": 54
+  },
+  "item_formu_t5_edc_03_suit_heal": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_03_suit_heal",
+    "outcomeEquipId": "item_unit_t5_edc_03_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 54
+  },
+  "item_formu_t5_edc_03_suit_phy": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_03_suit_phy",
+    "outcomeEquipId": "item_unit_t5_edc_03_suit_phy",
+    "unlockType": 1,
+    "unlockValue": 51
+  },
+  "item_formu_t5_edc_03_suit_poise": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_03_suit_poise",
+    "outcomeEquipId": "item_unit_t5_edc_03_suit_poise",
+    "unlockType": 1,
+    "unlockValue": 51
+  },
+  "item_formu_t5_edc_03_suit_pulse_cryst": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_03_suit_pulse_cryst",
+    "outcomeEquipId": "item_unit_t5_edc_03_suit_pulse_cryst",
+    "unlockType": 1,
+    "unlockValue": 54
+  },
+  "item_formu_t5_edc_04_suit_criti": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_edc_04_suit_criti",
+    "outcomeEquipId": "item_unit_t5_edc_04_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 52
+  },
+  "item_formu_t5_hand_01_parts_atk": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_parts_atk",
+    "outcomeEquipId": "item_unit_t5_hand_01_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t5_hand_01_suit_atb": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_suit_atb",
+    "outcomeEquipId": "item_unit_t5_hand_01_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 43
+  },
+  "item_formu_t5_hand_01_suit_attri": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_suit_attri",
+    "outcomeEquipId": "item_unit_t5_hand_01_suit_attri",
+    "unlockType": 1,
+    "unlockValue": 44
+  },
+  "item_formu_t5_hand_01_suit_criti": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_suit_criti",
+    "outcomeEquipId": "item_unit_t5_hand_01_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 43
+  },
+  "item_formu_t5_hand_01_suit_fire_natr": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_suit_fire_natr",
+    "outcomeEquipId": "item_unit_t5_hand_01_suit_fire_natr",
+    "unlockType": 1,
+    "unlockValue": 45
+  },
+  "item_formu_t5_hand_01_suit_heal": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_suit_heal",
+    "outcomeEquipId": "item_unit_t5_hand_01_suit_heal",
+    "unlockType": 1,
+    "unlockValue": 45
+  },
+  "item_formu_t5_hand_01_suit_phy": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_suit_phy",
+    "outcomeEquipId": "item_unit_t5_hand_01_suit_phy",
+    "unlockType": 1,
+    "unlockValue": 44
+  },
+  "item_formu_t5_hand_01_suit_poise": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_suit_poise",
+    "outcomeEquipId": "item_unit_t5_hand_01_suit_poise",
+    "unlockType": 1,
+    "unlockValue": 44
+  },
+  "item_formu_t5_hand_01_suit_pulse_cryst": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_01_suit_pulse_cryst",
+    "outcomeEquipId": "item_unit_t5_hand_01_suit_pulse_cryst",
+    "unlockType": 1,
+    "unlockValue": 45
+  },
+  "item_formu_t5_hand_02_parts_atk": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_02_parts_atk",
+    "outcomeEquipId": "item_unit_t5_hand_02_parts_atk",
+    "unlockType": 2,
+    "unlockValue": 0
+  },
+  "item_formu_t5_hand_02_suit_atb": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_02_suit_atb",
+    "outcomeEquipId": "item_unit_t5_hand_02_suit_atb",
+    "unlockType": 1,
+    "unlockValue": 43
+  },
+  "item_formu_t5_hand_02_suit_criti": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_02_suit_criti",
+    "outcomeEquipId": "item_unit_t5_hand_02_suit_criti",
+    "unlockType": 1,
+    "unlockValue": 43
+  },
+  "item_formu_t5_hand_02_suit_fire_natr": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_02_suit_fire_natr",
+    "outcomeEquipId": "item_unit_t5_hand_02_suit_fire_natr",
+    "unlockType": 1,
+    "unlockValue": 45
+  },
+  "item_formu_t5_hand_02_suit_phy": {
+    "costItemId": [
+      "item_equip_script_4",
+      "item_drop_enemycommon_1"
+    ],
+    "costItemNum": [
+      50,
+      450
+    ],
+    "formulaId": "item_formu_t5_hand_02_suit_phy",
+    "outcomeEquipId": "item_unit_t5_hand_02_suit_phy",
+    "unlockType": 1,
+    "unlockValue": 44
+  }
+}

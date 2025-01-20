@@ -1,0 +1,59 @@
+{
+  "1": {
+    "id": "grow_cabin_level_1",
+    "level": 1,
+    "rewardId": "",
+    "roomPrefab": "prefab_1",
+    "roomType": 2,
+    "stationMaxCount": 1,
+    "unlockPlantingField": [
+      1,
+      2,
+      3
+    ],
+    "unlockRecipe": [
+      "growcabin_plant_mushroom_1_1",
+      "growcabin_plant_crylplant_1_1",
+      "growcabin_plant_spcstone_1_1"
+    ]
+  },
+  "2": {
+    "id": "grow_cabin_level_2",
+    "level": 2,
+    "rewardId": "",
+    "roomPrefab": "prefab_2",
+    "roomType": 2,
+    "stationMaxCount": 2,
+    "unlockPlantingField": [
+      4,
+      5,
+      6
+    ],
+    "unlockRecipe": [
+      "growcabin_plant_mushroom_1_2",
+      "growcabin_plant_crylplant_1_2",
+      "growcabin_plant_spcstone_1_2"
+    ]
+  },
+  "3": {
+    "id": "grow_cabin_level_3",
+    "level": 3,
+    "rewardId": "",
+    "roomPrefab": "prefab_3",
+    "roomType": 2,
+    "stationMaxCount": 3,
+    "unlockPlantingField": [
+      7,
+      8,
+      9
+    ],
+    "unlockRecipe": [
+      "growcabin_plant_mushroom_1_3",
+      "growcabin_plant_crylplant_1_3",
+      "growcabin_plant_spcstone_1_3",
+      "growcabin_plant_mushroom_2_1",
+      "growcabin_plant_crylplant_2_1",
+      "growcabin_plant_spcstone_2_1"
+    ]
+  }
+}

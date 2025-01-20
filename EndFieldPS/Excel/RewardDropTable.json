@@ -1,0 +1,2586 @@
+{
+  "reward_mon_angle_large_10_14": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_10_14"
+  },
+  "reward_mon_angle_large_15_19": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_15_19"
+  },
+  "reward_mon_angle_large_1_4": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_1_4"
+  },
+  "reward_mon_angle_large_20_24": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_20_24"
+  },
+  "reward_mon_angle_large_25_29": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_25_29"
+  },
+  "reward_mon_angle_large_30_34": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_30_34"
+  },
+  "reward_mon_angle_large_35_39": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_35_39"
+  },
+  "reward_mon_angle_large_40_44": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_40_44"
+  },
+  "reward_mon_angle_large_45_49": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_45_49"
+  },
+  "reward_mon_angle_large_50_54": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_50_54"
+  },
+  "reward_mon_angle_large_55_59": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_55_59"
+  },
+  "reward_mon_angle_large_5_9": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_5_9"
+  },
+  "reward_mon_angle_large_60_64": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_60_64"
+  },
+  "reward_mon_angle_large_65_69": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_65_69"
+  },
+  "reward_mon_angle_large_70_74": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_70_74"
+  },
+  "reward_mon_angle_large_75_79": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_75_79"
+  },
+  "reward_mon_angle_large_80_80": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_large_80_80"
+  },
+  "reward_mon_angle_middle_10_14": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_10_14"
+  },
+  "reward_mon_angle_middle_15_19": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_15_19"
+  },
+  "reward_mon_angle_middle_1_4": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_1_4"
+  },
+  "reward_mon_angle_middle_20_24": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_20_24"
+  },
+  "reward_mon_angle_middle_25_29": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_25_29"
+  },
+  "reward_mon_angle_middle_30_34": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_30_34"
+  },
+  "reward_mon_angle_middle_35_39": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_35_39"
+  },
+  "reward_mon_angle_middle_40_44": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_40_44"
+  },
+  "reward_mon_angle_middle_45_49": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_45_49"
+  },
+  "reward_mon_angle_middle_50_54": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_50_54"
+  },
+  "reward_mon_angle_middle_55_59": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_55_59"
+  },
+  "reward_mon_angle_middle_5_9": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_5_9"
+  },
+  "reward_mon_angle_middle_60_64": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_60_64"
+  },
+  "reward_mon_angle_middle_65_69": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_65_69"
+  },
+  "reward_mon_angle_middle_70_74": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_70_74"
+  },
+  "reward_mon_angle_middle_75_79": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_75_79"
+  },
+  "reward_mon_angle_middle_80_80": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_middle_80_80"
+  },
+  "reward_mon_angle_small_10_14": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_10_14"
+  },
+  "reward_mon_angle_small_15_19": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_15_19"
+  },
+  "reward_mon_angle_small_1_4": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_1_4"
+  },
+  "reward_mon_angle_small_20_24": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_20_24"
+  },
+  "reward_mon_angle_small_25_29": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_25_29"
+  },
+  "reward_mon_angle_small_30_34": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_30_34"
+  },
+  "reward_mon_angle_small_35_39": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_35_39"
+  },
+  "reward_mon_angle_small_40_44": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_40_44"
+  },
+  "reward_mon_angle_small_45_49": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_45_49"
+  },
+  "reward_mon_angle_small_50_54": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_50_54"
+  },
+  "reward_mon_angle_small_55_59": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_55_59"
+  },
+  "reward_mon_angle_small_5_9": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_5_9"
+  },
+  "reward_mon_angle_small_60_64": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_60_64"
+  },
+  "reward_mon_angle_small_65_69": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_65_69"
+  },
+  "reward_mon_angle_small_70_74": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_70_74"
+  },
+  "reward_mon_angle_small_75_79": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_75_79"
+  },
+  "reward_mon_angle_small_80_80": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1",
+      "item_drop_angle_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_angle_small_80_80"
+  },
+  "reward_mon_animal_large_10_14": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_10_14"
+  },
+  "reward_mon_animal_large_15_19": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_15_19"
+  },
+  "reward_mon_animal_large_1_4": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_1_4"
+  },
+  "reward_mon_animal_large_20_24": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_20_24"
+  },
+  "reward_mon_animal_large_25_29": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_25_29"
+  },
+  "reward_mon_animal_large_30_34": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_30_34"
+  },
+  "reward_mon_animal_large_35_39": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_35_39"
+  },
+  "reward_mon_animal_large_40_44": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_40_44"
+  },
+  "reward_mon_animal_large_45_49": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_45_49"
+  },
+  "reward_mon_animal_large_50_54": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_50_54"
+  },
+  "reward_mon_animal_large_55_59": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_55_59"
+  },
+  "reward_mon_animal_large_5_9": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_5_9"
+  },
+  "reward_mon_animal_large_60_64": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_60_64"
+  },
+  "reward_mon_animal_large_65_69": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_65_69"
+  },
+  "reward_mon_animal_large_70_74": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_70_74"
+  },
+  "reward_mon_animal_large_75_79": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_75_79"
+  },
+  "reward_mon_animal_large_80_80": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_large_80_80"
+  },
+  "reward_mon_animal_middle_10_14": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_10_14"
+  },
+  "reward_mon_animal_middle_15_19": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_15_19"
+  },
+  "reward_mon_animal_middle_1_4": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_1_4"
+  },
+  "reward_mon_animal_middle_20_24": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_20_24"
+  },
+  "reward_mon_animal_middle_25_29": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_25_29"
+  },
+  "reward_mon_animal_middle_30_34": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_30_34"
+  },
+  "reward_mon_animal_middle_35_39": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_35_39"
+  },
+  "reward_mon_animal_middle_40_44": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_40_44"
+  },
+  "reward_mon_animal_middle_45_49": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_45_49"
+  },
+  "reward_mon_animal_middle_50_54": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_50_54"
+  },
+  "reward_mon_animal_middle_55_59": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_55_59"
+  },
+  "reward_mon_animal_middle_5_9": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_5_9"
+  },
+  "reward_mon_animal_middle_60_64": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_60_64"
+  },
+  "reward_mon_animal_middle_65_69": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_65_69"
+  },
+  "reward_mon_animal_middle_70_74": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_70_74"
+  },
+  "reward_mon_animal_middle_75_79": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_75_79"
+  },
+  "reward_mon_animal_middle_80_80": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_middle_80_80"
+  },
+  "reward_mon_animal_small_10_14": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_10_14"
+  },
+  "reward_mon_animal_small_15_19": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_15_19"
+  },
+  "reward_mon_animal_small_1_4": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_1_4"
+  },
+  "reward_mon_animal_small_20_24": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_20_24"
+  },
+  "reward_mon_animal_small_25_29": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_25_29"
+  },
+  "reward_mon_animal_small_30_34": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_30_34"
+  },
+  "reward_mon_animal_small_35_39": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_35_39"
+  },
+  "reward_mon_animal_small_40_44": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_40_44"
+  },
+  "reward_mon_animal_small_45_49": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_45_49"
+  },
+  "reward_mon_animal_small_50_54": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_50_54"
+  },
+  "reward_mon_animal_small_55_59": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_55_59"
+  },
+  "reward_mon_animal_small_5_9": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_5_9"
+  },
+  "reward_mon_animal_small_60_64": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_60_64"
+  },
+  "reward_mon_animal_small_65_69": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_65_69"
+  },
+  "reward_mon_animal_small_70_74": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_70_74"
+  },
+  "reward_mon_animal_small_75_79": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_75_79"
+  },
+  "reward_mon_animal_small_80_80": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_animal_small_80_80"
+  },
+  "reward_mon_dog_small_10_14": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_10_14"
+  },
+  "reward_mon_dog_small_15_19": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_15_19"
+  },
+  "reward_mon_dog_small_1_4": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_1_4"
+  },
+  "reward_mon_dog_small_20_24": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_20_24"
+  },
+  "reward_mon_dog_small_25_29": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_25_29"
+  },
+  "reward_mon_dog_small_30_34": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_30_34"
+  },
+  "reward_mon_dog_small_35_39": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_35_39"
+  },
+  "reward_mon_dog_small_40_44": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_40_44"
+  },
+  "reward_mon_dog_small_45_49": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_45_49"
+  },
+  "reward_mon_dog_small_50_54": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_50_54"
+  },
+  "reward_mon_dog_small_55_59": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_55_59"
+  },
+  "reward_mon_dog_small_5_9": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_5_9"
+  },
+  "reward_mon_dog_small_60_64": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_60_64"
+  },
+  "reward_mon_dog_small_65_69": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_65_69"
+  },
+  "reward_mon_dog_small_70_74": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_70_74"
+  },
+  "reward_mon_dog_small_75_79": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_75_79"
+  },
+  "reward_mon_dog_small_80_80": {
+    "itemIds": [
+      "item_drop_animal_1"
+    ],
+    "rewardId": "reward_mon_dog_small_80_80"
+  },
+  "reward_mon_eb_jl_large_10_14": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_10_14"
+  },
+  "reward_mon_eb_jl_large_15_19": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_15_19"
+  },
+  "reward_mon_eb_jl_large_1_4": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_1_4"
+  },
+  "reward_mon_eb_jl_large_20_24": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_20_24"
+  },
+  "reward_mon_eb_jl_large_25_29": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_25_29"
+  },
+  "reward_mon_eb_jl_large_30_34": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_30_34"
+  },
+  "reward_mon_eb_jl_large_35_39": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_35_39"
+  },
+  "reward_mon_eb_jl_large_40_44": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_40_44"
+  },
+  "reward_mon_eb_jl_large_45_49": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_45_49"
+  },
+  "reward_mon_eb_jl_large_50_54": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_50_54"
+  },
+  "reward_mon_eb_jl_large_55_59": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_55_59"
+  },
+  "reward_mon_eb_jl_large_5_9": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_5_9"
+  },
+  "reward_mon_eb_jl_large_60_64": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_60_64"
+  },
+  "reward_mon_eb_jl_large_65_69": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_65_69"
+  },
+  "reward_mon_eb_jl_large_70_74": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_70_74"
+  },
+  "reward_mon_eb_jl_large_75_79": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_75_79"
+  },
+  "reward_mon_eb_jl_large_80_80": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_large_80_80"
+  },
+  "reward_mon_eb_jl_middle_10_14": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_10_14"
+  },
+  "reward_mon_eb_jl_middle_15_19": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_15_19"
+  },
+  "reward_mon_eb_jl_middle_1_4": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_1_4"
+  },
+  "reward_mon_eb_jl_middle_20_24": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_20_24"
+  },
+  "reward_mon_eb_jl_middle_25_29": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_25_29"
+  },
+  "reward_mon_eb_jl_middle_30_34": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_30_34"
+  },
+  "reward_mon_eb_jl_middle_35_39": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_35_39"
+  },
+  "reward_mon_eb_jl_middle_40_44": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_40_44"
+  },
+  "reward_mon_eb_jl_middle_45_49": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_45_49"
+  },
+  "reward_mon_eb_jl_middle_50_54": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_50_54"
+  },
+  "reward_mon_eb_jl_middle_55_59": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_55_59"
+  },
+  "reward_mon_eb_jl_middle_5_9": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_5_9"
+  },
+  "reward_mon_eb_jl_middle_60_64": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_60_64"
+  },
+  "reward_mon_eb_jl_middle_65_69": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_65_69"
+  },
+  "reward_mon_eb_jl_middle_70_74": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_70_74"
+  },
+  "reward_mon_eb_jl_middle_75_79": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_75_79"
+  },
+  "reward_mon_eb_jl_middle_80_80": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_middle_80_80"
+  },
+  "reward_mon_eb_jl_small_10_14": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_10_14"
+  },
+  "reward_mon_eb_jl_small_15_19": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_15_19"
+  },
+  "reward_mon_eb_jl_small_1_4": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_1_4"
+  },
+  "reward_mon_eb_jl_small_20_24": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_20_24"
+  },
+  "reward_mon_eb_jl_small_25_29": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_25_29"
+  },
+  "reward_mon_eb_jl_small_30_34": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_30_34"
+  },
+  "reward_mon_eb_jl_small_35_39": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_35_39"
+  },
+  "reward_mon_eb_jl_small_40_44": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_40_44"
+  },
+  "reward_mon_eb_jl_small_45_49": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_45_49"
+  },
+  "reward_mon_eb_jl_small_50_54": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_50_54"
+  },
+  "reward_mon_eb_jl_small_55_59": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_55_59"
+  },
+  "reward_mon_eb_jl_small_5_9": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_5_9"
+  },
+  "reward_mon_eb_jl_small_60_64": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_60_64"
+  },
+  "reward_mon_eb_jl_small_65_69": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_65_69"
+  },
+  "reward_mon_eb_jl_small_70_74": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_70_74"
+  },
+  "reward_mon_eb_jl_small_75_79": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_75_79"
+  },
+  "reward_mon_eb_jl_small_80_80": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_eb_jl_s_1",
+      "item_drop_eb_jl_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_jl_small_80_80"
+  },
+  "reward_mon_eb_large_10_14": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_10_14"
+  },
+  "reward_mon_eb_large_15_19": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_15_19"
+  },
+  "reward_mon_eb_large_1_4": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_1_4"
+  },
+  "reward_mon_eb_large_20_24": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_20_24"
+  },
+  "reward_mon_eb_large_25_29": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_25_29"
+  },
+  "reward_mon_eb_large_30_34": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_30_34"
+  },
+  "reward_mon_eb_large_35_39": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_35_39"
+  },
+  "reward_mon_eb_large_40_44": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_40_44"
+  },
+  "reward_mon_eb_large_45_49": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_45_49"
+  },
+  "reward_mon_eb_large_50_54": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_50_54"
+  },
+  "reward_mon_eb_large_55_59": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_55_59"
+  },
+  "reward_mon_eb_large_5_9": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_5_9"
+  },
+  "reward_mon_eb_large_60_64": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_60_64"
+  },
+  "reward_mon_eb_large_65_69": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_65_69"
+  },
+  "reward_mon_eb_large_70_74": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_70_74"
+  },
+  "reward_mon_eb_large_75_79": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_75_79"
+  },
+  "reward_mon_eb_large_80_80": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_large_80_80"
+  },
+  "reward_mon_eb_middle_10_14": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_10_14"
+  },
+  "reward_mon_eb_middle_15_19": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_15_19"
+  },
+  "reward_mon_eb_middle_1_4": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_1_4"
+  },
+  "reward_mon_eb_middle_20_24": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_20_24"
+  },
+  "reward_mon_eb_middle_25_29": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_25_29"
+  },
+  "reward_mon_eb_middle_30_34": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_30_34"
+  },
+  "reward_mon_eb_middle_35_39": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_35_39"
+  },
+  "reward_mon_eb_middle_40_44": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_40_44"
+  },
+  "reward_mon_eb_middle_45_49": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_45_49"
+  },
+  "reward_mon_eb_middle_50_54": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_50_54"
+  },
+  "reward_mon_eb_middle_55_59": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_55_59"
+  },
+  "reward_mon_eb_middle_5_9": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_5_9"
+  },
+  "reward_mon_eb_middle_60_64": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_60_64"
+  },
+  "reward_mon_eb_middle_65_69": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_65_69"
+  },
+  "reward_mon_eb_middle_70_74": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_70_74"
+  },
+  "reward_mon_eb_middle_75_79": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_75_79"
+  },
+  "reward_mon_eb_middle_80_80": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_middle_80_80"
+  },
+  "reward_mon_eb_small_10_14": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_10_14"
+  },
+  "reward_mon_eb_small_15_19": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_15_19"
+  },
+  "reward_mon_eb_small_1_4": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_1_4"
+  },
+  "reward_mon_eb_small_20_24": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_20_24"
+  },
+  "reward_mon_eb_small_25_29": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_25_29"
+  },
+  "reward_mon_eb_small_30_34": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_30_34"
+  },
+  "reward_mon_eb_small_35_39": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_35_39"
+  },
+  "reward_mon_eb_small_40_44": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_40_44"
+  },
+  "reward_mon_eb_small_45_49": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_45_49"
+  },
+  "reward_mon_eb_small_50_54": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_50_54"
+  },
+  "reward_mon_eb_small_55_59": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_55_59"
+  },
+  "reward_mon_eb_small_5_9": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_5_9"
+  },
+  "reward_mon_eb_small_60_64": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_60_64"
+  },
+  "reward_mon_eb_small_65_69": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_65_69"
+  },
+  "reward_mon_eb_small_70_74": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_70_74"
+  },
+  "reward_mon_eb_small_75_79": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_75_79"
+  },
+  "reward_mon_eb_small_80_80": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1",
+      "item_drop_eb_l_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_eb_small_80_80"
+  },
+  "reward_mon_erosion_large_10_14": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_10_14"
+  },
+  "reward_mon_erosion_large_15_19": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_15_19"
+  },
+  "reward_mon_erosion_large_1_4": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_1_4"
+  },
+  "reward_mon_erosion_large_20_24": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_20_24"
+  },
+  "reward_mon_erosion_large_25_29": {
+    "itemIds": [
+      "item_gem_large_21_30",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_25_29"
+  },
+  "reward_mon_erosion_large_30_34": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_30_34"
+  },
+  "reward_mon_erosion_large_35_39": {
+    "itemIds": [
+      "item_gem_large_31_40",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_35_39"
+  },
+  "reward_mon_erosion_large_40_44": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_40_44"
+  },
+  "reward_mon_erosion_large_45_49": {
+    "itemIds": [
+      "item_gem_large_41_50",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_45_49"
+  },
+  "reward_mon_erosion_large_50_54": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_50_54"
+  },
+  "reward_mon_erosion_large_55_59": {
+    "itemIds": [
+      "item_gem_large_51_60",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_55_59"
+  },
+  "reward_mon_erosion_large_5_9": {
+    "itemIds": [
+      "item_gem_large_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_5_9"
+  },
+  "reward_mon_erosion_large_60_64": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_60_64"
+  },
+  "reward_mon_erosion_large_65_69": {
+    "itemIds": [
+      "item_gem_large_61_70",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_65_69"
+  },
+  "reward_mon_erosion_large_70_74": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_70_74"
+  },
+  "reward_mon_erosion_large_75_79": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_75_79"
+  },
+  "reward_mon_erosion_large_80_80": {
+    "itemIds": [
+      "item_gem_large_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_large_80_80"
+  },
+  "reward_mon_erosion_middle_10_14": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_10_14"
+  },
+  "reward_mon_erosion_middle_15_19": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_15_19"
+  },
+  "reward_mon_erosion_middle_1_4": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_1_4"
+  },
+  "reward_mon_erosion_middle_20_24": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_20_24"
+  },
+  "reward_mon_erosion_middle_25_29": {
+    "itemIds": [
+      "item_gem_middle_21_30",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_25_29"
+  },
+  "reward_mon_erosion_middle_30_34": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_30_34"
+  },
+  "reward_mon_erosion_middle_35_39": {
+    "itemIds": [
+      "item_gem_middle_31_40",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_35_39"
+  },
+  "reward_mon_erosion_middle_40_44": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_40_44"
+  },
+  "reward_mon_erosion_middle_45_49": {
+    "itemIds": [
+      "item_gem_middle_41_50",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_45_49"
+  },
+  "reward_mon_erosion_middle_50_54": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_50_54"
+  },
+  "reward_mon_erosion_middle_55_59": {
+    "itemIds": [
+      "item_gem_middle_51_60",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_55_59"
+  },
+  "reward_mon_erosion_middle_5_9": {
+    "itemIds": [
+      "item_gem_middle_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_5_9"
+  },
+  "reward_mon_erosion_middle_60_64": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_60_64"
+  },
+  "reward_mon_erosion_middle_65_69": {
+    "itemIds": [
+      "item_gem_middle_61_70",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_65_69"
+  },
+  "reward_mon_erosion_middle_70_74": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_70_74"
+  },
+  "reward_mon_erosion_middle_75_79": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_75_79"
+  },
+  "reward_mon_erosion_middle_80_80": {
+    "itemIds": [
+      "item_gem_middle_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_middle_80_80"
+  },
+  "reward_mon_erosion_small_10_14": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_10_14"
+  },
+  "reward_mon_erosion_small_15_19": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_15_19"
+  },
+  "reward_mon_erosion_small_1_4": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_1_4"
+  },
+  "reward_mon_erosion_small_20_24": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_20_24"
+  },
+  "reward_mon_erosion_small_25_29": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_25_29"
+  },
+  "reward_mon_erosion_small_30_34": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_30_34"
+  },
+  "reward_mon_erosion_small_35_39": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_35_39"
+  },
+  "reward_mon_erosion_small_40_44": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_40_44"
+  },
+  "reward_mon_erosion_small_45_49": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_45_49"
+  },
+  "reward_mon_erosion_small_50_54": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_50_54"
+  },
+  "reward_mon_erosion_small_55_59": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_55_59"
+  },
+  "reward_mon_erosion_small_5_9": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_5_9"
+  },
+  "reward_mon_erosion_small_60_64": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_60_64"
+  },
+  "reward_mon_erosion_small_65_69": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_65_69"
+  },
+  "reward_mon_erosion_small_70_74": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_70_74"
+  },
+  "reward_mon_erosion_small_75_79": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_75_79"
+  },
+  "reward_mon_erosion_small_80_80": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_erosion_s_1",
+      "item_drop_erosion_m_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_erosion_small_80_80"
+  },
+  "reward_mon_hound_small_10_14": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_10_14"
+  },
+  "reward_mon_hound_small_15_19": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_15_19"
+  },
+  "reward_mon_hound_small_1_4": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_1_4"
+  },
+  "reward_mon_hound_small_20_24": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_20_24"
+  },
+  "reward_mon_hound_small_25_29": {
+    "itemIds": [
+      "item_gem_small_21_30",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_25_29"
+  },
+  "reward_mon_hound_small_30_34": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_30_34"
+  },
+  "reward_mon_hound_small_35_39": {
+    "itemIds": [
+      "item_gem_small_31_40",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_35_39"
+  },
+  "reward_mon_hound_small_40_44": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_40_44"
+  },
+  "reward_mon_hound_small_45_49": {
+    "itemIds": [
+      "item_gem_small_41_50",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_45_49"
+  },
+  "reward_mon_hound_small_50_54": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_50_54"
+  },
+  "reward_mon_hound_small_55_59": {
+    "itemIds": [
+      "item_gem_small_51_60",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_55_59"
+  },
+  "reward_mon_hound_small_5_9": {
+    "itemIds": [
+      "item_gem_small_1_20",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_5_9"
+  },
+  "reward_mon_hound_small_60_64": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_60_64"
+  },
+  "reward_mon_hound_small_65_69": {
+    "itemIds": [
+      "item_gem_small_61_70",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_65_69"
+  },
+  "reward_mon_hound_small_70_74": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_70_74"
+  },
+  "reward_mon_hound_small_75_79": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_75_79"
+  },
+  "reward_mon_hound_small_80_80": {
+    "itemIds": [
+      "item_gem_small_71_80",
+      "item_drop_animal_1",
+      "item_drop_enemycommon_1"
+    ],
+    "rewardId": "reward_mon_hound_small_80_80"
+  }
+}

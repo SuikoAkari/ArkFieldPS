@@ -1,0 +1,1865 @@
+{
+  "mark_bd_battle_cannon_1": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "3165AD4B92F05074",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_cannon_1",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "9E96DD50C69C3434",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_cannon_2": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "70E52058FEE09F23",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_cannon_2",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "A078B0F7A363834D",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_frost_1": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "1952248C5EB84D0B",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_frost_1",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "3EB502E4CC94C725",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_laser_1": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "1A65134DB960FE90",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_laser_1",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "78122EE547FB4ADE",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_laser_2": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "C0A3402DEA341701",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_laser_2",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "00BE5A98497D9446",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_lightning_1": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "B482BC709788C27C",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_lightning_1",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "649CE9743E8F0456",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_shockwave_1": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "D57857474788E531",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_shockwave_1",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "23C5D0CCCBEAAD8A",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_sniper_1": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "627D7FBA9608C01C",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_sniper_1",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "C726460EE3E51BA0",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_turret_1": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "62D11E9A9E050CBD",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_turret_1",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "A9A020F5AEB9F3BE",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_battle_turret_2": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "6419CA326013CA43",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_battle_turret_2",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "EA8F48F60AB86284",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_dumper": {
+    "activeIcon": "icon_map_water_supply",
+    "defaultVisible": true,
+    "desc": {
+      "id": "B5D30E767054E586",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_water_supply_small",
+    "detailInactiveIcon": "icon_map_water_supply_unactive_small",
+    "inActiveIcon": "icon_map_water_supply_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_dumper",
+    "markInfoType": 27,
+    "markType": 1,
+    "name": {
+      "id": "F39CE6718B0DD57D",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_component_mc_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "5C11F4676EA7EE44",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_component_mc_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "B948A5C54BEE8AB9",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_filling_powder_mc_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "0F784424BA04EAE3",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_filling_powder_mc_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "2E98C5A1F627B788",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_furnance_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "6726CDA685A25E7C",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_furnance_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "4C0FB70FFB4B38F0",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_grinder_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "23AC9E0B4AD64C2D",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_grinder_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "74E50900B4210712",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_liquid_cleaner_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "5DD59ED3047289BF",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_liquid_cleaner_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "45F5FAD7C603B348",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_mix_pool_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "F808746DAD9981AA",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_mix_pool_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "C47038C80A00D20E",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_planter_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "CE50647B020BAAAE",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_planter_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "2CBC1EC4D676545D",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_power_station_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "EC0A8E8BAF090FB5",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_power_station_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "29757E85A04DEB6C",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_seedcollector_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "EE68C9BBF8604A1A",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_seedcollector_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "17FC62273177BF47",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_shaper_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "69F8E6D7BF5C9EBC",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_shaper_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "1EFF26B972D35ABA",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_squirter_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "598F6EF8FC264425",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_squirter_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "3619F9A216BCC3C9",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_thickener_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "8810565CD41AFD65",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_thickener_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "6FE382F545033EDA",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_tools_assebling_mc_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "724C1953E35A9339",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_tools_assebling_mc_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "FA29BF11B9E73775",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_formula_winder_1": {
+    "activeIcon": "icon_map_general_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "FA87B4C56BDEB54A",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_general_architecture_small",
+    "detailInactiveIcon": "icon_map_general_architecture_unactive_small",
+    "inActiveIcon": "icon_map_general_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_formula_winder_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "6BCE6632A806C2ED",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_liquid_storebox": {
+    "activeIcon": "icon_map_storager_box",
+    "defaultVisible": true,
+    "desc": {
+      "id": "65D4854880E37170",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_storager_box_small",
+    "detailInactiveIcon": "icon_map_storager_box_unactive_small",
+    "inActiveIcon": "icon_map_storager_box_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_liquid_storebox",
+    "markInfoType": 0,
+    "markType": 1,
+    "name": {
+      "id": "3FEF0AC7CBC1F9E9",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_medtower": {
+    "activeIcon": "icon_map_combat_architecture",
+    "defaultVisible": true,
+    "desc": {
+      "id": "A813F91B0ECA57E6",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_combat_architecture_small",
+    "detailInactiveIcon": "icon_map_combat_architecture_unactive_small",
+    "inActiveIcon": "icon_map_combat_architecture_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_medtower",
+    "markInfoType": 25,
+    "markType": 1,
+    "name": {
+      "id": "34AC4ACABBB57C6B",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_minemachine": {
+    "activeIcon": "icon_map_miner",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_miner_small",
+    "detailInactiveIcon": "icon_map_miner_unactive_small",
+    "inActiveIcon": "icon_map_miner_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_minemachine",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "8E90C9222904E7FB",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_powergate": {
+    "activeIcon": "power_gate_icon",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "power_gate_icon",
+    "detailInactiveIcon": "power_gate_icon",
+    "inActiveIcon": "power_gate_icon",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_powergate",
+    "markInfoType": 3,
+    "markType": 1,
+    "name": {
+      "id": "CD2281934FF0E384",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_bd_powerpole": {
+    "activeIcon": "icon_map_pole",
+    "defaultVisible": true,
+    "desc": {
+      "id": "38C0FFA8FE38186D",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_pole_small",
+    "detailInactiveIcon": "icon_map_pole_unactive_small",
+    "inActiveIcon": "icon_map_pole_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_powerpole",
+    "markInfoType": 3,
+    "markType": 1,
+    "name": {
+      "id": "DAF2CE0F6FE9F1D2",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_bd_powerpole_2": {
+    "activeIcon": "icon_map_big_pole",
+    "defaultVisible": true,
+    "desc": {
+      "id": "89F69ADA61883ED6",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_big_pole_small",
+    "detailInactiveIcon": "icon_map_big_pole_unactive_small",
+    "inActiveIcon": "icon_map_big_pole_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_powerpole_2",
+    "markInfoType": 3,
+    "markType": 1,
+    "name": {
+      "id": "1D9F66B3996711F2",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_bd_powerport": {
+    "activeIcon": "icon_map_terminal",
+    "defaultVisible": true,
+    "desc": {
+      "id": "A7FEFFDB807C5957",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_terminal_small",
+    "detailInactiveIcon": "icon_map_terminal_unactive_small",
+    "inActiveIcon": "icon_map_terminal_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_powerport",
+    "markInfoType": 3,
+    "markType": 1,
+    "name": {
+      "id": "B6845DDA2B61FCF5",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_bd_powerterminal": {
+    "activeIcon": "icon_map_terminal",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_terminal_small",
+    "detailInactiveIcon": "icon_map_terminal_unactive_small",
+    "inActiveIcon": "icon_map_terminal_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_powerterminal",
+    "markInfoType": 3,
+    "markType": 1,
+    "name": {
+      "id": "ECD144B009A355F0",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_bd_pump": {
+    "activeIcon": "icon_map_water_pump",
+    "defaultVisible": true,
+    "desc": {
+      "id": "956F4C0D177A5045",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_water_pump_small",
+    "detailInactiveIcon": "icon_map_water_pump_unactive_small",
+    "inActiveIcon": "icon_map_water_pump_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_pump",
+    "markInfoType": 27,
+    "markType": 1,
+    "name": {
+      "id": "BDA04DC063C884B2",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_1": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "3892206C4E9CB66C",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "CD6671554558518C",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_2": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "0C92A52528C39F73",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_2",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "EE5A2A62FF747EED",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_bbflower_1": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "02B3FA378F5C5BAA",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_bbflower_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "92B5948EC9EBEA00",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_grass_1": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "C6F7A641B730CC5C",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_grass_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "CF1B9391D360340D",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_grass_2": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "4D97D2DE679C4D09",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_grass_2",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "8A346C9F73683696",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_grass_fast_1": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "BDED9529D9D33EC4",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_grass_fast_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "4C19AD7D919F1351",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_grass_fast_2": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "C8A340365E5B4316",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_grass_fast_2",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "8BA5262F8203EC14",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_moss_1": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "EEC9D3936B0F3E98",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_moss_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "D5097CC1BFA0CE5F",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_moss_2": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "652FE05F7FF7ABA4",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_moss_2",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "1CC5A24AD179169B",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_moss_3": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "DD3BB16FC3025728",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_moss_3",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "AA91EF77E2778FE1",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_sp_1": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "587EBFD0B1CE9F7C",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_sp_1",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "E0DA079D65B8E9C8",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_sp_2": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "A350343AD040F87D",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_sp_2",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "6A6D9CB143011153",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_sp_3": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "AB1C15D9539BA715",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_sp_3",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "0A6DDCF4AA03D738",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_sp_4": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "31705A0525D48BF7",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_sp_4",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "2C02C7766E1B19F7",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_sp_fast_3": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "B93D88E6714DC2E5",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_sp_fast_3",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "25EF13E630483293",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_soil_sp_fast_4": {
+    "activeIcon": "icon_map_fields",
+    "defaultVisible": true,
+    "desc": {
+      "id": "84164911754A3A82",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fields_small",
+    "detailInactiveIcon": "icon_map_fields_small",
+    "inActiveIcon": "icon_map_fields",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_soil_sp_fast_4",
+    "markInfoType": 26,
+    "markType": 1,
+    "name": {
+      "id": "CA748C9A7C89CB8F",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_storebox": {
+    "activeIcon": "icon_map_storager_box",
+    "defaultVisible": true,
+    "desc": {
+      "id": "9FCF7AF97D5C83FE",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_storager_box_small",
+    "detailInactiveIcon": "icon_map_storager_box_unactive_small",
+    "inActiveIcon": "icon_map_storager_box_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_storebox",
+    "markInfoType": 0,
+    "markType": 1,
+    "name": {
+      "id": "A98DF714730B2DC2",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 3
+  },
+  "mark_bd_transtower": {
+    "activeIcon": "icon_map_travel_pole",
+    "defaultVisible": true,
+    "desc": {
+      "id": "040E1C8CB93E9E00",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_travel_pole_small",
+    "detailInactiveIcon": "icon_map_travel_pole_unactive_small",
+    "inActiveIcon": "icon_map_travel_pole_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_transtower",
+    "markInfoType": 2,
+    "markType": 1,
+    "name": {
+      "id": "A046290D14E5BBB1",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_bd_transtower_2": {
+    "activeIcon": "icon_map_travel_pole",
+    "defaultVisible": true,
+    "desc": {
+      "id": "32B7ED87D7C9CB7D",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_travel_pole_small",
+    "detailInactiveIcon": "icon_map_travel_pole_unactive_small",
+    "inActiveIcon": "icon_map_travel_pole_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_transtower_2",
+    "markInfoType": 2,
+    "markType": 1,
+    "name": {
+      "id": "94CB29A376E7F479",
+      "text": ""
+    },
+    "sortOrder": 1,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_dg_blackbox": {
+    "activeIcon": "icon_map_blackbox",
+    "defaultVisible": false,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_blackbox_small",
+    "detailInactiveIcon": "icon_map_blackbox_unactive_small",
+    "inActiveIcon": "icon_map_blackbox_unactive",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_dg_blackbox",
+    "markInfoType": 21,
+    "markType": 4,
+    "name": {
+      "id": "82213A86B9D9C7C6",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_dg_bossrush": {
+    "activeIcon": "icon_map_boss",
+    "defaultVisible": false,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_boss_small",
+    "detailInactiveIcon": "icon_map_boss_unactive_small",
+    "inActiveIcon": "icon_map_boss_unactive",
+    "isStatic": true,
+    "isVisibleActive": false,
+    "markInfoId": "mark_dg_bossrush",
+    "markInfoType": 16,
+    "markType": 17,
+    "name": {
+      "id": "28045EA33E5D0BFD",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_dg_pazzle": {
+    "activeIcon": "icon_map_dungeon",
+    "defaultVisible": false,
+    "desc": {
+      "id": "EB5C4CBD8316C0E1",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_dungeon_small",
+    "detailInactiveIcon": "icon_map_dungeon_unactive_small",
+    "inActiveIcon": "icon_map_dungeon_unactive",
+    "isStatic": true,
+    "isVisibleActive": false,
+    "markInfoId": "mark_dg_pazzle",
+    "markInfoType": 12,
+    "markType": 3,
+    "name": {
+      "id": "881E6B2FA6E0B20C",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_dg_resource": {
+    "activeIcon": "icon_map_dungeon",
+    "defaultVisible": false,
+    "desc": {
+      "id": "0BA478F544C5C854",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_dungeon_small",
+    "detailInactiveIcon": "icon_map_dungeon_unactive_small",
+    "inActiveIcon": "icon_map_dungeon_unactive",
+    "isStatic": true,
+    "isVisibleActive": false,
+    "markInfoId": "mark_dg_resource",
+    "markInfoType": 12,
+    "markType": 18,
+    "name": {
+      "id": "BBAF2663B6853E01",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_mis_char": {
+    "activeIcon": "icon_map_mission_character",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_mission_character_small",
+    "detailInactiveIcon": "icon_map_mission_character_small",
+    "inActiveIcon": "icon_map_mission_character",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_mis_char",
+    "markInfoType": 7,
+    "markType": 10,
+    "name": {
+      "id": "9F1D2D7DE231DB32",
+      "text": ""
+    },
+    "sortOrder": 3,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_mis_factory": {
+    "activeIcon": "icon_map_mission_factory",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_mission_factory_small",
+    "detailInactiveIcon": "icon_map_mission_factory_small",
+    "inActiveIcon": "icon_map_mission_factory",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_mis_factory",
+    "markInfoType": 8,
+    "markType": 10,
+    "name": {
+      "id": "78332BD410055598",
+      "text": ""
+    },
+    "sortOrder": 3,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_mis_main": {
+    "activeIcon": "icon_map_mission_main",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_mission_main_small",
+    "detailInactiveIcon": "icon_map_mission_main_small",
+    "inActiveIcon": "icon_map_mission_main",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_mis_main",
+    "markInfoType": 6,
+    "markType": 10,
+    "name": {
+      "id": "DEE072BE4ACBEDB2",
+      "text": ""
+    },
+    "sortOrder": 4,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_mis_misc": {
+    "activeIcon": "icon_map_mission_daily",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_mission_daily_small",
+    "detailInactiveIcon": "icon_map_mission_daily_small",
+    "inActiveIcon": "icon_map_mission_daily",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_mis_misc",
+    "markInfoType": 29,
+    "markType": 10,
+    "name": {
+      "id": "8C493277B4E50907",
+      "text": ""
+    },
+    "sortOrder": 3,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_mis_tracking": {
+    "activeIcon": "icon_map_mission_track",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "mission_track_map_icon_small_small",
+    "detailInactiveIcon": "mission_track_map_icon_small_small",
+    "inActiveIcon": "icon_map_mission_track",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_mis_tracking",
+    "markInfoType": 30,
+    "markType": 9,
+    "name": {
+      "id": "515B0D7A6DACB068",
+      "text": ""
+    },
+    "sortOrder": 5,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_mis_world": {
+    "activeIcon": "icon_map_mission_world",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_mission_world_small",
+    "detailInactiveIcon": "icon_map_mission_world_small",
+    "inActiveIcon": "icon_map_mission_world",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_mis_world",
+    "markInfoType": 28,
+    "markType": 10,
+    "name": {
+      "id": "9A15A70CDB6CD0A4",
+      "text": ""
+    },
+    "sortOrder": 3,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_npc_racingdungeon": {
+    "activeIcon": "icon_map_racing_NPC",
+    "defaultVisible": false,
+    "desc": {
+      "id": "22EDBC47AFEF81CB",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_racing_NPC_small",
+    "detailInactiveIcon": "icon_map_racing_NPC_unactive_small",
+    "inActiveIcon": "icon_map_racing_NPC_unactive",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_npc_racingdungeon",
+    "markInfoType": 24,
+    "markType": 31,
+    "name": {
+      "id": "3C6DB305F7128AC0",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_npc_ss_manualCollect": {
+    "activeIcon": "icon_map_manualColletion_NPC",
+    "defaultVisible": false,
+    "desc": {
+      "id": "410BBD53063154E3",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_manualColletion_NPC_small",
+    "detailInactiveIcon": "icon_map_manualColletion_NPC_small",
+    "inActiveIcon": "icon_map_manualColletion_NPC",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_npc_ss_manualCollect",
+    "markInfoType": 24,
+    "markType": 35,
+    "name": {
+      "id": "5B6160C7146C91FF",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_npc_ss_shop": {
+    "activeIcon": "icon_map_ship_shop",
+    "defaultVisible": false,
+    "desc": {
+      "id": "CD1EA9D3E1A86CD8",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_ship_shop_small",
+    "detailInactiveIcon": "icon_map_ship_shop_unactive_small",
+    "inActiveIcon": "icon_map_ship_shop_unactive",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_npc_ss_shop",
+    "markInfoType": 24,
+    "markType": 33,
+    "name": {
+      "id": "18014EC3E7D2B7FF",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_npc_ss_trainingroom": {
+    "activeIcon": "icon_map_trainingroom",
+    "defaultVisible": false,
+    "desc": {
+      "id": "D67A0819C20F2376",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_trainingroom_small",
+    "detailInactiveIcon": "icon_map_trainingroom_unactive_small",
+    "inActiveIcon": "icon_map_trainingroom_unactive",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_npc_ss_trainingroom",
+    "markInfoType": 24,
+    "markType": 34,
+    "name": {
+      "id": "164170E9DC2E33F6",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_p_doodad_spcstone": {
+    "activeIcon": "icon_map_special_mine",
+    "defaultVisible": true,
+    "desc": {
+      "id": "9E2B020288AD0B4C",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_special_mine_small",
+    "detailInactiveIcon": "icon_map_special_mine_small",
+    "inActiveIcon": "icon_map_special_mine",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_p_doodad_spcstone",
+    "markInfoType": 19,
+    "markType": 6,
+    "name": {
+      "id": "F4561D888C058805",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_p_doodad_tundranest": {
+    "activeIcon": "icon_map_special_plant",
+    "defaultVisible": true,
+    "desc": {
+      "id": "CFBC2247D1D163A9",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_special_plant_small",
+    "detailInactiveIcon": "icon_map_special_plant_small",
+    "inActiveIcon": "icon_map_special_plant",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_p_doodad_tundranest",
+    "markInfoType": 18,
+    "markType": 6,
+    "name": {
+      "id": "3AA5DCFB2E4CB4A6",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_p_enemyspawner": {
+    "activeIcon": "icon_map_enemyspawner",
+    "defaultVisible": false,
+    "desc": {
+      "id": "140BA247791FF27D",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_enemyspawner_small",
+    "detailInactiveIcon": "icon_map_enemyspawner_unactive_small",
+    "inActiveIcon": "icon_map_enemyspawner_unactive",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_p_enemyspawner",
+    "markInfoType": 15,
+    "markType": 2,
+    "name": {
+      "id": "672545F1F924CF62",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_p_fixablerobot": {
+    "activeIcon": "icon_map_fixablerobot",
+    "defaultVisible": false,
+    "desc": {
+      "id": "8A90173347FA8D96",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_fixablerobot_small",
+    "detailInactiveIcon": "icon_map_fixablerobot_unactive_small",
+    "inActiveIcon": "icon_map_fixablerobot_unactive",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_p_fixablerobot",
+    "markInfoType": 22,
+    "markType": 11,
+    "name": {
+      "id": "46A1E68E6F7109C8",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 30,
+    "visibleLayer": 2
+  },
+  "mark_p_minepoint_team": {
+    "activeIcon": "icon_map_mine",
+    "defaultVisible": false,
+    "desc": {
+      "id": "9B049C80A9F0F4B1",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_mine_small",
+    "detailInactiveIcon": "icon_map_mine_small",
+    "inActiveIcon": "icon_map_mine",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_p_minepoint_team",
+    "markInfoType": 17,
+    "markType": 5,
+    "name": {
+      "id": "4FB3D32798B6EFDB",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_p_pazzle": {
+    "activeIcon": "icon_map_pazzle",
+    "defaultVisible": false,
+    "desc": {
+      "id": "07C484B91832061B",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_pazzle_small",
+    "detailInactiveIcon": "icon_map_pazzle_small",
+    "inActiveIcon": "icon_map_pazzle",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_p_pazzle",
+    "markInfoType": 23,
+    "markType": 16,
+    "name": {
+      "id": "2976304975586F09",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_p_recycler": {
+    "activeIcon": "icon_map_recycle",
+    "defaultVisible": false,
+    "desc": {
+      "id": "D2B194020E62636D",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_recycle_small",
+    "detailInactiveIcon": "icon_map_recycle_small",
+    "inActiveIcon": "icon_map_recycle",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_p_recycler",
+    "markInfoType": 20,
+    "markType": 7,
+    "name": {
+      "id": "91162B6A2D0C5996",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_sp_campfire": {
+    "activeIcon": "icon_map_campfire",
+    "defaultVisible": true,
+    "desc": {
+      "id": "7FEC7ABD7BE5F472",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_campfire_detail",
+    "detailInactiveIcon": "icon_map_campfire_unactive_small",
+    "inActiveIcon": "icon_map_campfire_unactive",
+    "isStatic": true,
+    "isVisibleActive": false,
+    "markInfoId": "mark_sp_campfire",
+    "markInfoType": 10,
+    "markType": 8,
+    "name": {
+      "id": "D2A14F1C2D8C90E2",
+      "text": ""
+    },
+    "sortOrder": 5,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_sp_hub": {
+    "activeIcon": "icon_map_HUB",
+    "defaultVisible": true,
+    "desc": {
+      "id": "2F2DA15C92C0CC57",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_HUB_detail",
+    "detailInactiveIcon": "icon_map_HUB_unactive_small",
+    "inActiveIcon": "icon_map_HUB_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_sp_hub",
+    "markInfoType": 5,
+    "markType": 15,
+    "name": {
+      "id": "155574A72C369F9A",
+      "text": ""
+    },
+    "sortOrder": 5,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_sp_settlement": {
+    "activeIcon": "icon_map_settlement",
+    "defaultVisible": true,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_settlement_detail",
+    "detailInactiveIcon": "icon_map_settlement_unactive_small",
+    "inActiveIcon": "icon_map_settlement_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_sp_settlement",
+    "markInfoType": 14,
+    "markType": 12,
+    "name": {
+      "id": "31B5A5ACE610683B",
+      "text": ""
+    },
+    "sortOrder": 5,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_sp_sub_hub": {
+    "activeIcon": "icon_map_settlement",
+    "defaultVisible": true,
+    "desc": {
+      "id": "4F844E3ED91DCFC6",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_settlement_detail",
+    "detailInactiveIcon": "icon_map_settlement_unactive_small",
+    "inActiveIcon": "icon_map_settlement_unactive",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_sp_sub_hub",
+    "markInfoType": 14,
+    "markType": 15,
+    "name": {
+      "id": "34B88087CCEB57D4",
+      "text": ""
+    },
+    "sortOrder": 5,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_ss_controlcenter": {
+    "activeIcon": "icon_map_controlcenter",
+    "defaultVisible": false,
+    "desc": {
+      "id": "2E7694B18EB5865A",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_controlcenter_small",
+    "detailInactiveIcon": "icon_map_controlcenter_unactive_small",
+    "inActiveIcon": "icon_map_controlcenter_unactive",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_ss_controlcenter",
+    "markInfoType": 24,
+    "markType": 13,
+    "name": {
+      "id": "8C9C8A499EEA2F16",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_ss_room_growcabin": {
+    "activeIcon": "icon_map_room_growcabin",
+    "defaultVisible": true,
+    "desc": {
+      "id": "04DB14ECDEF76AFD",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_room_growcabin_small",
+    "detailInactiveIcon": "icon_map_room_growcabin_unactive_small",
+    "inActiveIcon": "icon_map_room_growcabin_unactive",
+    "isStatic": true,
+    "isVisibleActive": false,
+    "markInfoId": "mark_ss_room_growcabin",
+    "markInfoType": 24,
+    "markType": 14,
+    "name": {
+      "id": "115E31452BAD8757",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  },
+  "mark_ss_room_manufacturingstation": {
+    "activeIcon": "icon_map_room_manufacturingstation",
+    "defaultVisible": true,
+    "desc": {
+      "id": "15BDC6CC4E540887",
+      "text": ""
+    },
+    "detailActiveIcon": "icon_map_room_manufacturingstation_small",
+    "detailInactiveIcon": "icon_map_room_manufacturingstation_unactive_small",
+    "inActiveIcon": "icon_map_room_manufacturingstation_unactive",
+    "isStatic": true,
+    "isVisibleActive": false,
+    "markInfoId": "mark_ss_room_manufacturingstation",
+    "markInfoType": 24,
+    "markType": 14,
+    "name": {
+      "id": "8359483B7E4171EB",
+      "text": ""
+    },
+    "sortOrder": 2,
+    "visibleDist": 50,
+    "visibleLayer": 1
+  }
+}

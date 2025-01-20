@@ -1,0 +1,170 @@
+{
+  "system_char_formation": {
+    "redDotName": "",
+    "systemDesc": {
+      "id": "EAE3AAC7ACB9AFD1",
+      "text": ""
+    },
+    "systemIcon": "btn_formation",
+    "systemId": "system_char_formation",
+    "systemName": {
+      "id": "8D455112D4FE84F2",
+      "text": ""
+    },
+    "unlockSystemType": 5
+  },
+  "system_character": {
+    "redDotName": "",
+    "systemDesc": {
+      "id": "47C2997DF8160213",
+      "text": ""
+    },
+    "systemIcon": "btn_character",
+    "systemId": "system_character",
+    "systemName": {
+      "id": "6043FA7A59CAB8FA",
+      "text": ""
+    },
+    "unlockSystemType": 59
+  },
+  "system_employee": {
+    "redDotName": "",
+    "systemDesc": {
+      "id": "C404171F59071D9E",
+      "text": ""
+    },
+    "systemIcon": "btn_employee",
+    "systemId": "system_employee",
+    "systemName": {
+      "id": "6044C5DC1C03BBB4",
+      "text": ""
+    },
+    "unlockSystemType": 105
+  },
+  "system_gacha": {
+    "redDotName": "Gacha",
+    "systemDesc": {
+      "id": "",
+      "text": ""
+    },
+    "systemIcon": "",
+    "systemId": "system_gacha",
+    "systemName": {
+      "id": "83CA9EE83F88D587",
+      "text": ""
+    },
+    "unlockSystemType": 51
+  },
+  "system_hub_data": {
+    "redDotName": "",
+    "systemDesc": {
+      "id": "64A454987A734792",
+      "text": ""
+    },
+    "systemIcon": "btn_hubdata",
+    "systemId": "system_hub_data",
+    "systemName": {
+      "id": "6DDB155567D98937",
+      "text": ""
+    },
+    "unlockSystemType": 106
+  },
+  "system_inventory": {
+    "redDotName": "InventoryBtn",
+    "systemDesc": {
+      "id": "70F06861BFAA970D",
+      "text": ""
+    },
+    "systemIcon": "btn_backpack",
+    "systemId": "system_inventory",
+    "systemName": {
+      "id": "D7944C71935CCA3A",
+      "text": ""
+    },
+    "unlockSystemType": 1
+  },
+  "system_mail": {
+    "redDotName": "Mail",
+    "systemDesc": {
+      "id": "",
+      "text": ""
+    },
+    "systemIcon": "btn_mail",
+    "systemId": "system_mail",
+    "systemName": {
+      "id": "07650F731C8BD5D1",
+      "text": ""
+    },
+    "unlockSystemType": 54
+  },
+  "system_mission": {
+    "redDotName": "",
+    "systemDesc": {
+      "id": "F8C12B79407939C3",
+      "text": ""
+    },
+    "systemIcon": "btn_mission",
+    "systemId": "system_mission",
+    "systemName": {
+      "id": "CD896C5C9A57DB20",
+      "text": ""
+    },
+    "unlockSystemType": 10000000
+  },
+  "system_settlement": {
+    "redDotName": "Settlement",
+    "systemDesc": {
+      "id": "",
+      "text": ""
+    },
+    "systemIcon": "",
+    "systemId": "system_settlement",
+    "systemName": {
+      "id": "1D0B120F735617A8",
+      "text": ""
+    },
+    "unlockSystemType": 501
+  },
+  "system_tech_tree": {
+    "redDotName": "TechTree",
+    "systemDesc": {
+      "id": "EED212EA2E9EE9EA",
+      "text": ""
+    },
+    "systemIcon": "btn_techtree",
+    "systemId": "system_tech_tree",
+    "systemName": {
+      "id": "9F23B755CFF1A678",
+      "text": ""
+    },
+    "unlockSystemType": 104
+  },
+  "system_valuable_depot": {
+    "redDotName": "",
+    "systemDesc": {
+      "id": "CA5BD1A43DBA7793",
+      "text": ""
+    },
+    "systemIcon": "btn_valuabledepot",
+    "systemId": "system_valuable_depot",
+    "systemName": {
+      "id": "188F243295253AE0",
+      "text": ""
+    },
+    "unlockSystemType": 3
+  },
+  "system_wiki": {
+    "redDotName": "Wiki",
+    "systemDesc": {
+      "id": "AFD6692C121D1DC2",
+      "text": ""
+    },
+    "systemIcon": "btn_wiki",
+    "systemId": "system_wiki",
+    "systemName": {
+      "id": "7DEA0F0455011F91",
+      "text": ""
+    },
+    "unlockSystemType": 55
+  }
+}

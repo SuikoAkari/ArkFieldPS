@@ -1,0 +1,97 @@
+{
+  "chr_0002_endminm": {
+    "avatarPath": "icon_chr_0002_endminm",
+    "bustPath": "icon_chr_0002_endminm",
+    "illustrationPath": ""
+  },
+  "chr_0003_endminf": {
+    "avatarPath": "icon_chr_0003_endmin",
+    "bustPath": "icon_chr_0003_endminf",
+    "illustrationPath": ""
+  },
+  "chr_0004_pelica": {
+    "avatarPath": "icon_chr_0004_pelica",
+    "bustPath": "icon_chr_0004_pelica",
+    "illustrationPath": ""
+  },
+  "chr_0005_chen": {
+    "avatarPath": "icon_chr_0005_chen",
+    "bustPath": "icon_chr_0005_chen",
+    "illustrationPath": ""
+  },
+  "chr_0006_wolfgd": {
+    "avatarPath": "icon_chr_0006_wolfgd",
+    "bustPath": "icon_chr_0006_wolfgd",
+    "illustrationPath": ""
+  },
+  "chr_0007_ikut": {
+    "avatarPath": "icon_chr_0007_ikut",
+    "bustPath": "icon_chr_0007_ikut",
+    "illustrationPath": ""
+  },
+  "chr_0009_azrila": {
+    "avatarPath": "icon_chr_0009_azrila",
+    "bustPath": "icon_chr_0009_azrila",
+    "illustrationPath": ""
+  },
+  "chr_0011_seraph": {
+    "avatarPath": "icon_chr_0011_seraph",
+    "bustPath": "icon_chr_0011_seraph",
+    "illustrationPath": ""
+  },
+  "chr_0012_avywen": {
+    "avatarPath": "icon_chr_0012_avywen",
+    "bustPath": "icon_chr_0012_avywen",
+    "illustrationPath": ""
+  },
+  "chr_0013_aglina": {
+    "avatarPath": "icon_chr_0013_aglina",
+    "bustPath": "icon_chr_0013_aglina",
+    "illustrationPath": ""
+  },
+  "chr_0014_aurora": {
+    "avatarPath": "icon_chr_0014_aurora",
+    "bustPath": "icon_chr_0014_aurora",
+    "illustrationPath": ""
+  },
+  "chr_0015_lifeng": {
+    "avatarPath": "icon_chr_0015_lifeng",
+    "bustPath": "icon_chr_0015_lifeng",
+    "illustrationPath": ""
+  },
+  "chr_0016_laevat": {
+    "avatarPath": "icon_chr_0016_laevat",
+    "bustPath": "icon_chr_0016_laevat",
+    "illustrationPath": ""
+  },
+  "chr_0017_zophiel": {
+    "avatarPath": "icon_chr_0017_zophiel",
+    "bustPath": "icon_chr_0017_zophiel",
+    "illustrationPath": ""
+  },
+  "chr_0018_dapan": {
+    "avatarPath": "icon_chr_0018_dapan",
+    "bustPath": "icon_chr_0018_dapan",
+    "illustrationPath": ""
+  },
+  "npc_1001_andrew": {
+    "avatarPath": "icon_npc_1001_andrew",
+    "bustPath": "icon_npc_1001_andrew",
+    "illustrationPath": ""
+  },
+  "npc_1002_qinjc": {
+    "avatarPath": "icon_npc_1002_qinjc",
+    "bustPath": "icon_npc_1002_qinjc",
+    "illustrationPath": ""
+  },
+  "npc_1003_fiona": {
+    "avatarPath": "icon_chr_0102_fiona",
+    "bustPath": "icon_chr_0102_fiona",
+    "illustrationPath": ""
+  },
+  "npc_common": {
+    "avatarPath": "icon_chr_unknown_man",
+    "bustPath": "icon_chr_unknown_man",
+    "illustrationPath": ""
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "0": {
+    "breakStage": 0,
+    "comboSkillLevel": 1,
+    "maxCharLevel": 20,
+    "minCharLevel": 1,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "ultimateSkillLevel": 1
+  },
+  "1": {
+    "breakStage": 1,
+    "comboSkillLevel": 3,
+    "maxCharLevel": 40,
+    "minCharLevel": 20,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "ultimateSkillLevel": 3
+  },
+  "2": {
+    "breakStage": 2,
+    "comboSkillLevel": 6,
+    "maxCharLevel": 60,
+    "minCharLevel": 40,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "ultimateSkillLevel": 6
+  },
+  "3": {
+    "breakStage": 3,
+    "comboSkillLevel": 9,
+    "maxCharLevel": 70,
+    "minCharLevel": 60,
+    "normalAttackSkillLevel": 9,
+    "normalSkillLevel": 9,
+    "ultimateSkillLevel": 9
+  },
+  "4": {
+    "breakStage": 4,
+    "comboSkillLevel": 12,
+    "maxCharLevel": 80,
+    "minCharLevel": 70,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "ultimateSkillLevel": 12
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "stm_tundra_1_1_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_1_1_normal",
+    "enemyIds": [
+      "eny_0021_agmelee_settlement"
+    ],
+    "enemyLevels": [
+      20
+    ],
+    "rewardBandwidth": 2,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_1_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv002",
+    "settlementId": "stm_tundra_1",
+    "spawnerIds": [
+      859208246219505664
+    ],
+    "tdGroup": "stm_tundra_1_1",
+    "tdId": "stm_tundra_1_1_normal",
+    "tdType": 0
+  },
+  "stm_tundra_1_2_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_1_2_normal",
+    "enemyIds": [
+      "eny_0021_agmelee_settlement"
+    ],
+    "enemyLevels": [
+      25
+    ],
+    "rewardBandwidth": 2,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_2_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv002",
+    "settlementId": "stm_tundra_1",
+    "spawnerIds": [
+      859208250514472960
+    ],
+    "tdGroup": "stm_tundra_1_2",
+    "tdId": "stm_tundra_1_2_normal",
+    "tdType": 0
+  },
+  "stm_tundra_1_3_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_1_3_normal",
+    "enemyIds": [
+      "eny_0029_lbmob_settlment",
+      "eny_0018_lbtough_settlement"
+    ],
+    "enemyLevels": [
+      30,
+      30
+    ],
+    "rewardBandwidth": 2,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_3_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv002",
+    "settlementId": "stm_tundra_1",
+    "spawnerIds": [
+      859208254809440256
+    ],
+    "tdGroup": "stm_tundra_1_3",
+    "tdId": "stm_tundra_1_3_normal",
+    "tdType": 0
+  },
+  "stm_tundra_1_4_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_1_4_normal",
+    "enemyIds": [
+      "eny_0050_hound_settlement",
+      "eny_0029_lbmob_settlment",
+      "eny_0018_lbtough_settlement"
+    ],
+    "enemyLevels": [
+      30,
+      35,
+      35
+    ],
+    "rewardBandwidth": 3,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_4_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv002",
+    "settlementId": "stm_tundra_1",
+    "spawnerIds": [
+      859208259104407552
+    ],
+    "tdGroup": "stm_tundra_1_4",
+    "tdId": "stm_tundra_1_4_normal",
+    "tdType": 0
+  },
+  "stm_tundra_1_5_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_1_5_normal",
+    "enemyIds": [
+      "eny_0021_agmelee_settlement",
+      "eny_0033_lbhunt_settlement",
+      "eny_0018_lbtough_settlement"
+    ],
+    "enemyLevels": [
+      35,
+      35,
+      40
+    ],
+    "rewardBandwidth": 3,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_5_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv002",
+    "settlementId": "stm_tundra_1",
+    "spawnerIds": [
+      859208263399374848
+    ],
+    "tdGroup": "stm_tundra_1_5",
+    "tdId": "stm_tundra_1_5_normal",
+    "tdType": 0
+  },
+  "stm_tundra_1_6_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_1_6_normal",
+    "enemyIds": [
+      "eny_0029_lbmob_settlment",
+      "eny_0033_lbhunt_settlement",
+      "eny_0050_hound_settlement",
+      "eny_0018_lbtough_settlement"
+    ],
+    "enemyLevels": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "rewardBandwidth": 3,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_6_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv002",
+    "settlementId": "stm_tundra_1",
+    "spawnerIds": [
+      859208267694342144
+    ],
+    "tdGroup": "stm_tundra_1_6",
+    "tdId": "stm_tundra_1_6_normal",
+    "tdType": 0
+  },
+  "stm_tundra_2_1_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_2_1_normal",
+    "enemyIds": [
+      "eny_0021_agmelee_settlement",
+      "eny_0025_agrange_settlement"
+    ],
+    "enemyLevels": [
+      20,
+      20
+    ],
+    "rewardBandwidth": 2,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_1_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv005",
+    "settlementId": "stm_tundra_2",
+    "spawnerIds": [
+      -3843039197753507840
+    ],
+    "tdGroup": "stm_tundra_2_1",
+    "tdId": "stm_tundra_2_1_normal",
+    "tdType": 0
+  },
+  "stm_tundra_2_2_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_2_2_normal",
+    "enemyIds": [
+      "eny_0021_agmelee_settlement",
+      "eny_0025_agrange_settlement",
+      "eny_0023_aghornb_settlement"
+    ],
+    "enemyLevels": [
+      27,
+      27,
+      27
+    ],
+    "rewardBandwidth": 2,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_2_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv005",
+    "settlementId": "stm_tundra_2",
+    "spawnerIds": [
+      -3843039193458540544
+    ],
+    "tdGroup": "stm_tundra_2_2",
+    "tdId": "stm_tundra_2_2_normal",
+    "tdType": 0
+  },
+  "stm_tundra_2_3_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_2_3_normal",
+    "enemyIds": [
+      "eny_0029_lbmob_settlment",
+      "eny_0033_lbhunt_settlement",
+      "eny_0018_lbtough_settlement"
+    ],
+    "enemyLevels": [
+      35,
+      35,
+      35
+    ],
+    "rewardBandwidth": 2,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_3_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv005",
+    "settlementId": "stm_tundra_2",
+    "spawnerIds": [
+      -3843039189163573248
+    ],
+    "tdGroup": "stm_tundra_2_3",
+    "tdId": "stm_tundra_2_3_normal",
+    "tdType": 0
+  },
+  "stm_tundra_2_4_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_2_4_normal",
+    "enemyIds": [
+      "eny_0029_lbmob_settlment",
+      "eny_0046_lbshamman_settlement",
+      "eny_0050_hound_settlement",
+      "eny_0018_lbtough_settlement"
+    ],
+    "enemyLevels": [
+      40,
+      40,
+      35,
+      40
+    ],
+    "rewardBandwidth": 3,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_4_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv005",
+    "settlementId": "stm_tundra_2",
+    "spawnerIds": [
+      -3843039184868605952
+    ],
+    "tdGroup": "stm_tundra_2_4",
+    "tdId": "stm_tundra_2_4_normal",
+    "tdType": 0
+  },
+  "stm_tundra_2_5_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_2_5_normal",
+    "enemyIds": [
+      "eny_0027_agscorp_settlement",
+      "eny_0023_aghornb_settlement"
+    ],
+    "enemyLevels": [
+      40,
+      40
+    ],
+    "rewardBandwidth": 3,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_5_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv005",
+    "settlementId": "stm_tundra_2",
+    "spawnerIds": [
+      -3843039180573638656
+    ],
+    "tdGroup": "stm_tundra_2_5",
+    "tdId": "stm_tundra_2_5_normal",
+    "tdType": 0
+  },
+  "stm_tundra_2_6_normal": {
+    "detailImage": "defense_map_detail_stm_tundra_2_6_normal",
+    "enemyIds": [
+      "eny_0021_agmelee_settlement",
+      "eny_0027_agscorp_settlement",
+      "eny_0025_agrange_settlement",
+      "eny_0023_aghornb_settlement",
+      "eny_0029_lbmob_settlment",
+      "eny_0050_hound_settlement",
+      "eny_0033_lbhunt_settlement",
+      "eny_0046_lbshamman_settlement",
+      "eny_0018_lbtough_settlement"
+    ],
+    "enemyLevels": [
+      45,
+      45,
+      45,
+      42,
+      45,
+      45,
+      45,
+      45,
+      45
+    ],
+    "rewardBandwidth": 3,
+    "rewardBattleBuildingLimit": 1,
+    "rewardId": "reward_stm_tundra_1_6_normal",
+    "rewardTravelPoleLimit": 0,
+    "sceneName": "map01_lv005",
+    "settlementId": "stm_tundra_2",
+    "spawnerIds": [
+      -3843039176278671360
+    ],
+    "tdGroup": "stm_tundra_2_6",
+    "tdId": "stm_tundra_2_6_normal",
+    "tdType": 0
+  }
+}

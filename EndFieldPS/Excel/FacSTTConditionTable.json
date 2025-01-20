@@ -1,0 +1,54 @@
+{
+  "cond_tech_tundra_3_field_2_1": {
+    "conditionId": "cond_tech_tundra_3_field_2_1",
+    "conditionType": 511,
+    "desc": {
+      "id": "4519E1D043F84AA0",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          600
+        ],
+        "valueIntList": [
+          600
+        ],
+        "valueStringList": [
+          "600"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "techId": "tech_tundra_3_field_2"
+  },
+  "tech_tundra_2_field_1": {
+    "conditionId": "tech_tundra_2_field_1",
+    "conditionType": 511,
+    "desc": {
+      "id": "BE3B187429FABE22",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          300
+        ],
+        "valueIntList": [
+          300
+        ],
+        "valueStringList": [
+          "300"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "techId": "tech_tundra_2_field_1"
+  }
+}

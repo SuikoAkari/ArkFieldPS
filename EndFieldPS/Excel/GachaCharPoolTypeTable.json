@@ -1,0 +1,72 @@
+{
+  "0": {
+    "hardGuarantee": 120,
+    "name": {
+      "id": "EA58387B67EBA2C1",
+      "text": ""
+    },
+    "permitSinglePull": true,
+    "shareSoftGuarantee": true,
+    "singlePullCostItemCounts": [
+      1,
+      500
+    ],
+    "singlePullCostItemIds": [
+      "item_ticketgacha_special_single",
+      "item_diamond"
+    ],
+    "softGuarantee": 80,
+    "star4BaseRate": 912000,
+    "star5BaseRate": 80000,
+    "star5SoftGuarantee": 10,
+    "star6BaseRate": 8000,
+    "star6RatePromotePullCount": [
+      66
+    ],
+    "star6RatePromoteValue": [
+      50000
+    ],
+    "tagName": {
+      "id": "1EC78A4C642F5872",
+      "text": ""
+    },
+    "tenPullCostCountAfterDiscount": 0,
+    "tenPullCostItemCounts": [
+      1
+    ],
+    "tenPullCostItemIds": [
+      "item_ticketgacha_special_ten"
+    ],
+    "type": 0
+  },
+  "1": {
+    "hardGuarantee": 0,
+    "name": {
+      "id": "A866AEDF58121642",
+      "text": ""
+    },
+    "permitSinglePull": false,
+    "shareSoftGuarantee": false,
+    "singlePullCostItemCounts": [
+      500
+    ],
+    "singlePullCostItemIds": [
+      "item_diamond"
+    ],
+    "softGuarantee": 50,
+    "star4BaseRate": 912000,
+    "star5BaseRate": 80000,
+    "star5SoftGuarantee": 10,
+    "star6BaseRate": 8000,
+    "star6RatePromotePullCount": [],
+    "star6RatePromoteValue": [],
+    "tagName": {
+      "id": "CCFD2D176D119BF8",
+      "text": ""
+    },
+    "tenPullCostCountAfterDiscount": 8,
+    "tenPullCostItemCounts": [],
+    "tenPullCostItemIds": [],
+    "type": 1
+  }
+}

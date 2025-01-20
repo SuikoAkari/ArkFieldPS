@@ -1,0 +1,1245 @@
+{
+  "wpn_claym_0003": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "21501AA8BD7CA107",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0003.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "A11C495F5E6A6450",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0003",
+    "weaponPotentialSkill": "wpn_passive_tactic_01",
+    "weaponSkillList": [
+      "wpn_attr_str_low",
+      "wpn_sp_attr_atk_low",
+      "wpn_passive_tactic_01"
+    ],
+    "weaponType": 3
+  },
+  "wpn_claym_0004": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "B3B1056E4B58D513",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0004.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "E8B7FB40F81771C3",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0004",
+    "weaponPotentialSkill": "wpn_passive_phyabn_02",
+    "weaponSkillList": [
+      "wpn_attr_str_high",
+      "wpn_sp_attr_phydam_high",
+      "wpn_passive_phyabn_02"
+    ],
+    "weaponType": 3
+  },
+  "wpn_claym_0006": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "777379D078609936",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0006.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "13F50118E1E7B2E6",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0006",
+    "weaponPotentialSkill": "wpn_passive_heal_02",
+    "weaponSkillList": [
+      "wpn_attr_main_high",
+      "wpn_sp_attr_usgs_high",
+      "wpn_passive_heal_02"
+    ],
+    "weaponType": 3
+  },
+  "wpn_claym_0007": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "7BFE30C53910C707",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0007.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "40EEAF502961287C",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0007",
+    "weaponPotentialSkill": "wpn_passive_force_02",
+    "weaponSkillList": [
+      "wpn_attr_str_high",
+      "wpn_sp_normalattack_high",
+      "wpn_passive_force_02"
+    ],
+    "weaponType": 3
+  },
+  "wpn_claym_0008": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "FB5C85DEB353ECBB",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1.1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0008.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "A80687B1FA563D12",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0008",
+    "weaponPotentialSkill": "wpn_passive_smash_04",
+    "weaponSkillList": [
+      "wpn_attr_str_high",
+      "wpn_sp_attr_atk_high",
+      "wpn_passive_smash_04"
+    ],
+    "weaponType": 3
+  },
+  "wpn_claym_0009": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "3544A0ED4098814E",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_1.1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0009.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "6E036AA118FED4C1",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0009",
+    "weaponPotentialSkill": "wpn_passive_smash_01",
+    "weaponSkillList": [
+      "wpn_attr_will_low",
+      "wpn_sp_attr_hp_low",
+      "wpn_passive_smash_01"
+    ],
+    "weaponType": 3
+  },
+  "wpn_claym_0010": {
+    "breakthroughTemplateId": "weapon_breakthrough_3star",
+    "engName": {
+      "id": "9E1968E53AACBE52",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_3star_1.05",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0010.prefab",
+    "rarity": 3,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_3star",
+    "weaponDesc": {
+      "id": "7DDA3783855D2B65",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0010",
+    "weaponPotentialSkill": "wpn_passive_force_01",
+    "weaponSkillList": [
+      "wpn_attr_str_low",
+      "wpn_passive_force_01"
+    ],
+    "weaponType": 3
+  },
+  "wpn_claym_0011": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "530678D711304368",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0011.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "B50F3EEF601ABE9E",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0011",
+    "weaponPotentialSkill": "wpn_passive_smash_02",
+    "weaponSkillList": [
+      "wpn_attr_str_high",
+      "wpn_sp_attr_atk_high",
+      "wpn_passive_smash_02"
+    ],
+    "weaponType": 3
+  },
+  "wpn_claym_0012": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "CFB27675DB228396",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1.1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_claym_0012.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "99CBC7415776E0EA",
+      "text": ""
+    },
+    "weaponId": "wpn_claym_0012",
+    "weaponPotentialSkill": "wpn_passive_heal_01",
+    "weaponSkillList": [
+      "wpn_attr_will_high",
+      "wpn_sp_attr_hp_high",
+      "wpn_passive_heal_01"
+    ],
+    "weaponType": 3
+  },
+  "wpn_funnel_0001": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "80F6EE136D61CEB5",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0001.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "9C32B8EAAA838695",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0001",
+    "weaponPotentialSkill": "wpn_passive_spirit_01",
+    "weaponSkillList": [
+      "wpn_attr_wisd_low",
+      "wpn_sp_attr_magicdam_low",
+      "wpn_passive_spirit_01"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0002": {
+    "breakthroughTemplateId": "weapon_breakthrough_3star",
+    "engName": {
+      "id": "713F62FCB729232E",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_3star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0002.prefab",
+    "rarity": 3,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_3star",
+    "weaponDesc": {
+      "id": "355B0BEBCD450A01",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0002",
+    "weaponPotentialSkill": "wpn_passive_force_01",
+    "weaponSkillList": [
+      "wpn_attr_wisd_low",
+      "wpn_passive_force_01"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0003": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "CD13B1FDC01D512B",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0003.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "F40562DF348E41EC",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0003",
+    "weaponPotentialSkill": "wpn_passive_tactic_01",
+    "weaponSkillList": [
+      "wpn_attr_will_low",
+      "wpn_sp_attr_atk_low",
+      "wpn_passive_tactic_01"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0004": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "4050BC3D8C638F0C",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_0.98",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0004.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "AC19E56664D1B494",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0004",
+    "weaponPotentialSkill": "wpn_passive_burst_03",
+    "weaponSkillList": [
+      "wpn_attr_wisd_high",
+      "wpn_sp_attr_electrondam_high",
+      "wpn_passive_burst_03"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0005": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "54CBBAF2DDF4460A",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1.05",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0005.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "54B8AB15BA4B0661",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0005",
+    "weaponPotentialSkill": "wpn_passive_smash_03",
+    "weaponSkillList": [
+      "wpn_attr_wisd_high",
+      "wpn_sp_attr_firedam_high",
+      "wpn_passive_smash_03"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0006": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "574E1487811CC76E",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1.03",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0006.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "4E236EBA1630CA86",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0006",
+    "weaponPotentialSkill": "wpn_passive_magabn_01",
+    "weaponSkillList": [
+      "wpn_attr_will_high",
+      "wpn_sp_attr_crystdam_high",
+      "wpn_passive_magabn_01"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0007": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "632F551802D39DCF",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0007.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "FF4F23FF905239D0",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0007",
+    "weaponPotentialSkill": "wpn_passive_combo_03",
+    "weaponSkillList": [
+      "wpn_attr_will_high",
+      "wpn_sp_attr_naturaldam_high",
+      "wpn_passive_combo_03"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0008": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "42DD46FA00CE4131",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0008.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "5A900B924FE0D8D7",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0008",
+    "weaponPotentialSkill": "wpn_passive_burst_05",
+    "weaponSkillList": [
+      "wpn_attr_wisd_high",
+      "wpn_sp_attr_electrondam_high",
+      "wpn_passive_burst_05"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0009": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "CD1C0E73D477EF11",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0009.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "B4001D078067E41A",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0009",
+    "weaponPotentialSkill": "wpn_passive_combo_04",
+    "weaponSkillList": [
+      "wpn_attr_main_high",
+      "wpn_sp_attr_usgs_high",
+      "wpn_passive_combo_04"
+    ],
+    "weaponType": 2
+  },
+  "wpn_funnel_0010": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "394C50223E26FE49",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1.1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_funnel_0010.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "238DECFBCA9D6B5B",
+      "text": ""
+    },
+    "weaponId": "wpn_funnel_0010",
+    "weaponPotentialSkill": "wpn_passive_magabn_03",
+    "weaponSkillList": [
+      "wpn_attr_will_high",
+      "wpn_sp_attr_naturaldam_high",
+      "wpn_passive_magabn_03"
+    ],
+    "weaponType": 2
+  },
+  "wpn_lance_0003": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "E7187AAC7F57A0CC",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0003.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "9DC80E88A282CA1B",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0003",
+    "weaponPotentialSkill": "wpn_passive_spirit_01",
+    "weaponSkillList": [
+      "wpn_attr_agi_low",
+      "wpn_sp_attr_atk_low",
+      "wpn_passive_spirit_01"
+    ],
+    "weaponType": 5
+  },
+  "wpn_lance_0004": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "8F2B8AD784DD5230",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0004.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "1ABF550F85CADDA8",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0004",
+    "weaponPotentialSkill": "wpn_passive_break_02",
+    "weaponSkillList": [
+      "wpn_attr_agi_high",
+      "wpn_sp_attr_phydam_high",
+      "wpn_passive_break_02"
+    ],
+    "weaponType": 5
+  },
+  "wpn_lance_0006": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "25148349C7C91CAD",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0006.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "3C19F56A5FB1DF02",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0006",
+    "weaponPotentialSkill": "wpn_passive_tactic_03",
+    "weaponSkillList": [
+      "wpn_attr_main_high",
+      "wpn_sp_attr_atk_high",
+      "wpn_passive_tactic_03"
+    ],
+    "weaponType": 5
+  },
+  "wpn_lance_0007": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "0B2686AAA799BD16",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_0.97",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0007.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "BA39ED2DF16284AA",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0007",
+    "weaponPotentialSkill": "wpn_passive_combo_02",
+    "weaponSkillList": [
+      "wpn_attr_will_high",
+      "wpn_sp_attr_magicdam_high",
+      "wpn_passive_combo_02"
+    ],
+    "weaponType": 5
+  },
+  "wpn_lance_0008": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "640D470F9E4A3706",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_0.9",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0008.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "F7E244F752EC1030",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0008",
+    "weaponPotentialSkill": "wpn_passive_tactic_01",
+    "weaponSkillList": [
+      "wpn_attr_will_low",
+      "wpn_sp_attr_atk_low",
+      "wpn_passive_tactic_01"
+    ],
+    "weaponType": 5
+  },
+  "wpn_lance_0009": {
+    "breakthroughTemplateId": "weapon_breakthrough_3star",
+    "engName": {
+      "id": "9619B24AA301DD36",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_3star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0009.prefab",
+    "rarity": 3,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_3star",
+    "weaponDesc": {
+      "id": "1C775FFA14F4C32D",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0009",
+    "weaponPotentialSkill": "wpn_passive_force_01",
+    "weaponSkillList": [
+      "wpn_attr_will_low",
+      "wpn_passive_force_01"
+    ],
+    "weaponType": 5
+  },
+  "wpn_lance_0010": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "F34B34A2B745D99E",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1.1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0010.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "35314438EF1BFEC3",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0010",
+    "weaponPotentialSkill": "wpn_passive_crit_01",
+    "weaponSkillList": [
+      "wpn_attr_agi_high",
+      "wpn_sp_attr_crirate_high",
+      "wpn_passive_crit_01"
+    ],
+    "weaponType": 5
+  },
+  "wpn_lance_0011": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "F23ED272E2142466",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0011.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "8AE1541C5A849F59",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0011",
+    "weaponPotentialSkill": "wpn_passive_tacafter_01",
+    "weaponSkillList": [
+      "wpn_attr_will_high",
+      "wpn_sp_attr_electrondam_high",
+      "wpn_passive_tacafter_01"
+    ],
+    "weaponType": 5
+  },
+  "wpn_lance_0012": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "ADA47318D7AC3D7D",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1.2",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_lance_0012.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "F4E60BCB676C2368",
+      "text": ""
+    },
+    "weaponId": "wpn_lance_0012",
+    "weaponPotentialSkill": "wpn_passive_phyabn_03",
+    "weaponSkillList": [
+      "wpn_attr_agi_high",
+      "wpn_sp_attr_crirate_high",
+      "wpn_passive_phyabn_03"
+    ],
+    "weaponType": 5
+  },
+  "wpn_pistol_0001": {
+    "breakthroughTemplateId": "weapon_breakthrough_3star",
+    "engName": {
+      "id": "D7665CEB46400536",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_3star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0001.prefab",
+    "rarity": 3,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_3star",
+    "weaponDesc": {
+      "id": "F98EBDB1314817B9",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0001",
+    "weaponPotentialSkill": "wpn_passive_force_01",
+    "weaponSkillList": [
+      "wpn_attr_str_low",
+      "wpn_passive_force_01"
+    ],
+    "weaponType": 6
+  },
+  "wpn_pistol_0002": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "9ABC79FACF6BAB5C",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0002.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "624E34D5A612357D",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0002",
+    "weaponPotentialSkill": "wpn_passive_tactic_01",
+    "weaponSkillList": [
+      "wpn_attr_str_low",
+      "wpn_sp_attr_atk_low",
+      "wpn_passive_tactic_01"
+    ],
+    "weaponType": 6
+  },
+  "wpn_pistol_0003": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "00129BFC32CBC8C5",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_0.9",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0003.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "B5984E1EF139454B",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0003",
+    "weaponPotentialSkill": "wpn_passive_tactic_01",
+    "weaponSkillList": [
+      "wpn_attr_wisd_low",
+      "wpn_sp_attr_magicdam_low",
+      "wpn_passive_tactic_01"
+    ],
+    "weaponType": 6
+  },
+  "wpn_pistol_0004": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "8E40E25AA95FF721",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0004.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "33B879EB122631BC",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0004",
+    "weaponPotentialSkill": "wpn_passive_magabn_02",
+    "weaponSkillList": [
+      "wpn_attr_str_high",
+      "wpn_sp_attr_atk_high",
+      "wpn_passive_magabn_02"
+    ],
+    "weaponType": 6
+  },
+  "wpn_pistol_0005": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "8FE57CA082727475",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0005.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "85D0D21EF26A86D2",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0005",
+    "weaponPotentialSkill": "wpn_passive_ult_01",
+    "weaponSkillList": [
+      "wpn_attr_wisd_high",
+      "wpn_sp_attr_crirate_high",
+      "wpn_passive_ult_01"
+    ],
+    "weaponType": 6
+  },
+  "wpn_pistol_0006": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "B57AEF0C538EB2C2",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1.1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0006.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "0C98821ACFC201C1",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0006",
+    "weaponPotentialSkill": "wpn_passive_crit_02",
+    "weaponSkillList": [
+      "wpn_attr_agi_high",
+      "wpn_sp_attr_cridmg_high",
+      "wpn_passive_crit_02"
+    ],
+    "weaponType": 6
+  },
+  "wpn_pistol_0007": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "F4A367D2F1BC5A20",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0007.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "66E97D65038DB6D9",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0007",
+    "weaponPotentialSkill": "wpn_passive_tacseq_01",
+    "weaponSkillList": [
+      "wpn_attr_main_high",
+      "wpn_sp_attr_atk_high",
+      "wpn_passive_tacseq_01"
+    ],
+    "weaponType": 6
+  },
+  "wpn_pistol_0008": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "23BB777084A73A8E",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1.1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0008.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "AB6957CDEB71CB99",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0008",
+    "weaponPotentialSkill": "wpn_passive_crit_03",
+    "weaponSkillList": [
+      "wpn_attr_wisd_high",
+      "wpn_sp_attr_crirate_high",
+      "wpn_passive_crit_03"
+    ],
+    "weaponType": 6
+  },
+  "wpn_pistol_0009": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "27DBE6371F08FB4C",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_0.9",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_pistol_0009.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "0D4885356F8E63FB",
+      "text": ""
+    },
+    "weaponId": "wpn_pistol_0009",
+    "weaponPotentialSkill": "wpn_passive_magabn_04",
+    "weaponSkillList": [
+      "wpn_attr_str_high",
+      "wpn_sp_attr_firedam_high",
+      "wpn_passive_magabn_04"
+    ],
+    "weaponType": 6
+  },
+  "wpn_sword_0003": {
+    "breakthroughTemplateId": "weapon_breakthrough_3star",
+    "engName": {
+      "id": "8D0D5E5F795CB16B",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_3star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0003.prefab",
+    "rarity": 3,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_3star",
+    "weaponDesc": {
+      "id": "119D0B04940F9473",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0003",
+    "weaponPotentialSkill": "wpn_passive_force_01",
+    "weaponSkillList": [
+      "wpn_attr_agi_low",
+      "wpn_passive_force_01"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0005": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "5009B9291C5AC16C",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_0.9",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0005.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "2158716D92CD30D5",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0005",
+    "weaponPotentialSkill": "wpn_passive_phyabn_01",
+    "weaponSkillList": [
+      "wpn_attr_agi_high",
+      "wpn_sp_attr_atk_high",
+      "wpn_passive_phyabn_01"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0006": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "3CD4B3CD218EA5E8",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0006.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "5200BB72AD31B21E",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0006",
+    "weaponPotentialSkill": "wpn_passive_burst_04",
+    "weaponSkillList": [
+      "wpn_attr_wisd_high",
+      "wpn_sp_normalattack_high",
+      "wpn_passive_burst_04"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0007": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "D1CA31F9F45ABA66",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0007.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "8B60C77704D7CBDC",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0007",
+    "weaponPotentialSkill": "wpn_passive_break_01",
+    "weaponSkillList": [
+      "wpn_attr_agi_high",
+      "wpn_sp_attr_crirate_high",
+      "wpn_passive_break_01"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0008": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "F4488123E76D9B59",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0008.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "DF07C401891F1BB8",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0008",
+    "weaponPotentialSkill": "wpn_passive_tactic_01",
+    "weaponSkillList": [
+      "wpn_attr_agi_low",
+      "wpn_sp_attr_phydam_low",
+      "wpn_passive_tactic_01"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0009": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "A77D9890274CB32F",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_4star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0009.prefab",
+    "rarity": 4,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "0C626278E8DEDEA2",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0009",
+    "weaponPotentialSkill": "wpn_passive_combo_01",
+    "weaponSkillList": [
+      "wpn_attr_wisd_low",
+      "wpn_sp_attr_atk_low",
+      "wpn_passive_combo_01"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0010": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "9ABB857F51A26AF8",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1.05",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0010.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "99B649E56A7FFC59",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0010",
+    "weaponPotentialSkill": "wpn_passive_burst_01",
+    "weaponSkillList": [
+      "wpn_attr_wisd_high",
+      "wpn_sp_attr_magicdam_high",
+      "wpn_passive_burst_01"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0011": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "8FCC7CF81D81072F",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0014.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "D338FF64F3403A24",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0011",
+    "weaponPotentialSkill": "wpn_passive_tactic_02",
+    "weaponSkillList": [
+      "wpn_attr_main_high",
+      "wpn_sp_attr_crirate_high",
+      "wpn_passive_tactic_02"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0012": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "CB5FBC5094A4D8B1",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_5star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0012.prefab",
+    "rarity": 5,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "9F8957C755129540",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0012",
+    "weaponPotentialSkill": "wpn_passive_burst_02",
+    "weaponSkillList": [
+      "wpn_attr_wisd_high",
+      "wpn_sp_attr_cridmg_high",
+      "wpn_passive_burst_02"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0013": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "D3E1E7C8E8E884EC",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_0.95",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0013.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "C946B883F28950C6",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0013",
+    "weaponPotentialSkill": "wpn_passive_break_03",
+    "weaponSkillList": [
+      "wpn_attr_agi_high",
+      "wpn_sp_attr_phydam_high",
+      "wpn_passive_break_03"
+    ],
+    "weaponType": 1
+  },
+  "wpn_sword_0014": {
+    "breakthroughTemplateId": "weapon_breakthrough_456star",
+    "engName": {
+      "id": "F2AED56067862CD0",
+      "text": ""
+    },
+    "levelTemplateId": "weapon_upgrade_curve_6star_1",
+    "mainAttrTemplateId": "",
+    "maxLv": 80,
+    "modelPath": "Gameplay/Prefabs/Weapons/wpn_sword_0011.prefab",
+    "rarity": 6,
+    "subAttrTemplateId": [],
+    "talentTemplateId": "wpn_potential_456star",
+    "weaponDesc": {
+      "id": "92DA1EACB4A72C32",
+      "text": ""
+    },
+    "weaponId": "wpn_sword_0014",
+    "weaponPotentialSkill": "wpn_passive_ult_02",
+    "weaponSkillList": [
+      "wpn_attr_agi_high",
+      "wpn_sp_attr_cridmg_high",
+      "wpn_passive_ult_02"
+    ],
+    "weaponType": 1
+  }
+}

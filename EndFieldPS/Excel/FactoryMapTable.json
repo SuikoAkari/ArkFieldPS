@@ -1,0 +1,33 @@
+{
+  "map01_lv001": {
+    "list": [
+      {
+        "icon": "map_lv001_factory_region_1",
+        "id": "map01_lv001",
+        "level": 1,
+        "posX": -347,
+        "posY": 108,
+        "rangeH": 50,
+        "rangeW": 36
+      },
+      {
+        "icon": "map_lv001_factory_region_2",
+        "id": "map01_lv001",
+        "level": 2,
+        "posX": -353,
+        "posY": 108,
+        "rangeH": 50,
+        "rangeW": 48
+      },
+      {
+        "icon": "map_lv001_factory_region_3",
+        "id": "map01_lv001",
+        "level": 3,
+        "posX": -365,
+        "posY": 108,
+        "rangeH": 50,
+        "rangeW": 72
+      }
+    ]
+  }
+}

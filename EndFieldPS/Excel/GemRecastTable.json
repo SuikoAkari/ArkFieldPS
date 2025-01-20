@@ -1,0 +1,116 @@
+{
+  "forge_1_to_2": {
+    "adventureLevel": 0,
+    "costGemNum": 3,
+    "costGemQuality": 1,
+    "costItemId": "",
+    "costItemNum": 0,
+    "formulaHint": {
+      "id": "E3ADEC32A2D70B09",
+      "text": ""
+    },
+    "formulaId": "forge_1_to_2",
+    "formulaType": 1,
+    "order": 1,
+    "randProductGemId": [
+      "item_gem_forge_rarity_2"
+    ],
+    "showProductItemId": "item_gem_rarity_2",
+    "unlockLevel": 0
+  },
+  "forge_2_to_3": {
+    "adventureLevel": 18,
+    "costGemNum": 3,
+    "costGemQuality": 2,
+    "costItemId": "",
+    "costItemNum": 0,
+    "formulaHint": {
+      "id": "3E75FFCB0D675CAF",
+      "text": ""
+    },
+    "formulaId": "forge_2_to_3",
+    "formulaType": 1,
+    "order": 2,
+    "randProductGemId": [
+      "item_gem_forge_rarity_3"
+    ],
+    "showProductItemId": "item_gem_rarity_3",
+    "unlockLevel": 0
+  },
+  "forge_3_to_4": {
+    "adventureLevel": 26,
+    "costGemNum": 3,
+    "costGemQuality": 3,
+    "costItemId": "",
+    "costItemNum": 0,
+    "formulaHint": {
+      "id": "73426EC3FAFF24BF",
+      "text": ""
+    },
+    "formulaId": "forge_3_to_4",
+    "formulaType": 1,
+    "order": 3,
+    "randProductGemId": [
+      "item_gem_forge_rarity_4"
+    ],
+    "showProductItemId": "item_gem_rarity_4",
+    "unlockLevel": 0
+  },
+  "forge_4_to_5": {
+    "adventureLevel": 26,
+    "costGemNum": 3,
+    "costGemQuality": 4,
+    "costItemId": "item_wpngem_upgrade_r5",
+    "costItemNum": 1,
+    "formulaHint": {
+      "id": "580D746FD8B3A490",
+      "text": ""
+    },
+    "formulaId": "forge_4_to_5",
+    "formulaType": 1,
+    "order": 4,
+    "randProductGemId": [
+      "item_gem_forge_rarity_5"
+    ],
+    "showProductItemId": "item_gem_rarity_5",
+    "unlockLevel": 0
+  },
+  "recast_4_to_4": {
+    "adventureLevel": 0,
+    "costGemNum": 3,
+    "costGemQuality": 4,
+    "costItemId": "",
+    "costItemNum": 0,
+    "formulaHint": {
+      "id": "E32E038F508F10BC",
+      "text": ""
+    },
+    "formulaId": "recast_4_to_4",
+    "formulaType": 2,
+    "order": 1,
+    "randProductGemId": [
+      "item_gem_forge_rarity_4"
+    ],
+    "showProductItemId": "item_gem_rarity_4",
+    "unlockLevel": 0
+  },
+  "recast_5_to_5": {
+    "adventureLevel": 0,
+    "costGemNum": 3,
+    "costGemQuality": 5,
+    "costItemId": "",
+    "costItemNum": 0,
+    "formulaHint": {
+      "id": "E3D5661999717F6E",
+      "text": ""
+    },
+    "formulaId": "recast_5_to_5",
+    "formulaType": 2,
+    "order": 2,
+    "randProductGemId": [
+      "item_gem_forge_rarity_5"
+    ],
+    "showProductItemId": "item_gem_rarity_5",
+    "unlockLevel": 0
+  }
+}

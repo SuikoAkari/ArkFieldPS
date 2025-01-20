@@ -1,0 +1,102 @@
+{
+  "fac_team_jinlong_explore": {
+    "category": "fac_team_jinlong_explore",
+    "containsXCount": 1,
+    "groupId": "tech_group_jinlong",
+    "name": {
+      "id": "25F889B38222151C",
+      "text": ""
+    },
+    "order": 4
+  },
+  "fac_team_jinlong_logistics": {
+    "category": "fac_team_jinlong_logistics",
+    "containsXCount": 1,
+    "groupId": "tech_group_jinlong",
+    "name": {
+      "id": "0819A7272F403B52",
+      "text": ""
+    },
+    "order": 2
+  },
+  "fac_team_jinlong_mining": {
+    "category": "fac_team_jinlong_mining",
+    "containsXCount": 1,
+    "groupId": "tech_group_jinlong",
+    "name": {
+      "id": "056ADB404CD3A190",
+      "text": ""
+    },
+    "order": 1
+  },
+  "fac_team_jinlong_processing": {
+    "category": "fac_team_jinlong_processing",
+    "containsXCount": 3,
+    "groupId": "tech_group_jinlong",
+    "name": {
+      "id": "A07FF818EE9BCB5E",
+      "text": ""
+    },
+    "order": 3
+  },
+  "fac_team_tundra_battle": {
+    "category": "fac_team_tundra_battle",
+    "containsXCount": 4,
+    "groupId": "tech_group_tundra",
+    "name": {
+      "id": "B7A25589191D3C52",
+      "text": ""
+    },
+    "order": 5
+  },
+  "fac_team_tundra_electric": {
+    "category": "fac_team_tundra_electric",
+    "containsXCount": 1,
+    "groupId": "tech_group_tundra",
+    "name": {
+      "id": "7232B7AEA5470870",
+      "text": ""
+    },
+    "order": 4
+  },
+  "fac_team_tundra_explore": {
+    "category": "fac_team_tundra_explore",
+    "containsXCount": 1,
+    "groupId": "tech_group_tundra",
+    "name": {
+      "id": "1EA60BE53DEE306F",
+      "text": ""
+    },
+    "order": 6
+  },
+  "fac_team_tundra_logistics": {
+    "category": "fac_team_tundra_logistics",
+    "containsXCount": 1,
+    "groupId": "tech_group_tundra",
+    "name": {
+      "id": "3F5ADA045CF770A7",
+      "text": ""
+    },
+    "order": 2
+  },
+  "fac_team_tundra_mining": {
+    "category": "fac_team_tundra_mining",
+    "containsXCount": 1,
+    "groupId": "tech_group_tundra",
+    "name": {
+      "id": "C27BDF5F5802723A",
+      "text": ""
+    },
+    "order": 1
+  },
+  "fac_team_tundra_processing": {
+    "category": "fac_team_tundra_processing",
+    "containsXCount": 3,
+    "groupId": "tech_group_tundra",
+    "name": {
+      "id": "0F08DB634EBB65B0",
+      "text": ""
+    },
+    "order": 3
+  }
+}

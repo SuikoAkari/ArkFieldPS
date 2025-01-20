@@ -1,0 +1,77 @@
+{
+  "beginner_2024_12_1": {
+    "color": "FEF000",
+    "desc": {
+      "id": "64D182E8B226DE3F",
+      "text": ""
+    },
+    "id": "beginner_2024_12_1",
+    "name": {
+      "id": "EA7F9441BBA4864F",
+      "text": ""
+    },
+    "nameImage": "",
+    "sortId": 1,
+    "tabImage": "GachaPool_Type_NewBie",
+    "textColor": "2D2D2D",
+    "type": 1,
+    "uiPrefab": "GachaPoolNodeStarter",
+    "upCharDesc": {
+      "id": "",
+      "text": ""
+    },
+    "upCharIds": []
+  },
+  "special_2024_12_1": {
+    "color": "EB0437",
+    "desc": {
+      "id": "D56324A228FF7B9B",
+      "text": ""
+    },
+    "id": "special_2024_12_1",
+    "name": {
+      "id": "3D49A18E01070DA7",
+      "text": ""
+    },
+    "nameImage": "GachaPool_TitleIcon_Laevat",
+    "sortId": 2,
+    "tabImage": "GachaPool_Type_Laevat",
+    "textColor": "FFFFFF",
+    "type": 0,
+    "uiPrefab": "GachaPoolNodeLimitedBase",
+    "upCharDesc": {
+      "id": "4B9B67682C8F2897",
+      "text": ""
+    },
+    "upCharIds": [
+      "chr_0016_laevat",
+      "chr_0012_avywen"
+    ]
+  },
+  "special_2025_1_1": {
+    "color": "FF319F",
+    "desc": {
+      "id": "455F76214EFE761D",
+      "text": ""
+    },
+    "id": "special_2025_1_1",
+    "name": {
+      "id": "95AB776D8C36F42F",
+      "text": ""
+    },
+    "nameImage": "GachaPool_TitleIcon_Yvonne",
+    "sortId": 2,
+    "tabImage": "GachaPool_Type_Yvonne",
+    "textColor": "FFFFFF",
+    "type": 0,
+    "uiPrefab": "GachaPoolNodeLimited_chr_0017_yvonne",
+    "upCharDesc": {
+      "id": "E6A2FD6CB75601AC",
+      "text": ""
+    },
+    "upCharIds": [
+      "chr_0017_yvonne",
+      "chr_0007_ikut"
+    ]
+  }
+}

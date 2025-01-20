@@ -1,0 +1,41 @@
+{
+  "0": {
+    "gameVarName": "general_ability_scan_time_stamp",
+    "generalAbilityType": 0,
+    "iconId": "icon_scan",
+    "intervalTime": 3,
+    "name": {
+      "id": "9D069AF447C5BD69",
+      "text": ""
+    },
+    "sortId": 1,
+    "unlockSystemType": 58,
+    "useItem": ""
+  },
+  "1": {
+    "gameVarName": "general_ability_bomb_time_stamp",
+    "generalAbilityType": 1,
+    "iconId": "icon_bomb",
+    "intervalTime": 3,
+    "name": {
+      "id": "62792BCE9EBBCAC9",
+      "text": ""
+    },
+    "sortId": 2,
+    "unlockSystemType": 62,
+    "useItem": "item_proc_bomb_1"
+  },
+  "2": {
+    "gameVarName": "general_ability_fluidinteract_time_stamp",
+    "generalAbilityType": 2,
+    "iconId": "icon_fluid_interact",
+    "intervalTime": 0,
+    "name": {
+      "id": "38DDBCAA486D2795",
+      "text": ""
+    },
+    "sortId": 3,
+    "unlockSystemType": 63,
+    "useItem": ""
+  }
+}

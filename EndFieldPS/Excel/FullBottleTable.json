@@ -1,0 +1,146 @@
+{
+  "item_fbottle_copper_grass_1": {
+    "emptyBottleId": "item_copper_jar",
+    "id": "item_fbottle_copper_grass_1",
+    "liquidCapacity": 5,
+    "liquidId": "item_liquid_plant_grass_1"
+  },
+  "item_fbottle_copper_grass_2": {
+    "emptyBottleId": "item_copper_jar",
+    "id": "item_fbottle_copper_grass_2",
+    "liquidCapacity": 5,
+    "liquidId": "item_liquid_plant_grass_2"
+  },
+  "item_fbottle_copper_sewage": {
+    "emptyBottleId": "item_copper_jar",
+    "id": "item_fbottle_copper_sewage",
+    "liquidCapacity": 5,
+    "liquidId": "item_liquid_sewage"
+  },
+  "item_fbottle_copper_water": {
+    "emptyBottleId": "item_copper_jar",
+    "id": "item_fbottle_copper_water",
+    "liquidCapacity": 5,
+    "liquidId": "item_liquid_water"
+  },
+  "item_fbottle_glass_grass_1": {
+    "emptyBottleId": "item_glass_bottle",
+    "id": "item_fbottle_glass_grass_1",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_plant_grass_1"
+  },
+  "item_fbottle_glass_grass_2": {
+    "emptyBottleId": "item_glass_bottle",
+    "id": "item_fbottle_glass_grass_2",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_plant_grass_2"
+  },
+  "item_fbottle_glass_sewage": {
+    "emptyBottleId": "item_glass_bottle",
+    "id": "item_fbottle_glass_sewage",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_sewage"
+  },
+  "item_fbottle_glass_water": {
+    "emptyBottleId": "item_glass_bottle",
+    "id": "item_fbottle_glass_water",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_water"
+  },
+  "item_fbottle_glassenr_grass_1": {
+    "emptyBottleId": "item_glass_enr_bottle",
+    "id": "item_fbottle_glassenr_grass_1",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_plant_grass_1"
+  },
+  "item_fbottle_glassenr_grass_2": {
+    "emptyBottleId": "item_glass_enr_bottle",
+    "id": "item_fbottle_glassenr_grass_2",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_plant_grass_2"
+  },
+  "item_fbottle_glassenr_sewage": {
+    "emptyBottleId": "item_glass_enr_bottle",
+    "id": "item_fbottle_glassenr_sewage",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_sewage"
+  },
+  "item_fbottle_glassenr_water": {
+    "emptyBottleId": "item_glass_enr_bottle",
+    "id": "item_fbottle_glassenr_water",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_water"
+  },
+  "item_fbottle_iron_grass_1": {
+    "emptyBottleId": "item_iron_bottle",
+    "id": "item_fbottle_iron_grass_1",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_plant_grass_1"
+  },
+  "item_fbottle_iron_grass_2": {
+    "emptyBottleId": "item_iron_bottle",
+    "id": "item_fbottle_iron_grass_2",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_plant_grass_2"
+  },
+  "item_fbottle_iron_sewage": {
+    "emptyBottleId": "item_iron_bottle",
+    "id": "item_fbottle_iron_sewage",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_sewage"
+  },
+  "item_fbottle_iron_water": {
+    "emptyBottleId": "item_iron_bottle",
+    "id": "item_fbottle_iron_water",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_water"
+  },
+  "item_fbottle_ironenr2_grass_1": {
+    "emptyBottleId": "item_iron_enr_jar",
+    "id": "item_fbottle_ironenr2_grass_1",
+    "liquidCapacity": 5,
+    "liquidId": "item_liquid_plant_grass_1"
+  },
+  "item_fbottle_ironenr2_grass_2": {
+    "emptyBottleId": "item_iron_enr_jar",
+    "id": "item_fbottle_ironenr2_grass_2",
+    "liquidCapacity": 5,
+    "liquidId": "item_liquid_plant_grass_2"
+  },
+  "item_fbottle_ironenr2_sewage": {
+    "emptyBottleId": "item_iron_enr_jar",
+    "id": "item_fbottle_ironenr2_sewage",
+    "liquidCapacity": 5,
+    "liquidId": "item_liquid_sewage"
+  },
+  "item_fbottle_ironenr2_water": {
+    "emptyBottleId": "item_iron_enr_jar",
+    "id": "item_fbottle_ironenr2_water",
+    "liquidCapacity": 5,
+    "liquidId": "item_liquid_water"
+  },
+  "item_fbottle_ironenr_grass_1": {
+    "emptyBottleId": "item_iron_enr_bottle",
+    "id": "item_fbottle_ironenr_grass_1",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_plant_grass_1"
+  },
+  "item_fbottle_ironenr_grass_2": {
+    "emptyBottleId": "item_iron_enr_bottle",
+    "id": "item_fbottle_ironenr_grass_2",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_plant_grass_2"
+  },
+  "item_fbottle_ironenr_sewage": {
+    "emptyBottleId": "item_iron_enr_bottle",
+    "id": "item_fbottle_ironenr_sewage",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_sewage"
+  },
+  "item_fbottle_ironenr_water": {
+    "emptyBottleId": "item_iron_enr_bottle",
+    "id": "item_fbottle_ironenr_water",
+    "liquidCapacity": 1,
+    "liquidId": "item_liquid_water"
+  }
+}

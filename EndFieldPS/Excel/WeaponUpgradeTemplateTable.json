@@ -1,0 +1,9682 @@
+{
+  "weapon_upgrade_curve_3star_0.95": {
+    "list": [
+      {
+        "baseAtk": 27,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 30,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 33,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 35,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 38,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 41,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 43,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 46,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 49,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 52,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 54,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 57,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 60,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 62,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 65,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 68,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 71,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 73,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 76,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 79,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 81,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 84,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 87,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 92,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 95,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 98,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 100,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 103,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 106,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 109,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 111,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 117,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 120,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 122,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 125,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 128,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 130,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 133,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 136,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 139,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 141,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 144,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 147,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 149,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 152,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 155,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 158,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 160,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 163,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 166,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 168,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 174,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 177,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 179,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 182,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 185,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 187,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 190,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 193,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 196,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 198,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 201,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 204,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 206,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 212,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 215,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 217,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 223,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 225,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 228,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 231,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 234,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 236,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 239,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 242,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_3star_1": {
+    "list": [
+      {
+        "baseAtk": 29,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 31,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 34,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 37,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 40,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 43,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 46,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 49,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 51,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 54,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 57,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 60,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 63,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 66,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 69,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 71,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 74,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 77,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 80,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 83,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 86,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 89,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 91,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 94,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 97,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 100,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 103,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 106,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 109,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 111,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 117,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 120,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 123,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 126,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 129,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 132,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 134,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 137,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 140,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 143,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 146,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 149,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 152,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 154,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 157,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 160,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 163,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 166,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 169,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 172,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 174,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 177,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 180,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 186,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 189,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 192,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 194,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 197,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 200,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 203,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 206,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 212,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 214,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 217,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 223,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 226,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 229,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 232,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 234,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 237,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 240,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 243,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 246,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 249,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 254,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_3star_1.05": {
+    "list": [
+      {
+        "baseAtk": 30,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 33,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 36,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 39,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 42,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 45,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 48,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 51,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 54,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 57,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 60,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 63,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 66,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 69,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 72,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 75,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 78,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 81,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 84,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 87,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 93,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 96,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 99,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 102,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 108,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 111,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 117,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 120,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 123,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 126,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 129,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 132,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 135,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 138,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 141,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 144,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 147,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 150,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 153,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 156,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 159,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 162,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 165,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 168,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 174,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 177,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 180,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 186,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 189,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 192,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 195,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 198,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 201,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 204,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 207,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 210,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 213,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 216,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 219,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 222,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 225,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 228,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 231,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 234,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 237,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 240,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 243,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 246,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 249,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 255,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 258,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 261,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 264,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 267,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_4star_0.9": {
+    "list": [
+      {
+        "baseAtk": 31,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 34,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 37,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 40,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 43,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 47,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 50,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 53,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 56,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 59,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 62,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 65,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 68,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 71,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 74,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 78,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 81,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 84,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 87,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 93,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 96,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 99,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 102,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 109,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 112,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 115,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 118,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 121,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 124,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 127,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 130,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 133,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 136,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 140,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 143,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 146,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 149,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 152,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 155,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 158,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 161,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 164,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 167,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 174,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 177,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 180,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 186,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 189,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 192,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 195,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 198,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 202,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 208,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 211,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 214,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 217,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 223,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 226,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 229,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 233,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 236,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 239,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 242,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 245,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 248,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 251,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 254,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 257,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 260,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 264,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 267,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 270,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 273,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 276,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_4star_0.95": {
+    "list": [
+      {
+        "baseAtk": 33,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 36,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 39,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 43,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 46,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 49,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 52,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 56,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 59,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 62,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 65,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 69,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 72,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 75,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 79,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 82,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 85,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 88,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 92,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 95,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 98,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 101,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 108,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 111,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 115,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 118,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 121,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 124,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 128,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 131,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 134,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 137,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 141,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 144,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 147,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 151,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 154,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 157,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 160,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 164,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 167,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 170,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 173,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 177,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 180,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 187,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 190,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 193,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 196,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 200,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 203,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 206,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 213,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 216,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 219,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 223,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 226,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 229,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 232,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 236,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 239,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 242,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 245,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 249,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 255,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 259,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 262,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 265,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 268,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 272,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 275,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 278,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 281,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 285,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 288,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 291,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_4star_1": {
+    "list": [
+      {
+        "baseAtk": 34,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 38,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 41,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 45,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 48,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 52,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 55,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 59,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 62,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 65,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 69,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 72,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 76,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 79,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 83,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 86,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 93,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 96,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 100,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 103,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 107,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 110,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 117,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 121,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 124,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 127,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 131,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 134,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 138,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 141,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 145,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 148,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 152,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 155,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 158,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 162,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 165,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 169,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 172,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 176,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 179,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 186,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 189,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 193,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 196,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 200,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 203,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 207,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 210,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 214,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 217,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 224,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 227,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 231,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 234,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 238,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 241,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 245,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 248,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 251,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 255,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 258,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 262,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 265,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 269,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 272,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 276,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 279,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 282,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 286,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 289,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 293,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 296,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 300,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 303,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 307,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_4star_1.1": {
+    "list": [
+      {
+        "baseAtk": 38,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 42,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 45,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 49,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 53,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 57,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 61,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 64,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 68,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 72,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 76,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 80,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 83,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 87,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 91,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 95,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 99,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 102,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 106,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 110,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 117,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 121,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 125,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 129,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 133,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 136,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 140,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 144,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 148,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 152,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 155,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 159,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 163,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 167,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 174,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 178,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 182,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 186,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 189,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 193,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 197,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 201,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 208,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 212,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 216,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 224,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 227,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 231,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 235,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 239,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 242,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 246,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 250,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 254,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 258,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 261,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 265,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 269,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 273,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 277,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 280,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 284,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 288,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 292,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 296,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 299,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 303,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 307,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 311,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 314,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 318,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 322,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 326,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 330,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 333,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 337,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_0.9": {
+    "list": [
+      {
+        "baseAtk": 37,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 41,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 45,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 49,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 52,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 56,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 60,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 63,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 67,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 71,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 75,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 78,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 82,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 86,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 93,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 97,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 101,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 108,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 112,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 116,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 120,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 123,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 127,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 131,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 134,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 138,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 142,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 146,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 149,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 153,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 157,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 161,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 164,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 168,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 172,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 176,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 179,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 187,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 190,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 194,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 198,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 202,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 213,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 217,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 224,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 228,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 232,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 235,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 239,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 243,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 247,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 250,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 254,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 258,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 261,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 265,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 269,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 273,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 276,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 280,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 284,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 288,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 291,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 295,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 299,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 303,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 306,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 310,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 314,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 317,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 321,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 325,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 329,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 332,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_0.95": {
+    "list": [
+      {
+        "baseAtk": 39,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 43,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 47,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 51,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 55,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 59,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 63,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 67,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 71,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 75,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 79,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 83,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 87,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 91,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 95,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 99,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 103,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 106,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 110,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 118,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 122,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 126,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 130,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 134,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 138,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 142,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 146,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 150,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 154,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 158,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 162,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 166,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 170,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 173,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 177,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 181,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 185,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 189,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 193,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 197,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 201,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 213,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 217,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 221,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 225,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 229,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 233,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 237,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 240,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 244,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 248,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 256,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 260,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 264,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 268,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 272,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 276,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 280,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 284,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 288,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 292,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 296,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 300,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 304,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 308,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 311,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 315,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 319,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 323,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 327,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 331,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 335,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 339,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 343,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 347,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 351,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_0.97": {
+    "list": [
+      {
+        "baseAtk": 40,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 44,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 48,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 52,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 56,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 60,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 64,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 68,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 72,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 76,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 81,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 85,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 89,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 93,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 97,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 101,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 109,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 113,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 117,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 121,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 125,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 129,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 133,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 137,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 141,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 145,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 149,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 153,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 157,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 161,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 165,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 169,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 173,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 177,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 181,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 185,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 189,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 193,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 197,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 201,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 213,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 217,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 221,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 225,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 229,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 233,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 238,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 242,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 246,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 250,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 254,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 258,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 262,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 266,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 270,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 274,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 278,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 282,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 286,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 290,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 294,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 298,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 302,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 306,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 310,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 314,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 318,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 322,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 326,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 330,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 334,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 338,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 342,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 346,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 350,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 354,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 358,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_0.98": {
+    "list": [
+      {
+        "baseAtk": 41,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 45,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 49,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 53,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 57,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 61,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 65,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 69,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 73,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 77,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 81,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 85,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 89,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 94,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 98,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 102,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 106,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 110,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 118,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 122,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 126,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 130,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 134,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 138,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 142,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 146,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 150,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 155,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 159,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 163,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 167,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 175,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 179,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 187,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 191,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 195,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 199,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 203,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 207,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 211,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 216,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 224,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 228,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 232,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 236,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 240,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 244,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 248,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 256,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 260,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 264,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 268,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 272,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 277,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 281,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 285,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 289,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 293,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 297,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 301,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 305,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 309,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 313,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 317,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 321,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 325,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 329,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 333,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 338,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 342,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 346,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 350,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 354,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 358,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 362,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_1": {
+    "list": [
+      {
+        "baseAtk": 42,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 46,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 50,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 54,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 58,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 62,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 66,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 71,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 75,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 79,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 83,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 87,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 91,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 95,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 100,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 104,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 108,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 112,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 116,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 120,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 125,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 129,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 133,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 137,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 141,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 145,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 149,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 154,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 158,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 162,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 166,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 170,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 174,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 178,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 187,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 191,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 195,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 199,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 203,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 208,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 212,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 216,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 224,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 228,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 232,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 237,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 241,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 245,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 249,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 253,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 257,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 261,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 266,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 270,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 274,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 278,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 282,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 286,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 291,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 295,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 299,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 303,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 307,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 311,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 315,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 320,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 324,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 328,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 332,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 336,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 340,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 344,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 349,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 353,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 357,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 361,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 365,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 369,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_1.03": {
+    "list": [
+      {
+        "baseAtk": 43,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 47,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 51,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 56,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 60,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 64,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 68,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 73,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 77,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 81,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 85,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 94,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 98,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 103,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 107,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 111,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 115,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 120,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 124,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 128,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 133,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 137,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 141,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 145,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 150,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 154,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 158,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 162,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 167,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 175,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 180,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 184,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 188,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 192,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 197,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 201,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 214,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 218,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 222,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 227,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 231,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 235,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 239,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 244,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 248,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 256,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 261,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 265,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 269,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 274,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 278,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 282,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 286,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 291,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 295,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 299,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 303,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 308,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 312,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 316,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 321,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 325,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 329,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 333,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 338,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 342,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 346,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 351,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 355,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 359,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 363,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 368,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 372,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 376,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 380,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_1.05": {
+    "list": [
+      {
+        "baseAtk": 44,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 48,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 52,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 57,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 61,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 65,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 70,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 74,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 78,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 83,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 87,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 92,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 96,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 100,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 109,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 113,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 118,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 122,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 126,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 131,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 135,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 139,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 144,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 148,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 153,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 157,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 161,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 166,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 170,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 174,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 179,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 187,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 192,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 196,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 200,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 214,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 218,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 222,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 227,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 231,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 235,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 240,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 244,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 248,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 253,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 257,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 261,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 266,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 270,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 275,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 279,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 283,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 288,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 292,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 296,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 301,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 305,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 309,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 314,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 318,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 322,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 327,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 331,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 336,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 340,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 344,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 349,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 353,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 357,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 362,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 366,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 370,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 375,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 379,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 383,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 388,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_1.1": {
+    "list": [
+      {
+        "baseAtk": 46,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 50,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 55,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 59,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 64,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 68,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 73,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 78,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 82,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 87,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 91,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 96,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 100,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 110,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 119,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 123,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 128,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 132,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 137,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 142,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 146,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 151,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 155,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 160,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 164,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 169,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 173,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 178,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 183,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 187,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 192,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 196,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 201,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 210,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 215,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 219,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 224,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 228,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 233,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 237,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 242,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 247,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 251,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 256,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 260,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 265,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 269,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 274,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 278,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 283,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 288,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 292,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 297,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 301,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 306,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 310,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 315,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 320,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 324,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 329,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 333,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 338,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 342,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 347,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 352,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 356,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 361,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 365,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 370,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 374,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 379,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 383,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 388,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 393,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 397,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 402,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 406,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_0.9": {
+    "list": [
+      {
+        "baseAtk": 45,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 50,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 54,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 59,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 63,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 68,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 72,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 77,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 81,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 86,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 95,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 99,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 104,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 108,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 113,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 117,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 122,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 126,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 131,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 135,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 140,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 144,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 149,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 153,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 158,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 162,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 167,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 176,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 180,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 185,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 189,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 194,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 198,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 203,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 207,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 212,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 216,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 221,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 225,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 230,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 234,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 239,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 243,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 248,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 257,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 261,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 266,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 270,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 275,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 279,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 284,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 288,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 293,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 297,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 302,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 306,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 311,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 315,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 320,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 324,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 329,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 333,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 338,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 342,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 347,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 351,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 356,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 360,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 365,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 369,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 374,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 378,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 383,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 387,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 392,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 396,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 401,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_0.95": {
+    "list": [
+      {
+        "baseAtk": 48,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 52,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 57,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 62,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 67,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 71,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 76,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 81,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 86,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 95,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 100,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 109,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 119,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 124,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 128,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 133,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 138,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 143,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 147,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 152,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 157,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 162,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 166,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 176,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 181,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 185,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 190,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 195,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 200,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 204,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 214,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 219,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 223,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 228,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 233,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 238,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 242,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 247,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 257,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 261,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 266,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 271,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 276,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 280,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 285,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 290,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 295,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 299,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 304,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 309,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 314,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 318,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 323,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 328,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 333,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 337,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 342,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 347,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 352,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 356,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 361,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 366,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 371,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 375,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 380,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 385,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 390,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 394,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 399,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 404,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 409,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 413,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 418,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 423,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_1": {
+    "list": [
+      {
+        "baseAtk": 50,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 55,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 60,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 65,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 70,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 75,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 80,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 85,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 95,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 100,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 110,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 115,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 120,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 125,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 130,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 135,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 140,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 145,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 150,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 155,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 160,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 165,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 170,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 175,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 180,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 185,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 190,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 195,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 200,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 205,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 210,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 215,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 225,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 230,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 235,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 240,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 245,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 250,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 255,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 260,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 265,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 270,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 275,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 280,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 285,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 290,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 295,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 300,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 305,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 310,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 315,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 320,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 325,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 330,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 335,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 340,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 345,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 350,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 355,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 360,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 365,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 370,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 375,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 380,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 385,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 390,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 395,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 400,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 405,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 410,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 415,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 420,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 425,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 430,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 435,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 440,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 445,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_1.1": {
+    "list": [
+      {
+        "baseAtk": 55,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 61,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 66,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 72,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 77,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 83,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 88,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 94,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 99,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 105,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 110,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 116,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 121,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 127,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 132,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 138,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 143,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 149,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 154,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 160,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 165,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 171,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 176,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 182,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 187,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 193,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 198,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 204,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 209,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 215,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 220,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 226,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 231,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 237,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 242,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 248,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 253,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 259,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 264,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 270,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 275,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 281,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 286,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 292,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 297,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 303,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 308,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 314,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 319,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 325,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 330,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 336,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 341,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 347,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 352,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 358,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 363,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 369,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 374,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 380,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 385,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 391,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 396,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 402,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 407,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 413,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 418,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 424,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 429,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 435,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 440,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 446,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 451,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 457,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 462,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 468,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 473,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 479,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 484,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 490,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_1.2": {
+    "list": [
+      {
+        "baseAtk": 60,
+        "lvUpExp": 140,
+        "lvUpGold": 0,
+        "weaponLv": 1
+      },
+      {
+        "baseAtk": 66,
+        "lvUpExp": 180,
+        "lvUpGold": 0,
+        "weaponLv": 2
+      },
+      {
+        "baseAtk": 72,
+        "lvUpExp": 240,
+        "lvUpGold": 0,
+        "weaponLv": 3
+      },
+      {
+        "baseAtk": 78,
+        "lvUpExp": 310,
+        "lvUpGold": 0,
+        "weaponLv": 4
+      },
+      {
+        "baseAtk": 84,
+        "lvUpExp": 400,
+        "lvUpGold": 0,
+        "weaponLv": 5
+      },
+      {
+        "baseAtk": 90,
+        "lvUpExp": 490,
+        "lvUpGold": 0,
+        "weaponLv": 6
+      },
+      {
+        "baseAtk": 96,
+        "lvUpExp": 600,
+        "lvUpGold": 0,
+        "weaponLv": 7
+      },
+      {
+        "baseAtk": 102,
+        "lvUpExp": 740,
+        "lvUpGold": 0,
+        "weaponLv": 8
+      },
+      {
+        "baseAtk": 108,
+        "lvUpExp": 900,
+        "lvUpGold": 0,
+        "weaponLv": 9
+      },
+      {
+        "baseAtk": 114,
+        "lvUpExp": 1080,
+        "lvUpGold": 110,
+        "weaponLv": 10
+      },
+      {
+        "baseAtk": 120,
+        "lvUpExp": 1330,
+        "lvUpGold": 130,
+        "weaponLv": 11
+      },
+      {
+        "baseAtk": 126,
+        "lvUpExp": 1620,
+        "lvUpGold": 160,
+        "weaponLv": 12
+      },
+      {
+        "baseAtk": 132,
+        "lvUpExp": 1940,
+        "lvUpGold": 190,
+        "weaponLv": 13
+      },
+      {
+        "baseAtk": 138,
+        "lvUpExp": 2280,
+        "lvUpGold": 230,
+        "weaponLv": 14
+      },
+      {
+        "baseAtk": 144,
+        "lvUpExp": 2640,
+        "lvUpGold": 260,
+        "weaponLv": 15
+      },
+      {
+        "baseAtk": 150,
+        "lvUpExp": 3250,
+        "lvUpGold": 330,
+        "weaponLv": 16
+      },
+      {
+        "baseAtk": 156,
+        "lvUpExp": 3970,
+        "lvUpGold": 400,
+        "weaponLv": 17
+      },
+      {
+        "baseAtk": 162,
+        "lvUpExp": 4820,
+        "lvUpGold": 480,
+        "weaponLv": 18
+      },
+      {
+        "baseAtk": 168,
+        "lvUpExp": 5790,
+        "lvUpGold": 580,
+        "weaponLv": 19
+      },
+      {
+        "baseAtk": 174,
+        "lvUpExp": 6920,
+        "lvUpGold": 690,
+        "weaponLv": 20
+      },
+      {
+        "baseAtk": 180,
+        "lvUpExp": 7940,
+        "lvUpGold": 790,
+        "weaponLv": 21
+      },
+      {
+        "baseAtk": 186,
+        "lvUpExp": 8870,
+        "lvUpGold": 890,
+        "weaponLv": 22
+      },
+      {
+        "baseAtk": 192,
+        "lvUpExp": 9720,
+        "lvUpGold": 970,
+        "weaponLv": 23
+      },
+      {
+        "baseAtk": 198,
+        "lvUpExp": 10500,
+        "lvUpGold": 1050,
+        "weaponLv": 24
+      },
+      {
+        "baseAtk": 204,
+        "lvUpExp": 11210,
+        "lvUpGold": 1120,
+        "weaponLv": 25
+      },
+      {
+        "baseAtk": 210,
+        "lvUpExp": 12080,
+        "lvUpGold": 1210,
+        "weaponLv": 26
+      },
+      {
+        "baseAtk": 216,
+        "lvUpExp": 12900,
+        "lvUpGold": 1290,
+        "weaponLv": 27
+      },
+      {
+        "baseAtk": 222,
+        "lvUpExp": 13680,
+        "lvUpGold": 1370,
+        "weaponLv": 28
+      },
+      {
+        "baseAtk": 228,
+        "lvUpExp": 14410,
+        "lvUpGold": 1440,
+        "weaponLv": 29
+      },
+      {
+        "baseAtk": 234,
+        "lvUpExp": 14970,
+        "lvUpGold": 1500,
+        "weaponLv": 30
+      },
+      {
+        "baseAtk": 240,
+        "lvUpExp": 15460,
+        "lvUpGold": 1550,
+        "weaponLv": 31
+      },
+      {
+        "baseAtk": 246,
+        "lvUpExp": 15900,
+        "lvUpGold": 1590,
+        "weaponLv": 32
+      },
+      {
+        "baseAtk": 252,
+        "lvUpExp": 16270,
+        "lvUpGold": 1630,
+        "weaponLv": 33
+      },
+      {
+        "baseAtk": 258,
+        "lvUpExp": 16580,
+        "lvUpGold": 1660,
+        "weaponLv": 34
+      },
+      {
+        "baseAtk": 264,
+        "lvUpExp": 16950,
+        "lvUpGold": 1700,
+        "weaponLv": 35
+      },
+      {
+        "baseAtk": 270,
+        "lvUpExp": 17430,
+        "lvUpGold": 1740,
+        "weaponLv": 36
+      },
+      {
+        "baseAtk": 276,
+        "lvUpExp": 17980,
+        "lvUpGold": 1800,
+        "weaponLv": 37
+      },
+      {
+        "baseAtk": 282,
+        "lvUpExp": 18330,
+        "lvUpGold": 1830,
+        "weaponLv": 38
+      },
+      {
+        "baseAtk": 288,
+        "lvUpExp": 18750,
+        "lvUpGold": 1880,
+        "weaponLv": 39
+      },
+      {
+        "baseAtk": 294,
+        "lvUpExp": 19240,
+        "lvUpGold": 1920,
+        "weaponLv": 40
+      },
+      {
+        "baseAtk": 300,
+        "lvUpExp": 19890,
+        "lvUpGold": 1990,
+        "weaponLv": 41
+      },
+      {
+        "baseAtk": 306,
+        "lvUpExp": 20410,
+        "lvUpGold": 2040,
+        "weaponLv": 42
+      },
+      {
+        "baseAtk": 312,
+        "lvUpExp": 20960,
+        "lvUpGold": 2100,
+        "weaponLv": 43
+      },
+      {
+        "baseAtk": 318,
+        "lvUpExp": 21520,
+        "lvUpGold": 2150,
+        "weaponLv": 44
+      },
+      {
+        "baseAtk": 324,
+        "lvUpExp": 22100,
+        "lvUpGold": 2210,
+        "weaponLv": 45
+      },
+      {
+        "baseAtk": 330,
+        "lvUpExp": 22460,
+        "lvUpGold": 2250,
+        "weaponLv": 46
+      },
+      {
+        "baseAtk": 336,
+        "lvUpExp": 22820,
+        "lvUpGold": 2280,
+        "weaponLv": 47
+      },
+      {
+        "baseAtk": 342,
+        "lvUpExp": 23200,
+        "lvUpGold": 2320,
+        "weaponLv": 48
+      },
+      {
+        "baseAtk": 348,
+        "lvUpExp": 23580,
+        "lvUpGold": 2360,
+        "weaponLv": 49
+      },
+      {
+        "baseAtk": 354,
+        "lvUpExp": 23980,
+        "lvUpGold": 2400,
+        "weaponLv": 50
+      },
+      {
+        "baseAtk": 360,
+        "lvUpExp": 24380,
+        "lvUpGold": 2440,
+        "weaponLv": 51
+      },
+      {
+        "baseAtk": 366,
+        "lvUpExp": 24800,
+        "lvUpGold": 2480,
+        "weaponLv": 52
+      },
+      {
+        "baseAtk": 372,
+        "lvUpExp": 25220,
+        "lvUpGold": 2520,
+        "weaponLv": 53
+      },
+      {
+        "baseAtk": 378,
+        "lvUpExp": 25660,
+        "lvUpGold": 2570,
+        "weaponLv": 54
+      },
+      {
+        "baseAtk": 384,
+        "lvUpExp": 26110,
+        "lvUpGold": 2610,
+        "weaponLv": 55
+      },
+      {
+        "baseAtk": 390,
+        "lvUpExp": 26570,
+        "lvUpGold": 2660,
+        "weaponLv": 56
+      },
+      {
+        "baseAtk": 396,
+        "lvUpExp": 27040,
+        "lvUpGold": 2700,
+        "weaponLv": 57
+      },
+      {
+        "baseAtk": 402,
+        "lvUpExp": 27530,
+        "lvUpGold": 2750,
+        "weaponLv": 58
+      },
+      {
+        "baseAtk": 408,
+        "lvUpExp": 28020,
+        "lvUpGold": 2800,
+        "weaponLv": 59
+      },
+      {
+        "baseAtk": 414,
+        "lvUpExp": 28530,
+        "lvUpGold": 2850,
+        "weaponLv": 60
+      },
+      {
+        "baseAtk": 420,
+        "lvUpExp": 28610,
+        "lvUpGold": 2990,
+        "weaponLv": 61
+      },
+      {
+        "baseAtk": 426,
+        "lvUpExp": 28720,
+        "lvUpGold": 3140,
+        "weaponLv": 62
+      },
+      {
+        "baseAtk": 432,
+        "lvUpExp": 28850,
+        "lvUpGold": 3290,
+        "weaponLv": 63
+      },
+      {
+        "baseAtk": 438,
+        "lvUpExp": 29000,
+        "lvUpGold": 3460,
+        "weaponLv": 64
+      },
+      {
+        "baseAtk": 444,
+        "lvUpExp": 29180,
+        "lvUpGold": 3630,
+        "weaponLv": 65
+      },
+      {
+        "baseAtk": 450,
+        "lvUpExp": 29380,
+        "lvUpGold": 3810,
+        "weaponLv": 66
+      },
+      {
+        "baseAtk": 456,
+        "lvUpExp": 29610,
+        "lvUpGold": 4000,
+        "weaponLv": 67
+      },
+      {
+        "baseAtk": 462,
+        "lvUpExp": 29860,
+        "lvUpGold": 4210,
+        "weaponLv": 68
+      },
+      {
+        "baseAtk": 468,
+        "lvUpExp": 30130,
+        "lvUpGold": 4420,
+        "weaponLv": 69
+      },
+      {
+        "baseAtk": 474,
+        "lvUpExp": 30420,
+        "lvUpGold": 4650,
+        "weaponLv": 70
+      },
+      {
+        "baseAtk": 480,
+        "lvUpExp": 31110,
+        "lvUpGold": 4960,
+        "weaponLv": 71
+      },
+      {
+        "baseAtk": 486,
+        "lvUpExp": 31790,
+        "lvUpGold": 5270,
+        "weaponLv": 72
+      },
+      {
+        "baseAtk": 492,
+        "lvUpExp": 32460,
+        "lvUpGold": 5600,
+        "weaponLv": 73
+      },
+      {
+        "baseAtk": 498,
+        "lvUpExp": 33100,
+        "lvUpGold": 5950,
+        "weaponLv": 74
+      },
+      {
+        "baseAtk": 504,
+        "lvUpExp": 33720,
+        "lvUpGold": 6310,
+        "weaponLv": 75
+      },
+      {
+        "baseAtk": 510,
+        "lvUpExp": 34320,
+        "lvUpGold": 6680,
+        "weaponLv": 76
+      },
+      {
+        "baseAtk": 516,
+        "lvUpExp": 34900,
+        "lvUpGold": 7070,
+        "weaponLv": 77
+      },
+      {
+        "baseAtk": 522,
+        "lvUpExp": 35460,
+        "lvUpGold": 7480,
+        "weaponLv": 78
+      },
+      {
+        "baseAtk": 528,
+        "lvUpExp": 35990,
+        "lvUpGold": 7900,
+        "weaponLv": 79
+      },
+      {
+        "baseAtk": 534,
+        "lvUpExp": 0,
+        "lvUpGold": 0,
+        "weaponLv": 80
+      }
+    ]
+  }
+}

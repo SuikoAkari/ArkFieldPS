@@ -1,0 +1,6783 @@
+syntax = "proto3";
+
+message Header {
+  Version version = 1;
+  MessageType message_type = 2;
+  uint32 seq_id = 3;
+}
+
+enum Version {
+  V0 = 0;
+  V1 = 1;
+}
+
+enum MessageType {
+  AUTH_REQUEST = 0;
+  AUTH_RESPONSE = 1;
+  LOG_MESSAGE = 2;
+  LOG_MESSAGE_RESPONSE = 3;
+}
+
+message AuthRequest {
+  string token = 1;
+  string uid = 2;
+  string did = 3;
+  string app_id = 4;
+  string os = 5;
+  string os_version = 6;
+  string app_version = 7;
+  string log_sdk_version = 8;
+  string device_model = 9;
+  string network_type = 10;
+  string device_name = 11;
+  string server_name = 12;
+  string server_channel = 13;
+  int64 game_launch_time = 14;
+}
+
+message AuthResponse {
+  ResponseStatus status = 1;
+  string message = 2;
+  EncryptType encrypt_type = 3;
+  string key = 4;
+}
+
+enum ResponseStatus {
+  OK = 0;
+  PackageCheckFailed = 400;
+  TooManyTemplate = 401;
+  TemplateParamCountNotMatch = 402;
+  AuthFailed = 403;
+  TemplateNotFound = 404;
+  InvalidAppId = 405;
+  InvalidToken = 406;
+  InvalidProtocolVersion = 407;
+  UnsupportedMessageType = 408;
+  UnexpectedSeqId = 409;
+  ChecksumFailed = 410;
+}
+
+enum EncryptType {
+  None = 0;
+}
+
+message LogIntParam {
+  int64 val = 1;
+  int32 index = 2;
+}
+
+message LogFloatParam {
+  float val = 1;
+  int32 index = 2;
+}
+
+message LogDoubleParam {
+  double val = 1;
+  int32 index = 2;
+}
+
+message LogBoolParam {
+  string val = 1;
+  int32 index = 2;
+}
+
+message LogStringParam {
+  string val = 1;
+  int32 index = 2;
+}
+
+message LogMessage {
+  string log_template = 1;
+  uint32 template_hash = 2;
+  LogLevel log_level = 3;
+  int32 channel = 4;
+  int64 time = 5;
+  int64 role_id = 11;
+  repeated LogIntParam params_int_list = 6;
+  repeated LogFloatParam params_float_list = 7;
+  repeated LogDoubleParam params_double_list = 8;
+  repeated LogBoolParam params_bool_list = 9;
+  repeated LogStringParam params_string_list = 10;
+}
+
+enum LogLevel {
+  DEBUG = 0;
+  INFO = 1;
+  WARN = 2;
+  ERROR = 3;
+  FATAL = 4;
+}
+
+message LogMessageResponse {
+  ResponseStatus status = 1;
+  string message = 2;
+  uint32 template_hash = 3;
+}
+
+message Vector2 {
+  int32 x = 1;
+  int32 y = 2;
+}
+
+message SubPort {
+  Vector2 pos = 1;
+  Direction direction = 2;
+}
+
+enum Direction {
+  Direction_Up = 0;
+  Direction_Right = 1;
+  Direction_Down = 2;
+  Direction_Left = 3;
+  Direction_Max = 4;
+}
+
+message ItemUnit {
+  string id = 1;
+  uint64 count = 2;
+}
+
+message ItemBox {
+  string id = 1;
+  uint64 count = 2;
+  int32 index = 3;
+  int64 offset = 4;
+}
+
+message Formula {
+  string id = 1;
+  int64 progress_per_round = 2;
+  repeated ItemUnit from = 3;
+  repeated ItemUnit to = 4;
+}
+
+message SDShape {
+  ShapeType type = 1;
+  repeated Vector2 points = 2;
+}
+
+enum ShapeType {
+  ShapeType_Invalid = 0;
+  ShapeType_Rect = 1;
+  ShapeType_Line = 2;
+  ShapeType_Max = 3;
+}
+
+message SDTemplate {
+  string id = 1;
+  NodeType type = 2;
+  SDShape shape = 3;
+  oneof s_d_node {
+    SDNodeBus bus = 21;
+    SDNodeBusUnloader bus_unloader = 22;
+    SDNodeBusLoader bus_loader = 23;
+    SDNodeCollector collector = 24;
+    SDNodeProducer producer = 25;
+    SDNodeBoxConveyor box_conveyor = 26;
+    SDNodeBoxRouter box_router = 27;
+  }
+}
+
+enum NodeType {
+  NodeType_Invalid = 0;
+  NodeType_Inventory = 1;
+  NodeType_Bus = 2;
+  NodeType_Hub = 3;
+  NodeType_Collector = 4;
+  NodeType_Producer = 5;
+  NodeType_BoxConveyor = 6;
+  NodeType_BoxRouter = 7;
+  NodeType_BusUnloader = 8;
+  NodeType_BusLoader = 9;
+  NodeType_Max = 10;
+}
+
+message SDNodeBus {
+  SDComponentBus bus = 1;
+}
+
+message SDComponentBus {
+  repeated SubPort ports = 1;
+}
+
+message SDNodeBusUnloader {
+  SDComponentBusUnloader bus_unloader = 1;
+  SDComponentSelector selector = 2;
+}
+
+message SDComponentBusUnloader {
+  repeated SubPort ports = 1;
+}
+
+message SDComponentSelector {
+  repeated SubPort ports = 1;
+}
+
+message SDNodeBusLoader {
+  SDComponentBusLoader bus_loader = 1;
+}
+
+message SDComponentBusLoader {
+  repeated SubPort ports_in = 1;
+  repeated SubPort ports_out = 2;
+}
+
+message SDNodeCollector {
+  SDComponentCollector collector = 1;
+  repeated SDComponentCache caches = 2;
+}
+
+message SDComponentCollector {
+  int64 progress_per_round = 1;
+}
+
+message SDComponentCache {
+  int32 size = 1;
+  repeated SubPort ports = 2;
+}
+
+message SDNodeProducer {
+  SDComponentProducer producer = 1;
+  SDComponentFormulaMan formula_man = 2;
+  repeated SDComponentCache caches_in = 3;
+  repeated SDComponentCache caches_out = 4;
+}
+
+message SDComponentProducer {
+  int64 produce_scale = 1;
+}
+
+message SDComponentFormulaMan {
+  repeated string formula_ids = 1;
+}
+
+message SDNodeBoxConveyor {
+  SDComponentBoxConveyor box_conveyor = 1;
+}
+
+message SDComponentBoxConveyor {
+  int64 m_s_per_step = 1;
+}
+
+message SDNodeBoxRouter {
+  SDComponentBoxRouter box_router = 1;
+}
+
+message SDComponentBoxRouter {
+  int64 m_s_hold = 1;
+  repeated SubPort ports = 2;
+}
+
+message LayoutShape {
+  ShapeType type = 1;
+  repeated Vector2 points = 2;
+  repeated Direction dynamic_dir_in = 3;
+  repeated Direction dynamic_dir_out = 4;
+}
+
+message Node {
+  uint64 node_id = 1;
+  NodeType type = 2;
+  string template_id = 3;
+  LayoutShape shape = 4;
+  repeated Component component = 11;
+}
+
+message Component {
+  uint64 component_id = 1;
+  ComponentType type = 2;
+  oneof content {
+    ComponentCache cache = 11;
+    ComponentInventory inventory = 12;
+    ComponentCollector collector = 13;
+    ComponentProducer producer = 14;
+    ComponentSelector selector = 15;
+    ComponentBoxConveyor box_conveyor = 16;
+    ComponentBoxRouter box_router = 17;
+    ComponentMap map = 18;
+    ComponentTransform transform = 19;
+  }
+}
+
+enum ComponentType {
+  ComponentType_Invalid = 0;
+  ComponentType_Map = 1;
+  ComponentType_Transform = 2;
+  ComponentType_Bus = 3;
+  ComponentType_Inventory = 4;
+  ComponentType_Cache = 5;
+  ComponentType_Selector = 6;
+  ComponentType_Collector = 7;
+  ComponentType_Producer = 8;
+  ComponentType_FormulaMan = 9;
+  ComponentType_BoxConveyor = 10;
+  ComponentType_BoxRouter = 11;
+  ComponentType_BusUnloader = 12;
+  ComponentType_BusLoader = 13;
+  ComponentType_Max = 14;
+}
+
+message ComponentCache {
+  repeated ItemUnit cache = 1;
+}
+
+message ComponentInventory {
+  repeated ItemUnit store = 1;
+}
+
+message ComponentCollector {
+  int64 current_progress = 1;
+  int64 progress_per_round = 2;
+  repeated ItemUnit items_per_round = 3;
+}
+
+message ComponentProducer {
+  int64 current_progress = 1;
+  string current_formula_id = 2;
+}
+
+message ComponentSelector {
+  string selected_item_id = 1;
+}
+
+message ComponentBoxConveyor {
+  SubPort port_in = 1;
+  SubPort port_out = 2;
+  repeated ItemBox list = 6;
+}
+
+message ComponentBoxRouter {
+  ItemBox content = 1;
+}
+
+message ComponentMap {
+  map<int32, uint64> com_as_kind = 1;
+}
+
+message ComponentTransform {
+  Vector2 position = 1;
+  Direction direction = 2;
+}
+
+message ContextBrief {
+  uint64 c_d = 1;
+  int64 now = 2;
+  bool is_active = 3;
+}
+
+message ContextBlackboard {
+  int64 electric_current = 1;
+  int64 electric_max = 2;
+}
+
+message ContextStatus {
+  ContextBrief brief = 1;
+  ContextBlackboard blackboard = 2;
+  repeated uint64 node_ids = 3;
+}
+
+message Event {
+  int64 timestamp_m_s = 1;
+  uint64 sequence = 2;
+  EventType type = 3;
+  oneof payload {
+    EventPrepared prepared = 11;
+    EventLayoutChg layout_chg = 12;
+    EventComponentChg component_chg = 13;
+    EventRelationChg relation_chg = 14;
+  }
+}
+
+enum EventType {
+  EventType_Invalid = 0;
+  EventType_Prepared = 1;
+  EventType_LayoutChg = 2;
+  EventType_ComponentChg = 3;
+  EventType_RelationChg = 4;
+  EventType_Max = 5;
+}
+
+message EventPrepared {
+}
+
+message EventLayoutChg {
+  repeated uint64 node_ids = 1;
+}
+
+message EventComponentChg {
+  repeated uint64 component_ids = 1;
+}
+
+message EventRelationChg {
+  bool is_got = 1;
+  repeated uint64 com_id = 2;
+}
+
+message Operate {
+  OperateType type = 1;
+  oneof payload {
+    OperatePayloadPlace place = 11;
+    OperatePayloadPlaceConveyor place_conveyor = 12;
+    OperatePayloadDismantle dismantle = 13;
+    OperatePayloadSetCollectTarget set_collect_target = 14;
+    OperatePayloadSetUnloaderSelect set_unloader_select = 15;
+    OperatePayloadPutInItemsToCache put_in_items_to_cache = 16;
+    OperatePayloadTakeOutItemsFromCache take_out_items_from_cache = 17;
+    OperatePayloadAddNewArea add_new_area = 18;
+    OperatePayloadSetEventEnable set_event_enable = 19;
+  }
+}
+
+enum OperateType {
+  OperateType_Invalid = 0;
+  OperateType_Place = 1;
+  OperateType_PlaceConveyor = 2;
+  OperateType_Dismantle = 3;
+  OperateType_SetCollectTarget = 4;
+  OperateType_SetUnloaderSelect = 5;
+  OperateType_PutInItemsToCache = 6;
+  OperateType_TakeOutItemsFromCache = 7;
+  OperateType_AddNewArea = 8;
+  OperateType_SetEventEnable = 9;
+}
+
+message OperatePayloadPlace {
+  string template_id = 1;
+  Vector2 pos = 2;
+  Direction direction = 3;
+}
+
+message OperatePayloadPlaceConveyor {
+  string template_id = 1;
+  Direction direction_in = 2;
+  Direction direction_out = 3;
+  repeated Vector2 points = 4;
+}
+
+message OperatePayloadDismantle {
+  uint64 node_id = 1;
+}
+
+message OperatePayloadSetCollectTarget {
+  uint64 node_id = 1;
+  repeated ItemUnit items_per_round = 2;
+}
+
+message OperatePayloadSetUnloaderSelect {
+  uint64 node_id = 1;
+  string item_id = 2;
+}
+
+message OperatePayloadPutInItemsToCache {
+  uint64 com_id = 1;
+  repeated ItemUnit items = 2;
+}
+
+message OperatePayloadTakeOutItemsFromCache {
+  uint64 com_id = 1;
+  repeated ItemUnit items = 2;
+}
+
+message OperatePayloadAddNewArea {
+  repeated Vector2 area = 1;
+}
+
+message OperatePayloadSetEventEnable {
+  bool enable = 1;
+  repeated EventType event_type_list = 2;
+}
+
+message OperateReturn {
+  OperateRetCode ret_code = 1;
+  int64 timestamp_m_s = 2;
+  uint64 sequence = 3;
+  oneof payload {
+    OperateReturnPlace place = 11;
+    OperateReturnPlaceConveyor place_conveyor = 12;
+    OperateReturnPutInItemsToCache put_in_items_to_cache = 13;
+    OperateReturnTakeOutItemsFromCache take_out_items_from_cache = 14;
+  }
+}
+
+enum OperateRetCode {
+  OperateRetCode_OK = 0;
+  OperateRetCode_Unknown = 1;
+  OperateRetCode_Fail = 2;
+  OperateRetCode_InvalidParameter = 3;
+  OperateRetCode_UnknownTemplate = 4;
+  OperateRetCode_MeshConflict = 5;
+}
+
+message OperateReturnPlace {
+  uint64 node_id = 1;
+}
+
+message OperateReturnPlaceConveyor {
+  uint64 node_id = 1;
+}
+
+message OperateReturnPutInItemsToCache {
+  repeated ItemUnit least_items = 1;
+}
+
+message OperateReturnTakeOutItemsFromCache {
+  repeated ItemUnit got_items = 1;
+}
+
+message MeshArea {
+  repeated Vector2 range = 1;
+}
+
+message MeshAreaBitmap {
+  repeated Vector2 area = 1;
+  repeated uint64 bitmaps = 2;
+}
+
+message ContextArchive {
+  ContextBrief brief = 1;
+  ContextBlackboard blackboard = 2;
+  repeated MeshArea areas = 3;
+  repeated Node nodes = 11;
+}
+
+message BattleClientData {
+  repeated BattleClientOpData op_list = 1;
+}
+
+message BattleClientOpData {
+  uint64 owner_id = 1;
+  BattleActionOperateType op_type = 2;
+  uint32 generation = 3;
+  int32 chapter_map_id = 17;
+  oneof op_data_impl {
+    BattleAddBuffOpData add_buff_op_data = 4;
+    BattleFinishBuffOpData finish_buff_op_data = 5;
+    BattleSkillAttachOpData skill_attach_op_data = 6;
+    BattleSkillDetachOpData skill_detach_op_data = 7;
+    BattleSkillStartCastOpData skill_start_cast_op_data = 8;
+    BattleSkillEndCastOpData skill_end_cast_op_data = 9;
+    BattleSwitchModeOpData skill_switch_mode_op_data = 10;
+    BattleTriggerActionOpData trigger_action_op_data = 11;
+    BattleUpdateHubOpData update_hub_op_data = 12;
+    BattleEntityDieOpData entity_die_op_data = 13;
+    BattleEntityValueModifyData entity_value_modify_data = 14;
+    BattleResetBattleDataOpData reset_battle_op_data = 15;
+    BattleUpdateDataVersionOpData update_data_version_op_data = 16;
+  }
+}
+
+enum BattleActionOperateType {
+  BATTLE_OP_NONE = 0;
+  BATTLE_OP_ADD_BUFF = 1;
+  BATTLE_OP_FINISH_BUFF = 2;
+  BATTLE_OP_SKILL_ATTACH = 3;
+  BATTLE_OP_SKILL_DETACH = 4;
+  BATTLE_OP_SKILL_START_CAST = 5;
+  BATTLE_OP_SKILL_END_CAST = 6;
+  BATTLE_OP_SWITCH_MODE = 7;
+  BATTLE_OP_TRIGGER_ACTION = 8;
+  BATTLE_OP_UPDATE_HUB = 9;
+  BATTLE_OP_ENTITY_DIE = 10;
+  BATTLE_OP_ENTITY_VALUE_MODIFY = 11;
+  BATTLE_OP_RESET_BATTLE_DATA = 12;
+  BATTLE_OP_UPDATE_DATA_VERSION = 13;
+}
+
+message BattleAddBuffOpData {
+  uint64 src_inst_id = 1;
+  uint64 target_inst_id = 2;
+  string buff_id = 3;
+  uint64 buff_inst_id = 4;
+  int64 client_add_ts = 5;
+  BattleBlackboard assigned_items = 6;
+  int32 buff_src_type = 7;
+  string buff_src_args = 8;
+}
+
+message BattleBlackboard {
+  map<string, BattleBlackboardData> blackboard = 1;
+}
+
+message BattleBlackboardData {
+  string str_value = 1;
+  double float_value = 2;
+  bool is_dynamic = 3;
+}
+
+message BattleFinishBuffOpData {
+  uint64 buff_inst_id = 1;
+  int32 reduce_layer = 2;
+  bool force = 3;
+}
+
+message BattleSkillAttachOpData {
+  uint64 src_inst_id = 1;
+  string skill_id = 2;
+  int32 skill_lv = 3;
+  BattleSkillSource skill_source = 4;
+  uint64 skill_inst_id = 5;
+}
+
+enum BattleSkillSource {
+  BATTLE_SKILL_SOURCE_DEFAULT = 0;
+  BATTLE_SKILL_SOURCE_MODE = 1;
+  BATTLE_SKILL_SOURCE_WEAPON = 2;
+  BATTLE_SKILL_SOURCE_EQUIP_SUIT = 3;
+  BATTLE_SKILL_SOURCE_OTHER = 4;
+  BATTLE_SKILL_SOURCE_INTERACTIVE = 5;
+  BATTLE_SKILL_SOURCE_SUMMON = 6;
+  BATTLE_SKILL_SOURCE_PLUNGING_ATTACK = 7;
+  BATTLE_SKILL_SOURCE_POWER_ATTACK = 8;
+  BATTLE_SKILL_SOURCE_TALENT_NODE_SKILL = 9;
+  BATTLE_SKILL_SOURCE_POTENTIAL_LV_SKILL = 10;
+}
+
+message BattleSkillDetachOpData {
+  uint64 skill_inst_id = 1;
+}
+
+message BattleSkillStartCastOpData {
+  uint64 inst_id = 1;
+  BattleTargetHandle target = 2;
+}
+
+message BattleTargetHandle {
+  repeated BattleTargetWrapper targets = 1;
+}
+
+message BattleTargetWrapper {
+  uint64 target_id = 1;
+  Vector target_pos = 2;
+}
+
+message Vector {
+  float x = 1;
+  float y = 2;
+  float z = 3;
+}
+
+message BattleSkillEndCastOpData {
+  uint64 inst_id = 1;
+}
+
+message BattleSwitchModeOpData {
+  uint32 mode_inst_id = 1;
+  string mode_id = 2;
+  int32 mode_change_type = 3;
+  bool is_enable = 4;
+}
+
+message BattleTriggerActionOpData {
+  uint64 owner_id = 1;
+  uint64 inst_id = 2;
+  string template_id = 3;
+  BattleTargetHandle input_targets = 4;
+  BattleActionInst action = 5;
+  BattleTriggerType trigger_type = 6;
+  BattleActionOwnerType owner_type = 7;
+}
+
+message BattleActionInst {
+  int32 action_id = 1;
+  ServerBattleActionType action_type = 2;
+  oneof inst_impl {
+    BattleDamageActionRuntime damage_action = 3;
+    BattleCreateBuffActionRuntime create_buff_action = 4;
+    BattleFinishBuffActionRuntime finish_buff_action = 5;
+    BattleGainCostActionRuntime gain_cost_action = 6;
+    BattleHealActionRuntime heal_action = 7;
+    BattleSwitchModeActionRuntime switch_mode_action = 8;
+    BattleModifyDynamicBlackboardActionRuntime modify_dynamic_blackboard_action = 9;
+    BattleSpawnEnemyActionRuntime spawn_enemy_action = 10;
+    BattleCheckDamageTypeActionRuntime check_damage_type_action = 11;
+    BattleCheckDamageDecorateMaskActionRuntime check_damage_decorate_mask_action = 12;
+    BattleCheckDistanceConditionActionRuntime check_distance_condition_action = 13;
+    BattleCheckEntityNumActionRuntime check_entity_num_action = 14;
+    BattleCheckHpActionRuntime check_hp_action = 15;
+    BattleCheckIsCriticalDamageActionRuntime check_is_critical_damage_action = 16;
+    BattleCheckMainCharacterActionRuntime check_main_character_action = 17;
+    BattleCheckObjectTypeMatchActionRuntime check_object_type_match_action = 18;
+    BattleCheckSkillTypeActionRuntime check_skill_type_action = 19;
+    BattleCheckSquadInFightActionRuntime check_squad_in_fight_action = 20;
+    BattleCheckTagMatchActionRuntime check_tag_match_action = 21;
+    BattleCheckTargetAngleActionRuntime check_target_angle_action = 22;
+    BattleCompareFloatActionRuntime compare_float_action = 23;
+    BattleProbabilityActionRuntime probability_action = 24;
+    BattleLaunchProjectileActionRuntime launch_projectile_action = 25;
+    BattleSpawnAbilityEntityActionRuntime spawn_ability_entity_action = 26;
+    BattleSpawnCustomSummonActionRuntime spawn_custom_summon_action = 27;
+    BattleRefreshBuffAttrModifierValueActionRuntime refresh_buff_attr_modifier_value_action = 28;
+    BattleStoreAttributeValueActionRuntime store_attribute_value_action = 29;
+    BattleSetBlackboardFromPresetRuntime set_blackboard_from_preset_action = 30;
+    EmptyBattleAction empty_action = 999;
+  }
+}
+
+enum ServerBattleActionType {
+  BATTLE_ACTION_NONE = 0;
+  BATTLE_ACTION_DAMAGE = 1;
+  BATTLE_ACTION_CREATE_BUFF = 2;
+  BATTLE_ACTION_FINISH_BUFF = 3;
+  BATTLE_ACTION_GAIN_COST = 4;
+  BATTLE_ACTION_HEAL = 5;
+  BATTLE_ACTION_SWITCH_MODE = 6;
+  BATTLE_ACTION_MODIFY_DYNAMIC_BLACKBOARD = 7;
+  BATTLE_ACTION_SPAWN_ENEMY = 8;
+  BATTLE_ACTION_CHECK_DAMAGE_TYPE = 9;
+  BATTLE_ACTION_CHECK_DAMAGE_DECORATE_MASK = 10;
+  BATTLE_ACTION_CHECK_DISTANCE_CONDITION = 11;
+  BATTLE_ACTION_CHECK_ENTITY_NUM = 12;
+  BATTLE_ACTION_CHECK_HP = 13;
+  BATTLE_ACTION_CHECK_IS_CRITICAL_DAMAGE = 14;
+  BATTLE_ACTION_CHECK_MAIN_CHARACTER = 15;
+  BATTLE_ACTION_CHECK_OBJECT_TYPE_MATCH = 16;
+  BATTLE_ACTION_CHECK_SKILL_TYPE = 17;
+  BATTLE_ACTION_CHECK_SQUAD_IN_FIGHT = 18;
+  BATTLE_ACTION_CHECK_TAG_MATCH = 19;
+  BATTLE_ACTION_CHECK_TARGET_ANGLE = 20;
+  BATTLE_ACTION_COMPARE_FLOAT = 21;
+  BATTLE_ACTION_PROBABILITY = 22;
+  BATTLE_ACTION_LAUNCH_PROJECTILE = 23;
+  BATTLE_ACTION_SPAWN_ABILITY_ENTITY = 24;
+  BATTLE_ACTION_IF_ELSE = 25;
+  BATTLE_ACTION_FOR_EACH = 26;
+  BATTLE_ACTION_AURA = 27;
+  BATTLE_ACTION_SPAWN_CUSTOM_SUMMON = 28;
+  BATTLE_ACTION_CHANNELING = 29;
+  BATTLE_ACTION_STORE_ATTRIBUTE_VALUE = 30;
+  BATTLE_ACTION_REFRESH_BUFF_ATTR_MODIFIER_VALUE = 31;
+  BATTLE_ACTION_SET_BLACKBOARD_FROM_PRESET = 32;
+}
+
+message BattleDamageActionRuntime {
+  uint64 attacker_id = 1;
+  repeated BattleDamageDetail details = 2;
+}
+
+message BattleDamageDetail {
+  uint64 target_id = 1;
+  int32 damage_unit_index = 2;
+  bool is_crit = 3;
+  double value = 4;
+  BattleDamageModifierArgs modifier_args = 5;
+  double cur_hp = 6;
+}
+
+message BattleDamageModifierArgs {
+  uint64 attacker_id = 1;
+  uint64 defender_id = 2;
+  repeated BattleModifierHandle attacker_modifiers = 3;
+  repeated BattleModifierHandle defender_modifiers = 4;
+}
+
+message BattleModifierHandle {
+  uint64 buff_inst_id = 1;
+  int32 index = 2;
+}
+
+message BattleCreateBuffActionRuntime {
+  repeated BattleCreateBuffActionDetail details = 2;
+}
+
+message BattleCreateBuffActionDetail {
+  uint64 source_id = 1;
+  uint64 target_id = 2;
+  uint64 buff_inst_id = 3;
+  int32 buff_input_index = 4;
+  repeated BattleBlackboardAssignItem assigned_items = 5;
+}
+
+message BattleBlackboardAssignItem {
+  string target_key = 1;
+  string input_value_key = 2;
+  bool use_direct_value = 3;
+  float numeric_value = 4;
+  string string_value = 5;
+}
+
+message BattleFinishBuffActionRuntime {
+  repeated BattleFinishBuffActionDetail finish_buffs = 1;
+}
+
+message BattleFinishBuffActionDetail {
+  uint64 target_id = 1;
+  uint64 buff_inst_id = 2;
+}
+
+message BattleGainCostActionRuntime {
+  uint64 source_id = 1;
+  uint64 target_id = 2;
+  double final_value = 3;
+}
+
+message BattleHealActionRuntime {
+  repeated BattleHealActionDetail details = 1;
+}
+
+message BattleHealActionDetail {
+  uint64 source_id = 1;
+  uint64 target_id = 2;
+  double value = 3;
+  BattleHealModifierArgs modifier_args = 4;
+  double cur_hp = 5;
+}
+
+message BattleHealModifierArgs {
+  uint64 healer_id = 1;
+  uint64 heal_receive_id = 2;
+  repeated BattleModifierHandle healer_modifiers = 3;
+  repeated BattleModifierHandle heal_receive_modifiers = 4;
+}
+
+message BattleSwitchModeActionRuntime {
+  uint64 source_id = 1;
+  string mode_id = 2;
+  uint32 mode_inst_id = 3;
+}
+
+message BattleModifyDynamicBlackboardActionRuntime {
+  double client_value = 1;
+}
+
+message BattleSpawnEnemyActionRuntime {
+  uint32 client_key = 1;
+  repeated BattleSpawnEnemyActionDetail details = 2;
+}
+
+message BattleSpawnEnemyActionDetail {
+  uint64 source_id = 1;
+  uint32 enemy_lv = 2;
+  Vector pos = 3;
+  Vector rotation = 4;
+  int32 scene_num_id = 5;
+}
+
+message BattleCheckDamageTypeActionRuntime {
+  bool result = 1;
+}
+
+message BattleCheckDamageDecorateMaskActionRuntime {
+  bool result = 1;
+}
+
+message BattleCheckDistanceConditionActionRuntime {
+  Vector pos_a = 1;
+  Vector pos_b = 2;
+  float distance = 4;
+  bool result = 3;
+}
+
+message BattleCheckEntityNumActionRuntime {
+  bool result = 1;
+}
+
+message BattleCheckHpActionRuntime {
+  uint64 source_id = 1;
+  bool result = 2;
+}
+
+message BattleCheckIsCriticalDamageActionRuntime {
+  bool result = 1;
+}
+
+message BattleCheckMainCharacterActionRuntime {
+  uint64 check_target_id = 1;
+  bool result = 2;
+}
+
+message BattleCheckObjectTypeMatchActionRuntime {
+  bool result = 3;
+}
+
+message BattleCheckSkillTypeActionRuntime {
+  bool result = 1;
+}
+
+message BattleCheckSquadInFightActionRuntime {
+  bool result = 1;
+}
+
+message BattleCheckTagMatchActionRuntime {
+  repeated uint64 target_ids = 1;
+  bool result = 2;
+}
+
+message BattleCheckTargetAngleActionRuntime {
+  Vector source_vector = 1;
+  Vector target_vector = 2;
+  bool result = 3;
+}
+
+message BattleCompareFloatActionRuntime {
+  bool result = 1;
+}
+
+message BattleProbabilityActionRuntime {
+  bool result = 1;
+}
+
+message BattleLaunchProjectileActionRuntime {
+  uint64 source_id = 1;
+  repeated BattleProjectileDetail details = 2;
+}
+
+message BattleProjectileDetail {
+  uint64 client_projectile_id = 1;
+}
+
+message BattleSpawnAbilityEntityActionRuntime {
+  repeated BattleAbilityEntityDetail details = 1;
+}
+
+message BattleAbilityEntityDetail {
+  uint64 client_ability_entity_id = 1;
+  uint64 source_id = 2;
+  Vector init_pos = 3;
+  Vector rotation = 4;
+}
+
+message BattleSpawnCustomSummonActionRuntime {
+  repeated BattleSpawnCustomSummonDetail details = 1;
+}
+
+message BattleSpawnCustomSummonDetail {
+  string summon_id = 1;
+  string summon_skill_id = 2;
+  uint64 client_ability_entity_id = 3;
+  Vector init_pos = 4;
+  Vector rotation = 5;
+  BattleBlackboard blackboard = 6;
+  uint64 source_id = 7;
+}
+
+message BattleRefreshBuffAttrModifierValueActionRuntime {
+}
+
+message BattleStoreAttributeValueActionRuntime {
+  float value = 1;
+}
+
+message BattleSetBlackboardFromPresetRuntime {
+  string modified_value = 1;
+}
+
+message EmptyBattleAction {
+}
+
+enum BattleTriggerType {
+  BATTLE_TRIGGER_TYPE_EXECUTE = 0;
+  BATTLE_TRIGGER_TYPE_TICK = 1;
+  BATTLE_TRIGGER_TYPE_END = 2;
+}
+
+enum BattleActionOwnerType {
+  BATTLE_ACTION_OWNER_TYPE_NONE = 0;
+  BATTLE_ACTION_OWNER_TYPE_BUFF = 1;
+  BATTLE_ACTION_OWNER_TYPE_SKILL = 2;
+}
+
+message BattleUpdateHubOpData {
+  uint64 owner_id = 1;
+  uint64 inst_id = 2;
+  string template_id = 3;
+  repeated BattleHubItem hub_data = 4;
+  BattleActionOwnerType owner_type = 5;
+}
+
+message BattleHubItem {
+  BattleHubKeyType key_type = 1;
+  repeated double numeric_values = 2;
+  repeated string string_values = 3;
+  repeated BattleTargetHandle target_handles = 4;
+}
+
+enum BattleHubKeyType {
+  BATTLE_HUB_KEY_TYPE_NONE = 0;
+  DAMAGE_TYPE = 1;
+  DAMAGE_DECORATE_MASK = 2;
+  DAMAGE_IS_CRIT = 3;
+  ENTITY_NUM = 4;
+  SKILL_TYPE = 5;
+}
+
+message BattleEntityDieOpData {
+  uint64 entity_inst_id = 1;
+  int32 scene_num_id = 2;
+  bool disable_anti_cheat = 3;
+}
+
+message BattleEntityValueModifyData {
+  uint64 entity_inst_id = 1;
+  int32 scene_num_id = 2;
+  BattleInfo value = 3;
+  int32 source = 4;
+}
+
+message BattleInfo {
+  double hp = 1;
+  float ultimatesp = 2;
+}
+
+message BattleResetBattleDataOpData {
+}
+
+message BattleUpdateDataVersionOpData {
+  string client_data_version = 1;
+}
+
+message BattleActionJump {
+  int32 action_type = 1;
+  string jump_to_tag = 2;
+}
+
+message BuffRes {
+  string buff_id = 1;
+  int32 life_type = 2;
+  repeated BattleAttrModifier attr_modifiers = 3;
+  repeated BuffDamageModifierRes damage_modifiers = 4;
+  repeated BuffHealModifierRes heal_modifiers = 5;
+  BattleBlackboard blackboard = 6;
+  map<int32, BattleActionRes> action_map = 7;
+  repeated int32 apply_tags = 8;
+  BuffStackingSettings stacking_settings = 9;
+  BattleBlackboardFloat duration = 10;
+  bool remove_on_repatriate = 11;
+  string stacking_id = 101;
+  int32 stacking_type = 102;
+  int32 max_stack_cnt = 103;
+  int32 priority = 104;
+}
+
+message BattleAttrModifier {
+  int32 modify_attr_type = 1;
+  int32 attr_type = 2;
+  int32 formula_item = 3;
+  BattleBlackboardFloat param = 4;
+}
+
+message BattleBlackboardFloat {
+  bool use_blackboard_key = 1;
+  string blackboard_key = 2;
+  double default_value = 3;
+}
+
+message BuffDamageModifierRes {
+  int32 enable_side = 1;
+  int32 index = 2;
+  repeated BattleActionRes cond_actions = 3;
+  repeated BattleDamageProcessor damage_processors = 4;
+}
+
+message BattleActionRes {
+  int32 action_id = 1;
+  ServerBattleActionType action_type = 2;
+  oneof inst_impl {
+    BattleDamageActionData damage_action = 3;
+    BattleCreateBuffActionData create_buff_action = 4;
+    BattleFinishBuffActionData finish_buff_action = 5;
+    BattleGainCostActionData gain_cost_action = 6;
+    BattleHealActionData heal_action = 7;
+    BattleSwitchModeActionData switch_mode_action = 8;
+    BattleModifyDynamicBlackboardActionData modify_dynamic_blackboard_action = 9;
+    BattleSpawnEnemyActionData spawn_enemy_action = 10;
+    BattleCheckDamageTypeActionData check_damage_type_action = 11;
+    BattleCheckDamageDecorateMaskActionData check_damage_decorate_mask_action = 12;
+    BattleCheckDistanceConditionActionData check_distance_condition_action = 13;
+    BattleCheckEntityNumActionData check_entity_num_action = 14;
+    BattleCheckHpActionData check_hp_action = 15;
+    BattleCheckIsCriticalDamageActionData check_is_critical_damage_action = 16;
+    BattleCheckMainCharacterActionData check_main_character_action = 17;
+    BattleCheckObjectTypeMatchActionData check_object_type_match_action = 18;
+    BattleCheckSkillTypeActionData check_skill_type_action = 19;
+    BattleCheckSquadInFightActionData check_squad_in_fight_action = 20;
+    BattleCheckTagMatchActionData check_tag_match_action = 21;
+    BattleCheckTargetAngleActionData check_target_angle_action = 22;
+    BattleCompareFloatActionData compare_float_action = 23;
+    BattleProbabilityActionData probability_action = 24;
+    BattleLaunchProjectileActionData launch_projectile_action = 25;
+    BattleSpawnAbilityEntityActionData spawn_ability_entity_action = 26;
+    BattleSpawnCustomSummonActionData spawn_custom_summon_action = 27;
+    BattleRefreshBuffAttrModifierValueActionData refresh_buff_attr_modifier_value_action = 28;
+    BattleStoreAttributeValueActionData store_attribute_value_action = 29;
+    BattleSetBlackboardFromPresetData set_blackboard_from_preset_action = 30;
+    BattleActionEmptyRes empty_res = 999;
+  }
+}
+
+message BattleDamageActionData {
+  BattleActionTargetSetting target = 1;
+  int32 attacker_type = 2;
+  repeated BattleActionDamageUnit damage_unit = 3;
+}
+
+message BattleActionTargetSetting {
+  int32 target_source = 1;
+  string target_group_key = 2;
+}
+
+message BattleActionDamageUnit {
+  int32 damage_type = 1;
+  int32 damage_attribute_type = 2;
+  int32 damage_decorate_mask = 3;
+  bool simple_calculation = 4;
+  BattleBlackboardFloat atk_scale = 5;
+  BattleDamageAtkCalculation atk_calculation = 6;
+  repeated BattleDamageProcessor damage_processors = 7;
+  bool gain_cost = 8;
+  repeated SkillCostData cost_data = 9;
+  bool reduce_damage_for_guard = 10;
+  float reduce_damage_for_guard_ratio = 11;
+}
+
+message BattleDamageAtkCalculation {
+  AtkCalculationType type = 1;
+  oneof calculation_impl {
+    AtkScaleCalculation atk_scale_calculation = 2;
+    DefiniteValueCalculation definite_value_calculation = 3;
+    MultiplyAttributeCalculation multiply_attribute_calculation = 4;
+    BreakingAttackCalculation breaking_attack_calculation = 5;
+    PrimaryAttrCalculation primary_attr_calculation = 6;
+  }
+}
+
+enum AtkCalculationType {
+  ATK_SCALE = 0;
+  DEFINITE_VALUE = 1;
+  MULTIPLY_ATTRIBUTE = 2;
+  BREAKING_ATK_CALC = 3;
+  PRIMARY_ATTR_CALC = 4;
+}
+
+message AtkScaleCalculation {
+  AtkCalculationType type = 1;
+  BattleBlackboardFloat atk_scale = 2;
+}
+
+message DefiniteValueCalculation {
+  AtkCalculationType type = 1;
+  BattleBlackboardFloat definite_value = 2;
+  bool apply_scale = 3;
+  BattleBlackboardFloat value_scale = 4;
+}
+
+message MultiplyAttributeCalculation {
+  AtkCalculationType type = 1;
+  int32 value_source = 2;
+  int32 attr_type = 3;
+  BattleBlackboardFloat multiplier = 4;
+  BattleBlackboardFloat add_value = 5;
+}
+
+message BreakingAttackCalculation {
+  AtkCalculationType type = 1;
+  BattleBlackboardFloat atk_scale = 2;
+  BattleBlackboardFloat multiplier = 3;
+}
+
+message PrimaryAttrCalculation {
+  int32 value_source = 1;
+  int32 attr_type = 2;
+  bool apply_scale = 3;
+  BattleBlackboardFloat value_scale = 4;
+}
+
+message BattleDamageProcessor {
+  DamageProcessorType type = 1;
+  oneof processor_impl {
+    AttackerCritRateProcessor attacker_crit_rate_processor = 2;
+    AttackerAtkProcessor attacker_atk_processor = 3;
+    AttackerCritDamageProcessor attacker_crit_damage_processor = 4;
+    AttackerPenProcessor attacker_pen_processor = 5;
+    DamageScaleProcessor damage_scale_processor = 6;
+    DefenderDefProcessor defender_def_processor = 7;
+    ModifyCalculateResultProcessor modify_calulate_result_processor = 8;
+    InstantModifyAttributeProcessor instant_modify_attribute_processor = 9;
+  }
+}
+
+enum DamageProcessorType {
+  ATTACKER_CRIT_RATE = 0;
+  ATTACKER_ATK = 1;
+  ATTACKER_CRIT_DAMAGE = 2;
+  ATTACKER_PEN = 3;
+  DAMAGE_SCALE = 4;
+  DEFENDER_DEF = 5;
+  MODIFY_CALCULATE_RESULT = 6;
+  INSTANT_MODIFY_ATTRIBUTE = 7;
+}
+
+message AttackerCritRateProcessor {
+  DamageProcessorType type = 1;
+  BattleBlackboardFloat addition = 2;
+}
+
+message AttackerAtkProcessor {
+  DamageProcessorType type = 1;
+  BattleBlackboardFloat scale = 2;
+}
+
+message AttackerCritDamageProcessor {
+  DamageProcessorType type = 1;
+  BattleBlackboardFloat scale = 2;
+}
+
+message AttackerPenProcessor {
+  DamageProcessorType type = 1;
+  BattleBlackboardFloat scale = 2;
+}
+
+message DamageScaleProcessor {
+  DamageProcessorType type = 1;
+  int32 damage_scale_side = 2;
+  string zone_name = 3;
+  BattleBlackboardFloat addition = 4;
+}
+
+message DefenderDefProcessor {
+  DamageProcessorType type = 1;
+  BattleBlackboardFloat multiplier = 2;
+}
+
+message ModifyCalculateResultProcessor {
+  DamageProcessorType type = 1;
+  int32 cal_type = 2;
+  BattleBlackboardFloat base_multiplier = 3;
+  BattleBlackboardFloat multiplier_cnt = 4;
+}
+
+message InstantModifyAttributeProcessor {
+  DamageProcessorType type = 1;
+  int32 target_side = 2;
+  BattleAttrModifier attr_modifier = 3;
+}
+
+message SkillCostData {
+  SkillCostType cost_type = 1;
+  float cost_value = 2;
+}
+
+enum SkillCostType {
+  SKILL_COST_ULT_SP = 0;
+  SKILL_COST_ATB = 1;
+}
+
+message BattleCreateBuffActionData {
+  repeated BuffInput buff_input = 1;
+  BattleBlackboardFloat count = 2;
+  BattleActionTargetSetting target = 3;
+  int32 buff_source_type = 4;
+  bool auto_finish_by_action = 5;
+}
+
+message BuffInput {
+  string buff_id = 1;
+  bool assign_blackboard = 2;
+  repeated BattleBlackboardAssignItem assigned_items = 3;
+  bool read_id_from_blackboard = 4;
+}
+
+message BattleFinishBuffActionData {
+  BattleActionTargetSetting buff_owner = 1;
+  repeated string buff_ids = 2;
+  bool finish_all_buff = 3;
+  BattleBlackboardFloat finish_layer_cnt = 4;
+}
+
+message BattleGainCostActionData {
+  SkillCostData cost_data = 2;
+}
+
+message BattleHealActionData {
+  int32 heal_type = 1;
+  BattleDamageAtkCalculation heal_calculation = 2;
+}
+
+message BattleSwitchModeActionData {
+  string mode_id = 1;
+  bool reset_on_end = 2;
+}
+
+message BattleModifyDynamicBlackboardActionData {
+  string key = 1;
+  BattleBlackboardFloat value = 2;
+  int32 modify_type = 3;
+}
+
+message BattleSpawnEnemyActionData {
+  string enemy_id = 1;
+  BattleBlackboardFloat hp_ratio = 2;
+}
+
+message BattleCheckDamageTypeActionData {
+  int32 damage_type = 1;
+}
+
+message BattleCheckDamageDecorateMaskActionData {
+  int32 damage_decorate_mask = 1;
+}
+
+message BattleCheckDistanceConditionActionData {
+  float distance = 1;
+  bool less_than = 2;
+}
+
+message BattleCheckEntityNumActionData {
+  bool zero_always_return_true = 1;
+  int32 min_num = 2;
+  int32 compare_type = 3;
+}
+
+message BattleCheckHpActionData {
+  int32 compare_type = 1;
+  bool is_ratio = 2;
+  BattleBlackboardFloat value = 3;
+}
+
+message BattleCheckIsCriticalDamageActionData {
+  bool is_inverse = 1;
+}
+
+message BattleCheckMainCharacterActionData {
+}
+
+message BattleCheckObjectTypeMatchActionData {
+  int32 object_type_mask = 1;
+}
+
+message BattleCheckSkillTypeActionData {
+  int32 skill_type = 1;
+}
+
+message BattleCheckSquadInFightActionData {
+  bool is_inverse = 1;
+}
+
+message BattleCheckTagMatchActionData {
+  GameplayTagQuery query = 1;
+}
+
+message GameplayTagQuery {
+  int32 query_type = 1;
+  repeated int32 tag_ids = 2;
+}
+
+message BattleCheckTargetAngleActionData {
+  BattleBlackboardFloat angle = 1;
+}
+
+message BattleCompareFloatActionData {
+  int32 compare_type = 1;
+  BattleBlackboardFloat value_a = 2;
+  BattleBlackboardFloat value_b = 3;
+}
+
+message BattleProbabilityActionData {
+  BattleBlackboardFloat probability = 1;
+}
+
+message BattleLaunchProjectileActionData {
+  string projectile_id = 1;
+  bool assign_blackboard = 3;
+}
+
+message BattleSpawnAbilityEntityActionData {
+  string ability_entity_id = 1;
+  bool assign_blackboard = 3;
+  bool set_spawner_as_source = 4;
+}
+
+message BattleSpawnCustomSummonActionData {
+}
+
+message BattleRefreshBuffAttrModifierValueActionData {
+}
+
+message BattleStoreAttributeValueActionData {
+  string key = 1;
+}
+
+message BattleSetBlackboardFromPresetData {
+  repeated string valid_values = 1;
+  string key = 2;
+}
+
+message BattleActionEmptyRes {
+}
+
+message BuffHealModifierRes {
+  int32 enable_side = 1;
+  int32 index = 2;
+  repeated BattleActionRes cond_actions = 3;
+  repeated BattleHealProcessor heal_processors = 4;
+}
+
+message BattleHealProcessor {
+  HealProcessorType type = 1;
+  oneof processor_impl {
+    HealProcessorEmpty heal_processor_empty = 2;
+    BattleModifyHealCalcResult heal_modify_calc_result = 3;
+    InstantModifyAttributeForHealProcessor instant_modify_attribute_for_heal_processor = 4;
+  }
+}
+
+enum HealProcessorType {
+  HEAL_PROCESSOR_EMPTY_TYPE = 0;
+  HEAL_MODIFY_RESULT = 1;
+  HEAL_INSTANT_MODIFY_ATTRIBUTE = 2;
+}
+
+message HealProcessorEmpty {
+}
+
+message BattleModifyHealCalcResult {
+  int32 modify_type = 1;
+  BattleBlackboardFloat multiplier = 2;
+  BattleBlackboardFloat multiplier_cnt = 3;
+}
+
+message InstantModifyAttributeForHealProcessor {
+  HealProcessorType type = 1;
+  int32 target_side = 2;
+  BattleAttrModifier attr_modifier = 3;
+}
+
+message BuffStackingSettings {
+  int32 identifier_type = 1;
+  int32 stacking_type = 2;
+  string stacking_key = 3;
+  string priority_key = 4;
+  int32 priority = 5;
+  int32 max_stack_cnt = 6;
+}
+
+message SkillRes {
+  string skill_id = 1;
+  SkillCostType cost_type = 2;
+  int32 skill_lv = 3;
+  float cost_value = 4;
+  repeated int32 tag_during_attach = 5;
+  BattleBlackboard blackboard = 6;
+  map<int32, BattleActionRes> action_map = 7;
+  bool is_passive = 8;
+  repeated BattleAttrModifier attr_modifiers = 9;
+}
+
+message BattleBlackboardString {
+  bool use_blackboard_key = 1;
+  string blackboard_key = 2;
+  string default_value = 3;
+}
+
+message BattleSequenceRes {
+  int32 sequence_id = 1;
+  repeated BattleActionRes actions = 2;
+}
+
+message ServerBuff {
+  string buff_id = 1;
+  uint64 inst_id = 2;
+  BattleBlackboard blackboard = 3;
+}
+
+message ServerSkill {
+  string skill_id = 1;
+  uint64 inst_id = 2;
+  int32 potential_lv = 3;
+  int32 level = 4;
+  BattleBlackboard blackboard = 5;
+  BattleSkillSource source = 6;
+  repeated string talent_node_ids = 7;
+}
+
+message BattleMgrInfo {
+  repeated ServerBuff buff_list = 1;
+  repeated ServerSkill skill_list = 2;
+  uint32 msg_generation = 3;
+}
+
+message DynamicParameter {
+  int32 value_type = 1;
+  int32 real_type = 2;
+  repeated bool value_bool_list = 3;
+  repeated int64 value_int_list = 4;
+  repeated float value_float_list = 5;
+  repeated string value_string_list = 6;
+}
+
+message EquipAttr {
+  int32 attr_type = 1;
+  int32 modifier_type = 2;
+  double modifier_value = 3;
+  int32 modify_attribute_type = 4;
+}
+
+message EquipData {
+  uint64 equipid = 1;
+  int32 templateid = 2;
+  uint64 equip_char_id = 3;
+  repeated EquipAttr attrs = 4;
+}
+
+message GemData {
+  uint64 gem_id = 1;
+  int32 template_id = 2;
+  int32 total_cost = 3;
+  repeated GemTerm terms = 4;
+  uint64 weapon_id = 5;
+}
+
+message GemTerm {
+  int32 term_num_id = 1;
+  int32 cost = 2;
+}
+
+message ItemBundle {
+  string id = 1;
+  int32 count = 2;
+}
+
+message WeaponData {
+  uint64 inst_id = 1;
+  int32 template_id = 2;
+  uint64 exp = 3;
+  uint64 weapon_lv = 4;
+  uint64 refine_lv = 5;
+  uint64 breakthrough_lv = 6;
+  uint64 equip_char_id = 7;
+  uint64 attach_gem_id = 8;
+}
+
+message ItemInst {
+  uint64 inst_id = 1;
+  bool is_lock = 101;
+  bool is_new = 102;
+  oneof inst_impl {
+    EquipData equip = 2;
+    GemData gem = 3;
+    WeaponData weapon = 4;
+    ItemInstEmpty empty = 31;
+  }
+}
+
+message ItemInstEmpty {
+}
+
+message ScdItemGrid {
+  int32 grid_index = 1;
+  string id = 2;
+  int32 count = 3;
+  ItemInst inst = 4;
+}
+
+message ScdItemGridV2 {
+  int32 grid_index = 1;
+  int32 id = 2;
+  int32 count = 3;
+  ItemInst inst = 4;
+}
+
+message SubmitItem {
+  string item_id = 1;
+  uint32 count = 2;
+  bool is_inst = 3;
+  uint64 inst_id = 4;
+}
+
+message SendMailDef {
+  MailContent mail_content = 1;
+  repeated RewardItem item_list = 2;
+  int64 send_time = 3;
+  int64 expire_time = 4;
+  int32 mail_type = 5;
+  int32 mail_sub_type = 6;
+  bool is_global = 7;
+  bool is_star = 8;
+}
+
+message MailContent {
+  string template_id = 1;
+  string title = 2;
+  string content = 3;
+  string sender_name = 4;
+  string sender_icon = 5;
+  map<string, string> params = 6;
+}
+
+message RewardItem {
+  string id = 1;
+  int64 count = 2;
+  ItemInst inst = 3;
+}
+
+message GameCondition {
+  string condition_id = 1;
+  int32 condition_type = 2;
+  repeated string params = 3;
+  int32 compare_operator = 4;
+  int32 progress_to_compare = 5;
+  repeated int32 sub_condition_id_logics = 6;
+  repeated GameCondition sub_conditions = 7;
+  int32 scope_mask = 8;
+  bool use_current_scope = 9;
+}
+
+message SendQuestionnaireMailDef {
+  uint64 mail_id = 1;
+  GameCondition condition = 2;
+  repeated RewardItem completed_item_list = 3;
+  int64 expire_time = 4;
+  bool is_star = 5;
+  string unique_id = 6;
+}
+
+message CostItemListDef {
+  repeated SubmitItem item_list = 1;
+}
+
+message SkillLevelInfo {
+  string skill_id = 1;
+  int32 skill_level = 2;
+  int32 skill_max_level = 3;
+  int32 skill_enhanced_level = 4;
+}
+
+message Talent {
+  string latest_break_node = 1;
+  repeated string attr_nodes = 2;
+  repeated string latest_passive_skill_nodes = 3;
+  repeated string latest_factory_skill_nodes = 4;
+}
+
+message RoleBaseInfo {
+  uint64 leader_char_id = 1;
+  Vector leader_position = 2;
+  Vector leader_rotation = 3;
+  string scene_name = 4;
+  uint64 server_ts = 11;
+}
+
+message FriendStrangerUserInfo {
+  uint64 role_id = 1;
+  string uid = 2;
+  string name = 3;
+  string short_id = 4;
+  int64 last_login_time = 5;
+}
+
+message FriendFriendUserInfo {
+  uint64 role_id = 1;
+  string uid = 2;
+  string name = 3;
+  string short_id = 4;
+  int64 last_login_time = 5;
+}
+
+message FriendFriendInfo {
+  FriendFriendUserInfo friend_user_info = 1;
+  int64 create_time = 2;
+}
+
+message FriendRequestInfo {
+  FriendStrangerUserInfo stranger_user_info = 1;
+  int64 create_time = 2;
+}
+
+message FriendFriendSInfo {
+  uint64 role_id = 1;
+  int64 create_time = 2;
+}
+
+message FriendRequestSInfo {
+  uint64 role_id = 1;
+  int64 create_time = 2;
+}
+
+message TempTeamCharSaveData {
+  TrialCharData trial_char_data = 1;
+  int32 hp = 2;
+  int32 ultimate_sp = 3;
+}
+
+message TrialCharData {
+  int32 equip_medicine_num = 2;
+}
+
+message TeamCharId {
+  TeamCharIdType id_type = 1;
+  oneof char_id {
+    uint64 obj_id = 2;
+    string preset_char_id = 3;
+  }
+}
+
+enum TeamCharIdType {
+  obj_id = 0;
+  preset_char_id = 1;
+}
+
+message PassThroughData {
+  repeated string str_args = 1;
+  repeated int64 int_args = 2;
+}
+
+message SceneTrackPoint {
+  string inst_id = 1;
+}
+
+message SceneStaticMapMark {
+  int32 index = 1;
+}
+
+message CsAchieveComplete {
+  string achieve_id = 1;
+}
+
+message ScAchieveComplete {
+  string achieve_id = 1;
+}
+
+message CsAchieveTakeReward {
+  string achieve_id = 1;
+}
+
+message ScActivitySync {
+  repeated ActivityInfo info = 1;
+}
+
+message ActivityInfo {
+  uint64 version = 1;
+  bool is_enable = 2;
+  string id = 3;
+  string name = 4;
+  int64 start_time = 5;
+  int64 end_time = 6;
+  ActivityType typ = 7;
+  ActivityInfoSpecified data = 8;
+}
+
+enum ActivityType {
+  ACTIVITY_TYPE_DEFAULT = 0;
+  ACTIVITY_TYPE_CHECKIN = 1;
+}
+
+message ActivityInfoSpecified {
+  oneof data {
+    ActivityInfoSpecifiedCheckin checkin = 15;
+  }
+}
+
+message ActivityInfoSpecifiedCheckin {
+  int32 login_days = 1;
+  int32 reward_days = 2;
+}
+
+message ScActivityModify {
+  ActivityInfo info = 1;
+}
+
+message CsDailyCheckin {
+  string id = 1;
+}
+
+message ScDailyCheckin {
+  string id = 1;
+}
+
+message CsAdventureTakeRewardAll {
+}
+
+message ScAdventureLevelModify {
+  int32 level = 1;
+  int64 exp = 2;
+}
+
+message ScAdventureSyncAll {
+  int32 level = 1;
+  int64 exp = 2;
+}
+
+message AdventureTask {
+  string task_id = 1;
+  int32 progress = 2;
+  int32 state = 3;
+}
+
+message ScAdventureBookSync {
+  int32 adventure_book_stage = 1;
+  repeated AdventureTask tasks = 2;
+  int32 daily_activation = 3;
+}
+
+message ScDailyActivationModify {
+  int32 daily_activation = 1;
+}
+
+message CsTakeAdventureTaskReward {
+  string task_id = 1;
+}
+
+message CsTakeAllAdventureTaskReward {
+  int32 task_type = 1;
+}
+
+message ScAdventureTaskModify {
+  repeated AdventureTask tasks = 1;
+}
+
+message CsTakeAdventureBookStageReward {
+  int32 adventure_book_stage = 1;
+}
+
+message ScAdventureBookStageModify {
+  int32 adventure_book_stage = 1;
+}
+
+message ScResetDailyAdventureTask {
+}
+
+message CsDevClearBattleInfo {
+}
+
+message CsBattleOp {
+  BattleClientData client_data = 1;
+}
+
+message ScSpawnEnemy {
+  uint32 client_key = 1;
+  repeated uint64 enemy_inst_ids = 2;
+}
+
+message SpawnServerSummonData {
+  uint64 owner_inst_id = 1;
+  uint64 summon_inst_id = 2;
+}
+
+message ScEntityPropertyChange {
+  uint64 inst_id = 1;
+  BattleInfo info = 2;
+}
+
+message ScBattleDebugInfo {
+  string msg = 1;
+}
+
+message ScBattleGenerationChange {
+  uint64 inst_id = 1;
+  uint32 generation = 2;
+}
+
+message ScAttachServerSkill {
+  uint64 inst_id = 1;
+  repeated ServerSkill skills = 2;
+  uint32 generation = 3;
+}
+
+message ScDetachServerSkill {
+  uint64 inst_id = 1;
+  repeated uint64 del_inst_ids = 2;
+  uint32 generation = 3;
+}
+
+message ScAddServerBuff {
+  uint64 inst_id = 1;
+  repeated ServerBuff buffs = 2;
+  uint32 generation = 3;
+}
+
+message ScRemoveServerBuff {
+  uint64 inst_id = 1;
+  repeated uint64 del_inst_ids = 2;
+  uint32 generation = 3;
+}
+
+message ScSyncAllBitset {
+  repeated BitsetData bitset = 1;
+}
+
+message BitsetData {
+  int32 type = 1;
+  repeated uint64 value = 2;
+}
+
+message CsBitsetAdd {
+  int32 type = 1;
+  repeated uint32 value = 2;
+}
+
+message CsBitsetRemoveAll {
+  int32 type = 1;
+}
+
+message CsBitsetRemove {
+  int32 type = 1;
+  repeated uint32 value = 2;
+}
+
+message ScBitsetAdd {
+  int32 type = 1;
+  repeated uint32 value = 2;
+  int32 source = 3;
+}
+
+message ScBitsetRemove {
+  int32 type = 1;
+  repeated uint32 value = 2;
+  int32 source = 3;
+}
+
+message ScBitsetRemoveAll {
+  int32 type = 1;
+  int32 source = 2;
+}
+
+message BlocInfo {
+  string blocid = 1;
+  int32 level = 2;
+  int32 exp = 3;
+}
+
+message ScSyncAllBloc {
+  repeated BlocInfo blocs = 1;
+  repeated ShopInfo shops = 2;
+}
+
+message ShopInfo {
+  string shopid = 1;
+  int32 type = 2;
+  map<int32, int32> already_sell_count = 3;
+  repeated DiscountInfo discount_info = 4;
+}
+
+message DiscountInfo {
+  int32 posid = 1;
+  int32 discount = 2;
+}
+
+message ScBlocSyncLevel {
+  string blocid = 1;
+  int32 level = 2;
+  int32 exp = 3;
+}
+
+message CsBlocShopBuy {
+  string shopid = 1;
+  int32 posid = 2;
+  int32 count = 3;
+}
+
+message ScBlocShopBuy {
+  string shopid = 2;
+  int32 posid = 3;
+  int32 count = 4;
+}
+
+message ItemInfo {
+  string res_id = 1;
+  int32 res_count = 2;
+}
+
+message CsCharLevelUp {
+  uint64 char_obj_i_d = 1;
+  repeated ItemInfo items = 2;
+}
+
+message ScCharLevelUp {
+  uint64 char_obj_i_d = 1;
+}
+
+message ScCharSyncLevelExp {
+  uint64 char_obj_i_d = 1;
+  int32 level = 2;
+  int32 exp = 3;
+}
+
+message CsCharSetNormalSkill {
+  uint64 char_obj_i_d = 1;
+  string normal_skillid = 2;
+}
+
+message ScCharSetNormalSkill {
+  uint64 char_obj_i_d = 1;
+  string normal_skillid = 2;
+}
+
+message ScCharSetTeamSkill {
+  uint64 objid = 1;
+  int32 team_idx = 2;
+  string normal_skillid = 3;
+}
+
+message ScCharUnlockSkill {
+  uint64 objid = 1;
+  SkillLevelInfo level_info = 2;
+}
+
+message ScCharGainExpToast {
+  int32 exp = 1;
+  int32 exp_type = 2;
+}
+
+message ScCharSyncStatus {
+  uint64 objid = 1;
+  bool is_dead = 2;
+  BattleInfo battle_info = 3;
+}
+
+message CsCharPotentialUnlock {
+  uint64 char_obj_id = 1;
+  uint32 level = 2;
+  int32 item_id = 3;
+}
+
+message ScCharPotentialUnlock {
+  uint64 char_obj_id = 1;
+  uint32 level = 2;
+}
+
+message ScCharSkillInfos {
+  uint64 char_obj_id = 1;
+  repeated SkillLevelInfo level_infos = 2;
+}
+
+message CsCharSkillLevelUp {
+  uint64 char_obj_id = 1;
+  string skill_id = 2;
+  int32 skill_type = 3;
+}
+
+message ScCharSkillLevelUp {
+  uint64 char_obj_id = 1;
+  SkillLevelInfo level_info = 2;
+}
+
+message CsCharUnlockTalentNode {
+  uint64 char_obj_id = 1;
+  string node_id = 2;
+}
+
+message ScCharUnlockTalentNode {
+  uint64 char_obj_id = 1;
+  string node_id = 2;
+}
+
+message CharInfo {
+  uint64 objid = 1;
+  string templateid = 2;
+  int32 level = 3;
+  int32 exp = 4;
+  map<int32, uint64> equip_col = 6;
+  string normal_skill = 7;
+  bool is_dead = 8;
+  BattleInfo battle_info = 9;
+  SkillInfo skill_info = 10;
+  map<string, int32> equip_suit = 11;
+  uint64 weapon_id = 12;
+  int64 own_time = 13;
+  int32 equip_medicine_id = 14;
+  uint32 potential_level = 15;
+  Talent talent = 16;
+  BattleMgrInfo battle_mgr_info = 17;
+  CharType char_type = 18;
+  TrialCharData trial_data = 19;
+}
+
+message SkillInfo {
+  repeated SkillLevelInfo level_info = 1;
+  string normal_skill = 2;
+  string ultimate_skill = 3;
+  string combo_skill = 4;
+  string disp_normal_attack_skill = 5;
+}
+
+enum CharType {
+  default_type = 0;
+  trial_type = 1;
+}
+
+message CsCharBagSetTeam {
+  int32 team_index = 1;
+  repeated uint64 char_team = 2;
+  uint64 leader_id = 3;
+}
+
+message CsCharBagSetCurrTeamIndex {
+  int32 team_index = 1;
+  uint64 leader_id = 2;
+}
+
+message CsCharBagSetTeamName {
+  int32 team_index = 1;
+  string team_name = 2;
+}
+
+message CsCharBagTeamChangeFinish {
+  uint64 team_change_token = 1;
+}
+
+message CsCharBagSetTeamLeader {
+  CharBagTeamType team_type = 1;
+  int32 team_index = 2;
+  uint64 leaderid = 3;
+}
+
+enum CharBagTeamType {
+  CHAR_BAG_TEAM_TYPE_MAIN = 0;
+  CHAR_BAG_TEAM_TYPE_TEMP = 1;
+}
+
+message ScCharBagRemoveTrialCharacter {
+  int32 scope_name = 1;
+}
+
+message ScCharBagSetTeam {
+  CharBagTeamType team_type = 1;
+  int32 team_index = 2;
+  uint64 leader_id = 5;
+  repeated uint64 char_team = 3;
+  int32 scope_name = 4;
+}
+
+message CharTeamMemberInfo {
+  string normal_skillid = 1;
+}
+
+message CharTeamInfo {
+  string team_name = 1;
+  repeated uint64 char_team = 2;
+  uint64 leaderid = 3;
+}
+
+message ScSyncCharBagInfo {
+  repeated CharInfo char_info = 1;
+  repeated CharTeamInfo team_info = 2;
+  int32 curr_team_index = 3;
+  uint32 max_char_team_member_count = 4;
+  CharTeamInfo temp_team_info = 5;
+  int32 scope_name = 10;
+  bool is_scope_delete = 11;
+}
+
+message ScCharBagAddChar {
+  CharInfo char = 1;
+  int32 scope_name = 2;
+}
+
+message ScCharBagSetTeamName {
+  int32 team_index = 1;
+  string team_name = 2;
+  int32 scope_name = 3;
+}
+
+message ScCharBagSetTeamLeader {
+  CharBagTeamType team_type = 1;
+  int32 team_index = 2;
+  uint64 leaderid = 3;
+  int32 scope_name = 4;
+}
+
+message ScCharBagSetMaxTeamMemberCount {
+  uint32 max_char_team_member_count = 1;
+  int32 scope_name = 2;
+}
+
+message ScCharBagTeamLeaderNotMatchNtf {
+  CharBagTeamType team_type = 1;
+  int32 team_index = 2;
+  uint64 leaderid = 3;
+  int32 scope_name = 4;
+}
+
+message ScCharBagDelChar {
+  uint64 char_inst_id = 1;
+  int32 scope_name = 2;
+}
+
+message ScCharBagAddCharWithConversionNotify {
+  string char_template_id = 1;
+  int32 scope_name = 2;
+  bool is_converted = 3;
+  string converted_item_id = 4;
+  string converted_reward_id = 5;
+  int32 source_reason = 6;
+}
+
+message SceneCollection {
+  string scene_name = 1;
+  string prefab_id = 2;
+  int32 count = 3;
+}
+
+message ScSceneCollectionSync {
+  repeated SceneCollection collection_list = 1;
+}
+
+message ScSceneCollectionModify {
+  string scene_name = 1;
+  string prefab_id = 2;
+  int32 count = 3;
+}
+
+message Dialog {
+  int32 dialog_id = 1;
+  repeated int32 option_ids = 2;
+  repeated int32 finish_nums = 3;
+}
+
+message CsFinishDialog {
+  int32 dialog_id = 1;
+  repeated int32 option_ids = 2;
+  repeated int32 finish_nums = 3;
+}
+
+message ScFinishDialog {
+  int32 dialog_id = 1;
+  repeated int32 option_ids = 2;
+  repeated int32 finish_nums = 3;
+}
+
+message ScSyncAllDialog {
+  repeated Dialog dialog_list = 1;
+}
+
+message CsEnterDungeon {
+  repeated TeamCharId char_team = 1;
+  string dungeon_id = 2;
+  EnterRacingDungeonParam racing_param = 10;
+}
+
+message EnterRacingDungeonParam {
+  int32 level = 1;
+  string tactics_id = 2;
+}
+
+message CsEnterTrainDungeon {
+  repeated TeamCharId char_team = 1;
+  string dungeon_id = 2;
+  EnterRacingDungeonParam racing_param = 10;
+}
+
+message CsRestartDungeon {
+  string dungeon_id = 1;
+}
+
+message CsLeaveDungeon {
+  string dungeon_id = 1;
+}
+
+message CsDungeonRecoverAp {
+  repeated ItemBundle items = 1;
+  bool use_money = 2;
+}
+
+message CsDungeonTouchEntrance {
+  string dungeon_series_id = 1;
+}
+
+message ScEnterDungeon {
+  string dungeon_id = 3;
+  string scene_id = 4;
+}
+
+message ScRestartDungeon {
+  string dungeon_id = 1;
+}
+
+message ScLeaveDungeon {
+  string dungeon_id = 1;
+}
+
+message ScSyncStamina {
+  uint32 cur_stamina = 1;
+  uint32 max_stamina = 2;
+  int64 next_recover_time = 3;
+  int32 delta = 4;
+}
+
+message ScSyncFullDungeonStatus {
+  uint32 cur_stamina = 1;
+  uint32 max_stamina = 2;
+  int64 next_recover_time = 3;
+}
+
+message CsEquipPuton {
+  uint64 charid = 1;
+  int32 slotid = 2;
+  uint64 equipid = 3;
+}
+
+message ScEquipPuton {
+  uint64 charid = 1;
+  int32 slotid = 2;
+  uint64 equipid = 3;
+  map<string, int32> suitinfo = 4;
+  uint64 put_off_charid = 5;
+  map<string, int32> old_owner_suitinfo = 6;
+}
+
+message CsEquipPutoff {
+  uint64 charid = 1;
+  int32 slotid = 2;
+}
+
+message ScEquipPutoff {
+  uint64 charid = 1;
+  int32 slotid = 2;
+  map<string, int32> suitinfo = 3;
+}
+
+message CsEquipMedicineModify {
+  uint64 char_id = 1;
+  int32 equip_medicine_id = 2;
+}
+
+message ScEquipMedicineModify {
+  uint64 char_id = 1;
+  int32 equip_medicine_id = 2;
+}
+
+message CsEquipRecycle {
+  repeated uint64 equip_instid_list = 1;
+  int32 scope_name = 2;
+}
+
+message ScEquipRecycle {
+  repeated uint64 equip_instid_list = 1;
+  repeated string item_id = 2;
+  repeated int32 item_count = 3;
+  int32 scope_name = 4;
+}
+
+message CsEquipEnhance {
+  uint64 equip_inst_id = 1;
+  uint64 ingredient_inst_id = 2;
+  uint32 attr_index = 3;
+}
+
+message ScEquipEnhance {
+  uint64 equip_inst_id = 1;
+  repeated uint32 enhance = 2;
+  repeated EquipAttr enhance_attrs = 3;
+  EquipAttr base_attr = 4;
+}
+
+message CsEquipProduce {
+  string formula_id = 1;
+}
+
+message ScEquipProduce {
+  string formula_id = 1;
+  uint64 equip_instid = 2;
+}
+
+message ScdFactorySttNode {
+  string id = 1;
+  int32 state = 2;
+  map<string, int32> values = 3;
+  map<string, bool> flags = 4;
+}
+
+message ScdFactorySttPackage {
+  string id = 1;
+  int32 state = 2;
+  map<string, int32> values = 3;
+  map<string, bool> flags = 4;
+  bool hidden = 5;
+}
+
+message ScdFactorySttLayer {
+  string id = 1;
+  int32 state = 2;
+}
+
+message ScdFactorySyncStt {
+  repeated ScdFactorySttNode nodes = 1;
+  repeated ScdFactorySttPackage packages = 2;
+  repeated ScdFactorySttLayer layers = 3;
+}
+
+message ScdFactorySyncFormulaMan {
+  repeated string unlocked = 1;
+  repeated string visible = 2;
+  map<string, ScdFactorySyncFormulaMode> modes = 3;
+  repeated string level_up = 4;
+  repeated string product_manual = 5;
+}
+
+message ScdFactorySyncFormulaMode {
+  repeated string building_ids = 1;
+}
+
+message ScdFactorySyncQuickbar {
+  int32 type = 1;
+  repeated string list = 2;
+}
+
+message ScFactorySync {
+  ScdFactorySyncFormulaMan formula_man = 1;
+  ScdFactorySyncStt stt = 2;
+}
+
+message ScFactoryModifyFormulaMan {
+  repeated string new_unlocked = 1;
+  repeated string new_product_manual = 2;
+  repeated string new_level_up = 3;
+}
+
+message ScFactoryModifyStt {
+  repeated ScdFactorySttNode nodes = 1;
+  repeated ScdFactorySttPackage packages = 2;
+  repeated ScdFactorySttLayer layers = 3;
+}
+
+message FactoryFormulaVisiable {
+  repeated string formula_list = 1;
+  repeated string output_list = 2;
+  repeated string source = 3;
+  FactoryFormulaVisibleReason reason = 4;
+}
+
+enum FactoryFormulaVisibleReason {
+  VISIBLE_REASON_GET_NEW_ITEM = 0;
+  VISIBLE_REASON_UNLOCK = 1;
+  VISIBLE_REASON_ITEM_VISIBLE = 2;
+  VISIBLE_REASON_NEW_BUILDING = 3;
+  VISIBLE_REASON_NEW_BUILDING_MODE = 4;
+  VISIBLE_REASON_NEW_FORMULA_DONE = 5;
+}
+
+message ScFactoryModifyVisibleFormula {
+  FactoryFormulaVisiable new_visible = 1;
+}
+
+message ScFactoryModifyFormulaMode {
+  string mode = 1;
+  repeated string new_building_ids = 2;
+}
+
+message ScFactorySyncScope {
+  int32 scope_name = 1;
+  string current_chapter_id = 2;
+  repeated ScdFactorySyncQuickbar quickbars = 4;
+  ScdFactorySyncHubTransportRouteManager transport_route = 5;
+  ScdFactoryStatisticBookmark book_mark = 6;
+}
+
+message ScdFactorySyncHubTransportRouteManager {
+  int64 update_ts = 1;
+  repeated ScdFactoryHubTransportRoute routes = 2;
+}
+
+message ScdFactoryHubTransportRoute {
+  string chapter_id = 1;
+  int32 index = 2;
+  string target_chapter_id = 3;
+  string item_id = 4;
+  int32 item_num = 5;
+  int32 item_num_max = 6;
+  int32 status = 7;
+  int64 progress = 8;
+}
+
+message ScdFactoryStatisticBookmark {
+  repeated string bookmark_item_ids = 1;
+}
+
+message CsFactoryStatisticSetBookmarkItemIds {
+  repeated string item_ids = 1;
+  bool is_remove = 2;
+  int32 scope_name = 11;
+}
+
+message ScFactoryModifyStatisticBookmark {
+  ScdFactoryStatisticBookmark book_mark = 1;
+  int32 scope_name = 11;
+}
+
+message CsFactoryHubTransportRouteSet {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  int32 index = 3;
+  string target_chapter_id = 4;
+  string item_id = 5;
+  int32 item_num_max = 6;
+}
+
+message CsFactoryHubTransportRouteReset {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  int32 index = 3;
+}
+
+message CsFactoryHubTransportRouteRestart {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  int32 index = 3;
+}
+
+message ScFactoryHubTransportRouteModify {
+  ScdFactorySyncHubTransportRouteManager transport_route_modified = 1;
+}
+
+message ScFactoryReleaseScope {
+  int32 scope_name = 1;
+  repeated string delete_chapter_id_list = 11;
+}
+
+message ScFactoryModifyScope {
+  int32 scope_name = 1;
+  string current_chapter_id = 2;
+  repeated string delete_chapter_id_list = 11;
+}
+
+message ScFactoryModifyQuickbar {
+  int32 scope_name = 1;
+  repeated ScdFactorySyncQuickbar quickbars = 2;
+}
+
+message ScFactorySoilReclaim {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  uint32 node_id = 3;
+  bool result = 4;
+}
+
+message ScFactorySoilWater {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  uint32 node_id = 3;
+  bool result = 4;
+}
+
+message ScFactorySoilHarvest {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  uint32 node_id = 3;
+  bool result = 4;
+}
+
+message ScFactorySoilCancel {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  uint32 node_id = 3;
+  bool result = 4;
+}
+
+message CsFactorySttUnlockLayer {
+  string layer_id = 1;
+}
+
+message CsFactorySttUnlockNode {
+  string node_id = 1;
+}
+
+message CsFactoryQuickbarSetOne {
+  int32 scope_name = 1;
+  int32 type = 2;
+  int32 index = 3;
+  string item_id = 4;
+}
+
+message CsFactoryQuickbarMoveOne {
+  int32 scope_name = 1;
+  int32 type = 2;
+  int32 from_index = 3;
+  int32 to_index = 4;
+}
+
+message CsFactorySoilReclaim {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  uint32 node_id = 3;
+  uint64 char_object_id = 4;
+}
+
+message CsFactorySoilWater {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  uint32 node_id = 3;
+  uint64 char_object_id = 4;
+}
+
+message CsFactorySoilHarvest {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  uint32 node_id = 3;
+  uint64 char_object_id = 4;
+}
+
+message CsFactorySoilCancel {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  uint32 node_id = 3;
+}
+
+message CsFactorySoilFarmlandLevelUp {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  string scene_name = 3;
+  int32 index = 4;
+  int32 to_level = 5;
+}
+
+message ScFactorySyncOfflineInfo {
+  int64 max_offline_calc_sec = 1;
+  int64 end_offline_calc_ts = 2;
+  int64 offline_sec = 3;
+  int64 miss_offline_sec = 4;
+}
+
+message CsFactoryHubWorkshopMake {
+  int32 scope_name = 1;
+  uint32 node_id = 2;
+  string formula_id = 3;
+  int32 multi = 4;
+}
+
+message ScFactoryHubWorkshopMake {
+  bool success = 1;
+}
+
+message CsFactoryProductManualUnlock {
+  int32 scope_name = 1;
+  repeated string id_list = 2;
+}
+
+message ScFactoryProductManualUnlock {
+  int32 scope_name = 1;
+  repeated string id_list = 2;
+}
+
+message CsFactoryManuallyWorkExec {
+  int32 scope_name = 1;
+  string formula_id = 2;
+  int32 count = 3;
+}
+
+message ScFactoryManuallyWorkExec {
+  int32 scope_name = 1;
+  string formula_id = 2;
+  int32 count = 3;
+}
+
+message ScdVec3Int {
+  int32 x = 1;
+  int32 y = 2;
+  int32 z = 3;
+}
+
+message ScdRectInt {
+  int32 x = 1;
+  int32 y = 2;
+  int32 z = 3;
+  int32 l = 4;
+  int32 w = 5;
+  int32 h = 6;
+}
+
+message ScdFacSubPort {
+  ScdVec3Int position = 1;
+  ScdVec3Int direction = 2;
+}
+
+message ScdFactorySyncItem {
+  string id = 1;
+  int32 count = 2;
+  int64 tms = 11;
+}
+
+message ScdFacFluidReactionFormula {
+  string formula_id = 1;
+  int64 current_progress = 2;
+  bool in_block = 3;
+}
+
+message ScdFactoryHsCt {
+  uint32 component_id = 1;
+  repeated uint32 item_in = 2;
+  repeated uint32 item_out = 3;
+  repeated int32 index_in = 4;
+  repeated int32 index_out = 5;
+}
+
+message ScdFactoryHsFb {
+  uint32 component_id = 1;
+  oneof component_payload {
+    ScdFactoryHsFbCache cache = 2;
+    ScdFactoryHsFbProducer producer = 3;
+    ScdFactoryHsFbCollector collector = 4;
+    ScdFactoryHsFbBurnPower burn_power = 5;
+    ScdFactoryHsFbCacheTransport cache_transport = 6;
+    ScdFactoryHsFbGridBox grid_box = 7;
+    ScdFactoryHsFbBoxRouterM1 box_router_m1 = 8;
+    ScdFactoryHsFbBoxBridge box_bridge = 9;
+    ScdFactoryHsFbFluidBridge fluid_bridge = 12;
+    ScdFactoryHsFbFluidRouterM1 fluid_router_m1 = 13;
+    ScdFactoryHsFbFluidContainer fluid_container = 14;
+    ScdFactoryHsFbFluidPumpIn fluid_pump_in = 15;
+    ScdFactoryHsFbBattle battle = 16;
+    ScdFactoryHsFbBatteryBurn battery_burn = 17;
+    ScdFactoryHsFbFluidSpray fluid_spray = 18;
+    ScdFactoryHsFbFluidPumpOut fluid_pump_out = 19;
+    ScdFactoryHsFbFluidConsume fluid_consume = 20;
+    ScdFactoryHsFbFluidReaction fluid_reaction = 21;
+    ScdFactoryHsFbWaterCollector water_collector = 22;
+  }
+}
+
+message ScdFactoryHsFbCache {
+  repeated uint32 items = 1;
+}
+
+message ScdFactoryHsFbProducer {
+  int64 progress_incr_per_ms = 1;
+  string formula_id = 2;
+  int64 current_progress = 3;
+}
+
+message ScdFactoryHsFbCollector {
+  int64 progress_incr_per_ms = 1;
+  int64 current_progress = 2;
+}
+
+message ScdFactoryHsFbBurnPower {
+  int64 progress_decr_per_ms = 1;
+  int64 current_least_progress = 2;
+}
+
+message ScdFactoryHsFbCacheTransport {
+  int64 progress_incr_per_ms = 1;
+  int64 current_progress = 2;
+}
+
+message ScdFactoryHsFbGridBox {
+  repeated uint32 items = 1;
+}
+
+message ScdFactoryHsFbBoxRouterM1 {
+  repeated uint32 items = 1;
+}
+
+message ScdFactoryHsFbBoxBridge {
+  repeated uint32 items = 1;
+}
+
+message ScdFactoryHsFbFluidBridge {
+  repeated uint32 items = 1;
+}
+
+message ScdFactoryHsFbFluidRouterM1 {
+  repeated uint32 items = 1;
+}
+
+message ScdFactoryHsFbFluidContainer {
+  repeated uint32 items = 1;
+  bool infinite = 2;
+}
+
+message ScdFactoryHsFbFluidPumpIn {
+  int64 progress_incr_per_ms = 1;
+  int64 current_progress = 2;
+}
+
+message ScdFactoryHsFbBattle {
+  int32 energy_current = 1;
+  int32 energy_max = 2;
+  bool in_overloading = 3;
+}
+
+message ScdFactoryHsFbBatteryBurn {
+  int32 energy_loaded = 1;
+  int32 energy_current = 2;
+}
+
+message ScdFactoryHsFbFluidSpray {
+  int64 progress_incr_per_ms = 1;
+  int64 current_progress = 2;
+  int32 last_round_spray_count = 3;
+}
+
+message ScdFactoryHsFbFluidPumpOut {
+  int64 progress_incr_per_ms = 1;
+  int64 current_progress = 2;
+  int32 last_round_pump_count = 3;
+}
+
+message ScdFactoryHsFbFluidConsume {
+  int64 progress_incr_per_ms = 1;
+  int64 current_progress = 2;
+}
+
+message ScdFactoryHsFbFluidReaction {
+  repeated ScdFacFluidReactionFormula formulas = 1;
+  int64 progress_incr_per_ms = 2;
+}
+
+message ScdFactoryHsFbWaterCollector {
+  int64 progress_incr_per_ms = 1;
+  int64 current_progress = 2;
+}
+
+message ScdFactoryHsCe {
+  SCD_FACTORY_HS_CE_EventType event_type = 1;
+  repeated uint32 event_param = 2;
+}
+
+enum SCD_FACTORY_HS_CE_EventType {
+  SCD_FACTORY_HS_CE_None = 0;
+  SCD_FACTORY_HS_CE_InPowerUp = 1;
+  SCD_FACTORY_HS_CE_InPowerDown = 2;
+  SCD_FACTORY_HS_CE_FluidHeightChange = 3;
+  SCD_FACTORY_HS_CE_FluidContentChange = 4;
+  SCD_FACTORY_HS_CE_ProducerChangeFormula = 5;
+  SCD_FACTORY_HS_CE_BusLoaderChangeLastPutIn = 6;
+  SCD_FACTORY_HS_CE_BattleEnergyChange = 7;
+  SCD_FACTORY_HS_CE_JoinWorking = 8;
+  SCD_FACTORY_HS_CE_LeaveWorking = 9;
+  SCD_FACTORY_HS_CE_RegionPower = 10;
+  SCD_FACTORY_HS_CE_BlockComponent = 11;
+  SCD_FACTORY_HS_CE_UnBlockComponent = 12;
+  SCD_FACTORY_HS_CE_SubPortBlock = 21;
+  SCD_FACTORY_HS_CE_SubPortUnBlock = 22;
+  SCD_FACTORY_HS_CE_ChangeProduct = 31;
+}
+
+message ScdFactoryHsBb {
+  ScdFactoryHsBbPower power = 1;
+}
+
+message ScdFactoryHsBbPower {
+  bool is_stop_by_power = 1;
+  int64 power_cost_sum = 2;
+  int64 power_save_max = 3;
+  int64 power_save_current = 4;
+  int64 power_gen_last_sec = 5;
+}
+
+message ScdFacCom {
+  uint32 component_id = 1;
+  int32 component_type = 2;
+  oneof component_payload {
+    ScdFacComPortManager port_manager = 9;
+    ScdFacComInventory inventory = 10;
+    ScdFacComCache cache = 11;
+    ScdFacComSelector selector = 12;
+    ScdFacComCollector collector = 13;
+    ScdFacComProducer producer = 14;
+    ScdFacComBoxConveyor box_conveyor = 15;
+    ScdFacComBoxRouterM1 box_router_m1 = 16;
+    ScdFacComBurnPower burn_power = 17;
+    ScdFacComCacheTransport cache_transport = 18;
+    ScdFacComStablePower stable_power = 19;
+    ScdFacComPowerPole power_pole = 20;
+    ScdFacComPowerSave power_save = 22;
+    ScdFacComBusLoader bus_loader = 23;
+    ScdFacComTravelPole travel_pole = 24;
+    ScdFacComGridBox grid_box = 25;
+    ScdFacComBoxBridge box_bridge = 26;
+    ScdFacComBattle battle = 27;
+    ScdFacComFluidConveyor fluid_conveyor = 28;
+    ScdFacComFluidBridge fluid_bridge = 29;
+    ScdFacComFluidRouterM1 fluid_router_m1 = 30;
+    ScdFacComFormulaMan formula_man = 31;
+    ScdFacComFluidContainer fluid_container = 32;
+    ScdFacComFluidPumpIn fluid_pump_in = 33;
+    ScdFacComBatteryBurn battery_burn = 34;
+    ScdFacComSubHub sub_hub = 35;
+    ScdFacComWaterCollector water_collector = 36;
+    ScdFacComSoil soil = 37;
+    ScdFacComFluidSpray fluid_spray = 38;
+    ScdFacComFluidPumpOut fluid_pump_out = 39;
+    ScdFacComFluidConsume fluid_consume = 40;
+    ScdFacComFluidReaction fluid_reaction = 41;
+  }
+}
+
+message ScdFacComPortManager {
+  repeated ScdFacComSubPort ports = 1;
+}
+
+message ScdFacComSubPort {
+  int32 index = 1;
+  uint32 owner_com_id = 2;
+  uint32 touch_com_id = 3;
+  bool in_block = 4;
+}
+
+message ScdFacComInventory {
+  map<uint32, int32> items = 1;
+}
+
+message ScdFacComCache {
+  repeated ScdFactorySyncItem items = 1;
+  int32 size = 2;
+}
+
+message ScdFacComSelector {
+  string selected_item_id = 1;
+}
+
+message ScdFacComCollector {
+  repeated ScdFactorySyncItem items_round = 1;
+  int64 current_progress = 2;
+  bool in_block = 4;
+}
+
+message ScdFacComProducer {
+  string formula_id = 1;
+  int64 current_progress = 2;
+  bool in_block = 4;
+  bool in_produce = 5;
+  string last_formula_id = 11;
+}
+
+message ScdFacComBoxConveyor {
+  int64 last_pop_tms = 1;
+  repeated ScdFactorySyncItem items = 2;
+}
+
+message ScdFacComBoxRouterM1 {
+  ScdFactorySyncItem hold_item = 1;
+  bool m_in = 2;
+}
+
+message ScdFacComBurnPower {
+  int64 current_least_progress = 1;
+  string current_burn_item_id = 2;
+  int64 power_gen_per_sec = 3;
+}
+
+message ScdFacComCacheTransport {
+  int64 current_progress = 1;
+  int64 total_progress = 2;
+  bool auto_transport = 3;
+  bool in_use = 5;
+}
+
+message ScdFacComStablePower {
+  int64 power_gen_per_sec = 3;
+}
+
+message ScdFacComPowerPole {
+}
+
+message ScdFacComPowerSave {
+  int64 power_save = 1;
+}
+
+message ScdFacComBusLoader {
+  string last_putin_item_id = 1;
+}
+
+message ScdFacComTravelPole {
+  uint32 default_next = 11;
+}
+
+message ScdFacComGridBox {
+  repeated ScdFactorySyncItem items = 1;
+}
+
+message ScdFacComBoxBridge {
+  ScdFactorySyncItem hold_item = 1;
+}
+
+message ScdFacComBattle {
+  int32 energy_current = 1;
+  int32 energy_max = 2;
+  bool in_overloading = 3;
+}
+
+message ScdFacComFluidConveyor {
+  string item_id = 1;
+  int32 fluid_height = 2;
+  repeated int64 box_tms_list = 3;
+}
+
+message ScdFacComFluidBridge {
+  ScdFactorySyncItem hold_item = 1;
+}
+
+message ScdFacComFluidRouterM1 {
+  ScdFactorySyncItem hold_item = 1;
+  bool m_in = 2;
+}
+
+message ScdFacComFormulaMan {
+  repeated string formula_ids = 1;
+  string locked_formula_id = 2;
+  string current_mode = 11;
+  string current_group = 12;
+}
+
+message ScdFacComFluidContainer {
+  ScdFactorySyncItem hold_item = 1;
+  bool infinite = 2;
+}
+
+message ScdFacComFluidPumpIn {
+  ScdFactorySyncItem item_round = 1;
+  int64 current_progress = 2;
+  string source_inst_key = 3;
+  bool in_block = 4;
+  bool in_produce = 5;
+}
+
+message ScdFacComBatteryBurn {
+  int32 energy_loaded = 1;
+  int32 energy_current = 2;
+}
+
+message ScdFacComSubHub {
+  int32 level = 1;
+}
+
+message ScdFacComWaterCollector {
+  repeated ScdFactorySyncItem items_round = 1;
+  int64 current_progress = 2;
+  bool in_block = 4;
+  bool in_produce = 5;
+}
+
+message ScdFacComSoil {
+  int32 step_cursor = 1;
+  int32 water_got = 2;
+  int64 in_grow_tms = 3;
+}
+
+message ScdFacComFluidSpray {
+  int64 current_progress = 1;
+  bool in_produce = 2;
+  int32 last_round_spray_count = 3;
+  bool in_block = 11;
+}
+
+message ScdFacComFluidPumpOut {
+  int32 round_count = 1;
+  int64 current_progress = 2;
+  string target_inst_key = 3;
+  bool in_block = 4;
+  bool in_produce = 5;
+}
+
+message ScdFacComFluidConsume {
+  int32 round_count = 1;
+  int64 current_progress = 2;
+  bool in_block = 3;
+  bool in_produce = 4;
+  string latest_item_id = 5;
+}
+
+message ScdFacComFluidReaction {
+  repeated ScdFacFluidReactionFormula formulas = 1;
+  bool in_block = 2;
+  bool in_produce = 3;
+}
+
+message ScdFacNode {
+  uint32 node_id = 1;
+  int32 node_type = 2;
+  string template_id = 3;
+  ScdFacTransform transform = 4;
+  bool is_deactive = 5;
+  ScdFacInteractiveObject interactive_object = 6;
+  ScdFacDynamicProperty dynamic_property = 7;
+  ScdFacNodePower power = 8;
+  string inst_key = 9;
+  uint32 flag = 10;
+  map<int32, uint32> component_pos = 11;
+  repeated ScdFacCom components = 12;
+  uint64 stable_id = 13;
+}
+
+message ScdFacTransform {
+  ScdVec3Int position = 1;
+  ScdVec3Int direction = 2;
+  ScdFacMesh mesh = 3;
+  int32 map_id = 4;
+  Vector world_position = 9;
+  Vector world_rotation = 10;
+  ScdFacSubPort bc_port_in = 11;
+  ScdFacSubPort bc_port_out = 12;
+}
+
+message ScdFacMesh {
+  int32 mesh_type = 1;
+  repeated ScdVec3Int points = 2;
+}
+
+message ScdFacInteractiveObject {
+  uint64 object_id = 1;
+}
+
+message ScdFacDynamicProperty {
+  map<int32, ScdFacDynamicPropertyValue> values = 1;
+}
+
+message ScdFacDynamicPropertyValue {
+  oneof value {
+    bool bool_value = 1;
+    int64 int_value = 2;
+    uint64 uint_value = 3;
+    double double_value = 4;
+    string string_value = 5;
+  }
+}
+
+message ScdFacNodePower {
+  bool in_power = 1;
+  int64 power_cost = 2;
+  bool need_in_power = 11;
+  int64 power_cost_show = 12;
+}
+
+message ScdFactorySyncScene {
+  int32 scene_id = 1;
+  ScdFactorySyncSceneBandwidth bandwidth = 5;
+  repeated ScdFactorySyncScenePanel panels = 6;
+  repeated ScdFactorySyncScenePanel soil_panels = 7;
+  map<string, ScdFactorySyncSceneBandwidth> settlements = 10;
+}
+
+message ScdFactorySyncSceneBandwidth {
+  int32 current = 1;
+  int32 max = 2;
+  int32 travel_pole_current = 3;
+  int32 travel_pole_max = 4;
+  int32 battle_current = 5;
+  int32 battle_max = 6;
+  int32 sp_current = 11;
+  int32 sp_max = 12;
+}
+
+message ScdFactorySyncScenePanel {
+  int32 index = 1;
+  int32 level = 2;
+  repeated ScdRectInt main_mesh = 3;
+}
+
+message ScdFactorySyncMap {
+  int32 map_id = 1;
+  repeated ScdFactorySyncMapWire wires = 2;
+}
+
+message ScdFactorySyncMapWire {
+  uint64 index = 1;
+  uint64 from_com_id = 2;
+  uint64 to_com_id = 3;
+}
+
+message ScdFactorySyncBlackboard {
+  uint32 inventory_node_id = 1;
+  ScdFactorySyncBlackboardPower power = 11;
+}
+
+message ScdFactorySyncBlackboardPower {
+  int64 power_cost = 1;
+  int64 power_gen = 2;
+  int64 power_save_max = 3;
+  int64 power_save_current = 4;
+  bool is_stop_by_power = 5;
+}
+
+message ScdFactoryStatisticLastday {
+  repeated ScdFactoryStatisticLastdayDay days = 1;
+}
+
+message ScdFactoryStatisticLastdayDay {
+  int64 day_ts = 1;
+  map<string, int64> from_productivity = 2;
+}
+
+message ScdFactoryStatisticOther {
+  int32 power_net_length_sum = 1;
+  int32 in_power_building = 2;
+  float power_net_coverage = 3;
+}
+
+message ScdFactoryStatisticRecord {
+  int32 rank = 1;
+  repeated int64 points_gen = 2;
+  repeated int64 points_cost = 3;
+}
+
+message ScdFactorySyncPinBoard {
+  repeated ScdFactoryPinCard cards = 1;
+}
+
+message ScdFactoryPinCard {
+  int32 pos = 1;
+  string str_id = 2;
+  uint64 num_id = 3;
+}
+
+message ScFactorySyncChapter {
+  int64 tms = 1;
+  string chapter_id = 2;
+  repeated ScdFacNode nodes = 3;
+  repeated ScdFactorySyncScene scenes = 4;
+  ScdFactorySyncBlackboard blackboard = 5;
+  ScdFactorySyncPinBoard pin_board = 6;
+  repeated ScdFactorySyncMap maps = 7;
+  ScdFactorySyncStatistic statistic = 9;
+}
+
+message ScdFactorySyncStatistic {
+  ScdFactoryStatisticOther other = 3;
+  ScdFactoryStatisticLastday last_day = 4;
+}
+
+message ScFactoryModifyChapterNodes {
+  int64 tms = 1;
+  string chapter_id = 2;
+  repeated ScdFacNode nodes = 3;
+  repeated uint32 remove_nodes = 4;
+}
+
+message ScFactoryModifyChapterComponents {
+  int64 tms = 1;
+  string chapter_id = 2;
+  repeated ScdFacCom components = 3;
+}
+
+message ScFactoryModifyChapterMap {
+  int64 tms = 1;
+  string chapter_id = 2;
+  int32 map_id = 3;
+  repeated ScdFactorySyncMapWire wires = 11;
+  repeated uint64 remove_wires = 12;
+}
+
+message ScFactoryModifyChapterScene {
+  int64 tms = 1;
+  string chapter_id = 2;
+  int32 scene_id = 3;
+  ScdFactorySyncSceneBandwidth bandwidth = 13;
+  repeated ScdFactorySyncScenePanel panels = 14;
+  repeated ScdFactorySyncScenePanel soil_panels = 15;
+  map<string, ScdFactorySyncSceneBandwidth> settlements = 20;
+}
+
+message ScFactoryModifyChapterBlackboard {
+  int64 tms = 1;
+  string chapter_id = 2;
+  ScdFactorySyncBlackboard blackboard = 3;
+}
+
+message ScFactoryModifyChapterPinBoard {
+  int64 tms = 1;
+  string chapter_id = 2;
+  repeated ScdFactoryPinCard modified = 3;
+  repeated int32 release_pos = 4;
+}
+
+message ScFactoryHs {
+  int64 tms = 1;
+  repeated ScdFactoryHsCt ct_list = 2;
+  repeated ScdFactoryHsFb fb_list = 3;
+  repeated ScdFactoryHsCe ce_list = 4;
+  ScdFactoryHsBb blackboard = 5;
+  string chapter_id = 11;
+}
+
+message ScFactoryHsSync {
+  int64 tms = 1;
+  repeated ScdFacCom cc_list = 2;
+  repeated ScdFactoryHsFb fb_list = 3;
+  ScdFactorySyncBlackboard blackboard = 4;
+  string chapter_id = 11;
+}
+
+message ScFactoryModifyStatistic {
+  string chapter_id = 1;
+  ScdFactoryStatisticOther other = 3;
+  ScdFactoryStatisticLastday last_day = 4;
+}
+
+message ScFactoryStatisticRequire {
+  string chapter = 1;
+  ScdFactoryStatisticRecord power = 2;
+  map<string, ScdFactoryStatisticRecord> productivity = 3;
+}
+
+message CsFactoryHsFb {
+  string chapter_id = 1;
+  repeated uint32 node_id_list = 21;
+  bool undo = 3;
+}
+
+message CsFactoryStatisticRequire {
+  int32 rank_power = 1;
+  int32 rank_productivity = 2;
+  repeated string productivity_item_ids = 3;
+  bool all_productivity = 4;
+  string chapter_id = 12;
+}
+
+message CsFactoryPinSet {
+  int32 scope_name = 1;
+  int32 pos = 3;
+  string str_id = 4;
+  uint64 num_id = 5;
+  bool release = 11;
+}
+
+message CsFactoryObserverOp {
+  string index = 1;
+  string chapter_id = 2;
+  int32 map_id = 3;
+  uint32 node_id = 4;
+  uint64 node_stable_id = 5;
+  uint32 component_id = 6;
+  string op_type = 11;
+  oneof op_payload {
+    CsdFactoryObserverPayloadOpCheckoutRelationBoard checkout_relation_board = 21;
+    CsdFactoryObserverPayloadOpCheckoutPowerConnectionMap checkout_power_connection_map = 22;
+    CsdFactoryObserverPayloadOpCheckoutOutsideResource checkout_outside_resource = 23;
+  }
+}
+
+message CsdFactoryObserverPayloadOpCheckoutRelationBoard {
+}
+
+message CsdFactoryObserverPayloadOpCheckoutPowerConnectionMap {
+}
+
+message CsdFactoryObserverPayloadOpCheckoutOutsideResource {
+}
+
+message ScFactoryObserverRet {
+  string op_index = 1;
+  bool success = 2;
+  string err_message = 3;
+  string chapter_id = 4;
+  string ret_type = 11;
+  oneof ret_payload {
+    ScdFactoryObserverPayloadRetCheckoutRelationBoard checkout_relation_board = 21;
+    ScdFactoryObserverPayloadRetCheckoutPowerConnectionMap checkout_power_connection_map = 22;
+    ScdFactoryObserverPayloadRetCheckoutOutsideResource checkout_outside_resource = 23;
+  }
+}
+
+message ScdFactoryObserverPayloadRetCheckoutRelationBoard {
+  repeated ScdFactoryObserverPayloadRetCheckoutRelationBoardConveyorElem conveyor_elems = 1;
+}
+
+message ScdFactoryObserverPayloadRetCheckoutRelationBoardConveyorElem {
+  uint32 conveyor_com_id = 1;
+  uint32 conveyor_node_id = 2;
+  uint32 from_com_id = 11;
+  uint32 from_node_id = 12;
+  uint64 from_node_stable_id = 13;
+  string from_node_template_id = 14;
+  uint32 to_com_id = 21;
+  uint32 to_node_id = 22;
+  uint64 to_node_stable_id = 23;
+  string to_node_template_id = 24;
+}
+
+message ScdFactoryObserverPayloadRetCheckoutPowerConnectionMap {
+  repeated ScdFactoryObserverPayloadRetCheckoutPowerConnectionMapConnection connections = 1;
+  repeated ScdFactoryObserverPayloadRetCheckoutPowerConnectionMapNodeElem node_elems = 2;
+}
+
+message ScdFactoryObserverPayloadRetCheckoutPowerConnectionMapConnection {
+  uint64 index = 1;
+  uint32 from_com_id = 11;
+  uint32 from_node_id = 12;
+  uint64 from_node_stable_id = 13;
+  string from_node_template_id = 14;
+  uint32 to_com_id = 21;
+  uint32 to_node_id = 22;
+  uint64 to_node_stable_id = 23;
+  string to_node_template_id = 24;
+}
+
+message ScdFactoryObserverPayloadRetCheckoutPowerConnectionMapNodeElem {
+  uint32 node_id = 1;
+  uint64 node_stable_id = 2;
+  string node_template_id = 3;
+  uint32 com_id = 4;
+  uint64 logic_id = 7;
+  int32 distance = 11;
+  repeated uint32 neighbors = 12;
+}
+
+message ScdFactoryObserverPayloadRetCheckoutOutsideResource {
+  map<string, int32> place_bandwidth = 1;
+  map<string, int32> place_bandwidth_use = 2;
+  repeated ScdFactoryObserverPayloadRetCheckoutOutsideResourceNodeUse place_bandwidth_node_uses = 3;
+  map<string, int32> place_bandwidth_sp = 11;
+  map<string, int32> place_bandwidth_sp_use = 12;
+  repeated ScdFactoryObserverPayloadRetCheckoutOutsideResourceNodeUse place_bandwidth_sp_node_uses = 13;
+}
+
+message ScdFactoryObserverPayloadRetCheckoutOutsideResourceNodeUse {
+  uint32 node_id = 1;
+  string scene_name = 2;
+  int32 use = 3;
+}
+
+message CsFactoryOp {
+  string index = 1;
+  FactoryOpType op_type = 2;
+  string chapter_id = 3;
+  oneof op_payload {
+    CsdFactoryOpPlace place = 11;
+    CsdFactoryOpPlaceConveyor place_conveyor = 12;
+    CsdFactoryOpDismantle dismantle = 13;
+    CsdFactoryOpSetSelectTarget set_select_target = 15;
+    CsdFactoryOpEnableNode enable_node = 16;
+    CsdFactoryOpMoveNode move_node = 17;
+    CsdFactoryOpDismantleBoxConveyor dismantle_box_conveyor = 18;
+    CsdFactoryOpRepairNode repair_node = 19;
+    CsdFactoryOpMoveItemCacheToCache move_item_cache_to_cache = 20;
+    CsdFactoryOpMoveItemBagToCache move_item_bag_to_cache = 21;
+    CsdFactoryOpMoveItemCacheToBag move_item_cache_to_bag = 22;
+    CsdFactoryOpMoveItemDepotToCache move_item_depot_to_cache = 23;
+    CsdFactoryOpMoveItemCacheToDepot move_item_cache_to_depot = 24;
+    CsdFactoryOpMoveItemConveyorToBag move_item_conveyor_to_bag = 25;
+    CsdFactoryOpCacheTransportTransfer cache_transport_transfer = 26;
+    CsdFactoryOpCacheTransportEnable cache_transport_enable = 27;
+    CsdFactoryOpSetTravelPoleDefaultNext set_travel_pole_default_next = 28;
+    CsdFactoryOpUseHealTowerPoint use_heal_tower_point = 29;
+    CsdFactoryOpBattleRepair battle_repair = 30;
+    CsdFactoryOpAddConnection add_connection = 31;
+    CsdFactoryOpDelConnection del_connection = 32;
+    CsdFactoryOpGridBoxInnerMove grid_box_inner_move = 41;
+    CsdFactoryOpGridBoxInnerSplit grid_box_inner_split = 42;
+    CsdFactoryOpMoveItemBagToGridBox move_item_bag_to_grid_box = 43;
+    CsdFactoryOpMoveItemGridBoxToBag move_item_grid_box_to_bag = 44;
+    CsdFactoryOpMoveItemDepotToGridBox move_item_depot_to_grid_box = 45;
+    CsdFactoryOpMoveItemGridBoxToDepot move_item_grid_box_to_depot = 46;
+    CsdFactoryOpMoveAllCacheOutItemToBag move_all_cache_out_item_to_bag = 47;
+    CsdFactoryOpQuickPutBattery quick_put_battery = 48;
+    CsdFactoryOpChangeProducerMode change_producer_mode = 51;
+    CsdFactoryOpReverseFluidConveyorDirection reverse_fluid_conveyor_direction = 52;
+    CsdFactoryOpDismantleBatch dismantle_batch = 53;
+    CsdFactoryOpTakeOutFluidFromLiquidBody take_out_fluid_from_liquid_body = 61;
+    CsdFactoryOpPutInFluidToLiquidBody put_in_fluid_to_liquid_body = 62;
+    CsdFactoryOpFillingFluidComWithBag filling_fluid_com_with_bag = 63;
+    CsdFactoryOpFillingFluidComWithDepot filling_fluid_com_with_depot = 64;
+  }
+}
+
+enum FactoryOpType {
+  NONE = 0;
+  PLACE = 1;
+  PLACE_CONVEYOR = 2;
+  DISMANTLE = 3;
+  SET_SELECT_TARGET = 5;
+  ENABLE_NODE = 6;
+  MOVE_NODE = 7;
+  DISMANTLE_BOX_CONVEYOR = 8;
+  REPAIR_NODE = 9;
+  MOVE_ITEM_CACHE_TO_CACHE = 10;
+  MOVE_ITEM_BAG_TO_CACHE = 11;
+  MOVE_ITEM_CACHE_TO_BAG = 12;
+  MOVE_ITEM_DEPOT_TO_CACHE = 13;
+  MOVE_ITEM_CACHE_TO_DEPOT = 14;
+  MOVE_ITEM_CONVEYOR_TO_BAG = 15;
+  CACHE_TRANSPORT_TRANSFER = 16;
+  CACHE_TRANSPORT_ENABLE = 17;
+  SET_TRAVEL_POLE_DEFAULT_NEXT = 18;
+  USE_HEAL_TOWER_POINT = 19;
+  BATTLE_REPAIR = 20;
+  ADD_CONNECTION = 21;
+  DEL_CONNECTION = 22;
+  GRID_BOX_INNER_MOVE = 31;
+  GRID_BOX_INNER_SPLIT = 32;
+  MOVE_ITEM_BAG_TO_GRID_BOX = 33;
+  MOVE_ITEM_GRID_BOX_TO_BAG = 34;
+  MOVE_ITEM_DEPOT_TO_GRID_BOX = 35;
+  MOVE_ITEM_GRID_BOX_TO_DEPOT = 36;
+  MOVE_ALL_CACHE_OUT_ITEM_TO_BAG = 37;
+  QUICK_PUT_BATTERY = 38;
+  CHANGE_PRODUCER_MODE = 41;
+  REVERSE_FLUID_CONVEYOR_DIRECTION = 42;
+  DISMANTLE_BATCH = 43;
+  TAKE_OUT_FLUID_FROM_LIQUID_BODY = 51;
+  PUT_IN_FLUID_TO_LIQUID_BODY = 52;
+  FILLING_FLUID_COM_WITH_BAG = 53;
+  FILLING_FLUID_COM_WITH_DEPOT = 54;
+}
+
+message CsdFactoryOpPlace {
+  string template_id = 1;
+  ScdVec3Int position = 2;
+  ScdVec3Int direction = 3;
+  int32 map_id = 4;
+  CsdFactoryInteractiveParam interactive_param = 5;
+}
+
+message CsdFactoryInteractiveParam {
+  Vector position = 1;
+  Vector rotation = 2;
+  map<int32, DynamicParameter> properties = 3;
+}
+
+message CsdFactoryOpPlaceConveyor {
+  string template_id = 1;
+  ScdVec3Int direction_in = 2;
+  ScdVec3Int direction_out = 3;
+  repeated ScdVec3Int points = 4;
+  int32 map_id = 5;
+}
+
+message CsdFactoryOpDismantle {
+  uint32 node_id = 1;
+}
+
+message CsdFactoryOpSetSelectTarget {
+  uint32 component_id = 1;
+  string item_id = 2;
+}
+
+message CsdFactoryOpEnableNode {
+  uint32 node_id = 1;
+  bool enable = 2;
+}
+
+message CsdFactoryOpMoveNode {
+  uint32 node_id = 1;
+  ScdVec3Int position = 2;
+  ScdVec3Int direction = 3;
+  CsdFactoryInteractiveParam interactive_param = 5;
+}
+
+message CsdFactoryOpDismantleBoxConveyor {
+  uint32 node_id = 1;
+  repeated int32 index_list = 2;
+}
+
+message CsdFactoryOpRepairNode {
+  uint32 node_id = 1;
+}
+
+message CsdFactoryOpMoveItemCacheToCache {
+  uint32 from_component_id = 1;
+  uint32 to_component_id = 2;
+  string item_id = 3;
+}
+
+message CsdFactoryOpMoveItemBagToCache {
+  int32 grid_index = 1;
+  uint32 component_id = 2;
+  int32 cache_grid_index = 3;
+}
+
+message CsdFactoryOpMoveItemCacheToBag {
+  uint32 component_id = 1;
+  string item_id = 2;
+  bool all = 3;
+  int32 cache_grid_index = 4;
+  int32 grid_index = 5;
+}
+
+message CsdFactoryOpMoveItemDepotToCache {
+  string item_id = 1;
+  uint32 component_id = 2;
+  int32 cache_grid_index = 3;
+}
+
+message CsdFactoryOpMoveItemCacheToDepot {
+  uint32 component_id = 1;
+  string item_id = 2;
+  bool all = 3;
+  int32 cache_grid_index = 4;
+}
+
+message CsdFactoryOpMoveItemConveyorToBag {
+  uint32 component_id = 1;
+  int32 index = 2;
+  bool all = 3;
+}
+
+message CsdFactoryOpCacheTransportTransfer {
+  uint32 component_id = 1;
+}
+
+message CsdFactoryOpCacheTransportEnable {
+  uint32 component_id = 1;
+  bool enable = 2;
+}
+
+message CsdFactoryOpSetTravelPoleDefaultNext {
+  uint32 component_id = 1;
+  uint32 default_next = 2;
+}
+
+message CsdFactoryOpUseHealTowerPoint {
+  uint32 component_id = 1;
+  uint32 use_count = 2;
+}
+
+message CsdFactoryOpBattleRepair {
+  uint32 node_id = 1;
+}
+
+message CsdFactoryOpAddConnection {
+  int32 map_id = 1;
+  uint64 from_com_id = 4;
+  uint64 to_com_id = 5;
+}
+
+message CsdFactoryOpDelConnection {
+  int32 map_id = 1;
+  uint64 index = 2;
+}
+
+message CsdFactoryOpGridBoxInnerMove {
+  uint32 component_id = 1;
+  int32 from_index = 2;
+  int32 to_index = 3;
+}
+
+message CsdFactoryOpGridBoxInnerSplit {
+  uint32 component_id = 1;
+  int32 from_index = 2;
+  int32 to_index = 3;
+  int32 count = 4;
+}
+
+message CsdFactoryOpMoveItemBagToGridBox {
+  int32 bag_grid_index = 1;
+  uint32 component_id = 2;
+  int32 grid_box_index = 3;
+}
+
+message CsdFactoryOpMoveItemGridBoxToBag {
+  uint32 component_id = 1;
+  int32 grid_box_index = 2;
+  int32 bag_grid_index = 3;
+}
+
+message CsdFactoryOpMoveItemDepotToGridBox {
+  string item_id = 1;
+  uint32 component_id = 2;
+  int32 grid_box_index = 3;
+}
+
+message CsdFactoryOpMoveItemGridBoxToDepot {
+  uint32 component_id = 1;
+  int32 grid_box_index = 2;
+}
+
+message CsdFactoryOpMoveAllCacheOutItemToBag {
+  uint32 node_id = 1;
+}
+
+message CsdFactoryOpQuickPutBattery {
+  uint32 com_id = 1;
+}
+
+message CsdFactoryOpChangeProducerMode {
+  uint32 node_id = 1;
+  string to_mode = 2;
+}
+
+message CsdFactoryOpReverseFluidConveyorDirection {
+  uint32 node_id = 1;
+}
+
+message CsdFactoryOpDismantleBatch {
+  repeated CsdFactoryOpDismantle dismantles = 1;
+  repeated CsdFactoryOpDismantleBoxConveyor dismantle_conveyors = 2;
+}
+
+message CsdFactoryOpTakeOutFluidFromLiquidBody {
+  string liquid_body_inst_key = 1;
+  repeated ItemBundle bottle_items = 4;
+}
+
+message CsdFactoryOpPutInFluidToLiquidBody {
+  string liquid_body_inst_key = 1;
+  repeated ItemBundle bottle_water_items = 4;
+}
+
+message CsdFactoryOpFillingFluidComWithBag {
+  uint32 component_id = 1;
+  int32 bag_grid_index = 2;
+}
+
+message CsdFactoryOpFillingFluidComWithDepot {
+  uint32 component_id = 1;
+  string item_id = 2;
+}
+
+message ScFactoryOpRet {
+  string index = 1;
+  FactoryOpRetCode ret_code = 2;
+  FactoryOpType op_type = 3;
+  string err_message = 4;
+  oneof op_payload {
+    ScdFactoryOpRetPlace place = 11;
+    ScdFactoryOpRetPlaceConveyor place_conveyor = 12;
+    ScdFactoryOpRetDismantle dismantle = 13;
+    ScdFactoryOpRetSetSelectTarget set_select_target = 15;
+    ScdFactoryOpRetEnableNode enable_node = 16;
+    ScdFactoryOpRetMoveNode move_node = 17;
+    ScdFactoryOpRetDismantleBoxConveyor dismantle_box_conveyor = 18;
+    ScdFactoryOpRetRepairNode repair_node = 19;
+    ScdFactoryOpRetMoveItemCacheToCache move_item_cache_to_cache = 20;
+    ScdFactoryOpRetMoveItemBagToCache move_item_bag_to_cache = 21;
+    ScdFactoryOpRetMoveItemCacheToBag move_item_cache_to_bag = 22;
+    ScdFactoryOpRetMoveItemDepotToCache move_item_depot_to_cache = 23;
+    ScdFactoryOpRetMoveItemCacheToDepot move_item_cache_to_depot = 24;
+    ScdFactoryOpRetMoveItemConveyorToBag move_item_conveyor_to_bag = 25;
+    ScdFactoryOpRetCacheTransportTransfer cache_transport_transfer = 26;
+    ScdFactoryOpRetCacheTransportEnable cache_transport_enable = 27;
+    ScdFactoryOpRetSetTravelPoleDefaultNext set_travel_pole_default_next = 28;
+    ScdFactoryOpRetUseHealTowerPoint use_heal_tower_point = 29;
+    ScdFactoryOpRetBattleRepair battle_repair = 30;
+    ScdFactoryOpRetAddConnection add_connection = 31;
+    ScdFactoryOpRetDelConnection del_connection = 32;
+    ScdFactoryOpRetGridBoxInnerMove grid_box_inner_move = 41;
+    ScdFactoryOpRetGridBoxInnerSplit grid_box_inner_split = 42;
+    ScdFactoryOpRetMoveItemBagToGridBox move_item_bag_to_grid_box = 43;
+    ScdFactoryOpRetMoveItemGridBoxToBag move_item_grid_box_to_bag = 44;
+    ScdFactoryOpRetMoveItemDepotToGridBox move_item_depot_to_grid_box = 45;
+    ScdFactoryOpRetMoveItemGridBoxToDepot move_item_grid_box_to_depot = 46;
+    ScdFactoryOpRetMoveAllCacheOutItemToBag move_all_cache_out_item_to_bag = 47;
+    ScdFactoryOpRetQuickPutBattery quick_put_battery = 48;
+    ScdFactoryOpRetChangeProducerMode change_producer_mode = 51;
+    ScdFactoryOpRetReverseFluidConveyorDirection reverse_fluid_conveyor_direction = 52;
+    ScdFactoryOpRetDismantleBatch dismantle_batch = 53;
+    ScdFactoryOpRetTakeOutFluidFromLiquidBody take_out_fluid_from_liquid_body = 61;
+    ScdFactoryOpRetPutInFluidToLiquidBody put_in_fluid_to_liquid_body = 62;
+    ScdFactoryOpRetFillingFluidComWithBag filling_fluid_com_with_bag = 63;
+    ScdFactoryOpRetFillingFluidComWithDepot filling_fluid_com_with_depot = 64;
+  }
+}
+
+enum FactoryOpRetCode {
+  FactoryOpRetCode_OK = 0;
+  FAIL = 1;
+  UNKNOWN_OP_TYPE = 2;
+  MESH_CONFLICT = 3;
+  MUST_IN_MAIN = 4;
+  NO_BUILDING_ITEM = 5;
+}
+
+message ScdFactoryOpRetPlace {
+  uint32 node_id = 1;
+}
+
+message ScdFactoryOpRetPlaceConveyor {
+  repeated uint32 node_id = 1;
+}
+
+message ScdFactoryOpRetDismantle {
+}
+
+message ScdFactoryOpRetSetSelectTarget {
+}
+
+message ScdFactoryOpRetEnableNode {
+}
+
+message ScdFactoryOpRetMoveNode {
+}
+
+message ScdFactoryOpRetDismantleBoxConveyor {
+  repeated uint32 node_id = 1;
+}
+
+message ScdFactoryOpRetRepairNode {
+}
+
+message ScdFactoryOpRetMoveItemCacheToCache {
+}
+
+message ScdFactoryOpRetMoveItemBagToCache {
+}
+
+message ScdFactoryOpRetMoveItemCacheToBag {
+}
+
+message ScdFactoryOpRetMoveItemDepotToCache {
+}
+
+message ScdFactoryOpRetMoveItemCacheToDepot {
+}
+
+message ScdFactoryOpRetMoveItemConveyorToBag {
+}
+
+message ScdFactoryOpRetCacheTransportTransfer {
+  bool success = 1;
+}
+
+message ScdFactoryOpRetCacheTransportEnable {
+}
+
+message ScdFactoryOpRetSetTravelPoleDefaultNext {
+}
+
+message ScdFactoryOpRetUseHealTowerPoint {
+  uint32 used_count = 1;
+}
+
+message ScdFactoryOpRetBattleRepair {
+}
+
+message ScdFactoryOpRetAddConnection {
+  uint64 index = 1;
+}
+
+message ScdFactoryOpRetDelConnection {
+}
+
+message ScdFactoryOpRetGridBoxInnerMove {
+}
+
+message ScdFactoryOpRetGridBoxInnerSplit {
+}
+
+message ScdFactoryOpRetMoveItemBagToGridBox {
+}
+
+message ScdFactoryOpRetMoveItemGridBoxToBag {
+}
+
+message ScdFactoryOpRetMoveItemDepotToGridBox {
+}
+
+message ScdFactoryOpRetMoveItemGridBoxToDepot {
+  bool not_all_success = 1;
+}
+
+message ScdFactoryOpRetMoveAllCacheOutItemToBag {
+}
+
+message ScdFactoryOpRetQuickPutBattery {
+  repeated ItemBundle cost_items = 1;
+}
+
+message ScdFactoryOpRetChangeProducerMode {
+}
+
+message ScdFactoryOpRetReverseFluidConveyorDirection {
+}
+
+message ScdFactoryOpRetDismantleBatch {
+}
+
+message ScdFactoryOpRetTakeOutFluidFromLiquidBody {
+  repeated ItemBundle cost_bottle_items = 1;
+  repeated ItemBundle gain_bottle_water_items = 2;
+  int32 cost_liquid = 3;
+  RetFluidWithLiquidBody ret = 4;
+}
+
+enum RetFluidWithLiquidBody {
+  RET_FLUID_WITH_LIQUID_BODY_OK = 0;
+  RET_FLUID_WITH_LIQUID_BODY_None = 1;
+  RET_FLUID_WITH_LIQUID_BODY_PartialByBag = 2;
+  RET_FLUID_WITH_LIQUID_BODY_PartialByLiquidBody = 3;
+}
+
+message ScdFactoryOpRetPutInFluidToLiquidBody {
+  repeated ItemBundle cost_bottle_water_items = 1;
+  repeated ItemBundle gain_bottle_items = 2;
+  int32 gain_liquid = 3;
+  RetFluidWithLiquidBody ret = 4;
+}
+
+message ScdFactoryOpRetFillingFluidComWithBag {
+}
+
+message ScdFactoryOpRetFillingFluidComWithDepot {
+}
+
+message CsFriendListSync {
+}
+
+message CsFriendRequestListSync {
+}
+
+message CsFriendSearchName {
+  string name = 1;
+}
+
+message CsFriendRequestAccept {
+  uint64 role_id = 1;
+}
+
+message CsFriendRequestReject {
+  uint64 role_id = 1;
+}
+
+message CsFriendDelete {
+  uint64 role_id = 1;
+}
+
+message CsFriendRequestSubmit {
+  uint64 role_id = 1;
+}
+
+message ScFriendListSync {
+  repeated FriendFriendInfo friend_list = 1;
+}
+
+message ScFriendRequestListSync {
+  repeated FriendRequestInfo friend_request_list = 1;
+}
+
+message ScFriendSearchName {
+  repeated FriendStrangerUserInfo stranger_list = 1;
+}
+
+message ScFriendRequestAccept {
+  uint64 role_id = 1;
+}
+
+message ScFriendRequestReject {
+  uint64 role_id = 1;
+}
+
+message ScFriendDelete {
+  uint64 role_id = 1;
+}
+
+message ScFriendRequestSubmit {
+  uint64 role_id = 1;
+}
+
+message ScFriendRequestAddNotify {
+  FriendRequestInfo friend_request_info = 1;
+}
+
+message ScFriendAddNotify {
+  FriendFriendInfo friend_info = 1;
+}
+
+message CsGachaSinglePullReq {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  map<string, int32> pull_costs = 3;
+}
+
+message CsGachaTenPullReq {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  map<string, int32> pull_costs = 3;
+}
+
+message ScdGachaPoolInfo {
+  string gacha_pool_id = 1;
+  int64 open_time = 2;
+  int64 close_time = 3;
+  bool is_closed = 4;
+  int32 public_close_reason = 5;
+}
+
+message ScdGachaPoolRoleData {
+  string gacha_pool_id = 1;
+  bool is_closed = 2;
+  int32 personal_close_reason = 3;
+  int32 total_pull_count = 4;
+  int32 hard_guarantee_progress = 5;
+  int32 soft_guarantee_progress = 6;
+  int32 star5_soft_guarantee_progress = 7;
+  int32 up_got_count = 8;
+}
+
+message ScdGachaPoolCategoryRoleData {
+  int32 gacha_pool_type = 1;
+  int32 total_pull_count = 2;
+  int32 soft_guarantee_progress = 3;
+  int32 star5_soft_guarantee_progress = 4;
+}
+
+message ScdGachaPoolMgr {
+  repeated ScdGachaPoolInfo gacha_pool_infos = 1;
+  repeated ScdGachaPoolRoleData gacha_pool_role_datas = 2;
+  repeated ScdGachaPoolCategoryRoleData gacha_pool_category_role_datas = 3;
+}
+
+message ScGachaSync {
+  ScdGachaPoolMgr char_gacha_pool = 1;
+  ScdGachaPoolMgr weapon_gacha_pool = 2;
+}
+
+message ScGachaModifyPoolInfo {
+  repeated ScdGachaPoolInfo char_gacha_pools = 1;
+  repeated ScdGachaPoolInfo weapon_gacha_pools = 2;
+}
+
+message ScdGachaFinalResult {
+  string item_id = 1;
+  string reward_item_id = 2;
+  repeated string reward_ids = 3;
+  bool is_new = 4;
+}
+
+message ScGachaSyncPullResult {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  repeated string ori_result_ids = 3;
+  repeated ScdGachaFinalResult final_results = 4;
+  int32 up_got_count = 5;
+  int32 star6_got_count = 6;
+  int32 star5_got_count = 7;
+}
+
+message ScGachaModifyPoolRoleData {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  ScdGachaPoolRoleData gacha_pool_role_data = 3;
+  ScdGachaPoolCategoryRoleData gacha_pool_category_role_data = 4;
+}
+
+message CsGameMechanicsReqActive {
+  string game_id = 1;
+}
+
+message CsGameMechanicsReqReward {
+  string game_id = 1;
+}
+
+message CsGameMechanicsNtfInstPrepareFinish {
+  string game_id = 1;
+}
+
+message ScdGameMechanicsRecord {
+  string game_id = 1;
+  int64 last_enter_game_t_s = 2;
+  int32 best_pass_time = 3;
+  int64 best_pass_t_s = 4;
+  bool is_pass = 5;
+  bool is_challenged = 6;
+  bool is_active = 7;
+  bool once_reward_got = 8;
+  repeated int32 rewarded_id_list = 9;
+}
+
+message ScdGameMechanicsUnlockConditions {
+  string id = 1;
+  int32 unlock_state = 2;
+  map<string, int32> unlock_condition_values = 3;
+  map<string, bool> unlock_condition_flags = 4;
+}
+
+message ScGameMechanicsSync {
+  repeated ScdGameMechanicsUnlockConditions game_unlock_conditions = 1;
+  repeated ScdGameMechanicsRecord game_records = 2;
+}
+
+message ScGameMechanicsSyncUnlockCondition {
+  ScdGameMechanicsUnlockConditions game_unlock_condition = 1;
+}
+
+message ScGameMechanicsModifyRecords {
+  repeated ScdGameMechanicsRecord game_records = 1;
+}
+
+message ScGameMechanicsSyncChallengeStart {
+  string game_id = 1;
+  int64 challenge_start_ts = 2;
+  int64 challenge_expire_ts = 3;
+  int32 prepare_challenge_seconds = 4;
+}
+
+message ScGameMechanicsSyncChallengeComplete {
+  string game_id = 1;
+  bool is_pass = 2;
+  int64 force_leave_ts = 3;
+  int32 pass_time = 4;
+}
+
+message ScGameMechanicsSyncCompletionReward {
+  string game_id = 1;
+  bool is_pass = 2;
+  int64 force_leave_ts = 3;
+}
+
+message ScGameMechanicsSyncEnterGameInst {
+  string game_id = 1;
+}
+
+message ScGameMechanicsSyncLeaveGameInst {
+  string game_id = 1;
+}
+
+message ScGameMechanicsSyncRestartGameInst {
+  string game_id = 1;
+}
+
+message ScdGameMechanicsInstTimeFreeze {
+  int32 time_key = 1;
+  int64 total_freeze_time_in_ms = 2;
+}
+
+message ScGameMechanicsModifyInstTimeFreeze {
+  string game_id = 1;
+  repeated ScdGameMechanicsInstTimeFreeze time_freeze_infos = 2;
+}
+
+message ScSyncGameMode {
+  string mode_id = 1;
+}
+
+message ScSyncAllGameVar {
+  map<int32, int64> server_vars = 1;
+  map<int32, int64> client_vars = 2;
+}
+
+message CsUpdateClientGameVar {
+  int32 key = 1;
+  int64 value = 2;
+}
+
+message ScUpdateGameVar {
+  int32 key = 1;
+  int64 value = 2;
+  int32 type = 3;
+}
+
+message CsGemRecast {
+  string formula_id = 1;
+  int32 count = 2;
+  repeated uint64 cost_gem_inst_ids = 3;
+}
+
+message ScGemRecast {
+  string formula_id = 1;
+  int32 count = 2;
+  repeated uint64 gem_inst_ids = 3;
+}
+
+message GuideGroupInfo {
+  string guide_group_id = 1;
+  int32 guide_state = 2;
+}
+
+message CsCompleteGuideGroupKeyStep {
+  string guide_group_id = 1;
+}
+
+message CsCompleteGuideGroup {
+  string guide_group_id = 1;
+  bool not_auto_accept = 2;
+}
+
+message ScSyncAllGuide {
+  repeated GuideGroupInfo guide_group_list = 1;
+  repeated string completed_repeat_accept_guide_group_list = 2;
+}
+
+message ScAcceptGuideGroup {
+  string guide_group_id = 1;
+}
+
+message ScCompleteGuideGroupKeyStep {
+  string guide_group_id = 1;
+}
+
+message ScCompleteGuideGroup {
+  string guide_group_id = 1;
+}
+
+message ScdItemBag {
+  int32 grid_limit = 1;
+  repeated ScdItemGrid grids = 2;
+}
+
+message ScdItemDepot {
+  map<string, int32> stackable_items = 1;
+  repeated ScdItemGrid inst_list = 2;
+}
+
+message ScdItemLostAndFound {
+  map<string, int32> stackable_items = 1;
+  repeated ScdItemGrid inst_list = 2;
+}
+
+message ScdItemBagModify {
+  int32 grid_limit = 1;
+  repeated ScdItemGrid grids = 2;
+  repeated int32 del_list = 3;
+}
+
+message ScdItemDepotModify {
+  map<string, int32> items = 1;
+  repeated ScdItemGrid inst_list = 2;
+  repeated uint64 del_inst_list = 3;
+  map<string, bool> infinite_items = 4;
+}
+
+message ScdItemLostAndFoundModify {
+  map<string, int32> items = 1;
+  repeated ScdItemGrid inst_list = 2;
+  repeated uint64 del_inst_list = 3;
+}
+
+message CsItemBagTidyInBag {
+  int32 scope_name = 11;
+}
+
+message CsItemBagMoveInBag {
+  int32 from_grid = 1;
+  int32 to_grid = 2;
+  int32 scope_name = 11;
+}
+
+message CsItemBagSplitInBag {
+  int32 from_grid = 1;
+  int32 to_grid = 2;
+  int32 move_count = 3;
+  int32 scope_name = 11;
+}
+
+message CsItemBagFactoryDepotToBag {
+  map<string, int32> items = 1;
+  repeated uint64 inst_id_list = 2;
+  int32 scope_name = 11;
+  string chapter_id = 12;
+}
+
+message CsItemBagBagToFactoryDepot {
+  repeated int32 grid_list = 1;
+  int32 scope_name = 11;
+  string chapter_id = 12;
+}
+
+message CsItemBagFactoryDepotToBagGrid {
+  int32 grid_index = 1;
+  string id = 2;
+  int32 count = 3;
+  int32 scope_name = 11;
+  string chapter_id = 12;
+}
+
+message CsItemBagUseItem {
+  int32 grid_index = 1;
+  int32 count = 2;
+  repeated uint64 char_inst_id_list = 3;
+  uint64 equip_medicine_char_inst_id = 4;
+  repeated string item_use_args = 5;
+  int32 scope_name = 11;
+  ItemBagUseType use_type = 12;
+}
+
+enum ItemBagUseType {
+  item_bag_use_type_default = 0;
+  item_bag_use_type_equip_medicine = 1;
+  item_bag_use_type_bomb = 2;
+}
+
+message CsItemBagSetQuickBar {
+  repeated string item_id = 1;
+  int32 scope_name = 11;
+}
+
+message CsItemBagSetQuickBarPos {
+  int32 pos = 1;
+  int32 scope_name = 11;
+}
+
+message CsItemBagSetItemLock {
+  repeated ItemInstLockInfo lock_info_list = 1;
+  int32 scope_name = 11;
+}
+
+message ItemInstLockInfo {
+  string item_id = 1;
+  uint64 inst_id = 2;
+  bool is_lock = 3;
+}
+
+message CsItemBagAbandonInBag {
+  map<int32, int32> grid_cut = 1;
+  uint64 target_object_id = 2;
+  int32 scope_name = 11;
+}
+
+message CsItemBagDestroyInDepot {
+  int32 depot = 1;
+  map<string, int32> items = 2;
+  repeated uint64 inst_id_list = 3;
+  int32 scope_name = 11;
+}
+
+message CsItemBagDestroyInFactoryDepot {
+  map<string, int32> items = 1;
+  int32 scope_name = 11;
+  string chapter_id = 12;
+}
+
+message CsItemBagDumpBottleInBag {
+  int32 grid_index = 1;
+  int32 count = 2;
+  int32 scope_name = 11;
+}
+
+message CsItemBagDumpBottleInFactoryDepot {
+  string item_id = 1;
+  int32 count = 2;
+  int32 scope_name = 11;
+  string chapter_id = 12;
+}
+
+message CsItemBagTakeoutLostAndFound {
+  bool all = 1;
+  map<string, int32> items = 2;
+  repeated uint64 inst_id_list = 3;
+}
+
+message CsItemBagUseItemCase {
+  string id = 1;
+  int32 count = 2;
+  repeated string select_rewards = 3;
+}
+
+message CsItemBagChgSpaceshipChapter {
+  string spaceship_chapter_id = 1;
+}
+
+message ScdItemBagSyncQuickBar {
+  repeated string item_id = 1;
+  int32 pos = 2;
+}
+
+message ScItemBagCommonSync {
+  ScdItemLostAndFound lost_and_found = 1;
+}
+
+message ScItemBagCommonModify {
+  ScdItemLostAndFoundModify lost_and_found = 1;
+}
+
+message ScItemBagScopeSync {
+  ScdItemBag bag = 1;
+  map<string, ScdItemDepot> factory_depot = 2;
+  map<int32, ScdItemDepot> depot = 3;
+  ScdItemBagSyncQuickBar quick_bar = 4;
+  ScdItemBagScopeAssistant assistant = 5;
+  int32 scope_name = 11;
+  string current_chapter_id = 12;
+  string spaceship_chapter_id = 13;
+}
+
+message ScdItemBagScopeAssistant {
+  map<string, int32> last_use_time = 1;
+  map<string, bool> cannot_destroy = 2;
+}
+
+message ScTrialCharacterEquipMedicineModify {
+  uint64 trial_obj_id = 1;
+  int32 count = 2;
+}
+
+message ScItemBagTrialCharDepotModify {
+  int32 scope_name = 1;
+  ScdItemDepotModify trial_char_depot = 2;
+}
+
+message ScItemBagTrialCharDepotClear {
+  int32 scope_name = 1;
+}
+
+message ScItemBagScopeModify {
+  ScdItemBagModify bag = 1;
+  map<string, ScdItemDepotModify> factory_depot = 2;
+  map<int32, ScdItemDepotModify> depot = 3;
+  ScdItemBagSyncQuickBar quick_bar = 4;
+  ScdItemBagScopeAssistantModify assistant = 5;
+  int32 scope_name = 11;
+  string current_chapter_id = 12;
+  bool is_scope_delete = 14;
+}
+
+message ScdItemBagScopeAssistantModify {
+  map<string, int32> last_use_time = 1;
+  map<string, bool> cannot_destroy = 2;
+}
+
+message ScItemBagUseItem {
+  EUseItemResult result = 1;
+  ScdItemGrid used_item = 2;
+  repeated uint64 char_inst_id_list = 3;
+  uint64 equip_medicine_char_inst_id = 4;
+  int32 scope_name = 11;
+}
+
+enum EUseItemResult {
+  E_USE_ITEM_RESULT_OK = 0;
+  E_USE_ITEM_RESULT_UnknownFail = 1;
+  E_USE_ITEM_RESULT_CondiitonFail = 2;
+}
+
+message ScItemBagSetQuickBar {
+  repeated string item_id = 1;
+  int32 scope_name = 11;
+}
+
+message ScItemBagSetQuickBarPos {
+  int32 pos = 1;
+  int32 scope_name = 11;
+}
+
+message ScItemBagSetItemLock {
+  repeated ItemInstLockInfo lock_info_list = 1;
+  int32 scope_name = 11;
+}
+
+message ScItemBagAbandonInBag {
+}
+
+message ScItemBagBagToFactoryDepot {
+  bool not_all_success = 1;
+  int32 scope_name = 21;
+}
+
+message ScItemBagTakeoutLostAndFound {
+  bool nothing_got = 1;
+}
+
+message ScItemBagGotItemToast {
+  map<string, int32> items = 1;
+}
+
+message ScRewardToastBegin {
+  int32 reward_source_type = 1;
+  uint64 reward_toast_inst_id = 2;
+}
+
+message ScRewardToastEnd {
+  repeated RewardItem reward_virtual_list = 1;
+  uint64 reward_toast_inst_id = 2;
+}
+
+message ScRewardDropSpItemToast {
+  string item_id = 1;
+  int64 count = 2;
+  Vector pos = 3;
+  int32 reward_source_type = 4;
+  uint64 reward_toast_inst_id = 5;
+}
+
+message ScItemBagUseItemCase {
+  string id = 1;
+  int32 count = 2;
+}
+
+message ScItemBagChgSpaceshipChapter {
+  string spaceship_chapter_id = 1;
+}
+
+message CsLogin {
+  string uid = 1;
+  string token = 2;
+  string channel = 3;
+  int32 server_group = 4;
+  uint64 last_recv_down_seqid = 5;
+  string client_version = 6;
+  string client_res_version = 7;
+  bytes client_public_key = 8;
+  ClientPlatformType platform_id = 9;
+  AreaType area = 10;
+  EnvType env = 11;
+  int32 pay_platform = 12;
+}
+
+enum ClientPlatformType {
+  DEFAULT = 0;
+  ANDRIOD = 1;
+  IOS = 2;
+  WINDOWS = 3;
+  PLAYSTATION = 4;
+}
+
+enum AreaType {
+  Default = 0;
+  China = 1;
+  Oversea = 2;
+  ChinaPre = 10;
+  OverseaPre = 11;
+}
+
+enum EnvType {
+  DEV = 0;
+  STABLE = 1;
+  PROD = 2;
+}
+
+message ScLogin {
+  string uid = 1;
+  bool is_first_login = 2;
+  bytes server_public_key = 3;
+  bytes server_encryp_nonce = 4;
+  uint64 last_recv_up_seqid = 5;
+  bool is_reconnect = 6;
+  bool is_enc = 7;
+  bool is_client_reconnect = 8;
+  int64 server_time = 9;
+  int32 server_time_zone = 10;
+}
+
+message CsCreateRole {
+  string role_name = 1;
+  Gender gender = 2;
+}
+
+enum Gender {
+  GEN_INVALID = 0;
+  GEN_MALE = 1;
+  GEN_FEMALE = 2;
+  GEN_TOTAL = 3;
+}
+
+message ScSyncBaseData {
+  uint64 roleid = 1;
+  string role_name = 2;
+  uint32 level = 3;
+  uint32 exp = 4;
+  string short_id = 7;
+  Gender gender = 8;
+}
+
+message ScNtfErrorCode {
+  int32 error_code = 1;
+  string details = 2;
+}
+
+message ScNtfCode {
+  int32 code = 1;
+  string details = 2;
+}
+
+message CsLogout {
+}
+
+message CsGmCommand {
+  string command = 1;
+}
+
+message ScdGmGachaStat {
+  string gacha_pool_id = 1;
+  int32 gacha_type = 2;
+  int32 total_pull_count = 3;
+  map<int32, int32> up_got_pull_count_map = 4;
+  int32 up_got_count = 5;
+  map<int32, int32> star6_got_pull_count_map = 6;
+  int32 star6_got_count = 7;
+  int32 star6_ge2_got_count = 8;
+  map<int32, int32> star5_got_pull_count_map = 9;
+  int32 star5_got_count = 10;
+  int32 star5_ge2_got_count = 11;
+}
+
+message ScGmCommand {
+  string result = 1;
+}
+
+message CsPing {
+  uint64 client_ts = 1;
+}
+
+message ScPing {
+  uint64 client_ts = 1;
+  uint64 server_ts = 2;
+}
+
+message ScReconnectIncr {
+}
+
+message ScReconnectFull {
+}
+
+message CsFlushSync {
+  uint64 client_ts = 1;
+}
+
+message ScFlushSync {
+  uint64 client_ts = 1;
+  uint64 server_ts = 2;
+}
+
+message CsSetName {
+  string name = 1;
+}
+
+message ScSetName {
+  string name = 1;
+  string short_id = 2;
+}
+
+message CsSetGender {
+  Gender gender = 1;
+}
+
+message ScSetGender {
+  Gender gender = 1;
+}
+
+message CsCheckName {
+  string name = 1;
+}
+
+message ScCheckName {
+  string name = 1;
+  bool pass = 2;
+}
+
+message ScSyncFullDataEnd {
+}
+
+message CsMailDef {
+  int32 mail_type = 1;
+  uint64 mail_id = 2;
+  int64 expire_time = 3;
+  bool is_read = 4;
+  bool is_attachment_got = 5;
+  int64 send_time = 6;
+  MailContent mail_content = 7;
+  repeated RewardItem item_list = 8;
+  bool is_star = 9;
+  int32 mail_sub_type = 10;
+}
+
+message CsGetMail {
+  repeated uint64 mail_id_list = 1;
+}
+
+message CsReadMail {
+  uint64 mail_id = 1;
+}
+
+message CsDeleteMail {
+  uint64 mail_id = 1;
+}
+
+message CsDeleteAllMail {
+}
+
+message CsGetMailAttachment {
+  uint64 mail_id = 1;
+}
+
+message CsGetAllMailAttachment {
+}
+
+message CsMarkStarMail {
+  uint64 mail_id = 1;
+  bool is_star = 2;
+}
+
+message ScSyncAllMail {
+  repeated uint64 mail_id_list = 1;
+  bool new_mail_tag = 2;
+  bool new_questionnaire_tag = 3;
+}
+
+message ScReadMail {
+  uint64 mail_id = 1;
+}
+
+message ScGetMail {
+  repeated CsMailDef mail_list = 1;
+}
+
+message ScGetMailAttachment {
+  repeated uint64 success_mail_id_list = 1;
+  repeated uint64 failed_mail_id_list = 2;
+}
+
+message ScDelMailNotify {
+  repeated uint64 mail_id_list = 1;
+}
+
+message ScNewMailNotify {
+  repeated uint64 mail_id_list = 1;
+  bool new_questionnaire_tag = 2;
+}
+
+message ScMarkStarMail {
+  uint64 mail_id = 1;
+  bool is_star = 2;
+}
+
+message CsdSceneStaticMapMarkUpdate {
+  SceneStaticMapMark mark = 1;
+  bool is_add = 2;
+}
+
+message CsSceneStaticMapMarkUpdate {
+  repeated CsdSceneStaticMapMarkUpdate ops = 1;
+}
+
+message CsSceneSetTrackPoint {
+  SceneTrackPoint track_point = 1;
+}
+
+message ScSceneMapMarkSync {
+  repeated SceneStaticMapMark scene_static_map_mark_list = 1;
+  SceneTrackPoint track_point = 2;
+}
+
+message ScSceneStaticMapMarkModify {
+  repeated SceneStaticMapMark added_list = 1;
+  repeated int32 deleted_list = 2;
+}
+
+message ScSceneSetTrackPoint {
+  SceneTrackPoint track_point = 1;
+}
+
+message MiniGameInfo {
+  string mini_game_id = 1;
+  int32 completed_count = 2;
+}
+
+message ScSyncAllMiniGame {
+  repeated MiniGameInfo completed_mini_game = 1;
+}
+
+message CsCompleteMiniGame {
+  string mini_game_id = 2;
+}
+
+message ScCompleteMiniGame {
+  string mini_game_id = 2;
+  int32 completed_count = 3;
+}
+
+message AttrInfo {
+  int32 attr_type = 1;
+  double basic_value = 2;
+  double value = 3;
+}
+
+message ScSyncAttr {
+  uint64 obj_i_d = 1;
+  repeated AttrInfo attr_list = 2;
+}
+
+message ScNewNoticeNotify {
+}
+
+message QuestObjectiveDetail {
+  map<uint64, bool> hash_value = 2;
+}
+
+message QuestObjective {
+  string condition_id = 1;
+  map<string, QuestObjectiveDetail> extra_details = 2;
+  map<string, int32> values = 4;
+  bool is_complete = 3;
+}
+
+message Quest {
+  string quest_id = 1;
+  int32 quest_state = 2;
+  repeated QuestObjective quest_objectives = 4;
+}
+
+message Mission {
+  string mission_id = 1;
+  int32 mission_state = 2;
+  int32 succeed_id = 3;
+  map<int32, DynamicParameter> properties = 4;
+}
+
+message ObjectiveValueOp {
+  string condition_id = 1;
+  int32 value = 2;
+  bool is_add = 3;
+}
+
+message CsAcceptMission {
+  string mission_id = 1;
+}
+
+message CsFailMission {
+  string mission_id = 1;
+}
+
+message CsTrackMission {
+  string mission_id = 1;
+}
+
+message CsStopTrackingMission {
+}
+
+message CsMissionEventTrigger {
+  string mission_id = 1;
+  string event_name = 2;
+  map<string, DynamicParameter> properties = 3;
+}
+
+message ScMissionEventTrigger {
+  string mission_id = 1;
+  string event_name = 2;
+}
+
+message CsUpdateQuestObjective {
+  string quest_id = 1;
+  repeated ObjectiveValueOp objective_value_ops = 2;
+}
+
+message ScUpdateMissionProperty {
+  string mission_id = 1;
+  map<int32, DynamicParameter> properties = 2;
+}
+
+message CsMissionClientTriggerDone {
+  string mission_id = 1;
+  string scene_name = 2;
+  string area_id = 3;
+}
+
+message CsSetNewMissionTagDone {
+  repeated NewMissionTag new_mission_tags = 5;
+}
+
+message NewMissionTag {
+  string mission_id = 1;
+  string quest_id = 2;
+}
+
+message ScSyncAllMission {
+  string track_mission_id = 1;
+  map<string, Mission> missions = 2;
+  map<string, Quest> cur_quests = 3;
+  string daily_mission_id = 4;
+  repeated NewMissionTag new_mission_tags = 5;
+}
+
+message ScDailyMissionInfoUpdate {
+  string daily_mission_id = 1;
+}
+
+message ScQuestStateUpdate {
+  string quest_id = 1;
+  int32 quest_state = 2;
+  bool b_rollback = 3;
+  RoleBaseInfo role_base_info = 10;
+}
+
+message ScMissionStateUpdate {
+  string mission_id = 1;
+  int32 mission_state = 2;
+  int32 succeed_id = 3;
+  map<int32, DynamicParameter> properties = 4;
+  RoleBaseInfo role_base_info = 10;
+}
+
+message ScQuestFailed {
+  string quest_id = 1;
+}
+
+message ScMissionFailed {
+  string mission_id = 1;
+}
+
+message ScMissionDeleted {
+  string mission_id = 1;
+}
+
+message ScTrackMissionChange {
+  string mission_id = 1;
+}
+
+message ScQuestObjectivesUpdate {
+  string quest_id = 1;
+  repeated QuestObjective quest_objectives = 4;
+}
+
+message ScQuestRollback {
+  string quest_id = 1;
+}
+
+message ScSceneTriggerClientMissionEvent {
+  string mission_id = 1;
+  string event_name = 2;
+}
+
+message CsRollBlocMission {
+  string bloc_id = 1;
+}
+
+message ScRollBlocMission {
+  string bloc_id = 1;
+  string mission_id = 2;
+  int64 roll_count = 3;
+  int64 next_refresh_tine = 4;
+}
+
+message ScSyncBlocMissionInfo {
+  map<string, string> bloc_missions = 1;
+  bool reward_got = 2;
+  int64 roll_count = 3;
+  int64 next_refresh_tine = 4;
+  int32 completed_num = 5;
+}
+
+message ScBlocCompletedMissionNumUpdate {
+  int32 completed_num = 1;
+}
+
+message ScSceneMonsterSpawnerStart {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  repeated string enabled_hidden_wave_key_list = 3;
+}
+
+message ScSceneMonsterSpawnerStop {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+}
+
+message ScSceneMonsterSpawnerComplete {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+}
+
+message CsSceneMonsterSpawnerBeginWave {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  int32 wave_id = 3;
+  double client_timestamp = 4;
+}
+
+message ScSceneMonsterSpawnerWaveComplete {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  int32 wave_id = 3;
+}
+
+message ScSceneMonsterSpawnerBeginWave {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  int32 wave_id = 3;
+}
+
+message ScSceneMonsterSpawnerObjectDataBegin {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  int32 wave_id = 3;
+  int32 group_id = 4;
+}
+
+message ScSceneMonsterSpawnerObjectDataEnd {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  int32 wave_id = 3;
+  int32 group_id = 4;
+  repeated SpawnerDetail details = 5;
+}
+
+message SpawnerDetail {
+  uint64 obj_id = 1;
+  int32 action_id = 2;
+  int32 spawn_idx = 3;
+}
+
+message CsCreateOrder {
+  string product_code = 1;
+}
+
+message ScCreateOrder {
+  string sign_param = 1;
+  string product_code = 2;
+}
+
+message ScOrderMsg {
+  string product_code = 1;
+}
+
+message CSHead {
+  int32 msgid = 1;
+  uint64 up_seqid = 2;
+  uint64 down_seqid = 3;
+  uint32 total_pack_count = 4;
+  uint32 current_pack_index = 5;
+  bool is_compress = 6;
+}
+
+message CsMergeMsg {
+  bytes msg = 1;
+}
+
+message CsPrtsMarkRead {
+  string prts_id = 1;
+}
+
+message CsPrtsMarkTerminalRead {
+  string terminal_content_id = 1;
+}
+
+message CsPrtsRichContentRead {
+  string id = 1;
+}
+
+message CsPrtsFinishInvestigate {
+  string id = 1;
+}
+
+message ScSyncRacingDungeonPassedLevel {
+  map<string, int32> max_passed_level = 1;
+}
+
+message ScRacingDungeonEnter {
+  string dungeon_id = 1;
+  int32 level = 2;
+  string tactics_id = 3;
+  repeated uint64 char_team = 4;
+}
+
+message ScSyncRacingDungeonSettlement {
+  string dungeon_id = 1;
+  int32 level = 2;
+  bool is_passed = 3;
+  int64 total_playtime = 4;
+  float score = 5;
+  int32 battle_pass_exp = 6;
+  repeated int64 completed_room_list = 7;
+}
+
+message ScSyncRacingDungeonReconnect {
+  string dungeon_id = 1;
+  int32 level = 2;
+  int64 total_playtime = 3;
+  repeated string buff_list = 4;
+  string tactics_id = 5;
+  int32 kill_monster_counter = 6;
+  bool paused = 7;
+  repeated int64 completed_room_list = 8;
+}
+
+message CsRacingDungeonGetBattlePass {
+  string dungeon_id = 1;
+}
+
+message ScRacingDungeonGetBattlePass {
+  string dungeon_id = 1;
+  int32 battle_pass_exp = 2;
+  repeated int32 received_node_id = 3;
+  repeated int32 unlock_node_id = 4;
+}
+
+message CsRacingDungeonBattlePassReceiveReward {
+  string dungeon_id = 1;
+  bool receive_all = 2;
+  int32 received_node_id = 3;
+}
+
+message ScRacingDungeonBattlePassReceiveReward {
+  string dungeon_id = 1;
+  int32 battle_pass_exp = 2;
+  repeated string receive_rewards = 3;
+  repeated int32 received_node_id = 4;
+}
+
+message CsRacingDungeonGetAchievement {
+  string dungeon_id = 1;
+}
+
+message ScRacingDungeonGetAchievement {
+  string dungeon_id = 1;
+  repeated RacingDungeonAchievement achievements = 2;
+}
+
+message RacingDungeonAchievement {
+  int32 node_id = 1;
+  RacingAchievementStatus status = 2;
+  int32 condition_counter = 3;
+}
+
+enum RacingAchievementStatus {
+  Racing_Status_None = 0;
+  Racing_Status_Active = 1;
+  Racing_Status_Completed = 2;
+  Racing_Status_Received = 3;
+}
+
+message CsRacingDungeonAchievementReceiveReward {
+  string dungeon_id = 1;
+  bool receive_all = 2;
+  int32 received_achievement = 3;
+}
+
+message ScRacingDungeonAchievementReceiveReward {
+  string dungeon_id = 1;
+  repeated string receive_rewards = 2;
+  repeated RacingDungeonAchievement achievements = 3;
+}
+
+message CsRacingDungeonLeave {
+}
+
+message ScSyncRacingDungeonBuffModify {
+  repeated string buff_list = 1;
+  string add_buff_id = 2;
+}
+
+message CsRacingDungeonUpdateBattleInfo {
+  int32 kill_monster_counter = 1;
+}
+
+message ScSyncRacingDungeonAchievementModify {
+  int32 achievement_id = 1;
+}
+
+message ScSyncRacingTimerPause {
+  bool paused = 1;
+  int64 server_timestamp = 2;
+  int64 total_playtime = 3;
+}
+
+message ScSyncRacingDungeonCompleteRoom {
+  int64 room_id = 1;
+}
+
+message ScSyncRacingDungeonCountdownEvent {
+  string debuff_id = 1;
+}
+
+message RemoveItemNewData {
+  int32 depot_type = 1;
+  repeated uint64 inst_ids = 2;
+}
+
+message CsRemoveItemNewTags {
+  repeated uint32 item_ids = 1;
+  repeated RemoveItemNewData inst_data = 2;
+}
+
+message ScRemoveItemNewTags {
+}
+
+message CsRedDotReadFormula {
+  repeated uint32 formula_ids = 1;
+}
+
+message CsRedDotReadCharDoc {
+  uint32 id = 1;
+  repeated uint32 ids = 2;
+}
+
+message CsRedDotReadCharVoice {
+  uint32 id = 1;
+  repeated uint32 ids = 2;
+}
+
+message CsRedDotReadEquipFormula {
+  uint32 id = 1;
+}
+
+message CsRpgDungeonBuy {
+  string dungeon_id = 1;
+  string equip_item_id = 2;
+  repeated uint64 cost_equip_inst_ids = 3;
+}
+
+message ScRpgDungeonBuy {
+  string equip_item_id = 1;
+  uint64 equip_inst_id = 2;
+}
+
+message CsRpgDungeonSell {
+  uint64 equip_inst_id = 1;
+}
+
+message ScRpgDungeonSell {
+  uint64 equip_inst_id = 1;
+}
+
+message CsRpgDungeonEquipPuton {
+  int32 slotid = 1;
+  uint64 equip_inst_id = 2;
+}
+
+message ScRpgDungeonEquipPuton {
+  int32 slotid = 1;
+  uint64 equip_inst_id = 2;
+}
+
+message CsRpgDungeonEquipPutoff {
+  int32 slotid = 1;
+}
+
+message ScRpgDungeonEquipPutoff {
+  int32 slotid = 1;
+}
+
+message ScSyncRpgDungeonBuffList {
+  repeated string buff_list = 1;
+}
+
+message ScSyncRpgEquipColumn {
+  map<int32, uint64> equip_column = 1;
+}
+
+message ScSyncRpgTeamLevel {
+  int32 team_level = 1;
+  int32 team_exp = 2;
+  int32 next_level_exp = 3;
+}
+
+message ScSyncRpgDungeonAbility {
+  repeated RpgDungeonAbilityInfo fixed_abilitys = 1;
+  repeated RpgDungeonAbilityInfo random_abilitys = 2;
+}
+
+message RpgDungeonAbilityInfo {
+  string ability_id = 1;
+}
+
+message ScSyncRpgLevelUp {
+  int32 lv_up_level = 1;
+  repeated string fixed_ability = 2;
+  repeated string random_ability = 3;
+}
+
+message CsRpgDungeonPickLvAbility {
+  int32 level = 1;
+  string random_ability = 2;
+}
+
+message ScRpgDungeonPickLvAbility {
+  int32 cur_team_level = 1;
+  repeated string total_fixed_ability = 2;
+  map<int32, string> total_random_ability = 3;
+}
+
+message CsRpgDungeonTimeStop {
+  bool on_time_resume = 1;
+}
+
+message ScSyncRpgDungeonTimeInfo {
+  bool on_time_stop = 1;
+  int64 wave_end_time = 2;
+}
+
+message CsRpgDungeonAbilityChange {
+  string ability_id = 1;
+  int64 duration = 2;
+}
+
+message CsEnterScene {
+  int32 scene_num_id = 1;
+  Vector position = 2;
+  Vector rotation = 3;
+}
+
+message CsSceneLeavePlane {
+  Vector position = 1;
+  Vector rotation = 2;
+}
+
+message SceneObjectCommonInfo {
+  uint64 id = 1;
+  int32 type = 2;
+  string templateid = 3;
+  Vector position = 4;
+  Vector rotation = 5;
+  uint64 belong_level_script_id = 6;
+  int32 scene_num_id = 7;
+  double hp = 8;
+}
+
+message SceneCharacter {
+  SceneObjectCommonInfo common_info = 1;
+  int32 level = 2;
+  string name = 3;
+  repeated AttrInfo attrs = 4;
+  BattleMgrInfo battle_info = 5;
+}
+
+message SceneMonster {
+  SceneObjectCommonInfo common_info = 1;
+  uint64 origin_id = 2;
+  int32 level = 3;
+  repeated AttrInfo attrs = 4;
+  BattleMgrInfo battle_info = 5;
+}
+
+message SceneInteractive {
+  SceneObjectCommonInfo common_info = 1;
+  uint64 origin_id = 2;
+  map<int32, DynamicParameter> properties = 4;
+  int32 meta = 5;
+  BattleMgrInfo battle_info = 6;
+}
+
+message SceneSummonSkill {
+  string skill_id = 1;
+  BattleBlackboard assigned_items = 2;
+}
+
+message SceneSummon {
+  SceneObjectCommonInfo common_info = 1;
+  map<uint64, SceneSummonSkill> skills = 2;
+  repeated AttrInfo attrs = 3;
+  BattleMgrInfo battle_info = 4;
+  string cast_skill_id = 5;
+  BattleBlackboard blackboard = 6;
+}
+
+message SceneNpc {
+  SceneObjectCommonInfo common_info = 1;
+}
+
+message SceneObjectDetailContainer {
+  CharBagTeamType team_type = 11;
+  int32 team_index = 6;
+  uint64 team_change_token = 7;
+  repeated SceneCharacter char_list = 1;
+  repeated SceneMonster monster_list = 2;
+  repeated SceneInteractive interactive_list = 3;
+  repeated SceneNpc npc_list = 4;
+  repeated SceneSummon summon_list = 5;
+}
+
+message CsSceneSetLevelScriptActive {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  bool is_active = 3;
+  Vector leader_pos = 4;
+}
+
+message CsSceneSetLevelScriptStart {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  bool is_start = 3;
+  Vector leader_pos = 4;
+}
+
+message CsSceneLevelScriptEventTrigger {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string event_name = 3;
+  map<string, DynamicParameter> properties = 4;
+}
+
+message CsSceneCommitLevelScriptCacheStep {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+}
+
+message LevelScriptInfo {
+  uint64 script_id = 1;
+  int32 state = 2;
+  map<int32, DynamicParameter> properties = 3;
+  bool is_done = 4;
+}
+
+message ScSceneUpdateLevelScriptProperty {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  map<int32, DynamicParameter> properties = 3;
+  bool client_operate = 4;
+}
+
+message ScSceneLevelScriptStateNotify {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  int32 state = 3;
+}
+
+message ScSceneLevelScriptResetBegin {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+}
+
+message ScSceneLevelScriptResetEnd {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+}
+
+message ScSceneLevelScriptTaskStateUpdate {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string task_id = 3;
+  int32 task_state = 4;
+}
+
+message ScSceneLevelScriptTaskProgressUpdate {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string task_id = 3;
+  map<string, bool> condition_completed_map = 4;
+}
+
+message ScSceneLevelScriptTaskStartFinish {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string task_id = 3;
+}
+
+message ScSceneTriggerClientLevelScriptEvent {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string event_name = 3;
+}
+
+message ScSceneTriggerClientInteractiveEvent {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  string event_name = 3;
+}
+
+message ScdSceneTeamInfo {
+  CharBagTeamType team_type = 1;
+  int32 team_index = 2;
+  uint64 team_change_token = 3;
+  uint64 cur_leader_id = 4;
+}
+
+message ScSelfSceneInfo {
+  int32 scene_num_id = 1;
+  uint64 scene_id = 2;
+  SceneObjectDetailContainer detail = 3;
+  repeated uint64 revive_chars = 7;
+  repeated LevelScriptInfo level_scripts = 8;
+  int32 self_info_reason = 9;
+  repeated string unlock_area = 10;
+  repeated SceneDrop drop_list = 14;
+  int32 scene_grade = 15;
+  ScdSceneTeamInfo team_info = 16;
+  oneof scene_impl {
+    SceneImplDungeon dungeon = 11;
+    SceneImplEmpty empty = 12;
+  }
+}
+
+message SceneDrop {
+  uint64 drop_id = 1;
+  map<string, int64> stackable_items = 2;
+  repeated ScdItemGrid inst_list = 3;
+}
+
+message SceneImplDungeon {
+  string dungeon_id = 1;
+  int64 challenge_expire_ts = 2;
+  int64 leave_dungeon_ts = 3;
+  bool is_reward = 4;
+  bool is_calc = 5;
+  bool is_pass = 6;
+}
+
+message SceneImplEmpty {
+}
+
+message ScSceneResetEntity {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+}
+
+message ScObjectEnterView {
+  SceneObjectDetailContainer detail = 1;
+  bool has_extra_object = 2;
+}
+
+message LeaveObjectInfo {
+  int32 obj_type = 1;
+  uint64 obj_id = 2;
+}
+
+message ScObjectLeaveView {
+  repeated LeaveObjectInfo obj_list = 1;
+}
+
+message MotionInfo {
+  Vector position = 1;
+  Vector rotation = 2;
+  Vector speed = 3;
+  MotionState state = 4;
+}
+
+enum MotionState {
+  MOTION_NONE = 0;
+  MOTION_STANDBY = 1;
+  MOTION_STANDBY_MOVE = 2;
+  MOTION_WALK = 3;
+  MOTION_RUN = 4;
+  MOTION_CLIMB = 5;
+  MOTION_CLIMB_JUMP = 6;
+}
+
+message MoveObjectMoveInfo {
+  uint64 objid = 1;
+  MotionInfo motion_info = 2;
+  uint32 server_time = 3;
+  int32 scene_num_id = 4;
+}
+
+message CsMoveObjectMove {
+  repeated MoveObjectMoveInfo move_info = 1;
+  int32 leader_move_tag_mask = 2;
+  int32 leader_index = 3;
+}
+
+message ScMoveObjectMove {
+  repeated MoveObjectMoveInfo move_info = 1;
+  bool server_notify = 2;
+}
+
+message ScEnterSceneNotify {
+  uint64 role_id = 1;
+  int32 scene_num_id = 2;
+  uint64 scene_id = 3;
+  Vector position = 4;
+  PassThroughData pass_through_data = 5;
+}
+
+message ScLeaveSceneNotify {
+  uint64 role_id = 1;
+  int32 scene_num_id = 2;
+  uint64 scene_id = 3;
+}
+
+message ScSeamlessSceneDestroyNotify {
+  uint64 role_id = 1;
+  int32 scene_num_id = 2;
+  uint64 scene_id = 3;
+}
+
+message CsSceneLoadFinish {
+  int32 scene_num_id = 1;
+}
+
+message CsSceneSetLastRecordCampid {
+  uint64 last_camp_id = 1;
+  Vector position = 2;
+  Vector rotation = 3;
+  int32 scene_num_id = 4;
+}
+
+message ScSceneSetLastRecordCampid {
+  uint64 last_camp_id = 1;
+  int32 scene_num_id = 2;
+}
+
+message CsSceneInteractiveEventTrigger {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  string event_name = 3;
+  map<string, DynamicParameter> properties = 4;
+}
+
+message ScSceneUpdateInteractiveProperty {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  map<int32, DynamicParameter> properties = 3;
+  bool client_operate = 4;
+}
+
+message CsSceneSetVar {
+  string key = 1;
+  string value = 2;
+  int32 scene_num_id = 3;
+}
+
+message ScSceneSetVar {
+  string key = 1;
+  string value = 2;
+  int32 scene_num_id = 3;
+}
+
+message CsSceneRest {
+}
+
+message EntityInfo {
+  EntityOpType entity_op_type = 2;
+  uint64 id = 3;
+  int32 type = 4;
+}
+
+enum EntityOpType {
+  ENTITY_OP_TYPE_NONE = 0;
+  ENTITY_OP_TYPE_ID = 2;
+}
+
+message ScSceneCreateEntity {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+}
+
+message ScSceneDestroyEntity {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  int32 reason = 3;
+}
+
+message ScSceneCrossSceneStatus {
+  uint64 obj_id = 1;
+  int32 scene_num_id = 2;
+}
+
+message CsSceneRevival {
+}
+
+message ScSceneRevival {
+}
+
+message CsSceneSetStorySafeZone {
+  bool in_zone = 1;
+}
+
+message ScSceneSetStorySafeZone {
+  bool in_zone = 1;
+}
+
+message CsSceneSetSafeZone {
+  bool in_zone = 1;
+  uint64 id = 2;
+}
+
+message ScSceneSetSafeZone {
+  bool in_zone = 1;
+  uint64 id = 2;
+}
+
+message CsSceneQueryEntityExist {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+}
+
+message ScSceneQueryEntityExist {
+  bool is_exist = 1;
+}
+
+message CsSceneQueryInteractiveProperty {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  int32 key = 3;
+}
+
+message ScSceneQueryInteractiveProperty {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  int32 key = 3;
+  DynamicParameter value = 4;
+}
+
+message CsSceneSpawnSummon {
+  string summon_id = 1;
+  Vector position = 2;
+  Vector rotation = 3;
+  string skill_id = 4;
+  BattleBlackboard blackboard = 5;
+}
+
+message ScSceneUnlockArea {
+  int32 scene_num_id = 1;
+  string area_id = 2;
+}
+
+message CsSceneInteractTree {
+  string tree_type_id = 1;
+  Vector position = 2;
+  bool is_breaked = 3;
+}
+
+message CsSceneTeleport {
+  int32 scene_num_id = 1;
+  Vector position = 2;
+  Vector rotation = 3;
+  int32 teleport_reason = 4;
+  PassThroughData pass_through_data = 5;
+}
+
+message ScSceneTeleport {
+  repeated uint64 obj_id_list = 1;
+  int32 scene_num_id = 2;
+  Vector position = 3;
+  Vector rotation = 4;
+  uint32 server_time = 5;
+  int32 teleport_reason = 6;
+  uint64 tp_uuid = 7;
+  PassThroughData pass_through_data = 8;
+}
+
+message CsSceneTeleportFinish {
+  uint64 tp_uuid = 1;
+}
+
+message CsSceneMoveStateSet {
+  bool move_record_tag = 1;
+}
+
+message CsSceneSubmitEther {
+}
+
+message ScSceneSubmitEther {
+  int32 level = 1;
+  int32 count = 2;
+}
+
+message AreaUnlockInfo {
+  string scene_id = 1;
+  repeated string unlock_area_id = 2;
+}
+
+message ScSyncAllRoleScene {
+  int32 submit_ether_level = 1;
+  int32 submit_ether_count = 2;
+  repeated AreaUnlockInfo unlock_area_info = 3;
+  repeated SceneGradeInfo scene_grade_info = 4;
+}
+
+message SceneGradeInfo {
+  int32 scene_num_id = 1;
+  int32 grade = 2;
+  int64 last_down_ts = 3;
+}
+
+message CsSceneSetLastSafeZone {
+  int32 scene_num_id = 1;
+  Vector position = 2;
+  Vector rotation = 3;
+  int32 reason = 4;
+  uint64 source_script_id = 5;
+}
+
+message CsSceneRepatriate {
+  int32 scene_num_id = 1;
+  int32 repatriate_source = 2;
+  PassThroughData pass_through_data = 3;
+}
+
+message ScSceneRepatriate {
+  int32 scene_num_id = 1;
+  int32 repatriate_source = 2;
+}
+
+message CsSceneSetBattle {
+  bool in_battle = 1;
+}
+
+message CsSceneGradeModify {
+  int32 scene_num_id = 1;
+  int32 grade = 2;
+}
+
+message ScSceneSetBattle {
+  bool in_battle = 1;
+}
+
+message ScRewardToSceneBegin {
+  int32 reward_source_type = 1;
+  string source_template_id = 2;
+}
+
+message ScRewardToSceneEnd {
+}
+
+message ScSceneLevelScriptEventTrigger {
+}
+
+message ScSceneLevelScriptSetDone {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+}
+
+message ScSceneInteractiveEventTrigger {
+}
+
+message ScSceneDropCreate {
+  SceneDrop drop_data = 1;
+}
+
+message ScSceneDropDelete {
+  uint64 drop_id = 1;
+}
+
+message ScSceneDropModify {
+  uint64 drop_id = 1;
+  map<string, int64> items = 2;
+  repeated ScdItemGrid inst_list = 3;
+  repeated uint64 del_inst_list = 4;
+}
+
+message ScSceneGradeChangeNotify {
+  int32 scene_num_id = 1;
+  int32 grade = 2;
+  int64 ts = 3;
+}
+
+message ScSceneClientIdInfo {
+  uint32 role_idx = 1;
+  uint64 last_max_idx = 2;
+}
+
+message ScSceneUpdateInteractiveMeta {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  int32 meta = 3;
+}
+
+message CsSceneUpdateScriptTaskProgress {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string task_id = 3;
+  repeated ScriptTaskObjectiveValueOp objective_value_ops = 4;
+}
+
+message ScriptTaskObjectiveValueOp {
+  string condition_id = 1;
+  int32 value = 2;
+  bool is_add = 3;
+}
+
+message CsCheckSensitive {
+  string content = 1;
+}
+
+message ScCheckSensitive {
+}
+
+message CsSettlementSelectRequire {
+  string settlement_id = 1;
+  string settlement_require_id = 2;
+}
+
+message ScSettlementSelectRequire {
+  string settlement_id = 1;
+  string settlement_require_id = 2;
+}
+
+message Settlement {
+  string settlement_id = 1;
+  int32 level = 2;
+  int64 exp = 3;
+  string require_id = 4;
+  string officer_char_template_id = 5;
+  map<int64, SettlementDayReport> reports = 6;
+  int64 unlock_ts = 7;
+  bool auto_submit = 8;
+  int64 last_manual_submit_time = 9;
+}
+
+message SettlementDayReport {
+  map<string, int64> consume = 1;
+  map<string, int64> output = 2;
+  int64 exp = 3;
+  int32 level_up_count = 4;
+}
+
+message ScSettlementSyncAll {
+  repeated Settlement settlements = 1;
+  int64 last_tick_time = 2;
+}
+
+message ScSettlementSyncModify {
+  repeated Settlement settlements_modify = 1;
+  int64 last_tick_time = 2;
+}
+
+message CsSettlementSetOfficer {
+  string settlement_id = 1;
+  string officer_template_id = 2;
+}
+
+message ScSettlementSetOfficer {
+  string settlement_id = 1;
+  string officer_template_id = 2;
+}
+
+message ScSettlementFinishRequires {
+  int64 next_finish_time = 1;
+}
+
+message CsSettlementSetSubmitMode {
+  string settlement_id = 1;
+  bool auto_submit = 2;
+}
+
+message ScSettlementSetSubmitMode {
+  string settlement_id = 1;
+  bool auto_submit = 2;
+}
+
+message CsSettlementSubmitRequire {
+  string settlement_id = 1;
+}
+
+message CsShopBuy {
+  string shop_id = 1;
+  string goods_id = 2;
+  int32 count = 3;
+}
+
+message CsShopSwapMoney {
+  string source_money_id = 1;
+  string target_money_id = 2;
+  int64 swap_source_money_num = 3;
+}
+
+message ScdShopDynamicGoods {
+  string goods_id = 1;
+  string goods_template_id = 2;
+}
+
+message ScdShopRandomRefresh {
+  repeated ScdShopDynamicGoods dynamic_goods = 1;
+}
+
+message ScdShopDiscount {
+  string goods_id = 1;
+  float discount = 2;
+}
+
+message ScdShopUnlockConditions {
+  string id = 1;
+  map<string, int32> unlock_condition_values = 2;
+  map<string, bool> unlock_condition_flags = 3;
+}
+
+message ScdShop {
+  string shop_id = 1;
+  int32 shop_refresh_type = 2;
+  map<string, int32> unlock_condition_values = 3;
+  map<string, bool> unlock_condition_flags = 4;
+  repeated ScdShopDiscount discounts = 5;
+  repeated ScdShopUnlockConditions goods_unlock_conditions = 6;
+  bool is_dynamic_good = 7;
+  bool is_dynamic_discount = 8;
+  oneof refresh_data {
+    ScdShopRandomRefresh random_refresh = 21;
+  }
+}
+
+message ScdShopFrequencyLimit {
+  string frequency_limit_id = 1;
+  int32 count = 2;
+}
+
+message ScShopSync {
+  repeated ScdShopUnlockConditions shop_group_conditions = 1;
+  repeated ScdShop shops = 2;
+  repeated ScdShopFrequencyLimit frequency_limits = 3;
+}
+
+message ScShopSyncShopGroupCondition {
+  ScdShopUnlockConditions shop_group_conditions = 1;
+}
+
+message ScShopModifyShop {
+  repeated ScdShop shops = 1;
+}
+
+message ScShopSyncShopCondition {
+  ScdShopUnlockConditions shop_conditions = 1;
+}
+
+message ScShopSyncGoodsCondition {
+  ScdShopUnlockConditions goods_conditions = 1;
+}
+
+message ScShopModifyFrequencyLimit {
+  repeated ScdShopFrequencyLimit frequency_limits = 1;
+}
+
+message ScShopDeleteFrequencyLimit {
+  repeated string frequency_limits = 1;
+}
+
+message ScShopBuyResp {
+  string shop_id = 1;
+  string goods_id = 2;
+  int32 count = 3;
+}
+
+message ScShopSwapMoney {
+  string source_money_id = 1;
+  string target_money_id = 2;
+  int64 cost_source_money_num = 3;
+  int64 get_target_money_num = 4;
+}
+
+message CsCastSkill {
+  uint64 skill_seraial_id = 1;
+  uint64 attacker_obj_id = 2;
+  string skill_id = 3;
+  Vector attacker_position = 4;
+  Vector attacker_rotation = 5;
+  int64 time_stamp = 6;
+  int64 scaled_time_stamp = 7;
+  repeated uint64 target_obj_id_list = 8;
+}
+
+message CsCastSkillEnd {
+  uint64 skill_seraial_id = 1;
+  uint64 attacker_obj_id = 2;
+}
+
+message CsCastSkillEffect {
+  uint64 skill_seraial_id = 1;
+  uint64 skill_stage_idx = 2;
+  uint64 attacker_obj_id = 3;
+  int64 time_stamp = 4;
+  int64 scaled_time_stamp = 5;
+}
+
+message ScCastSkill {
+  uint64 skill_seraial_id = 1;
+  uint64 attacker_obj_id = 2;
+  int64 time_stamp = 6;
+  int64 scaled_time_stamp = 7;
+}
+
+message ScSyncHp {
+  uint64 obj_id = 1;
+  int32 hp = 2;
+}
+
+message ScSyncPoise {
+  uint64 obj_id = 1;
+  int32 poise = 2;
+}
+
+message ScSyncUltimateSpCellCnt {
+  uint64 obj_id = 1;
+  int32 ultimate_sp_cell_cnt = 2;
+}
+
+message SnsMoment {
+  string moment_id = 1;
+  int64 timestamp = 2;
+  bool read = 3;
+  repeated int32 option = 4;
+  bool like = 5;
+}
+
+message SnsChatInfo {
+  string chat_id = 1;
+  int32 chat_type = 2;
+  int64 timestamp = 3;
+  int32 member_num = 4;
+  repeated SnsDialogInfo dialogs = 5;
+  string signature_id = 6;
+}
+
+message SnsDialogInfo {
+  string dialog_id = 1;
+  int64 timestamp = 2;
+  string cur_content_id = 3;
+  string chat_id = 5;
+  repeated int32 options = 4;
+  int32 dialog_type = 6;
+  bool is_end = 7;
+  bool is_read = 8;
+}
+
+message CsSnsGetList {
+  SnsGetType sns_type = 1;
+}
+
+enum SnsGetType {
+  All = 0;
+  Moment = 1;
+  Chat = 2;
+}
+
+message ScSnsGetMomentList {
+  repeated SnsMoment moment_list = 1;
+}
+
+message ScSnsGetChatList {
+  repeated SnsChatInfo chat_list = 1;
+}
+
+message ScSyncSnsChatModify {
+  string chat_id = 1;
+  int32 chat_type = 2;
+  int32 member_num = 3;
+  string signature_id = 4;
+}
+
+message CsSnsMomentRead {
+  repeated string moment_id = 1;
+}
+
+message ScSnsMomentRead {
+  repeated string moment_id = 1;
+}
+
+message ScSyncSnsAddDialog {
+  string chat_id = 1;
+  int32 chat_type = 2;
+  int64 timestamp = 3;
+  SnsDialogInfo dialog_info = 4;
+  int32 member_num = 5;
+  string signature_id = 6;
+}
+
+message ScSyncSnsAddMoment {
+  SnsMoment moment_info = 1;
+}
+
+message CsSnsMomentOption {
+  string moment_id = 1;
+  repeated int32 option = 2;
+  bool like = 3;
+  SnsMomentOption option_type = 4;
+}
+
+enum SnsMomentOption {
+  Invalid = 0;
+  Like = 1;
+  Reply = 2;
+}
+
+message ScSnsMomentOption {
+  string moment_id = 1;
+  repeated int32 option = 2;
+  bool like = 3;
+  SnsMomentOption option_type = 4;
+}
+
+message CsSnsChatDialogOption {
+  string chat_id = 1;
+  string dialog_id = 2;
+  string cur_content_id = 3;
+  string jump_content_id = 4;
+  int32 option = 5;
+}
+
+message ScSyncSnsDialogModify {
+  string chat_id = 1;
+  SnsDialogInfo dialog_info = 2;
+  bool set_option = 3;
+}
+
+message CsSnsFinishDialog {
+  string chat_id = 1;
+  string dialog_id = 2;
+}
+
+message CsSnsReadDialog {
+  string chat_id = 1;
+  string dialog_id = 2;
+}
+
+message ScSnsReadDialog {
+  string chat_id = 1;
+  string dialog_id = 2;
+}
+
+message ScdSpaceshipControlCenter {
+  map<int64, ScdSpaceshipReport> reports = 1;
+}
+
+message ScdSpaceshipReport {
+  repeated int32 char_work_record = 1;
+  map<int32, int32> output = 2;
+}
+
+message ScdSpaceshipManufacturingStation {
+  SpaceshipManufacturingOrder remain_produce_order = 1;
+  map<string, int32> product_map = 2;
+  map<int64, ScdSpaceshipReport> reports = 3;
+}
+
+message SpaceshipManufacturingOrder {
+  string formula_id = 1;
+  int32 remain_produce_count = 2;
+  int32 current_progress = 3;
+}
+
+message ScdSpaceshipRoomAttrSource {
+  string char_id = 1;
+  int32 index = 2;
+  string skill_id = 3;
+  int32 source_type = 4;
+}
+
+message ScdSpaceshipRoomAttrUnit {
+  int32 type = 1;
+  float value = 2;
+  bool is_not_working = 3;
+  ScdSpaceshipRoomAttrSource source = 4;
+}
+
+message ScdSpaceshipRoomAttr {
+  float value = 1;
+  float theoretical_value = 2;
+  repeated ScdSpaceshipRoomAttrUnit base_attrs = 3;
+  repeated ScdSpaceshipRoomAttrUnit percent_attrs = 4;
+  repeated ScdSpaceshipRoomAttrUnit abs_addition_attrs = 5;
+}
+
+message ScdSpaceshipRoom {
+  string id = 1;
+  int32 type = 2;
+  int32 level = 3;
+  map<string, int32> level_up_conditon_values = 4;
+  map<string, bool> level_up_condition_flags = 5;
+  repeated string stationed_char_list = 6;
+  map<int32, ScdSpaceshipRoomAttr> attrs_map = 7;
+  bool has_char_working = 8;
+  oneof room_data {
+    ScdSpaceshipControlCenter control_center = 21;
+    ScdSpaceshipManufacturingStation manufacturing_station = 22;
+    ScdSpaceshipGrowCabin grow_cabin = 23;
+  }
+}
+
+message ScdSpaceshipGrowCabin {
+  repeated ScdSpaceshipGrowBox boxes = 1;
+  map<int64, ScdSpaceshipReport> reports = 2;
+}
+
+message ScdSpaceshipGrowBox {
+  int32 box_id = 1;
+  string recipe_id = 2;
+  string preview_recipe_id = 3;
+  float progress = 4;
+  bool is_ready = 5;
+}
+
+message ScdSpaceshipRoomLevelUp {
+  string id = 1;
+  int32 type = 2;
+  int32 level = 3;
+  map<string, int32> level_up_conditon_values = 4;
+  map<string, bool> level_up_condition_flags = 5;
+}
+
+message ScdSpaceshipRoomStation {
+  string id = 1;
+  int32 type = 2;
+  repeated string stationed_char_list = 3;
+  map<int32, ScdSpaceshipRoomAttr> attrs_map = 4;
+  bool has_char_working = 5;
+  oneof produce_status {
+    ScdSpaceshipManufacturingStationProduceStatus manufacturing_station_produce_status = 21;
+    ScdSpaceshipGrowCabinProduceStatus grow_cabin_produce_status = 22;
+  }
+}
+
+message ScdSpaceshipManufacturingStationProduceStatus {
+  SpaceshipManufacturingOrder remain_produce_order = 1;
+}
+
+message ScdSpaceshipGrowCabinProduceStatus {
+  repeated ScdSpaceshipGrowBox boxes = 1;
+}
+
+message ScdSpaceshipCharSkill {
+  int32 index = 1;
+  string skill_id = 2;
+}
+
+message ScdSpaceshipChar {
+  string char_id = 1;
+  float physical_strength = 2;
+  int32 favorability = 3;
+  string stationed_room_id = 4;
+  bool is_working = 5;
+  repeated ScdSpaceshipCharSkill skills = 6;
+  bool is_presented = 7;
+  int32 recv_gift_cnt = 8;
+  string temp_reward_id = 9;
+}
+
+message ScdSpaceshipCharSkillList {
+  string char_id = 1;
+  repeated ScdSpaceshipCharSkill skills = 2;
+}
+
+message ScdSpaceshipCharStation {
+  string char_id = 1;
+  string stationed_room_id = 2;
+  bool is_working = 3;
+  float physical_strength = 4;
+}
+
+message ScSpaceshipSync {
+  repeated ScdSpaceshipRoom rooms = 1;
+  repeated ScdSpaceshipChar chars = 2;
+}
+
+message ScSpaceshipModifyRoom {
+  repeated ScdSpaceshipRoom rooms = 1;
+}
+
+message ScSpaceshipSyncRoomLevelUp {
+  repeated ScdSpaceshipRoomLevelUp room_level_up_infos = 1;
+}
+
+message ScSpaceshipModifyChar {
+  repeated ScdSpaceshipChar chars = 1;
+}
+
+message ScSpaceshipSyncCharSkill {
+  repeated ScdSpaceshipCharSkillList char_skills = 1;
+}
+
+message ScSpaceshipSyncRoomStation {
+  repeated ScdSpaceshipRoomStation rooms = 1;
+  repeated ScdSpaceshipCharStation chars = 2;
+}
+
+message CharPresentGiftInfo {
+  string char_id = 1;
+  string reward_id = 2;
+}
+
+message ScSpaceshipPresentCharInfo {
+  repeated CharPresentGiftInfo gift_infos = 1;
+}
+
+message SpaceshipCharFavorabilityChangeInfo {
+  string char_id = 1;
+  int32 cur_fav = 2;
+}
+
+message ScSpaceshipCharFavorabilityChange {
+  repeated SpaceshipCharFavorabilityChangeInfo change_infos = 1;
+}
+
+message ScSpaceshipRecvGiftFromChar {
+  string char_id = 1;
+}
+
+message ScSpaceshipPresentGiftToChar {
+  string char_id = 1;
+  int32 cur_fav = 2;
+  int32 recv_gift_cnt = 3;
+}
+
+message ScSpaceshipManufacturingStationSync {
+  string room_id = 1;
+  SpaceshipManufacturingOrder remain_produce_order = 2;
+  map<string, int32> product_map = 3;
+}
+
+message ScSpaceshipManufacturingStationCancel {
+  string room_id = 1;
+}
+
+message ScSpaceshipManufacturingStationCollect {
+  string room_id = 1;
+}
+
+message ScSpaceshipModifyGrowCabin {
+  string id = 1;
+  repeated ScdSpaceshipGrowBox boxes = 2;
+}
+
+message ScSpaceshipGrowCabinBreed {
+  repeated ItemBundle items = 1;
+}
+
+message ScSpaceshipGrowCabinSow {
+}
+
+message ScSpaceshipGrowCabinHarvest {
+  repeated ItemBundle items = 1;
+}
+
+message ScSpaceshipGrowCabinCancel {
+}
+
+message ScSpaceshipReportCharWorkModify {
+  repeated ScdSpaceshipRoomReportCharWorkModify room_char_work_record = 1;
+}
+
+message ScdSpaceshipRoomReportCharWorkModify {
+  string room_id = 1;
+  int64 ts = 2;
+  repeated int32 char_work_record = 3;
+}
+
+message ScSpaceshipReportOutputModify {
+  string room_id = 1;
+  map<int64, ScdSpaceshipRoomReportOutput> output_report = 2;
+}
+
+message ScdSpaceshipRoomReportOutput {
+  map<int32, int32> output = 1;
+}
+
+message ScSpaceshipManufacturingStationStart {
+  string room_id = 1;
+  SpaceshipManufacturingOrder remain_produce_order = 2;
+}
+
+message CsSpaceshipBuildRoom {
+  string room_id = 1;
+}
+
+message CsSpaceshipLevelUpRoom {
+  string room_id = 1;
+}
+
+message CsSpaceshipStationChar {
+  string room_id = 1;
+  repeated string stationed_char_list = 2;
+}
+
+message CsSpaceshipStationCharChangeWorkState {
+  string char_id = 1;
+  bool go_to_work = 2;
+}
+
+message CsSpaceshipPresentGiftToChar {
+  string char_id = 1;
+  repeated ItemBundle gifts = 2;
+}
+
+message CsSpaceshipRecvGiftFromChar {
+  string char_id = 1;
+}
+
+message CsSpaceshipManufacturingStationCollect {
+  string room_id = 1;
+}
+
+message CsSpaceshipManufacturingStationStart {
+  string room_id = 1;
+  string formula_id = 2;
+  int32 count = 3;
+}
+
+message CsSpaceshipManufacturingStationCancel {
+  string room_id = 1;
+}
+
+message CsSpaceshipManufacturingStationChangeOrder {
+  string room_id = 1;
+  string formula_id = 2;
+  int32 count = 3;
+}
+
+message CsSpaceshipGrowCabinBreed {
+  string room_id = 1;
+  string recipe_id = 3;
+  int32 multi = 4;
+}
+
+message CsSpaceshipGrowCabinSow {
+  string room_id = 1;
+  repeated CsdSpaceshipGrowCabinSow boxes = 2;
+}
+
+message CsdSpaceshipGrowCabinSow {
+  string recipe_id = 1;
+  int32 box_id = 2;
+}
+
+message CsSpaceshipGrowCabinClearPreviewRecipe {
+  string room_id = 1;
+  int32 box_id = 2;
+}
+
+message CsSpaceshipGrowCabinHarvest {
+  string room_id = 1;
+  repeated int32 box_id_list = 2;
+  bool all = 3;
+}
+
+message CsSpaceshipGrowCabinCancel {
+  string room_id = 1;
+  int32 box_id = 2;
+}
+
+message CsSceneInteractSpInteractive {
+  uint64 obj_id = 1;
+  SpInteractiveOpType op_type = 2;
+  oneof op_payload {
+    CsdSpInteractiveDoodadCommonPick doodad_common_pick = 10;
+    CsdSpInteractiveDoodadCommonBreak doodad_common_break = 11;
+    CsdSpInteractiveCommonActive common_active = 12;
+  }
+}
+
+enum SpInteractiveOpType {
+  SP_INTERACTIVE_OP_TYPE_NONE = 0;
+  DOODAD_COMMON_PICK = 1;
+  DOODAD_COMMON_BREAK = 2;
+  COMMON_ACTIVE = 3;
+  SP_INTERACTIVE_OP_TYPE_MAX = 4;
+}
+
+message CsdSpInteractiveDoodadCommonPick {
+}
+
+message CsdSpInteractiveDoodadCommonBreak {
+  int64 new_hp_ratio = 1;
+}
+
+message CsdSpInteractiveCommonActive {
+}
+
+message ScSceneInteractSpInteractive {
+  uint64 obj_id = 1;
+}
+
+message StatInfo {
+  int32 type = 1;
+  uint32 value = 2;
+  int32 param = 3;
+}
+
+message ScSyncAllStat {
+  repeated StatInfo stats_info = 1;
+}
+
+message ScSyncStat {
+  StatInfo stat_info = 1;
+}
+
+message SubmitSourceParamMission {
+  string quest_id = 1;
+}
+
+message SubmitSourceParamInteractive {
+  uint64 obj_id = 2;
+}
+
+message SubmitTerm {
+  repeated SubmitItem submit_item_list = 1;
+}
+
+message CsSceneSubmitItem {
+  string submit_id = 1;
+  repeated SubmitTerm submit_item_term_list = 6;
+  SubmitSourceType source_type = 3;
+  oneof submit_source_param {
+    SubmitSourceParamMission mission = 4;
+    SubmitSourceParamInteractive interactive = 5;
+  }
+}
+
+enum SubmitSourceType {
+  SUBMIT_SOURCE_TYPE_NONE = 0;
+  SUBMIT_SOURCE_TYPE_MISSION = 1;
+  SUBMIT_SOURCE_TYPE_INTERACTIVE = 2;
+}
+
+message ScSceneSubmitItem {
+  string submit_id = 1;
+  bool ret = 2;
+}
+
+message CsSceneSubmitRecycle {
+  repeated SubmitItem submit_item_list = 1;
+}
+
+message ScSceneSubmitRecycle {
+  bool ret = 1;
+}
+
+message ScSyncTdSettlement {
+  string td_id = 1;
+  TdSettlementType settlement_type = 2;
+  string reward_id = 3;
+  int32 extra_bandwidth = 4;
+  int32 extra_battle_building_limit = 5;
+  int32 extra_travel_pole_limit = 6;
+}
+
+enum TdSettlementType {
+  TD_Settlement_None = 0;
+  TD_Settlement_Passed = 1;
+  TD_Settlement_Leave = 2;
+  TD_Settlement_Defeat = 3;
+}
+
+message CsTdGetTdList {
+  string stronghold_id = 1;
+}
+
+message ScTdGetTdList {
+  string stronghold_id = 1;
+  repeated string unlock_td_list = 2;
+  repeated string completed_td_list = 3;
+  repeated string closed_td_list = 4;
+}
+
+message ScSyncTdFullStatus {
+  repeated ScTdGetTdList full_data = 1;
+}
+
+message CsTdStart {
+  string td_id = 1;
+  bool is_restart = 2;
+}
+
+message ScTdStart {
+  string td_id = 1;
+  bool is_restart = 2;
+  int32 max_building_num = 3;
+}
+
+message CsTdLeave {
+  string td_id = 1;
+}
+
+message ScTdLeave {
+  string td_id = 1;
+}
+
+message CsTdBuyBuilding {
+  string td_id = 1;
+  string building_id = 2;
+  int32 num = 3;
+}
+
+message ScTdBuyBuilding {
+  string td_id = 1;
+  string building_id = 2;
+  int32 num = 3;
+}
+
+message ScSyncTdDropItem {
+  uint32 drop_id = 1;
+  string item_id = 2;
+  uint32 num = 3;
+  Vector position = 4;
+  uint32 duration = 5;
+}
+
+message CsTdPickDropItem {
+  repeated uint32 drop_id_list = 1;
+}
+
+message ScTdPickDropItem {
+  repeated uint32 drop_id_list = 1;
+}
+
+message CsTdDropExpired {
+  repeated uint32 drop_id_list = 1;
+}
+
+message CsGameTimeFreezeStartReq {
+  int32 reason = 1;
+}
+
+message CsGameTimeFreezeEndReq {
+  int32 reason = 1;
+}
+
+message ScGameTimeFreezeStartRsp {
+  int32 reason = 1;
+  bool in_time_freeze = 2;
+}
+
+message ScGameTimeFreezeEndRsp {
+  int32 reason = 1;
+  bool in_time_freeze = 2;
+}
+
+message ScSyncAllUnlock {
+  repeated int32 unlock_systems = 1;
+}
+
+message ScUnlockSystem {
+  int32 unlock_system_type = 1;
+}
+
+message MoneyInfo {
+  string id = 1;
+  uint64 amount = 2;
+}
+
+message CsMoneyChange {
+  string money_from_id = 1;
+  string money_to_id = 2;
+  uint64 money_from_count = 3;
+}
+
+message ScSyncWallet {
+  repeated MoneyInfo money_list = 1;
+}
+
+message ScWalletSyncMoney {
+  string id = 1;
+  uint64 amount = 2;
+  int64 op_amount = 3;
+}
+
+message ScRewardDropMoneyToast {
+  string id = 1;
+  int64 amount = 2;
+  Vector pos = 3;
+}
+
+message CsWeaponPuton {
+  uint64 charid = 1;
+  uint64 weaponid = 2;
+}
+
+message ScWeaponPuton {
+  uint64 charid = 1;
+  uint64 weaponid = 2;
+  uint64 offweaponid = 3;
+  uint64 put_off_charid = 4;
+}
+
+message CsWeaponBreakthrough {
+  uint64 weaponid = 1;
+}
+
+message ScWeaponBreakthrough {
+  uint64 weaponid = 1;
+  uint64 breakthrough_lv = 2;
+}
+
+message CsWeaponRefineUpgrade {
+  uint64 weaponid = 1;
+  uint64 upgrade_refine_lv = 2;
+  repeated uint64 cost_weapon_ids = 3;
+}
+
+message ScWeaponRefineUpgrade {
+  uint64 weaponid = 1;
+  uint64 refine_lv = 2;
+}
+
+message CsWeaponAddExp {
+  uint64 weaponid = 1;
+  map<string, uint64> cost_item_id2_count = 2;
+  repeated uint64 cost_weapon_ids = 3;
+}
+
+message ScWeaponAddExp {
+  uint64 weaponid = 1;
+  uint64 new_exp = 2;
+  uint64 weapon_lv = 3;
+}
+
+message CsWeaponAttachGem {
+  uint64 weaponid = 1;
+  uint64 gemid = 2;
+}
+
+message ScWeaponAttachGem {
+  uint64 weaponid = 1;
+  uint64 gemid = 2;
+  uint64 detach_gemid = 3;
+  uint64 detach_gem_weaponid = 4;
+}
+
+message CsWeaponDetachGem {
+  uint64 weaponid = 1;
+}
+
+message ScWeaponDetachGem {
+  uint64 weaponid = 1;
+  uint64 detach_gemid = 2;
+}
+
+message ScSyncAllWiki {
+  repeated uint32 latest_unlock = 1;
+}
+
+message CsUnlockWiki {
+  uint32 wiki_id = 1;
+}
+
+message CsMarkWikiRead {
+  repeated uint32 wiki_ids = 1;
+}
+
+message Opts {
+  optional bool unique = 1;
+}
+

@@ -1,0 +1,1112 @@
+{
+  "chr_0002_endminm": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 1,
+        "name": {
+          "id": "AFDC78FF89B8F482",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0002_endminm_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 2,
+        "name": {
+          "id": "16428ED198966454",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0002_endminm_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 3,
+        "name": {
+          "id": "8D47A6B6A8348F2D",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0002_endminm_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 4,
+        "name": {
+          "id": "15E5090FD467F80A",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0002_endminm_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 5,
+        "name": {
+          "id": "9C259F603C0C3938",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0002_endminm_potential_5"
+      }
+    ]
+  },
+  "chr_0003_endminf": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 1,
+        "name": {
+          "id": "FB8031CE85369491",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0003_endminf_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 2,
+        "name": {
+          "id": "58D25ADA54C68E12",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0003_endminf_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 3,
+        "name": {
+          "id": "7D031C4E3C318E42",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0003_endminf_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 4,
+        "name": {
+          "id": "6630D11C179FF08C",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0003_endminf_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0002_endminm"
+        ],
+        "level": 5,
+        "name": {
+          "id": "F00814801A7D2879",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0003_endminf_potential_5"
+      }
+    ]
+  },
+  "chr_0004_pelica": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0004_pelica"
+        ],
+        "level": 1,
+        "name": {
+          "id": "5D03730BFEB05303",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0004_pelica_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0004_pelica"
+        ],
+        "level": 2,
+        "name": {
+          "id": "044329F7058585DB",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0004_pelica_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0004_pelica"
+        ],
+        "level": 3,
+        "name": {
+          "id": "8C73565EDA5452ED",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0004_pelica_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0004_pelica"
+        ],
+        "level": 4,
+        "name": {
+          "id": "3DD4CD1A33085A36",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0004_pelica_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0004_pelica"
+        ],
+        "level": 5,
+        "name": {
+          "id": "8EFE09765FE48F6E",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0004_pelica_potential_5"
+      }
+    ]
+  },
+  "chr_0005_chen": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0005_chen"
+        ],
+        "level": 1,
+        "name": {
+          "id": "7177BD6155E8D837",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0005_chen_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0005_chen"
+        ],
+        "level": 2,
+        "name": {
+          "id": "AB6BC37CCCB010C9",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0005_chen_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0005_chen"
+        ],
+        "level": 3,
+        "name": {
+          "id": "4DB8EC174E613D9E",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0005_chen_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0005_chen"
+        ],
+        "level": 4,
+        "name": {
+          "id": "C66DFEC4C4E6A221",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0005_chen_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0005_chen"
+        ],
+        "level": 5,
+        "name": {
+          "id": "BEE85DE58EC0B2A3",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0005_chen_potential_5"
+      }
+    ]
+  },
+  "chr_0006_wolfgd": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0006_wolfgd"
+        ],
+        "level": 1,
+        "name": {
+          "id": "F8D74C2520AA167E",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0006_wolfgd_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0006_wolfgd"
+        ],
+        "level": 2,
+        "name": {
+          "id": "9F67D5545A54E90F",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0006_wolfgd_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0006_wolfgd"
+        ],
+        "level": 3,
+        "name": {
+          "id": "973CE5CA3B7B92B5",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0006_wolfgd_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0006_wolfgd"
+        ],
+        "level": 4,
+        "name": {
+          "id": "2DE3553462BA91F3",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0006_wolfgd_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0006_wolfgd"
+        ],
+        "level": 5,
+        "name": {
+          "id": "4AD09A08575082F5",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0006_wolfgd_potential_5"
+      }
+    ]
+  },
+  "chr_0007_ikut": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0007_ikut"
+        ],
+        "level": 1,
+        "name": {
+          "id": "DFD98FFBA411C0A0",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0007_ikut_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0007_ikut"
+        ],
+        "level": 2,
+        "name": {
+          "id": "0CB341FC1222B584",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0007_ikut_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0007_ikut"
+        ],
+        "level": 3,
+        "name": {
+          "id": "B882F6F5DDA21E9B",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0007_ikut_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0007_ikut"
+        ],
+        "level": 4,
+        "name": {
+          "id": "ECCAA8CFFA29BC00",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0007_ikut_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0007_ikut"
+        ],
+        "level": 5,
+        "name": {
+          "id": "19EAFB98CB4C3D8B",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0007_ikut_potential_5"
+      }
+    ]
+  },
+  "chr_0009_azrila": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0009_azrila"
+        ],
+        "level": 1,
+        "name": {
+          "id": "E378F07C458BFB42",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0009_azrila_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0009_azrila"
+        ],
+        "level": 2,
+        "name": {
+          "id": "33F7542668275656",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0009_azrila_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0009_azrila"
+        ],
+        "level": 3,
+        "name": {
+          "id": "CF23B87F95219FF3",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0009_azrila_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0009_azrila"
+        ],
+        "level": 4,
+        "name": {
+          "id": "BBEF642701487DC9",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0009_azrila_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0009_azrila"
+        ],
+        "level": 5,
+        "name": {
+          "id": "B8FA3F5050D323CE",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0009_azrila_potential_5"
+      }
+    ]
+  },
+  "chr_0011_seraph": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0011_seraph"
+        ],
+        "level": 1,
+        "name": {
+          "id": "13B608760429C700",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0011_seraph_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0011_seraph"
+        ],
+        "level": 2,
+        "name": {
+          "id": "D13C5EAE7C09BDE4",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0011_seraph_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0011_seraph"
+        ],
+        "level": 3,
+        "name": {
+          "id": "A466EC76FE5F002F",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0011_seraph_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0011_seraph"
+        ],
+        "level": 4,
+        "name": {
+          "id": "9C0EA1584105538A",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0011_seraph_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0011_seraph"
+        ],
+        "level": 5,
+        "name": {
+          "id": "FB619382F590D98C",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0011_seraph_potential_5"
+      }
+    ]
+  },
+  "chr_0012_avywen": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0012_avywen"
+        ],
+        "level": 1,
+        "name": {
+          "id": "B5FB0D9577219476",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0012_avywen_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0012_avywen"
+        ],
+        "level": 2,
+        "name": {
+          "id": "CF0B993DF3602B69",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0012_avywen_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0012_avywen"
+        ],
+        "level": 3,
+        "name": {
+          "id": "39A1AAEEFE708A2F",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0012_avywen_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0012_avywen"
+        ],
+        "level": 4,
+        "name": {
+          "id": "3DE51FC940E145A5",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0012_avywen_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0012_avywen"
+        ],
+        "level": 5,
+        "name": {
+          "id": "C40FBA7AA28373EC",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0012_avywen_potential_5"
+      }
+    ]
+  },
+  "chr_0013_aglina": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0013_aglina"
+        ],
+        "level": 1,
+        "name": {
+          "id": "B2D3CD70C51631FC",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0013_aglina_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0013_aglina"
+        ],
+        "level": 2,
+        "name": {
+          "id": "1E41D378FAEF17FE",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0013_aglina_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0013_aglina"
+        ],
+        "level": 3,
+        "name": {
+          "id": "6F5FA3AB9F4E70A9",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0013_aglina_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0013_aglina"
+        ],
+        "level": 4,
+        "name": {
+          "id": "4C30CFC915C96524",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0013_aglina_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0013_aglina"
+        ],
+        "level": 5,
+        "name": {
+          "id": "398C1541F5487D5E",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0013_aglina_potential_5"
+      }
+    ]
+  },
+  "chr_0014_aurora": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0014_aurora"
+        ],
+        "level": 1,
+        "name": {
+          "id": "1A8FB7B9E78BF2CC",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0014_aurora_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0014_aurora"
+        ],
+        "level": 2,
+        "name": {
+          "id": "8ED69777D3787DCC",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0014_aurora_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0014_aurora"
+        ],
+        "level": 3,
+        "name": {
+          "id": "E3921BC8A16E921B",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0014_aurora_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0014_aurora"
+        ],
+        "level": 4,
+        "name": {
+          "id": "37D660C26B7259A5",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0014_aurora_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0014_aurora"
+        ],
+        "level": 5,
+        "name": {
+          "id": "9040F0DE3DDE470F",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0014_aurora_potential_5"
+      }
+    ]
+  },
+  "chr_0015_lifeng": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0015_lifeng"
+        ],
+        "level": 1,
+        "name": {
+          "id": "2988C65B053F37FE",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0015_lifeng_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0015_lifeng"
+        ],
+        "level": 2,
+        "name": {
+          "id": "1B423A299E129CF6",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0015_lifeng_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0015_lifeng"
+        ],
+        "level": 3,
+        "name": {
+          "id": "E2B0FED01EF53339",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0015_lifeng_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0015_lifeng"
+        ],
+        "level": 4,
+        "name": {
+          "id": "1EA75E77E285564B",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0015_lifeng_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0015_lifeng"
+        ],
+        "level": 5,
+        "name": {
+          "id": "D9BE763A8F239DDA",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0015_lifeng_potential_5"
+      }
+    ]
+  },
+  "chr_0016_laevat": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0016_laevat"
+        ],
+        "level": 1,
+        "name": {
+          "id": "95DEE680E1D6913C",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0016_laevat_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0016_laevat"
+        ],
+        "level": 2,
+        "name": {
+          "id": "0A1E851509D8F010",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0016_laevat_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0016_laevat"
+        ],
+        "level": 3,
+        "name": {
+          "id": "7DED603FF0936524",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0016_laevat_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0016_laevat"
+        ],
+        "level": 4,
+        "name": {
+          "id": "C51E088798742CBC",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0016_laevat_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0016_laevat"
+        ],
+        "level": 5,
+        "name": {
+          "id": "C473B41AF53565CD",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0016_laevat_potential_5"
+      }
+    ]
+  },
+  "chr_0017_yvonne": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0017_yvonne"
+        ],
+        "level": 1,
+        "name": {
+          "id": "5E27D17E55D055CD",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0017_yvonne_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0017_yvonne"
+        ],
+        "level": 2,
+        "name": {
+          "id": "9549BD8188608C99",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0017_yvonne_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0017_yvonne"
+        ],
+        "level": 3,
+        "name": {
+          "id": "3AE19539F6CD6A4C",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0017_yvonne_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0017_yvonne"
+        ],
+        "level": 4,
+        "name": {
+          "id": "EA16D90CC97A1036",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0017_yvonne_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0017_yvonne"
+        ],
+        "level": 5,
+        "name": {
+          "id": "792135F68644C4C3",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0017_yvonne_potential_5"
+      }
+    ]
+  },
+  "chr_0018_dapan": {
+    "potentialUnlockBundle": [
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0018_dapan"
+        ],
+        "level": 1,
+        "name": {
+          "id": "DFEA984E8A2C844D",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0018_dapan_potential_1"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0018_dapan"
+        ],
+        "level": 2,
+        "name": {
+          "id": "B6B131695B5EE693",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0018_dapan_potential_2"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0018_dapan"
+        ],
+        "level": 3,
+        "name": {
+          "id": "BE344A3BD157C98F",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0018_dapan_potential_3"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0018_dapan"
+        ],
+        "level": 4,
+        "name": {
+          "id": "B54D79BBF20AC095",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0018_dapan_potential_4"
+      },
+      {
+        "itemCnts": [
+          1
+        ],
+        "itemIds": [
+          "item_charpotentialup_chr_0018_dapan"
+        ],
+        "level": 5,
+        "name": {
+          "id": "E9894FD28CB26985",
+          "text": ""
+        },
+        "potentialEffectId": "chr_0018_dapan_potential_5"
+      }
+    ]
+  }
+}

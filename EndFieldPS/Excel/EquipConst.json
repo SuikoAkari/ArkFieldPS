@@ -1,0 +1,11 @@
+{
+  "defaultEnhancedRatio": [
+    1.05,
+    1.1,
+    1.2
+  ],
+  "enhanceBeanReplenishDuration": 1200,
+  "enhanceBeanStorageLimit": 20,
+  "enhanceConsumeItemCount": 50,
+  "enhanceConsumeItemId": "item_plant_mushroom_1_1"
+}

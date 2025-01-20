@@ -1,0 +1,68 @@
+{
+  "int_collection_coin": {
+    "incrementId": 0,
+    "mergeId": "int_collection_coin",
+    "prefabId": "int_collection_coin",
+    "showToast": true
+  },
+  "int_collection_coin_puzzle": {
+    "incrementId": 6,
+    "mergeId": "int_collection_coin",
+    "prefabId": "int_collection_coin_puzzle",
+    "showToast": true
+  },
+  "int_collection_moon": {
+    "incrementId": 1,
+    "mergeId": "",
+    "prefabId": "int_collection_moon",
+    "showToast": true
+  },
+  "int_collection_moon_part": {
+    "incrementId": 2,
+    "mergeId": "",
+    "prefabId": "int_collection_moon_part",
+    "showToast": true
+  },
+  "int_collection_piece": {
+    "incrementId": 9,
+    "mergeId": "int_collection_piece",
+    "prefabId": "int_collection_piece",
+    "showToast": false
+  },
+  "int_collection_piece_in_door": {
+    "incrementId": 10,
+    "mergeId": "int_collection_piece",
+    "prefabId": "int_collection_piece_in_door",
+    "showToast": false
+  },
+  "int_fixable_robot": {
+    "incrementId": 8,
+    "mergeId": "int_fixable_robot",
+    "prefabId": "int_fixable_robot",
+    "showToast": false
+  },
+  "int_trchest_common": {
+    "incrementId": 3,
+    "mergeId": "item_cate_chest",
+    "prefabId": "int_trchest_common",
+    "showToast": false
+  },
+  "int_trchest_common_high": {
+    "incrementId": 5,
+    "mergeId": "item_cate_chest",
+    "prefabId": "int_trchest_common_high",
+    "showToast": false
+  },
+  "int_trchest_common_normal": {
+    "incrementId": 4,
+    "mergeId": "item_cate_chest",
+    "prefabId": "int_trchest_common_normal",
+    "showToast": false
+  },
+  "int_trchest_lock": {
+    "incrementId": 7,
+    "mergeId": "item_cate_chest",
+    "prefabId": "int_trchest_lock",
+    "showToast": false
+  }
+}

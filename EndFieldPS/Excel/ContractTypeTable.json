@@ -1,0 +1,22 @@
+{
+  "0": {
+    "blocId": "tundra_bloc01_endfield",
+    "color": "373737",
+    "icon": "icon_trader_main_01",
+    "name": {
+      "id": "A0D241034CAF7C76",
+      "text": ""
+    },
+    "type": 0
+  },
+  "1": {
+    "blocId": "tundra_bloc02_ursus",
+    "color": "6D2B24",
+    "icon": "icon_trader_main_02",
+    "name": {
+      "id": "04433A3B3CFF7FB0",
+      "text": ""
+    },
+    "type": 1
+  }
+}

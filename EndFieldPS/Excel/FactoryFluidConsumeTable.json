@@ -1,0 +1,9 @@
+{
+  "liquid_cleaner_1": {
+    "id": "liquid_cleaner_1",
+    "liquidable": [
+      "item_liquid_sewage"
+    ],
+    "msPerRound": 6000
+  }
+}

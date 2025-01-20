@@ -1,0 +1,218 @@
+{
+  "region_102": {
+    "levelId": "map01_lv001",
+    "regionId": "region_102"
+  },
+  "region_301": {
+    "levelId": "map01_lv002",
+    "regionId": "region_301"
+  },
+  "region_401": {
+    "levelId": "map01_lv003",
+    "regionId": "region_401"
+  },
+  "region_501": {
+    "levelId": "map01_lv005",
+    "regionId": "region_501"
+  },
+  "region_601": {
+    "levelId": "map01_lv006",
+    "regionId": "region_601"
+  },
+  "region_701": {
+    "levelId": "map01_lv007",
+    "regionId": "region_701"
+  },
+  "region_MovementDev": {
+    "levelId": "MovementDev",
+    "regionId": "region_MovementDev"
+  },
+  "region_blackbox_assebling_1": {
+    "levelId": "blackbox_assebling_1",
+    "regionId": "region_blackbox_assebling_1"
+  },
+  "region_blackbox_assebling_2": {
+    "levelId": "blackbox_assebling_2",
+    "regionId": "region_blackbox_assebling_2"
+  },
+  "region_blackbox_asseblingbomb_1": {
+    "levelId": "blackbox_asseblingbomb_1",
+    "regionId": "region_blackbox_asseblingbomb_1"
+  },
+  "region_blackbox_basic_1": {
+    "levelId": "blackbox_basic_1",
+    "regionId": "region_blackbox_basic_1"
+  },
+  "region_blackbox_belt_1": {
+    "levelId": "blackbox_belt_1",
+    "regionId": "region_blackbox_belt_1"
+  },
+  "region_blackbox_belt_2": {
+    "levelId": "blackbox_belt_2",
+    "regionId": "region_blackbox_belt_2"
+  },
+  "region_blackbox_bus_1": {
+    "levelId": "blackbox_bus_1",
+    "regionId": "region_blackbox_bus_1"
+  },
+  "region_blackbox_bus_2": {
+    "levelId": "blackbox_bus_2",
+    "regionId": "region_blackbox_bus_2"
+  },
+  "region_blackbox_cmpt_1": {
+    "levelId": "blackbox_cmpt_1",
+    "regionId": "region_blackbox_cmpt_1"
+  },
+  "region_blackbox_connector_1": {
+    "levelId": "blackbox_connector_1",
+    "regionId": "region_blackbox_connector_1"
+  },
+  "region_blackbox_converger_1": {
+    "levelId": "blackbox_converger_1",
+    "regionId": "region_blackbox_converger_1"
+  },
+  "region_blackbox_filling_1": {
+    "levelId": "blackbox_filling_1",
+    "regionId": "region_blackbox_filling_1"
+  },
+  "region_blackbox_filling_2": {
+    "levelId": "blackbox_filling_2",
+    "regionId": "region_blackbox_filling_2"
+  },
+  "region_blackbox_filling_3": {
+    "levelId": "blackbox_filling_3",
+    "regionId": "region_blackbox_filling_3"
+  },
+  "region_blackbox_filling_4": {
+    "levelId": "blackbox_filling_4",
+    "regionId": "region_blackbox_filling_4"
+  },
+  "region_blackbox_filling_5": {
+    "levelId": "blackbox_filling_5",
+    "regionId": "region_blackbox_filling_5"
+  },
+  "region_blackbox_grinder_1": {
+    "levelId": "blackbox_grinder_1",
+    "regionId": "region_blackbox_grinder_1"
+  },
+  "region_blackbox_hub_1": {
+    "levelId": "blackbox_hub_1",
+    "regionId": "region_blackbox_hub_1"
+  },
+  "region_blackbox_liquidcleaner_1": {
+    "levelId": "blackbox_liquidcleaner_1",
+    "regionId": "region_blackbox_liquidcleaner_1"
+  },
+  "region_blackbox_miner_1": {
+    "levelId": "blackbox_miner_1",
+    "regionId": "region_blackbox_miner_1"
+  },
+  "region_blackbox_miner_2": {
+    "levelId": "blackbox_miner_2",
+    "regionId": "region_blackbox_miner_2"
+  },
+  "region_blackbox_miner_3": {
+    "levelId": "blackbox_miner_3",
+    "regionId": "region_blackbox_miner_3"
+  },
+  "region_blackbox_mix_1": {
+    "levelId": "blackbox_mix_1",
+    "regionId": "region_blackbox_mix_1"
+  },
+  "region_blackbox_mix_2": {
+    "levelId": "blackbox_mix_2",
+    "regionId": "region_blackbox_mix_2"
+  },
+  "region_blackbox_pipe_1": {
+    "levelId": "blackbox_pipe_1",
+    "regionId": "region_blackbox_pipe_1"
+  },
+  "region_blackbox_pipe_2": {
+    "levelId": "blackbox_pipe_2",
+    "regionId": "region_blackbox_pipe_2"
+  },
+  "region_blackbox_planter_1": {
+    "levelId": "blackbox_planter_1",
+    "regionId": "region_blackbox_planter_1"
+  },
+  "region_blackbox_planter_2": {
+    "levelId": "blackbox_planter_2",
+    "regionId": "region_blackbox_planter_2"
+  },
+  "region_blackbox_power_1": {
+    "levelId": "blackbox_power_1",
+    "regionId": "region_blackbox_power_1"
+  },
+  "region_blackbox_powerstation_1": {
+    "levelId": "blackbox_powerstation_1",
+    "regionId": "region_blackbox_powerstation_1"
+  },
+  "region_blackbox_shaper_1": {
+    "levelId": "blackbox_shaper_1",
+    "regionId": "region_blackbox_shaper_1"
+  },
+  "region_blackbox_shaper_2": {
+    "levelId": "blackbox_shaper_2",
+    "regionId": "region_blackbox_shaper_2"
+  },
+  "region_blackbox_splitter_1": {
+    "levelId": "blackbox_splitter_1",
+    "regionId": "region_blackbox_splitter_1"
+  },
+  "region_blackbox_squirter_1": {
+    "levelId": "blackbox_squirter_1",
+    "regionId": "region_blackbox_squirter_1"
+  },
+  "region_blackbox_storager_1": {
+    "levelId": "blackbox_storager_1",
+    "regionId": "region_blackbox_storager_1"
+  },
+  "region_blackbox_thickener_1": {
+    "levelId": "blackbox_thickener_1",
+    "regionId": "region_blackbox_thickener_1"
+  },
+  "region_blackbox_winder_1": {
+    "levelId": "blackbox_winder_1",
+    "regionId": "region_blackbox_winder_1"
+  },
+  "region_demo_blackbox02": {
+    "levelId": "demo_blackbox02",
+    "regionId": "region_demo_blackbox02"
+  },
+  "region_dg002": {
+    "levelId": "indie_dg002",
+    "regionId": "region_dg002"
+  },
+  "region_factory_benchmark": {
+    "levelId": "factory_benchmark",
+    "regionId": "region_factory_benchmark"
+  },
+  "region_factory_blackbox": {
+    "levelId": "demo_blackbox",
+    "regionId": "region_factory_blackbox"
+  },
+  "region_ld_tasktest01": {
+    "levelId": "ld_tasktest01",
+    "regionId": "region_ld_tasktest01"
+  },
+  "region_map02_lv001": {
+    "levelId": "map02_lv001",
+    "regionId": "region_map02_lv001"
+  },
+  "region_map10000_test1": {
+    "levelId": "map10000_test1",
+    "regionId": "region_map10000_test1"
+  },
+  "region_map10000_test2": {
+    "levelId": "map10000_test2",
+    "regionId": "region_map10000_test2"
+  },
+  "region_test_animPlayground": {
+    "levelId": "test_animPlayground",
+    "regionId": "region_test_animPlayground"
+  },
+  "region_testbed_interactive": {
+    "levelId": "testbed_interactive",
+    "regionId": "region_testbed_interactive"
+  }
+}
