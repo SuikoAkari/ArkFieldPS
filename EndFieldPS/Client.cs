@@ -41,7 +41,6 @@ namespace EndFieldPS
         public GuidRandomizer random = new GuidRandomizer();
         public Thread receivorThread;
         public Socket socket;
-        internal ChaChaEngine cipher;
         public ulong roleId= 1;
         public int curSceneNumId;
         public Client(Socket socket)
@@ -62,6 +61,10 @@ namespace EndFieldPS
         public void Send(Packet packet)
         {
             Send(Packet.EncodePacket(packet));
+        }
+        public void Send(ScMessageId id,IMessage mes)
+        {
+            Send(Packet.EncodePacket((int)id, mes));
         }
         public void Send(byte[] data)
         {
