@@ -20,6 +20,9 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, DialogTextTable> dialogTextTable = new();
         public static Dictionary<string, GameSystemConfigTable> gameSystemConfigTable = new();
         public static Dictionary<string, WikiGroupTable> wikiGroupTable = new();
+        public static Dictionary<string, object> blocUnlockTable = new();
+        public static Dictionary<string, GameMechanicTable> gameMechanicTable = new();
+        public static Dictionary<string, WeaponBasicTable> weaponBasicTable= new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -42,7 +45,14 @@ namespace EndFieldPS.Resource
             gameSystemConfigTable = JsonConvert.DeserializeObject<Dictionary<string, GameSystemConfigTable>>(File.ReadAllText("Excel/GameSystemConfigTable.json"));
             wikiGroupTable = JsonConvert.DeserializeObject<Dictionary<string, WikiGroupTable>>(File.ReadAllText("Excel/WikiGroupTable.json"));
             dialogIdTable = JsonConvert.DeserializeObject<StrIdNumTable>(File.ReadAllText("Json/GameplayConfig/DialogIdTable.json"));
+            blocUnlockTable = JsonConvert.DeserializeObject<Dictionary<string, object>>(File.ReadAllText("Excel/BlocUnlockTable.json"));
+            gameMechanicTable= JsonConvert.DeserializeObject<Dictionary<string, GameMechanicTable>>(File.ReadAllText("Excel/GameMechanicTable.json"));
+            weaponBasicTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponBasicTable>>(File.ReadAllText("Excel/WeaponBasicTable.json"));
             LoadLevelDatas();
+        }
+        public static string GetDefaultWeapon(int type)
+        {
+            return weaponBasicTable.Values.ToList().Find(x => x.weaponType == type).weaponId;  
         }
         public static void LoadLevelDatas()
         {
@@ -66,6 +76,13 @@ namespace EndFieldPS.Resource
             public string missionId;
 
         }
+        public class GameMechanicTable
+        {
+            public string gameMechanicsId;
+            public int difficulty;
+            public string firstPassRewardId;
+        }
+
         public class WikiGroupTable
         {
             public List<WikiGroup> list;
@@ -119,11 +136,17 @@ namespace EndFieldPS.Resource
             public string sceneId;
             public int areaIndex;
         }
-
+        public class WeaponBasicTable
+        {
+            public int weaponType;
+            public string weaponId;
+        }
         public class CharacterTable
         {
             public List<Attributes> attributes;
             public string charId;
+            public int weaponType;
+            public string engName;
 
         }
         public class Attributes

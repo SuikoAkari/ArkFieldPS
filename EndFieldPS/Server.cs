@@ -33,7 +33,7 @@ namespace EndFieldPS
             {
                 this.CmdId = cmdID;
             }
-            public delegate void HandlerDelegate(Client client, int cmdId, Network.Packet packet);
+            public delegate void HandlerDelegate(EndminPlayer client, int cmdId, Network.Packet packet);
         }
         public class CommandAttribute : Attribute
         {
@@ -47,7 +47,7 @@ namespace EndFieldPS
             }
             public delegate void HandlerDelegate(string command, string[] args);
         }
-        public static List<Client> clients = new List<Client>();
+        public static List<EndminPlayer> clients = new List<EndminPlayer>();
         public static string ServerVersion = "1.0.0";
         public static bool Initialized = false;
         public IntPtr server;
@@ -113,7 +113,7 @@ namespace EndFieldPS
                     Console.WriteLine("Client connesso!");
                     if (clientSocket.Connected)
                     {
-                        Client client = new Client(clientSocket);
+                        EndminPlayer client = new EndminPlayer(clientSocket);
                         clients.Add(client);
                         client.receivorThread.Start();
 
