@@ -24,6 +24,7 @@ using EndFieldPS.Packets.Sc;
 using EndFieldPS.Game.Character;
 using EndFieldPS.Resource;
 using EndFieldPS.Game.Inventory;
+using static EndFieldPS.Resource.ResourceManager;
 
 
 namespace EndFieldPS
@@ -52,6 +53,8 @@ namespace EndFieldPS
         public Thread receivorThread;
         public Socket socket;
         public ulong roleId= 1;
+        public Vector3f position;
+        public Vector3f rotation;
         public int curSceneNumId;
         public List<Character> chars = new List<Character>();
         public InventoryManager inventoryManager;
@@ -71,13 +74,18 @@ namespace EndFieldPS
         {
             foreach (var item in ResourceManager.characterTable)
             {
-                chars.Add(new Character(roleId,item.Key,1));
+                chars.Add(new Character(roleId,item.Key,20));
             }
             teams.Add(new Team()
             {
                 leader = chars[0].guid,
                 members={ chars[0].guid }
             });
+            teams.Add(new Team());
+            teams.Add(new Team());
+            teams.Add(new Team());
+            teams.Add(new Team());
+
         }
         public Weapon AddWeapon(string id, ulong level)
         {
@@ -88,6 +96,8 @@ namespace EndFieldPS
         public void EnterScene(int sceneNumId)
         {
             curSceneNumId = sceneNumId;
+            position = ResourceManager.GetLevelData(sceneNumId).playerInitPos;
+            rotation = ResourceManager.GetLevelData(sceneNumId).playerInitRot;
             Send(new PacketScEnterSceneNotify(this,sceneNumId));
         }
         public bool SocketConnected(Socket s)
@@ -106,9 +116,7 @@ namespace EndFieldPS
         {
             try
             {
-
-            socket.Send(data);
-                
+                socket.Send(data);
             }
             catch (Exception e)
             {

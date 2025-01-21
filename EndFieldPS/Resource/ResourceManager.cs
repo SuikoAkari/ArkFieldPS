@@ -17,12 +17,14 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, SystemJumpTable> systemJumpTable = new();
         public static Dictionary<string, SettlementBasicDataTable> settlementBasicDataTable = new();
         public static Dictionary<string, BlocMissionTable> blocMissionTable = new();
+        public static MissionAreaTable missionAreaTable = new();
         public static Dictionary<string, DialogTextTable> dialogTextTable = new();
         public static Dictionary<string, GameSystemConfigTable> gameSystemConfigTable = new();
         public static Dictionary<string, WikiGroupTable> wikiGroupTable = new();
         public static Dictionary<string, object> blocUnlockTable = new();
         public static Dictionary<string, GameMechanicTable> gameMechanicTable = new();
         public static Dictionary<string, WeaponBasicTable> weaponBasicTable= new();
+        public static Dictionary<string, BlocDataTable> blocDataTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -48,7 +50,22 @@ namespace EndFieldPS.Resource
             blocUnlockTable = JsonConvert.DeserializeObject<Dictionary<string, object>>(File.ReadAllText("Excel/BlocUnlockTable.json"));
             gameMechanicTable= JsonConvert.DeserializeObject<Dictionary<string, GameMechanicTable>>(File.ReadAllText("Excel/GameMechanicTable.json"));
             weaponBasicTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponBasicTable>>(File.ReadAllText("Excel/WeaponBasicTable.json"));
+            missionAreaTable = JsonConvert.DeserializeObject<MissionAreaTable>(File.ReadAllText("Json/GameplayConfig/MissionAreaTable.json"));
+            blocDataTable = JsonConvert.DeserializeObject<Dictionary<string, BlocDataTable>>(File.ReadAllText("Excel/BlocDataTable.json"));
             LoadLevelDatas();
+        }
+
+        public static LevelData GetLevelData(int sceneNumId)
+        {
+           return levelDatas.Find(e => e.idNum == sceneNumId);
+        }
+        public static LevelData GetLevelData(string sceneId)
+        {
+            if(levelDatas.Find(e => e.id == sceneId) == null)
+            {
+                return new LevelData();
+            }
+            return levelDatas.Find(e => e.id==sceneId);
         }
         public static string GetDefaultWeapon(int type)
         {
@@ -70,6 +87,14 @@ namespace EndFieldPS.Resource
         public static int GetItemTemplateId(string item_id)
         {
             return strIdNumTable.item_id.dic[item_id];
+        }
+        public class MissionAreaTable
+        {
+            public Dictionary<string, Dictionary<string, object>> m_areas;
+        }
+        public class BlocDataTable
+        {
+            public string blocId;
         }
         public class BlocMissionTable
         {
@@ -103,6 +128,30 @@ namespace EndFieldPS.Resource
             public int idNum;
             public string mapIdStr;
             public DefaultState defaultState;
+
+            public Vector3f playerInitPos;
+            public Vector3f playerInitRot;
+        }
+        public struct Vector3f
+        {
+            public float x;
+            public float y;
+            public float z;
+
+            public Vector3f(Vector v) : this()
+            {
+                this.x=v.X; this.y=v.Y; this.z=v.Z; 
+            }
+
+            public Vector ToProto()
+            {
+                return new Vector()
+                {
+                    X=x,
+                    Y=y,
+                    Z=z,
+                };
+            }
         }
         public class DefaultState
         {
@@ -168,5 +217,7 @@ namespace EndFieldPS.Resource
             Logger.Log(text);
             Console.WriteLine($"[{Server.ColoredText("ResourceManager", "03fcce")}] " + text);
         }
+
+
     }
 }
