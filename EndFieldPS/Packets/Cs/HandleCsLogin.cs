@@ -313,7 +313,7 @@ namespace EndFieldPS.Packets.Cs
                 },
                 
             });
-            session.EnterScene(102);
+            session.EnterScene(101);
         }
         [Server.Handler(CsMessageId.CsLogin)]
         public static void Handle(EndminPlayer session, CsMessageId cmdId, Packet packet)
