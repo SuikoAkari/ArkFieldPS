@@ -21,6 +21,10 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Collections;
 using System;
 using EndFieldPS.Packets.Sc;
+using EndFieldPS.Game.Character;
+using EndFieldPS.Resource;
+using EndFieldPS.Game.Inventory;
+
 
 namespace EndFieldPS
 {
@@ -28,26 +32,58 @@ namespace EndFieldPS
 
     public class GuidRandomizer
     {
-        public int v = 0;
-        public int Next()
+        public ulong v = 0;
+        public ulong Next()
         {
             v++;
             return v;
         }
     }
 
-    public class Client
+    public class EndminPlayer
     {
+        public class Team
+        {
+            public string name="";
+            public ulong leader;
+            public List<ulong> members=new();
+        }
         public GuidRandomizer random = new GuidRandomizer();
         public Thread receivorThread;
         public Socket socket;
         public ulong roleId= 1;
         public int curSceneNumId;
-        public Client(Socket socket)
+        public List<Character> chars = new List<Character>();
+        public InventoryManager inventoryManager;
+
+        public int teamIndex = 0;
+        public List<Team> teams= new List<Team>();  
+
+        public EndminPlayer(Socket socket)
         {
             this.socket = socket;
+            roleId = (ulong)new Random().Next();
+            inventoryManager = new(this);
             receivorThread = new Thread(new ThreadStart(Receive));
-
+           
+        }
+        public void Initialize()
+        {
+            foreach (var item in ResourceManager.characterTable)
+            {
+                chars.Add(new Character(roleId,item.Key,1));
+            }
+            teams.Add(new Team()
+            {
+                leader = chars[0].guid,
+                members={ chars[0].guid }
+            });
+        }
+        public Weapon AddWeapon(string id, ulong level)
+        {
+            Weapon weapon = new Weapon(roleId, id, level);
+            inventoryManager.weapons.Add(weapon);
+            return weapon;
         }
         public void EnterScene(int sceneNumId)
         {

@@ -12,7 +12,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScSyncBaseData : Packet
     {
 
-        public PacketScSyncBaseData(Client client) {
+        public PacketScSyncBaseData(EndminPlayer client) {
 
             ScSyncBaseData proto = new ScSyncBaseData()
             {
