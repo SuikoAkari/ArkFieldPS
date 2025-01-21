@@ -16,13 +16,8 @@ namespace EndFieldPS.Packets.Sc
 
             ScEnterSceneNotify proto = new ScEnterSceneNotify()
             {
-                Position = new Vector()
-                {
-                    X = 0,
-                    Y = 0,
-                    Z = 0
-                },
-
+                Position = client.position.ToProto(),
+                
                 SceneId = 0,
                 RoleId = client.roleId,
                 SceneNumId = sceneNumId,

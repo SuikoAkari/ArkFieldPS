@@ -18,8 +18,6 @@ namespace EndFieldPS.Game.Character
         public int xp;
         public ulong owner;
         public double curHp;
-
-        public Vector curPosition = new();
         public Character()
         {
 
@@ -110,13 +108,8 @@ namespace EndFieldPS.Game.Character
                 {
                     Hp = curHp,
                     Id = guid,
-                    Position = new Vector()
-                    {
-                        X = 292.06f,
-                        Y = 86.515f,
-                        Z = -624.24f
-                    },
-                    Rotation = new(),
+                    Position = GetOwner().position.ToProto(),
+                    Rotation = GetOwner().rotation.ToProto(),
                     SceneNumId = GetOwner().curSceneNumId,
                     Templateid = id,
                     Type = (int)0,
