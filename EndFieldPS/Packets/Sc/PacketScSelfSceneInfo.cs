@@ -31,7 +31,7 @@ namespace EndFieldPS.Packets.Sc
 
                     },
                     SceneGrade = 1,
-
+                    
                     Detail = new()
                     {
                         TeamIndex = session.teamIndex,
@@ -39,7 +39,8 @@ namespace EndFieldPS.Packets.Sc
                         CharList =
                         {
 
-                        }
+                        },
+                        
                     }
                 };
                 foreach (var item in ResourceManager.sceneAreaTable)

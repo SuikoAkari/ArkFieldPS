@@ -28,9 +28,9 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, ItemTable> itemTable = new();
         public static Dictionary<string, DomainDataTable> domainDataTable = new();
         public static Dictionary<string, CollectionTable> collectionTable = new();
+        public static Dictionary<string, GachaCharPoolTable> gachaCharPoolTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
-
 
         public static int GetSceneNumIdFromLevelData(string name)
         {
@@ -58,6 +58,8 @@ namespace EndFieldPS.Resource
             itemTable = JsonConvert.DeserializeObject<Dictionary<string, ItemTable>>(File.ReadAllText("Excel/ItemTable.json"));
             domainDataTable = JsonConvert.DeserializeObject<Dictionary<string, DomainDataTable>>(File.ReadAllText("Excel/DomainDataTable.json"));
             collectionTable = JsonConvert.DeserializeObject<Dictionary<string, CollectionTable>>(File.ReadAllText("Excel/CollectionTable.json"));
+            gachaCharPoolTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolTable>>(File.ReadAllText("Excel/GachaCharPoolTable.json"));
+            
             LoadLevelDatas();
         }
         public static ItemTable GetItemTable(string id)
@@ -175,6 +177,13 @@ namespace EndFieldPS.Resource
             public StrIdDic skill_group_id;
             public StrIdDic item_id;
             public Dictionary<string, int> dialogStrToNum;
+            public StrIdDic chapter_map_id;
+        }
+        public class GachaCharPoolTable
+        {
+            public string id;
+            public List<string> upCharIds;
+
         }
         public class DialogTextTable
         {
@@ -223,7 +232,7 @@ namespace EndFieldPS.Resource
             public string charId;
             public int weaponType;
             public string engName;
-
+            public int rarity;
         }
         public class Attributes
         {

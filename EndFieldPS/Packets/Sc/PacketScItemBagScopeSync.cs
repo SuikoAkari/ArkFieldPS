@@ -12,9 +12,8 @@ namespace EndFieldPS.Packets.Sc
 {
     public class PacketScItemBagScopeSync : Packet
     {
-        //Weapon only for now
         public PacketScItemBagScopeSync(EndminPlayer client) {
-
+            
             ScItemBagScopeSync proto = new ScItemBagScopeSync()
             {
                 Bag = new()
@@ -22,7 +21,15 @@ namespace EndFieldPS.Packets.Sc
                     GridLimit = 30,
 
                 },
-                
+                FactoryDepot =
+                {
+                    {"domain_1", 
+                        new ScdItemDepot()
+                        {
+                            
+                        } 
+                    }
+                },
                 ScopeName = 1,
                 Depot = 
                 { 

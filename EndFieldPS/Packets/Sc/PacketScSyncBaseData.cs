@@ -21,6 +21,7 @@ namespace EndFieldPS.Packets.Sc
                 RoleName = "Player",
                 Gender = Gender.GenFemale,
                 ShortId="1",
+                
             };
 
             SetData(ScMessageId.ScSyncBaseData, proto);
