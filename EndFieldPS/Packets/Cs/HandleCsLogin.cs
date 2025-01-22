@@ -82,7 +82,9 @@ namespace EndFieldPS.Packets.Cs
             unlock.UnlockSystems.Add((int)UnlockSystemType.FacOverview);
             unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipSystem);
             unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
-            unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.FacBUS);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.PRTS);
+            
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
 
             {
@@ -131,65 +133,13 @@ namespace EndFieldPS.Packets.Cs
                 Level = 20,
             };
            
-            ScSyncAllRoleScene role = new ScSyncAllRoleScene()
-            {
-                SceneGradeInfo =
-                {
-
-                },
-                UnlockAreaInfo =
-                {
-
-                },
-                SubmitEtherCount = 0,
-                SubmitEtherLevel = 1,
-                
-            };
-            
-            List<AreaUnlockInfo> areas = new();
-            foreach (var item in ResourceManager.sceneAreaTable)
-            {
-                AreaUnlockInfo info = areas.Find(a => a.SceneId == item.Value.sceneId);
-                if (info == null)
-                {
-                    info = new()
-                    {
-                        SceneId = item.Value.sceneId
-                        
-                    };
-
-                    info.UnlockAreaId.Add(item.Value.areaId);
-                    areas.Add(info);
-                    //Server.Print(item.Value.sceneId);
-                    role.SceneGradeInfo.Add(new SceneGradeInfo()
-                    {
-                        Grade = 1,
-                        LastDownTs=DateTime.UtcNow.Ticks,
-                        SceneNumId = ResourceManager.GetLevelData(item.Value.sceneId).idNum,
-                        
-                    });
-
-                }
-                else
-                {
-                    info.UnlockAreaId.Add(item.Value.areaId);
-                    role.SceneGradeInfo.Add(new SceneGradeInfo()
-                    {
-                        Grade = 1,
-                        LastDownTs = DateTime.UtcNow.Ticks,
-                        SceneNumId = ResourceManager.GetLevelData(item.Value.sceneId).idNum,
-
-                    });
-                }
-            }
-            role.UnlockAreaInfo.AddRange(areas);
-            session.Send(Packet.EncodePacket((int)ScMessageId.ScSyncAllRoleScene, role));
             foreach (var item in blocMissionTable)
             {
                 missions.Missions.Add(item.Key,new Mission()
                 {
                     MissionId=item.Value.missionId,
                     MissionState=(int)MissionState.Completed,
+                    
                 });
             }
             foreach (var item in missionAreaTable.m_areas)
@@ -202,7 +152,7 @@ namespace EndFieldPS.Packets.Cs
                         {
                             MissionId = m.Key,
                             MissionState = (int)MissionState.Completed,
-
+                            
                         });
                     }
                     
@@ -211,52 +161,28 @@ namespace EndFieldPS.Packets.Cs
             }
             ScSyncGameMode gameMode = new()
             {
-                ModeId = "default",
+                ModeId = "Default",
+                
             };
-            ScSyncAllBloc allblocks = new()
-            {
-                Blocs =
-                {
-
-                }
-            };
-            foreach (var region in blocDataTable)
-            {
-                allblocks.Blocs.Add(new BlocInfo()
-                {
-                    Exp=0,
-                    Level=1,
-                    Blocid=region.Value.blocId,
-                    
-                });
-            }
-            ScGameMechanicsSync mechanics = new()
-            {
-
-            };
-            foreach (var item in gameMechanicTable)
-            {
-                mechanics.GameRecords.Add(new ScdGameMechanicsRecord()
-                {
-                    GameId=item.Value.gameMechanicsId,
-                    IsPass=true,
-                    
-                });
-            }
-            session.Send(ScMessageId.ScGachaSync, new ScGachaSync()
+            ScGachaSync gacha = new ScGachaSync()
             {
                 CharGachaPool = new()
                 {
                     GachaPoolInfos =
                     {
-                        new ScdGachaPoolInfo()
-                        {
-                            GachaPoolId="special_2025_1_1",
-                            
-                        }
+
                     }
                 }
-            });
+            };
+            foreach (var item in gachaCharPoolTable)
+            {
+                gacha.CharGachaPool.GachaPoolInfos.Add(new ScdGachaPoolInfo()
+                {
+                    GachaPoolId=item.Value.id,
+                    
+                });
+            }
+            session.Send(ScMessageId.ScGachaSync, gacha);
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
             {
                 LastTickTime= DateTime.UtcNow.Ticks,
@@ -269,48 +195,76 @@ namespace EndFieldPS.Packets.Cs
                 {
                     Level=1,
                     SettlementId=item.Value.settlementId,
-                    
-                    UnlockTs=DateTime.UtcNow.Ticks+1000000,
+                    RequireId= "item_plant_grass_powder_2",
+                    Exp=1,
+                    Reports =
+                    {
+                        
+                    },
+                    UnlockTs =DateTime.UtcNow.Ticks,
                     AutoSubmit=false,
                     LastManualSubmitTime = DateTime.UtcNow.Ticks,
                     
                     OfficerCharTemplateId = characterTable.Values.ToList()[stid].charId,
                     
+                    
                 });
                 stid++;
             }
 
+            ScSyncAllBitset bitset = new()
+            {
+                Bitset =
+                {
+                    new BitsetData()
+                    {
+                        Type=44,
+                        Value =
+                        {
+                            
+                        }
+                    }
+                }
+            };
             
-            
+            session.Send(new PacketScSyncAllRoleScene(session));
             session.Send(ScMessageId.ScSettlementSyncAll, settlements);
-            session.Send(ScMessageId.ScGameMechanicsSync, mechanics);
-            session.Send(ScMessageId.ScSyncAllBloc, allblocks);
+            session.Send(new PacketScGameMechanicsSync(session));
+            session.Send(new PacketScSyncAllBloc(session));
             session.Send(ScMessageId.ScSyncGameMode, gameMode);
             session.Send(ScMessageId.ScSyncAllGameVar, GameVars);
             session.Send(ScMessageId.ScSyncAllUnlock, unlock);
             session.Send(ScMessageId.ScSyncAllMission, missions);
+            ScSceneMapMarkSync mapMarks = new()
+            {
+                SceneStaticMapMarkList =
+                {
+
+                }
+            };
             
+            for(int i=0; i <= 28; i++)
+            {
+                mapMarks.SceneStaticMapMarkList.Add(new SceneStaticMapMark()
+                {
+                    Index = i
+                });
+            }
+            session.Send(ScMessageId.ScSceneMapMarkSync, mapMarks);
             session.Send(ScMessageId.ScAdventureSyncAll, adventure);
             ScFactorySync fsync = new()
             {
+                FormulaMan = new()
+                {
+                    
+                },
                 Stt = new()
                 {
                     Layers =
                     {
-                        new ScdFactorySttLayer()
-                        {
-                            State=1,
-                            Id="map02_lv001",
-                            
-                        }
                     },
                     
-                },
-                FormulaMan = new()
-                {
-
-                },
-
+                }
             };
             session.Send(ScMessageId.ScFactorySync, fsync);
             session.Send(ScMessageId.ScFactorySyncScope, new ScFactorySyncScope()
@@ -325,7 +279,18 @@ namespace EndFieldPS.Packets.Cs
                     new ScdFactorySyncQuickbar()
                     {
                         Type=0,
-
+                        List =
+                        {
+                            "","","","","","","",""
+                        }
+                    },
+                    new ScdFactorySyncQuickbar()
+                    {
+                        Type=1,
+                        List =
+                        {
+                            "","","","","","","",""
+                        }
                     }
                 },
                 
@@ -334,30 +299,11 @@ namespace EndFieldPS.Packets.Cs
                     UpdateTs = DateTime.UtcNow.Ticks + 100000000,
                     Routes =
                     {
-                        new ScdFactoryHubTransportRoute()
-                        {
-                            ChapterId="domain_1",
-                            Status=1,
-                            Index=0,
-                            TargetChapterId="domain_1",
-                            ItemId="item_weapon_breakthrough_a2",
-                           
-                        },
-                        new ScdFactoryHubTransportRoute()
-                        {
-                            ChapterId="domain_2",
-                            Status=1,
-                            Index=1,
-                            TargetChapterId="domain_2",
-                            Progress=50,
-                            ItemId="item_weapon_breakthrough_a2",
-                        }
+                        
                     },
                     
                 },
-                CurrentChapterId = "domain_2",
-
-
+                CurrentChapterId = "domain_1",
             });
             session.Send(new PacketScFactorySyncChapter(session, "domain_1"));
             session.Send(new PacketScFactorySyncChapter(session, "domain_2"));
@@ -381,16 +327,24 @@ namespace EndFieldPS.Packets.Cs
                         Type=0,
                         ControlCenter = new()
                         {
-
+                            
                         },
                         Level=1,
-
+                        
                     }
                 },
 
             });
+            ScSceneUnlockArea t = new()
+            {
+                AreaId = "areaId501",
+                SceneNumId = 34,
+
+            };
+            session.Send(ScMessageId.ScSceneUnlockArea, t);
+            
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
-            session.EnterScene(101);
+            session.EnterScene(98); //101
             
         }
         [Server.Handler(CsMessageId.CsLogin)]

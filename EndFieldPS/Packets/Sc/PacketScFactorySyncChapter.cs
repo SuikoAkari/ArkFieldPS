@@ -1,4 +1,5 @@
-﻿using EndFieldPS.Network;
+﻿using EndFieldPS.Game.Inventory;
+using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,7 @@ namespace EndFieldPS.Packets.Sc
             ScFactorySyncChapter chapter = new()
             {
                 ChapterId = chapterId,
+                
                 Tms=DateTime.UtcNow.Ticks,
                 
                 Nodes =
@@ -50,7 +52,7 @@ namespace EndFieldPS.Packets.Sc
                 {
                     Cards =
                     {
-
+                        
                     },
                     
                 },
@@ -75,8 +77,9 @@ namespace EndFieldPS.Packets.Sc
                     {
                         Current = 100,
                         Max = 200,
-                        TravelPoleCurrent = 2,
+                        TravelPoleCurrent = 1,
                         TravelPoleMax = 10,
+                        
                         BattleCurrent = 0,
                         BattleMax = 200,
                         SpCurrent = 100,
@@ -86,25 +89,32 @@ namespace EndFieldPS.Packets.Sc
                     {
                         
                     },
+
                     Panels =
                     {
                         new ScdFactorySyncScenePanel()
                         {
                             Index=0,
                             Level=1,
-                            MainMesh =
-                            {
-                                new ScdRectInt()
-                                {
-                                    X=-512,
-                                    Y=128,
-                                },
-                                new ScdRectInt()
-                                {
-                                    X=-256,
-                                    Y=768,
-                                }
-                            }
+                            
+                        },
+                        new ScdFactorySyncScenePanel()
+                        {
+                            Index=1,
+                            Level=1,
+
+                        },
+                        new ScdFactorySyncScenePanel()
+                        {
+                            Index=2,
+                            Level=1,
+
+                        },
+                        new ScdFactorySyncScenePanel()
+                        {
+                            Index=3,
+                            Level=1,
+
                         }
                     }
                 };
@@ -114,7 +124,7 @@ namespace EndFieldPS.Packets.Sc
                     {
                         Current = 100,
                         Max = 200,
-                        TravelPoleCurrent = 0,
+                        TravelPoleCurrent = 1,
                         TravelPoleMax = 10,
                         BattleCurrent = 0,
                         BattleMax = 200,
@@ -122,27 +132,22 @@ namespace EndFieldPS.Packets.Sc
                         SpMax = 200,
                         
                     });
+                    
                 }
                 chapter.Scenes.Add(scene);
+                if(chapter.Maps.ToList().Find(a=>a.MapId== strIdNumTable.chapter_map_id.dic[GetLevelData(GetSceneNumIdFromLevelData(levelGroup)).mapIdStr])==null)
                 chapter.Maps.Add(new ScdFactorySyncMap()
                 {
-                    MapId = GetSceneNumIdFromLevelData(levelGroup),
+                    MapId = strIdNumTable.chapter_map_id.dic[GetLevelData(GetSceneNumIdFromLevelData(levelGroup)).mapIdStr],
                     
                     Wires =
                     {
-                        new ScdFactorySyncMapWire()
-                        {
-                            Index=0,
-                            FromComId=0,
-                            ToComId=0,
-                            
-                        }
+
                     },
                     
-
                 });
             });
-            
+
             SetData(ScMessageId.ScFactorySyncChapter, chapter);
         }
 

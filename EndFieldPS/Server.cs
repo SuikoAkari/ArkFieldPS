@@ -91,7 +91,7 @@ namespace EndFieldPS
             IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
             int port = 30000;
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-
+            new Thread(new ThreadStart(CmdListener)).Start();
             try
             {
                 serverSocket.Bind(new IPEndPoint(ipAddress, port));
@@ -124,6 +124,26 @@ namespace EndFieldPS
                 serverSocket.Close();
                 Print("Server stopped.");
             }
+
+        }
+        public void CmdListener()
+        {
+            while (true)
+            {
+                try
+                {
+                    string cmd = Console.ReadLine()!;
+                    string[] split = cmd.Split(" ");
+                    string[] args = cmd.Split(" ").Skip(1).ToArray();
+                    string command = split[0].ToLower();
+                    CommandManager.Notify(command, args);
+                }
+                catch (Exception ex)
+                {
+                    Print(ex.Message);
+                }
+
+            } 
 
         }
         public void DispatchServer()
