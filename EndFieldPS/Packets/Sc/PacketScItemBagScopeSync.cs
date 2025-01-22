@@ -22,6 +22,7 @@ namespace EndFieldPS.Packets.Sc
                     GridLimit = 30,
 
                 },
+                
                 ScopeName = 1,
                 Depot = 
                 { 
@@ -35,17 +36,42 @@ namespace EndFieldPS.Packets.Sc
 
                             }
                         } 
+                    },
+                    {(int)ItemValuableDepotType.SpecialItem,
+                        new ScdItemDepot()
+                        {
+                            
+                        }
+                    },
+                    {(int)ItemValuableDepotType.CommercialItem,
+                        new ScdItemDepot()
+                        {
+
+                        }
+                    },
+                    {(int)ItemValuableDepotType.Factory,
+                        new ScdItemDepot()
+                        {
+
+                        }
                     }
-                
+
                 }
 
             };
-            client.inventoryManager.weapons.ForEach(w => {
-
+            client.inventoryManager.weapons.ForEach(w => 
+            {
                 proto.Depot[1].InstList.Add(w.ToProto());
-                Console.WriteLine(w.ToString());
+            });
 
-                });
+            client.inventoryManager.items.ForEach(i =>
+            {
+                if (proto.Depot.ContainsKey((int)i.ItemType) && i.ItemType != ItemValuableDepotType.Equip && i.ItemType != ItemValuableDepotType.WeaponGem)
+                {
+                    proto.Depot[(int)i.ItemType].StackableItems.Add(i.id,i.amount);
+                    
+                }
+            });
             Server.Print(proto.ToString());
             SetData(ScMessageId.ScItemBagScopeSync, proto);
         }

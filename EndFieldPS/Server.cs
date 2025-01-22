@@ -85,32 +85,23 @@ namespace EndFieldPS
             // showLogs = false;
             Print($"Logs are {(showLogs ? "enabled" : "disabled")}");
             Server.config = config;
-            //Resource Manager todo
             ResourceManager.Init();
             new Thread(new ThreadStart(DispatchServer)).Start();
             Initialized = true;
             IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
             int port = 30000;
-
-            // Crea il socket del server
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
             try
             {
-                // Associa il socket all'indirizzo IP e alla porta
                 serverSocket.Bind(new IPEndPoint(ipAddress, port));
-
-                // Avvia l'ascolto delle connessioni
-                serverSocket.Listen(10); // Fino a 10 connessioni in coda
-                Console.WriteLine($"Server in ascolto su {ipAddress}:{port}");
+                serverSocket.Listen(10);
+                Print($"Server listening on {ipAddress}:{port}");
 
                 while (true)
                 {
-                    Console.WriteLine("In attesa di connessioni...");
-
-                    // Accetta una connessione in arrivo
                     Socket clientSocket = serverSocket.Accept();
-                    Console.WriteLine("Client connesso!");
+                    
                     if (clientSocket.Connected)
                     {
                         EndminPlayer client = new EndminPlayer(clientSocket);
@@ -125,13 +116,13 @@ namespace EndFieldPS
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Errore: {ex.Message}");
+                Print($"Error: {ex.Message}");
             }
             finally
             {
                 // Arresta il server
                 serverSocket.Close();
-                Console.WriteLine("Server arrestato.");
+                Print("Server stopped.");
             }
 
         }

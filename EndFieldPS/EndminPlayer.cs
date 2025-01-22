@@ -76,6 +76,18 @@ namespace EndFieldPS
             {
                 chars.Add(new Character(roleId,item.Key,20));
             }
+            foreach(var item in itemTable)
+            {
+                if(item.Value.maxStackCount == -1)
+                {
+                    inventoryManager.items.Add(new Item(roleId, item.Value.id, 10000000));
+                }
+                else
+                {
+                    inventoryManager.items.Add(new Item(roleId, item.Value.id, item.Value.maxStackCount));
+                }
+                
+            }
             teams.Add(new Team()
             {
                 leader = chars[0].guid,

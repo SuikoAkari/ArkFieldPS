@@ -42,6 +42,13 @@ namespace EndFieldPS.Resource
         Daily = 1,
         AdventureBook = 2
     }
+    public enum ItemStorageSpace // TypeDefIndex: 33575
+    {
+        None = 0,
+        Isolate = 1,
+        ValuableDepot = 2,
+        BagAndFactoryDepot = 3
+    }
     public enum ItemValuableDepotType : int // TypeDefIndex: 33573
     {
         Invalid = 0, //

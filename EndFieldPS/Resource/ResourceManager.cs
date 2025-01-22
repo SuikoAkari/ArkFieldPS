@@ -25,6 +25,9 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, GameMechanicTable> gameMechanicTable = new();
         public static Dictionary<string, WeaponBasicTable> weaponBasicTable= new();
         public static Dictionary<string, BlocDataTable> blocDataTable = new();
+        public static Dictionary<string, ItemTable> itemTable = new();
+        public static Dictionary<string, DomainDataTable> domainDataTable = new();
+        public static Dictionary<string, CollectionTable> collectionTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -52,9 +55,15 @@ namespace EndFieldPS.Resource
             weaponBasicTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponBasicTable>>(File.ReadAllText("Excel/WeaponBasicTable.json"));
             missionAreaTable = JsonConvert.DeserializeObject<MissionAreaTable>(File.ReadAllText("Json/GameplayConfig/MissionAreaTable.json"));
             blocDataTable = JsonConvert.DeserializeObject<Dictionary<string, BlocDataTable>>(File.ReadAllText("Excel/BlocDataTable.json"));
+            itemTable = JsonConvert.DeserializeObject<Dictionary<string, ItemTable>>(File.ReadAllText("Excel/ItemTable.json"));
+            domainDataTable = JsonConvert.DeserializeObject<Dictionary<string, DomainDataTable>>(File.ReadAllText("Excel/DomainDataTable.json"));
+            collectionTable = JsonConvert.DeserializeObject<Dictionary<string, CollectionTable>>(File.ReadAllText("Excel/CollectionTable.json"));
             LoadLevelDatas();
         }
-
+        public static ItemTable GetItemTable(string id)
+        {
+            return itemTable[id];
+        }
         public static LevelData GetLevelData(int sceneNumId)
         {
            return levelDatas.Find(e => e.idNum == sceneNumId);
@@ -185,10 +194,28 @@ namespace EndFieldPS.Resource
             public string sceneId;
             public int areaIndex;
         }
+        public class ItemTable
+        {
+            public ItemValuableDepotType valuableTabType;
+            public string id;
+            public int maxStackCount;
+            public bool backpackCanDiscard;
+        }
         public class WeaponBasicTable
         {
             public int weaponType;
             public string weaponId;
+        }
+        public class DomainDataTable
+        {
+            public string domainId;
+            public int sortId;
+            public List<string> levelGroup;
+            public List<string> settlementGroup;
+        }
+        public class CollectionTable
+        {
+            public string prefabId;
         }
         public class CharacterTable
         {

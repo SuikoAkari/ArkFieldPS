@@ -27,19 +27,30 @@ namespace EndFieldPS.Packets.Cs
                 ServerTs = (ulong)DateTime.UtcNow.Ticks,
             }));
 
-            /*session.Send(Packet.EncodePacket((int)ScMessageId.ScFactoryHs, new ScFactoryHs()
+            session.Send(Packet.EncodePacket((int)ScMessageId.ScFactoryHs, new ScFactoryHs()
             {
                 Blackboard = new()
                 {
                     Power = new()
                     {
-                        
+                        PowerSaveCurrent=100,
+                        PowerSaveMax=200,
+                        PowerGenLastSec=2,
+                        PowerCostSum=1
                     },
                     
                 },
-                
+                ChapterId="domain_02",
+                FbList =
+                {
+   
+                },
+                CtList =
+                {
+    
+                },
                 Tms= DateTime.UtcNow.Ticks,
-            }));*/
+            }));
         }
        
     }
