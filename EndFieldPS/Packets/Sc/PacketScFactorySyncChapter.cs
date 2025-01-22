@@ -14,7 +14,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScFactorySyncChapter : Packet
     {
 
-        public PacketScFactorySyncChapter(EndminPlayer client, string chapterId) {
+        public PacketScFactorySyncChapter(Player client, string chapterId) {
 
             
             ScFactorySyncChapter chapter = new()

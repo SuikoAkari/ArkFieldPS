@@ -13,7 +13,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScGameMechanicsSync : Packet
     {
 
-        public PacketScGameMechanicsSync(EndminPlayer client) {
+        public PacketScGameMechanicsSync(Player client) {
 
             ScGameMechanicsSync mechanics = new()
             {

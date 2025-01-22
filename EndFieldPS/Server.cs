@@ -33,7 +33,7 @@ namespace EndFieldPS
             {
                 this.CmdId = cmdID;
             }
-            public delegate void HandlerDelegate(EndminPlayer client, int cmdId, Network.Packet packet);
+            public delegate void HandlerDelegate(Player client, int cmdId, Network.Packet packet);
         }
         public class CommandAttribute : Attribute
         {
@@ -47,10 +47,9 @@ namespace EndFieldPS
             }
             public delegate void HandlerDelegate(string command, string[] args);
         }
-        public static List<EndminPlayer> clients = new List<EndminPlayer>();
-        public static string ServerVersion = "1.0.0";
+        public static List<Player> clients = new List<Player>();
+        public static string ServerVersion = "1.0.1";
         public static bool Initialized = false;
-        public IntPtr server;
         public static bool showLogs = true;
         public static SQLiteConnection _db;
         public static Dispatch dispatch;
@@ -87,24 +86,25 @@ namespace EndFieldPS
             Server.config = config;
             ResourceManager.Init();
             new Thread(new ThreadStart(DispatchServer)).Start();
-            Initialized = true;
-            IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
-            int port = 30000;
+            
+            IPAddress ipAddress = IPAddress.Parse(config.ServerIp);
+            int port = config.LocalPort;
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             new Thread(new ThreadStart(CmdListener)).Start();
+            
             try
             {
                 serverSocket.Bind(new IPEndPoint(ipAddress, port));
-                serverSocket.Listen(10);
+                serverSocket.Listen(config.MaxClients);
                 Print($"Server listening on {ipAddress}:{port}");
-
+                Initialized = true;
                 while (true)
                 {
                     Socket clientSocket = serverSocket.Accept();
                     
                     if (clientSocket.Connected)
                     {
-                        EndminPlayer client = new EndminPlayer(clientSocket);
+                        Player client = new Player(clientSocket);
                         clients.Add(client);
                         client.receivorThread.Start();
 

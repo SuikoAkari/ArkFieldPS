@@ -25,7 +25,7 @@ namespace EndFieldPS.Packets.Cs
     public class HandleCsSceneLoadFinish
     {
         [Server.Handler(CsMessageId.CsSceneLoadFinish)]
-        public static void HandleSceneFinish(EndminPlayer session, CsMessageId cmdId, Packet packet)
+        public static void HandleSceneFinish(Player session, CsMessageId cmdId, Packet packet)
         {
             CsSceneLoadFinish req = packet.DecodeBody<CsSceneLoadFinish>();
 

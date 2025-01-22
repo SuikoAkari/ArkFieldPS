@@ -19,7 +19,7 @@ namespace EndFieldPS.Packets.Cs
     {
 
         [Server.Handler(CsMessageId.CsCharBagSetTeamLeader)]
-        public static void Handle(EndminPlayer session, CsMessageId cmdId, Packet packet)
+        public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsCharBagSetTeamLeader req = packet.DecodeBody<CsCharBagSetTeamLeader>();
 

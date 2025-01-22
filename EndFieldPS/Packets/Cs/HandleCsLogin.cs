@@ -1,4 +1,5 @@
 ﻿using BeyondTools.VFS.Crypto;
+using EndFieldPS.Game;
 using EndFieldPS.Network;
 using EndFieldPS.Packets.Sc;
 using EndFieldPS.Protocol;
@@ -25,25 +26,67 @@ namespace EndFieldPS.Packets.Cs
     public class HandleCsLogin
     {
         [Server.Handler(CsMessageId.CsCreateRole)]
-        public static void HandleCsCreateRole(EndminPlayer session, CsMessageId cmdId, Packet packet)
+        public static void HandleCsCreateRole(Player session, CsMessageId cmdId, Packet packet)
         {
             CsCreateRole req = packet.DecodeBody<CsCreateRole>();
+
             
+        }
+        [Server.Handler(CsMessageId.CsLogin)]
+        public static void Handle(Player session, CsMessageId cmdId, Packet packet)
+        {
+            CsLogin req = packet.DecodeBody<CsLogin>();
+            session.Initialize();
+            ScLogin rsp = new()
+            {
+                IsEnc = false,
+                Uid = req.Uid,
+                IsFirstLogin = false,
+                IsReconnect=false,
+                LastRecvUpSeqid = packet.csHead.UpSeqid,
+                
+            };
+            byte[] encKey = GenerateRandomBytes(32);
+            string serverPublicKeyPem = req.ClientPublicKey.ToStringUtf8();
+            byte[] serverPublicKey = ConvertPemToBytes(serverPublicKeyPem);
+            byte[] encryptedEncKey = EncryptWithRsa(encKey, serverPublicKey);
+            byte[] serverEncrypNonce = GenerateRandomBytes(12);
+           // rsp.ServerEncrypNonce = ByteString.CopyFrom(serverEncrypNonce);
+          //  rsp.ServerPublicKey = ByteString.CopyFrom(encryptedEncKey);
+       
+            CSChaCha20 cipher = new CSChaCha20(encKey, serverEncrypNonce, 1);
+            if (req.ClientVersion == GameConstants.GAME_VERSION)
+            {
+                session.Send(ScMessageId.ScLogin, rsp);
+            }
+            else
+            {
+                session.Send(ScMessageId.ScNtfErrorCode, new ScNtfErrorCode()
+                {
+                    Details="Unsupported client version",
+                    ErrorCode=-1
+                });
+                session.Disconnect();
+                return;
+            }
+            
+
             session.Send(new PacketScSyncBaseData(session));
             ScItemBagCommonSync common = new()
             {
                 LostAndFound =
                 {
-                    
-                }
+
+                },
+
             };
-            
+
             session.Send(ScMessageId.ScItemBagCommonSync, common);
             session.Send(new PacketScItemBagScopeSync(session));
             session.Send(new PacketScSyncCharBagInfo(session));
             ScSyncAllUnlock unlock = new()
             {
-                
+
             };
             foreach (var item in gameSystemConfigTable)
             {
@@ -55,7 +98,7 @@ namespace EndFieldPS.Packets.Cs
             }
             foreach (UnlockSystemType unlockType in System.Enum.GetValues(typeof(UnlockSystemType)))
             {
-               // unlock.UnlockSystems.Add((int)unlockType);
+                // unlock.UnlockSystems.Add((int)unlockType);
             }
             unlock.UnlockSystems.Add((int)UnlockSystemType.Watch);
             unlock.UnlockSystems.Add((int)UnlockSystemType.Weapon);
@@ -84,17 +127,17 @@ namespace EndFieldPS.Packets.Cs
             unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
             unlock.UnlockSystems.Add((int)UnlockSystemType.FacBUS);
             unlock.UnlockSystems.Add((int)UnlockSystemType.PRTS);
-            
+
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
 
             {
                 CollectionList =
                 {
-                    
+
                 },
-                
+
             };
-            
+
             foreach (var item in ResourceManager.levelDatas)
             {
                 foreach (var item1 in collectionTable)
@@ -106,9 +149,9 @@ namespace EndFieldPS.Packets.Cs
                         SceneName = item.id
                     });
                 }
-                
+
             }
-            
+
             session.Send(ScMessageId.ScSceneCollectionSync, collection);
             ScSyncAllMission missions = new()
             {
@@ -118,51 +161,25 @@ namespace EndFieldPS.Packets.Cs
             {
 
             };
-            for(int cVar=1; cVar<=38; cVar++)
+            for (int cVar = 1; cVar <= 38; cVar++)
             {
                 GameVars.ClientVars.Add(cVar, 1);
             }
-            for (int sVar= 1; sVar <= 50; sVar++)
+            for (int sVar = 1; sVar <= 50; sVar++)
             {
                 GameVars.ServerVars.Add(sVar, 1);
             }
-            
+
             ScAdventureSyncAll adventure = new()
             {
                 Exp = 0,
                 Level = 20,
             };
-           
-            foreach (var item in blocMissionTable)
-            {
-                missions.Missions.Add(item.Key,new Mission()
-                {
-                    MissionId=item.Value.missionId,
-                    MissionState=(int)MissionState.Completed,
-                    
-                });
-            }
-            foreach (var item in missionAreaTable.m_areas)
-            {
-                foreach (var m in item.Value)
-                {
-                    if (!missions.Missions.ContainsKey(m.Key))
-                    {
-                        missions.Missions.Add(m.Key, new Mission()
-                        {
-                            MissionId = m.Key,
-                            MissionState = (int)MissionState.Completed,
-                            
-                        });
-                    }
-                    
-                }
-                
-            }
+
             ScSyncGameMode gameMode = new()
             {
                 ModeId = "Default",
-                
+
             };
             ScGachaSync gacha = new ScGachaSync()
             {
@@ -178,36 +195,36 @@ namespace EndFieldPS.Packets.Cs
             {
                 gacha.CharGachaPool.GachaPoolInfos.Add(new ScdGachaPoolInfo()
                 {
-                    GachaPoolId=item.Value.id,
-                    
+                    GachaPoolId = item.Value.id,
+
                 });
             }
             session.Send(ScMessageId.ScGachaSync, gacha);
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
             {
-                LastTickTime= DateTime.UtcNow.Ticks,
-                
+                LastTickTime = DateTime.UtcNow.Ticks,
+
             };
             int stid = 0;
             foreach (var item in settlementBasicDataTable)
             {
                 settlements.Settlements.Add(new Settlement()
                 {
-                    Level=1,
-                    SettlementId=item.Value.settlementId,
-                    RequireId= "item_plant_grass_powder_2",
-                    Exp=1,
+                    Level = 1,
+                    SettlementId = item.Value.settlementId,
+                    RequireId = "item_plant_grass_powder_2",
+                    Exp = 1,
                     Reports =
                     {
-                        
+
                     },
-                    UnlockTs =DateTime.UtcNow.Ticks,
-                    AutoSubmit=false,
+                    UnlockTs = DateTime.UtcNow.Ticks,
+                    AutoSubmit = false,
                     LastManualSubmitTime = DateTime.UtcNow.Ticks,
-                    
+
                     OfficerCharTemplateId = characterTable.Values.ToList()[stid].charId,
-                    
-                    
+
+
                 });
                 stid++;
             }
@@ -221,12 +238,12 @@ namespace EndFieldPS.Packets.Cs
                         Type=44,
                         Value =
                         {
-                            
+
                         }
                     }
                 }
             };
-            
+
             session.Send(new PacketScSyncAllRoleScene(session));
             session.Send(ScMessageId.ScSettlementSyncAll, settlements);
             session.Send(new PacketScGameMechanicsSync(session));
@@ -240,10 +257,14 @@ namespace EndFieldPS.Packets.Cs
                 SceneStaticMapMarkList =
                 {
 
+                },
+                TrackPoint = new()
+                {
+
                 }
             };
-            
-            for(int i=0; i <= 28; i++)
+
+            for (int i = 0; i <= 28; i++)
             {
                 mapMarks.SceneStaticMapMarkList.Add(new SceneStaticMapMark()
                 {
@@ -256,14 +277,14 @@ namespace EndFieldPS.Packets.Cs
             {
                 FormulaMan = new()
                 {
-                    
+
                 },
                 Stt = new()
                 {
                     Layers =
                     {
                     },
-                    
+
                 }
             };
             session.Send(ScMessageId.ScFactorySync, fsync);
@@ -271,7 +292,7 @@ namespace EndFieldPS.Packets.Cs
             {
                 BookMark = new()
                 {
-                    
+
                 },
                 ScopeName = 1,
                 Quickbars =
@@ -293,27 +314,27 @@ namespace EndFieldPS.Packets.Cs
                         }
                     }
                 },
-                
+
                 TransportRoute = new()
                 {
                     UpdateTs = DateTime.UtcNow.Ticks + 100000000,
                     Routes =
                     {
-                        
+
                     },
-                    
+
                 },
                 CurrentChapterId = "domain_1",
             });
             session.Send(new PacketScFactorySyncChapter(session, "domain_1"));
             session.Send(new PacketScFactorySyncChapter(session, "domain_2"));
-           
-            
-           
+
+
+
             ScSyncFullDungeonStatus dst = new()
             {
-                CurStamina=200,
-                MaxStamina=200,
+                CurStamina = 200,
+                MaxStamina = 200,
 
             };
             session.Send(ScMessageId.ScSyncFullDungeonStatus, dst);
@@ -327,57 +348,18 @@ namespace EndFieldPS.Packets.Cs
                         Type=0,
                         ControlCenter = new()
                         {
-                            
+
                         },
                         Level=1,
-                        
+
                     }
                 },
 
             });
-            ScSceneUnlockArea t = new()
-            {
-                AreaId = "areaId501",
-                SceneNumId = 34,
 
-            };
-            session.Send(ScMessageId.ScSceneUnlockArea, t);
-            
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene(98); //101
-            
-        }
-        [Server.Handler(CsMessageId.CsLogin)]
-        public static void Handle(EndminPlayer session, CsMessageId cmdId, Packet packet)
-        {
-            CsLogin req = packet.DecodeBody<CsLogin>();
-            session.Initialize();
-            ScLogin rsp = new()
-            {
-                IsEnc = false,
-                Uid = req.Uid,
-                IsFirstLogin = true,
-                IsReconnect=false,
-               // LastRecvUpSeqid =
-               // packet.csHead.UpSeqid,
-            };
-            byte[] encKey = GenerateRandomBytes(32);
 
-            string serverPublicKeyPem = req.ClientPublicKey.ToStringUtf8();
-            byte[] serverPublicKey = ConvertPemToBytes(serverPublicKeyPem);
-
-   
-            byte[] encryptedEncKey = EncryptWithRsa(encKey, serverPublicKey);
-
-
-            byte[] serverEncrypNonce = GenerateRandomBytes(12);
-           // rsp.ServerEncrypNonce = ByteString.CopyFrom(serverEncrypNonce);
-          //  rsp.ServerPublicKey = ByteString.CopyFrom(encryptedEncKey);
-       
-            CSChaCha20 cipher = new CSChaCha20(encKey, serverEncrypNonce, 1);
-            session.Send(Packet.EncodePacket((int)ScMessageId.ScLogin, rsp));
-           
-            
         }
         static byte[] GenerateRandomBytes(int length)
         {

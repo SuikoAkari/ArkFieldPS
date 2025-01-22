@@ -18,7 +18,7 @@ namespace EndFieldPS.Packets.Cs
     {
 
         [Server.Handler(CsMessageId.CsPing)]
-        public static void Handle(EndminPlayer session, CsMessageId cmdId, Packet packet)
+        public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsPing req = packet.DecodeBody<CsPing>();
             session.Send(Packet.EncodePacket((int)ScMessageId.ScPing, new ScPing()

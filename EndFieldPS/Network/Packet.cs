@@ -143,7 +143,7 @@ namespace EndFieldPS.Network
             
             return data;
         }
-        public static Packet Read(EndminPlayer client,byte[] byteArray)
+        public static Packet Read(Player client,byte[] byteArray)
         {
             byte headLength = GetByte(byteArray, 0);
             ushort bodyLength = GetUInt16(byteArray, 1);

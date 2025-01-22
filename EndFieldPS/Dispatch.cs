@@ -1,4 +1,5 @@
-﻿using Google.Protobuf.WellKnownTypes;
+﻿using EndFieldPS.Game;
+using Google.Protobuf.WellKnownTypes;
 using HttpServerLite;
 using MongoDB.Bson.IO;
 using SQLite;
@@ -30,15 +31,15 @@ namespace EndFieldPS
         }
         public void Start()
         {
-            server = new Webserver("127.0.0.1", 5000, false, null, null, DefaultRoute);
-            server.Settings.Headers.Host = "http://localhost:5000";
+            server = new Webserver(Server.config.DispatchIp, Server.config.DispatchPort, false, null, null, DefaultRoute);
+            server.Settings.Headers.Host = "http://"+ Server.config.DispatchIp + ":"+ Server.config.DispatchPort;
             server.Events.ResponseSent += Events_ResponseSent;
             server.Events.RequestReceived += Events_RequestReceived;
             server.Events.RequestDenied += Events_RequestDenied;
             server.Events.ConnectionReceived += Events_ConnectionReceived;
      
             server.Start();
-            Print("Dispatch started on port :5000");
+            Print($"Dispatch started on {Server.config.DispatchIp}:{Server.config.DispatchPort}");
         }
 
         private void Events_ConnectionReceived(object? sender, ConnectionEventArgs e)
@@ -64,7 +65,7 @@ namespace EndFieldPS
         static async Task DefaultRoute(HttpContext ctx)
         {
             byte[] resp;
-            string curVer = "138541";
+            string curVer = "EndField PS";
             resp = System.Text.Encoding.UTF8.GetBytes(curVer);
            
                 ctx.Response.StatusCode = 200;
@@ -90,7 +91,8 @@ namespace EndFieldPS
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/game/get_latest")]
         public static async Task get_latest(HttpContext ctx)
         {
-            string resp = "{\"action\":0,\"version\":\"0.5.27\",\"request_version\":\"0.5.27\",\"pkg\":{\"packs\":[],\"total_size\":\"0\",\"file_path\":\"https://beyond.hg-cdn.com/uXUuLlNbIYmMMTlN/0.5/update/6/1/Windows/0.5.27_giZSjog2kEjxXjPh/files\",\"url\":\"\",\"md5\":\"\",\"package_size\":\"0\",\"file_id\":\"0\",\"sub_channel\":\"\"},\"patch\":null}";
+            string requestVersion = ctx.Request.Query.Elements["version"];
+            string resp = "{\"action\":0,\"version\":\""+GameConstants.GAME_VERSION+"\",\"request_version\":\""+requestVersion+"\",\"pkg\":{\"packs\":[],\"total_size\":\"0\",\"file_path\":\"" +GameConstants.GAME_VERSION_ASSET_URL+ "\",\"url\":\"\",\"md5\":\"\",\"package_size\":\"0\",\"file_id\":\"0\",\"sub_channel\":\"\"},\"patch\":null}";
 
             ctx.Response.StatusCode = 200;
             ctx.Response.ContentLength = resp.Length;
@@ -219,7 +221,7 @@ namespace EndFieldPS
         {
             string requestBody = ctx.Request.DataAsString;
             Console.WriteLine(requestBody);
-            string resp = "{\"addr\": \"127.0.0.1\", \"port\": 30000}";
+            string resp = "{\"addr\": \""+Server.config.ServerIp+"\", \"port\": "+Server.config.LocalPort+"}";
 
 
 

@@ -8,9 +8,11 @@ namespace EndFieldPS
 {
     public class ConfigFile
     {
-        public string LocalIp = "127.0.0.1";
+        public string ServerIp = "127.0.0.1";
         public int LocalPort = 30000;
+        public int DispatchPort = 5000;
+        public string DispatchIp = "127.0.0.1";
         public int MaxClients = 20;
-        public bool QuestEnabled = false;
+        public bool QuestEnabled = false; 
     }
 }
