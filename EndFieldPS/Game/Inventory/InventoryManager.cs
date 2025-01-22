@@ -8,10 +8,10 @@ namespace EndFieldPS.Game.Inventory
 {
     public class InventoryManager
     {
-        public EndminPlayer owner;
+        public Player owner;
         public List<Weapon> weapons= new List<Weapon>();
         public List<Item> items= new List<Item>();
-        public InventoryManager(EndminPlayer o) {
+        public InventoryManager(Player o) {
 
             owner = o;
         

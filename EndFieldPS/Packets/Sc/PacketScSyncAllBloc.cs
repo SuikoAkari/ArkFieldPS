@@ -13,7 +13,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScSyncAllBloc : Packet
     {
 
-        public PacketScSyncAllBloc(EndminPlayer client) {
+        public PacketScSyncAllBloc(Player client) {
 
             ScSyncAllBloc allblocks = new()
             {

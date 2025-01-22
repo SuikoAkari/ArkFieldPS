@@ -39,7 +39,7 @@ namespace EndFieldPS.Game.Inventory
                 
             };
         }
-        public EndminPlayer GetOwner()
+        public Player GetOwner()
         {
             return Server.clients.Find(c => c.roleId == this.owner);
         }
@@ -87,7 +87,7 @@ namespace EndFieldPS.Game.Inventory
                 }
             };
         }
-        public EndminPlayer GetOwner()
+        public Player GetOwner()
         {
             return Server.clients.Find(c => c.roleId == this.owner);
         }

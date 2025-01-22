@@ -12,7 +12,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScEnterSceneNotify : Packet
     {
 
-        public PacketScEnterSceneNotify(EndminPlayer client, int sceneNumId = 21) {
+        public PacketScEnterSceneNotify(Player client, int sceneNumId = 21) {
 
             ScEnterSceneNotify proto = new ScEnterSceneNotify()
             {

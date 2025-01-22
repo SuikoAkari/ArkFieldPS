@@ -14,7 +14,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScSelfSceneInfo : Packet
     {
 
-        public PacketScSelfSceneInfo(EndminPlayer session, bool isTeamSpawn=false) {
+        public PacketScSelfSceneInfo(Player session, bool isTeamSpawn=false) {
             if (isTeamSpawn)
             {
                 ScSelfSceneInfo sceneInfo = new()

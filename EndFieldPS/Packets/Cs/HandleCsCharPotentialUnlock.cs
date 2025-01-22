@@ -20,7 +20,7 @@ namespace EndFieldPS.Packets.Cs
     {
 
         [Server.Handler(CsMessageId.CsCharPotentialUnlock)]
-        public static void Handle(EndminPlayer session, CsMessageId cmdId, Packet packet)
+        public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsCharPotentialUnlock req = packet.DecodeBody<CsCharPotentialUnlock>();
             

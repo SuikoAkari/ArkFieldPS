@@ -41,7 +41,7 @@ namespace EndFieldPS
         }
     }
 
-    public class EndminPlayer
+    public class Player
     {
         public class Team
         {
@@ -62,7 +62,7 @@ namespace EndFieldPS
         public int teamIndex = 0;
         public List<Team> teams= new List<Team>();  
 
-        public EndminPlayer(Socket socket)
+        public Player(Socket socket)
         {
             this.socket = socket;
             roleId = (ulong)new Random().Next();
@@ -175,6 +175,11 @@ namespace EndFieldPS
 
 
             //client.Disconnect();
+        }
+
+        internal void Disconnect()
+        {
+           // throw new NotImplementedException();
         }
     }
 }

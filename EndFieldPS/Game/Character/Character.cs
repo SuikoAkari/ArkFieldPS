@@ -37,7 +37,7 @@ namespace EndFieldPS.Game.Character
             this.curHp = ResourceManager.characterTable[id].attributes[level].Attribute.attrs.Find(A => A.attrType == (int)AttributeType.MaxHp).attrValue;
         }
 
-        public EndminPlayer GetOwner()
+        public Player GetOwner()
         {
             return Server.clients.Find(c=>c.roleId == this.owner); 
         }

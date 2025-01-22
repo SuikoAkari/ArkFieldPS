@@ -20,7 +20,7 @@ namespace EndFieldPS.Packets.Cs
     {
 
         [Server.Handler(CsMessageId.CsGachaTenPullReq)]
-        public static void Handle(EndminPlayer session, CsMessageId cmdId, Packet packet)
+        public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsGachaTenPullReq req = packet.DecodeBody<CsGachaTenPullReq>();
             

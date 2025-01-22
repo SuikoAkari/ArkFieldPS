@@ -13,7 +13,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScSyncCharBagInfo : Packet
     {
 
-        public PacketScSyncCharBagInfo(EndminPlayer client) {
+        public PacketScSyncCharBagInfo(Player client) {
 
             ScSyncCharBagInfo proto = new()
             {

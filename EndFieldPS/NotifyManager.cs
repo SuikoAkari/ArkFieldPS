@@ -30,7 +30,7 @@
 
                     var parameterInfo = method.GetParameters();
 
-                    var sessionParameter = Expression.Parameter(typeof(EndminPlayer));
+                    var sessionParameter = Expression.Parameter(typeof(Player));
                     var cmdIdParameter = Expression.Parameter(typeof(int));
                     var packetParameter = Expression.Parameter(typeof(Packet));
 
@@ -48,7 +48,7 @@
             s_notifyReqGroup = handlers.ToImmutable();
         }
 
-        public static void Notify(EndminPlayer session, CsMessageId cmdId, Network.Packet packet)
+        public static void Notify(Player session, CsMessageId cmdId, Network.Packet packet)
         {
             if (s_notifyReqGroup.TryGetValue(cmdId, out var handler))
             {

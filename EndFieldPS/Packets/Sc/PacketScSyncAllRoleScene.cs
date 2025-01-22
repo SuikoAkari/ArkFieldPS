@@ -13,7 +13,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScSyncAllRoleScene : Packet
     {
 
-        public PacketScSyncAllRoleScene(EndminPlayer client) {
+        public PacketScSyncAllRoleScene(Player client) {
 
             ScSyncAllRoleScene role = new ScSyncAllRoleScene()
             {
