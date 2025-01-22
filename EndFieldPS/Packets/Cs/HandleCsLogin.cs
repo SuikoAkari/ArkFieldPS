@@ -34,7 +34,7 @@ namespace EndFieldPS.Packets.Cs
             {
                 LostAndFound =
                 {
-
+                    
                 }
             };
             
@@ -43,7 +43,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScSyncCharBagInfo(session));
             ScSyncAllUnlock unlock = new()
             {
-
+                
             };
             foreach (var item in gameSystemConfigTable)
             {
@@ -55,7 +55,7 @@ namespace EndFieldPS.Packets.Cs
             }
             foreach (UnlockSystemType unlockType in System.Enum.GetValues(typeof(UnlockSystemType)))
             {
-              
+               // unlock.UnlockSystems.Add((int)unlockType);
             }
             unlock.UnlockSystems.Add((int)UnlockSystemType.Watch);
             unlock.UnlockSystems.Add((int)UnlockSystemType.Weapon);
@@ -72,23 +72,39 @@ namespace EndFieldPS.Packets.Cs
             unlock.UnlockSystems.Add((int)UnlockSystemType.Friend);
             unlock.UnlockSystems.Add((int)UnlockSystemType.SNS);
             unlock.UnlockSystems.Add((int)UnlockSystemType.Settlement);
-
+            unlock.UnlockSystems.Add((int)UnlockSystemType.Map);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.FacZone);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.FacHub);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.DungeonFactory);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.FacSystem);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.FacTransferPort);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.FacMode);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.FacOverview);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipSystem);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
+
             {
                 CollectionList =
                 {
+                    
                 },
                 
             };
             
             foreach (var item in ResourceManager.levelDatas)
             {
-                collection.CollectionList.Add(new SceneCollection()
+                foreach (var item1 in collectionTable)
                 {
-                    Count = 1,
-                    PrefabId = item.id,
-                    SceneName = item.id
-                });
+                    collection.CollectionList.Add(new SceneCollection()
+                    {
+                        Count = 1,
+                        PrefabId = item1.Value.prefabId,
+                        SceneName = item.id
+                    });
+                }
+                
             }
             
             session.Send(ScMessageId.ScSceneCollectionSync, collection);
@@ -150,12 +166,20 @@ namespace EndFieldPS.Packets.Cs
                         Grade = 1,
                         LastDownTs=DateTime.UtcNow.Ticks,
                         SceneNumId = ResourceManager.GetLevelData(item.Value.sceneId).idNum,
+                        
                     });
 
                 }
                 else
                 {
                     info.UnlockAreaId.Add(item.Value.areaId);
+                    role.SceneGradeInfo.Add(new SceneGradeInfo()
+                    {
+                        Grade = 1,
+                        LastDownTs = DateTime.UtcNow.Ticks,
+                        SceneNumId = ResourceManager.GetLevelData(item.Value.sceneId).idNum,
+
+                    });
                 }
             }
             role.UnlockAreaInfo.AddRange(areas);
@@ -202,7 +226,8 @@ namespace EndFieldPS.Packets.Cs
                 {
                     Exp=0,
                     Level=1,
-                    Blocid=region.Value.blocId
+                    Blocid=region.Value.blocId,
+                    
                 });
             }
             ScGameMechanicsSync mechanics = new()
@@ -235,33 +260,27 @@ namespace EndFieldPS.Packets.Cs
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
             {
                 LastTickTime= DateTime.UtcNow.Ticks,
+                
             };
+            int stid = 0;
             foreach (var item in settlementBasicDataTable)
             {
                 settlements.Settlements.Add(new Settlement()
                 {
                     Level=1,
                     SettlementId=item.Value.settlementId,
-                    UnlockTs=DateTime.UtcNow.Ticks,
+                    
+                    UnlockTs=DateTime.UtcNow.Ticks+1000000,
                     AutoSubmit=false,
-                    OfficerCharTemplateId = characterTable.Values.ToList()[0].charId,
+                    LastManualSubmitTime = DateTime.UtcNow.Ticks,
+                    
+                    OfficerCharTemplateId = characterTable.Values.ToList()[stid].charId,
                     
                 });
+                stid++;
             }
-            ScSyncAllStat stat = new()
-            {
-                StatsInfo =
-                {
-                    new StatInfo()
-                    {
-                        
-                    }
-                }
-            };
-            session.Send(ScMessageId.ScSpaceshipSync, new ScSpaceshipSync()
-            {
-                
-            });
+
+            
             
             session.Send(ScMessageId.ScSettlementSyncAll, settlements);
             session.Send(ScMessageId.ScGameMechanicsSync, mechanics);
@@ -272,48 +291,107 @@ namespace EndFieldPS.Packets.Cs
             session.Send(ScMessageId.ScSyncAllMission, missions);
             
             session.Send(ScMessageId.ScAdventureSyncAll, adventure);
-            session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
-            session.Send(ScMessageId.ScFactoryHsSync, new ScFactoryHsSync()
+            ScFactorySync fsync = new()
             {
-                Blackboard = new()
+                Stt = new()
                 {
-                    Power = new()
+                    Layers =
                     {
-                        
+                        new ScdFactorySttLayer()
+                        {
+                            State=1,
+                            Id="map02_lv001",
+                            
+                        }
                     },
                     
                 },
-                CcList =
+                FormulaMan = new()
                 {
-        
-                },
-                
 
-            });
+                },
+
+            };
+            session.Send(ScMessageId.ScFactorySync, fsync);
             session.Send(ScMessageId.ScFactorySyncScope, new ScFactorySyncScope()
             {
-                BookMark = new(),
-                ScopeName=1,
+                BookMark = new()
+                {
+                    
+                },
+                ScopeName = 1,
+                Quickbars =
+                {
+                    new ScdFactorySyncQuickbar()
+                    {
+                        Type=0,
+
+                    }
+                },
                 
                 TransportRoute = new()
                 {
+                    UpdateTs = DateTime.UtcNow.Ticks + 100000000,
+                    Routes =
+                    {
+                        new ScdFactoryHubTransportRoute()
+                        {
+                            ChapterId="domain_1",
+                            Status=1,
+                            Index=0,
+                            TargetChapterId="domain_1",
+                            ItemId="item_weapon_breakthrough_a2",
+                           
+                        },
+                        new ScdFactoryHubTransportRoute()
+                        {
+                            ChapterId="domain_2",
+                            Status=1,
+                            Index=1,
+                            TargetChapterId="domain_2",
+                            Progress=50,
+                            ItemId="item_weapon_breakthrough_a2",
+                        }
+                    },
                     
                 },
-                
-            });
-            session.Send(ScMessageId.ScFactorySyncStatistic, new ScdFactorySyncStatistic()
-            {
-                LastDay = new()
-                {
-                    
-                },
-                Other = new()
-                {
+                CurrentChapterId = "domain_2",
 
-                },
-                
+
             });
+            session.Send(new PacketScFactorySyncChapter(session, "domain_1"));
+            session.Send(new PacketScFactorySyncChapter(session, "domain_2"));
+           
+            
+           
+            ScSyncFullDungeonStatus dst = new()
+            {
+                CurStamina=200,
+                MaxStamina=200,
+
+            };
+            session.Send(ScMessageId.ScSyncFullDungeonStatus, dst);
+            session.Send(ScMessageId.ScSpaceshipSync, new ScSpaceshipSync()
+            {
+                Rooms =
+                {
+                    new ScdSpaceshipRoom()
+                    {
+                        Id="control_center",
+                        Type=0,
+                        ControlCenter = new()
+                        {
+
+                        },
+                        Level=1,
+
+                    }
+                },
+
+            });
+            session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene(101);
+            
         }
         [Server.Handler(CsMessageId.CsLogin)]
         public static void Handle(EndminPlayer session, CsMessageId cmdId, Packet packet)

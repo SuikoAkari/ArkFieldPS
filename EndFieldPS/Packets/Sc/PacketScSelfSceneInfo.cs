@@ -1,5 +1,6 @@
 ﻿using EndFieldPS.Network;
 using EndFieldPS.Protocol;
+using EndFieldPS.Resource;
 using Org.BouncyCastle.Ocsp;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ namespace EndFieldPS.Packets.Sc
                     SceneId = 0,
                     SceneNumId = session.curSceneNumId,
                     SelfInfoReason = 0,
-
+                    
                     TeamInfo = new()
                     {
                         CurLeaderId = session.teams[session.teamIndex].leader,
@@ -36,12 +37,15 @@ namespace EndFieldPS.Packets.Sc
                         TeamIndex = session.teamIndex,
 
                         CharList =
-                   {
+                        {
 
-                   }
+                        }
                     }
                 };
-
+                foreach (var item in ResourceManager.sceneAreaTable)
+                {
+                    sceneInfo.UnlockArea.Add(item.Value.areaId);
+                }
                 session.teams[session.teamIndex].members.ForEach(m =>
                 {
                     sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());

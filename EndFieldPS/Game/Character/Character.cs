@@ -18,6 +18,7 @@ namespace EndFieldPS.Game.Character
         public int xp;
         public ulong owner;
         public double curHp;
+        public uint potential = 0;
         public Character()
         {
 
@@ -113,7 +114,7 @@ namespace EndFieldPS.Game.Character
                     SceneNumId = GetOwner().curSceneNumId,
                     Templateid = id,
                     Type = (int)0,
-
+                    
                 },
                 Attrs =
                 {
@@ -135,19 +136,20 @@ namespace EndFieldPS.Game.Character
         }
         public CharInfo ToProto()
         {
-            CharInfo info=new CharInfo()
+            CharInfo info = new CharInfo()
             {
-                Exp=xp,
-                Level=level,
-                IsDead=curHp <1,
-                
-                Objid=guid,
-                Templateid=id,
-                CharType= CharType.DefaultType,
-                OwnTime=1,
-                NormalSkill = id+"_NormalSkill",
-                WeaponId=weaponGuid,
+                Exp = xp,
+                Level = level,
+                IsDead = curHp < 1,
 
+                Objid = guid,
+                Templateid = id,
+                CharType = CharType.DefaultType,
+                OwnTime = 1,
+                NormalSkill = id + "_NormalSkill",
+                WeaponId = weaponGuid,
+                PotentialLevel = potential,
+                
                 Talent = new()
                 {
                     
