@@ -897,8 +897,5 @@
     <None Remove="WorktopOptionNotify.proto" />
     <None Remove="WorldPlayerReviveReq.proto" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="EndFieldPS - Copia.Protocol.csproj" />
-  </ItemGroup>
  
 </Project>

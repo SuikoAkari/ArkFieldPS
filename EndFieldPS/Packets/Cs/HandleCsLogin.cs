@@ -6,9 +6,6 @@ using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
 using Google.Protobuf;
 using Google.Protobuf.WellKnownTypes;
-using Org.BouncyCastle.Asn1.Utilities;
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Parameters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -155,7 +152,25 @@ namespace EndFieldPS.Packets.Cs
             session.Send(ScMessageId.ScSceneCollectionSync, collection);
             ScSyncAllMission missions = new()
             {
+                Missions =
+                {
+                    {"e5m2_q#5d3", 
+                        new Mission()
+                        {
+                            MissionId="e5m2_q#5d3",
+                            MissionState=(int)MissionState.Completed,
+                            
+                        } 
+                    },
+                    {"e5m2_q#14",
+                        new Mission()
+                        {
+                            MissionId="e5m2_q#14",
+                            MissionState=(int)MissionState.Completed,
 
+                        }
+                    }
+                }
             };
             ScSyncAllGameVar GameVars = new()
             {
@@ -233,21 +248,26 @@ namespace EndFieldPS.Packets.Cs
             {
                 Bitset =
                 {
-                    new BitsetData()
-                    {
-                        Type=44,
-                        Value =
-                        {
 
-                        }
-                    }
                 }
             };
+            for (int bType = 0; bType < 52; bType++)
+            {
+                BitsetData data = new BitsetData() { Type = bType };
+                if (bType == 25)
+                {
+                    data.Value.Add(1);
+                    data.Value.Add(2);
+                }
+                bitset.Bitset.Add(data);
 
+            }
+            
             session.Send(new PacketScSyncAllRoleScene(session));
             session.Send(ScMessageId.ScSettlementSyncAll, settlements);
             session.Send(new PacketScGameMechanicsSync(session));
             session.Send(new PacketScSyncAllBloc(session));
+            session.Send(new PacketScSyncWallet(session));
             session.Send(ScMessageId.ScSyncGameMode, gameMode);
             session.Send(ScMessageId.ScSyncAllGameVar, GameVars);
             session.Send(ScMessageId.ScSyncAllUnlock, unlock);

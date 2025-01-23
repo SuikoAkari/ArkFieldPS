@@ -9,6 +9,19 @@ using static EndFieldPS.Resource.ResourceManager;
 
 namespace EndFieldPS.Resource
 {
+    public class IdConst
+    {
+        static System.Int32 ID_SERVER_SET_TYPE_BIT = 62;
+        static System.Int32 ID_CLIENT_RUNTIME_SET_TYPE_BIT = 61;
+        static System.Int32 ID_ROLE_INDEX_SHIFT = 57;
+        static System.UInt64 LOGIC_ID_SEGMENT = 10000;
+        static System.UInt64 MAX_LOGIC_ID_BOUND = 100000000;
+        static System.Int32 LOCAL_ID_SEGMENT = 10000;
+        static System.Int32 MAX_LOCAL_ID_BOUND = 100000000;
+        static System.Int32 MAX_LEVEL_ID_BOUND = 100000;
+        static System.UInt64 MAX_GLOBAL_ID = 10000000000000;
+        static System.UInt64 MAX_RUNTIME_CLIENT_ID = 2305843009213693952;
+    }
     public class ResourceManager
     {
         public static Dictionary<string, SceneAreaTable> sceneAreaTable = new();
@@ -29,6 +42,8 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, DomainDataTable> domainDataTable = new();
         public static Dictionary<string, CollectionTable> collectionTable = new();
         public static Dictionary<string, GachaCharPoolTable> gachaCharPoolTable = new();
+        public static Dictionary<string, CharBreakNodeTable> charBreakNodeTable = new();
+        public static Dictionary<string, EnemyAttributeTemplateTable> enemyAttributeTemplateTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -59,7 +74,8 @@ namespace EndFieldPS.Resource
             domainDataTable = JsonConvert.DeserializeObject<Dictionary<string, DomainDataTable>>(File.ReadAllText("Excel/DomainDataTable.json"));
             collectionTable = JsonConvert.DeserializeObject<Dictionary<string, CollectionTable>>(File.ReadAllText("Excel/CollectionTable.json"));
             gachaCharPoolTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolTable>>(File.ReadAllText("Excel/GachaCharPoolTable.json"));
-            
+            charBreakNodeTable = JsonConvert.DeserializeObject<Dictionary<string, CharBreakNodeTable>>(File.ReadAllText("Excel/CharBreakNodeTable.json"));
+            enemyAttributeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, EnemyAttributeTemplateTable>>(File.ReadAllText("Excel/EnemyAttributeTemplateTable.json"));
             LoadLevelDatas();
         }
         public static ItemTable GetItemTable(string id)
@@ -84,7 +100,7 @@ namespace EndFieldPS.Resource
         }
         public static void LoadLevelDatas()
         {
-            string directoryPath = @"Json/LevelData"; // Percorso della directory principale
+            string directoryPath = @"Json/LevelData";
             string[] jsonFiles = Directory.GetFiles(directoryPath, "*.json", SearchOption.AllDirectories);
             foreach(string json in jsonFiles)
             {
@@ -171,6 +187,7 @@ namespace EndFieldPS.Resource
         public class SettlementBasicDataTable
         {
             public string settlementId;
+            public string domainId;
         }
         public class StrIdNumTable
         {
@@ -226,6 +243,17 @@ namespace EndFieldPS.Resource
         {
             public string prefabId;
         }
+        public class CharBreakNodeTable
+        {
+            public int breakStage;
+            public string nodeId;
+        }
+        public class EnemyAttributeTemplateTable
+        {
+            public string templateId;
+            public List<Attributes> levelDependentAttributes;
+            public AttributeList levelIndependentAttributes;
+        }
         public class CharacterTable
         {
             public List<Attributes> attributes;
@@ -233,11 +261,14 @@ namespace EndFieldPS.Resource
             public int weaponType;
             public string engName;
             public int rarity;
+
         }
         public class Attributes
         {
             public int breakStage;
             public AttributeList Attribute;
+            //Enemy
+            public List<Attribute> attrs; 
         }
         public class AttributeList
         {
