@@ -1,0 +1,13 @@
+{
+  "barkCommonCinematicCD": 15,
+  "barkCommonFullscreenCD": 15,
+  "barkInternalCDAction": 5,
+  "barkInternalCDBattle": 2,
+  "barkInternalCDExplore": 5,
+  "erosionCoreDestroy": "bark_action_blight_cleaned",
+  "ignoreCommonFullscreenCDBarkTypes": [
+    1
+  ],
+  "restAtCampfire": "bark_action_rest",
+  "treasureHunt": "bark_action_target_scanned"
+}

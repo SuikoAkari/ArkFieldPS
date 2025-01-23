@@ -1,0 +1,141 @@
+{
+  "furnance_1": {
+    "instKey": "furnance_1",
+    "list": [
+      {
+        "args": [],
+        "endQuestId": "e1m3_q#7",
+        "lockType": 1,
+        "priority": 1,
+        "radioId": "radio_e1m3_6",
+        "startQuestId": "e1m3_q#1"
+      }
+    ]
+  },
+  "map01_lv001_power_pole_2_1": {
+    "instKey": "map01_lv001_power_pole_2_1",
+    "list": [
+      {
+        "args": [],
+        "endQuestId": "e1m4_q#5",
+        "lockType": 1,
+        "priority": 1,
+        "radioId": "radio_e1m2_3d5",
+        "startQuestId": "e1m1_q#01"
+      }
+    ]
+  },
+  "map01_lv001_power_port_1_1": {
+    "instKey": "map01_lv001_power_port_1_1",
+    "list": [
+      {
+        "args": [],
+        "endQuestId": "e1m4_q#11",
+        "lockType": 1,
+        "priority": 1,
+        "radioId": "radio_e1m2_3d5",
+        "startQuestId": "e1m1_q#01"
+      }
+    ]
+  },
+  "map01_lv002_furnance_1_1": {
+    "instKey": "map01_lv002_furnance_1_1",
+    "list": [
+      {
+        "args": [],
+        "endQuestId": "e1m6_q#5d3",
+        "lockType": 1,
+        "priority": 1,
+        "radioId": "",
+        "startQuestId": "e1m6_q#2d3"
+      },
+      {
+        "args": [],
+        "endQuestId": "e1m6_q#6",
+        "lockType": 2,
+        "priority": 1,
+        "radioId": "",
+        "startQuestId": "e1m6_q#2d3"
+      }
+    ]
+  },
+  "map01_lv002_power_diffuser_1_1": {
+    "instKey": "map01_lv002_power_diffuser_1_1",
+    "list": [
+      {
+        "args": [],
+        "endQuestId": "e1m6_q#5d3",
+        "lockType": 1,
+        "priority": 1,
+        "radioId": "",
+        "startQuestId": "e1m6_q#2d3"
+      },
+      {
+        "args": [],
+        "endQuestId": "e1m6_q#6",
+        "lockType": 2,
+        "priority": 1,
+        "radioId": "",
+        "startQuestId": "e1m6_q#2d3"
+      }
+    ]
+  },
+  "map01_lv002_sp_sub_hub_1_1": {
+    "instKey": "map01_lv002_sp_sub_hub_1_1",
+    "list": [
+      {
+        "args": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "endQuestId": "e1m6_q#5d6",
+        "lockType": 1,
+        "priority": 1,
+        "radioId": "",
+        "startQuestId": "e1m6_q#5"
+      }
+    ]
+  },
+  "map02_lv001_dumper_1_1": {
+    "instKey": "map02_lv001_dumper_1_1",
+    "list": [
+      {
+        "args": [],
+        "endQuestId": "e5m2_q#9",
+        "lockType": 1,
+        "priority": 1,
+        "radioId": "radio_e5m2_3d2",
+        "startQuestId": "e5m2_q#1"
+      }
+    ]
+  },
+  "map02_lv001_squirter_nop_1_1": {
+    "instKey": "map02_lv001_squirter_nop_1_1",
+    "list": [
+      {
+        "args": [],
+        "endQuestId": "",
+        "lockType": 1,
+        "priority": 1,
+        "radioId": "radio_e5m2_3d2",
+        "startQuestId": "e5m2_q#1"
+      }
+    ]
+  },
+  "power_pole_2": {
+    "instKey": "power_pole_2",
+    "list": [
+      {
+        "args": [],
+        "endQuestId": "e1m2_q#21",
+        "lockType": 2,
+        "priority": 1,
+        "radioId": "radio_e1m2_3d5",
+        "startQuestId": "e1m2_q#7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "medic_1": {
+    "chargeNum": 2,
+    "chargeTicks": 84,
+    "energyChargeTicks": 600,
+    "healingCost": 1,
+    "healingHP": 200,
+    "healingPercent": 5,
+    "healingRadius": 6,
+    "healingTicks": 42,
+    "id": "medic_1",
+    "maxEnergy": 50
+  }
+}

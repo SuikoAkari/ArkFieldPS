@@ -1,0 +1,134 @@
+{
+  "growcabin_extract_crylplant_1_1": {
+    "id": "growcabin_extract_crylplant_1_1",
+    "level": 1,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_crylplant_1_1",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_crylplant_seed_1_1",
+    "rarity": 4,
+    "sortId": 205,
+    "type": 2
+  },
+  "growcabin_extract_crylplant_1_2": {
+    "id": "growcabin_extract_crylplant_1_2",
+    "level": 2,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_crylplant_1_2",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_crylplant_seed_1_2",
+    "rarity": 4,
+    "sortId": 206,
+    "type": 2
+  },
+  "growcabin_extract_crylplant_1_3": {
+    "id": "growcabin_extract_crylplant_1_3",
+    "level": 3,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_crylplant_1_3",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_crylplant_seed_1_3",
+    "rarity": 4,
+    "sortId": 207,
+    "type": 2
+  },
+  "growcabin_extract_crylplant_2_1": {
+    "id": "growcabin_extract_crylplant_2_1",
+    "level": 3,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_crylplant_2_1",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_crylplant_seed_2_1",
+    "rarity": 5,
+    "sortId": 208,
+    "type": 2
+  },
+  "growcabin_extract_mushroom_1_1": {
+    "id": "growcabin_extract_mushroom_1_1",
+    "level": 1,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_mushroom_1_1",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_mushroom_seed_1_1",
+    "rarity": 4,
+    "sortId": 201,
+    "type": 1
+  },
+  "growcabin_extract_mushroom_1_2": {
+    "id": "growcabin_extract_mushroom_1_2",
+    "level": 2,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_mushroom_1_2",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_mushroom_seed_1_2",
+    "rarity": 4,
+    "sortId": 202,
+    "type": 1
+  },
+  "growcabin_extract_mushroom_1_3": {
+    "id": "growcabin_extract_mushroom_1_3",
+    "level": 3,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_mushroom_1_3",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_mushroom_seed_1_3",
+    "rarity": 4,
+    "sortId": 203,
+    "type": 1
+  },
+  "growcabin_extract_mushroom_2_1": {
+    "id": "growcabin_extract_mushroom_2_1",
+    "level": 3,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_mushroom_2_1",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_mushroom_seed_2_1",
+    "rarity": 5,
+    "sortId": 204,
+    "type": 1
+  },
+  "growcabin_extract_spcstone_1_1": {
+    "id": "growcabin_extract_spcstone_1_1",
+    "level": 1,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_spcstone_1_1",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_spcstone_seed_1_1",
+    "rarity": 4,
+    "sortId": 209,
+    "type": 3
+  },
+  "growcabin_extract_spcstone_1_2": {
+    "id": "growcabin_extract_spcstone_1_2",
+    "level": 2,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_spcstone_1_2",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_spcstone_seed_1_2",
+    "rarity": 4,
+    "sortId": 210,
+    "type": 3
+  },
+  "growcabin_extract_spcstone_1_3": {
+    "id": "growcabin_extract_spcstone_1_3",
+    "level": 3,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_spcstone_1_3",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_spcstone_seed_1_3",
+    "rarity": 4,
+    "sortId": 211,
+    "type": 3
+  },
+  "growcabin_extract_spcstone_2_1": {
+    "id": "growcabin_extract_spcstone_2_1",
+    "level": 3,
+    "materialItemCount": 1,
+    "materialItemId": "item_plant_spcstone_2_1",
+    "outcomeseedItemCount": 3,
+    "outcomeseedItemId": "item_plant_spcstone_seed_2_1",
+    "rarity": 5,
+    "sortId": 212,
+    "type": 3
+  }
+}

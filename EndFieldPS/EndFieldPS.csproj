@@ -28,7 +28,6 @@
     <PackageReference Include="Pastel" Version="5.1.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
     <PackageReference Include="SQLiteNetExtensions" Version="2.1.0" />
-    <PackageReference Include="Titanium.Web.Proxy" Version="3.2.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,1081 +35,1081 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Excel\AbilityEntityTable.json">
+    <None Update="TableCfg\AbilityEntityTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ActivityBannerTable.json">
+    <None Update="TableCfg\ActivityBannerTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ActivityConst.json">
+    <None Update="TableCfg\ActivityConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ActorImageTable.json">
+    <None Update="TableCfg\ActorImageTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AdventureBookStageRewardTable.json">
+    <None Update="TableCfg\AdventureBookStageRewardTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AdventureLevelTable.json">
+    <None Update="TableCfg\AdventureLevelTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AdventureTaskTable.json">
+    <None Update="TableCfg\AdventureTaskTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AIBark.json">
+    <None Update="TableCfg\AIBark.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AIBarkTableConst.json">
+    <None Update="TableCfg\AIBarkTableConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AIBarkText.json">
+    <None Update="TableCfg\AIBarkText.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AttributeMetaTable.json">
+    <None Update="TableCfg\AttributeMetaTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AttributeShowConfigTable.json">
+    <None Update="TableCfg\AttributeShowConfigTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioBattleBuildings.json">
+    <None Update="TableCfg\AudioBattleBuildings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioCollection.json">
+    <None Update="TableCfg\AudioCollection.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioDialog.json">
+    <None Update="TableCfg\AudioDialog.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioDialogChannel.json">
+    <None Update="TableCfg\AudioDialogChannel.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioDialogChannelMappings.json">
+    <None Update="TableCfg\AudioDialogChannelMappings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioDialogConfigs.json">
+    <None Update="TableCfg\AudioDialogConfigs.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioDrop.json">
+    <None Update="TableCfg\AudioDrop.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioFactory.json">
+    <None Update="TableCfg\AudioFactory.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioFactoryAnnouncement.json">
+    <None Update="TableCfg\AudioFactoryAnnouncement.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioItemDragAndDrop.json">
+    <None Update="TableCfg\AudioItemDragAndDrop.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioItemTypeDragAndDrop.json">
+    <None Update="TableCfg\AudioItemTypeDragAndDrop.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioLevel.json">
+    <None Update="TableCfg\AudioLevel.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioSequenceDialog.json">
+    <None Update="TableCfg\AudioSequenceDialog.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioSpeakerTypeWeights.json">
+    <None Update="TableCfg\AudioSpeakerTypeWeights.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\AudioVoTone.json">
+    <None Update="TableCfg\AudioVoTone.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BattleConst.json">
+    <None Update="TableCfg\BattleConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BlocConst.json">
+    <None Update="TableCfg\BlocConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BlocDataTable.json">
+    <None Update="TableCfg\BlocDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BlocMissionConst.json">
+    <None Update="TableCfg\BlocMissionConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BlocMissionTable.json">
+    <None Update="TableCfg\BlocMissionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BlocShopItemTable.json">
+    <None Update="TableCfg\BlocShopItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BlocTable.json">
+    <None Update="TableCfg\BlocTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BlocUnlockTable.json">
+    <None Update="TableCfg\BlocUnlockTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\BuffTable.json">
+    <None Update="TableCfg\BuffTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharacterConst.json">
+    <None Update="TableCfg\CharacterConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharacterPotentialTable.json">
+    <None Update="TableCfg\CharacterPotentialTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharacterTable.json">
+    <None Update="TableCfg\CharacterTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharacterTagDesTable.json">
+    <None Update="TableCfg\CharacterTagDesTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharacterTagTable.json">
+    <None Update="TableCfg\CharacterTagTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharBreakNodeTable.json">
+    <None Update="TableCfg\CharBreakNodeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharBreakStageTable.json">
+    <None Update="TableCfg\CharBreakStageTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharBreakTable.json">
+    <None Update="TableCfg\CharBreakTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharGachaConst.json">
+    <None Update="TableCfg\CharGachaConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharGatherBehaviourTable.json">
+    <None Update="TableCfg\CharGatherBehaviourTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharGrowthTable.json">
+    <None Update="TableCfg\CharGrowthTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharLevelUpTable.json">
+    <None Update="TableCfg\CharLevelUpTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharPresetTable.json">
+    <None Update="TableCfg\CharPresetTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharProfessionTable.json">
+    <None Update="TableCfg\CharProfessionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharTeamTable.json">
+    <None Update="TableCfg\CharTeamTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CharTypeTable.json">
+    <None Update="TableCfg\CharTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CheckInRewardTable.json">
+    <None Update="TableCfg\CheckInRewardTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ChessboardInfoTable.json">
+    <None Update="TableCfg\ChessboardInfoTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CinematicConst.json">
+    <None Update="TableCfg\CinematicConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CollectionTable.json">
+    <None Update="TableCfg\CollectionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CommonDeathTips.json">
+    <None Update="TableCfg\CommonDeathTips.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CompositeAttributeShowConfigTable.json">
+    <None Update="TableCfg\CompositeAttributeShowConfigTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\CompositeAttributeTable.json">
+    <None Update="TableCfg\CompositeAttributeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ConditionTable.json">
+    <None Update="TableCfg\ConditionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ContractTable.json">
+    <None Update="TableCfg\ContractTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ContractTypeTable.json">
+    <None Update="TableCfg\ContractTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DailyActivationRewardTable.json">
+    <None Update="TableCfg\DailyActivationRewardTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DialogOptionTable.json">
+    <None Update="TableCfg\DialogOptionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DialogSummaryTable.json">
+    <None Update="TableCfg\DialogSummaryTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DialogTextTable.json">
+    <None Update="TableCfg\DialogTextTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DisplayEnemyTypeTable.json">
+    <None Update="TableCfg\DisplayEnemyTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DistributionInfoTable.json">
+    <None Update="TableCfg\DistributionInfoTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DomainDataTable.json">
+    <None Update="TableCfg\DomainDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DoodadGeneralTable.json">
+    <None Update="TableCfg\DoodadGeneralTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DoodadTreeTable.json">
+    <None Update="TableCfg\DoodadTreeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DropGemTable.json">
+    <None Update="TableCfg\DropGemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DungeonCategory2ndTable.json">
+    <None Update="TableCfg\DungeonCategory2ndTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DungeonConst.json">
+    <None Update="TableCfg\DungeonConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DungeonDeathTips.json">
+    <None Update="TableCfg\DungeonDeathTips.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DungeonSeriesTable.json">
+    <None Update="TableCfg\DungeonSeriesTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DungeonTable.json">
+    <None Update="TableCfg\DungeonTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\DungeonTypeTable.json">
+    <None Update="TableCfg\DungeonTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EmptyBottleTable.json">
+    <None Update="TableCfg\EmptyBottleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnemyAbilityDescTable.json">
+    <None Update="TableCfg\EnemyAbilityDescTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnemyAttributeTemplateTable.json">
+    <None Update="TableCfg\EnemyAttributeTemplateTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnemyDisplayInfoTable.json">
+    <None Update="TableCfg\EnemyDisplayInfoTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnemyRelatedDeathTips.json">
+    <None Update="TableCfg\EnemyRelatedDeathTips.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnemyTable.json">
+    <None Update="TableCfg\EnemyTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnemyTagTable.json">
+    <None Update="TableCfg\EnemyTagTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnemyTemplateDisplayInfoTable.json">
+    <None Update="TableCfg\EnemyTemplateDisplayInfoTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnemyTemplateTable.json">
+    <None Update="TableCfg\EnemyTemplateTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EnvTalkTable.json">
+    <None Update="TableCfg\EnvTalkTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EquipConst.json">
+    <None Update="TableCfg\EquipConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EquipFormulaReverseTable.json">
+    <None Update="TableCfg\EquipFormulaReverseTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EquipFormulaTable.json">
+    <None Update="TableCfg\EquipFormulaTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EquipItemTable.json">
+    <None Update="TableCfg\EquipItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EquipSuitTable.json">
+    <None Update="TableCfg\EquipSuitTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ErrorCodeTable.json">
+    <None Update="TableCfg\ErrorCodeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\EtherSubmitTable.json">
+    <None Update="TableCfg\EtherSubmitTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ExpItemDataMap.json">
+    <None Update="TableCfg\ExpItemDataMap.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ExpItemMap.json">
+    <None Update="TableCfg\ExpItemMap.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacManufactConst.json">
+    <None Update="TableCfg\FacManufactConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacProcessorConst.json">
+    <None Update="TableCfg\FacProcessorConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacRecyclerConst.json">
+    <None Update="TableCfg\FacRecyclerConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacSkillConst.json">
+    <None Update="TableCfg\FacSkillConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacSTTCategoryTable.json">
+    <None Update="TableCfg\FacSTTCategoryTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacSTTConditionTable.json">
+    <None Update="TableCfg\FacSTTConditionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacSTTGroupTable.json">
+    <None Update="TableCfg\FacSTTGroupTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacSTTLayerTable.json">
+    <None Update="TableCfg\FacSTTLayerTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacSTTNodeTable.json">
+    <None Update="TableCfg\FacSTTNodeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FacSTTPackConditionTable.json">
+    <None Update="TableCfg\FacSTTPackConditionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryBatteryItemTable.json">
+    <None Update="TableCfg\FactoryBatteryItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryBattleTable.json">
+    <None Update="TableCfg\FactoryBattleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryBuildingItemReverseTable.json">
+    <None Update="TableCfg\FactoryBuildingItemReverseTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryBuildingItemTable.json">
+    <None Update="TableCfg\FactoryBuildingItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryBuildingPanelLock.json">
+    <None Update="TableCfg\FactoryBuildingPanelLock.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryBuildingTable.json">
+    <None Update="TableCfg\FactoryBuildingTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryBuildingTypeTable.json">
+    <None Update="TableCfg\FactoryBuildingTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryBusStructureTable.json">
+    <None Update="TableCfg\FactoryBusStructureTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryConst.json">
+    <None Update="TableCfg\FactoryConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryCraftShowingTypeTable.json">
+    <None Update="TableCfg\FactoryCraftShowingTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryDomainItemTransmittionTable.json">
+    <None Update="TableCfg\FactoryDomainItemTransmittionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryFluidConsumeTable.json">
+    <None Update="TableCfg\FactoryFluidConsumeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryFluidContainerTable.json">
+    <None Update="TableCfg\FactoryFluidContainerTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryFluidPumpInTable.json">
+    <None Update="TableCfg\FactoryFluidPumpInTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryFluidPumpOutTable.json">
+    <None Update="TableCfg\FactoryFluidPumpOutTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryFluidReactionTable.json">
+    <None Update="TableCfg\FactoryFluidReactionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryFluidSprayTable.json">
+    <None Update="TableCfg\FactoryFluidSprayTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryFuelItemTable.json">
+    <None Update="TableCfg\FactoryFuelItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryGridBeltTable.json">
+    <None Update="TableCfg\FactoryGridBeltTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryGridConnecterTable.json">
+    <None Update="TableCfg\FactoryGridConnecterTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryGridRouterTable.json">
+    <None Update="TableCfg\FactoryGridRouterTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryHubCraftTable.json">
+    <None Update="TableCfg\FactoryHubCraftTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryHubCraftTypeListTable.json">
+    <None Update="TableCfg\FactoryHubCraftTypeListTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryHubTable.json">
+    <None Update="TableCfg\FactoryHubTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryIngredientTagTable.json">
+    <None Update="TableCfg\FactoryIngredientTagTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItem2LogisticIdTable.json">
+    <None Update="TableCfg\FactoryItem2LogisticIdTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemAsHubCraftIncomeTable.json">
+    <None Update="TableCfg\FactoryItemAsHubCraftIncomeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemAsHubCraftOutcomeTable.json">
+    <None Update="TableCfg\FactoryItemAsHubCraftOutcomeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemAsMachineCrafterIncomeTable.json">
+    <None Update="TableCfg\FactoryItemAsMachineCrafterIncomeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemAsMachineCrafterOutcomeTable.json">
+    <None Update="TableCfg\FactoryItemAsMachineCrafterOutcomeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemAsManualCraftOutcomeTable.json">
+    <None Update="TableCfg\FactoryItemAsManualCraftOutcomeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemAsManufactIncomeTable.json">
+    <None Update="TableCfg\FactoryItemAsManufactIncomeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemAsManufactOutcomeTable.json">
+    <None Update="TableCfg\FactoryItemAsManufactOutcomeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemShowingHubTable.json">
+    <None Update="TableCfg\FactoryItemShowingHubTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryItemTable.json">
+    <None Update="TableCfg\FactoryItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryLevelRegionTable.json">
+    <None Update="TableCfg\FactoryLevelRegionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryLiquidConnectorTable.json">
+    <None Update="TableCfg\FactoryLiquidConnectorTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryLiquidPipeTable.json">
+    <None Update="TableCfg\FactoryLiquidPipeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryLiquidRepeaterTable.json">
+    <None Update="TableCfg\FactoryLiquidRepeaterTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryLiquidRouterTable.json">
+    <None Update="TableCfg\FactoryLiquidRouterTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMachineCrafterTable.json">
+    <None Update="TableCfg\FactoryMachineCrafterTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMachineCraftGroupTable.json">
+    <None Update="TableCfg\FactoryMachineCraftGroupTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMachineCraftModeTable.json">
+    <None Update="TableCfg\FactoryMachineCraftModeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMachineCraftTable.json">
+    <None Update="TableCfg\FactoryMachineCraftTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMachineId2tagIdsTable.json">
+    <None Update="TableCfg\FactoryMachineId2tagIdsTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMainRegionTable.json">
+    <None Update="TableCfg\FactoryMainRegionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryManualCraftFormulaUnlockTable.json">
+    <None Update="TableCfg\FactoryManualCraftFormulaUnlockTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryManualCraftTable.json">
+    <None Update="TableCfg\FactoryManualCraftTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryManualCraftUpgradeTable.json">
+    <None Update="TableCfg\FactoryManualCraftUpgradeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryManufactCraftTable.json">
+    <None Update="TableCfg\FactoryManufactCraftTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMapTable.json">
+    <None Update="TableCfg\FactoryMapTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMedicTable.json">
+    <None Update="TableCfg\FactoryMedicTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryMinerTable.json">
+    <None Update="TableCfg\FactoryMinerTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryOrderTable.json">
+    <None Update="TableCfg\FactoryOrderTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryPowerDataTypeTable.json">
+    <None Update="TableCfg\FactoryPowerDataTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryPowerPoleTable.json">
+    <None Update="TableCfg\FactoryPowerPoleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryPowerStationTable.json">
+    <None Update="TableCfg\FactoryPowerStationTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryProcCraftTypeListTable.json">
+    <None Update="TableCfg\FactoryProcCraftTypeListTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryProcessorCraftTable.json">
+    <None Update="TableCfg\FactoryProcessorCraftTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryProcessorGemFilterTypeTable.json">
+    <None Update="TableCfg\FactoryProcessorGemFilterTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryProcessorTypeTable.json">
+    <None Update="TableCfg\FactoryProcessorTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryProcGemGroupTable.json">
+    <None Update="TableCfg\FactoryProcGemGroupTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryProcGemRecastTable.json">
+    <None Update="TableCfg\FactoryProcGemRecastTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryProductivityDataTypeTable.json">
+    <None Update="TableCfg\FactoryProductivityDataTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryQuickBarTypeTable.json">
+    <None Update="TableCfg\FactoryQuickBarTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryRecyclerMaterialTable.json">
+    <None Update="TableCfg\FactoryRecyclerMaterialTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryRecyclerProductTable.json">
+    <None Update="TableCfg\FactoryRecyclerProductTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryRegionTable.json">
+    <None Update="TableCfg\FactoryRegionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryRendererTemplateTable.json">
+    <None Update="TableCfg\FactoryRendererTemplateTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryResourceItemId2MachineIdTable.json">
+    <None Update="TableCfg\FactoryResourceItemId2MachineIdTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryResourceItemId2TagIdTable.json">
+    <None Update="TableCfg\FactoryResourceItemId2TagIdTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactorySeedItemTable.json">
+    <None Update="TableCfg\FactorySeedItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactorySkillTable.json">
+    <None Update="TableCfg\FactorySkillTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactorySkillTypeTable.json">
+    <None Update="TableCfg\FactorySkillTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactorySpecialBuildingTable.json">
+    <None Update="TableCfg\FactorySpecialBuildingTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactorySpecialCraftTable.json">
+    <None Update="TableCfg\FactorySpecialCraftTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactorySpecialPowerPoleTable.json">
+    <None Update="TableCfg\FactorySpecialPowerPoleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryStoragerTable.json">
+    <None Update="TableCfg\FactoryStoragerTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FactoryTraderTable.json">
+    <None Update="TableCfg\FactoryTraderTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\FullBottleTable.json">
+    <None Update="TableCfg\FullBottleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaCharInfoTable.json">
+    <None Update="TableCfg\GachaCharInfoTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaCharPoolContentTable.json">
+    <None Update="TableCfg\GachaCharPoolContentTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaCharPoolTable.json">
+    <None Update="TableCfg\GachaCharPoolTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaCharPoolTypeTable.json">
+    <None Update="TableCfg\GachaCharPoolTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaEntryRecommendRuleTable.json">
+    <None Update="TableCfg\GachaEntryRecommendRuleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaEntryRecommendTable.json">
+    <None Update="TableCfg\GachaEntryRecommendTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaRefreshBaseTimeTable.json">
+    <None Update="TableCfg\GachaRefreshBaseTimeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaWeaponPoolContentTable.json">
+    <None Update="TableCfg\GachaWeaponPoolContentTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaWeaponPoolTable.json">
+    <None Update="TableCfg\GachaWeaponPoolTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaWeaponPoolTypeTable.json">
+    <None Update="TableCfg\GachaWeaponPoolTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GachaWeaponRefreshRuleTable.json">
+    <None Update="TableCfg\GachaWeaponRefreshRuleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GameMechanicCategoryTable.json">
+    <None Update="TableCfg\GameMechanicCategoryTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GameMechanicConditionTable.json">
+    <None Update="TableCfg\GameMechanicConditionTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GameMechanicTable.json">
+    <None Update="TableCfg\GameMechanicTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GameSystemConfigTable.json">
+    <None Update="TableCfg\GameSystemConfigTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GemRecastTable.json">
+    <None Update="TableCfg\GemRecastTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GemTable.json">
+    <None Update="TableCfg\GemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GeneralAbilityTable.json">
+    <None Update="TableCfg\GeneralAbilityTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GiftItemTable.json">
+    <None Update="TableCfg\GiftItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GlobalConst.json">
+    <None Update="TableCfg\GlobalConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\GlobalVarTable.json">
+    <None Update="TableCfg\GlobalVarTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\I18nTextTable_CN.json">
+    <None Update="TableCfg\I18nTextTable_CN.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\I18nTextTable_EN.json">
+    <None Update="TableCfg\I18nTextTable_EN.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\I18nTextTable_JP.json">
+    <None Update="TableCfg\I18nTextTable_JP.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\I18nTextTable_KR.json">
+    <None Update="TableCfg\I18nTextTable_KR.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\I18nTextTable_TC.json">
+    <None Update="TableCfg\I18nTextTable_TC.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ImportantItemShowTable.json">
+    <None Update="TableCfg\ImportantItemShowTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ImportantRewardItemTable.json">
+    <None Update="TableCfg\ImportantRewardItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\InstructionBook.json">
+    <None Update="TableCfg\InstructionBook.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\InteractiveAttributeDataTable.json">
+    <None Update="TableCfg\InteractiveAttributeDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\InteractiveFacWrapperTable.json">
+    <None Update="TableCfg\InteractiveFacWrapperTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\InteractiveMarkDataTable.json">
+    <None Update="TableCfg\InteractiveMarkDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\InteractiveMissionDataTable.json">
+    <None Update="TableCfg\InteractiveMissionDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ItemGatherTextTable.json">
+    <None Update="TableCfg\ItemGatherTextTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ItemIconCompositeTable.json">
+    <None Update="TableCfg\ItemIconCompositeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ItemListByTypeTable.json">
+    <None Update="TableCfg\ItemListByTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ItemShowingTypeTable.json">
+    <None Update="TableCfg\ItemShowingTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ItemStorage.json">
+    <None Update="TableCfg\ItemStorage.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ItemSubmitRecycleTable.json">
+    <None Update="TableCfg\ItemSubmitRecycleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ItemTable.json">
+    <None Update="TableCfg\ItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ItemTypeTable.json">
+    <None Update="TableCfg\ItemTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\JsonConst.json">
+    <None Update="TableCfg\JsonConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\LevelDescTable.json">
+    <None Update="TableCfg\LevelDescTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\LevelGradeChangeUnlockTable.json">
+    <None Update="TableCfg\LevelGradeChangeUnlockTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\LevelGradeTable.json">
+    <None Update="TableCfg\LevelGradeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\LiquidTable.json">
+    <None Update="TableCfg\LiquidTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\LoadingTipsTable.json">
+    <None Update="TableCfg\LoadingTipsTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MachineBlueprint2MachineItemTable.json">
+    <None Update="TableCfg\MachineBlueprint2MachineItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MailSenderTable.json">
+    <None Update="TableCfg\MailSenderTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MailTemplateTable.json">
+    <None Update="TableCfg\MailTemplateTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MapMarkCategoryTable.json">
+    <None Update="TableCfg\MapMarkCategoryTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MapMarkInsTable.json">
+    <None Update="TableCfg\MapMarkInsTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MapMarkTempTable.json">
+    <None Update="TableCfg\MapMarkTempTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MapMarkTypeTable.json">
+    <None Update="TableCfg\MapMarkTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MoneyConfigTable.json">
+    <None Update="TableCfg\MoneyConfigTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\MoneyExchangeTable.json">
+    <None Update="TableCfg\MoneyExchangeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\NpcGroupTable.json">
+    <None Update="TableCfg\NpcGroupTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\NpcTable.json">
+    <None Update="TableCfg\NpcTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\NumIdStrTable.json">
+    <None Update="TableCfg\NumIdStrTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PlantingDataTable.json">
+    <None Update="TableCfg\PlantingDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PlantingStepConstTable.json">
+    <None Update="TableCfg\PlantingStepConstTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PotentialTalentEffectTable.json">
+    <None Update="TableCfg\PotentialTalentEffectTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsAllItem.json">
+    <None Update="TableCfg\PrtsAllItem.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsCategory.json">
+    <None Update="TableCfg\PrtsCategory.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsDocument.json">
+    <None Update="TableCfg\PrtsDocument.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsFirstLv.json">
+    <None Update="TableCfg\PrtsFirstLv.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsInvestigate.json">
+    <None Update="TableCfg\PrtsInvestigate.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsInvestigateCategory.json">
+    <None Update="TableCfg\PrtsInvestigateCategory.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsMultimedia.json">
+    <None Update="TableCfg\PrtsMultimedia.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsNote.json">
+    <None Update="TableCfg\PrtsNote.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsPage.json">
+    <None Update="TableCfg\PrtsPage.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsReading.json">
+    <None Update="TableCfg\PrtsReading.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\PrtsRecord.json">
+    <None Update="TableCfg\PrtsRecord.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\QualitySubSettingTable.json">
+    <None Update="TableCfg\QualitySubSettingTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RacingAchievementTable.json">
+    <None Update="TableCfg\RacingAchievementTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RacingBattlePassTable.json">
+    <None Update="TableCfg\RacingBattlePassTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RacingDungeonCompeleBuffDescTextTable.json">
+    <None Update="TableCfg\RacingDungeonCompeleBuffDescTextTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RacingDungeonRoomTable.json">
+    <None Update="TableCfg\RacingDungeonRoomTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RacingDungeonTable.json">
+    <None Update="TableCfg\RacingDungeonTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RacingInterTable.json">
+    <None Update="TableCfg\RacingInterTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RacingTacticsTable.json">
+    <None Update="TableCfg\RacingTacticsTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RadioTable.json">
+    <None Update="TableCfg\RadioTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RarityColorTable.json">
+    <None Update="TableCfg\RarityColorTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RechargeTable.json">
+    <None Update="TableCfg\RechargeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RecommendTraining.json">
+    <None Update="TableCfg\RecommendTraining.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RecoverApItemTable.json">
+    <None Update="TableCfg\RecoverApItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RemoteCommonTable.json">
+    <None Update="TableCfg\RemoteCommonTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RepairBuildingTable.json">
+    <None Update="TableCfg\RepairBuildingTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ResponsiveDialog.json">
+    <None Update="TableCfg\ResponsiveDialog.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ResponsiveTriggers.json">
+    <None Update="TableCfg\ResponsiveTriggers.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RewardDropTable.json">
+    <None Update="TableCfg\RewardDropTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RewardSoilTable.json">
+    <None Update="TableCfg\RewardSoilTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RewardTable.json">
+    <None Update="TableCfg\RewardTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RichContentTable.json">
+    <None Update="TableCfg\RichContentTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RichTextStyleTable.json">
+    <None Update="TableCfg\RichTextStyleTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RpgDungeonEquipTable.json">
+    <None Update="TableCfg\RpgDungeonEquipTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RpgDungeonTable.json">
+    <None Update="TableCfg\RpgDungeonTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RpgDungeonTeamLevelTable.json">
+    <None Update="TableCfg\RpgDungeonTeamLevelTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RpgEquipAbilityTable.json">
+    <None Update="TableCfg\RpgEquipAbilityTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RpgLevelUpAbilityInfoTable.json">
+    <None Update="TableCfg\RpgLevelUpAbilityInfoTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\RpgLevelUpAbilityTable.json">
+    <None Update="TableCfg\RpgLevelUpAbilityTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SceneAreaTable.json">
+    <None Update="TableCfg\SceneAreaTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SceneCollectableItemTable.json">
+    <None Update="TableCfg\SceneCollectableItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SceneConst.json">
+    <None Update="TableCfg\SceneConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SettingIdTable.json">
+    <None Update="TableCfg\SettingIdTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SettingTabTable.json">
+    <None Update="TableCfg\SettingTabTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SettlementBasicDataTable.json">
+    <None Update="TableCfg\SettlementBasicDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SettlementConst.json">
+    <None Update="TableCfg\SettlementConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SettlementOrderDataTable.json">
+    <None Update="TableCfg\SettlementOrderDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SettlementTagTable.json">
+    <None Update="TableCfg\SettlementTagTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ShopGoodsTable.json">
+    <None Update="TableCfg\ShopGoodsTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ShopGroupTable.json">
+    <None Update="TableCfg\ShopGroupTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ShopTable.json">
+    <None Update="TableCfg\ShopTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ShopWeaponConst.json">
+    <None Update="TableCfg\ShopWeaponConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SkillPatchTable.json">
+    <None Update="TableCfg\SkillPatchTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SNSChatTable.json">
+    <None Update="TableCfg\SNSChatTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SNSConst.json">
+    <None Update="TableCfg\SNSConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SNSDialogTable.json">
+    <None Update="TableCfg\SNSDialogTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SNSMomentCommentTable.json">
+    <None Update="TableCfg\SNSMomentCommentTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SNSMomentTable.json">
+    <None Update="TableCfg\SNSMomentTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceShipCharBehaviourTable.json">
+    <None Update="TableCfg\SpaceShipCharBehaviourTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipCharRelationLevelTable.json">
+    <None Update="TableCfg\SpaceshipCharRelationLevelTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipCharRelationNeedMap.json">
+    <None Update="TableCfg\SpaceshipCharRelationNeedMap.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipCharSkillTable.json">
+    <None Update="TableCfg\SpaceshipCharSkillTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipConst.json">
+    <None Update="TableCfg\SpaceshipConst.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipControlCenterLvTable.json">
+    <None Update="TableCfg\SpaceshipControlCenterLvTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipGrowCabinBoxIdToUnlockLevelTable.json">
+    <None Update="TableCfg\SpaceshipGrowCabinBoxIdToUnlockLevelTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipGrowCabinFormulaShowingTypeTable.json">
+    <None Update="TableCfg\SpaceshipGrowCabinFormulaShowingTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipGrowCabinFormulaTable.json">
+    <None Update="TableCfg\SpaceshipGrowCabinFormulaTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipGrowCabinLvTable.json">
+    <None Update="TableCfg\SpaceshipGrowCabinLvTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipGrowCabinSeedFormulaTable.json">
+    <None Update="TableCfg\SpaceshipGrowCabinSeedFormulaTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipManufactureFormulaTable.json">
+    <None Update="TableCfg\SpaceshipManufactureFormulaTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipManufacturingStationLvTable.json">
+    <None Update="TableCfg\SpaceshipManufacturingStationLvTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceShipNpc2Char.json">
+    <None Update="TableCfg\SpaceShipNpc2Char.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipRoomAttrTypeTable.json">
+    <None Update="TableCfg\SpaceshipRoomAttrTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipRoomInsTable.json">
+    <None Update="TableCfg\SpaceshipRoomInsTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipRoomLvHelperTable.json">
+    <None Update="TableCfg\SpaceshipRoomLvHelperTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipRoomLvTable.json">
+    <None Update="TableCfg\SpaceshipRoomLvTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipRoomTypeTable.json">
+    <None Update="TableCfg\SpaceshipRoomTypeTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipRoomUnlockNeedCenterLvTable.json">
+    <None Update="TableCfg\SpaceshipRoomUnlockNeedCenterLvTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipSkillTable.json">
+    <None Update="TableCfg\SpaceshipSkillTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SpaceshipSubCharGiftTable.json">
+    <None Update="TableCfg\SpaceshipSubCharGiftTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\StrIdNumTable.json">
+    <None Update="TableCfg\StrIdNumTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SubmitItem.json">
+    <None Update="TableCfg\SubmitItem.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\SystemJumpTable.json">
+    <None Update="TableCfg\SystemJumpTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TagDataTable.json">
+    <None Update="TableCfg\TagDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TagGroupDataTable.json">
+    <None Update="TableCfg\TagGroupDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TextTable.json">
+    <None Update="TableCfg\TextTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TowerDefenseGroupTable.json">
+    <None Update="TableCfg\TowerDefenseGroupTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TowerDefenseMapTable.json">
+    <None Update="TableCfg\TowerDefenseMapTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TowerDefenseShopTable.json">
+    <None Update="TableCfg\TowerDefenseShopTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TowerDefenseTable.json">
+    <None Update="TableCfg\TowerDefenseTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TrainingDeathTips.json">
+    <None Update="TableCfg\TrainingDeathTips.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\TrainingTypeInfoTable.json">
+    <None Update="TableCfg\TrainingTypeInfoTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\UsableItemChestTable.json">
+    <None Update="TableCfg\UsableItemChestTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\UseItemTable.json">
+    <None Update="TableCfg\UseItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\ValuableDepot.json">
+    <None Update="TableCfg\ValuableDepot.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WeaponBasicTable.json">
+    <None Update="TableCfg\WeaponBasicTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WeaponBreakThroughTemplateTable.json">
+    <None Update="TableCfg\WeaponBreakThroughTemplateTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WeaponExpItemTable.json">
+    <None Update="TableCfg\WeaponExpItemTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WeaponTalentTemplateTable.json">
+    <None Update="TableCfg\WeaponTalentTemplateTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WeaponUpgradeTemplateSumTable.json">
+    <None Update="TableCfg\WeaponUpgradeTemplateSumTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WeaponUpgradeTemplateTable.json">
+    <None Update="TableCfg\WeaponUpgradeTemplateTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WikiCategoryTable.json">
+    <None Update="TableCfg\WikiCategoryTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WikiEnemyDropTable.json">
+    <None Update="TableCfg\WikiEnemyDropTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WikiEntryDataReverseTable.json">
+    <None Update="TableCfg\WikiEntryDataReverseTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WikiEntryDataTable.json">
+    <None Update="TableCfg\WikiEntryDataTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WikiEntryTable.json">
+    <None Update="TableCfg\WikiEntryTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WikiGroupTable.json">
+    <None Update="TableCfg\WikiGroupTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WikiTutorialPageByEntryTable.json">
+    <None Update="TableCfg\WikiTutorialPageByEntryTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WikiTutorialPageTable.json">
+    <None Update="TableCfg\WikiTutorialPageTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Excel\WorldGameMechanicsDisplayInfoTable.json">
+    <None Update="TableCfg\WorldGameMechanicsDisplayInfoTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

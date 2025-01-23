@@ -1,0 +1,1813 @@
+{
+  "dung01_group_bossrush01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "F2E445DC80392A9D",
+      "text": ""
+    },
+    "dungeonCategory": 3,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "dung_boss002",
+    "dungeonRoleImg": "adventure_eny_0051_rodin",
+    "gameCategory": "dungeon_bossrush",
+    "id": "dung01_group_bossrush01",
+    "includeDungeonIds": [
+      "dung01_bossrush01_01",
+      "dung01_bossrush01_02",
+      "dung01_bossrush01_03"
+    ],
+    "name": {
+      "id": "13B8161872734F41",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_bossrush02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "5DDD4BED1591329F",
+      "text": ""
+    },
+    "dungeonCategory": 3,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "dung_boss006",
+    "dungeonRoleImg": "adventure_eny_0045_agtrinit",
+    "gameCategory": "dungeon_bossrush",
+    "id": "dung01_group_bossrush02",
+    "includeDungeonIds": [
+      "dung01_bossrush02_01",
+      "dung01_bossrush02_02",
+      "dung01_bossrush02_03"
+    ],
+    "name": {
+      "id": "F05A5ABC2F343290",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_bossrush03": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "307E4F5E086E6004",
+      "text": ""
+    },
+    "dungeonCategory": 3,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "dung_boss007",
+    "dungeonRoleImg": "adventure_eny_0052_palesent",
+    "gameCategory": "dungeon_bossrush",
+    "id": "dung01_group_bossrush03",
+    "includeDungeonIds": [
+      "dung01_bossrush03_01",
+      "dung01_bossrush03_02",
+      "dung01_bossrush03_03"
+    ],
+    "name": {
+      "id": "5B4776AB181DA8B0",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 3,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_charbreak01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "2163DB4B502E8A75",
+      "text": ""
+    },
+    "dungeonCategory": 2,
+    "dungeonCategory2nd": 2,
+    "dungeonImg": "icon_adventure_d_experience",
+    "dungeonPicPath": "dung_res_normal",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_charbreak01",
+    "includeDungeonIds": [
+      "dung01_charbreak01",
+      "dung01_charbreak02"
+    ],
+    "name": {
+      "id": "9764A67FC2005995",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "73E759E2E2BE23C4",
+      "text": ""
+    }
+  },
+  "dung01_group_charbreak02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "4C4FCEABEAA05D6F",
+      "text": ""
+    },
+    "dungeonCategory": 2,
+    "dungeonCategory2nd": 2,
+    "dungeonImg": "icon_adventure_d_experience",
+    "dungeonPicPath": "dung_res_hard",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_charbreak02",
+    "includeDungeonIds": [
+      "dung01_charbreak03",
+      "dung01_charbreak04"
+    ],
+    "name": {
+      "id": "17F5119DDAF03B72",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "D8C8482A7E8249A4",
+      "text": ""
+    }
+  },
+  "dung01_group_exp01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "D169B8FA865453C7",
+      "text": ""
+    },
+    "dungeonCategory": 2,
+    "dungeonCategory2nd": 1,
+    "dungeonImg": "icon_adventure_d_experience",
+    "dungeonPicPath": "dung_res_normal",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_exp01",
+    "includeDungeonIds": [
+      "dung01_exp01",
+      "dung01_exp02"
+    ],
+    "name": {
+      "id": "4B94B826AE9DFA74",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "0A339C6755CE2168",
+      "text": ""
+    }
+  },
+  "dung01_group_exp02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "988327962003A3A4",
+      "text": ""
+    },
+    "dungeonCategory": 2,
+    "dungeonCategory2nd": 1,
+    "dungeonImg": "icon_adventure_d_experience",
+    "dungeonPicPath": "dung_res_hard",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_exp02",
+    "includeDungeonIds": [
+      "dung01_exp03",
+      "dung01_exp04"
+    ],
+    "name": {
+      "id": "F9E8C9D3C16A90AE",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "2A187A6E552E3FEB",
+      "text": ""
+    }
+  },
+  "dung01_group_gold01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "39B871837DA4507F",
+      "text": ""
+    },
+    "dungeonCategory": 2,
+    "dungeonCategory2nd": 5,
+    "dungeonImg": "icon_adventure_d_currency",
+    "dungeonPicPath": "dung_res_normal",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_gold01",
+    "includeDungeonIds": [
+      "dung01_gold01",
+      "dung01_gold02"
+    ],
+    "name": {
+      "id": "64FE7C941A3B41C3",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "E72697FE7EF0BD57",
+      "text": ""
+    }
+  },
+  "dung01_group_gold02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "1E4BFC5D2992C310",
+      "text": ""
+    },
+    "dungeonCategory": 2,
+    "dungeonCategory2nd": 5,
+    "dungeonImg": "icon_adventure_d_currency",
+    "dungeonPicPath": "dung_res_hard",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_gold02",
+    "includeDungeonIds": [
+      "dung01_gold03",
+      "dung01_gold04"
+    ],
+    "name": {
+      "id": "60B90C92A14CE13A",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "C1FAA13C5292070C",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "F75EC6DDAA5BDFF8",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_01",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle01",
+    "includeDungeonIds": [
+      "dung01_puzzle01"
+    ],
+    "name": {
+      "id": "6744B5D4857552A6",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "785F975A461D662E",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_02",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle02",
+    "includeDungeonIds": [
+      "dung01_puzzle02"
+    ],
+    "name": {
+      "id": "FEB769F99E6F9335",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle03": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "A2A7FFEAC2CE7756",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_10",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle03",
+    "includeDungeonIds": [
+      "dung01_puzzle10"
+    ],
+    "name": {
+      "id": "08064CD3EC774AD9",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 3,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle04": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "162466271FE52BB4",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_03",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle04",
+    "includeDungeonIds": [
+      "dung01_puzzle03"
+    ],
+    "name": {
+      "id": "06A36C4892AC6782",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 4,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle05": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "3B346A11AD870FAA",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_05",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle05",
+    "includeDungeonIds": [
+      "dung01_puzzle05"
+    ],
+    "name": {
+      "id": "CAFA54CB83D00D61",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 5,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle06": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "0831C2256BD802BD",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_08",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle06",
+    "includeDungeonIds": [
+      "dung01_puzzle08"
+    ],
+    "name": {
+      "id": "6ADCBEBA02436E7A",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 6,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle07": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "5E5A700CEB3E9DC7",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_06",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle07",
+    "includeDungeonIds": [
+      "dung01_puzzle06"
+    ],
+    "name": {
+      "id": "4525A3DC8247F281",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 7,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle08": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "10B50DC6BC391601",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_04",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle08",
+    "includeDungeonIds": [
+      "dung01_puzzle04"
+    ],
+    "name": {
+      "id": "E1F6C5FB79349C9F",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 8,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_puzzle09": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "508EA4B2552BB20B",
+      "text": ""
+    },
+    "dungeonCategory": 4,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "icon_adventure_d_brushingmonsters",
+    "dungeonPicPath": "dung_puzzle_07",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_challenge",
+    "id": "dung01_group_puzzle09",
+    "includeDungeonIds": [
+      "dung01_puzzle07"
+    ],
+    "name": {
+      "id": "D8BA6C2FD4C70020",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 9,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung01_group_skill01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "BFF6B4489B6A43F6",
+      "text": ""
+    },
+    "dungeonCategory": 2,
+    "dungeonCategory2nd": 6,
+    "dungeonImg": "icon_adventure_d_experience",
+    "dungeonPicPath": "dung_res_normal",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_skill01",
+    "includeDungeonIds": [
+      "dung01_skill01",
+      "dung01_skill02"
+    ],
+    "name": {
+      "id": "823C34E8ABBF637C",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "4CCD3F2958ABB875",
+      "text": ""
+    }
+  },
+  "dung01_group_skill02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "46D0F66488D8DDC1",
+      "text": ""
+    },
+    "dungeonCategory": 2,
+    "dungeonCategory2nd": 6,
+    "dungeonImg": "icon_adventure_d_experience",
+    "dungeonPicPath": "dung_res_hard",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_skill02",
+    "includeDungeonIds": [
+      "dung01_skill03",
+      "dung01_skill04"
+    ],
+    "name": {
+      "id": "4E77DB5016662819",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "1EA40FCC24A8FB91",
+      "text": ""
+    }
+  },
+  "dung01_group_wpbreak01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "5D7B2498648CDF2D",
+      "text": ""
+    },
+    "dungeonCategory": 1,
+    "dungeonCategory2nd": 4,
+    "dungeonImg": "icon_adventure_d_weapon",
+    "dungeonPicPath": "dung_res_normal",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_wpbreak01",
+    "includeDungeonIds": [
+      "dung01_wpbreak01",
+      "dung01_wpbreak02"
+    ],
+    "name": {
+      "id": "705BC4DDE2EF0394",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "B27CCAB491C396EA",
+      "text": ""
+    }
+  },
+  "dung01_group_wpbreak02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "C2EBAE6D65022AA1",
+      "text": ""
+    },
+    "dungeonCategory": 1,
+    "dungeonCategory2nd": 4,
+    "dungeonImg": "icon_adventure_d_weapon",
+    "dungeonPicPath": "dung_res_hard",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_wpbreak02",
+    "includeDungeonIds": [
+      "dung01_wpbreak03",
+      "dung01_wpbreak04"
+    ],
+    "name": {
+      "id": "F6A8EC21EA306011",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "3E27BDC9DF202350",
+      "text": ""
+    }
+  },
+  "dung01_group_wpexp01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "288E20DB009F6C4F",
+      "text": ""
+    },
+    "dungeonCategory": 1,
+    "dungeonCategory2nd": 3,
+    "dungeonImg": "icon_adventure_d_weapon",
+    "dungeonPicPath": "dung_res_normal",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_wpexp01",
+    "includeDungeonIds": [
+      "dung01_wpexp01",
+      "dung01_wpexp02"
+    ],
+    "name": {
+      "id": "8C6453BD885629EE",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "40D52D5F7CC03863",
+      "text": ""
+    }
+  },
+  "dung01_group_wpexp02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "F96909F81008DFAE",
+      "text": ""
+    },
+    "dungeonCategory": 1,
+    "dungeonCategory2nd": 3,
+    "dungeonImg": "icon_adventure_d_weapon",
+    "dungeonPicPath": "dung_res_hard",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_resource",
+    "id": "dung01_group_wpexp02",
+    "includeDungeonIds": [
+      "dung01_wpexp03",
+      "dung01_wpexp04"
+    ],
+    "name": {
+      "id": "1D25CBDA5343435C",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "2B19123018E171C1",
+      "text": ""
+    }
+  },
+  "dung01_test_factory": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "E9D97A60D88F506D",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "dung01_test_factory",
+    "includeDungeonIds": [
+      "dung_test_factory"
+    ],
+    "name": {
+      "id": "D2D8F3A10434B9BA",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung_group_rdg001": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "dung_char_wolfgd",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_char",
+    "id": "dung_group_rdg001",
+    "includeDungeonIds": [
+      "dung01_rdg001"
+    ],
+    "name": {
+      "id": "F606F45AE87FDCE3",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung_group_rdg002": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "dung_char_aglina",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_char",
+    "id": "dung_group_rdg002",
+    "includeDungeonIds": [
+      "dung01_rdg002"
+    ],
+    "name": {
+      "id": "399134D97E6D14F3",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dung_group_train01": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "dungeonCategory": 5,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "dung_train_normal",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_train",
+    "id": "dung_group_train01",
+    "includeDungeonIds": [
+      "dung_train01",
+      "dung_train02",
+      "dung_train03",
+      "dung_train04",
+      "dung_train05",
+      "dung_train06",
+      "dung_train07",
+      "dung_train08",
+      "dung_train09",
+      "dung_train10",
+      "dung_train11",
+      "dung_train12"
+    ],
+    "name": {
+      "id": "6B359E29B7192E06",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_assebling_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "FC9287EE3F96558B",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_assebling_1",
+    "includeDungeonIds": [
+      "dung_blackbox_assebling_1"
+    ],
+    "name": {
+      "id": "F10908334A5C56B1",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 11,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_assebling_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_2",
+    "desc": {
+      "id": "FB51DCA02FA17EBA",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_assebling_2",
+    "includeDungeonIds": [
+      "dung_blackbox_assebling_2"
+    ],
+    "name": {
+      "id": "4E22F02DC3BD05FC",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 23,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_asseblingbomb_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "A2536818B0371526",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_asseblingbomb_1",
+    "includeDungeonIds": [
+      "dung_blackbox_asseblingbomb_1"
+    ],
+    "name": {
+      "id": "00235168E5469967",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 12,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_basic_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "42223C6977E97BBC",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_basic_1",
+    "includeDungeonIds": [
+      "dung_blackbox_basic_1"
+    ],
+    "name": {
+      "id": "8D5DBA29A4F6A2FD",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_belt_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "8289C6F9246B6E02",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_belt_1",
+    "includeDungeonIds": [
+      "dung_blackbox_belt_1"
+    ],
+    "name": {
+      "id": "F379BF2285B5A4C9",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 3,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_belt_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_2",
+    "desc": {
+      "id": "2DC062618ECBE02C",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_belt_2",
+    "includeDungeonIds": [
+      "dung_blackbox_belt_2"
+    ],
+    "name": {
+      "id": "07D930B8D09C82E5",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 25,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_bus_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "64A540FC95DA252A",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_bus_1",
+    "includeDungeonIds": [
+      "dung_blackbox_bus_1"
+    ],
+    "name": {
+      "id": "D415D1509F5646DD",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 16,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_bus_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_2",
+    "desc": {
+      "id": "177303037505E80C",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_bus_2",
+    "includeDungeonIds": [
+      "dung_blackbox_bus_2"
+    ],
+    "name": {
+      "id": "DE4898FB08D9A807",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 18,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_cmpt_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "FF7EB74126667505",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_cmpt_1",
+    "includeDungeonIds": [
+      "dung_blackbox_cmpt_1"
+    ],
+    "name": {
+      "id": "26A13DD3739CEE83",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 8,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_connector_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "8D5825FE133E8DAD",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_connector_1",
+    "includeDungeonIds": [
+      "dung_blackbox_connector_1"
+    ],
+    "name": {
+      "id": "9B8C7DD5D63E490C",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 17,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_converger_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "105DA024DA6CD554",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_converger_1",
+    "includeDungeonIds": [
+      "dung_blackbox_converger_1"
+    ],
+    "name": {
+      "id": "B0428FB7638C9055",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 20,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_filling_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "45D697AE2DB90959",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_filling_1",
+    "includeDungeonIds": [
+      "dung_blackbox_filling_1"
+    ],
+    "name": {
+      "id": "F78E3FF8AD5E71AE",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 10,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_filling_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_2",
+    "desc": {
+      "id": "E209155E7A51DC0F",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_filling_2",
+    "includeDungeonIds": [
+      "dung_blackbox_filling_2"
+    ],
+    "name": {
+      "id": "C9E13890966653FB",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 22,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_filling_3": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_2",
+    "desc": {
+      "id": "78AF9AAEE0FF2741",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_filling_3",
+    "includeDungeonIds": [
+      "dung_blackbox_filling_3"
+    ],
+    "name": {
+      "id": "9BD517B8E4DA7FFD",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 24,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_filling_4": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_1",
+    "desc": {
+      "id": "C62FDD96E3309C16",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_filling_4",
+    "includeDungeonIds": [
+      "dung_blackbox_filling_4"
+    ],
+    "name": {
+      "id": "23E65B0A1DFD100C",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 3,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_filling_5": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "BA22AEC3796FA8D5",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_filling_5",
+    "includeDungeonIds": [
+      "dung_blackbox_filling_5"
+    ],
+    "name": {
+      "id": "5F68D857AF647489",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_grinder_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_2",
+    "desc": {
+      "id": "E86DA444BA9D9A28",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_grinder_1",
+    "includeDungeonIds": [
+      "dung_blackbox_grinder_1"
+    ],
+    "name": {
+      "id": "E27827715C4CA4F4",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 4,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_hub_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "57DAE8003EBC4F34",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_hub_1",
+    "includeDungeonIds": [
+      "dung_blackbox_hub_1"
+    ],
+    "name": {
+      "id": "9D2639C346F28543",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 6,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_liquidcleaner_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_1",
+    "desc": {
+      "id": "E33A1EB5A95547FC",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_liquidcleaner_1",
+    "includeDungeonIds": [
+      "dung_blackbox_liquidcleaner_1"
+    ],
+    "name": {
+      "id": "C7078902CB2B6E44",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 7,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_miner_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "95BC282D2F7BD7B6",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_miner_1",
+    "includeDungeonIds": [
+      "dung_blackbox_miner_1"
+    ],
+    "name": {
+      "id": "A8790EDE934C5F79",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_miner_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "26B1A24CDCD6BC54",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_miner_2",
+    "includeDungeonIds": [
+      "dung_blackbox_miner_2"
+    ],
+    "name": {
+      "id": "683F1E05B850D6F0",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 19,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_miner_3": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_1",
+    "desc": {
+      "id": "59D9CCEC2F22324E",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_miner_3",
+    "includeDungeonIds": [
+      "dung_blackbox_miner_3"
+    ],
+    "name": {
+      "id": "9AE613DFD09B61D1",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 5,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_mix_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_2",
+    "desc": {
+      "id": "B1A80D923AA9FA26",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_mix_1",
+    "includeDungeonIds": [
+      "dung_blackbox_mix_1"
+    ],
+    "name": {
+      "id": "E444D560F05349CE",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 2,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_mix_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_2",
+    "desc": {
+      "id": "0A448550C4E54D1B",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_mix_2",
+    "includeDungeonIds": [
+      "dung_blackbox_mix_2"
+    ],
+    "name": {
+      "id": "ECD811872AC10BBF",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 10,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_pipe_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_1",
+    "desc": {
+      "id": "C4F77E169CE1ADEE",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_pipe_1",
+    "includeDungeonIds": [
+      "dung_blackbox_pipe_1"
+    ],
+    "name": {
+      "id": "F0EB011801401C31",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_pipe_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_2",
+    "desc": {
+      "id": "701205B3ECBA06EE",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_pipe_2",
+    "includeDungeonIds": [
+      "dung_blackbox_pipe_2"
+    ],
+    "name": {
+      "id": "4FBCA7C270A83A37",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 9,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_planter_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "0866EE30360AA48D",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_planter_1",
+    "includeDungeonIds": [
+      "dung_blackbox_planter_1"
+    ],
+    "name": {
+      "id": "204AF0630C6F02CD",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 14,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_planter_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_2",
+    "desc": {
+      "id": "9780BE6A0D33CC9E",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_planter_2",
+    "includeDungeonIds": [
+      "dung_blackbox_planter_2"
+    ],
+    "name": {
+      "id": "C11AC43D351EA623",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 4,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_power_1": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "015314E5665F9BED",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_power_1",
+    "includeDungeonIds": [
+      "dung_blackbox_power_1"
+    ],
+    "name": {
+      "id": "A985462AB25E277A",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_powerstation_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "C1806D6566D884C2",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_powerstation_1",
+    "includeDungeonIds": [
+      "dung_blackbox_powerstation_1"
+    ],
+    "name": {
+      "id": "1DA264BD03DCE105",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 13,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_shaper_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "154A8C92435DC3D4",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_shaper_1",
+    "includeDungeonIds": [
+      "dung_blackbox_shaper_1"
+    ],
+    "name": {
+      "id": "E53E235BDE246BCE",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 7,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_shaper_2": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_1",
+    "desc": {
+      "id": "BAF76734BECF93AA",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_shaper_2",
+    "includeDungeonIds": [
+      "dung_blackbox_shaper_2"
+    ],
+    "name": {
+      "id": "618661A889ED76DB",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 8,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_splitter_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "94F9925F16BBC89F",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_splitter_1",
+    "includeDungeonIds": [
+      "dung_blackbox_splitter_1"
+    ],
+    "name": {
+      "id": "FAFEBB18B5E0685B",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 15,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_squirter_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_jinlong_1",
+    "desc": {
+      "id": "02055C0F3C22EFA1",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_squirter_1",
+    "includeDungeonIds": [
+      "dung_blackbox_squirter_1"
+    ],
+    "name": {
+      "id": "D992B6B5A74D4AC3",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 6,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_storager_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "E45E122DCDE5A8F3",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_storager_1",
+    "includeDungeonIds": [
+      "dung_blackbox_storager_1"
+    ],
+    "name": {
+      "id": "9359C0AFDE8D355C",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 5,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_thickener_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "97C058E6B1F0FFD4",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_thickener_1",
+    "includeDungeonIds": [
+      "dung_blackbox_thickener_1"
+    ],
+    "name": {
+      "id": "63078DD3E0A490B9",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 21,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_blackbox_winder_1": {
+    "activateRewardId": "reward__blackbox_factechpoint_tundra_1",
+    "desc": {
+      "id": "A81737A4D4C67ED8",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_blackbox_winder_1",
+    "includeDungeonIds": [
+      "dung_blackbox_winder_1"
+    ],
+    "name": {
+      "id": "A4A2E51ABC45BA05",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 9,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "entrance_dung_demo_blackbox02": {
+    "activateRewardId": "",
+    "desc": {
+      "id": "681455965A5250EE",
+      "text": ""
+    },
+    "dungeonCategory": 0,
+    "dungeonCategory2nd": 0,
+    "dungeonImg": "",
+    "dungeonPicPath": "xx/xx/xx",
+    "dungeonRoleImg": "",
+    "gameCategory": "dungeon_factory",
+    "id": "entrance_dung_demo_blackbox02",
+    "includeDungeonIds": [
+      "dung_demo_blackbox02"
+    ],
+    "name": {
+      "id": "90025B3790B1EC0A",
+      "text": ""
+    },
+    "rewardIds": [],
+    "sortId": 1,
+    "staminaText": {
+      "id": "",
+      "text": ""
+    }
+  }
+}

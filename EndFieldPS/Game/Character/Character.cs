@@ -1,5 +1,4 @@
 ﻿using EndFieldPS.Resource;
-using Org.BouncyCastle.Ocsp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +18,7 @@ namespace EndFieldPS.Game.Character
         public ulong owner;
         public double curHp;
         public uint potential = 0;
+        public int breakStage = 1;
         public Character()
         {
 
@@ -34,9 +34,13 @@ namespace EndFieldPS.Game.Character
             this.level = level;
             guid = GetOwner().random.Next();
             this.weaponGuid = GetOwner().AddWeapon(ResourceManager.GetDefaultWeapon(ResourceManager.characterTable[id].weaponType),1).guid;
-            this.curHp = ResourceManager.characterTable[id].attributes[level].Attribute.attrs.Find(A => A.attrType == (int)AttributeType.MaxHp).attrValue;
+            this.curHp = ResourceManager.characterTable[id].attributes[level].Attribute.attrs.Find(A => A.attrType == (int)AttributeType.MaxHp)!.attrValue;
         }
-
+        public List<ResourceManager.Attribute> GetAttributes()
+        {
+            int lev = level - 1 + breakStage;
+            return ResourceManager.characterTable[id].attributes[lev].Attribute.attrs;
+        }
         public Player GetOwner()
         {
             return Server.clients.Find(c=>c.roleId == this.owner); 
@@ -50,6 +54,7 @@ namespace EndFieldPS.Game.Character
                 BattleInfo = new()
                 {
                     MsgGeneration = 1,
+                    
                     SkillList =
                                 {
                                     new ServerSkill()
@@ -121,7 +126,7 @@ namespace EndFieldPS.Game.Character
 
                 }
             };
-            ResourceManager.characterTable[id].attributes[level].Attribute.attrs.ForEach(attr =>
+            GetAttributes().ForEach(attr =>
             {
                 proto.Attrs.Add(new AttrInfo()
                 {
@@ -134,6 +139,15 @@ namespace EndFieldPS.Game.Character
             });
             return proto;
         }
+        public string GetBreakNode()
+        {
+            string lastNode = "";
+            if (ResourceManager.charBreakNodeTable.Values.ToList().Find(b => b.breakStage == breakStage)!=null)
+            {
+                lastNode = ResourceManager.charBreakNodeTable.Values.ToList().Find(b => b.breakStage == breakStage).nodeId;
+            }
+            return lastNode;
+        }
         public CharInfo ToProto()
         {
             CharInfo info = new CharInfo()
@@ -141,7 +155,7 @@ namespace EndFieldPS.Game.Character
                 Exp = xp,
                 Level = level,
                 IsDead = curHp < 1,
-
+                
                 Objid = guid,
                 Templateid = id,
                 CharType = CharType.DefaultType,
@@ -152,7 +166,7 @@ namespace EndFieldPS.Game.Character
                 
                 Talent = new()
                 {
-                    
+                    LatestBreakNode= GetBreakNode(),
                 },
                 BattleMgrInfo = new()
                 {
@@ -165,6 +179,7 @@ namespace EndFieldPS.Game.Character
                 },
                 SkillInfo = new()
                 {
+                    
                     NormalSkill = id + "_NormalSkill",
                     ComboSkill = id + "_ComboSkill",
                     UltimateSkill = id + "_UltimateSkill",

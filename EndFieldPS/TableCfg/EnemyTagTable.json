@@ -1,0 +1,37 @@
+{
+  "tag_boss": {
+    "tagId": "tag_boss",
+    "tagText": {
+      "id": "79A496CA43DCC11A",
+      "text": ""
+    }
+  },
+  "tag_elite": {
+    "tagId": "tag_elite",
+    "tagText": {
+      "id": "261B15F724BDC98C",
+      "text": ""
+    }
+  },
+  "tag_melee": {
+    "tagId": "tag_melee",
+    "tagText": {
+      "id": "E6AB671D3308773B",
+      "text": ""
+    }
+  },
+  "tag_normal": {
+    "tagId": "tag_normal",
+    "tagText": {
+      "id": "FD9100556BA24E53",
+      "text": ""
+    }
+  },
+  "tag_shooter": {
+    "tagId": "tag_shooter",
+    "tagText": {
+      "id": "10E721DC83471948",
+      "text": ""
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "dung01_charbreak01": {
+    "tipContents": [
+      {
+        "id": "2C87BAAB19B39606",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_charbreak02": {
+    "tipContents": [
+      {
+        "id": "9B1A6C37BB231E96",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_charbreak03": {
+    "tipContents": [
+      {
+        "id": "7916972D8065C8B1",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_charbreak04": {
+    "tipContents": [
+      {
+        "id": "693744E3ACFDC5D8",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_exp03": {
+    "tipContents": [
+      {
+        "id": "2E771C06898375F0",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_exp04": {
+    "tipContents": [
+      {
+        "id": "8DADFA09AF73558A",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_gold01": {
+    "tipContents": [
+      {
+        "id": "83DF7E68014C76D3",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_gold02": {
+    "tipContents": [
+      {
+        "id": "618CBD703AAED0E4",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_gold03": {
+    "tipContents": [
+      {
+        "id": "A28FB4FEAEFB817B",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_gold04": {
+    "tipContents": [
+      {
+        "id": "11058D0F08AE3EEC",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_puzzle03": {
+    "tipContents": [
+      {
+        "id": "2F9F396670EFDC17",
+        "text": ""
+      },
+      {
+        "id": "3B177E2D82F84930",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_puzzle05": {
+    "tipContents": [
+      {
+        "id": "4D125E3EEDCD0D3B",
+        "text": ""
+      },
+      {
+        "id": "E0B2ECE73F567D8D",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_puzzle08": {
+    "tipContents": [
+      {
+        "id": "6A8DB124EF5542BB",
+        "text": ""
+      },
+      {
+        "id": "CB2A97858C4D80E1",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_skill01": {
+    "tipContents": [
+      {
+        "id": "71CA2CE1ADF9F2D1",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_skill02": {
+    "tipContents": [
+      {
+        "id": "CF190FBA1155D939",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_skill03": {
+    "tipContents": [
+      {
+        "id": "68AAAE3708CFD547",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_skill04": {
+    "tipContents": [
+      {
+        "id": "3B062FC7C31EE541",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_wpbreak01": {
+    "tipContents": [
+      {
+        "id": "CF054F52C8F88BB9",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_wpbreak02": {
+    "tipContents": [
+      {
+        "id": "B0FEB88CABAF309C",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_wpbreak03": {
+    "tipContents": [
+      {
+        "id": "94E916546F428B06",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_wpbreak04": {
+    "tipContents": [
+      {
+        "id": "B9FBED813E40041F",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_wpexp01": {
+    "tipContents": [
+      {
+        "id": "ED965993BAAAB3C0",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_wpexp02": {
+    "tipContents": [
+      {
+        "id": "C9266B89489F231F",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_wpexp03": {
+    "tipContents": [
+      {
+        "id": "1EFF9B3AC3A1BA13",
+        "text": ""
+      }
+    ]
+  },
+  "dung01_wpexp04": {
+    "tipContents": [
+      {
+        "id": "2323A5BBC2FB4E3B",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train01": {
+    "tipContents": [
+      {
+        "id": "626E1326A0D63C78",
+        "text": ""
+      },
+      {
+        "id": "4AB87EE8234B9A85",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train02": {
+    "tipContents": [
+      {
+        "id": "AF098676724E1B53",
+        "text": ""
+      },
+      {
+        "id": "63066CC341155474",
+        "text": ""
+      },
+      {
+        "id": "EE40C3396065F026",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train03": {
+    "tipContents": [
+      {
+        "id": "680361F9820122E1",
+        "text": ""
+      },
+      {
+        "id": "163C6DC71769D249",
+        "text": ""
+      },
+      {
+        "id": "BB1E220F9CE11E58",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train04": {
+    "tipContents": [
+      {
+        "id": "9B39A0971EEB8F9E",
+        "text": ""
+      },
+      {
+        "id": "284109CD38116742",
+        "text": ""
+      },
+      {
+        "id": "03996184B63D87C4",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train05": {
+    "tipContents": [
+      {
+        "id": "23398E6C0CCFFF6C",
+        "text": ""
+      },
+      {
+        "id": "7E5CF9B0184CA240",
+        "text": ""
+      },
+      {
+        "id": "59986EC119A33116",
+        "text": ""
+      },
+      {
+        "id": "CA15600B8D346FC1",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train06": {
+    "tipContents": [
+      {
+        "id": "89341B9C2AE64C81",
+        "text": ""
+      },
+      {
+        "id": "C0CC4C7DE55A4933",
+        "text": ""
+      },
+      {
+        "id": "9D9D418DAE9210A0",
+        "text": ""
+      },
+      {
+        "id": "14609EB992C366D2",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train07": {
+    "tipContents": [
+      {
+        "id": "BF2A8801E6291535",
+        "text": ""
+      },
+      {
+        "id": "AD43D9D27012AD89",
+        "text": ""
+      },
+      {
+        "id": "A2B98B78E0C8210A",
+        "text": ""
+      },
+      {
+        "id": "52EEC3B6BA30CBA4",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train08": {
+    "tipContents": [
+      {
+        "id": "B3CA2A0F3D081BD8",
+        "text": ""
+      },
+      {
+        "id": "5A6CFF4E23AACE72",
+        "text": ""
+      },
+      {
+        "id": "99894C66920E9897",
+        "text": ""
+      },
+      {
+        "id": "796D093E26A2E17A",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train09": {
+    "tipContents": [
+      {
+        "id": "68D47D1262EB0966",
+        "text": ""
+      },
+      {
+        "id": "8A63495C2779752E",
+        "text": ""
+      },
+      {
+        "id": "4BABAA215AE82CEE",
+        "text": ""
+      },
+      {
+        "id": "3F275DDBB91EEA62",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train10": {
+    "tipContents": [
+      {
+        "id": "CCCC22D2576CA78A",
+        "text": ""
+      },
+      {
+        "id": "E1DF593C4658A163",
+        "text": ""
+      },
+      {
+        "id": "1A5916B13F14EA7F",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train11": {
+    "tipContents": [
+      {
+        "id": "F739E6C5542A64F5",
+        "text": ""
+      },
+      {
+        "id": "31F6E1669294C516",
+        "text": ""
+      },
+      {
+        "id": "B9CAD7C2FA956F76",
+        "text": ""
+      }
+    ]
+  },
+  "dung_train12": {
+    "tipContents": [
+      {
+        "id": "9107318F4A0B4306",
+        "text": ""
+      },
+      {
+        "id": "DCDA89FBA5CDAC42",
+        "text": ""
+      },
+      {
+        "id": "A528175B7DFA8527",
+        "text": ""
+      }
+    ]
+  }
+}

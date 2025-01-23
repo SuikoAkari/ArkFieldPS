@@ -1,0 +1,3675 @@
+{
+  "component_copper_cmpt_1": {
+    "buffers": {
+      "item_copper_cmpt": 0,
+      "item_copper_nugget": 0
+    },
+    "formulaDesc": {
+      "id": "22441B80024BBA01",
+      "text": ""
+    },
+    "formulaGroupId": "group_component_normal",
+    "id": "component_copper_cmpt_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_copper_nugget"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_copper_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 5,
+    "totalProgress": 12000
+  },
+  "component_glass_cmpt_1": {
+    "buffers": {
+      "item_glass_cmpt": 0,
+      "item_quartz_glass": 0
+    },
+    "formulaDesc": {
+      "id": "05E42B3E8B38DCB9",
+      "text": ""
+    },
+    "formulaGroupId": "group_component_normal",
+    "id": "component_glass_cmpt_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_glass"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_glass_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "component_glass_enr_cmpt_1": {
+    "buffers": {
+      "item_glass_enr_cmpt": 0,
+      "item_quartz_enr": 0
+    },
+    "formulaDesc": {
+      "id": "5099EF158DCB2090",
+      "text": ""
+    },
+    "formulaGroupId": "group_component_normal",
+    "id": "component_glass_enr_cmpt_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_glass_enr_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 12000
+  },
+  "component_iron_cmpt_1": {
+    "buffers": {
+      "item_iron_cmpt": 0,
+      "item_iron_nugget": 0
+    },
+    "formulaDesc": {
+      "id": "E932FEBC2F5D5624",
+      "text": ""
+    },
+    "formulaGroupId": "group_component_normal",
+    "id": "component_iron_cmpt_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_nugget"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "component_iron_enr_cmpt_1": {
+    "buffers": {
+      "item_iron_enr": 0,
+      "item_iron_enr_cmpt": 0
+    },
+    "formulaDesc": {
+      "id": "228206A2846073C5",
+      "text": ""
+    },
+    "formulaGroupId": "group_component_normal",
+    "id": "component_iron_enr_cmpt_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_enr_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 12000
+  },
+  "filling_bottled_food_1_1": {
+    "buffers": {
+      "item_bottled_food_1": 0,
+      "item_glass_bottle": 0,
+      "item_plant_moss_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "74B13E63C5E945A7",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_normal",
+    "id": "filling_bottled_food_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 5,
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": 5,
+            "id": "item_plant_moss_powder_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_food_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 60000
+  },
+  "filling_bottled_food_2_1": {
+    "buffers": {
+      "item_bottled_food_2": 0,
+      "item_iron_bottle": 0,
+      "item_plant_moss_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "3FC1445721AF21D1",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_normal",
+    "id": "filling_bottled_food_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": 10,
+            "id": "item_plant_moss_powder_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_food_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 60000
+  },
+  "filling_bottled_food_3_1": {
+    "buffers": {
+      "item_bottled_food_3": 0,
+      "item_iron_enr_bottle": 0,
+      "item_plant_moss_enr_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "F9BC20D6842E42DB",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_normal",
+    "id": "filling_bottled_food_3_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": 10,
+            "id": "item_plant_moss_enr_powder_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_food_3"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 60000
+  },
+  "filling_bottled_food_4_1": {
+    "buffers": {
+      "item_bottled_food_4": 0,
+      "item_iron_enr_bottle": 0,
+      "item_liquid_plant_grass_1": 0
+    },
+    "formulaDesc": {
+      "id": "8892B93FF0D039EC",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_food_4_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": 5,
+            "id": "item_liquid_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_food_4"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 60000
+  },
+  "filling_bottled_food_4_2": {
+    "buffers": {
+      "item_bottled_food_4": 0,
+      "item_iron_enr_jar": 0,
+      "item_liquid_plant_grass_1": 0
+    },
+    "formulaDesc": {
+      "id": "558298AB3B51D8A2",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_food_4_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 5,
+            "id": "item_iron_enr_jar"
+          },
+          {
+            "count": 5,
+            "id": "item_liquid_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_food_4"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 5,
+    "totalProgress": 60000
+  },
+  "filling_bottled_food_5_1": {
+    "buffers": {
+      "item_bottled_food_5": 0,
+      "item_copper_jar": 0,
+      "item_liquid_plant_grass_1": 0
+    },
+    "formulaDesc": {
+      "id": "E50E4AECD6A6CCB9",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_food_5_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_copper_jar"
+          },
+          {
+            "count": 10,
+            "id": "item_liquid_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_food_5"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 6,
+    "totalProgress": 60000
+  },
+  "filling_bottled_rec_hp_1_1": {
+    "buffers": {
+      "item_bottled_rec_hp_1": 0,
+      "item_glass_bottle": 0,
+      "item_plant_moss_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "989948D478359543",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_normal",
+    "id": "filling_bottled_rec_hp_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 5,
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": 5,
+            "id": "item_plant_moss_powder_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_rec_hp_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 7,
+    "totalProgress": 60000
+  },
+  "filling_bottled_rec_hp_2_1": {
+    "buffers": {
+      "item_bottled_rec_hp_2": 0,
+      "item_iron_bottle": 0,
+      "item_plant_moss_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "B6E9801D950DADE4",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_normal",
+    "id": "filling_bottled_rec_hp_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": 10,
+            "id": "item_plant_moss_powder_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_rec_hp_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 8,
+    "totalProgress": 60000
+  },
+  "filling_bottled_rec_hp_3_1": {
+    "buffers": {
+      "item_bottled_rec_hp_3": 0,
+      "item_iron_enr_bottle": 0,
+      "item_plant_moss_enr_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "E7F720B7795ACC8E",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_normal",
+    "id": "filling_bottled_rec_hp_3_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": 10,
+            "id": "item_plant_moss_enr_powder_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_rec_hp_3"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 9,
+    "totalProgress": 60000
+  },
+  "filling_bottled_rec_hp_4_1": {
+    "buffers": {
+      "item_bottled_rec_hp_4": 0,
+      "item_iron_enr_bottle": 0,
+      "item_liquid_plant_grass_2": 0
+    },
+    "formulaDesc": {
+      "id": "0E392A47DBE8D79C",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_rec_hp_4_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": 5,
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_rec_hp_4"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 10,
+    "totalProgress": 60000
+  },
+  "filling_bottled_rec_hp_4_2": {
+    "buffers": {
+      "item_bottled_rec_hp_4": 0,
+      "item_iron_enr_jar": 0,
+      "item_liquid_plant_grass_2": 0
+    },
+    "formulaDesc": {
+      "id": "40504F3010777958",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_rec_hp_4_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 5,
+            "id": "item_iron_enr_jar"
+          },
+          {
+            "count": 5,
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_rec_hp_4"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 11,
+    "totalProgress": 60000
+  },
+  "filling_bottled_rec_hp_5_1": {
+    "buffers": {
+      "item_bottled_rec_hp_5": 0,
+      "item_copper_jar": 0,
+      "item_liquid_plant_grass_2": 0
+    },
+    "formulaDesc": {
+      "id": "D22AE35FDF2BA17F",
+      "text": ""
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_rec_hp_5_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_copper_jar"
+          },
+          {
+            "count": 10,
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_bottled_rec_hp_5"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 12,
+    "totalProgress": 60000
+  },
+  "furnance_carbon_enr_1": {
+    "buffers": {
+      "item_carbon_enr": 0,
+      "item_carbon_enr_powder": 0
+    },
+    "formulaDesc": {
+      "id": "8BF14B95126C90A6",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 10,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_enr_powder_1": {
+    "buffers": {
+      "item_carbon_enr_powder": 0,
+      "item_plant_moss_enr_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "03FF25C53267F16C",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_enr_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_enr_powder_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 24,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_enr_powder_2": {
+    "buffers": {
+      "item_carbon_enr_powder": 0,
+      "item_plant_moss_enr_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "94F694AE38649C0B",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_enr_powder_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_enr_powder_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 25,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_material_1": {
+    "buffers": {
+      "item_carbon_mtl": 0,
+      "item_plant_moss_1": 0
+    },
+    "formulaDesc": {
+      "id": "2CE99FBA762BE41A",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_material_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_mtl"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 13,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_material_2": {
+    "buffers": {
+      "item_carbon_mtl": 0,
+      "item_plant_moss_2": 0
+    },
+    "formulaDesc": {
+      "id": "C1DAAB9F177B1281",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_material_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_mtl"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 14,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_material_3": {
+    "buffers": {
+      "item_carbon_mtl": 0,
+      "item_plant_moss_3": 0
+    },
+    "formulaDesc": {
+      "id": "14579AE0F1E853D3",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_material_3",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 3,
+            "id": "item_plant_moss_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_mtl"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 15,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_material_4": {
+    "buffers": {
+      "item_carbon_mtl": 0,
+      "item_plant_tundra_wood": 0
+    },
+    "formulaDesc": {
+      "id": "BBF5F12B5BBD7BA7",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_material_4",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_tundra_wood"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_mtl"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 16,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_material_5": {
+    "buffers": {
+      "item_carbon_mtl": 0,
+      "item_plant_grass_1": 0
+    },
+    "formulaDesc": {
+      "id": "8606E5C9DD307A92",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_material_5",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_mtl"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 17,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_material_6": {
+    "buffers": {
+      "item_carbon_mtl": 0,
+      "item_plant_grass_2": 0
+    },
+    "formulaDesc": {
+      "id": "A2F2B48B0D8923F4",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_material_6",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_mtl"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 18,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_powder_1": {
+    "buffers": {
+      "item_carbon_powder": 0,
+      "item_plant_moss_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "4CF1DA440FF49825",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 19,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_powder_2": {
+    "buffers": {
+      "item_carbon_powder": 0,
+      "item_plant_moss_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "DF9A3DAAB345A0BC",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_powder_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 20,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_powder_3": {
+    "buffers": {
+      "item_carbon_powder": 0,
+      "item_plant_moss_powder_3": 0
+    },
+    "formulaDesc": {
+      "id": "64EB7FDE310DA35A",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_powder_3",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 3,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 21,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_powder_4": {
+    "buffers": {
+      "item_carbon_powder": 0,
+      "item_plant_grass_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "2ECF21415A4A7C6F",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_powder_4",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_powder_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 22,
+    "totalProgress": 12000
+  },
+  "furnance_carbon_powder_5": {
+    "buffers": {
+      "item_carbon_powder": 0,
+      "item_plant_grass_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "CD8DFB7CBFEB5FF9",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_carbon_powder_5",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_powder_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 23,
+    "totalProgress": 12000
+  },
+  "furnance_copper_nugget_1": {
+    "buffers": {
+      "item_copper_nugget": 0,
+      "item_copper_ore": 0,
+      "item_liquid_sewage": 0,
+      "item_liquid_water": 0
+    },
+    "formulaDesc": {
+      "id": "09434C1F3024363E",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_liquid",
+    "id": "furnance_copper_nugget_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_copper_ore"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_copper_nugget"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "furnance_crystal_enr_1": {
+    "buffers": {
+      "item_crystal_enr": 0,
+      "item_crystal_enr_powder": 0
+    },
+    "formulaDesc": {
+      "id": "D7CCB30291C805A6",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_crystal_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 7,
+    "totalProgress": 12000
+  },
+  "furnance_crystal_enr_powder_1": {
+    "buffers": {
+      "item_crystal_enr_powder": 0,
+      "item_originium_enr_powder": 0
+    },
+    "formulaDesc": {
+      "id": "FCCDA78EF31CA1EE",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_crystal_enr_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_originium_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 11,
+    "totalProgress": 12000
+  },
+  "furnance_crystal_powder_1": {
+    "buffers": {
+      "item_crystal_powder": 0,
+      "item_originium_powder": 0
+    },
+    "formulaDesc": {
+      "id": "DAD44210D6D10D56",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_crystal_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_originium_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 12,
+    "totalProgress": 12000
+  },
+  "furnance_crystal_shell_1": {
+    "buffers": {
+      "item_crystal_shell": 0,
+      "item_originium_ore": 0
+    },
+    "formulaDesc": {
+      "id": "F652236A0F49E495",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_crystal_shell_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_originium_ore"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_shell"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 5,
+    "totalProgress": 12000
+  },
+  "furnance_crystal_shell_2": {
+    "buffers": {
+      "item_crystal_powder": 0,
+      "item_crystal_shell": 0
+    },
+    "formulaDesc": {
+      "id": "7B9F1477C65BF550",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_crystal_shell_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_shell"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 6,
+    "totalProgress": 12000
+  },
+  "furnance_iron_enr_1": {
+    "buffers": {
+      "item_iron_enr": 0,
+      "item_iron_enr_powder": 0
+    },
+    "formulaDesc": {
+      "id": "49D39906AC4C9D27",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_iron_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 8,
+    "totalProgress": 12000
+  },
+  "furnance_iron_nugget_1": {
+    "buffers": {
+      "item_iron_nugget": 0,
+      "item_iron_ore": 0
+    },
+    "formulaDesc": {
+      "id": "B580AF8F66D24872",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_iron_nugget_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_ore"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_nugget"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "furnance_iron_nugget_2": {
+    "buffers": {
+      "item_iron_nugget": 0,
+      "item_iron_powder": 0
+    },
+    "formulaDesc": {
+      "id": "7143CDF4412FC5C6",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_iron_nugget_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_nugget"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "furnance_iron_nugget_3": {
+    "buffers": {
+      "item_iron_nugget": 0,
+      "item_iron_ore": 0,
+      "item_liquid_sewage": 0,
+      "item_liquid_water": 0
+    },
+    "formulaDesc": {
+      "id": "0E05541D08DE6D04",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_liquid",
+    "id": "furnance_iron_nugget_3",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_ore"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_iron_nugget"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "furnance_quartz_enr_1": {
+    "buffers": {
+      "item_quartz_enr": 0,
+      "item_quartz_enr_powder": 0
+    },
+    "formulaDesc": {
+      "id": "9B255F38288A219B",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_quartz_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 9,
+    "totalProgress": 12000
+  },
+  "furnance_quartz_glass_1": {
+    "buffers": {
+      "item_quartz_glass": 0,
+      "item_quartz_sand": 0
+    },
+    "formulaDesc": {
+      "id": "5DC479F2AE16A3CC",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_quartz_glass_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_sand"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_glass"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 12000
+  },
+  "furnance_quartz_glass_2": {
+    "buffers": {
+      "item_quartz_glass": 0,
+      "item_quartz_powder": 0
+    },
+    "formulaDesc": {
+      "id": "2A477A8E44938C65",
+      "text": ""
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "id": "furnance_quartz_glass_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_glass"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 12000
+  },
+  "grinder_carbon_powder_1": {
+    "buffers": {
+      "item_carbon_mtl": 0,
+      "item_carbon_powder": 0
+    },
+    "formulaDesc": {
+      "id": "34C66C941F376629",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_carbon_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_mtl"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 6,
+    "totalProgress": 12000
+  },
+  "grinder_crystal_powder_1": {
+    "buffers": {
+      "item_crystal_powder": 0,
+      "item_crystal_shell": 0
+    },
+    "formulaDesc": {
+      "id": "441C4AE7B6C1439A",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_crystal_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_shell"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 7,
+    "totalProgress": 12000
+  },
+  "grinder_iron_powder_1": {
+    "buffers": {
+      "item_iron_nugget": 0,
+      "item_iron_powder": 0
+    },
+    "formulaDesc": {
+      "id": "542264DD64C2F26E",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_iron_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_nugget"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 12000
+  },
+  "grinder_originium_powder_1": {
+    "buffers": {
+      "item_originium_ore": 0,
+      "item_originium_powder": 0
+    },
+    "formulaDesc": {
+      "id": "D70D9C3D54C4D9DC",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_originium_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_originium_ore"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_originium_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 5,
+    "totalProgress": 12000
+  },
+  "grinder_plant_bbflower_powder_1_1": {
+    "buffers": {
+      "item_plant_bbflower_1": 0,
+      "item_plant_bbflower_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "5D52913976124372",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_plant_bbflower_powder_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_bbflower_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_bbflower_powder_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 11,
+    "totalProgress": 12000
+  },
+  "grinder_plant_grass_powder_1_1": {
+    "buffers": {
+      "item_plant_grass_1": 0,
+      "item_plant_grass_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "7593544CA69CF6D8",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_plant_grass_powder_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_grass_powder_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 12,
+    "totalProgress": 12000
+  },
+  "grinder_plant_grass_powder_2_1": {
+    "buffers": {
+      "item_plant_grass_2": 0,
+      "item_plant_grass_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "A0C552E0B2029C5B",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_plant_grass_powder_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_grass_powder_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 13,
+    "totalProgress": 12000
+  },
+  "grinder_plant_moss_powder_1_1": {
+    "buffers": {
+      "item_plant_moss_1": 0,
+      "item_plant_moss_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "2894483B64686B27",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_plant_moss_powder_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_moss_powder_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 8,
+    "totalProgress": 12000
+  },
+  "grinder_plant_moss_powder_2_1": {
+    "buffers": {
+      "item_plant_moss_2": 0,
+      "item_plant_moss_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "ED117D1097EA4757",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_plant_moss_powder_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_moss_powder_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 9,
+    "totalProgress": 12000
+  },
+  "grinder_plant_moss_powder_3_1": {
+    "buffers": {
+      "item_plant_moss_3": 0,
+      "item_plant_moss_powder_3": 0
+    },
+    "formulaDesc": {
+      "id": "DF63F9FF6B99715E",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_plant_moss_powder_3_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 3,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 10,
+    "totalProgress": 12000
+  },
+  "grinder_quartz_powder_1": {
+    "buffers": {
+      "item_quartz_glass": 0,
+      "item_quartz_powder": 0
+    },
+    "formulaDesc": {
+      "id": "73DA58091844E20A",
+      "text": ""
+    },
+    "formulaGroupId": "group_grinder_normal",
+    "id": "grinder_quartz_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_glass"
+          }
+        ]
+      }
+    ],
+    "machineId": "grinder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 12000
+  },
+  "planter_plant_bbflower_1": {
+    "buffers": {
+      "item_plant_bbflower_1": 0,
+      "item_plant_bbflower_seed_1": 0
+    },
+    "formulaDesc": {
+      "id": "D3E07B0BD51DF45F",
+      "text": ""
+    },
+    "formulaGroupId": "group_planter_normal",
+    "id": "planter_plant_bbflower_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_bbflower_seed_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "planter_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_bbflower_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 12000
+  },
+  "planter_plant_grass_1_1": {
+    "buffers": {
+      "item_liquid_water": 0,
+      "item_plant_grass_1": 0,
+      "item_plant_grass_seed_1": 0
+    },
+    "formulaDesc": {
+      "id": "57B4BCA2C7B1309F",
+      "text": ""
+    },
+    "formulaGroupId": "group_planter_liquid",
+    "id": "planter_plant_grass_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_seed_1"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "planter_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "planter_plant_grass_2_1": {
+    "buffers": {
+      "item_liquid_water": 0,
+      "item_plant_grass_2": 0,
+      "item_plant_grass_seed_2": 0
+    },
+    "formulaDesc": {
+      "id": "3426E60ABF7F3CA6",
+      "text": ""
+    },
+    "formulaGroupId": "group_planter_liquid",
+    "id": "planter_plant_grass_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_seed_2"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "planter_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "planter_plant_moss_1_1": {
+    "buffers": {
+      "item_plant_moss_1": 0,
+      "item_plant_moss_seed_1": 0
+    },
+    "formulaDesc": {
+      "id": "BB99F11C05E05974",
+      "text": ""
+    },
+    "formulaGroupId": "group_planter_normal",
+    "id": "planter_plant_moss_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_seed_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "planter_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "planter_plant_moss_2_1": {
+    "buffers": {
+      "item_plant_moss_2": 0,
+      "item_plant_moss_seed_2": 0
+    },
+    "formulaDesc": {
+      "id": "B3EAFAC6282CC857",
+      "text": ""
+    },
+    "formulaGroupId": "group_planter_normal",
+    "id": "planter_plant_moss_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_seed_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "planter_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "planter_plant_moss_3_1": {
+    "buffers": {
+      "item_plant_moss_3": 0,
+      "item_plant_moss_seed_3": 0
+    },
+    "formulaDesc": {
+      "id": "B57BB0E3475A16D1",
+      "text": ""
+    },
+    "formulaGroupId": "group_planter_normal",
+    "id": "planter_plant_moss_3_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_seed_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "planter_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_3"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 12000
+  },
+  "pool_liquid_plant_grass_1_1": {
+    "buffers": {
+      "item_liquid_plant_grass_1": 0,
+      "item_liquid_water": 0,
+      "item_plant_grass_powder_1": 0
+    },
+    "formulaDesc": {
+      "id": "DE73BAD4DFB10024",
+      "text": ""
+    },
+    "formulaGroupId": "group_mix_pool_1_liquid",
+    "id": "pool_liquid_plant_grass_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_powder_1"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_liquid_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "pool_liquid_plant_grass_2_1": {
+    "buffers": {
+      "item_liquid_plant_grass_2": 0,
+      "item_liquid_water": 0,
+      "item_plant_grass_powder_2": 0
+    },
+    "formulaDesc": {
+      "id": "11892C68FF2CFF29",
+      "text": ""
+    },
+    "formulaGroupId": "group_mix_pool_1_liquid",
+    "id": "pool_liquid_plant_grass_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_powder_2"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_bbflower_1": {
+    "buffers": {
+      "item_plant_bbflower_1": 0,
+      "item_plant_bbflower_seed_1": 0
+    },
+    "formulaDesc": {
+      "id": "F52E403FB45C2EB8",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_bbflower_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_bbflower_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_bbflower_seed_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_grass_1_1": {
+    "buffers": {
+      "item_plant_grass_1": 0,
+      "item_plant_grass_seed_1": 0
+    },
+    "formulaDesc": {
+      "id": "09DDC8893F4F9CBB",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_grass_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_grass_seed_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 5,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_grass_2_1": {
+    "buffers": {
+      "item_plant_grass_2": 0,
+      "item_plant_grass_seed_2": 0
+    },
+    "formulaDesc": {
+      "id": "CA5499591A321290",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_grass_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_grass_seed_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 6,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_moss_1_1": {
+    "buffers": {
+      "item_plant_moss_1": 0,
+      "item_plant_moss_seed_1": 0
+    },
+    "formulaDesc": {
+      "id": "0250CD9D6E926DAB",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_moss_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_moss_seed_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_moss_2_1": {
+    "buffers": {
+      "item_plant_moss_2": 0,
+      "item_plant_moss_seed_2": 0
+    },
+    "formulaDesc": {
+      "id": "210C7178FC6D2226",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_moss_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_moss_seed_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_moss_3_1": {
+    "buffers": {
+      "item_plant_moss_3": 0,
+      "item_plant_moss_seed_3": 0
+    },
+    "formulaDesc": {
+      "id": "B6813D25F0D9D070",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_moss_3_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_moss_seed_3"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_sp_1": {
+    "buffers": {
+      "item_plant_sp_1": 0,
+      "item_plant_sp_seed_1": 0
+    },
+    "formulaDesc": {
+      "id": "AA4725FFAB4FCDD5",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_sp_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_sp_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_sp_seed_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 7,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_sp_2": {
+    "buffers": {
+      "item_plant_sp_2": 0,
+      "item_plant_sp_seed_2": 0
+    },
+    "formulaDesc": {
+      "id": "B0E8857E7BA94689",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_sp_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_sp_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_sp_seed_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 8,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_sp_3": {
+    "buffers": {
+      "item_plant_sp_3": 0,
+      "item_plant_sp_seed_3": 0
+    },
+    "formulaDesc": {
+      "id": "D08F9842B41588F0",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_sp_3",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_sp_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_sp_seed_3"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 9,
+    "totalProgress": 12000
+  },
+  "seedcollector_plant_sp_4": {
+    "buffers": {
+      "item_plant_sp_4": 0,
+      "item_plant_sp_seed_4": 0
+    },
+    "formulaDesc": {
+      "id": "014E7D1C4905A6F3",
+      "text": ""
+    },
+    "formulaGroupId": "group_seedcollector_normal",
+    "id": "seedcollector_plant_sp_4",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_sp_4"
+          }
+        ]
+      }
+    ],
+    "machineId": "seedcollector_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_sp_seed_4"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 10,
+    "totalProgress": 12000
+  },
+  "shaper_copper_jar_1": {
+    "buffers": {
+      "item_copper_jar": 0,
+      "item_copper_nugget": 0,
+      "item_liquid_sewage": 0,
+      "item_liquid_water": 0
+    },
+    "formulaDesc": {
+      "id": "1783144D21B78A92",
+      "text": ""
+    },
+    "formulaGroupId": "group_shaper_liquid",
+    "id": "shaper_copper_jar_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_copper_nugget"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_copper_jar"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "shaper_glass_bottle_1": {
+    "buffers": {
+      "item_glass_bottle": 0,
+      "item_quartz_glass": 0
+    },
+    "formulaDesc": {
+      "id": "1BD388FC567949DF",
+      "text": ""
+    },
+    "formulaGroupId": "group_shaper_normal",
+    "id": "shaper_glass_bottle_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_quartz_glass"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_glass_bottle"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "shaper_glass_enr_bottle_1": {
+    "buffers": {
+      "item_glass_enr_bottle": 0,
+      "item_quartz_enr": 0
+    },
+    "formulaDesc": {
+      "id": "BCDBF0FF2D024E78",
+      "text": ""
+    },
+    "formulaGroupId": "group_shaper_normal",
+    "id": "shaper_glass_enr_bottle_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_quartz_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_glass_enr_bottle"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 12000
+  },
+  "shaper_iron_bottle_1": {
+    "buffers": {
+      "item_iron_bottle": 0,
+      "item_iron_nugget": 0
+    },
+    "formulaDesc": {
+      "id": "43BC132FD6CED51E",
+      "text": ""
+    },
+    "formulaGroupId": "group_shaper_normal",
+    "id": "shaper_iron_bottle_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_iron_nugget"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_bottle"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "shaper_iron_enr_bottle_1": {
+    "buffers": {
+      "item_iron_enr": 0,
+      "item_iron_enr_bottle": 0
+    },
+    "formulaDesc": {
+      "id": "5058331CA6E9BD46",
+      "text": ""
+    },
+    "formulaGroupId": "group_shaper_normal",
+    "id": "shaper_iron_enr_bottle_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_iron_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_enr_bottle"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 12000
+  },
+  "shaper_iron_enr_jar_1": {
+    "buffers": {
+      "item_iron_enr": 0,
+      "item_iron_enr_jar": 0,
+      "item_liquid_sewage": 0,
+      "item_liquid_water": 0
+    },
+    "formulaDesc": {
+      "id": "3C7F8C8DBA5F7FF3",
+      "text": ""
+    },
+    "formulaGroupId": "group_shaper_liquid",
+    "id": "shaper_iron_enr_jar_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_iron_enr"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_enr_jar"
+          },
+          {
+            "count": 1,
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "thickener_carbon_enr_powder_1": {
+    "buffers": {
+      "item_carbon_enr_powder": 0,
+      "item_carbon_powder": 0,
+      "item_plant_moss_powder_3": 0
+    },
+    "formulaDesc": {
+      "id": "660F228A6096606F",
+      "text": ""
+    },
+    "formulaGroupId": "group_thickener_normal",
+    "id": "thickener_carbon_enr_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_carbon_powder"
+          },
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "thickener_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_carbon_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 12000
+  },
+  "thickener_crystal_enr_powder_1": {
+    "buffers": {
+      "item_crystal_enr_powder": 0,
+      "item_crystal_powder": 0,
+      "item_plant_moss_powder_3": 0
+    },
+    "formulaDesc": {
+      "id": "A19EC8807F105325",
+      "text": ""
+    },
+    "formulaGroupId": "group_thickener_normal",
+    "id": "thickener_crystal_enr_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_crystal_powder"
+          },
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "thickener_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_crystal_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 5,
+    "totalProgress": 12000
+  },
+  "thickener_iron_enr_powder_1": {
+    "buffers": {
+      "item_iron_enr_powder": 0,
+      "item_iron_powder": 0,
+      "item_plant_moss_powder_3": 0
+    },
+    "formulaDesc": {
+      "id": "A04DEA1EBE6C7679",
+      "text": ""
+    },
+    "formulaGroupId": "group_thickener_normal",
+    "id": "thickener_iron_enr_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_iron_powder"
+          },
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "thickener_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_iron_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 12000
+  },
+  "thickener_originium_enr_powder_1": {
+    "buffers": {
+      "item_originium_enr_powder": 0,
+      "item_originium_powder": 0,
+      "item_plant_moss_powder_3": 0
+    },
+    "formulaDesc": {
+      "id": "54E59285A88B52B2",
+      "text": ""
+    },
+    "formulaGroupId": "group_thickener_normal",
+    "id": "thickener_originium_enr_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_originium_powder"
+          },
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "thickener_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_originium_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 12000
+  },
+  "thickener_plant_moss_enr_powder_1_1": {
+    "buffers": {
+      "item_plant_moss_enr_powder_1": 0,
+      "item_plant_moss_powder_1": 0,
+      "item_plant_moss_powder_3": 0
+    },
+    "formulaDesc": {
+      "id": "7F7453A0171F19AB",
+      "text": ""
+    },
+    "formulaGroupId": "group_thickener_normal",
+    "id": "thickener_plant_moss_enr_powder_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_moss_powder_1"
+          },
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "thickener_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_enr_powder_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 6,
+    "totalProgress": 12000
+  },
+  "thickener_plant_moss_enr_powder_2_1": {
+    "buffers": {
+      "item_plant_moss_enr_powder_2": 0,
+      "item_plant_moss_powder_2": 0,
+      "item_plant_moss_powder_3": 0
+    },
+    "formulaDesc": {
+      "id": "0A91DCFFBAE0B27B",
+      "text": ""
+    },
+    "formulaGroupId": "group_thickener_normal",
+    "id": "thickener_plant_moss_enr_powder_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_plant_moss_powder_2"
+          },
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "thickener_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_plant_moss_enr_powder_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 7,
+    "totalProgress": 12000
+  },
+  "thickener_quartz_enr_powder_1": {
+    "buffers": {
+      "item_plant_moss_powder_3": 0,
+      "item_quartz_enr_powder": 0,
+      "item_quartz_powder": 0
+    },
+    "formulaDesc": {
+      "id": "2448828BE3C1E885",
+      "text": ""
+    },
+    "formulaGroupId": "group_thickener_normal",
+    "id": "thickener_quartz_enr_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 2,
+            "id": "item_quartz_powder"
+          },
+          {
+            "count": 1,
+            "id": "item_plant_moss_powder_3"
+          }
+        ]
+      }
+    ],
+    "machineId": "thickener_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_quartz_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": 2,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 12000
+  },
+  "tools_proc_battery_1_1": {
+    "buffers": {
+      "item_glass_cmpt": 0,
+      "item_originium_powder": 0,
+      "item_proc_battery_1": 0
+    },
+    "formulaDesc": {
+      "id": "0323E549BAB4A3CE",
+      "text": ""
+    },
+    "formulaGroupId": "group_tools_normal",
+    "id": "tools_proc_battery_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 5,
+            "id": "item_glass_cmpt"
+          },
+          {
+            "count": 10,
+            "id": "item_originium_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_proc_battery_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 60000
+  },
+  "tools_proc_battery_2_1": {
+    "buffers": {
+      "item_iron_cmpt": 0,
+      "item_originium_powder": 0,
+      "item_proc_battery_2": 0
+    },
+    "formulaDesc": {
+      "id": "8D190087C00209A7",
+      "text": ""
+    },
+    "formulaGroupId": "group_tools_normal",
+    "id": "tools_proc_battery_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_iron_cmpt"
+          },
+          {
+            "count": 20,
+            "id": "item_originium_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_proc_battery_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 60000
+  },
+  "tools_proc_battery_3_1": {
+    "buffers": {
+      "item_iron_enr_cmpt": 0,
+      "item_originium_enr_powder": 0,
+      "item_proc_battery_3": 0
+    },
+    "formulaDesc": {
+      "id": "5063893A3CF80B7B",
+      "text": ""
+    },
+    "formulaGroupId": "group_tools_normal",
+    "id": "tools_proc_battery_3_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_iron_enr_cmpt"
+          },
+          {
+            "count": 20,
+            "id": "item_originium_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_proc_battery_3"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 60000
+  },
+  "tools_proc_bomb_1_1": {
+    "buffers": {
+      "item_glass_cmpt": 0,
+      "item_plant_bbflower_powder_1": 0,
+      "item_proc_bomb_1": 0
+    },
+    "formulaDesc": {
+      "id": "1DC5A93328780F45",
+      "text": ""
+    },
+    "formulaGroupId": "group_tools_normal",
+    "id": "tools_proc_bomb_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 5,
+            "id": "item_glass_cmpt"
+          },
+          {
+            "count": 1,
+            "id": "item_plant_bbflower_powder_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_proc_bomb_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 60000
+  },
+  "winder_equip_script_1": {
+    "buffers": {
+      "item_crystal_shell": 0,
+      "item_equip_script_1": 0,
+      "item_quartz_glass": 0
+    },
+    "formulaDesc": {
+      "id": "E1E8E09FF5A5DCD5",
+      "text": ""
+    },
+    "formulaGroupId": "group_winder_normal",
+    "id": "winder_equip_script_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 5,
+            "id": "item_crystal_shell"
+          },
+          {
+            "count": 5,
+            "id": "item_quartz_glass"
+          }
+        ]
+      }
+    ],
+    "machineId": "winder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_equip_script_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 1,
+    "totalProgress": 60000
+  },
+  "winder_equip_script_2": {
+    "buffers": {
+      "item_crystal_shell": 0,
+      "item_equip_script_2": 0,
+      "item_iron_nugget": 0
+    },
+    "formulaDesc": {
+      "id": "B1B5CCD134A23D03",
+      "text": ""
+    },
+    "formulaGroupId": "group_winder_normal",
+    "id": "winder_equip_script_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_crystal_shell"
+          },
+          {
+            "count": 10,
+            "id": "item_iron_nugget"
+          }
+        ]
+      }
+    ],
+    "machineId": "winder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_equip_script_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 2,
+    "totalProgress": 60000
+  },
+  "winder_equip_script_3": {
+    "buffers": {
+      "item_crystal_enr": 0,
+      "item_equip_script_3": 0,
+      "item_quartz_enr": 0
+    },
+    "formulaDesc": {
+      "id": "239C30ED8F653B30",
+      "text": ""
+    },
+    "formulaGroupId": "group_winder_normal",
+    "id": "winder_equip_script_3",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_crystal_enr"
+          },
+          {
+            "count": 10,
+            "id": "item_quartz_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "winder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_equip_script_3"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 3,
+    "totalProgress": 60000
+  },
+  "winder_equip_script_4": {
+    "buffers": {
+      "item_copper_nugget": 0,
+      "item_crystal_enr": 0,
+      "item_equip_script_4": 0
+    },
+    "formulaDesc": {
+      "id": "5D1DC533233AF25D",
+      "text": ""
+    },
+    "formulaGroupId": "group_winder_normal",
+    "id": "winder_equip_script_4",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": 10,
+            "id": "item_crystal_enr"
+          },
+          {
+            "count": 5,
+            "id": "item_copper_nugget"
+          }
+        ]
+      }
+    ],
+    "machineId": "winder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": 1,
+            "id": "item_equip_script_4"
+          }
+        ]
+      }
+    ],
+    "progressRound": 10,
+    "signal": 0,
+    "sortId": 4,
+    "totalProgress": 60000
+  }
+}

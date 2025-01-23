@@ -1,0 +1,215 @@
+{
+  "int_collection_common": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_collection_essential": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_collection_essential_spl": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_collection_gold_1": {
+    "audioPick": "au_item_metal_collect"
+  },
+  "int_collection_item_1": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_collection_item_2": {
+    "audioPick": "au_item_tech_collect"
+  },
+  "int_collection_item_3": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_collection_item_gold_1": {
+    "audioPick": "au_item_metal_collect"
+  },
+  "int_collection_item_gold_2": {
+    "audioPick": "au_item_metal_collect"
+  },
+  "int_collection_item_gold_3": {
+    "audioPick": "au_item_metal_collect"
+  },
+  "int_collection_moon": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_collection_moon_part": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_collection_unique": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_drop_agmelee": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_angle_l_1": {
+    "audioPick": "au_item_stone_collect"
+  },
+  "int_drop_angle_m_1": {
+    "audioPick": "au_item_stone_collect"
+  },
+  "int_drop_angle_s_1": {
+    "audioPick": "au_item_stone_collect"
+  },
+  "int_drop_animal_1": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_artificial": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_drop_building": {
+    "audioPick": "au_item_tech_collect"
+  },
+  "int_drop_cardexp": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_drop_copper_ore": {
+    "audioPick": "au_item_iron_collect"
+  },
+  "int_drop_crylplant_2_1": {
+    "audioPick": "au_item_flower_collect"
+  },
+  "int_drop_droppack_1": {
+    "audioPick": "au_item_collect_common"
+  },
+  "int_drop_eb_jl_m_1": {
+    "audioPick": "au_item_seed_collect"
+  },
+  "int_drop_eb_l_1": {
+    "audioPick": "au_item_seed_collect"
+  },
+  "int_drop_eb_m_1": {
+    "audioPick": "au_item_seed_collect"
+  },
+  "int_drop_eb_s_1": {
+    "audioPick": "au_item_seed_collect"
+  },
+  "int_drop_enemycommon_1": {
+    "audioPick": "au_item_metal_collect"
+  },
+  "int_drop_equip": {
+    "audioPick": "au_item_tech_collect"
+  },
+  "int_drop_ergori": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_erosion_m_1": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_erosion_s_1": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_gem": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_insect_1": {
+    "audioPick": "au_item_insect_collect"
+  },
+  "int_drop_insect_2": {
+    "audioPick": "au_item_insect_collect"
+  },
+  "int_drop_iron_ore": {
+    "audioPick": "au_item_iron_collect"
+  },
+  "int_drop_lbmob": {
+    "audioPick": "au_item_tech_collect"
+  },
+  "int_drop_mini": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_mushroom_1": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_mushroom_2": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_mushroom_3": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_mushroom_4": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_mushroom_5": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_mushroom_6": {
+    "audioPick": "au_item_mushroom_collect"
+  },
+  "int_drop_mushroom_seed": {
+    "audioPick": "au_item_seed_collect"
+  },
+  "int_drop_orgplant_1": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_orgplant_2": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_orgplant_3": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_orgplant_seed": {
+    "audioPick": "au_item_seed_collect"
+  },
+  "int_drop_originium_ore": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_plant_bbflower_1": {
+    "audioPick": "au_item_bbflower_collect"
+  },
+  "int_drop_plant_grass_1": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_plant_grass_2": {
+    "audioPick": "au_item_flower_collect"
+  },
+  "int_drop_plant_grass_spc_1": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_plant_grass_spc_2": {
+    "audioPick": "au_item_flower_collect"
+  },
+  "int_drop_plant_moss_1": {
+    "audioPick": "au_item_flower_collect"
+  },
+  "int_drop_plant_moss_2": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_plant_moss_3": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_plant_moss_seed": {
+    "audioPick": "au_item_seed_collect"
+  },
+  "int_drop_plant_moss_spc_1": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_plant_moss_spc_2": {
+    "audioPick": "au_item_smallflower_collect"
+  },
+  "int_drop_quartz_sand": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_ship_compnent_1": {
+    "audioPick": "au_item_tech_collect"
+  },
+  "int_drop_spcstone_1_1": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_spcstone_1_2": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_spcstone_1_3": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_spcstone_2_1": {
+    "audioPick": "au_item_quartz_collect"
+  },
+  "int_drop_weapon": {
+    "audioPick": "au_item_tech_collect"
+  },
+  "int_drop_wood": {
+    "audioPick": "au_item_tree_collect"
+  },
+  "item_pack_doodad_sp_metal_ore": {
+    "audioPick": "au_item_metal_collect"
+  }
+}

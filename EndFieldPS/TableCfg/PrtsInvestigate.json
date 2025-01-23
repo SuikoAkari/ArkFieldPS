@@ -1,0 +1,494 @@
+{
+  "research_angle": {
+    "categoryDataList": [
+      {
+        "collectionIdList": [
+          "nar_res_angle_1",
+          "nar_res_angle_2"
+        ],
+        "index": 1,
+        "name": {
+          "id": "90F6DCE3BC5C05E0",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_angle_1_1"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_res_angle_3",
+          "nar_res_angle_4",
+          "nar_res_angle_5"
+        ],
+        "index": 2,
+        "name": {
+          "id": "FC6A96DDA1FA0820",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_angle_2_1",
+          "hint_research_angle_2_2"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_res_angle_6",
+          "nar_res_angle_7"
+        ],
+        "index": 3,
+        "name": {
+          "id": "760EDEEEA9176759",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_angle_3_1"
+        ]
+      }
+    ],
+    "collectionIdList": [
+      "nar_res_angle_1",
+      "nar_res_angle_2",
+      "nar_res_angle_3",
+      "nar_res_angle_4",
+      "nar_res_angle_5",
+      "nar_res_angle_6",
+      "nar_res_angle_7"
+    ],
+    "desc": {
+      "id": "C16275AB6847A85B",
+      "text": ""
+    },
+    "id": "research_angle",
+    "index": 3,
+    "name": {
+      "id": "40EDAD7D81FC1FC6",
+      "text": ""
+    },
+    "rewardItemList": [
+      {
+        "count": 300,
+        "id": "item_diamond"
+      }
+    ],
+    "type": 0,
+    "unlockPrts": "nar_res_angle_report"
+  },
+  "research_blight": {
+    "categoryDataList": [
+      {
+        "collectionIdList": [
+          "nar_col_message_gm01m7_1",
+          "nar_col_message_gm01m7_2",
+          "nar_col_message_gm01m7_3",
+          "nar_col_message_gm01m7_4"
+        ],
+        "index": 1,
+        "name": {
+          "id": "1F148B271A65C2D4",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_blight_1_1",
+          "hint_research_blight_1_2",
+          "hint_research_blight_1_3"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_col_message_gm01m7_5",
+          "nar_col_message_gm01m7_6"
+        ],
+        "index": 2,
+        "name": {
+          "id": "801BFAF1B7362AA2",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_blight_2_1"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_col_message_gm01m7_7",
+          "nar_col_message_gm01m7_8"
+        ],
+        "index": 3,
+        "name": {
+          "id": "8A1042C703CBC402",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_blight_3_1",
+          "hint_research_blight_3_2"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_col_message_gm01m7_9",
+          "nar_col_message_gm01m7_10"
+        ],
+        "index": 4,
+        "name": {
+          "id": "D738494DEA8CEB6D",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_blight_4_1"
+        ]
+      }
+    ],
+    "collectionIdList": [
+      "nar_col_message_gm01m7_1",
+      "nar_col_message_gm01m7_2",
+      "nar_col_message_gm01m7_3",
+      "nar_col_message_gm01m7_4",
+      "nar_col_message_gm01m7_5",
+      "nar_col_message_gm01m7_6",
+      "nar_col_message_gm01m7_7",
+      "nar_col_message_gm01m7_8",
+      "nar_col_message_gm01m7_9",
+      "nar_col_message_gm01m7_10"
+    ],
+    "desc": {
+      "id": "1E4C1A45C7739D0A",
+      "text": ""
+    },
+    "id": "research_blight",
+    "index": 2,
+    "name": {
+      "id": "462B22E3F9C19A61",
+      "text": ""
+    },
+    "rewardItemList": [
+      {
+        "count": 500,
+        "id": "item_diamond"
+      }
+    ],
+    "type": 1,
+    "unlockPrts": "nar_res_blight_report"
+  },
+  "research_infiltrator": {
+    "categoryDataList": [
+      {
+        "collectionIdList": [
+          "nar_res_infiltrator_1",
+          "nar_res_infiltrator_2"
+        ],
+        "index": 1,
+        "name": {
+          "id": "5B2ACFC50CF672C6",
+          "text": ""
+        },
+        "noteIdList": [
+          "research_infiltrator_1_1",
+          "research_infiltrator_1_2"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_res_infiltrator_3",
+          "nar_res_infiltrator_4"
+        ],
+        "index": 2,
+        "name": {
+          "id": "6B20528EA4E0340C",
+          "text": ""
+        },
+        "noteIdList": [
+          "research_infiltrator_2_1"
+        ]
+      }
+    ],
+    "collectionIdList": [
+      "nar_res_infiltrator_1",
+      "nar_res_infiltrator_2",
+      "nar_res_infiltrator_3",
+      "nar_res_infiltrator_4"
+    ],
+    "desc": {
+      "id": "C0C9DB383434C277",
+      "text": ""
+    },
+    "id": "research_infiltrator",
+    "index": 6,
+    "name": {
+      "id": "038982E086B66109",
+      "text": ""
+    },
+    "rewardItemList": [
+      {
+        "count": 300,
+        "id": "item_diamond"
+      }
+    ],
+    "type": 0,
+    "unlockPrts": "nar_res_infiltrator_report"
+  },
+  "research_landbreaker": {
+    "categoryDataList": [
+      {
+        "collectionIdList": [
+          "nar_gm01m27_1",
+          "nar_gm01m27_2",
+          "nar_gm01m27_3"
+        ],
+        "index": 1,
+        "name": {
+          "id": "D09896381F1BAC9B",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_landbreaker_1_1",
+          "hint_research_landbreaker_1_2",
+          "hint_research_landbreaker_1_3"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_gm01m27_4",
+          "nar_gm01m27_5",
+          "nar_gm01m27_6"
+        ],
+        "index": 2,
+        "name": {
+          "id": "4EC58615502F1801",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_landbreaker_2_1",
+          "hint_research_landbreaker_2_2"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_gm01m27_7",
+          "nar_gm01m27_8"
+        ],
+        "index": 3,
+        "name": {
+          "id": "F5FC1D469BE98F5B",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_landbreaker_3_1",
+          "hint_research_landbreaker_3_2"
+        ]
+      }
+    ],
+    "collectionIdList": [
+      "nar_gm01m27_1",
+      "nar_gm01m27_2",
+      "nar_gm01m27_3",
+      "nar_gm01m27_4",
+      "nar_gm01m27_5",
+      "nar_gm01m27_6",
+      "nar_gm01m27_7",
+      "nar_gm01m27_8"
+    ],
+    "desc": {
+      "id": "9B96883E5759710F",
+      "text": ""
+    },
+    "id": "research_landbreaker",
+    "index": 1,
+    "name": {
+      "id": "BB0327276F65DBD6",
+      "text": ""
+    },
+    "rewardItemList": [
+      {
+        "count": 500,
+        "id": "item_diamond"
+      }
+    ],
+    "type": 1,
+    "unlockPrts": "nar_res_landbreaker_report"
+  },
+  "research_lb_culture": {
+    "categoryDataList": [
+      {
+        "collectionIdList": [
+          "nar_res_lb_culture_1",
+          "nar_res_lb_culture_2",
+          "nar_res_lb_culture_3",
+          "nar_res_lb_culture_4"
+        ],
+        "index": 1,
+        "name": {
+          "id": "4C09572DD9497CE6",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_lb_culture_1_1",
+          "hint_research_lb_culture_1_2",
+          "hint_research_lb_culture_1_4"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_res_lb_culture_5",
+          "nar_res_lb_culture_6",
+          "nar_res_lb_culture_7",
+          "nar_res_lb_culture_8"
+        ],
+        "index": 2,
+        "name": {
+          "id": "83F4FB27D37F4F8D",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_lb_culture_2_1",
+          "hint_research_lb_culture_2_2",
+          "hint_research_lb_culture_2_3"
+        ]
+      }
+    ],
+    "collectionIdList": [
+      "nar_res_lb_culture_1",
+      "nar_res_lb_culture_2",
+      "nar_res_lb_culture_3",
+      "nar_res_lb_culture_4",
+      "nar_res_lb_culture_5",
+      "nar_res_lb_culture_6",
+      "nar_res_lb_culture_7",
+      "nar_res_lb_culture_8"
+    ],
+    "desc": {
+      "id": "7D4A58136F1C285D",
+      "text": ""
+    },
+    "id": "research_lb_culture",
+    "index": 5,
+    "name": {
+      "id": "51E3978DF5E0974D",
+      "text": ""
+    },
+    "rewardItemList": [
+      {
+        "count": 300,
+        "id": "item_diamond"
+      }
+    ],
+    "type": 0,
+    "unlockPrts": "nar_res_lb_culture_report"
+  },
+  "research_threat": {
+    "categoryDataList": [
+      {
+        "collectionIdList": [
+          "nar_res_threat_1",
+          "nar_res_threat_2"
+        ],
+        "index": 1,
+        "name": {
+          "id": "0BCD4D48A1386EC9",
+          "text": ""
+        },
+        "noteIdList": [
+          "research_threat_1_1",
+          "research_threat_1_2"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_res_threat_3",
+          "nar_res_threat_4"
+        ],
+        "index": 2,
+        "name": {
+          "id": "5F6061DA16F8E032",
+          "text": ""
+        },
+        "noteIdList": [
+          "research_threat_2_1"
+        ]
+      }
+    ],
+    "collectionIdList": [
+      "nar_res_threat_1",
+      "nar_res_threat_2",
+      "nar_res_threat_3",
+      "nar_res_threat_4"
+    ],
+    "desc": {
+      "id": "B36047DE30DEC175",
+      "text": ""
+    },
+    "id": "research_threat",
+    "index": 7,
+    "name": {
+      "id": "66685187AF4B0ADB",
+      "text": ""
+    },
+    "rewardItemList": [
+      {
+        "count": 300,
+        "id": "item_diamond"
+      }
+    ],
+    "type": 0,
+    "unlockPrts": "nar_res_threat_report"
+  },
+  "research_uwst": {
+    "categoryDataList": [
+      {
+        "collectionIdList": [
+          "nar_res_uwst_1",
+          "nar_res_uwst_2"
+        ],
+        "index": 1,
+        "name": {
+          "id": "698BD51B9187010B",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_uwst_1_1",
+          "hint_research_uwst_1_2"
+        ]
+      },
+      {
+        "collectionIdList": [
+          "nar_res_uwst_3",
+          "nar_res_uwst_4",
+          "nar_res_uwst_5"
+        ],
+        "index": 2,
+        "name": {
+          "id": "7D2D1863799AC7B8",
+          "text": ""
+        },
+        "noteIdList": [
+          "hint_research_uwst_2_1",
+          "hint_research_uwst_2_2"
+        ]
+      }
+    ],
+    "collectionIdList": [
+      "nar_res_uwst_1",
+      "nar_res_uwst_2",
+      "nar_res_uwst_3",
+      "nar_res_uwst_4",
+      "nar_res_uwst_5"
+    ],
+    "desc": {
+      "id": "6CF0B5C80DA1CAA3",
+      "text": ""
+    },
+    "id": "research_uwst",
+    "index": 4,
+    "name": {
+      "id": "896B7C96064AF3A1",
+      "text": ""
+    },
+    "rewardItemList": [
+      {
+        "count": 300,
+        "id": "item_diamond"
+      }
+    ],
+    "type": 0,
+    "unlockPrts": "nar_res_uwst_report"
+  }
+}

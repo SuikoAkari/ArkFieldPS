@@ -1,0 +1,67 @@
+{
+  "chr_0004_pelica": {
+    "id": "chr_0004_pelica",
+    "itemId": "chr_0004_pelica",
+    "timelineAssetName": "gacha_char_pelica"
+  },
+  "chr_0005_chen": {
+    "id": "chr_0005_chen",
+    "itemId": "chr_0005_chen",
+    "timelineAssetName": "gacha_char_Chen"
+  },
+  "chr_0006_wolfgd": {
+    "id": "chr_0006_wolfgd",
+    "itemId": "chr_0006_wolfgd",
+    "timelineAssetName": "gacha_char_wolfguard"
+  },
+  "chr_0007_ikut": {
+    "id": "chr_0007_ikut",
+    "itemId": "chr_0007_ikut",
+    "timelineAssetName": "gacha_char_ikut"
+  },
+  "chr_0009_azrila": {
+    "id": "chr_0009_azrila",
+    "itemId": "chr_0009_azrila",
+    "timelineAssetName": "gacha_char_azrila"
+  },
+  "chr_0011_seraph": {
+    "id": "chr_0011_seraph",
+    "itemId": "chr_0011_seraph",
+    "timelineAssetName": "gacha_char_seraph"
+  },
+  "chr_0012_avywen": {
+    "id": "chr_0012_avywen",
+    "itemId": "chr_0012_avywen",
+    "timelineAssetName": "gacha_char_avywen"
+  },
+  "chr_0013_aglina": {
+    "id": "chr_0013_aglina",
+    "itemId": "chr_0013_aglina",
+    "timelineAssetName": "gacha_char_aglina"
+  },
+  "chr_0014_aurora": {
+    "id": "chr_0014_aurora",
+    "itemId": "chr_0014_aurora",
+    "timelineAssetName": "gacha_char_aurora"
+  },
+  "chr_0015_lifeng": {
+    "id": "chr_0015_lifeng",
+    "itemId": "chr_0015_lifeng",
+    "timelineAssetName": "gacha_char_lifeng"
+  },
+  "chr_0016_laevat": {
+    "id": "chr_0016_laevat",
+    "itemId": "chr_0016_laevat",
+    "timelineAssetName": "gacha_char_laevat"
+  },
+  "chr_0017_yvonne": {
+    "id": "chr_0017_yvonne",
+    "itemId": "chr_0017_yvonne",
+    "timelineAssetName": "gacha_char_yvonne"
+  },
+  "chr_0018_dapan": {
+    "id": "chr_0018_dapan",
+    "itemId": "chr_0018_dapan",
+    "timelineAssetName": "gacha_char_dapan"
+  }
+}

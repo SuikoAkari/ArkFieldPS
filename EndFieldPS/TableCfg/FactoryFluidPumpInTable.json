@@ -1,0 +1,11 @@
+{
+  "pump_1": {
+    "id": "pump_1",
+    "msPerRound": 1000,
+    "pumpPosition": {
+      "x": -2,
+      "y": 0,
+      "z": 1
+    }
+  }
+}

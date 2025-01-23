@@ -1,0 +1,144 @@
+{
+  "log_pipe_converger": {
+    "id": "log_pipe_converger",
+    "inputPorts": [
+      {
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 0
+        }
+      }
+    ],
+    "liquidUnitData": {
+      "buildCamState": "Factory/CCS_Fac_Building_Large",
+      "iconOnPanel": "icon_log_pipe_converger",
+      "itemId": "item_log_pipe_converger",
+      "msPerRound": 250,
+      "name": {
+        "id": "FC851EB7FAA78A31",
+        "text": ""
+      },
+      "volume": 1
+    },
+    "outputPorts": [
+      {
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      }
+    ],
+    "range": {
+      "x": 1,
+      "y": 4,
+      "z": 1
+    }
+  },
+  "log_pipe_splitter": {
+    "id": "log_pipe_splitter",
+    "inputPorts": [
+      {
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      }
+    ],
+    "liquidUnitData": {
+      "buildCamState": "Factory/CCS_Fac_Building_Large",
+      "iconOnPanel": "icon_log_pipe_splitter",
+      "itemId": "item_log_pipe_splitter",
+      "msPerRound": 250,
+      "name": {
+        "id": "4E41FE7A3811EE8E",
+        "text": ""
+      },
+      "volume": 1
+    },
+    "outputPorts": [
+      {
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 0
+        }
+      }
+    ],
+    "range": {
+      "x": 1,
+      "y": 4,
+      "z": 1
+    }
+  }
+}

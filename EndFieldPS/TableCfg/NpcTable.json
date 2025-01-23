@@ -1,0 +1,8518 @@
+{
+  "npc_0001_andrew_g01_i001": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4A0D9B4F697C4CBA",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_0001_andrew_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0001_andrew_g01_i002": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E892B37AD0D4243A",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_0001_andrew_g01_i002",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_0001_andrew_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0001_andrew_g01_i003": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "74122389DCDDEAD8",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_0001_andrew_g01_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0001_chen_g01_i001": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D8D8FFE557F16D07",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_0001_chen_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0001_qinjc_g01_i001": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "slctr_npc_e1m3_qinjc",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DA1C8F9312C4DDEF",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0001_qinjc_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0001_qinjc_g01_i002": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "slctr_npc_e1m3_qinjc",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4C3B1130F772E33D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0001_qinjc_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0001_qinjc_g01_i003": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "slctr_npc_e1m3_qinjc_beforeRescue",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B1C391BA4940E829",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0001_qinjc_g01_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0001_qinjc_g01_i004": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "slctr_npc_e1m10_qjc",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BB56CE611586C7DA",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0001_qinjc_g01_i004",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0001_qinjc_g01_i005": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "slctr_npc_ep2_qinjc_01",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FF9CBEDED30288A2",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0001_qinjc_g01_i005",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0004_g01_qa": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2D5CE9054BED2D57",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_0004_g01_qa",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_0004_g01_qa",
+    "title": {
+      "id": "40E7F4C0010E723B",
+      "text": ""
+    }
+  },
+  "npc_0004_pelica_spaceship_i001": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2DA5067F1C34C74A",
+      "text": ""
+    },
+    "normalCfg": "npc_0004_pelica_spaceship_i001",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_0004_pelica_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0004_perlica_g01_i001": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "slctr_npc_0004_perlica_g01_i001",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "41AA59776A569D5B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_0004_perlica_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0004_perlica_g01_i002": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "slctr_npc_ep1_perlica_01",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6BC577726768B80C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_0004_perlica_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0004_perlica_g01_i003": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "slctr_npc_ep2_perlica_02",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D772FD2CBE4D3B2C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_0004_perlica_g01_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0005_chen_spaceship_i001": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AE30AD866A62F420",
+      "text": ""
+    },
+    "normalCfg": "npc_0005_chen_spaceship_i001",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_0005_chen_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0006_wolfgd_spaceship_i001": {
+    "dataKey": "npc_chr_0006_wolfgd",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B2BE4A0411F4B8A6",
+      "text": ""
+    },
+    "normalCfg": "npc_0006_wolfgd_spaceship_i001",
+    "npcGroupId": "npc_chr_0006_wolfgd_g01",
+    "npcId": "npc_0006_wolfgd_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0007_ikut_spaceship_i001": {
+    "dataKey": "npc_chr_0007_ikut",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E730D5E3EB141220",
+      "text": ""
+    },
+    "normalCfg": "npc_0007_ikut_spaceship_i001",
+    "npcGroupId": "npc_chr_0007_ikut_g01",
+    "npcId": "npc_0007_ikut_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0009_azrila_spaceship_i001": {
+    "dataKey": "npc_chr_0009_azrila",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "5A6139D1197CD633",
+      "text": ""
+    },
+    "normalCfg": "npc_0009_azrila_spaceship_i001",
+    "npcGroupId": "npc_chr_0009_azrila_g01",
+    "npcId": "npc_0009_azrila_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0010_qinjc_g01_i001": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FF5B904EA31356E2",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0010_qinjc_g01_i001",
+    "title": {
+      "id": "1E4AEDA0104BED21",
+      "text": ""
+    }
+  },
+  "npc_0010_qinjc_g01_i002": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "329E9C962ECC5FA9",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0010_qinjc_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0010_qinjc_g01_i003": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "slctr_npc_e1m3_qinjc",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F5E90ED37196BC02",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0010_qinjc_g01_i003",
+    "title": {
+      "id": "EA11796070675220",
+      "text": ""
+    }
+  },
+  "npc_0010_qinjc_g01_i005": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "slctr_npc_e2m1_Qinjc",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C5E7978424CBD040",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_0010_qinjc_g01_i005",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0011_seraph_spaceship_i001": {
+    "dataKey": "npc_chr_0011_seraph",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "3280614F548A1CFE",
+      "text": ""
+    },
+    "normalCfg": "npc_0011_seraph_spaceship_i001",
+    "npcGroupId": "npc_chr_0011_seraph_g01",
+    "npcId": "npc_0011_seraph_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0012_avywen_spaceship_i001": {
+    "dataKey": "npc_chr_0012_avywen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D4B5BD15129E8266",
+      "text": ""
+    },
+    "normalCfg": "npc_0012_avywen_spaceship_i001",
+    "npcGroupId": "npc_chr_0012_avywen_g01",
+    "npcId": "npc_0012_avywen_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0012_chen_g01_i002": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "slctr_npc_0012_chen_g01_i002",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "5DE8A37B5769F85B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_0012_chen_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0012_chen_g01_i003": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "slctr_npc_ep1_chen_01",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8B17190F2C94DBB6",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_0012_chen_g01_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0012_chen_g01_i004": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "slctr_npc_ep2_chen_02",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A78F5699CD1672A0",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_0012_chen_g01_i004",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0013_aglina_spaceship_i001": {
+    "dataKey": "npc_chr_0013_aglina",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "63497D6CF031F7C2",
+      "text": ""
+    },
+    "normalCfg": "npc_0013_aglina_spaceship_i001",
+    "npcGroupId": "npc_chr_0013_aglina_g01",
+    "npcId": "npc_0013_aglina_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0014_aurora_spaceship_i001": {
+    "dataKey": "npc_chr_0014_aurora",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2C76EA01C0161DF1",
+      "text": ""
+    },
+    "normalCfg": "npc_0014_aurora_spaceship_i001",
+    "npcGroupId": "npc_chr_0014_aurora_g01",
+    "npcId": "npc_0014_aurora_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0015_lifeng_spaceship_i001": {
+    "dataKey": "npc_chr_0015_lifeng",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "58E5CF3CE2120106",
+      "text": ""
+    },
+    "normalCfg": "npc_0015_lifeng_spaceship_i001",
+    "npcGroupId": "npc_chr_0015_lifeng_g01",
+    "npcId": "npc_0015_lifeng_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0016_laevat_spaceship_i001": {
+    "dataKey": "npc_chr_0016_laevat",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "1392572C2E8019DD",
+      "text": ""
+    },
+    "normalCfg": "npc_0016_laevat_spaceship_i001",
+    "npcGroupId": "npc_chr_0016_laevat_g01",
+    "npcId": "npc_0016_laevat_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0017_yvonne_spaceship_i001": {
+    "dataKey": "npc_chr_0017_yvonne",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FBBFDFD7E4636D16",
+      "text": ""
+    },
+    "normalCfg": "npc_0017_yvonne_spaceship_i001",
+    "npcGroupId": "npc_chr_0017_yvonne_g01",
+    "npcId": "npc_0017_yvonne_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0018_dapan_g01_i001": {
+    "dataKey": "npc_chr_0018_dapan",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "97DB7F6AD137750F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0018_dapan_g01",
+    "npcId": "npc_0018_dapan_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0018_dapan_g01_i002": {
+    "dataKey": "npc_chr_0018_dapan",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9ADC9EECD1EA1C5B",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_0018_dapan_g01_i002",
+    "npcGroupId": "npc_chr_0018_dapan_g01",
+    "npcId": "npc_0018_dapan_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0018_dapan_spaceship_i001": {
+    "dataKey": "npc_chr_0018_dapan",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "04999037BBC6AA35",
+      "text": ""
+    },
+    "normalCfg": "npc_0018_dapan_spaceship_i001",
+    "npcGroupId": "npc_chr_0018_dapan_g01",
+    "npcId": "npc_0018_dapan_spaceship_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0041_refugee_g01_i001": {
+    "dataKey": "npc_lady_unionscholar_a_20",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9A76325E95FFC993",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_20_g01",
+    "npcId": "npc_0041_refugee_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_0043_temp_side": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "slctr_npc_factoryNpc",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "10A7910C066F5B62",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_0043_temp_side",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_006MinerM": {
+    "dataKey": "npc_strongm_unionminer_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "21F781012BD17111",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_strongm_unionminer_a_04_g01",
+    "npcId": "npc_006MinerM",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_006WorkerF": {
+    "dataKey": "npc_lady_unionminer_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "207781E6DBA6A55D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionminer_a_03_g01",
+    "npcId": "npc_006WorkerF",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_006WorkerM": {
+    "dataKey": "npc_strongm_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "47AE2A9FFA562CBD",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_strongm_unionminer_a_02_g01",
+    "npcId": "npc_006WorkerM",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_006doc": {
+    "dataKey": "npc_gentleman_unionscholar_a_17",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "12D91FBCB49E6B25",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_map01_lv006_doc_001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_17_g01",
+    "npcId": "npc_006doc",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_006docF": {
+    "dataKey": "npc_lady_unionscholar_a_12",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F93CF464B3A67603",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_map01_lv006_docF_001",
+    "npcGroupId": "npc_lady_unionscholar_a_12_g01",
+    "npcId": "npc_006docF",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_006guard": {
+    "dataKey": "npc_strongm_unionminer_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "CCECD2BFA71B7FC2",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_strongm_unionminer_a_03_g01",
+    "npcId": "npc_006guard",
+    "title": {
+      "id": "9AE6250DEC81FC02",
+      "text": ""
+    }
+  },
+  "npc_006merchant": {
+    "dataKey": "npc_lady_unionminer_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_common_shop",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DC317AB1CD179231",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_map01_lv006_merchant_001",
+    "npcGroupId": "npc_lady_unionminer_a_05_g01",
+    "npcId": "npc_006merchant",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_1002_g01_map01_lv001_001": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "1EA24272F15E1889",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_1002_g01_map01_lv001_001",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_1002_g01_map01_lv001_001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_1002_g01_qa": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "3970C53CB81559F8",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_1002_g01_qa",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_1002_g01_qa",
+    "title": {
+      "id": "BD48054EF04845EE",
+      "text": ""
+    }
+  },
+  "npc_1002_qinjc_g01_i001": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "slctr_npc_1002_qinjc_g01_i001",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F97E7452659D5F69",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_1002_qinjc_g01_i001",
+    "title": {
+      "id": "033194357631E8FC",
+      "text": ""
+    }
+  },
+  "npc_2001_e2m2_g01_i001": {
+    "dataKey": "npc_gentleman_unionminer_a_08",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_kai_01",
+      "envTalk_kai_02",
+      "envTalk_kai_03",
+      "envTalk_kai_04"
+    ],
+    "envTalkOdd": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0E35A97F2A4301D8",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_08_g01",
+    "npcId": "npc_2001_e2m2_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_2002_Male01_g01_i001": {
+    "dataKey": "npc_gentleman_efstaff_a_04",
+    "dialogSelector": "slctr_npc_e1m2_repair",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A246CD18CDDAA959",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_04_g01",
+    "npcId": "npc_2002_Male01_g01_i001",
+    "title": {
+      "id": "C9A1CAAEF579C7E0",
+      "text": ""
+    }
+  },
+  "npc_2002_crestfallen_g01_i001": {
+    "dataKey": "npc_gentleman_efpolice_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "80EC4908B8A0209F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efpolice_a_02_g01",
+    "npcId": "npc_2002_crestfallen_g01_i001",
+    "title": {
+      "id": "E20C802839DF752F",
+      "text": ""
+    }
+  },
+  "npc_2002_david_g01_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_21",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e1m2_15"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E37575F78A653BA6",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_21_g01",
+    "npcId": "npc_2002_david_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_2002_e2m2_g01_i002": {
+    "dataKey": "npc_gentleman_unionminer_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "923FF869301ED9A5",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_09_g01",
+    "npcId": "npc_2002_e2m2_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_2005_Male01_g01_i001": {
+    "dataKey": "npc_boy_unionscholar_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AB213B9244F6F95E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_boy_unionscholar_a_07_g01",
+    "npcId": "npc_2005_Male01_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_2009_g01_qa": {
+    "dataKey": "npc_tpl_girl_rfg_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6E962FD0A0210FC2",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_2009_g01_qa",
+    "npcGroupId": "npc_tpl_girl_rfg_a_03_g01",
+    "npcId": "npc_2009_g01_qa",
+    "title": {
+      "id": "754B0C1F26A1E681",
+      "text": ""
+    }
+  },
+  "npc_2010_g01_qa": {
+    "dataKey": "npc_tpl_gentleman_efscholar_a_10",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AAA2682C665BC21A",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_2010_g01_qa",
+    "npcGroupId": "npc_tpl_gentleman_efscholar_a_10_g01",
+    "npcId": "npc_2010_g01_qa",
+    "title": {
+      "id": "1E2B0D746DD3B90A",
+      "text": ""
+    }
+  },
+  "npc_2012_petrov_g01_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_32",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "31E121A1C17631A2",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_2012_petrov_g01_i001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_32_g01",
+    "npcId": "npc_2012_petrov_g01_i001",
+    "title": {
+      "id": "FFF408785107419D",
+      "text": ""
+    }
+  },
+  "npc_2012_petrov_g01_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_32",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D638B3AE864B73F8",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_2012_petrov_g01_i002",
+    "npcGroupId": "npc_gentleman_unionscholar_a_32_g01",
+    "npcId": "npc_2012_petrov_g01_i002",
+    "title": {
+      "id": "8BFEB7ABA1ADB95D",
+      "text": ""
+    }
+  },
+  "npc_2012_petrov_g01_i003": {
+    "dataKey": "npc_grandpa_unionscholar_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "913B911CF3BC7EE3",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_2012_petrov_g01_i003",
+    "npcGroupId": "npc_grandpa_unionscholar_a_05_g01",
+    "npcId": "npc_2012_petrov_g01_i003",
+    "title": {
+      "id": "44451CC0A0867E49",
+      "text": ""
+    }
+  },
+  "npc_2026_Ursus_worker_rep_g01_i001": {
+    "dataKey": "npc_gentleman_efstaff_a_03",
+    "dialogSelector": "slctr_npc_e2m2_npc_2026",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "EAFE0DD2EBB22E15",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_03_g01",
+    "npcId": "npc_2026_Ursus_worker_rep_g01_i001",
+    "title": {
+      "id": "8CCC35B22DB32108",
+      "text": ""
+    }
+  },
+  "npc_2026_Ursus_worker_rep_g01_i002": {
+    "dataKey": "npc_gentleman_efstaff_a_03",
+    "dialogSelector": "slctr_npc_e2m2_npc_2026",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8D071E977D26E7D3",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_03_g01",
+    "npcId": "npc_2026_Ursus_worker_rep_g01_i002",
+    "title": {
+      "id": "AB58AE5BB754926A",
+      "text": ""
+    }
+  },
+  "npc_2036_guide_g04_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_28",
+    "dialogSelector": "slctr_npc_e1m3_healer",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C42A50A1032EF39C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_28_g01",
+    "npcId": "npc_2036_guide_g04_i001",
+    "title": {
+      "id": "5699127D7A446D24",
+      "text": ""
+    }
+  },
+  "npc_2036_guide_g04_i002": {
+    "dataKey": "npc_gentleman_efstaff_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e1m2_14"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6993238EA2C21C68",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_09_g01",
+    "npcId": "npc_2036_guide_g04_i002",
+    "title": {
+      "id": "4257EAEBF181DD7F",
+      "text": ""
+    }
+  },
+  "npc_2044_malestaff_g01_i013": {
+    "dataKey": "npc_gentleman_efstaff_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A77B119F0E7AA55B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_03_g01",
+    "npcId": "npc_2044_malestaff_g01_i013",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_2050_Puqi_g03_i001": {
+    "dataKey": "npc_gentleman_efengineer_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DCC7F8ACF70490CE",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efengineer_a_05_g01",
+    "npcId": "npc_2050_Puqi_g03_i001",
+    "title": {
+      "id": "89CE9DDD87819D58",
+      "text": ""
+    }
+  },
+  "npc_3002_e2m2_g01_i002": {
+    "dataKey": "npc_girl_efstaff_a_07",
+    "dialogSelector": "slctr_npc_3002_e2m2_g01_i002",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4E060C2FC79990C4",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_07_g01",
+    "npcId": "npc_3002_e2m2_g01_i002",
+    "title": {
+      "id": "6B8BEEA9685EFFF3",
+      "text": ""
+    }
+  },
+  "npc_3005_officer_female_i001": {
+    "dataKey": "npc_girl_efstaff_a_05",
+    "dialogSelector": "slctr_npc_e1m2_officer",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "24086A5B7395CC48",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_05_g01",
+    "npcId": "npc_3005_officer_female_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_3005_officer_female_i002": {
+    "dataKey": "npc_girl_efstaff_a_05",
+    "dialogSelector": "slctr_npc_e1m2_sl",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C36E2DB2CDAF7862",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_05_g01",
+    "npcId": "npc_3005_officer_female_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_3006_Edmin_worker_rep_g01_i001": {
+    "dataKey": "npc_girl_unionscholar_a_08",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C6AE720CD72DF44B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionscholar_a_08_g01",
+    "npcId": "npc_3006_Edmin_worker_rep_g01_i001",
+    "title": {
+      "id": "C7D828BEE8F7D85D",
+      "text": ""
+    }
+  },
+  "npc_3006_Edmin_worker_rep_g01_i002": {
+    "dataKey": "npc_lady_efstaff_a_02",
+    "dialogSelector": "slctr_npc_e2m2_npc_3006",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AE111FD001FCCBDC",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_02_g01",
+    "npcId": "npc_3006_Edmin_worker_rep_g01_i002",
+    "title": {
+      "id": "9D95AC705F68CE3B",
+      "text": ""
+    }
+  },
+  "npc_3006_guide_g01_i001": {
+    "dataKey": "npc_lady_efstaff_a_02",
+    "dialogSelector": "slctr_npc_e1m3_Ram",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A39DD92505B7283C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_02_g01",
+    "npcId": "npc_3006_guide_g01_i001",
+    "title": {
+      "id": "3544C4C43A9AA3A7",
+      "text": ""
+    }
+  },
+  "npc_3006_guide_g01_i002": {
+    "dataKey": "npc_lady_efstaff_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "82FAE1B584688577",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_02_g01",
+    "npcId": "npc_3006_guide_g01_i002",
+    "title": {
+      "id": "5E85BAB3BDF509AC",
+      "text": ""
+    }
+  },
+  "npc_3010_female01_g01_i001": {
+    "dataKey": "npc_lady_efscholar_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_Ankh_01",
+      "envTalk_Ankh_02",
+      "envTalk_Ankh_03",
+      "envTalk_Ankh_04"
+    ],
+    "envTalkOdd": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efscholar_a_01_g01",
+    "npcId": "npc_3010_female01_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_3010_guide_g05_i001": {
+    "dataKey": "npc_lady_efscholar_a_01",
+    "dialogSelector": "slctr_npc_e1m3_Mary",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B4AD49FA23870DBC",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efscholar_a_01_g01",
+    "npcId": "npc_3010_guide_g05_i001",
+    "title": {
+      "id": "09BF9F597E3D944F",
+      "text": ""
+    }
+  },
+  "npc_3010_guide_g05_i002": {
+    "dataKey": "npc_lady_efscholar_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "37E5096777FE848E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efscholar_a_01_g01",
+    "npcId": "npc_3010_guide_g05_i002",
+    "title": {
+      "id": "76AA23DFA6D3D2BF",
+      "text": ""
+    }
+  },
+  "npc_3011_female01_g01_i001": {
+    "dataKey": "npc_girl_efstaff_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_Cherry_01",
+      "envTalk_Cherry_02",
+      "envTalk_Cherry_03"
+    ],
+    "envTalkOdd": [
+      1,
+      1,
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_04_g01",
+    "npcId": "npc_3011_female01_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_3011_guide_g02_i001": {
+    "dataKey": "npc_girl_efstaff_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "28D192CB9B660B87",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_04_g01",
+    "npcId": "npc_3011_guide_g02_i001",
+    "title": {
+      "id": "221005D08BF52EB4",
+      "text": ""
+    }
+  },
+  "npc_3011_guide_g02_i002": {
+    "dataKey": "npc_girl_efstaff_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e1m2_19"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "7C15A758C5D33F3D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_04_g01",
+    "npcId": "npc_3011_guide_g02_i002",
+    "title": {
+      "id": "1EE659F8336C35D3",
+      "text": ""
+    }
+  },
+  "npc_3023_g01_qa": {
+    "dataKey": "npc_tpl_lady_efpolice_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "ED2D45B556B022B6",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_3023_g01_qa",
+    "npcGroupId": "npc_tpl_lady_efpolice_a_07_g01",
+    "npcId": "npc_3023_g01_qa",
+    "title": {
+      "id": "05ADAF2BDF0379FF",
+      "text": ""
+    }
+  },
+  "npc_5021_machine01_g01_i001": {
+    "dataKey": "npc_obj_machine_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_machine_01_g01",
+    "npcId": "npc_5021_machine01_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_9105_chen_g01_i001": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BCBF74931A428A5A",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_9105_chen_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_i001": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "76B4B6C13630A98C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_i001",
+    "title": {
+      "id": "6220A23B520D6D81",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_i002": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4D177CF1B23B35AB",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_i002",
+    "title": {
+      "id": "A1D1C6E3864439CC",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_i003": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F0FD6CF2FF706B5E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_i003",
+    "title": {
+      "id": "1E1ADA16BC133807",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_i004": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2EA3246B1F671BA4",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_i004",
+    "title": {
+      "id": "4A0D8A664FE0E360",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_i005": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "3A273701D68FA4B2",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_i005",
+    "title": {
+      "id": "EE73C79BACF3A4F9",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_i006": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F102086373A7482B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_i006",
+    "title": {
+      "id": "4A9470E0D6B07280",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_i007": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8DB0611DC5D4A93D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_i007",
+    "title": {
+      "id": "F6AF1934B4FFD7E9",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_test": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "CCF60909B45B896F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_test",
+    "title": {
+      "id": "FE204DCFD3891883",
+      "text": ""
+    }
+  },
+  "npc_9108_qinjc_g01_test2": {
+    "dataKey": "npc_spl_qinjc_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "82D7C4ADA641C322",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F0C68E40EBD340B7",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_qinjc_01_g01",
+    "npcId": "npc_9108_qinjc_g01_test2",
+    "title": {
+      "id": "10AAD51B695308FD",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_i001": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "382CEBB433C72574",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_9111_andrew_g01_i001",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_i001",
+    "title": {
+      "id": "0D714A9E18981856",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_i002": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "64312243A1EF04C6",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_9111_andrew_g01_i002",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_i002",
+    "title": {
+      "id": "B5972662ADF6227C",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_i003": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "95915317634B9C9D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_i003",
+    "title": {
+      "id": "993F9FC3EF58F829",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_i004": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "68D1AA6BA3EBFB2C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_i004",
+    "title": {
+      "id": "E3F679CCB766CAC9",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_i005": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "61CC24D8E41CE806",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_i005",
+    "title": {
+      "id": "AF3996BD7E2B2948",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_i006": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C13AE7547D1FB8CA",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_i006",
+    "title": {
+      "id": "4DEE9F54A55A608D",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_test": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "slctr_npc_e1m3_andrew_3",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C7C0547E23DE4149",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_test",
+    "title": {
+      "id": "840F9E8E8EDD00D7",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_test2": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "85840BA06B4B7C7B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_test2",
+    "title": {
+      "id": "9F61303B08310EEB",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_test3": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DDE9B810FB712B3D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_test3",
+    "title": {
+      "id": "B5ABEE46597581FA",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_test4": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FB804912C0817F06",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_test4",
+    "title": {
+      "id": "73CF4BBD184CDA8E",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_test5": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "slctr_npc_e1m2_andrew",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "32F2AA0B7B2D2E8D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_test5",
+    "title": {
+      "id": "9DEFAFFC92301400",
+      "text": ""
+    }
+  },
+  "npc_9111_andrew_g01_test6": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C611C9F8941CB411",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_9111_andrew_g01_test6",
+    "title": {
+      "id": "BA49BF8F6B6670B1",
+      "text": ""
+    }
+  },
+  "npc_9115_petrov_g01_i002": {
+    "dataKey": "npc_gentleman_unionminer_a_12",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F60642E5F3989923",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_12_g01",
+    "npcId": "npc_9115_petrov_g01_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_9121_Logistics_g01_i001": {
+    "dataKey": "npc_lady_efstaff_a_02",
+    "dialogSelector": "slctr_npc_sm01m2_Logistics",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "724FBE4E2CAFA38B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_02_g01",
+    "npcId": "npc_9121_Logistics_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_adu_1": {
+    "dataKey": "npc_gentleman_rfg_a_15",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "3618D9ABAC33E4AF",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_adu_1",
+    "npcGroupId": "npc_gentleman_rfg_a_15_g01",
+    "npcId": "npc_adu_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_agmelee_1": {
+    "dataKey": "npc_eny_0021_agmelee",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_eny_0021_agmelee_g01",
+    "npcId": "npc_agmelee_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_aji_1": {
+    "dataKey": "npc_kidf_rfg_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "99E82DE5F8CB02A8",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_kidf_rfg_a_01_g01",
+    "npcId": "npc_aji_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_aji_2": {
+    "dataKey": "npc_kidf_rfg_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C94BE5779006DD30",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_aji_2",
+    "npcGroupId": "npc_kidf_rfg_a_01_g01",
+    "npcId": "npc_aji_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_amino_1": {
+    "dataKey": "npc_kidm_rfg_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0164A46CBAEFB2A1",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_kidm_rfg_a_01_g01",
+    "npcId": "npc_amino_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_amino_2": {
+    "dataKey": "npc_kidm_rfg_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4F879FB4D9BBB163",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_kidm_rfg_a_01_g01",
+    "npcId": "npc_amino_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_andongni_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_19",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9E4549BDA6EC786F",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_andongni_map01_lv006_001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_19_g01",
+    "npcId": "npc_andongni_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_aoliege_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_22",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "7D753F7563FFD2BC",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_aoliege_map01_lv006_001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_22_g01",
+    "npcId": "npc_aoliege_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_blair_f1m7_1": {
+    "dataKey": "npc_strongm_unionminer_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_settlement_NPC",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8A5D54B6A8423795",
+      "text": ""
+    },
+    "normalCfg": "npc_blair_cfg",
+    "npcGroupId": "npc_strongm_unionminer_a_11_g01",
+    "npcId": "npc_blair_f1m7_1",
+    "title": {
+      "id": "2A598FC2650875C0",
+      "text": ""
+    }
+  },
+  "npc_car_1": {
+    "dataKey": "npc_obj_car_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_car_01_g01",
+    "npcId": "npc_car_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_car_2": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_car_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_character_upgrade_seller": {
+    "dataKey": "npc_fattym_unionminer_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_common_shop",
+    "interactRangeType": 0,
+    "name": {
+      "id": "63A43E39F56DC648",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_character_upgrade_seller",
+    "npcGroupId": "npc_fattym_unionminer_a_04_g01",
+    "npcId": "npc_character_upgrade_seller",
+    "title": {
+      "id": "FC30157B589220C3",
+      "text": ""
+    }
+  },
+  "npc_chr_0002_endminm": {
+    "dataKey": "npc_chr_0002_endminm",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0002_endminm_g01",
+    "npcId": "npc_chr_0002_endminm",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0003_endminf": {
+    "dataKey": "npc_chr_0003_endminf",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0003_endminf_g01",
+    "npcId": "npc_chr_0003_endminf",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0004_pelica": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FF74A2502713C07D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_chr_0004_pelica",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0005_chen": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A4CCDD6D6AE45234",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_chr_0005_chen",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0006_wolfgd": {
+    "dataKey": "npc_chr_0006_wolfgd",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2890FBFE0BE78884",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0006_wolfgd_g01",
+    "npcId": "npc_chr_0006_wolfgd",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0007_ikut": {
+    "dataKey": "npc_chr_0007_ikut",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "289A9517E1DAE199",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0007_ikut_g01",
+    "npcId": "npc_chr_0007_ikut",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0009_azrila": {
+    "dataKey": "npc_chr_0009_azrila",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9BABA3FA60F050C4",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0009_azrila_g01",
+    "npcId": "npc_chr_0009_azrila",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0011_seraph": {
+    "dataKey": "npc_chr_0011_seraph",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "29C1BCB698547389",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0011_seraph_g01",
+    "npcId": "npc_chr_0011_seraph",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0012_avywen": {
+    "dataKey": "npc_chr_0012_avywen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8CD8EA5961FC89C2",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0012_avywen_g01",
+    "npcId": "npc_chr_0012_avywen",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0012_avywen_g01_i001": {
+    "dataKey": "npc_chr_0012_avywen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6B25EE191D62603C",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_chr_0012_avywen_g01",
+    "npcGroupId": "npc_chr_0012_avywen_g01",
+    "npcId": "npc_chr_0012_avywen_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0013_aglina": {
+    "dataKey": "npc_chr_0013_aglina",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4545C572EF07EBD9",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0013_aglina_g01",
+    "npcId": "npc_chr_0013_aglina",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_chr_0018_dapan": {
+    "dataKey": "npc_chr_0018_dapan",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0C93DF1805B74231",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0018_dapan_g01",
+    "npcId": "npc_chr_0018_dapan",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_daniel_1": {
+    "dataKey": "npc_gentleman_rfg_a_14",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "7F6F2BA305AAC867",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_daniel_1",
+    "npcGroupId": "npc_gentleman_rfg_a_14_g01",
+    "npcId": "npc_daniel_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_dapan_i001": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A23633311DCEE1DB",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_dapan_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_dapan_i002": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "1FECAFA376C41A06",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_dapan_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_doctor_1": {
+    "dataKey": "npc_gentleman_efscholar_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F51C1195C0E21AE3",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efscholar_a_04_g01",
+    "npcId": "npc_doctor_1",
+    "title": {
+      "id": "178F10AAF4C9BD48",
+      "text": ""
+    }
+  },
+  "npc_doctorjin_f1m7_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0AFADC512F7995DB",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_09_g01",
+    "npcId": "npc_doctorjin_f1m7_1",
+    "title": {
+      "id": "3BAD27954B6CA0EB",
+      "text": ""
+    }
+  },
+  "npc_e0m0_1": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "66FB1B2F9940DE4F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_e0m0_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e0m0_2": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FF992B94E58C0C78",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_e0m0_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m10_Haignere_i001": {
+    "dataKey": "npc_lady_efstaff_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F763A54E388EA2B0",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_03_g01",
+    "npcId": "npc_e1m10_Haignere_i001",
+    "title": {
+      "id": "6946D3AFE267D25E",
+      "text": ""
+    }
+  },
+  "npc_e1m10_chen_i001": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4BE89950934ABEA5",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_e1m10_chen_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m10_pelica_i001": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4C53885DDCC3D94F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_e1m10_pelica_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i001": {
+    "dataKey": "npc_gentleman_unionminer_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "49EE26E0087C64A0",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_01_g01",
+    "npcId": "npc_e1m1_PH_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i002": {
+    "dataKey": "npc_gentleman_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B56419FC38715CE3",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_02_g01",
+    "npcId": "npc_e1m1_PH_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i003": {
+    "dataKey": "npc_gentleman_unionminer_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "250B943B387E49E6",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_03_g01",
+    "npcId": "npc_e1m1_PH_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i004": {
+    "dataKey": "npc_gentleman_unionminer_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "3B3F0AD5C9A601FB",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_04_g01",
+    "npcId": "npc_e1m1_PH_i004",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i005": {
+    "dataKey": "npc_gentleman_unionminer_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0D6001330491C49E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_05_g01",
+    "npcId": "npc_e1m1_PH_i005",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i006": {
+    "dataKey": "npc_gentleman_unionminer_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "CBBDD80C1C2EBA15",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_06_g01",
+    "npcId": "npc_e1m1_PH_i006",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i007": {
+    "dataKey": "npc_gentleman_unionminer_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "015D8B527983BF91",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_07_g01",
+    "npcId": "npc_e1m1_PH_i007",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i008": {
+    "dataKey": "npc_gentleman_unionminer_a_08",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "40E5C01C4FC986E5",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_08_g01",
+    "npcId": "npc_e1m1_PH_i008",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i009": {
+    "dataKey": "npc_gentleman_unionminer_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BEA41DD6B0822FEE",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_09_g01",
+    "npcId": "npc_e1m1_PH_i009",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i010": {
+    "dataKey": "npc_gentleman_unionminer_a_10",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D7221BD23B5040B8",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_10_g01",
+    "npcId": "npc_e1m1_PH_i010",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_PH_i011": {
+    "dataKey": "npc_gentleman_unionminer_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "5DACAC55F8B595D4",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_11_g01",
+    "npcId": "npc_e1m1_PH_i011",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i001": {
+    "dataKey": "npc_gentleman_efpolice_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e1m1_4"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A2C49B6121FB3EEE",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efpolice_a_04_g01",
+    "npcId": "npc_e1m1_frontline_i001",
+    "title": {
+      "id": "3BF62083595F9B35",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i002": {
+    "dataKey": "npc_girl_efstaff_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "26A95ED29B7DD9AA",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_07_g01",
+    "npcId": "npc_e1m1_frontline_i002",
+    "title": {
+      "id": "3756389BA19C67A0",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i003": {
+    "dataKey": "npc_gentleman_efpolice_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e1m1_5"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "CC1F6F034B73D822",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6C65144A5BF195BE",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efpolice_a_01_g01",
+    "npcId": "npc_e1m1_frontline_i003",
+    "title": {
+      "id": "B89A5FA58A4B59DF",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i004": {
+    "dataKey": "npc_gentleman_efengineer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e1m2_18"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0DB7BAF4A1AE9280",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efengineer_a_02_g01",
+    "npcId": "npc_e1m1_frontline_i004",
+    "title": {
+      "id": "998A78CBF1342A67",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i005": {
+    "dataKey": "npc_gentleman_efstaff_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e1m1_3"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6810BD0BC4539AF1",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_03_g01",
+    "npcId": "npc_e1m1_frontline_i005",
+    "title": {
+      "id": "BD4687200D159B27",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i006": {
+    "dataKey": "npc_gentleman_efstaff_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e1m1_2"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A7D5E7E3830E888B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_04_g01",
+    "npcId": "npc_e1m1_frontline_i006",
+    "title": {
+      "id": "BB97FF8332259B09",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i007": {
+    "dataKey": "npc_girl_efstaff_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4A6B0AA84298F1E9",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_05_g01",
+    "npcId": "npc_e1m1_frontline_i007",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i008": {
+    "dataKey": "npc_gentleman_efstaff_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FFC6E428448F3A1E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_05_g01",
+    "npcId": "npc_e1m1_frontline_i008",
+    "title": {
+      "id": "B006B8ED159AE5DF",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i009": {
+    "dataKey": "npc_lady_efscholar_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "460D47FF5D69EED5",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efscholar_a_01_g01",
+    "npcId": "npc_e1m1_frontline_i009",
+    "title": {
+      "id": "3C1CA9F16AD75D8E",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i010": {
+    "dataKey": "npc_girl_efstaff_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A204C673D70B825C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_04_g01",
+    "npcId": "npc_e1m1_frontline_i010",
+    "title": {
+      "id": "B40D27B306F12437",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i011": {
+    "dataKey": "npc_lady_efstaff_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E9A12AC0D88E18C8",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_02_g01",
+    "npcId": "npc_e1m1_frontline_i011",
+    "title": {
+      "id": "F785856221C164B9",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i012": {
+    "dataKey": "npc_girl_efstaff_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2B96DEE5350AB3B0",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_06_g01",
+    "npcId": "npc_e1m1_frontline_i012",
+    "title": {
+      "id": "5D2216199156DC19",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i013": {
+    "dataKey": "npc_lady_efstaff_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B821943E634F2058",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_06_g01",
+    "npcId": "npc_e1m1_frontline_i013",
+    "title": {
+      "id": "A5B6A5B03AD7ED43",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i014": {
+    "dataKey": "npc_gentleman_efstaff_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "28790C8A5236D376",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_06_g01",
+    "npcId": "npc_e1m1_frontline_i014",
+    "title": {
+      "id": "DA406694040CC9F1",
+      "text": ""
+    }
+  },
+  "npc_e1m1_frontline_i015": {
+    "dataKey": "npc_lady_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D48DCB9DAF0EC61E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionminer_a_02_g01",
+    "npcId": "npc_e1m1_frontline_i015",
+    "title": {
+      "id": "3D00072B6382E810",
+      "text": ""
+    }
+  },
+  "npc_e1m1_qiaohua_i001": {
+    "dataKey": "npc_strongm_unionminer_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "788DD987E6778681",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_strongm_unionminer_a_06_g01",
+    "npcId": "npc_e1m1_qiaohua_i001",
+    "title": {
+      "id": "0C59939EABAD98AE",
+      "text": ""
+    }
+  },
+  "npc_e1m1_qiaohua_i002": {
+    "dataKey": "npc_strongm_unionminer_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "93CDCACFE8F997E1",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_strongm_unionminer_a_07_g01",
+    "npcId": "npc_e1m1_qiaohua_i002",
+    "title": {
+      "id": "18D33925DD9B5700",
+      "text": ""
+    }
+  },
+  "npc_e1m3_arsenal_i001": {
+    "dataKey": "npc_gentleman_efengineer_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "CB81DE31745D8C21",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efengineer_a_04_g01",
+    "npcId": "npc_e1m3_arsenal_i001",
+    "title": {
+      "id": "C4E058731F2B1CC9",
+      "text": ""
+    }
+  },
+  "npc_e1m3_pelica_g01_i001": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "slctr_npc_e1m3_pelica",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E6157366F26D5C5B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_e1m3_pelica_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m3_unionhome_i001": {
+    "dataKey": "npc_gentleman_efstaff_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D6502F118F229A8E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efstaff_a_07_g01",
+    "npcId": "npc_e1m3_unionhome_i001",
+    "title": {
+      "id": "63D9F492F47D244C",
+      "text": ""
+    }
+  },
+  "npc_e1m3_unionhome_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_29",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "78862B0D143E9826",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_29_g01",
+    "npcId": "npc_e1m3_unionhome_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m3_unionhome_i003": {
+    "dataKey": "npc_gentleman_efpolice_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "069FF447B77C0686",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efpolice_a_05_g01",
+    "npcId": "npc_e1m3_unionhome_i003",
+    "title": {
+      "id": "4C2C44D29C2BC838",
+      "text": ""
+    }
+  },
+  "npc_e1m3_unionhome_i004": {
+    "dataKey": "npc_gentleman_efpolice_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6EBFAD7BC1697666",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efpolice_a_06_g01",
+    "npcId": "npc_e1m3_unionhome_i004",
+    "title": {
+      "id": "F58AC5B52E9466C6",
+      "text": ""
+    }
+  },
+  "npc_e1m3_unionhome_i005": {
+    "dataKey": "npc_gentleman_unionscholar_a_30",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9B716EC522E6D364",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_30_g01",
+    "npcId": "npc_e1m3_unionhome_i005",
+    "title": {
+      "id": "4FE2B3BC4B604311",
+      "text": ""
+    }
+  },
+  "npc_e1m9_drill_i001": {
+    "dataKey": "npc_gentleman_unionminer_a_27",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C4AAF74E5904901A",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_e1m9_drill_i001",
+    "npcGroupId": "npc_gentleman_unionminer_a_27_g01",
+    "npcId": "npc_e1m9_drill_i001",
+    "title": {
+      "id": "F3E8A6D70E905470",
+      "text": ""
+    }
+  },
+  "npc_e1m9_drill_i002": {
+    "dataKey": "npc_gentleman_unionminer_a_31",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "873E5F099C8CDE93",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_31_g01",
+    "npcId": "npc_e1m9_drill_i002",
+    "title": {
+      "id": "112DF9F0257F63A0",
+      "text": ""
+    }
+  },
+  "npc_e1m9_drill_i003": {
+    "dataKey": "npc_lady_unionminer_a_08",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0E475A7F47C06B41",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionminer_a_08_g01",
+    "npcId": "npc_e1m9_drill_i003",
+    "title": {
+      "id": "8E492732EDE1B782",
+      "text": ""
+    }
+  },
+  "npc_e1m9_drill_i004": {
+    "dataKey": "npc_gentleman_unionminer_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9958DCC9832B4E92",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_13_g01",
+    "npcId": "npc_e1m9_drill_i004",
+    "title": {
+      "id": "CF75695C5B2B75BC",
+      "text": ""
+    }
+  },
+  "npc_e1m9_drill_i005": {
+    "dataKey": "npc_gentleman_unionminer_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A60BA688E2F68FBD",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_11_g01",
+    "npcId": "npc_e1m9_drill_i005",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e1m9_drill_i006": {
+    "dataKey": "npc_gentleman_unionminer_a_10",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "882D477AEB434B0F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_10_g01",
+    "npcId": "npc_e1m9_drill_i006",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e3m2_3": {
+    "dataKey": "npc_chr_0006_wolfgd",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "92D4DF5154E39E6E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0006_wolfgd_g01",
+    "npcId": "npc_e3m2_3",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e3m2_4": {
+    "dataKey": "npc_gentleman_unionscholar_a_06",
+    "dialogSelector": "slctr_npc_e3m2_4",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "879E11443C42ED51",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_06_g01",
+    "npcId": "npc_e3m2_4",
+    "title": {
+      "id": "9A695A52D769EB45",
+      "text": ""
+    }
+  },
+  "npc_e3m2_car_1": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "761B2E67E944ABF9",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_e3m2_car_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e3m2_car_2": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "1E29432A23AC367D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_e3m2_car_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e3m2_car_3": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9276427C4F393F25",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_e3m2_car_3",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e3m3_12": {
+    "dataKey": "npc_chr_0004_pelica",
+    "dialogSelector": "slctr_npc_e3m3_12",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B230A4C8E4E68405",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0004_pelica_g01",
+    "npcId": "npc_e3m3_12",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e3m3_1_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_04",
+    "dialogSelector": "slctr_npc_e3m3_1_1",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "67A67F41FACE5C3E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_04_g01",
+    "npcId": "npc_e3m3_1_1",
+    "title": {
+      "id": "134123535D6A6107",
+      "text": ""
+    }
+  },
+  "npc_e3m3_1_2": {
+    "dataKey": "npc_gentleman_unionscholar_a_04",
+    "dialogSelector": "slctr_npc_e3m3_1_2",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "CD5C330A530CA7BB",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_04_g01",
+    "npcId": "npc_e3m3_1_2",
+    "title": {
+      "id": "055AE55C4AD1B2BD",
+      "text": ""
+    }
+  },
+  "npc_e3m3_1_3": {
+    "dataKey": "npc_gentleman_unionscholar_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "778A96F7D012A8B1",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_04_g01",
+    "npcId": "npc_e3m3_1_3",
+    "title": {
+      "id": "41C7604E023A0395",
+      "text": ""
+    }
+  },
+  "npc_e3m3_2_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_03",
+    "dialogSelector": "slctr_npc_e3m3_2_1",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "81E282D11403CA35",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_03_g01",
+    "npcId": "npc_e3m3_2_1",
+    "title": {
+      "id": "F37387BE1ABF8C67",
+      "text": ""
+    }
+  },
+  "npc_e3m3_2_2": {
+    "dataKey": "npc_gentleman_unionscholar_a_03",
+    "dialogSelector": "slctr_npc_e3m3_2_2",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DE96ADA4ED095173",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_03_g01",
+    "npcId": "npc_e3m3_2_2",
+    "title": {
+      "id": "E0CB411B8EA145BE",
+      "text": ""
+    }
+  },
+  "npc_e3m3_2_3": {
+    "dataKey": "npc_gentleman_unionscholar_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E34208E1A77C28F7",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_03_g01",
+    "npcId": "npc_e3m3_2_3",
+    "title": {
+      "id": "8C657551CD8F4FD9",
+      "text": ""
+    }
+  },
+  "npc_e3m3_3_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_05",
+    "dialogSelector": "slctr_npc_e3m3_3_1",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4AE05378A45BCC83",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_05_g01",
+    "npcId": "npc_e3m3_3_1",
+    "title": {
+      "id": "C548FF303BB8F8ED",
+      "text": ""
+    }
+  },
+  "npc_e3m3_3_2": {
+    "dataKey": "npc_gentleman_unionscholar_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "56D6F4CFB011CB79",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_05_g01",
+    "npcId": "npc_e3m3_3_2",
+    "title": {
+      "id": "14B040407964EB36",
+      "text": ""
+    }
+  },
+  "npc_e3m3_3_3": {
+    "dataKey": "npc_gentleman_unionscholar_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2C9BE47D6C9014C5",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_05_g01",
+    "npcId": "npc_e3m3_3_3",
+    "title": {
+      "id": "75062639CAC2215B",
+      "text": ""
+    }
+  },
+  "npc_e3m3_4_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_06",
+    "dialogSelector": "slctr_npc_e3m3_4_1",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FEB7331C56D62E79",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_06_g01",
+    "npcId": "npc_e3m3_4_1",
+    "title": {
+      "id": "BC7D1EBD1D55BCCB",
+      "text": ""
+    }
+  },
+  "npc_e3m3_4_2": {
+    "dataKey": "npc_gentleman_unionscholar_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "1CF464ECA8E23DCD",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_06_g01",
+    "npcId": "npc_e3m3_4_2",
+    "title": {
+      "id": "52892A9469D1B77B",
+      "text": ""
+    }
+  },
+  "npc_e3m3_4_3": {
+    "dataKey": "npc_gentleman_unionscholar_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E20D99FC4893B231",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_06_g01",
+    "npcId": "npc_e3m3_4_3",
+    "title": {
+      "id": "5A2F188B4B9C1AE6",
+      "text": ""
+    }
+  },
+  "npc_e3m3_5_1": {
+    "dataKey": "npc_lady_unionscholar_a_17",
+    "dialogSelector": "slctr_npc_e3m3_5_1",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "7B1B92EB23361231",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_17_g01",
+    "npcId": "npc_e3m3_5_1",
+    "title": {
+      "id": "769503DB0C17B261",
+      "text": ""
+    }
+  },
+  "npc_e3m3_5_2": {
+    "dataKey": "npc_lady_unionscholar_a_17",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "06D4B871F7892831",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_17_g01",
+    "npcId": "npc_e3m3_5_2",
+    "title": {
+      "id": "65047FFEE96357CC",
+      "text": ""
+    }
+  },
+  "npc_e3m3_5_3": {
+    "dataKey": "npc_lady_unionscholar_a_17",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8FBBB20510853EEE",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_17_g01",
+    "npcId": "npc_e3m3_5_3",
+    "title": {
+      "id": "A8E08B5C798305F1",
+      "text": ""
+    }
+  },
+  "npc_e3m3_7": {
+    "dataKey": "npc_chr_0006_wolfgd",
+    "dialogSelector": "slctr_npc_e3m3_7",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4715FF6A8DAF2C39",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0006_wolfgd_g01",
+    "npcId": "npc_e3m3_7",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_e4m1_yanjiuyuan_i001": {
+    "dataKey": "npc_lady_unionscholar_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BE8E160A1021762B",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_e4m1_yanjiuyuan_i001",
+    "npcGroupId": "npc_lady_unionscholar_a_05_g01",
+    "npcId": "npc_e4m1_yanjiuyuan_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_f1m10_seedtrader": {
+    "dataKey": "npc_gentleman_rfg_b_10",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_common_shop",
+    "interactRangeType": 0,
+    "name": {
+      "id": "CE9A84781CC354C3",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_f1m10_seedtrader",
+    "npcGroupId": "npc_gentleman_rfg_b_10_g01",
+    "npcId": "npc_f1m10_seedtrader",
+    "title": {
+      "id": "7F853181EB63E2A1",
+      "text": ""
+    }
+  },
+  "npc_f1m3_a_05_shiptrader": {
+    "dataKey": "npc_boy_efstaff_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_common_shop",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A6A56D1CD2E0BCD8",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_f1m3_a_05_shiptrader",
+    "npcGroupId": "npc_boy_efstaff_a_02_g01",
+    "npcId": "npc_f1m3_a_05_shiptrader",
+    "title": {
+      "id": "97BF80F09455716D",
+      "text": ""
+    }
+  },
+  "npc_forster_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8BE03C5486BD27F1",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_forster_1",
+    "npcGroupId": "npc_gentleman_unionscholar_a_02_g01",
+    "npcId": "npc_forster_1",
+    "title": {
+      "id": "C2C60B55EF0E9DA1",
+      "text": ""
+    }
+  },
+  "npc_gentleman_efengineer_a_03_g01_1": {
+    "dataKey": "npc_gentleman_efengineer_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "71F61FAB1D43A275",
+      "text": ""
+    },
+    "normalCfg": "npc_robot_elder_cfg",
+    "npcGroupId": "npc_gentleman_efengineer_a_03_g01",
+    "npcId": "npc_gentleman_efengineer_a_03_g01_1",
+    "title": {
+      "id": "38A622A169AC7B28",
+      "text": ""
+    }
+  },
+  "npc_gentleman_efengineer_a_05_g01_1": {
+    "dataKey": "npc_gentleman_efengineer_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "62887B2828891C70",
+      "text": ""
+    },
+    "normalCfg": "npc_robot_young_cfg",
+    "npcGroupId": "npc_gentleman_efengineer_a_05_g01",
+    "npcId": "npc_gentleman_efengineer_a_05_g01_1",
+    "title": {
+      "id": "E22398248E471D80",
+      "text": ""
+    }
+  },
+  "npc_gentleman_hsfarmer_a_01_g01_i001": {
+    "dataKey": "npc_gentleman_hsfarmer_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "D29A2E830F1F0B08",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E794E3AE8207A09E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_hsfarmer_a_01_g01",
+    "npcId": "npc_gentleman_hsfarmer_a_01_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_gentleman_rfg_a_01_g02_i001": {
+    "dataKey": "npc_gentleman_rfg_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "102A17173D5DF22D",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F4FE51A38E861C21",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_rfg_a_01_g02",
+    "npcId": "npc_gentleman_rfg_a_01_g02_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_gentleman_unionminer_1": {
+    "dataKey": "npc_gentleman_unionminer_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_01_g01",
+    "npcId": "npc_gentleman_unionminer_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_girl_hsfarmer_a_01_g01_i001": {
+    "dataKey": "npc_girl_hsfarmer_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B266DD0E2B959418",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "679FF267A3FB67C7",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_hsfarmer_a_01_g01",
+    "npcId": "npc_girl_hsfarmer_a_01_g01_i001",
+    "title": {
+      "id": "6357B9FE5C043EAA",
+      "text": ""
+    }
+  },
+  "npc_heerman_1": {
+    "dataKey": "npc_strongm_unionminer_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "01BEED1801908528",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_heerman_map01_lv006_001",
+    "npcGroupId": "npc_strongm_unionminer_a_05_g01",
+    "npcId": "npc_heerman_1",
+    "title": {
+      "id": "78ABFF46E7B9F319",
+      "text": ""
+    }
+  },
+  "npc_heerman_2": {
+    "dataKey": "npc_strongm_unionminer_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6BA2657DA0F63032",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_heerman_map01_lv006_001",
+    "npcGroupId": "npc_strongm_unionminer_a_05_g01",
+    "npcId": "npc_heerman_2",
+    "title": {
+      "id": "D6CA939F3A800494",
+      "text": ""
+    }
+  },
+  "npc_hound_1": {
+    "dataKey": "npc_eny_0050_hound",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_eny_0050_hound_g01",
+    "npcId": "npc_hound_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_ikut_1": {
+    "dataKey": "npc_chr_0007_ikut",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "871CCEFDC290A066",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_ikut_1",
+    "npcGroupId": "npc_chr_0007_ikut_g01",
+    "npcId": "npc_ikut_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_injured_staff_1": {
+    "dataKey": "npc_gentleman_efscholar_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "107775EBF82480AF",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efscholar_a_03_g01",
+    "npcId": "npc_injured_staff_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_ira_1": {
+    "dataKey": "npc_girl_rfg_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "31BDEF4D4B6EF007",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_rfg_a_09_g01",
+    "npcId": "npc_ira_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_ira_2": {
+    "dataKey": "npc_girl_rfg_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "EF2BA4FD2A270ABA",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_rfg_a_09_g01",
+    "npcId": "npc_ira_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_joost_1": {
+    "dataKey": "npc_gentleman_efpolice_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "CC1F6F034B73D822",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A038DD575D2DED65",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_efpolice_a_01_g01",
+    "npcId": "npc_joost_1",
+    "title": {
+      "id": "52A448A60C89D646",
+      "text": ""
+    }
+  },
+  "npc_kajia_1": {
+    "dataKey": "npc_gentleman_rfg_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "83E33BAA35C0341F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_rfg_a_09_g01",
+    "npcId": "npc_kajia_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_kajia_2": {
+    "dataKey": "npc_gentleman_rfg_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "72A1D416AA6677C3",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_kajia_2",
+    "npcGroupId": "npc_gentleman_rfg_a_09_g01",
+    "npcId": "npc_kajia_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lay_union_staff_1": {
+    "dataKey": "npc_lady_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F524899648043234",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionminer_a_02_g01",
+    "npcId": "npc_lay_union_staff_1",
+    "title": {
+      "id": "C50EB19933CB3292",
+      "text": ""
+    }
+  },
+  "npc_lbmob_1": {
+    "dataKey": "npc_eny_0029_lbmob",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_eny_0029_lbmob_g01",
+    "npcId": "npc_lbmob_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lbshamman_1": {
+    "dataKey": "npc_eny_0046_lbshamman",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_eny_0046_lbshamman_g01",
+    "npcId": "npc_lbshamman_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_liuchengyan_f1m18": {
+    "dataKey": "npc_boy_hsfarmer_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_settlement_NPC",
+    "interactRangeType": 0,
+    "name": {
+      "id": "571A2BEE4DCF2D82",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_liuchengyan",
+    "npcGroupId": "npc_boy_hsfarmer_a_01_g01",
+    "npcId": "npc_liuchengyan_f1m18",
+    "title": {
+      "id": "3D315E048F8CD521",
+      "text": ""
+    }
+  },
+  "npc_lv005_dongwu_i001": {
+    "dataKey": "npc_girl_unionscholar_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AC04A08211CE9B4C",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_dongwu_i001",
+    "npcGroupId": "npc_girl_unionscholar_a_05_g01",
+    "npcId": "npc_lv005_dongwu_i001",
+    "title": {
+      "id": "3957519E1DD4087B",
+      "text": ""
+    }
+  },
+  "npc_lv005_dongwu_i002": {
+    "dataKey": "npc_girl_unionscholar_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_34"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "EFF56E53D332F672",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionscholar_a_05_g01",
+    "npcId": "npc_lv005_dongwu_i002",
+    "title": {
+      "id": "427E0880A1495F3A",
+      "text": ""
+    }
+  },
+  "npc_lv005_hugong_i001": {
+    "dataKey": "npc_girl_unionminer_a_12",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0E5AF864B32D5DDC",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionminer_a_12_g01",
+    "npcId": "npc_lv005_hugong_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_hugong_i002": {
+    "dataKey": "npc_girl_unionminer_a_12",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6A42E06D2A872333",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_hugong_i002",
+    "npcGroupId": "npc_girl_unionminer_a_12_g01",
+    "npcId": "npc_lv005_hugong_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_hugong_i003": {
+    "dataKey": "npc_girl_unionminer_a_12",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "5C88BE42AB610370",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_hugong_i003",
+    "npcGroupId": "npc_girl_unionminer_a_12_g01",
+    "npcId": "npc_lv005_hugong_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_judian_a_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B93780FAA52E82FA",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_judian_a_i001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_07_g01",
+    "npcId": "npc_lv005_judian_a_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_judian_b_i001": {
+    "dataKey": "npc_lady_unionscholar_a_22",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "488FAB20AF7067AC",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_judian_b_i001",
+    "npcGroupId": "npc_lady_unionscholar_a_22_g01",
+    "npcId": "npc_lv005_judian_b_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_judian_c_i001": {
+    "dataKey": "npc_grandpa_unionscholar_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "78B019D33BC8B9D8",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_grandpa_unionscholar_a_07_g01",
+    "npcId": "npc_lv005_judian_c_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_kelinsi_f_i001": {
+    "dataKey": "npc_girl_unionminer_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "30A37FCF00323FDF",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionminer_a_13_g01",
+    "npcId": "npc_lv005_kelinsi_f_i001",
+    "title": {
+      "id": "650326C47D72AEB2",
+      "text": ""
+    }
+  },
+  "npc_lv005_kelinsi_f_i002": {
+    "dataKey": "npc_girl_unionminer_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B9186B9F58FBEE60",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionminer_a_13_g01",
+    "npcId": "npc_lv005_kelinsi_f_i002",
+    "title": {
+      "id": "7F73E8FC13556ED6",
+      "text": ""
+    }
+  },
+  "npc_lv005_kelinsi_f_i003": {
+    "dataKey": "npc_girl_unionminer_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C0A44B8551202A51",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_kelinsi_f_i003",
+    "npcGroupId": "npc_girl_unionminer_a_13_g01",
+    "npcId": "npc_lv005_kelinsi_f_i003",
+    "title": {
+      "id": "C13B95D5C51561B4",
+      "text": ""
+    }
+  },
+  "npc_lv005_kelinsi_m_i001": {
+    "dataKey": "npc_gentleman_unionminer_a_16",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A1B15632DC9A15A6",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_16_g01",
+    "npcId": "npc_lv005_kelinsi_m_i001",
+    "title": {
+      "id": "84A5C2E8172215B3",
+      "text": ""
+    }
+  },
+  "npc_lv005_kelinsi_m_i002": {
+    "dataKey": "npc_gentleman_unionminer_a_16",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E36F5B22252B6285",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_kelinsi_m_i002",
+    "npcGroupId": "npc_gentleman_unionminer_a_16_g01",
+    "npcId": "npc_lv005_kelinsi_m_i002",
+    "title": {
+      "id": "41B2828223940E56",
+      "text": ""
+    }
+  },
+  "npc_lv005_kelinsi_m_i003": {
+    "dataKey": "npc_gentleman_unionminer_a_16",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6657E3A31D48CB53",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_kelinsi_m_i003",
+    "npcGroupId": "npc_gentleman_unionminer_a_16_g01",
+    "npcId": "npc_lv005_kelinsi_m_i003",
+    "title": {
+      "id": "34F04BB9F64711A0",
+      "text": ""
+    }
+  },
+  "npc_lv005_kuangwu_i001": {
+    "dataKey": "npc_lady_unionscholar_a_16",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_3"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "ABC1AF0F644CA542",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_16_g01",
+    "npcId": "npc_lv005_kuangwu_i001",
+    "title": {
+      "id": "0A8EC5CFE7AD722A",
+      "text": ""
+    }
+  },
+  "npc_lv005_kuangwu_i002": {
+    "dataKey": "npc_lady_unionscholar_a_16",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A38A9367F3E06C54",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_kuangwu_02",
+    "npcGroupId": "npc_lady_unionscholar_a_16_g01",
+    "npcId": "npc_lv005_kuangwu_i002",
+    "title": {
+      "id": "12CA4F658F6911DD",
+      "text": ""
+    }
+  },
+  "npc_lv005_shangyuan_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_36",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_9"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "186AAAE49765F753",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_36_g01",
+    "npcId": "npc_lv005_shangyuan_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_shangyuan_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_36",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "CEFCAC4975F6E470",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_shangyuan_i002",
+    "npcGroupId": "npc_gentleman_unionscholar_a_36_g01",
+    "npcId": "npc_lv005_shangyuan_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_shangyuan_i003": {
+    "dataKey": "npc_gentleman_unionscholar_a_36",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_37"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9314F146C8D50420",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_36_g01",
+    "npcId": "npc_lv005_shangyuan_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_tata_i001": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "369CEFC7FF1E19FC",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_5012_car02_g01_01",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_lv005_tata_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_tata_i002": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A7AA53A7FA2E6CFA",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_5012_car02_g01_02",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_lv005_tata_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_tata_i003": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8EDF7B73EFD9E1DE",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_5012_car02_g01_03",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_lv005_tata_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_tata_i004": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AD77EA199E6F1C9F",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_5012_car02_g01_04",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_lv005_tata_i004",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_tata_i005": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "50B3EED47A538DF9",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_5012_car02_g01_05",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_lv005_tata_i005",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_tata_i006": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4B945A560F0B6C90",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_5012_car02_g01_06",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_lv005_tata_i006",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_tata_i007": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E63226B619511FB6",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_lv005_tata_i007",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_tata_i008": {
+    "dataKey": "npc_obj_car_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6C68B6485093BFA0",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_5012_car02_g01_08",
+    "npcGroupId": "npc_obj_car_02_g01",
+    "npcId": "npc_lv005_tata_i008",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_a_i001": {
+    "dataKey": "npc_lady_unionscholar_a_08",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_1"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BDF01D3806C5C41F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_08_g01",
+    "npcId": "npc_lv005_yanjiusuo_a_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_a_i002": {
+    "dataKey": "npc_lady_unionscholar_a_08",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BA94A5FD576CFD51",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yanjiusuo_a_i002",
+    "npcGroupId": "npc_lady_unionscholar_a_08_g01",
+    "npcId": "npc_lv005_yanjiusuo_a_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_b_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "58858FDB3BD58E81",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yanjiusuo_b_i001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_13_g01",
+    "npcId": "npc_lv005_yanjiusuo_b_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_b_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "10845F96B5DBE01C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_13_g01",
+    "npcId": "npc_lv005_yanjiusuo_b_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_c_i001": {
+    "dataKey": "npc_girl_unionscholar_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BF09734A9D442536",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yanjiusuo_c_i001",
+    "npcGroupId": "npc_girl_unionscholar_a_04_g01",
+    "npcId": "npc_lv005_yanjiusuo_c_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_c_i002": {
+    "dataKey": "npc_girl_unionscholar_a_04",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0B285A120829B545",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yanjiusuo_c_i002",
+    "npcGroupId": "npc_girl_unionscholar_a_04_g01",
+    "npcId": "npc_lv005_yanjiusuo_c_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_d_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_14",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_2"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8B38366E96C0A450",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_14_g01",
+    "npcId": "npc_lv005_yanjiusuo_d_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_d_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_14",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "46C34D551E0597B1",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_14_g01",
+    "npcId": "npc_lv005_yanjiusuo_d_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_e_i001": {
+    "dataKey": "npc_boy_unionscholar_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8ECD26976DA07E46",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yanjiusuo_e_i001",
+    "npcGroupId": "npc_boy_unionscholar_a_13_g01",
+    "npcId": "npc_lv005_yanjiusuo_e_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yanjiusuo_e_i002": {
+    "dataKey": "npc_boy_unionscholar_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "24D31CB38F783AD7",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yanjiusuo_e_i002",
+    "npcGroupId": "npc_boy_unionscholar_a_13_g01",
+    "npcId": "npc_lv005_yanjiusuo_e_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_a_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DCCA66BAEDB10E07",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yuanqu_a_i001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_11_g01",
+    "npcId": "npc_lv005_yuanqu_a_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_a_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A5C030D2657CF4BC",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yuanqu_a_i002",
+    "npcGroupId": "npc_gentleman_unionscholar_a_11_g01",
+    "npcId": "npc_lv005_yuanqu_a_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_b_i001": {
+    "dataKey": "npc_boy_unionscholar_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8B6AD0C19E82D30B",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_boy_unionscholar_a_02_g01",
+    "npcId": "npc_lv005_yuanqu_b_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_b_i002": {
+    "dataKey": "npc_boy_unionscholar_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_31"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F9440A7E7B52C355",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_boy_unionscholar_a_02_g01",
+    "npcId": "npc_lv005_yuanqu_b_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_c_i001": {
+    "dataKey": "npc_lady_unionscholar_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_121"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "1E155394D8D93335",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yuanqu_c_i001",
+    "npcGroupId": "npc_lady_unionscholar_a_07_g01",
+    "npcId": "npc_lv005_yuanqu_c_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_c_i002": {
+    "dataKey": "npc_lady_unionscholar_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_124"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "028F217FDFE270D1",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yuanqu_c_i002",
+    "npcGroupId": "npc_lady_unionscholar_a_07_g01",
+    "npcId": "npc_lv005_yuanqu_c_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_c_i003": {
+    "dataKey": "npc_lady_unionscholar_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_128"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F76ADAEDAFB22F3B",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yuanqu_c_i003",
+    "npcGroupId": "npc_lady_unionscholar_a_07_g01",
+    "npcId": "npc_lv005_yuanqu_c_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_d_i001": {
+    "dataKey": "npc_girl_unionscholar_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "74C237872D2413B0",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionscholar_a_03_g01",
+    "npcId": "npc_lv005_yuanqu_d_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_d_i002": {
+    "dataKey": "npc_girl_unionscholar_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2AF6775ACAA39CF5",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionscholar_a_03_g01",
+    "npcId": "npc_lv005_yuanqu_d_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yuanqu_d_i003": {
+    "dataKey": "npc_girl_unionscholar_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "935CAC99C0C2AFC2",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionscholar_a_03_g01",
+    "npcId": "npc_lv005_yuanqu_d_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yvonne_i001": {
+    "dataKey": "npc_chr_0017_yvonne",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C84CB26C74671E46",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yvonne_i001",
+    "npcGroupId": "npc_chr_0017_yvonne_g01",
+    "npcId": "npc_lv005_yvonne_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_yvonne_i002": {
+    "dataKey": "npc_chr_0017_yvonne",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_e4m1_2"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E0A6CAC795A89C58",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_yvonne_i002",
+    "npcGroupId": "npc_chr_0017_yvonne_g01",
+    "npcId": "npc_lv005_yvonne_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_zhiwu_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_25",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_4"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "82275A2F03E31969",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_25_g01",
+    "npcId": "npc_lv005_zhiwu_i001",
+    "title": {
+      "id": "6641DDCA194D2C94",
+      "text": ""
+    }
+  },
+  "npc_lv005_zhiwu_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_25",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_36"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DBA538F59B2C85AC",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_25_g01",
+    "npcId": "npc_lv005_zhiwu_i002",
+    "title": {
+      "id": "78E20395DCB4E22B",
+      "text": ""
+    }
+  },
+  "npc_lv005_zhongdi_i001": {
+    "dataKey": "npc_girl_efstaff_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [
+      "envTalk_map01_lv005_5"
+    ],
+    "envTalkOdd": [
+      1
+    ],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BC9D6C0BF49763AF",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_efstaff_a_09_g01",
+    "npcId": "npc_lv005_zhongdi_i001",
+    "title": {
+      "id": "B6C1C896569077E6",
+      "text": ""
+    }
+  },
+  "npc_lv005_zhongdi_i002": {
+    "dataKey": "npc_girl_efstaff_a_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "FE47C5EE5EC1F9C1",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_zhongdi_i002",
+    "npcGroupId": "npc_girl_efstaff_a_09_g01",
+    "npcId": "npc_lv005_zhongdi_i002",
+    "title": {
+      "id": "50996D8F4FD62E16",
+      "text": ""
+    }
+  },
+  "npc_lv005_zhuanyun_a_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_10",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B65A4DCE59FAA0BE",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_zhuanyun_a_i001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_10_g01",
+    "npcId": "npc_lv005_zhuanyun_a_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_zhuanyun_a_i002": {
+    "dataKey": "npc_gentleman_unionscholar_a_10",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "661DA280C88517AE",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_zhuanyun_a_i002",
+    "npcGroupId": "npc_gentleman_unionscholar_a_10_g01",
+    "npcId": "npc_lv005_zhuanyun_a_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_zhuanyun_b_i001": {
+    "dataKey": "npc_lady_unionscholar_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "5291D4CDA1854640",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_lv005_zhuanyun_b_i001",
+    "npcGroupId": "npc_lady_unionscholar_a_06_g01",
+    "npcId": "npc_lv005_zhuanyun_b_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_lv005_zhuanyun_b_i002": {
+    "dataKey": "npc_lady_unionscholar_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "784573703F7A2DD9",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_06_g01",
+    "npcId": "npc_lv005_zhuanyun_b_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_machine_1": {
+    "dataKey": "npc_obj_machine_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_machine_01_g01",
+    "npcId": "npc_machine_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_map01_lv001_evnnpc1": {
+    "dataKey": "npc_gentleman_efstaff_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F959DD3205C5AC6C",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_map01_lv001_evnnpc1",
+    "npcGroupId": "npc_gentleman_efstaff_a_07_g01",
+    "npcId": "npc_map01_lv001_evnnpc1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_map01lv002_luomanuo": {
+    "dataKey": "npc_gentleman_rfg_b_09",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AEA7F9D1FCDC96B2",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_map01lv002_luomanuo",
+    "npcGroupId": "npc_gentleman_rfg_b_09_g01",
+    "npcId": "npc_map01lv002_luomanuo",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_map01lv002_luosha": {
+    "dataKey": "npc_lady_rfg_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2ECE17FAA434EB3A",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_map01lv002_luosha",
+    "npcGroupId": "npc_lady_rfg_a_03_g01",
+    "npcId": "npc_map01lv002_luosha",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_map02lv001_seedtrader": {
+    "dataKey": "npc_gentleman_rfg_b_10",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_common_shop",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C5001087E8EA188F",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_map02lv001_seedtrader",
+    "npcGroupId": "npc_gentleman_rfg_b_10_g01",
+    "npcId": "npc_map02lv001_seedtrader",
+    "title": {
+      "id": "66E5C8A08BD865FA",
+      "text": ""
+    }
+  },
+  "npc_norman_f1m12_1": {
+    "dataKey": "npc_gentleman_efengineer_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_manualColletion_NPC",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F3A877D3841F3DE4",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_norman_f1m12_1",
+    "npcGroupId": "npc_gentleman_efengineer_a_06_g01",
+    "npcId": "npc_norman_f1m12_1",
+    "title": {
+      "id": "744A5489CAD39A88",
+      "text": ""
+    }
+  },
+  "npc_nurse_1": {
+    "dataKey": "npc_lady_unionscholar_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "7B5A68C6C890188C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_13_g01",
+    "npcId": "npc_nurse_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_pata_f1m15_1": {
+    "dataKey": "npc_gentleman_efscholar_a_08",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_racing_NPC",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DD67E952D9C032DD",
+      "text": ""
+    },
+    "normalCfg": "npc_pata_cfg",
+    "npcGroupId": "npc_gentleman_efscholar_a_08_g01",
+    "npcId": "npc_pata_f1m15_1",
+    "title": {
+      "id": "4677B58C24CCEBD5",
+      "text": ""
+    }
+  },
+  "npc_patientF_1": {
+    "dataKey": "npc_lady_unionminer_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "22ABC3927A82706D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionminer_a_11_g01",
+    "npcId": "npc_patientF_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_patientM_1": {
+    "dataKey": "npc_gentleman_unionminer_a_20",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "0ABBD7E5ABDC429C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_20_g01",
+    "npcId": "npc_patientM_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_patientM_2": {
+    "dataKey": "npc_gentleman_unionminer_a_21",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "ADE81D0303217BBD",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_21_g01",
+    "npcId": "npc_patientM_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_rabbit_1": {
+    "dataKey": "npc_obj_rabbit_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_rabbit_01_g01",
+    "npcId": "npc_rabbit_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_raskova_1": {
+    "dataKey": "npc_lady_unionscholar_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "5AA1D247935595CF",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_raskova_1",
+    "npcGroupId": "npc_lady_unionscholar_a_02_g01",
+    "npcId": "npc_raskova_1",
+    "title": {
+      "id": "995F66E66EBF0401",
+      "text": ""
+    }
+  },
+  "npc_sartre_1": {
+    "dataKey": "npc_gentleman_unionscholar_a_15",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "123D4E1AB3E4A940",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_15_g01",
+    "npcId": "npc_sartre_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_shawna_1": {
+    "dataKey": "npc_spl_shawna_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "18B614139151B12E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_shawna_01_g01",
+    "npcId": "npc_shawna_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_shawna_2": {
+    "dataKey": "npc_spl_shawna_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E92DC4F6908E7358",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_shawna_01_g01",
+    "npcId": "npc_shawna_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_ship_kalade_1": {
+    "dataKey": "npc_gentleman_efscholar_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_trainingroom",
+    "interactRangeType": 0,
+    "name": {
+      "id": "18D6572710BD6A64",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_ship_kalade_1",
+    "npcGroupId": "npc_gentleman_efscholar_a_07_g01",
+    "npcId": "npc_ship_kalade_1",
+    "title": {
+      "id": "7EB8C719BBF9DBFA",
+      "text": ""
+    }
+  },
+  "npc_sigma_1": {
+    "dataKey": "npc_lady_rfg_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "DEFCB0496443B625",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_rfg_a_02_g01",
+    "npcId": "npc_sigma_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sikete_1": {
+    "dataKey": "npc_gentleman_unionminer_a_23",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "1BCBA765D25B1ED3",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sikete_map01_lv006_001",
+    "npcGroupId": "npc_gentleman_unionminer_a_23_g01",
+    "npcId": "npc_sikete_1",
+    "title": {
+      "id": "6E0822D3BEF2A372",
+      "text": ""
+    }
+  },
+  "npc_skii_seller": {
+    "dataKey": "npc_gentleman_unionscholar_a_12",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D66F1E803136C805",
+      "text": ""
+    },
+    "normalCfg": "npc_skii_seller_cfg",
+    "npcGroupId": "npc_gentleman_unionscholar_a_12_g01",
+    "npcId": "npc_skii_seller",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_slug_1": {
+    "dataKey": "npc_obj_slug_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_slug_01_g01",
+    "npcId": "npc_slug_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_slug_2": {
+    "dataKey": "npc_obj_slug_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_obj_slug_02_g01",
+    "npcId": "npc_slug_2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m4_i001": {
+    "dataKey": "npc_lady_efstaff_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E061D4E6E7E70310",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l1m4_i001",
+    "npcGroupId": "npc_lady_efstaff_a_06_g01",
+    "npcId": "npc_sm1l1m4_i001",
+    "title": {
+      "id": "41FBD12E9856A3E1",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m4_i002": {
+    "dataKey": "npc_gentleman_tgccsales_a_03",
+    "dialogSelector": "slctr_npc_sm1l1m4_i002",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "BF3DE9970D98E5FB",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_tgccsales_a_03_g01",
+    "npcId": "npc_sm1l1m4_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m4_i003": {
+    "dataKey": "npc_gentleman_tgccsales_a_03",
+    "dialogSelector": "slctr_npc_sm1l1m4_i002",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "8B6C70DD0AD9C226",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_tgccsales_a_03_g01",
+    "npcId": "npc_sm1l1m4_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m4_i004": {
+    "dataKey": "npc_gentleman_tgccsales_a_02",
+    "dialogSelector": "slctr_npc_sm1l1m4_i004",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F6FCE9F2FBA3CAEF",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_tgccsales_a_02_g01",
+    "npcId": "npc_sm1l1m4_i004",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m4_i005": {
+    "dataKey": "npc_gentleman_tgccsales_a_01",
+    "dialogSelector": "slctr_npc_sm1l1m4_i005",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4D369433A2D7D12E",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_tgccsales_a_01_g01",
+    "npcId": "npc_sm1l1m4_i005",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m4_wolf": {
+    "dataKey": "npc_chr_0006_wolfgd",
+    "dialogSelector": "slctr_npc_sm1l1m4_wolf",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "56804BB81B781852",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0006_wolfgd_g01",
+    "npcId": "npc_sm1l1m4_wolf",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m5_i001": {
+    "dataKey": "npc_lady_efstaff_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F88F4C6E84FE6FB5",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_06_g01",
+    "npcId": "npc_sm1l1m5_i001",
+    "title": {
+      "id": "95908B709BEBA9FF",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m5_i002": {
+    "dataKey": "npc_gentleman_tgccsales_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "17E5383B2E2A0679",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_tgccsales_a_03_g01",
+    "npcId": "npc_sm1l1m5_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m5_i003": {
+    "dataKey": "npc_gentleman_tgccsales_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A5C459DCA83B13C9",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_tgccsales_a_03_g01",
+    "npcId": "npc_sm1l1m5_i003",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m5_i004": {
+    "dataKey": "npc_gentleman_tgccsales_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "CBC9D8C05B2F8D09",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_tgccsales_a_02_g01",
+    "npcId": "npc_sm1l1m5_i004",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m5_i005": {
+    "dataKey": "npc_gentleman_tgccsales_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "253E0694E7EFEA5C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_tgccsales_a_01_g01",
+    "npcId": "npc_sm1l1m5_i005",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l1m5_wolf": {
+    "dataKey": "npc_chr_0006_wolfgd",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B3524268AA0BEDF5",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0006_wolfgd_g01",
+    "npcId": "npc_sm1l1m5_wolf",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i000d5": {
+    "dataKey": "npc_chr_0005_chen",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AC0FB5D405FECDEB",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_chr_0005_chen_g01",
+    "npcId": "npc_sm1l3m1_i000d5",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i001": {
+    "dataKey": "npc_gentleman_unionscholar_a_23",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A43BFE175692DFA6",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i001",
+    "npcGroupId": "npc_gentleman_unionscholar_a_23_g01",
+    "npcId": "npc_sm1l3m1_i001",
+    "title": {
+      "id": "6089CEC002C77A4F",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i002": {
+    "dataKey": "npc_girl_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "F936EBBE9C7ED019",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_girl_unionminer_a_02_g01",
+    "npcId": "npc_sm1l3m1_i002",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i002d2": {
+    "dataKey": "npc_girl_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6595DCEB7523FAE6",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i002d2",
+    "npcGroupId": "npc_girl_unionminer_a_02_g01",
+    "npcId": "npc_sm1l3m1_i002d2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i003d2": {
+    "dataKey": "npc_grandma_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "107B5A4FFF7BEB97",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i003d2",
+    "npcGroupId": "npc_grandma_unionminer_a_02_g01",
+    "npcId": "npc_sm1l3m1_i003d2",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i004d1": {
+    "dataKey": "npc_lady_unionscholar_a_15",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "96CB87867D098286",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i004d1",
+    "npcGroupId": "npc_lady_unionscholar_a_15_g01",
+    "npcId": "npc_sm1l3m1_i004d1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i005": {
+    "dataKey": "npc_gentleman_unionscholar_a_24",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A131B36726793EDD",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i005",
+    "npcGroupId": "npc_gentleman_unionscholar_a_24_g01",
+    "npcId": "npc_sm1l3m1_i005",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i006": {
+    "dataKey": "npc_tpl_gentleman_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "64F67BC42DF18A9B",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i006",
+    "npcGroupId": "npc_tpl_gentleman_unionminer_a_02_g01",
+    "npcId": "npc_sm1l3m1_i006",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i007": {
+    "dataKey": "npc_tpl_gentleman_unionminer_a_03",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E1F04CB9D535B8BC",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i007",
+    "npcGroupId": "npc_tpl_gentleman_unionminer_a_03_g01",
+    "npcId": "npc_sm1l3m1_i007",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i008": {
+    "dataKey": "npc_tpl_gentleman_unionminer_a_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "E72DEF51CC2D0A94",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_tpl_gentleman_unionminer_a_06_g01",
+    "npcId": "npc_sm1l3m1_i008",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i009": {
+    "dataKey": "npc_tpl_boy_unionscholar_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "45F4265636B9469E",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i009",
+    "npcGroupId": "npc_tpl_boy_unionscholar_a_01_g01",
+    "npcId": "npc_sm1l3m1_i009",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i010": {
+    "dataKey": "npc_tpl_boy_unionscholar_a_07",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_tpl_boy_unionscholar_a_07_g01",
+    "npcId": "npc_sm1l3m1_i010",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i011": {
+    "dataKey": "npc_tpl_gentleman_unionminer_a_08",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A8B9DF88385C22D5",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i011",
+    "npcGroupId": "npc_tpl_gentleman_unionminer_a_08_g01",
+    "npcId": "npc_sm1l3m1_i011",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l3m1_i021": {
+    "dataKey": "npc_gentleman_unionminer_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_common_shop",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D77534DDBEF43EAC",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_sm1l3m1_i021",
+    "npcGroupId": "npc_gentleman_unionminer_a_02_g01",
+    "npcId": "npc_sm1l3m1_i021",
+    "title": {
+      "id": "90B6E337F2AB784D",
+      "text": ""
+    }
+  },
+  "npc_sm1l5m3_nfm_i001": {
+    "dataKey": "npc_gentleman_unionminer_a_26",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_settlement_NPC",
+    "interactRangeType": 0,
+    "name": {
+      "id": "B243DD2AEB3CBE6D",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_nuofuman",
+    "npcGroupId": "npc_gentleman_unionminer_a_26_g01",
+    "npcId": "npc_sm1l5m3_nfm_i001",
+    "title": {
+      "id": "EE11CF4E872D25B9",
+      "text": ""
+    }
+  },
+  "npc_sm1l6m1_5": {
+    "dataKey": "npc_tpl_kidf_rfg_a_01",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9013C09EF8F6A797",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_tpl_kidf_rfg_a_01_g01",
+    "npcId": "npc_sm1l6m1_5",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l6m1_6": {
+    "dataKey": "npc_lady_unionscholar_a_13",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "9D26D4398E9A1D67",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_unionscholar_a_13_g01",
+    "npcId": "npc_sm1l6m1_6",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_sm1l6m1_7": {
+    "dataKey": "npc_gentleman_unionscholar_a_35",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "90F845BDCCB2364C",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionscholar_a_35_g01",
+    "npcId": "npc_sm1l6m1_7",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_spl_andrew_01_g01_i001": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "slctr_npc_e1m1_andrewfinal",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A71B20EF10A853C6",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_spl_andrew_01_g01_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_spl_andrew_01_g01_i002": {
+    "dataKey": "npc_spl_andrew_01",
+    "dialogSelector": "slctr_npc_e1m3_andrew_2",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "B38ECB0CCFF86DBA",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "A8E1B51E65968804",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_spl_andrew_01_g01",
+    "npcId": "npc_spl_andrew_01_g01_i002",
+    "title": {
+      "id": "4E903D44FD9E8E2B",
+      "text": ""
+    }
+  },
+  "npc_strongm_roman_01": {
+    "dataKey": "npc_gentleman_unionminer_a_29",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "10CAEF36F8EE05F9",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_29_g01",
+    "npcId": "npc_strongm_roman_01",
+    "title": {
+      "id": "7C6E2D0C48699901",
+      "text": ""
+    }
+  },
+  "npc_taman_1": {
+    "dataKey": "npc_gentleman_rfg_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D2D4555673A6C28D",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_rfg_a_11_g01",
+    "npcId": "npc_taman_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_tpl_gentleman_unionminer_a_11": {
+    "dataKey": "npc_tpl_gentleman_unionminer_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_tpl_gentleman_unionminer_a_11_g01",
+    "npcId": "npc_tpl_gentleman_unionminer_a_11",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_tpl_gentleman_unionscholar_a_11": {
+    "dataKey": "npc_tpl_gentleman_unionscholar_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_tpl_gentleman_unionscholar_a_11_g01",
+    "npcId": "npc_tpl_gentleman_unionscholar_a_11",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_tpl_girl_unionscholar_a_11": {
+    "dataKey": "npc_tpl_girl_unionscholar_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_tpl_girl_unionscholar_a_11_g01",
+    "npcId": "npc_tpl_girl_unionscholar_a_11",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_tpl_lady_unionminer_a_11": {
+    "dataKey": "npc_tpl_lady_unionminer_a_11",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_tpl_lady_unionminer_a_11_g01",
+    "npcId": "npc_tpl_lady_unionminer_a_11",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_trapped_worker_i001": {
+    "dataKey": "npc_lady_efstaff_a_02",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "6CA2F0B20CE92A9F",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_lady_efstaff_a_02_g01",
+    "npcId": "npc_trapped_worker_i001",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_unionwoker_Hammer": {
+    "dataKey": "npc_gentleman_unionminer_a_19",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "29B03E0955336134",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_19_g01",
+    "npcId": "npc_unionwoker_Hammer",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_unionwoker_mace": {
+    "dataKey": "npc_gentleman_unionminer_a_21",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "C0229688EA9252DA",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_21_g01",
+    "npcId": "npc_unionwoker_mace",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_unionwoker_wrench": {
+    "dataKey": "npc_gentleman_unionminer_a_20",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D8635CCF285B8227",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_unionminer_a_20_g01",
+    "npcId": "npc_unionwoker_wrench",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_weapon_upgrade_seller": {
+    "dataKey": "npc_lady_efstaff_a_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_common_shop",
+    "interactRangeType": 0,
+    "name": {
+      "id": "AD246680332BF727",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_weapon_upgrade_seller",
+    "npcGroupId": "npc_lady_efstaff_a_05_g01",
+    "npcId": "npc_weapon_upgrade_seller",
+    "title": {
+      "id": "3206A5C511291F35",
+      "text": ""
+    }
+  },
+  "npc_zac_1": {
+    "dataKey": "npc_gentleman_rfg_b_06",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "ECF27F44AA1731B8",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_rfg_b_06_g01",
+    "npcId": "npc_zac_1",
+    "title": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "npc_zoids_1": {
+    "dataKey": "npc_gentleman_rfg_b_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "D10AC2B818392DE4",
+      "text": ""
+    },
+    "normalCfg": "",
+    "npcGroupId": "npc_gentleman_rfg_b_05_g01",
+    "npcId": "npc_zoids_1",
+    "title": {
+      "id": "99D54D19044B1D26",
+      "text": ""
+    }
+  },
+  "npc_zoids_2": {
+    "dataKey": "npc_gentleman_rfg_b_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "",
+    "interactRangeType": 0,
+    "name": {
+      "id": "2F538141F0DDF314",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_zoids_2",
+    "npcGroupId": "npc_gentleman_rfg_b_05_g01",
+    "npcId": "npc_zoids_2",
+    "title": {
+      "id": "FE2CCF4BF678AC69",
+      "text": ""
+    }
+  },
+  "npc_zoids_3": {
+    "dataKey": "npc_gentleman_rfg_b_05",
+    "dialogSelector": "",
+    "envTalkIds": [],
+    "envTalkOdd": [],
+    "faction": {
+      "id": "",
+      "text": ""
+    },
+    "headIcon": "icon_default",
+    "headLabelIcon": "icon_headlabel_settlement_NPC",
+    "interactRangeType": 0,
+    "name": {
+      "id": "4E5746209B4EDBD8",
+      "text": ""
+    },
+    "normalCfg": "cfg_npc_zoids_3",
+    "npcGroupId": "npc_gentleman_rfg_b_05_g01",
+    "npcId": "npc_zoids_3",
+    "title": {
+      "id": "ABE23EF8A12881B5",
+      "text": ""
+    }
+  }
+}

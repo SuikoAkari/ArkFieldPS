@@ -1,0 +1,370 @@
+{
+  "eny_0007_mimicw": {
+    "tipContents": [
+      {
+        "id": "2DC922C42AAF223C",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0018_lbtough": {
+    "tipContents": [
+      {
+        "id": "50E4D481E17FFBEC",
+        "text": ""
+      },
+      {
+        "id": "0E8A42329786A52A",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0018_lbtough_001": {
+    "tipContents": [
+      {
+        "id": "269380C30F327420",
+        "text": ""
+      },
+      {
+        "id": "F6F735DDC86BA0E7",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0018_lbtough_cardefend": {
+    "tipContents": [
+      {
+        "id": "A1A92BFFAD18E9CC",
+        "text": ""
+      },
+      {
+        "id": "C716163A43FA190F",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0018_lbtough_dungeon": {
+    "tipContents": [
+      {
+        "id": "B4449D73B1BC9202",
+        "text": ""
+      },
+      {
+        "id": "2079FC7C82BE0E79",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0018_lbtough_quest01": {
+    "tipContents": [
+      {
+        "id": "D53AC3B3FD481F71",
+        "text": ""
+      },
+      {
+        "id": "893C06384A624694",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0018_lbtough_race": {
+    "tipContents": [
+      {
+        "id": "86CA9C67A5E6F24A",
+        "text": ""
+      },
+      {
+        "id": "3E3B47361C6A5746",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0018_lbtough_settlement": {
+    "tipContents": [
+      {
+        "id": "27F9434BCD561140",
+        "text": ""
+      },
+      {
+        "id": "296237228A5FF591",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0018_lbtough_train": {
+    "tipContents": [
+      {
+        "id": "D92D30A0F1838F4B",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0027_agscorp": {
+    "tipContents": [
+      {
+        "id": "017BABE41BB46241",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0039_agcanno": {
+    "tipContents": [
+      {
+        "id": "3B697D8293375B39",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0039_agcanno_dung01": {
+    "tipContents": [
+      {
+        "id": "BCD6E75FD51ED031",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0045_agtrinit": {
+    "tipContents": [
+      {
+        "id": "813E451E4946D597",
+        "text": ""
+      },
+      {
+        "id": "6A67664A6F782F00",
+        "text": ""
+      },
+      {
+        "id": "839AD1AFC33BDB96",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0045_agtrinit_race": {
+    "tipContents": [
+      {
+        "id": "AFCC1A3C3AE25E3D",
+        "text": ""
+      },
+      {
+        "id": "EA9980B59484D130",
+        "text": ""
+      },
+      {
+        "id": "FBFFD09223DBF05D",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0046_lbshamman": {
+    "tipContents": [
+      {
+        "id": "FD86206D791739DF",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0046_lbshamman_cardefend": {
+    "tipContents": [
+      {
+        "id": "F3056A8B872769DB",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0046_lbshamman_dungeon": {
+    "tipContents": [
+      {
+        "id": "8D24C087DE078B66",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0046_lbshamman_phantom": {
+    "tipContents": [
+      {
+        "id": "D09CB936725F8DCD",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0046_lbshamman_race": {
+    "tipContents": [
+      {
+        "id": "0571FE797C21EF2C",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0046_lbshamman_settlement": {
+    "tipContents": [
+      {
+        "id": "CC9F19AC1CF2C8FE",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0047_firebat": {
+    "tipContents": [
+      {
+        "id": "3933E02A609F7D65",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0047_firebat_dungeon": {
+    "tipContents": [
+      {
+        "id": "D2804A34BBC7CB25",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0047_firebat_race": {
+    "tipContents": [
+      {
+        "id": "A9616B5E1583AADB",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0048_hvybow": {
+    "tipContents": [
+      {
+        "id": "A2CE38133A2EEBB1",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0048_hvybow_bridge_warden": {
+    "tipContents": [
+      {
+        "id": "CB6FF59147A8B781",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0048_hvybow_cardefend": {
+    "tipContents": [
+      {
+        "id": "F1C45C1C338C07A1",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0048_hvybow_dungeon": {
+    "tipContents": [
+      {
+        "id": "DEB195C6A81DEAD9",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0048_hvybow_race": {
+    "tipContents": [
+      {
+        "id": "F934C81E7ED6C3BE",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0049_rogue": {
+    "tipContents": [
+      {
+        "id": "D70E514CB8681AAF",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0049_rogue_dungeon": {
+    "tipContents": [
+      {
+        "id": "D654ADD8ECBE8F20",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0051_rodin": {
+    "tipContents": [
+      {
+        "id": "7645153616CBEBAE",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0052_palesent": {
+    "tipContents": [
+      {
+        "id": "CD752F15AF2F3601",
+        "text": ""
+      },
+      {
+        "id": "1ACB5E376260DEEE",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0054_hsmino": {
+    "tipContents": [
+      {
+        "id": "828B6684E8B70842",
+        "text": ""
+      },
+      {
+        "id": "924DF1FA7AEF2243",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0055_hscrane": {
+    "tipContents": [
+      {
+        "id": "F453B342F4599653",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0058_agdisk": {
+    "tipContents": [
+      {
+        "id": "85A15FB3BABB0B65",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0058_agdisk_dungeon": {
+    "tipContents": [
+      {
+        "id": "4AE2910C62673C54",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0058_agdisk_race": {
+    "tipContents": [
+      {
+        "id": "E8EEB760508EAA64",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0068_lbtough2": {
+    "tipContents": [
+      {
+        "id": "0D5D77804AEDF9D3",
+        "text": ""
+      },
+      {
+        "id": "2371E6D152E4B091",
+        "text": ""
+      }
+    ]
+  },
+  "eny_0070_agscorp2": {
+    "tipContents": [
+      {
+        "id": "E263E47BBFFC6B61",
+        "text": ""
+      }
+    ]
+  }
+}

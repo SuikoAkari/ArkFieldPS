@@ -1,0 +1,54 @@
+{
+  "dung_race001": {
+    "list": {
+      "1": {
+        "exp": 100,
+        "nodeId": 1,
+        "rewardId": "reward_dung_race_bp_1",
+        "unlockLevel": 1
+      },
+      "2": {
+        "exp": 200,
+        "nodeId": 2,
+        "rewardId": "reward_dung_race_bp_2",
+        "unlockLevel": 1
+      },
+      "3": {
+        "exp": 300,
+        "nodeId": 3,
+        "rewardId": "reward_dung_race_bp_3",
+        "unlockLevel": 1
+      },
+      "4": {
+        "exp": 400,
+        "nodeId": 4,
+        "rewardId": "reward_dung_race_bp_4",
+        "unlockLevel": 1
+      },
+      "5": {
+        "exp": 500,
+        "nodeId": 5,
+        "rewardId": "reward_dung_race_bp_5",
+        "unlockLevel": 2
+      },
+      "6": {
+        "exp": 600,
+        "nodeId": 6,
+        "rewardId": "reward_dung_race_bp_6",
+        "unlockLevel": 2
+      },
+      "7": {
+        "exp": 700,
+        "nodeId": 7,
+        "rewardId": "reward_dung_race_bp_7",
+        "unlockLevel": 2
+      },
+      "8": {
+        "exp": 800,
+        "nodeId": 8,
+        "rewardId": "reward_dung_race_bp_8",
+        "unlockLevel": 2
+      }
+    }
+  }
+}

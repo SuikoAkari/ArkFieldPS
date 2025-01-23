@@ -1,0 +1,20 @@
+{
+  "beginnerPool": {
+    "condition": "",
+    "desc": {
+      "id": "D0AB0991DC177B2B",
+      "text": ""
+    },
+    "id": "beginnerPool",
+    "image": "",
+    "jump": "",
+    "recommonendGroupId": "1",
+    "recommonendSortValue": 1,
+    "recommonendType": 1,
+    "refParam": "",
+    "title": {
+      "id": "180E5868CAB87F70",
+      "text": ""
+    }
+  }
+}

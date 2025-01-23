@@ -1,0 +1,285 @@
+{
+  "map01_lv001": {
+    "itemList": [
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "FEBEBA252AD51ABC",
+          "text": ""
+        },
+        "itemId": "item_collection_ether",
+        "maxCount": 31,
+        "sceneId": "map01_lv001"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 10,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_moon",
+        "infoLabel": {
+          "id": "2438EC517F18204D",
+          "text": ""
+        },
+        "itemId": "item_collection_instance",
+        "maxCount": 3,
+        "sceneId": "map01_lv001"
+      }
+    ]
+  },
+  "map01_lv002": {
+    "itemList": [
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "50BB24DB39A2B11F",
+          "text": ""
+        },
+        "itemId": "item_collection_ether",
+        "maxCount": 17,
+        "sceneId": "map01_lv002"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 10,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_moon",
+        "infoLabel": {
+          "id": "B7064072B0D0972C",
+          "text": ""
+        },
+        "itemId": "item_collection_instance",
+        "maxCount": 2,
+        "sceneId": "map01_lv002"
+      }
+    ]
+  },
+  "map01_lv003": {
+    "itemList": [
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "45BD38C7C1E57CE7",
+          "text": ""
+        },
+        "itemId": "int_collection_piece_in_door",
+        "maxCount": 1,
+        "sceneId": "map01_lv003"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "DA30E001B4D0CEE0",
+          "text": ""
+        },
+        "itemId": "int_collection_piece",
+        "maxCount": 1,
+        "sceneId": "map01_lv003"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 10,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "34FD0EE11ADAB919",
+          "text": ""
+        },
+        "itemId": "item_collection_ether",
+        "maxCount": 14,
+        "sceneId": "map01_lv003"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_moon",
+        "infoLabel": {
+          "id": "5CA646D6990C60E0",
+          "text": ""
+        },
+        "itemId": "item_collection_instance",
+        "maxCount": 3,
+        "sceneId": "map01_lv003"
+      }
+    ]
+  },
+  "map01_lv005": {
+    "itemList": [
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "9A9734E4F8FAED8F",
+          "text": ""
+        },
+        "itemId": "item_collection_ether",
+        "maxCount": 17,
+        "sceneId": "map01_lv005"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 10,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "12277A13D4F190DF",
+          "text": ""
+        },
+        "itemId": "int_collection_piece_in_door",
+        "maxCount": 1,
+        "sceneId": "map01_lv005"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "D37FD1801CF760AF",
+          "text": ""
+        },
+        "itemId": "int_collection_piece",
+        "maxCount": 1,
+        "sceneId": "map01_lv005"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_moon",
+        "infoLabel": {
+          "id": "349F82F07B6D2CDE",
+          "text": ""
+        },
+        "itemId": "item_collection_instance",
+        "maxCount": 7,
+        "sceneId": "map01_lv005"
+      }
+    ]
+  },
+  "map01_lv006": {
+    "itemList": [
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 10,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "5DB67B208EB2BC40",
+          "text": ""
+        },
+        "itemId": "int_collection_piece",
+        "maxCount": 2,
+        "sceneId": "map01_lv006"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "33786A329B3E28BD",
+          "text": ""
+        },
+        "itemId": "item_collection_ether",
+        "maxCount": 31,
+        "sceneId": "map01_lv006"
+      },
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_moon",
+        "infoLabel": {
+          "id": "77ABC395CA6E802A",
+          "text": ""
+        },
+        "itemId": "item_collection_instance",
+        "maxCount": 5,
+        "sceneId": "map01_lv006"
+      }
+    ]
+  },
+  "map01_lv007": {
+    "itemList": [
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "B4E3420F1A48FA5E",
+          "text": ""
+        },
+        "itemId": "item_collection_ether",
+        "maxCount": 31,
+        "sceneId": "map01_lv007"
+      }
+    ]
+  },
+  "map02_lv001": {
+    "itemList": [
+      {
+        "convertRequiredCount": -1,
+        "convertTargetItemId": "",
+        "extraBandwidthCapacity": 0,
+        "extraBuildingNumLimit": 0,
+        "hasConvertRule": false,
+        "imagePath": "item_coin",
+        "infoLabel": {
+          "id": "840D8CFA13DA7704",
+          "text": ""
+        },
+        "itemId": "item_collection_ether",
+        "maxCount": 31,
+        "sceneId": "map02_lv001"
+      }
+    ]
+  }
+}

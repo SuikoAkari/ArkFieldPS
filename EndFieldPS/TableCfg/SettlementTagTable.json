@@ -1,0 +1,194 @@
+{
+  "stm_tag_hongs_1_1": {
+    "desc": {
+      "id": "C5E2FEFE9BD7CFA0",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_expert_melee"
+    ],
+    "enhanceRate": 10,
+    "enhanceRewardRate": 0,
+    "settlementTagId": "stm_tag_hongs_1_1",
+    "settlementTagName": {
+      "id": "76DAC583D0794272",
+      "text": ""
+    }
+  },
+  "stm_tag_hongs_1_2": {
+    "desc": {
+      "id": "979234DCA90FE36D",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_power_hongshan"
+    ],
+    "enhanceRate": 0,
+    "enhanceRewardRate": 10,
+    "settlementTagId": "stm_tag_hongs_1_2",
+    "settlementTagName": {
+      "id": "98A6BAAB13D13114",
+      "text": ""
+    }
+  },
+  "stm_tag_hongs_1_3": {
+    "desc": {
+      "id": "25BB6F32180A13CB",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_hobby_exercise"
+    ],
+    "enhanceRate": 10,
+    "enhanceRewardRate": 10,
+    "settlementTagId": "stm_tag_hongs_1_3",
+    "settlementTagName": {
+      "id": "F27BC3987C8334D4",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_1_1": {
+    "desc": {
+      "id": "2EF04AFFD604A443",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_power_endfield"
+    ],
+    "enhanceRate": 10,
+    "enhanceRewardRate": 0,
+    "settlementTagId": "stm_tag_tundra_1_1",
+    "settlementTagName": {
+      "id": "CDDDDC4EE0DE3BAF",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_1_2": {
+    "desc": {
+      "id": "83C2538C8DBA6ED2",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_hobby_food"
+    ],
+    "enhanceRate": 0,
+    "enhanceRewardRate": 10,
+    "settlementTagId": "stm_tag_tundra_1_2",
+    "settlementTagName": {
+      "id": "683B243A1D0B34BA",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_1_3": {
+    "desc": {
+      "id": "75BED21012728EBF",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_expert_mgmt"
+    ],
+    "enhanceRate": 10,
+    "enhanceRewardRate": 10,
+    "settlementTagId": "stm_tag_tundra_1_3",
+    "settlementTagName": {
+      "id": "2B4F48C9C1ED6D07",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_2_1": {
+    "desc": {
+      "id": "0E9E58B9AAD1D1E2",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_expert_tactics"
+    ],
+    "enhanceRate": 10,
+    "enhanceRewardRate": 0,
+    "settlementTagId": "stm_tag_tundra_2_1",
+    "settlementTagName": {
+      "id": "EF201E84FBC9DCA2",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_2_2": {
+    "desc": {
+      "id": "156982E74C2F2B2D",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_hobby_food"
+    ],
+    "enhanceRate": 0,
+    "enhanceRewardRate": 10,
+    "settlementTagId": "stm_tag_tundra_2_2",
+    "settlementTagName": {
+      "id": "26EE5A54A80BA3A0",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_2_3": {
+    "desc": {
+      "id": "C3CF90EB94B915F8",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_power_rhodes"
+    ],
+    "enhanceRate": 10,
+    "enhanceRewardRate": 10,
+    "settlementTagId": "stm_tag_tundra_2_3",
+    "settlementTagName": {
+      "id": "589E84FD6793690F",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_3_1": {
+    "desc": {
+      "id": "8C00BF27E0A1B406",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_expert_knowledge"
+    ],
+    "enhanceRate": 10,
+    "enhanceRewardRate": 0,
+    "settlementTagId": "stm_tag_tundra_3_1",
+    "settlementTagName": {
+      "id": "7C0796137D83EB8E",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_3_2": {
+    "desc": {
+      "id": "CDC21C95681DD479",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_power_endfield"
+    ],
+    "enhanceRate": 0,
+    "enhanceRewardRate": 10,
+    "settlementTagId": "stm_tag_tundra_3_2",
+    "settlementTagName": {
+      "id": "85A4F897CFDCDB84",
+      "text": ""
+    }
+  },
+  "stm_tag_tundra_3_3": {
+    "desc": {
+      "id": "E1899DEBD6EA0478",
+      "text": ""
+    },
+    "enhanceCharTagId": [
+      "tag_hobby_knowledge"
+    ],
+    "enhanceRate": 10,
+    "enhanceRewardRate": 10,
+    "settlementTagId": "stm_tag_tundra_3_3",
+    "settlementTagName": {
+      "id": "39A5450D66551FC7",
+      "text": ""
+    }
+  }
+}

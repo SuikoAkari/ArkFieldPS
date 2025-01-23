@@ -1,0 +1,92 @@
+{
+  "reward_doodad_soil_bbflower_1": {
+    "itemBundles": [
+      {
+        "count": 10,
+        "id": "item_plant_bbflower_1"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_bbflower_1"
+  },
+  "reward_doodad_soil_grass_1": {
+    "itemBundles": [
+      {
+        "count": 10,
+        "id": "item_plant_grass_1"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_grass_1"
+  },
+  "reward_doodad_soil_grass_2": {
+    "itemBundles": [
+      {
+        "count": 10,
+        "id": "item_plant_grass_2"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_grass_2"
+  },
+  "reward_doodad_soil_moss_1": {
+    "itemBundles": [
+      {
+        "count": 10,
+        "id": "item_plant_moss_1"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_moss_1"
+  },
+  "reward_doodad_soil_moss_2": {
+    "itemBundles": [
+      {
+        "count": 10,
+        "id": "item_plant_moss_2"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_moss_2"
+  },
+  "reward_doodad_soil_moss_3": {
+    "itemBundles": [
+      {
+        "count": 10,
+        "id": "item_plant_moss_3"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_moss_3"
+  },
+  "reward_doodad_soil_sp_1": {
+    "itemBundles": [
+      {
+        "count": 3,
+        "id": "item_plant_sp_1"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_1"
+  },
+  "reward_doodad_soil_sp_2": {
+    "itemBundles": [
+      {
+        "count": 3,
+        "id": "item_plant_sp_2"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_2"
+  },
+  "reward_doodad_soil_sp_3": {
+    "itemBundles": [
+      {
+        "count": 3,
+        "id": "item_plant_sp_3"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_3"
+  },
+  "reward_doodad_soil_sp_4": {
+    "itemBundles": [
+      {
+        "count": 3,
+        "id": "item_plant_sp_4"
+      }
+    ],
+    "rewardId": "reward_doodad_soil_sp_4"
+  }
+}

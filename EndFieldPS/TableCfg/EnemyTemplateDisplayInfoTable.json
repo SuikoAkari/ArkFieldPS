@@ -1,0 +1,825 @@
+{
+  "eny_0007_mimicw": {
+    "abilityDescIds": [
+      "eny_0007_mimicw_ability_1"
+    ],
+    "description": {
+      "id": "4B205EEDEB6FB1B2",
+      "text": ""
+    },
+    "displayType": 3,
+    "distributionIds": [
+      "distribution_map01_common"
+    ],
+    "name": {
+      "id": "C9A9CC969A2B6DD9",
+      "text": ""
+    },
+    "nickname": {
+      "id": "F0E3FA726BB3E5F8",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0007_mimicw"
+  },
+  "eny_0018_lbtough": {
+    "abilityDescIds": [
+      "eny_0018_lbtough_ability_1",
+      "eny_0018_lbtough_ability_2"
+    ],
+    "description": {
+      "id": "42A2E842DB04478D",
+      "text": ""
+    },
+    "displayType": 1,
+    "distributionIds": [
+      "distribution_map01_lv001",
+      "distribution_map01_lv002",
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "E498B3FCCCA58BBD",
+      "text": ""
+    },
+    "nickname": {
+      "id": "6BFFA0558171998E",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0021_agmelee": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "174E4EC47520E6BF",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_common"
+    ],
+    "name": {
+      "id": "2521FC05146D2F1E",
+      "text": ""
+    },
+    "nickname": {
+      "id": "5B20A8EDA8767C73",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0023_aghornb": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "8A0D7EE74E62B7A3",
+      "text": ""
+    },
+    "displayType": 3,
+    "distributionIds": [
+      "distribution_map01_lv001",
+      "distribution_map01_lv003",
+      "distribution_map01_lv006"
+    ],
+    "name": {
+      "id": "49B54DCB06AE297F",
+      "text": ""
+    },
+    "nickname": {
+      "id": "BA7596F31FA125CC",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0025_agrange": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "FAE823A42425808D",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_common"
+    ],
+    "name": {
+      "id": "D0B53051C2441F56",
+      "text": ""
+    },
+    "nickname": {
+      "id": "CDAB9F482AB9675A",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0027_agscorp": {
+    "abilityDescIds": [
+      "eny_0027_agscorp_ability_1",
+      "eny_0027_agscorp_ability_2"
+    ],
+    "description": {
+      "id": "61FBCB9720B9E065",
+      "text": ""
+    },
+    "displayType": 3,
+    "distributionIds": [
+      "distribution_map01_lv001",
+      "distribution_map01_lv003",
+      "distribution_map01_lv006"
+    ],
+    "name": {
+      "id": "84E255B14D214A62",
+      "text": ""
+    },
+    "nickname": {
+      "id": "02D6E639886D3614",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0029_lbmob": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "6785E5D5069726D8",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_common",
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "36D5AFDBDA362B24",
+      "text": ""
+    },
+    "nickname": {
+      "id": "6ED581D295795578",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0033_lbhunt": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "D2742BEBF46EFC82",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_common",
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "BDD3F115775B01EB",
+      "text": ""
+    },
+    "nickname": {
+      "id": "F95823F4E7509950",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0039_agcanno": {
+    "abilityDescIds": [
+      "eny_0039_agcanno_ability_1"
+    ],
+    "description": {
+      "id": "3C561C9B9C94BE2F",
+      "text": ""
+    },
+    "displayType": 1,
+    "distributionIds": [
+      "distribution_dungeon_common"
+    ],
+    "name": {
+      "id": "0D3CA2A353B2B20C",
+      "text": ""
+    },
+    "nickname": {
+      "id": "72382DC9ACBA7963",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0039_agcanno"
+  },
+  "eny_0045_agtrinit": {
+    "abilityDescIds": [
+      "eny_0045_agtrinit_ability_1",
+      "eny_0045_agtrinit_ability_2",
+      "eny_0045_agtrinit_ability_3",
+      "eny_0045_agtrinit_ability_4"
+    ],
+    "description": {
+      "id": "08E6F8315947604D",
+      "text": ""
+    },
+    "displayType": 2,
+    "distributionIds": [
+      "distribution_map01_lv006"
+    ],
+    "name": {
+      "id": "439018C0BD92AABE",
+      "text": ""
+    },
+    "nickname": {
+      "id": "BFDC76642D1403CA",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0045_agtrinit"
+  },
+  "eny_0046_lbshamman": {
+    "abilityDescIds": [
+      "eny_0046_lbshamman_ability_1",
+      "eny_0046_lbshamman_ability_2"
+    ],
+    "description": {
+      "id": "C178B7875697F09D",
+      "text": ""
+    },
+    "displayType": 3,
+    "distributionIds": [
+      "distribution_map01_common"
+    ],
+    "name": {
+      "id": "AF911ABE45BEE3EC",
+      "text": ""
+    },
+    "nickname": {
+      "id": "921CA988957437BE",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0047_firebat": {
+    "abilityDescIds": [
+      "eny_0047_firebat_ability_1",
+      "eny_0047_firebat_ability_2"
+    ],
+    "description": {
+      "id": "CA58BFE701BA511E",
+      "text": ""
+    },
+    "displayType": 3,
+    "distributionIds": [
+      "distribution_map01_lv005",
+      "distribution_map01_lv006",
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "42453ABB37B2B4D8",
+      "text": ""
+    },
+    "nickname": {
+      "id": "3B2B12C3188E5AAE",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0047_firebat"
+  },
+  "eny_0048_hvybow": {
+    "abilityDescIds": [
+      "eny_0048_hvybow_ability_1",
+      "eny_0048_hvybow_ability_2"
+    ],
+    "description": {
+      "id": "2F2CD72FCD2D82B4",
+      "text": ""
+    },
+    "displayType": 1,
+    "distributionIds": [
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "01D0689D360A8E47",
+      "text": ""
+    },
+    "nickname": {
+      "id": "741F9008FD4B6DD0",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0049_rogue": {
+    "abilityDescIds": [
+      "eny_0049_rogue_ability_1",
+      "eny_0049_rogue_ability_2"
+    ],
+    "description": {
+      "id": "491FC912F50FE12F",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_lv005",
+      "distribution_map01_lv006",
+      "distribution_map01_lv007",
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "99D2E34EC14EC23C",
+      "text": ""
+    },
+    "nickname": {
+      "id": "D2904DBB94C63F33",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0049_rogue"
+  },
+  "eny_0050_hound": {
+    "abilityDescIds": [
+      "eny_0050_hound_ability_1"
+    ],
+    "description": {
+      "id": "DFFE7F066C13C395",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_common",
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "492DC2A908E27126",
+      "text": ""
+    },
+    "nickname": {
+      "id": "27A128179FC5EFDE",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0051_rodin": {
+    "abilityDescIds": [
+      "eny_0051_rodin_ability_1",
+      "eny_0051_rodin_ability_2"
+    ],
+    "description": {
+      "id": "D048BA8FDCAB9FD9",
+      "text": ""
+    },
+    "displayType": 2,
+    "distributionIds": [
+      "distribution_map01_lv002"
+    ],
+    "name": {
+      "id": "795225D47D77A136",
+      "text": ""
+    },
+    "nickname": {
+      "id": "88C6EE7AB856B3EA",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0051_rodin"
+  },
+  "eny_0052_palesent": {
+    "abilityDescIds": [
+      "eny_0052_palesent_ability_1"
+    ],
+    "description": {
+      "id": "A830CA39A851C15E",
+      "text": ""
+    },
+    "displayType": 2,
+    "distributionIds": [
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "FC48AF236940D332",
+      "text": ""
+    },
+    "nickname": {
+      "id": "4C60B9EF8D45D9EA",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0052_palesent"
+  },
+  "eny_0053_hsmob": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "32D8975F8F3AE4F4",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "7F50D5E44BFDE51A",
+      "text": ""
+    },
+    "nickname": {
+      "id": "526B0803CE320819",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0053_hsmob"
+  },
+  "eny_0054_hsmino": {
+    "abilityDescIds": [
+      "eny_0054_hsmino_ability_1",
+      "eny_0054_hsmino_ability_2"
+    ],
+    "description": {
+      "id": "A2DA06BBB387B185",
+      "text": ""
+    },
+    "displayType": 1,
+    "distributionIds": [
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "467387CCEB4B62CB",
+      "text": ""
+    },
+    "nickname": {
+      "id": "6684F645A44AE00E",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0054_hsmino"
+  },
+  "eny_0055_hscrane": {
+    "abilityDescIds": [
+      "eny_0055_hscrane_ability_1",
+      "eny_0055_hscrane_ability_2",
+      "eny_0055_hscrane_ability_3"
+    ],
+    "description": {
+      "id": "3E04B9FAC9BD8661",
+      "text": ""
+    },
+    "displayType": 3,
+    "distributionIds": [
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "8E7DCA879FCA4CAC",
+      "text": ""
+    },
+    "nickname": {
+      "id": "C648FFA1FCC5799D",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0055_hscrane"
+  },
+  "eny_0057_dog": {
+    "abilityDescIds": [
+      "eny_0057_dog_ability_1"
+    ],
+    "description": {
+      "id": "33CA431167C0EE76",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map02_lv001"
+    ],
+    "name": {
+      "id": "D9F624FD1C8737C5",
+      "text": ""
+    },
+    "nickname": {
+      "id": "6C1B8DD1A69BDE90",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0057_dog"
+  },
+  "eny_0058_agdisk": {
+    "abilityDescIds": [
+      "eny_0058_agdisk_ability_1",
+      "eny_0058_agdisk_ability_2",
+      "eny_0058_agdisk_ability_3"
+    ],
+    "description": {
+      "id": "0DA69952D469A618",
+      "text": ""
+    },
+    "displayType": 1,
+    "distributionIds": [
+      "distribution_map01_lv003",
+      "distribution_map01_lv006",
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "951A21B8D5E00353",
+      "text": ""
+    },
+    "nickname": {
+      "id": "EE1351C26AA8B275",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0058_agdisk"
+  },
+  "eny_0059_erhound": {
+    "abilityDescIds": [
+      "eny_0059_erhound_ability_1"
+    ],
+    "description": {
+      "id": "77BC4E18BFFB7581",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_lv003"
+    ],
+    "name": {
+      "id": "85D6865C523A481B",
+      "text": ""
+    },
+    "nickname": {
+      "id": "926C78EC3E285123",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0059_erhound"
+  },
+  "eny_0060_lbmad": {
+    "abilityDescIds": [
+      "eny_0060_lbmad_ability_1"
+    ],
+    "description": {
+      "id": "5126A4A35B477DF6",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_lv003"
+    ],
+    "name": {
+      "id": "62D89C997777EF54",
+      "text": ""
+    },
+    "nickname": {
+      "id": "8BF62AB640D11A3D",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0060_lbmad"
+  },
+  "eny_0061_palecore": {
+    "abilityDescIds": [
+      "eny_0061_palecore_ability_1"
+    ],
+    "description": {
+      "id": "CD02C8C716185A40",
+      "text": ""
+    },
+    "displayType": 2,
+    "distributionIds": [
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "A370F8C3919ADD71",
+      "text": ""
+    },
+    "nickname": {
+      "id": "ACAF182999567A7C",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0061_palecore"
+  },
+  "eny_0062_paletent": {
+    "abilityDescIds": [
+      "eny_0062_paletent_ability_1",
+      "eny_0062_paletent_ability_2"
+    ],
+    "description": {
+      "id": "7E2B1CAB791DC6E3",
+      "text": ""
+    },
+    "displayType": 2,
+    "distributionIds": [
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "A251D8C04B13BD49",
+      "text": ""
+    },
+    "nickname": {
+      "id": "431E6B572EAE61AB",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0062_paletent"
+  },
+  "eny_0063_agmelee2": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "0B9A2EE35477F7CD",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "492C3B84AF590A13",
+      "text": ""
+    },
+    "nickname": {
+      "id": "0BEB21296C749A87",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0063_agmelee2"
+  },
+  "eny_0064_agrange2": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "F7B8AF7F1DE910A4",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_lv001",
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "0191990AC46F274A",
+      "text": ""
+    },
+    "nickname": {
+      "id": "D2DD029E05691522",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0064_agrange2"
+  },
+  "eny_0065_lbmob2": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "4BEDD267FE69E479",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_dungeon_common"
+    ],
+    "name": {
+      "id": "DC5F43C7BBFB0AA2",
+      "text": ""
+    },
+    "nickname": {
+      "id": "ADAE46B0E0E13EA9",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0065_lbmob2"
+  },
+  "eny_0066_lbhunt2": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "FDF8A38C6ABB504F",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_dungeon_common"
+    ],
+    "name": {
+      "id": "80625D166853EBBF",
+      "text": ""
+    },
+    "nickname": {
+      "id": "F880B671B1392BA7",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0066_lbhunt2"
+  },
+  "eny_0067_hound2": {
+    "abilityDescIds": [
+      "eny_0067_hound2_ability_1"
+    ],
+    "description": {
+      "id": "C3F622624E6108A0",
+      "text": ""
+    },
+    "displayType": 0,
+    "distributionIds": [
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "10187E46D6275DD4",
+      "text": ""
+    },
+    "nickname": {
+      "id": "E4FBE2FA9ADB4957",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0067_hound2"
+  },
+  "eny_0068_lbtough2": {
+    "abilityDescIds": [
+      "eny_0068_lbtough2_ability_1",
+      "eny_0068_lbtough2_ability_2"
+    ],
+    "description": {
+      "id": "3D773B7E45716171",
+      "text": ""
+    },
+    "displayType": 1,
+    "distributionIds": [
+      "distribution_map01_lv001",
+      "distribution_map01_lv002",
+      "distribution_map01_lv005",
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "33B0AFD7B24161C1",
+      "text": ""
+    },
+    "nickname": {
+      "id": "378A6E786AB30B9D",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0068_lbtough2"
+  },
+  "eny_0069_aghornb2": {
+    "abilityDescIds": [
+      "common_ability"
+    ],
+    "description": {
+      "id": "9B7EE56088ED391C",
+      "text": ""
+    },
+    "displayType": 3,
+    "distributionIds": [
+      "distribution_map01_lv001",
+      "distribution_map01_lv006",
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "6141E30ACD84095D",
+      "text": ""
+    },
+    "nickname": {
+      "id": "C1B90FA0AB347DCB",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0069_aghornb2"
+  },
+  "eny_0070_agscorp2": {
+    "abilityDescIds": [
+      "eny_0070_agscorp2_ability_1",
+      "eny_0070_agscorp2_ability_2"
+    ],
+    "description": {
+      "id": "EAD0A56017889238",
+      "text": ""
+    },
+    "displayType": 3,
+    "distributionIds": [
+      "distribution_map01_lv001",
+      "distribution_map01_lv007"
+    ],
+    "name": {
+      "id": "FACD94E9A065A05C",
+      "text": ""
+    },
+    "nickname": {
+      "id": "6B867FE8A7DC0F16",
+      "text": ""
+    },
+    "tags": [],
+    "templateId": "eny_0070_agscorp2"
+  }
+}

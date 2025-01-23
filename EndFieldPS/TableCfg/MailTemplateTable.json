@@ -1,0 +1,47 @@
+{
+  "cbt1_questionnaire_2": {
+    "duration": 86400,
+    "mailContent": {
+      "id": "C4EA72A989B142EB",
+      "text": ""
+    },
+    "rewardId": "reward_dung_race_bp_1",
+    "senderId": "survey",
+    "templateId": "cbt1_questionnaire_2",
+    "title": {
+      "id": "D894005DAD09BA6F",
+      "text": ""
+    },
+    "type": 0
+  },
+  "cbt2_questionnaire_reward": {
+    "duration": -1,
+    "mailContent": {
+      "id": "5F81C8E5ED1BB7A3",
+      "text": ""
+    },
+    "rewardId": "",
+    "senderId": "system",
+    "templateId": "cbt2_questionnaire_reward",
+    "title": {
+      "id": "A5003C02FBAF387D",
+      "text": ""
+    },
+    "type": 0
+  },
+  "cbt2_test": {
+    "duration": 68400,
+    "mailContent": {
+      "id": "DACA52EC790451D6",
+      "text": ""
+    },
+    "rewardId": "reward_dung_race_bp_1",
+    "senderId": "survey",
+    "templateId": "cbt2_test",
+    "title": {
+      "id": "E906B33A9DB688C4",
+      "text": ""
+    },
+    "type": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "account_goto_account_center": "gameSetting_account",
+  "account_goto_customer_service_center": "gameSetting_account",
+  "audio_global": "gameSetting_audio",
+  "audio_music": "gameSetting_audio",
+  "audio_sfx": "gameSetting_audio",
+  "audio_suite_mode": "gameSetting_audio",
+  "audio_suspend_unfocused": "gameSetting_audio",
+  "audio_voice": "gameSetting_audio",
+  "controller_camera_reverse_x": "gameSetting_controller",
+  "controller_camera_reverse_y": "gameSetting_controller",
+  "controller_camera_speed_x": "gameSetting_controller",
+  "controller_camera_speed_y": "gameSetting_controller",
+  "controller_camera_top_view_speed": "gameSetting_controller",
+  "language_audio": "gameSetting_language",
+  "language_text": "gameSetting_language",
+  "video_frame_rate": "gameSetting_video",
+  "video_quality_effect": "gameSetting_video",
+  "video_quality_main": "gameSetting_video",
+  "video_quality_vsync": "gameSetting_video",
+  "video_render_scale": "gameSetting_video",
+  "video_resolution": "gameSetting_video"
+}

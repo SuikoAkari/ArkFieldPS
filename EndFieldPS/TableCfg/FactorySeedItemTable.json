@@ -1,0 +1,93 @@
+{
+  "item_plant_bbflower_seed_1": {
+    "doodadId": "picks_plant_bbflower_seed_1",
+    "growTotalProgress": 300,
+    "growingModelKey": "int_doodad_flower_scion_postmodel",
+    "id": "item_plant_bbflower_seed_1",
+    "modelKey": "int_doodad_bbflower_1_postmodel"
+  },
+  "item_plant_moss_seed_1": {
+    "doodadId": "picks_plant_moss_seed_1",
+    "growTotalProgress": 300,
+    "growingModelKey": "int_doodad_flower_scion_postmodel",
+    "id": "item_plant_moss_seed_1",
+    "modelKey": "int_doodad_flower_1_postmodel"
+  },
+  "item_plant_moss_seed_2": {
+    "doodadId": "picks_plant_moss_seed_2",
+    "growTotalProgress": 300,
+    "growingModelKey": "int_doodad_flower_scion_postmodel",
+    "id": "item_plant_moss_seed_2",
+    "modelKey": "int_doodad_flower_2_postmodel"
+  },
+  "item_plant_moss_seed_3": {
+    "doodadId": "picks_plant_moss_seed_3",
+    "growTotalProgress": 300,
+    "growingModelKey": "int_doodad_flower_scion_postmodel",
+    "id": "item_plant_moss_seed_3",
+    "modelKey": "int_doodad_flower_3_postmodel"
+  },
+  "item_plant_mushroom_seed_1": {
+    "doodadId": "picks_plant_mushroom_seed_1",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_mushroom_scion_postmodel",
+    "id": "item_plant_mushroom_seed_1",
+    "modelKey": "int_doodad_mushroom_1_postmodel"
+  },
+  "item_plant_mushroom_seed_2": {
+    "doodadId": "picks_plant_mushroom_seed_2",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_mushroom_scion_postmodel",
+    "id": "item_plant_mushroom_seed_2",
+    "modelKey": "int_doodad_mushroom_2_postmodel"
+  },
+  "item_plant_mushroom_seed_3": {
+    "doodadId": "picks_plant_mushroom_seed_3",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_mushroom_scion_postmodel",
+    "id": "item_plant_mushroom_seed_3",
+    "modelKey": "int_doodad_mushroom_3_postmodel"
+  },
+  "item_plant_mushroom_seed_4": {
+    "doodadId": "picks_plant_mushroom_seed_4",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_mushroom_scion_postmodel",
+    "id": "item_plant_mushroom_seed_4",
+    "modelKey": "int_doodad_mushroom_4_postmodel"
+  },
+  "item_plant_mushroom_seed_5": {
+    "doodadId": "picks_plant_mushroom_seed_5",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_mushroom_scion_postmodel",
+    "id": "item_plant_mushroom_seed_5",
+    "modelKey": "int_doodad_mushroom_5_postmodel"
+  },
+  "item_plant_mushroom_seed_6": {
+    "doodadId": "picks_plant_mushroom_seed_6",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_mushroom_scion_postmodel",
+    "id": "item_plant_mushroom_seed_6",
+    "modelKey": "int_doodad_mushroom_6_postmodel"
+  },
+  "item_plant_orgplant_seed_1": {
+    "doodadId": "picks_plant_orgplant_seed_1",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_orgplant_scion_postmodel",
+    "id": "item_plant_orgplant_seed_1",
+    "modelKey": "int_doodad_orgplant_1_postmodel"
+  },
+  "item_plant_orgplant_seed_2": {
+    "doodadId": "picks_plant_orgplant_seed_2",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_orgplant_scion_postmodel",
+    "id": "item_plant_orgplant_seed_2",
+    "modelKey": "int_doodad_orgplant_2_postmodel"
+  },
+  "item_plant_orgplant_seed_3": {
+    "doodadId": "picks_plant_orgplant_seed_3",
+    "growTotalProgress": 86400,
+    "growingModelKey": "int_doodad_orgplant_scion_postmodel",
+    "id": "item_plant_orgplant_seed_3",
+    "modelKey": "int_doodad_orgplant_3_postmodel"
+  }
+}

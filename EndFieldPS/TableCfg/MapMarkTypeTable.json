@@ -1,0 +1,222 @@
+{
+  "0": {
+    "category": 0,
+    "icon": "icon_map_storager_box_small",
+    "markInfoType": 0,
+    "name": {
+      "id": "E6E79BF07CDEA6E3",
+      "text": ""
+    },
+    "sortId": 4
+  },
+  "2": {
+    "category": 0,
+    "icon": "icon_map_travel_pole_small",
+    "markInfoType": 2,
+    "name": {
+      "id": "7BE0B85410FDAADA",
+      "text": ""
+    },
+    "sortId": 2
+  },
+  "3": {
+    "category": 0,
+    "icon": "icon_map_terminal_small",
+    "markInfoType": 3,
+    "name": {
+      "id": "8ECA843084FD9DD8",
+      "text": ""
+    },
+    "sortId": 1
+  },
+  "6": {
+    "category": 1,
+    "icon": "icon_map_mission_main_small",
+    "markInfoType": 6,
+    "name": {
+      "id": "823B29AFDD1BE41C",
+      "text": ""
+    },
+    "sortId": 1
+  },
+  "7": {
+    "category": 1,
+    "icon": "icon_map_mission_character_small",
+    "markInfoType": 7,
+    "name": {
+      "id": "5FE900EEF62D2703",
+      "text": ""
+    },
+    "sortId": 2
+  },
+  "8": {
+    "category": 1,
+    "icon": "icon_map_mission_factory_small",
+    "markInfoType": 8,
+    "name": {
+      "id": "635CC1369FE97DD8",
+      "text": ""
+    },
+    "sortId": 3
+  },
+  "9": {
+    "category": 1,
+    "icon": "icon_map_mission_daily_small",
+    "markInfoType": 9,
+    "name": {
+      "id": "D02B900FBA8B0195",
+      "text": ""
+    },
+    "sortId": 5
+  },
+  "12": {
+    "category": 2,
+    "icon": "icon_map_dungeon_small",
+    "markInfoType": 12,
+    "name": {
+      "id": "3801150470CA6F1C",
+      "text": ""
+    },
+    "sortId": 4
+  },
+  "15": {
+    "category": 2,
+    "icon": "icon_map_enemyspawner_small",
+    "markInfoType": 15,
+    "name": {
+      "id": "2AE68E9270E56C51",
+      "text": ""
+    },
+    "sortId": 5
+  },
+  "16": {
+    "category": 2,
+    "icon": "icon_map_boss_small",
+    "markInfoType": 16,
+    "name": {
+      "id": "A4FA257EB1780EE7",
+      "text": ""
+    },
+    "sortId": 6
+  },
+  "17": {
+    "category": 2,
+    "icon": "icon_map_mine_small",
+    "markInfoType": 17,
+    "name": {
+      "id": "FFD74A874A04926D",
+      "text": ""
+    },
+    "sortId": 7
+  },
+  "18": {
+    "category": 2,
+    "icon": "icon_map_special_plant_small",
+    "markInfoType": 18,
+    "name": {
+      "id": "C1A2B07E495AD962",
+      "text": ""
+    },
+    "sortId": 8
+  },
+  "19": {
+    "category": 2,
+    "icon": "icon_map_special_mine_small",
+    "markInfoType": 19,
+    "name": {
+      "id": "CFA956E3DC541E69",
+      "text": ""
+    },
+    "sortId": 9
+  },
+  "20": {
+    "category": 2,
+    "icon": "icon_map_recycle_small",
+    "markInfoType": 20,
+    "name": {
+      "id": "0A3BA726A4AE8BD0",
+      "text": ""
+    },
+    "sortId": 10
+  },
+  "21": {
+    "category": 2,
+    "icon": "icon_map_blackbox_small",
+    "markInfoType": 21,
+    "name": {
+      "id": "3295F92144A26F05",
+      "text": ""
+    },
+    "sortId": 11
+  },
+  "22": {
+    "category": 2,
+    "icon": "icon_map_fixablerobot_small",
+    "markInfoType": 22,
+    "name": {
+      "id": "E3E00AA137C880D7",
+      "text": ""
+    },
+    "sortId": 12
+  },
+  "23": {
+    "category": 2,
+    "icon": "icon_map_pazzle_small",
+    "markInfoType": 23,
+    "name": {
+      "id": "27AD3E93B42DB7D6",
+      "text": ""
+    },
+    "sortId": 13
+  },
+  "24": {
+    "category": 2,
+    "icon": "icon_map_racing_NPC_small",
+    "markInfoType": 24,
+    "name": {
+      "id": "E76CB0CE1E5E14B5",
+      "text": ""
+    },
+    "sortId": 14
+  },
+  "25": {
+    "category": 0,
+    "icon": "icon_map_combat_architecture_small",
+    "markInfoType": 25,
+    "name": {
+      "id": "413ADFAD3238361F",
+      "text": ""
+    },
+    "sortId": 3
+  },
+  "26": {
+    "category": 0,
+    "icon": "icon_map_general_architecture_small",
+    "markInfoType": 26,
+    "name": {
+      "id": "39AA01AD02BF3B83",
+      "text": ""
+    },
+    "sortId": 5
+  },
+  "27": {
+    "category": 0,
+    "icon": "icon_map_water_supply_small",
+    "markInfoType": 27,
+    "name": {
+      "id": "83FF2116ECCC54DE",
+      "text": ""
+    },
+    "sortId": 6
+  },
+  "28": {
+    "category": 1,
+    "icon": "icon_map_mission_world_small",
+    "markInfoType": 28,
+    "name": {
+      "id": "03146B47E5EBADD4",
+      "text": ""
+    },
+    "sortId": 4
+  }
+}

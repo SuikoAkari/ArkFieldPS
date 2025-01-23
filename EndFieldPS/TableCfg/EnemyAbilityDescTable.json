@@ -1,0 +1,541 @@
+{
+  "common_ability": {
+    "abilityId": "common_ability",
+    "description": {
+      "id": "49579B4679D153E9",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0007_mimicw_ability_1": {
+    "abilityId": "eny_0007_mimicw_ability_1",
+    "description": {
+      "id": "8D6B958DE37F178A",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0018_lbtough_ability_1": {
+    "abilityId": "eny_0018_lbtough_ability_1",
+    "description": {
+      "id": "C5FD66EB93BD4A2D",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0018_lbtough_ability_2": {
+    "abilityId": "eny_0018_lbtough_ability_2",
+    "description": {
+      "id": "F0FE40F6B5933834",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0018_lbtough_settlement_ability_1": {
+    "abilityId": "eny_0018_lbtough_settlement_ability_1",
+    "description": {
+      "id": "669A6B2DE73468AF",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0025_agrange_settlement_ability_1": {
+    "abilityId": "eny_0025_agrange_settlement_ability_1",
+    "description": {
+      "id": "90A7FC570CC5D2AF",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0027_agscorp_ability_1": {
+    "abilityId": "eny_0027_agscorp_ability_1",
+    "description": {
+      "id": "A12FC82D515BEE3C",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0027_agscorp_ability_2": {
+    "abilityId": "eny_0027_agscorp_ability_2",
+    "description": {
+      "id": "43BED11CD043E133",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0027_agscorp_settlement_ability_1": {
+    "abilityId": "eny_0027_agscorp_settlement_ability_1",
+    "description": {
+      "id": "ABA1505D6B8DBD17",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0033_lbhunt_settlement_ability_1": {
+    "abilityId": "eny_0033_lbhunt_settlement_ability_1",
+    "description": {
+      "id": "3369EA790296E8E4",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0039_agcanno_ability_1": {
+    "abilityId": "eny_0039_agcanno_ability_1",
+    "description": {
+      "id": "CD9F051BAC6336ED",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0045_agtrinit_ability_1": {
+    "abilityId": "eny_0045_agtrinit_ability_1",
+    "description": {
+      "id": "6B65CB9637CE18CC",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0045_agtrinit_ability_2": {
+    "abilityId": "eny_0045_agtrinit_ability_2",
+    "description": {
+      "id": "FB1EB53CA50C7243",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0045_agtrinit_ability_3": {
+    "abilityId": "eny_0045_agtrinit_ability_3",
+    "description": {
+      "id": "9908B56C45A2D201",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0045_agtrinit_ability_4": {
+    "abilityId": "eny_0045_agtrinit_ability_4",
+    "description": {
+      "id": "B37501CCF621C0B3",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0046_lbshamman_ability_1": {
+    "abilityId": "eny_0046_lbshamman_ability_1",
+    "description": {
+      "id": "5F50702D82EE7836",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0046_lbshamman_ability_2": {
+    "abilityId": "eny_0046_lbshamman_ability_2",
+    "description": {
+      "id": "B78CA64E96DB20FE",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0046_lbshamman_settlement_ability_1": {
+    "abilityId": "eny_0046_lbshamman_settlement_ability_1",
+    "description": {
+      "id": "CD5773C12C64D1A1",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0047_firebat_ability_1": {
+    "abilityId": "eny_0047_firebat_ability_1",
+    "description": {
+      "id": "A62D9AD71099F2CB",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0047_firebat_ability_2": {
+    "abilityId": "eny_0047_firebat_ability_2",
+    "description": {
+      "id": "DCD24C16EEB3B754",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0048_hvybow_ability_1": {
+    "abilityId": "eny_0048_hvybow_ability_1",
+    "description": {
+      "id": "17D1DF7925C3AE48",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0048_hvybow_ability_2": {
+    "abilityId": "eny_0048_hvybow_ability_2",
+    "description": {
+      "id": "AF2D4FF86CC258EB",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0049_rogue_ability_1": {
+    "abilityId": "eny_0049_rogue_ability_1",
+    "description": {
+      "id": "DEB15D52FBFD221B",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0049_rogue_ability_2": {
+    "abilityId": "eny_0049_rogue_ability_2",
+    "description": {
+      "id": "6628DB93BB548787",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0049_rogue_settlement_ability_1": {
+    "abilityId": "eny_0049_rogue_settlement_ability_1",
+    "description": {
+      "id": "FB8253AA5B9204D4",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0050_hound_ability_1": {
+    "abilityId": "eny_0050_hound_ability_1",
+    "description": {
+      "id": "19391C6370F5E398",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0050_hound_settlement_ability_1": {
+    "abilityId": "eny_0050_hound_settlement_ability_1",
+    "description": {
+      "id": "67108668FA50FB7F",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0051_rodin_ability_1": {
+    "abilityId": "eny_0051_rodin_ability_1",
+    "description": {
+      "id": "2629F1328E1538E1",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0051_rodin_ability_2": {
+    "abilityId": "eny_0051_rodin_ability_2",
+    "description": {
+      "id": "58AD75DE28502963",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0052_palesent_ability_1": {
+    "abilityId": "eny_0052_palesent_ability_1",
+    "description": {
+      "id": "6657C763027BE387",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0054_hsmino_ability_1": {
+    "abilityId": "eny_0054_hsmino_ability_1",
+    "description": {
+      "id": "A76E8CE6BA28647D",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0054_hsmino_ability_2": {
+    "abilityId": "eny_0054_hsmino_ability_2",
+    "description": {
+      "id": "B0EE3D54EAC4A3F1",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0055_hscrane_ability_1": {
+    "abilityId": "eny_0055_hscrane_ability_1",
+    "description": {
+      "id": "5747B95E4E49907D",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0055_hscrane_ability_2": {
+    "abilityId": "eny_0055_hscrane_ability_2",
+    "description": {
+      "id": "71D9ED4C12AF03F3",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0055_hscrane_ability_3": {
+    "abilityId": "eny_0055_hscrane_ability_3",
+    "description": {
+      "id": "215F1ED4E48ABF15",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0057_dog_ability_1": {
+    "abilityId": "eny_0057_dog_ability_1",
+    "description": {
+      "id": "B134110E1D00073F",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0058_agdisk_ability_1": {
+    "abilityId": "eny_0058_agdisk_ability_1",
+    "description": {
+      "id": "23FCA3E607AC347D",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0058_agdisk_ability_2": {
+    "abilityId": "eny_0058_agdisk_ability_2",
+    "description": {
+      "id": "2D512392FC28F4FD",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0058_agdisk_ability_3": {
+    "abilityId": "eny_0058_agdisk_ability_3",
+    "description": {
+      "id": "BC4B55D5AE1C0EA1",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0059_erhound_ability_1": {
+    "abilityId": "eny_0059_erhound_ability_1",
+    "description": {
+      "id": "74DD143280689E5A",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0060_lbmad_ability_1": {
+    "abilityId": "eny_0060_lbmad_ability_1",
+    "description": {
+      "id": "BD9A9B7C34C0F66A",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0061_palecore_ability_1": {
+    "abilityId": "eny_0061_palecore_ability_1",
+    "description": {
+      "id": "3980A81904C6374A",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0062_paletent_ability_1": {
+    "abilityId": "eny_0062_paletent_ability_1",
+    "description": {
+      "id": "F66CE8230074A8CD",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0062_paletent_ability_2": {
+    "abilityId": "eny_0062_paletent_ability_2",
+    "description": {
+      "id": "1F3CB42D5D899B77",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0067_hound2_ability_1": {
+    "abilityId": "eny_0067_hound2_ability_1",
+    "description": {
+      "id": "FEADDBA3A92AF9AD",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0068_lbtough2_ability_1": {
+    "abilityId": "eny_0068_lbtough2_ability_1",
+    "description": {
+      "id": "CC69321C1F63B2FB",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0068_lbtough2_ability_2": {
+    "abilityId": "eny_0068_lbtough2_ability_2",
+    "description": {
+      "id": "ED10DABEF5B367F8",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0070_agscorp2_ability_1": {
+    "abilityId": "eny_0070_agscorp2_ability_1",
+    "description": {
+      "id": "EADAAF66F484744B",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "eny_0070_agscorp2_ability_2": {
+    "abilityId": "eny_0070_agscorp2_ability_2",
+    "description": {
+      "id": "868A2806105E2A12",
+      "text": ""
+    },
+    "name": {
+      "id": "",
+      "text": ""
+    }
+  }
+}

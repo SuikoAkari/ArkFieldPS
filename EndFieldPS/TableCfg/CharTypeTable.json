@@ -1,0 +1,52 @@
+{
+  "Cryst": {
+    "charTypeId": "Cryst",
+    "color": "21C6D0",
+    "damageType": 4,
+    "icon": "icon_charattrtype_cold",
+    "name": {
+      "id": "1C1BE561C2919CA7",
+      "text": ""
+    }
+  },
+  "Fire": {
+    "charTypeId": "Fire",
+    "color": "FF623D",
+    "damageType": 2,
+    "icon": "icon_charattrtype_fire",
+    "name": {
+      "id": "902769A3B0165493",
+      "text": ""
+    }
+  },
+  "Natural": {
+    "charTypeId": "Natural",
+    "color": "9EDC23",
+    "damageType": 6,
+    "icon": "icon_charattrtype_nature",
+    "name": {
+      "id": "4CC43C830C686BF9",
+      "text": ""
+    }
+  },
+  "Physical": {
+    "charTypeId": "Physical",
+    "color": "888888",
+    "damageType": 0,
+    "icon": "icon_charattrtype_physical",
+    "name": {
+      "id": "F3473CA2808843EA",
+      "text": ""
+    }
+  },
+  "Pulse": {
+    "charTypeId": "Pulse",
+    "color": "FFC000",
+    "damageType": 3,
+    "icon": "icon_charattrtype_pulse",
+    "name": {
+      "id": "16A4FBA4B691E1E1",
+      "text": ""
+    }
+  }
+}

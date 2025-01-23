@@ -1,0 +1,34 @@
+{
+  "0": {
+    "icon": "icon_type_exp",
+    "name": {
+      "id": "6A5E2F11A37818ED",
+      "text": ""
+    },
+    "type": 0
+  },
+  "1": {
+    "icon": "icon_type_equip",
+    "name": {
+      "id": "7938992B67F9404B",
+      "text": ""
+    },
+    "type": 1
+  },
+  "2": {
+    "icon": "icon_type_gem",
+    "name": {
+      "id": "6580D12FC7E66301",
+      "text": ""
+    },
+    "type": 2
+  },
+  "3": {
+    "icon": "icon_type_gemrect",
+    "name": {
+      "id": "EC9C74D2CE4DEC1B",
+      "text": ""
+    },
+    "type": 3
+  }
+}

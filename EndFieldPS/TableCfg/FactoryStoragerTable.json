@@ -1,0 +1,12 @@
+{
+  "storager_1": {
+    "capacity": 6,
+    "id": "storager_1",
+    "msTransferCD": 10000
+  },
+  "storager_nop_1": {
+    "capacity": 6,
+    "id": "storager_nop_1",
+    "msTransferCD": 10000
+  }
+}

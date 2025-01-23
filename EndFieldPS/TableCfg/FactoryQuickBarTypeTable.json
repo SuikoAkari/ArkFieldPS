@@ -1,0 +1,74 @@
+{
+  "assemble_machine": {
+    "icon": "Factory/WorkshopCraftTypeIcon/icon_assemble_new_machine",
+    "id": "assemble_machine",
+    "name": {
+      "id": "10987F38830E88DA",
+      "text": ""
+    },
+    "priority": 96
+  },
+  "basic_machine": {
+    "icon": "Factory/WorkshopCraftTypeIcon/icon_basic_new_machine",
+    "id": "basic_machine",
+    "name": {
+      "id": "D8E8BD604B65B2D3",
+      "text": ""
+    },
+    "priority": 97
+  },
+  "battle_machine": {
+    "icon": "Factory/WorkshopCraftTypeIcon/icon_battle_machine",
+    "id": "battle_machine",
+    "name": {
+      "id": "1F82138D7B8BABB5",
+      "text": ""
+    },
+    "priority": 93
+  },
+  "custom": {
+    "icon": "Factory/WorkshopCraftTypeIcon/icon_custom",
+    "id": "custom",
+    "name": {
+      "id": "DEEDD206497C0455",
+      "text": ""
+    },
+    "priority": 100
+  },
+  "electric_machine": {
+    "icon": "Factory/WorkshopCraftTypeIcon/icon_electric_machine",
+    "id": "electric_machine",
+    "name": {
+      "id": "B6DB9DD8E9CB4533",
+      "text": ""
+    },
+    "priority": 95
+  },
+  "extra_machine": {
+    "icon": "Factory/WorkshopCraftTypeIcon/icon_function_machine",
+    "id": "extra_machine",
+    "name": {
+      "id": "EDA4D2618F55AB1D",
+      "text": ""
+    },
+    "priority": 94
+  },
+  "logistic": {
+    "icon": "Factory/WorkshopCraftTypeIcon/icon_logistic",
+    "id": "logistic",
+    "name": {
+      "id": "9E155A3606C349DF",
+      "text": ""
+    },
+    "priority": 99
+  },
+  "source_machine": {
+    "icon": "Factory/WorkshopCraftTypeIcon/icon_source_new_machine",
+    "id": "source_machine",
+    "name": {
+      "id": "2102997C2055B755",
+      "text": ""
+    },
+    "priority": 98
+  }
+}

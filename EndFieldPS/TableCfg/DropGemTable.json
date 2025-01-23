@@ -1,0 +1,1646 @@
+{
+  "1_1": {
+    "dropGemTypeId": "1_1"
+  },
+  "1_2": {
+    "dropGemTypeId": "1_2"
+  },
+  "1_3": {
+    "dropGemTypeId": "1_3"
+  },
+  "box_rarity_5_1": {
+    "dropGemTypeId": "box_rarity_5_1"
+  },
+  "box_rarity_5_10": {
+    "dropGemTypeId": "box_rarity_5_10"
+  },
+  "box_rarity_5_11": {
+    "dropGemTypeId": "box_rarity_5_11"
+  },
+  "box_rarity_5_12": {
+    "dropGemTypeId": "box_rarity_5_12"
+  },
+  "box_rarity_5_13": {
+    "dropGemTypeId": "box_rarity_5_13"
+  },
+  "box_rarity_5_14": {
+    "dropGemTypeId": "box_rarity_5_14"
+  },
+  "box_rarity_5_15": {
+    "dropGemTypeId": "box_rarity_5_15"
+  },
+  "box_rarity_5_16": {
+    "dropGemTypeId": "box_rarity_5_16"
+  },
+  "box_rarity_5_17": {
+    "dropGemTypeId": "box_rarity_5_17"
+  },
+  "box_rarity_5_18": {
+    "dropGemTypeId": "box_rarity_5_18"
+  },
+  "box_rarity_5_19": {
+    "dropGemTypeId": "box_rarity_5_19"
+  },
+  "box_rarity_5_2": {
+    "dropGemTypeId": "box_rarity_5_2"
+  },
+  "box_rarity_5_3": {
+    "dropGemTypeId": "box_rarity_5_3"
+  },
+  "box_rarity_5_4": {
+    "dropGemTypeId": "box_rarity_5_4"
+  },
+  "box_rarity_5_5": {
+    "dropGemTypeId": "box_rarity_5_5"
+  },
+  "box_rarity_5_6": {
+    "dropGemTypeId": "box_rarity_5_6"
+  },
+  "box_rarity_5_7": {
+    "dropGemTypeId": "box_rarity_5_7"
+  },
+  "box_rarity_5_8": {
+    "dropGemTypeId": "box_rarity_5_8"
+  },
+  "box_rarity_5_9": {
+    "dropGemTypeId": "box_rarity_5_9"
+  },
+  "forge_rarity_1_1": {
+    "dropGemTypeId": "forge_rarity_1_1"
+  },
+  "forge_rarity_1_10": {
+    "dropGemTypeId": "forge_rarity_1_10"
+  },
+  "forge_rarity_1_11": {
+    "dropGemTypeId": "forge_rarity_1_11"
+  },
+  "forge_rarity_1_12": {
+    "dropGemTypeId": "forge_rarity_1_12"
+  },
+  "forge_rarity_1_13": {
+    "dropGemTypeId": "forge_rarity_1_13"
+  },
+  "forge_rarity_1_14": {
+    "dropGemTypeId": "forge_rarity_1_14"
+  },
+  "forge_rarity_1_15": {
+    "dropGemTypeId": "forge_rarity_1_15"
+  },
+  "forge_rarity_1_16": {
+    "dropGemTypeId": "forge_rarity_1_16"
+  },
+  "forge_rarity_1_17": {
+    "dropGemTypeId": "forge_rarity_1_17"
+  },
+  "forge_rarity_1_18": {
+    "dropGemTypeId": "forge_rarity_1_18"
+  },
+  "forge_rarity_1_19": {
+    "dropGemTypeId": "forge_rarity_1_19"
+  },
+  "forge_rarity_1_2": {
+    "dropGemTypeId": "forge_rarity_1_2"
+  },
+  "forge_rarity_1_3": {
+    "dropGemTypeId": "forge_rarity_1_3"
+  },
+  "forge_rarity_1_4": {
+    "dropGemTypeId": "forge_rarity_1_4"
+  },
+  "forge_rarity_1_5": {
+    "dropGemTypeId": "forge_rarity_1_5"
+  },
+  "forge_rarity_1_6": {
+    "dropGemTypeId": "forge_rarity_1_6"
+  },
+  "forge_rarity_1_7": {
+    "dropGemTypeId": "forge_rarity_1_7"
+  },
+  "forge_rarity_1_8": {
+    "dropGemTypeId": "forge_rarity_1_8"
+  },
+  "forge_rarity_1_9": {
+    "dropGemTypeId": "forge_rarity_1_9"
+  },
+  "forge_rarity_2_1": {
+    "dropGemTypeId": "forge_rarity_2_1"
+  },
+  "forge_rarity_2_10": {
+    "dropGemTypeId": "forge_rarity_2_10"
+  },
+  "forge_rarity_2_11": {
+    "dropGemTypeId": "forge_rarity_2_11"
+  },
+  "forge_rarity_2_12": {
+    "dropGemTypeId": "forge_rarity_2_12"
+  },
+  "forge_rarity_2_13": {
+    "dropGemTypeId": "forge_rarity_2_13"
+  },
+  "forge_rarity_2_14": {
+    "dropGemTypeId": "forge_rarity_2_14"
+  },
+  "forge_rarity_2_15": {
+    "dropGemTypeId": "forge_rarity_2_15"
+  },
+  "forge_rarity_2_16": {
+    "dropGemTypeId": "forge_rarity_2_16"
+  },
+  "forge_rarity_2_17": {
+    "dropGemTypeId": "forge_rarity_2_17"
+  },
+  "forge_rarity_2_18": {
+    "dropGemTypeId": "forge_rarity_2_18"
+  },
+  "forge_rarity_2_19": {
+    "dropGemTypeId": "forge_rarity_2_19"
+  },
+  "forge_rarity_2_2": {
+    "dropGemTypeId": "forge_rarity_2_2"
+  },
+  "forge_rarity_2_3": {
+    "dropGemTypeId": "forge_rarity_2_3"
+  },
+  "forge_rarity_2_4": {
+    "dropGemTypeId": "forge_rarity_2_4"
+  },
+  "forge_rarity_2_5": {
+    "dropGemTypeId": "forge_rarity_2_5"
+  },
+  "forge_rarity_2_6": {
+    "dropGemTypeId": "forge_rarity_2_6"
+  },
+  "forge_rarity_2_7": {
+    "dropGemTypeId": "forge_rarity_2_7"
+  },
+  "forge_rarity_2_8": {
+    "dropGemTypeId": "forge_rarity_2_8"
+  },
+  "forge_rarity_2_9": {
+    "dropGemTypeId": "forge_rarity_2_9"
+  },
+  "forge_rarity_3_1": {
+    "dropGemTypeId": "forge_rarity_3_1"
+  },
+  "forge_rarity_3_10": {
+    "dropGemTypeId": "forge_rarity_3_10"
+  },
+  "forge_rarity_3_11": {
+    "dropGemTypeId": "forge_rarity_3_11"
+  },
+  "forge_rarity_3_12": {
+    "dropGemTypeId": "forge_rarity_3_12"
+  },
+  "forge_rarity_3_13": {
+    "dropGemTypeId": "forge_rarity_3_13"
+  },
+  "forge_rarity_3_14": {
+    "dropGemTypeId": "forge_rarity_3_14"
+  },
+  "forge_rarity_3_15": {
+    "dropGemTypeId": "forge_rarity_3_15"
+  },
+  "forge_rarity_3_16": {
+    "dropGemTypeId": "forge_rarity_3_16"
+  },
+  "forge_rarity_3_17": {
+    "dropGemTypeId": "forge_rarity_3_17"
+  },
+  "forge_rarity_3_18": {
+    "dropGemTypeId": "forge_rarity_3_18"
+  },
+  "forge_rarity_3_19": {
+    "dropGemTypeId": "forge_rarity_3_19"
+  },
+  "forge_rarity_3_2": {
+    "dropGemTypeId": "forge_rarity_3_2"
+  },
+  "forge_rarity_3_3": {
+    "dropGemTypeId": "forge_rarity_3_3"
+  },
+  "forge_rarity_3_4": {
+    "dropGemTypeId": "forge_rarity_3_4"
+  },
+  "forge_rarity_3_5": {
+    "dropGemTypeId": "forge_rarity_3_5"
+  },
+  "forge_rarity_3_6": {
+    "dropGemTypeId": "forge_rarity_3_6"
+  },
+  "forge_rarity_3_7": {
+    "dropGemTypeId": "forge_rarity_3_7"
+  },
+  "forge_rarity_3_8": {
+    "dropGemTypeId": "forge_rarity_3_8"
+  },
+  "forge_rarity_3_9": {
+    "dropGemTypeId": "forge_rarity_3_9"
+  },
+  "forge_rarity_4_1": {
+    "dropGemTypeId": "forge_rarity_4_1"
+  },
+  "forge_rarity_4_10": {
+    "dropGemTypeId": "forge_rarity_4_10"
+  },
+  "forge_rarity_4_11": {
+    "dropGemTypeId": "forge_rarity_4_11"
+  },
+  "forge_rarity_4_12": {
+    "dropGemTypeId": "forge_rarity_4_12"
+  },
+  "forge_rarity_4_13": {
+    "dropGemTypeId": "forge_rarity_4_13"
+  },
+  "forge_rarity_4_14": {
+    "dropGemTypeId": "forge_rarity_4_14"
+  },
+  "forge_rarity_4_15": {
+    "dropGemTypeId": "forge_rarity_4_15"
+  },
+  "forge_rarity_4_16": {
+    "dropGemTypeId": "forge_rarity_4_16"
+  },
+  "forge_rarity_4_17": {
+    "dropGemTypeId": "forge_rarity_4_17"
+  },
+  "forge_rarity_4_18": {
+    "dropGemTypeId": "forge_rarity_4_18"
+  },
+  "forge_rarity_4_19": {
+    "dropGemTypeId": "forge_rarity_4_19"
+  },
+  "forge_rarity_4_2": {
+    "dropGemTypeId": "forge_rarity_4_2"
+  },
+  "forge_rarity_4_3": {
+    "dropGemTypeId": "forge_rarity_4_3"
+  },
+  "forge_rarity_4_4": {
+    "dropGemTypeId": "forge_rarity_4_4"
+  },
+  "forge_rarity_4_5": {
+    "dropGemTypeId": "forge_rarity_4_5"
+  },
+  "forge_rarity_4_6": {
+    "dropGemTypeId": "forge_rarity_4_6"
+  },
+  "forge_rarity_4_7": {
+    "dropGemTypeId": "forge_rarity_4_7"
+  },
+  "forge_rarity_4_8": {
+    "dropGemTypeId": "forge_rarity_4_8"
+  },
+  "forge_rarity_4_9": {
+    "dropGemTypeId": "forge_rarity_4_9"
+  },
+  "forge_rarity_5_1": {
+    "dropGemTypeId": "forge_rarity_5_1"
+  },
+  "forge_rarity_5_10": {
+    "dropGemTypeId": "forge_rarity_5_10"
+  },
+  "forge_rarity_5_11": {
+    "dropGemTypeId": "forge_rarity_5_11"
+  },
+  "forge_rarity_5_12": {
+    "dropGemTypeId": "forge_rarity_5_12"
+  },
+  "forge_rarity_5_13": {
+    "dropGemTypeId": "forge_rarity_5_13"
+  },
+  "forge_rarity_5_14": {
+    "dropGemTypeId": "forge_rarity_5_14"
+  },
+  "forge_rarity_5_15": {
+    "dropGemTypeId": "forge_rarity_5_15"
+  },
+  "forge_rarity_5_16": {
+    "dropGemTypeId": "forge_rarity_5_16"
+  },
+  "forge_rarity_5_17": {
+    "dropGemTypeId": "forge_rarity_5_17"
+  },
+  "forge_rarity_5_18": {
+    "dropGemTypeId": "forge_rarity_5_18"
+  },
+  "forge_rarity_5_19": {
+    "dropGemTypeId": "forge_rarity_5_19"
+  },
+  "forge_rarity_5_2": {
+    "dropGemTypeId": "forge_rarity_5_2"
+  },
+  "forge_rarity_5_3": {
+    "dropGemTypeId": "forge_rarity_5_3"
+  },
+  "forge_rarity_5_4": {
+    "dropGemTypeId": "forge_rarity_5_4"
+  },
+  "forge_rarity_5_5": {
+    "dropGemTypeId": "forge_rarity_5_5"
+  },
+  "forge_rarity_5_6": {
+    "dropGemTypeId": "forge_rarity_5_6"
+  },
+  "forge_rarity_5_7": {
+    "dropGemTypeId": "forge_rarity_5_7"
+  },
+  "forge_rarity_5_8": {
+    "dropGemTypeId": "forge_rarity_5_8"
+  },
+  "forge_rarity_5_9": {
+    "dropGemTypeId": "forge_rarity_5_9"
+  },
+  "guide_1_1": {
+    "dropGemTypeId": "guide_1_1"
+  },
+  "large_1_20_1": {
+    "dropGemTypeId": "large_1_20_1"
+  },
+  "large_1_20_10": {
+    "dropGemTypeId": "large_1_20_10"
+  },
+  "large_1_20_11": {
+    "dropGemTypeId": "large_1_20_11"
+  },
+  "large_1_20_12": {
+    "dropGemTypeId": "large_1_20_12"
+  },
+  "large_1_20_13": {
+    "dropGemTypeId": "large_1_20_13"
+  },
+  "large_1_20_14": {
+    "dropGemTypeId": "large_1_20_14"
+  },
+  "large_1_20_15": {
+    "dropGemTypeId": "large_1_20_15"
+  },
+  "large_1_20_16": {
+    "dropGemTypeId": "large_1_20_16"
+  },
+  "large_1_20_17": {
+    "dropGemTypeId": "large_1_20_17"
+  },
+  "large_1_20_18": {
+    "dropGemTypeId": "large_1_20_18"
+  },
+  "large_1_20_19": {
+    "dropGemTypeId": "large_1_20_19"
+  },
+  "large_1_20_2": {
+    "dropGemTypeId": "large_1_20_2"
+  },
+  "large_1_20_3": {
+    "dropGemTypeId": "large_1_20_3"
+  },
+  "large_1_20_4": {
+    "dropGemTypeId": "large_1_20_4"
+  },
+  "large_1_20_5": {
+    "dropGemTypeId": "large_1_20_5"
+  },
+  "large_1_20_6": {
+    "dropGemTypeId": "large_1_20_6"
+  },
+  "large_1_20_7": {
+    "dropGemTypeId": "large_1_20_7"
+  },
+  "large_1_20_8": {
+    "dropGemTypeId": "large_1_20_8"
+  },
+  "large_1_20_9": {
+    "dropGemTypeId": "large_1_20_9"
+  },
+  "large_21_30_1": {
+    "dropGemTypeId": "large_21_30_1"
+  },
+  "large_21_30_10": {
+    "dropGemTypeId": "large_21_30_10"
+  },
+  "large_21_30_11": {
+    "dropGemTypeId": "large_21_30_11"
+  },
+  "large_21_30_12": {
+    "dropGemTypeId": "large_21_30_12"
+  },
+  "large_21_30_13": {
+    "dropGemTypeId": "large_21_30_13"
+  },
+  "large_21_30_14": {
+    "dropGemTypeId": "large_21_30_14"
+  },
+  "large_21_30_15": {
+    "dropGemTypeId": "large_21_30_15"
+  },
+  "large_21_30_16": {
+    "dropGemTypeId": "large_21_30_16"
+  },
+  "large_21_30_17": {
+    "dropGemTypeId": "large_21_30_17"
+  },
+  "large_21_30_18": {
+    "dropGemTypeId": "large_21_30_18"
+  },
+  "large_21_30_19": {
+    "dropGemTypeId": "large_21_30_19"
+  },
+  "large_21_30_2": {
+    "dropGemTypeId": "large_21_30_2"
+  },
+  "large_21_30_3": {
+    "dropGemTypeId": "large_21_30_3"
+  },
+  "large_21_30_4": {
+    "dropGemTypeId": "large_21_30_4"
+  },
+  "large_21_30_5": {
+    "dropGemTypeId": "large_21_30_5"
+  },
+  "large_21_30_6": {
+    "dropGemTypeId": "large_21_30_6"
+  },
+  "large_21_30_7": {
+    "dropGemTypeId": "large_21_30_7"
+  },
+  "large_21_30_8": {
+    "dropGemTypeId": "large_21_30_8"
+  },
+  "large_21_30_9": {
+    "dropGemTypeId": "large_21_30_9"
+  },
+  "large_31_40_1": {
+    "dropGemTypeId": "large_31_40_1"
+  },
+  "large_31_40_10": {
+    "dropGemTypeId": "large_31_40_10"
+  },
+  "large_31_40_11": {
+    "dropGemTypeId": "large_31_40_11"
+  },
+  "large_31_40_12": {
+    "dropGemTypeId": "large_31_40_12"
+  },
+  "large_31_40_13": {
+    "dropGemTypeId": "large_31_40_13"
+  },
+  "large_31_40_14": {
+    "dropGemTypeId": "large_31_40_14"
+  },
+  "large_31_40_15": {
+    "dropGemTypeId": "large_31_40_15"
+  },
+  "large_31_40_16": {
+    "dropGemTypeId": "large_31_40_16"
+  },
+  "large_31_40_17": {
+    "dropGemTypeId": "large_31_40_17"
+  },
+  "large_31_40_18": {
+    "dropGemTypeId": "large_31_40_18"
+  },
+  "large_31_40_19": {
+    "dropGemTypeId": "large_31_40_19"
+  },
+  "large_31_40_2": {
+    "dropGemTypeId": "large_31_40_2"
+  },
+  "large_31_40_3": {
+    "dropGemTypeId": "large_31_40_3"
+  },
+  "large_31_40_4": {
+    "dropGemTypeId": "large_31_40_4"
+  },
+  "large_31_40_5": {
+    "dropGemTypeId": "large_31_40_5"
+  },
+  "large_31_40_6": {
+    "dropGemTypeId": "large_31_40_6"
+  },
+  "large_31_40_7": {
+    "dropGemTypeId": "large_31_40_7"
+  },
+  "large_31_40_8": {
+    "dropGemTypeId": "large_31_40_8"
+  },
+  "large_31_40_9": {
+    "dropGemTypeId": "large_31_40_9"
+  },
+  "large_41_50_1": {
+    "dropGemTypeId": "large_41_50_1"
+  },
+  "large_41_50_10": {
+    "dropGemTypeId": "large_41_50_10"
+  },
+  "large_41_50_11": {
+    "dropGemTypeId": "large_41_50_11"
+  },
+  "large_41_50_12": {
+    "dropGemTypeId": "large_41_50_12"
+  },
+  "large_41_50_13": {
+    "dropGemTypeId": "large_41_50_13"
+  },
+  "large_41_50_14": {
+    "dropGemTypeId": "large_41_50_14"
+  },
+  "large_41_50_15": {
+    "dropGemTypeId": "large_41_50_15"
+  },
+  "large_41_50_16": {
+    "dropGemTypeId": "large_41_50_16"
+  },
+  "large_41_50_17": {
+    "dropGemTypeId": "large_41_50_17"
+  },
+  "large_41_50_18": {
+    "dropGemTypeId": "large_41_50_18"
+  },
+  "large_41_50_19": {
+    "dropGemTypeId": "large_41_50_19"
+  },
+  "large_41_50_2": {
+    "dropGemTypeId": "large_41_50_2"
+  },
+  "large_41_50_3": {
+    "dropGemTypeId": "large_41_50_3"
+  },
+  "large_41_50_4": {
+    "dropGemTypeId": "large_41_50_4"
+  },
+  "large_41_50_5": {
+    "dropGemTypeId": "large_41_50_5"
+  },
+  "large_41_50_6": {
+    "dropGemTypeId": "large_41_50_6"
+  },
+  "large_41_50_7": {
+    "dropGemTypeId": "large_41_50_7"
+  },
+  "large_41_50_8": {
+    "dropGemTypeId": "large_41_50_8"
+  },
+  "large_41_50_9": {
+    "dropGemTypeId": "large_41_50_9"
+  },
+  "large_51_60_1": {
+    "dropGemTypeId": "large_51_60_1"
+  },
+  "large_51_60_10": {
+    "dropGemTypeId": "large_51_60_10"
+  },
+  "large_51_60_11": {
+    "dropGemTypeId": "large_51_60_11"
+  },
+  "large_51_60_12": {
+    "dropGemTypeId": "large_51_60_12"
+  },
+  "large_51_60_13": {
+    "dropGemTypeId": "large_51_60_13"
+  },
+  "large_51_60_14": {
+    "dropGemTypeId": "large_51_60_14"
+  },
+  "large_51_60_15": {
+    "dropGemTypeId": "large_51_60_15"
+  },
+  "large_51_60_16": {
+    "dropGemTypeId": "large_51_60_16"
+  },
+  "large_51_60_17": {
+    "dropGemTypeId": "large_51_60_17"
+  },
+  "large_51_60_18": {
+    "dropGemTypeId": "large_51_60_18"
+  },
+  "large_51_60_19": {
+    "dropGemTypeId": "large_51_60_19"
+  },
+  "large_51_60_2": {
+    "dropGemTypeId": "large_51_60_2"
+  },
+  "large_51_60_3": {
+    "dropGemTypeId": "large_51_60_3"
+  },
+  "large_51_60_4": {
+    "dropGemTypeId": "large_51_60_4"
+  },
+  "large_51_60_5": {
+    "dropGemTypeId": "large_51_60_5"
+  },
+  "large_51_60_6": {
+    "dropGemTypeId": "large_51_60_6"
+  },
+  "large_51_60_7": {
+    "dropGemTypeId": "large_51_60_7"
+  },
+  "large_51_60_8": {
+    "dropGemTypeId": "large_51_60_8"
+  },
+  "large_51_60_9": {
+    "dropGemTypeId": "large_51_60_9"
+  },
+  "large_61_70_1": {
+    "dropGemTypeId": "large_61_70_1"
+  },
+  "large_61_70_10": {
+    "dropGemTypeId": "large_61_70_10"
+  },
+  "large_61_70_11": {
+    "dropGemTypeId": "large_61_70_11"
+  },
+  "large_61_70_12": {
+    "dropGemTypeId": "large_61_70_12"
+  },
+  "large_61_70_13": {
+    "dropGemTypeId": "large_61_70_13"
+  },
+  "large_61_70_14": {
+    "dropGemTypeId": "large_61_70_14"
+  },
+  "large_61_70_15": {
+    "dropGemTypeId": "large_61_70_15"
+  },
+  "large_61_70_16": {
+    "dropGemTypeId": "large_61_70_16"
+  },
+  "large_61_70_17": {
+    "dropGemTypeId": "large_61_70_17"
+  },
+  "large_61_70_18": {
+    "dropGemTypeId": "large_61_70_18"
+  },
+  "large_61_70_19": {
+    "dropGemTypeId": "large_61_70_19"
+  },
+  "large_61_70_2": {
+    "dropGemTypeId": "large_61_70_2"
+  },
+  "large_61_70_3": {
+    "dropGemTypeId": "large_61_70_3"
+  },
+  "large_61_70_4": {
+    "dropGemTypeId": "large_61_70_4"
+  },
+  "large_61_70_5": {
+    "dropGemTypeId": "large_61_70_5"
+  },
+  "large_61_70_6": {
+    "dropGemTypeId": "large_61_70_6"
+  },
+  "large_61_70_7": {
+    "dropGemTypeId": "large_61_70_7"
+  },
+  "large_61_70_8": {
+    "dropGemTypeId": "large_61_70_8"
+  },
+  "large_61_70_9": {
+    "dropGemTypeId": "large_61_70_9"
+  },
+  "large_71_80_1": {
+    "dropGemTypeId": "large_71_80_1"
+  },
+  "large_71_80_10": {
+    "dropGemTypeId": "large_71_80_10"
+  },
+  "large_71_80_11": {
+    "dropGemTypeId": "large_71_80_11"
+  },
+  "large_71_80_12": {
+    "dropGemTypeId": "large_71_80_12"
+  },
+  "large_71_80_13": {
+    "dropGemTypeId": "large_71_80_13"
+  },
+  "large_71_80_14": {
+    "dropGemTypeId": "large_71_80_14"
+  },
+  "large_71_80_15": {
+    "dropGemTypeId": "large_71_80_15"
+  },
+  "large_71_80_16": {
+    "dropGemTypeId": "large_71_80_16"
+  },
+  "large_71_80_17": {
+    "dropGemTypeId": "large_71_80_17"
+  },
+  "large_71_80_18": {
+    "dropGemTypeId": "large_71_80_18"
+  },
+  "large_71_80_19": {
+    "dropGemTypeId": "large_71_80_19"
+  },
+  "large_71_80_2": {
+    "dropGemTypeId": "large_71_80_2"
+  },
+  "large_71_80_3": {
+    "dropGemTypeId": "large_71_80_3"
+  },
+  "large_71_80_4": {
+    "dropGemTypeId": "large_71_80_4"
+  },
+  "large_71_80_5": {
+    "dropGemTypeId": "large_71_80_5"
+  },
+  "large_71_80_6": {
+    "dropGemTypeId": "large_71_80_6"
+  },
+  "large_71_80_7": {
+    "dropGemTypeId": "large_71_80_7"
+  },
+  "large_71_80_8": {
+    "dropGemTypeId": "large_71_80_8"
+  },
+  "large_71_80_9": {
+    "dropGemTypeId": "large_71_80_9"
+  },
+  "middle_1_20_1": {
+    "dropGemTypeId": "middle_1_20_1"
+  },
+  "middle_1_20_10": {
+    "dropGemTypeId": "middle_1_20_10"
+  },
+  "middle_1_20_11": {
+    "dropGemTypeId": "middle_1_20_11"
+  },
+  "middle_1_20_12": {
+    "dropGemTypeId": "middle_1_20_12"
+  },
+  "middle_1_20_13": {
+    "dropGemTypeId": "middle_1_20_13"
+  },
+  "middle_1_20_14": {
+    "dropGemTypeId": "middle_1_20_14"
+  },
+  "middle_1_20_15": {
+    "dropGemTypeId": "middle_1_20_15"
+  },
+  "middle_1_20_16": {
+    "dropGemTypeId": "middle_1_20_16"
+  },
+  "middle_1_20_17": {
+    "dropGemTypeId": "middle_1_20_17"
+  },
+  "middle_1_20_18": {
+    "dropGemTypeId": "middle_1_20_18"
+  },
+  "middle_1_20_19": {
+    "dropGemTypeId": "middle_1_20_19"
+  },
+  "middle_1_20_2": {
+    "dropGemTypeId": "middle_1_20_2"
+  },
+  "middle_1_20_3": {
+    "dropGemTypeId": "middle_1_20_3"
+  },
+  "middle_1_20_4": {
+    "dropGemTypeId": "middle_1_20_4"
+  },
+  "middle_1_20_5": {
+    "dropGemTypeId": "middle_1_20_5"
+  },
+  "middle_1_20_6": {
+    "dropGemTypeId": "middle_1_20_6"
+  },
+  "middle_1_20_7": {
+    "dropGemTypeId": "middle_1_20_7"
+  },
+  "middle_1_20_8": {
+    "dropGemTypeId": "middle_1_20_8"
+  },
+  "middle_1_20_9": {
+    "dropGemTypeId": "middle_1_20_9"
+  },
+  "middle_21_30_1": {
+    "dropGemTypeId": "middle_21_30_1"
+  },
+  "middle_21_30_10": {
+    "dropGemTypeId": "middle_21_30_10"
+  },
+  "middle_21_30_11": {
+    "dropGemTypeId": "middle_21_30_11"
+  },
+  "middle_21_30_12": {
+    "dropGemTypeId": "middle_21_30_12"
+  },
+  "middle_21_30_13": {
+    "dropGemTypeId": "middle_21_30_13"
+  },
+  "middle_21_30_14": {
+    "dropGemTypeId": "middle_21_30_14"
+  },
+  "middle_21_30_15": {
+    "dropGemTypeId": "middle_21_30_15"
+  },
+  "middle_21_30_16": {
+    "dropGemTypeId": "middle_21_30_16"
+  },
+  "middle_21_30_17": {
+    "dropGemTypeId": "middle_21_30_17"
+  },
+  "middle_21_30_18": {
+    "dropGemTypeId": "middle_21_30_18"
+  },
+  "middle_21_30_19": {
+    "dropGemTypeId": "middle_21_30_19"
+  },
+  "middle_21_30_2": {
+    "dropGemTypeId": "middle_21_30_2"
+  },
+  "middle_21_30_3": {
+    "dropGemTypeId": "middle_21_30_3"
+  },
+  "middle_21_30_4": {
+    "dropGemTypeId": "middle_21_30_4"
+  },
+  "middle_21_30_5": {
+    "dropGemTypeId": "middle_21_30_5"
+  },
+  "middle_21_30_6": {
+    "dropGemTypeId": "middle_21_30_6"
+  },
+  "middle_21_30_7": {
+    "dropGemTypeId": "middle_21_30_7"
+  },
+  "middle_21_30_8": {
+    "dropGemTypeId": "middle_21_30_8"
+  },
+  "middle_21_30_9": {
+    "dropGemTypeId": "middle_21_30_9"
+  },
+  "middle_31_40_1": {
+    "dropGemTypeId": "middle_31_40_1"
+  },
+  "middle_31_40_10": {
+    "dropGemTypeId": "middle_31_40_10"
+  },
+  "middle_31_40_11": {
+    "dropGemTypeId": "middle_31_40_11"
+  },
+  "middle_31_40_12": {
+    "dropGemTypeId": "middle_31_40_12"
+  },
+  "middle_31_40_13": {
+    "dropGemTypeId": "middle_31_40_13"
+  },
+  "middle_31_40_14": {
+    "dropGemTypeId": "middle_31_40_14"
+  },
+  "middle_31_40_15": {
+    "dropGemTypeId": "middle_31_40_15"
+  },
+  "middle_31_40_16": {
+    "dropGemTypeId": "middle_31_40_16"
+  },
+  "middle_31_40_17": {
+    "dropGemTypeId": "middle_31_40_17"
+  },
+  "middle_31_40_18": {
+    "dropGemTypeId": "middle_31_40_18"
+  },
+  "middle_31_40_19": {
+    "dropGemTypeId": "middle_31_40_19"
+  },
+  "middle_31_40_2": {
+    "dropGemTypeId": "middle_31_40_2"
+  },
+  "middle_31_40_3": {
+    "dropGemTypeId": "middle_31_40_3"
+  },
+  "middle_31_40_4": {
+    "dropGemTypeId": "middle_31_40_4"
+  },
+  "middle_31_40_5": {
+    "dropGemTypeId": "middle_31_40_5"
+  },
+  "middle_31_40_6": {
+    "dropGemTypeId": "middle_31_40_6"
+  },
+  "middle_31_40_7": {
+    "dropGemTypeId": "middle_31_40_7"
+  },
+  "middle_31_40_8": {
+    "dropGemTypeId": "middle_31_40_8"
+  },
+  "middle_31_40_9": {
+    "dropGemTypeId": "middle_31_40_9"
+  },
+  "middle_41_50_1": {
+    "dropGemTypeId": "middle_41_50_1"
+  },
+  "middle_41_50_10": {
+    "dropGemTypeId": "middle_41_50_10"
+  },
+  "middle_41_50_11": {
+    "dropGemTypeId": "middle_41_50_11"
+  },
+  "middle_41_50_12": {
+    "dropGemTypeId": "middle_41_50_12"
+  },
+  "middle_41_50_13": {
+    "dropGemTypeId": "middle_41_50_13"
+  },
+  "middle_41_50_14": {
+    "dropGemTypeId": "middle_41_50_14"
+  },
+  "middle_41_50_15": {
+    "dropGemTypeId": "middle_41_50_15"
+  },
+  "middle_41_50_16": {
+    "dropGemTypeId": "middle_41_50_16"
+  },
+  "middle_41_50_17": {
+    "dropGemTypeId": "middle_41_50_17"
+  },
+  "middle_41_50_18": {
+    "dropGemTypeId": "middle_41_50_18"
+  },
+  "middle_41_50_19": {
+    "dropGemTypeId": "middle_41_50_19"
+  },
+  "middle_41_50_2": {
+    "dropGemTypeId": "middle_41_50_2"
+  },
+  "middle_41_50_3": {
+    "dropGemTypeId": "middle_41_50_3"
+  },
+  "middle_41_50_4": {
+    "dropGemTypeId": "middle_41_50_4"
+  },
+  "middle_41_50_5": {
+    "dropGemTypeId": "middle_41_50_5"
+  },
+  "middle_41_50_6": {
+    "dropGemTypeId": "middle_41_50_6"
+  },
+  "middle_41_50_7": {
+    "dropGemTypeId": "middle_41_50_7"
+  },
+  "middle_41_50_8": {
+    "dropGemTypeId": "middle_41_50_8"
+  },
+  "middle_41_50_9": {
+    "dropGemTypeId": "middle_41_50_9"
+  },
+  "middle_51_60_1": {
+    "dropGemTypeId": "middle_51_60_1"
+  },
+  "middle_51_60_10": {
+    "dropGemTypeId": "middle_51_60_10"
+  },
+  "middle_51_60_11": {
+    "dropGemTypeId": "middle_51_60_11"
+  },
+  "middle_51_60_12": {
+    "dropGemTypeId": "middle_51_60_12"
+  },
+  "middle_51_60_13": {
+    "dropGemTypeId": "middle_51_60_13"
+  },
+  "middle_51_60_14": {
+    "dropGemTypeId": "middle_51_60_14"
+  },
+  "middle_51_60_15": {
+    "dropGemTypeId": "middle_51_60_15"
+  },
+  "middle_51_60_16": {
+    "dropGemTypeId": "middle_51_60_16"
+  },
+  "middle_51_60_17": {
+    "dropGemTypeId": "middle_51_60_17"
+  },
+  "middle_51_60_18": {
+    "dropGemTypeId": "middle_51_60_18"
+  },
+  "middle_51_60_19": {
+    "dropGemTypeId": "middle_51_60_19"
+  },
+  "middle_51_60_2": {
+    "dropGemTypeId": "middle_51_60_2"
+  },
+  "middle_51_60_3": {
+    "dropGemTypeId": "middle_51_60_3"
+  },
+  "middle_51_60_4": {
+    "dropGemTypeId": "middle_51_60_4"
+  },
+  "middle_51_60_5": {
+    "dropGemTypeId": "middle_51_60_5"
+  },
+  "middle_51_60_6": {
+    "dropGemTypeId": "middle_51_60_6"
+  },
+  "middle_51_60_7": {
+    "dropGemTypeId": "middle_51_60_7"
+  },
+  "middle_51_60_8": {
+    "dropGemTypeId": "middle_51_60_8"
+  },
+  "middle_51_60_9": {
+    "dropGemTypeId": "middle_51_60_9"
+  },
+  "middle_61_70_1": {
+    "dropGemTypeId": "middle_61_70_1"
+  },
+  "middle_61_70_10": {
+    "dropGemTypeId": "middle_61_70_10"
+  },
+  "middle_61_70_11": {
+    "dropGemTypeId": "middle_61_70_11"
+  },
+  "middle_61_70_12": {
+    "dropGemTypeId": "middle_61_70_12"
+  },
+  "middle_61_70_13": {
+    "dropGemTypeId": "middle_61_70_13"
+  },
+  "middle_61_70_14": {
+    "dropGemTypeId": "middle_61_70_14"
+  },
+  "middle_61_70_15": {
+    "dropGemTypeId": "middle_61_70_15"
+  },
+  "middle_61_70_16": {
+    "dropGemTypeId": "middle_61_70_16"
+  },
+  "middle_61_70_17": {
+    "dropGemTypeId": "middle_61_70_17"
+  },
+  "middle_61_70_18": {
+    "dropGemTypeId": "middle_61_70_18"
+  },
+  "middle_61_70_19": {
+    "dropGemTypeId": "middle_61_70_19"
+  },
+  "middle_61_70_2": {
+    "dropGemTypeId": "middle_61_70_2"
+  },
+  "middle_61_70_3": {
+    "dropGemTypeId": "middle_61_70_3"
+  },
+  "middle_61_70_4": {
+    "dropGemTypeId": "middle_61_70_4"
+  },
+  "middle_61_70_5": {
+    "dropGemTypeId": "middle_61_70_5"
+  },
+  "middle_61_70_6": {
+    "dropGemTypeId": "middle_61_70_6"
+  },
+  "middle_61_70_7": {
+    "dropGemTypeId": "middle_61_70_7"
+  },
+  "middle_61_70_8": {
+    "dropGemTypeId": "middle_61_70_8"
+  },
+  "middle_61_70_9": {
+    "dropGemTypeId": "middle_61_70_9"
+  },
+  "middle_71_80_1": {
+    "dropGemTypeId": "middle_71_80_1"
+  },
+  "middle_71_80_10": {
+    "dropGemTypeId": "middle_71_80_10"
+  },
+  "middle_71_80_11": {
+    "dropGemTypeId": "middle_71_80_11"
+  },
+  "middle_71_80_12": {
+    "dropGemTypeId": "middle_71_80_12"
+  },
+  "middle_71_80_13": {
+    "dropGemTypeId": "middle_71_80_13"
+  },
+  "middle_71_80_14": {
+    "dropGemTypeId": "middle_71_80_14"
+  },
+  "middle_71_80_15": {
+    "dropGemTypeId": "middle_71_80_15"
+  },
+  "middle_71_80_16": {
+    "dropGemTypeId": "middle_71_80_16"
+  },
+  "middle_71_80_17": {
+    "dropGemTypeId": "middle_71_80_17"
+  },
+  "middle_71_80_18": {
+    "dropGemTypeId": "middle_71_80_18"
+  },
+  "middle_71_80_19": {
+    "dropGemTypeId": "middle_71_80_19"
+  },
+  "middle_71_80_2": {
+    "dropGemTypeId": "middle_71_80_2"
+  },
+  "middle_71_80_3": {
+    "dropGemTypeId": "middle_71_80_3"
+  },
+  "middle_71_80_4": {
+    "dropGemTypeId": "middle_71_80_4"
+  },
+  "middle_71_80_5": {
+    "dropGemTypeId": "middle_71_80_5"
+  },
+  "middle_71_80_6": {
+    "dropGemTypeId": "middle_71_80_6"
+  },
+  "middle_71_80_7": {
+    "dropGemTypeId": "middle_71_80_7"
+  },
+  "middle_71_80_8": {
+    "dropGemTypeId": "middle_71_80_8"
+  },
+  "middle_71_80_9": {
+    "dropGemTypeId": "middle_71_80_9"
+  },
+  "small_1_20_1": {
+    "dropGemTypeId": "small_1_20_1"
+  },
+  "small_1_20_10": {
+    "dropGemTypeId": "small_1_20_10"
+  },
+  "small_1_20_11": {
+    "dropGemTypeId": "small_1_20_11"
+  },
+  "small_1_20_12": {
+    "dropGemTypeId": "small_1_20_12"
+  },
+  "small_1_20_13": {
+    "dropGemTypeId": "small_1_20_13"
+  },
+  "small_1_20_14": {
+    "dropGemTypeId": "small_1_20_14"
+  },
+  "small_1_20_15": {
+    "dropGemTypeId": "small_1_20_15"
+  },
+  "small_1_20_16": {
+    "dropGemTypeId": "small_1_20_16"
+  },
+  "small_1_20_17": {
+    "dropGemTypeId": "small_1_20_17"
+  },
+  "small_1_20_18": {
+    "dropGemTypeId": "small_1_20_18"
+  },
+  "small_1_20_19": {
+    "dropGemTypeId": "small_1_20_19"
+  },
+  "small_1_20_2": {
+    "dropGemTypeId": "small_1_20_2"
+  },
+  "small_1_20_3": {
+    "dropGemTypeId": "small_1_20_3"
+  },
+  "small_1_20_4": {
+    "dropGemTypeId": "small_1_20_4"
+  },
+  "small_1_20_5": {
+    "dropGemTypeId": "small_1_20_5"
+  },
+  "small_1_20_6": {
+    "dropGemTypeId": "small_1_20_6"
+  },
+  "small_1_20_7": {
+    "dropGemTypeId": "small_1_20_7"
+  },
+  "small_1_20_8": {
+    "dropGemTypeId": "small_1_20_8"
+  },
+  "small_1_20_9": {
+    "dropGemTypeId": "small_1_20_9"
+  },
+  "small_21_30_1": {
+    "dropGemTypeId": "small_21_30_1"
+  },
+  "small_21_30_10": {
+    "dropGemTypeId": "small_21_30_10"
+  },
+  "small_21_30_11": {
+    "dropGemTypeId": "small_21_30_11"
+  },
+  "small_21_30_12": {
+    "dropGemTypeId": "small_21_30_12"
+  },
+  "small_21_30_13": {
+    "dropGemTypeId": "small_21_30_13"
+  },
+  "small_21_30_14": {
+    "dropGemTypeId": "small_21_30_14"
+  },
+  "small_21_30_15": {
+    "dropGemTypeId": "small_21_30_15"
+  },
+  "small_21_30_16": {
+    "dropGemTypeId": "small_21_30_16"
+  },
+  "small_21_30_17": {
+    "dropGemTypeId": "small_21_30_17"
+  },
+  "small_21_30_18": {
+    "dropGemTypeId": "small_21_30_18"
+  },
+  "small_21_30_19": {
+    "dropGemTypeId": "small_21_30_19"
+  },
+  "small_21_30_2": {
+    "dropGemTypeId": "small_21_30_2"
+  },
+  "small_21_30_3": {
+    "dropGemTypeId": "small_21_30_3"
+  },
+  "small_21_30_4": {
+    "dropGemTypeId": "small_21_30_4"
+  },
+  "small_21_30_5": {
+    "dropGemTypeId": "small_21_30_5"
+  },
+  "small_21_30_6": {
+    "dropGemTypeId": "small_21_30_6"
+  },
+  "small_21_30_7": {
+    "dropGemTypeId": "small_21_30_7"
+  },
+  "small_21_30_8": {
+    "dropGemTypeId": "small_21_30_8"
+  },
+  "small_21_30_9": {
+    "dropGemTypeId": "small_21_30_9"
+  },
+  "small_31_40_1": {
+    "dropGemTypeId": "small_31_40_1"
+  },
+  "small_31_40_10": {
+    "dropGemTypeId": "small_31_40_10"
+  },
+  "small_31_40_11": {
+    "dropGemTypeId": "small_31_40_11"
+  },
+  "small_31_40_12": {
+    "dropGemTypeId": "small_31_40_12"
+  },
+  "small_31_40_13": {
+    "dropGemTypeId": "small_31_40_13"
+  },
+  "small_31_40_14": {
+    "dropGemTypeId": "small_31_40_14"
+  },
+  "small_31_40_15": {
+    "dropGemTypeId": "small_31_40_15"
+  },
+  "small_31_40_16": {
+    "dropGemTypeId": "small_31_40_16"
+  },
+  "small_31_40_17": {
+    "dropGemTypeId": "small_31_40_17"
+  },
+  "small_31_40_18": {
+    "dropGemTypeId": "small_31_40_18"
+  },
+  "small_31_40_19": {
+    "dropGemTypeId": "small_31_40_19"
+  },
+  "small_31_40_2": {
+    "dropGemTypeId": "small_31_40_2"
+  },
+  "small_31_40_3": {
+    "dropGemTypeId": "small_31_40_3"
+  },
+  "small_31_40_4": {
+    "dropGemTypeId": "small_31_40_4"
+  },
+  "small_31_40_5": {
+    "dropGemTypeId": "small_31_40_5"
+  },
+  "small_31_40_6": {
+    "dropGemTypeId": "small_31_40_6"
+  },
+  "small_31_40_7": {
+    "dropGemTypeId": "small_31_40_7"
+  },
+  "small_31_40_8": {
+    "dropGemTypeId": "small_31_40_8"
+  },
+  "small_31_40_9": {
+    "dropGemTypeId": "small_31_40_9"
+  },
+  "small_41_50_1": {
+    "dropGemTypeId": "small_41_50_1"
+  },
+  "small_41_50_10": {
+    "dropGemTypeId": "small_41_50_10"
+  },
+  "small_41_50_11": {
+    "dropGemTypeId": "small_41_50_11"
+  },
+  "small_41_50_12": {
+    "dropGemTypeId": "small_41_50_12"
+  },
+  "small_41_50_13": {
+    "dropGemTypeId": "small_41_50_13"
+  },
+  "small_41_50_14": {
+    "dropGemTypeId": "small_41_50_14"
+  },
+  "small_41_50_15": {
+    "dropGemTypeId": "small_41_50_15"
+  },
+  "small_41_50_16": {
+    "dropGemTypeId": "small_41_50_16"
+  },
+  "small_41_50_17": {
+    "dropGemTypeId": "small_41_50_17"
+  },
+  "small_41_50_18": {
+    "dropGemTypeId": "small_41_50_18"
+  },
+  "small_41_50_19": {
+    "dropGemTypeId": "small_41_50_19"
+  },
+  "small_41_50_2": {
+    "dropGemTypeId": "small_41_50_2"
+  },
+  "small_41_50_3": {
+    "dropGemTypeId": "small_41_50_3"
+  },
+  "small_41_50_4": {
+    "dropGemTypeId": "small_41_50_4"
+  },
+  "small_41_50_5": {
+    "dropGemTypeId": "small_41_50_5"
+  },
+  "small_41_50_6": {
+    "dropGemTypeId": "small_41_50_6"
+  },
+  "small_41_50_7": {
+    "dropGemTypeId": "small_41_50_7"
+  },
+  "small_41_50_8": {
+    "dropGemTypeId": "small_41_50_8"
+  },
+  "small_41_50_9": {
+    "dropGemTypeId": "small_41_50_9"
+  },
+  "small_51_60_1": {
+    "dropGemTypeId": "small_51_60_1"
+  },
+  "small_51_60_10": {
+    "dropGemTypeId": "small_51_60_10"
+  },
+  "small_51_60_11": {
+    "dropGemTypeId": "small_51_60_11"
+  },
+  "small_51_60_12": {
+    "dropGemTypeId": "small_51_60_12"
+  },
+  "small_51_60_13": {
+    "dropGemTypeId": "small_51_60_13"
+  },
+  "small_51_60_14": {
+    "dropGemTypeId": "small_51_60_14"
+  },
+  "small_51_60_15": {
+    "dropGemTypeId": "small_51_60_15"
+  },
+  "small_51_60_16": {
+    "dropGemTypeId": "small_51_60_16"
+  },
+  "small_51_60_17": {
+    "dropGemTypeId": "small_51_60_17"
+  },
+  "small_51_60_18": {
+    "dropGemTypeId": "small_51_60_18"
+  },
+  "small_51_60_19": {
+    "dropGemTypeId": "small_51_60_19"
+  },
+  "small_51_60_2": {
+    "dropGemTypeId": "small_51_60_2"
+  },
+  "small_51_60_3": {
+    "dropGemTypeId": "small_51_60_3"
+  },
+  "small_51_60_4": {
+    "dropGemTypeId": "small_51_60_4"
+  },
+  "small_51_60_5": {
+    "dropGemTypeId": "small_51_60_5"
+  },
+  "small_51_60_6": {
+    "dropGemTypeId": "small_51_60_6"
+  },
+  "small_51_60_7": {
+    "dropGemTypeId": "small_51_60_7"
+  },
+  "small_51_60_8": {
+    "dropGemTypeId": "small_51_60_8"
+  },
+  "small_51_60_9": {
+    "dropGemTypeId": "small_51_60_9"
+  },
+  "small_61_70_1": {
+    "dropGemTypeId": "small_61_70_1"
+  },
+  "small_61_70_10": {
+    "dropGemTypeId": "small_61_70_10"
+  },
+  "small_61_70_11": {
+    "dropGemTypeId": "small_61_70_11"
+  },
+  "small_61_70_12": {
+    "dropGemTypeId": "small_61_70_12"
+  },
+  "small_61_70_13": {
+    "dropGemTypeId": "small_61_70_13"
+  },
+  "small_61_70_14": {
+    "dropGemTypeId": "small_61_70_14"
+  },
+  "small_61_70_15": {
+    "dropGemTypeId": "small_61_70_15"
+  },
+  "small_61_70_16": {
+    "dropGemTypeId": "small_61_70_16"
+  },
+  "small_61_70_17": {
+    "dropGemTypeId": "small_61_70_17"
+  },
+  "small_61_70_18": {
+    "dropGemTypeId": "small_61_70_18"
+  },
+  "small_61_70_19": {
+    "dropGemTypeId": "small_61_70_19"
+  },
+  "small_61_70_2": {
+    "dropGemTypeId": "small_61_70_2"
+  },
+  "small_61_70_3": {
+    "dropGemTypeId": "small_61_70_3"
+  },
+  "small_61_70_4": {
+    "dropGemTypeId": "small_61_70_4"
+  },
+  "small_61_70_5": {
+    "dropGemTypeId": "small_61_70_5"
+  },
+  "small_61_70_6": {
+    "dropGemTypeId": "small_61_70_6"
+  },
+  "small_61_70_7": {
+    "dropGemTypeId": "small_61_70_7"
+  },
+  "small_61_70_8": {
+    "dropGemTypeId": "small_61_70_8"
+  },
+  "small_61_70_9": {
+    "dropGemTypeId": "small_61_70_9"
+  },
+  "small_71_80_1": {
+    "dropGemTypeId": "small_71_80_1"
+  },
+  "small_71_80_10": {
+    "dropGemTypeId": "small_71_80_10"
+  },
+  "small_71_80_11": {
+    "dropGemTypeId": "small_71_80_11"
+  },
+  "small_71_80_12": {
+    "dropGemTypeId": "small_71_80_12"
+  },
+  "small_71_80_13": {
+    "dropGemTypeId": "small_71_80_13"
+  },
+  "small_71_80_14": {
+    "dropGemTypeId": "small_71_80_14"
+  },
+  "small_71_80_15": {
+    "dropGemTypeId": "small_71_80_15"
+  },
+  "small_71_80_16": {
+    "dropGemTypeId": "small_71_80_16"
+  },
+  "small_71_80_17": {
+    "dropGemTypeId": "small_71_80_17"
+  },
+  "small_71_80_18": {
+    "dropGemTypeId": "small_71_80_18"
+  },
+  "small_71_80_19": {
+    "dropGemTypeId": "small_71_80_19"
+  },
+  "small_71_80_2": {
+    "dropGemTypeId": "small_71_80_2"
+  },
+  "small_71_80_3": {
+    "dropGemTypeId": "small_71_80_3"
+  },
+  "small_71_80_4": {
+    "dropGemTypeId": "small_71_80_4"
+  },
+  "small_71_80_5": {
+    "dropGemTypeId": "small_71_80_5"
+  },
+  "small_71_80_6": {
+    "dropGemTypeId": "small_71_80_6"
+  },
+  "small_71_80_7": {
+    "dropGemTypeId": "small_71_80_7"
+  },
+  "small_71_80_8": {
+    "dropGemTypeId": "small_71_80_8"
+  },
+  "small_71_80_9": {
+    "dropGemTypeId": "small_71_80_9"
+  },
+  "test_1_1": {
+    "dropGemTypeId": "test_1_1"
+  },
+  "test_1_10": {
+    "dropGemTypeId": "test_1_10"
+  },
+  "test_1_11": {
+    "dropGemTypeId": "test_1_11"
+  },
+  "test_1_12": {
+    "dropGemTypeId": "test_1_12"
+  },
+  "test_1_13": {
+    "dropGemTypeId": "test_1_13"
+  },
+  "test_1_14": {
+    "dropGemTypeId": "test_1_14"
+  },
+  "test_1_15": {
+    "dropGemTypeId": "test_1_15"
+  },
+  "test_1_16": {
+    "dropGemTypeId": "test_1_16"
+  },
+  "test_1_17": {
+    "dropGemTypeId": "test_1_17"
+  },
+  "test_1_18": {
+    "dropGemTypeId": "test_1_18"
+  },
+  "test_1_19": {
+    "dropGemTypeId": "test_1_19"
+  },
+  "test_1_2": {
+    "dropGemTypeId": "test_1_2"
+  },
+  "test_1_20": {
+    "dropGemTypeId": "test_1_20"
+  },
+  "test_1_21": {
+    "dropGemTypeId": "test_1_21"
+  },
+  "test_1_22": {
+    "dropGemTypeId": "test_1_22"
+  },
+  "test_1_23": {
+    "dropGemTypeId": "test_1_23"
+  },
+  "test_1_24": {
+    "dropGemTypeId": "test_1_24"
+  },
+  "test_1_25": {
+    "dropGemTypeId": "test_1_25"
+  },
+  "test_1_26": {
+    "dropGemTypeId": "test_1_26"
+  },
+  "test_1_27": {
+    "dropGemTypeId": "test_1_27"
+  },
+  "test_1_28": {
+    "dropGemTypeId": "test_1_28"
+  },
+  "test_1_29": {
+    "dropGemTypeId": "test_1_29"
+  },
+  "test_1_3": {
+    "dropGemTypeId": "test_1_3"
+  },
+  "test_1_30": {
+    "dropGemTypeId": "test_1_30"
+  },
+  "test_1_31": {
+    "dropGemTypeId": "test_1_31"
+  },
+  "test_1_4": {
+    "dropGemTypeId": "test_1_4"
+  },
+  "test_1_5": {
+    "dropGemTypeId": "test_1_5"
+  },
+  "test_1_6": {
+    "dropGemTypeId": "test_1_6"
+  },
+  "test_1_7": {
+    "dropGemTypeId": "test_1_7"
+  },
+  "test_1_8": {
+    "dropGemTypeId": "test_1_8"
+  },
+  "test_1_9": {
+    "dropGemTypeId": "test_1_9"
+  }
+}

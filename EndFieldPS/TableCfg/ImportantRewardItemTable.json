@@ -1,0 +1,51 @@
+{
+  "item_factech_jinlong_key": {
+    "desc": {
+      "id": "C87D41193E6817F2",
+      "text": ""
+    },
+    "id": "item_factech_jinlong_key"
+  },
+  "item_factech_tundra_key": {
+    "desc": {
+      "id": "2B142482C7750ECE",
+      "text": ""
+    },
+    "id": "item_factech_tundra_key"
+  },
+  "item_formula_bottled_moss_1_2_1": {
+    "desc": {
+      "id": "537403BCC2A1F642",
+      "text": ""
+    },
+    "id": "item_formula_bottled_moss_1_2_1"
+  },
+  "item_formula_bottled_moss_2_animal_1": {
+    "desc": {
+      "id": "FDD960EA08219671",
+      "text": ""
+    },
+    "id": "item_formula_bottled_moss_2_animal_1"
+  },
+  "item_formula_bottled_moss_spc_1_2_1": {
+    "desc": {
+      "id": "EE209557F50804F8",
+      "text": ""
+    },
+    "id": "item_formula_bottled_moss_spc_1_2_1"
+  },
+  "item_mission_tianshi_talisman": {
+    "desc": {
+      "id": "F42A4FA6BE2037BE",
+      "text": ""
+    },
+    "id": "item_mission_tianshi_talisman"
+  },
+  "item_spaceship_key_1": {
+    "desc": {
+      "id": "B56A8A9B3A52820B",
+      "text": ""
+    },
+    "id": "item_spaceship_key_1"
+  }
+}

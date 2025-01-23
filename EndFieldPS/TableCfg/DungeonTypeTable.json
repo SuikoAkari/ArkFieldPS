@@ -1,0 +1,186 @@
+{
+  "dungeon_bossrush": {
+    "dungeonInfoTitle": {
+      "id": "6AE5D5BACC80DE58",
+      "text": ""
+    },
+    "enemyInfoTitle": {
+      "id": "A66CE111E25B32E6",
+      "text": ""
+    },
+    "entryText": {
+      "id": "4C0469A140A59781",
+      "text": ""
+    },
+    "mapMarkType": 17,
+    "resetConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "stopConfirmText": {
+      "id": "6DFFEDA1CDA44844",
+      "text": ""
+    }
+  },
+  "dungeon_challenge": {
+    "dungeonInfoTitle": {
+      "id": "3AAF3C1A2375C3EF",
+      "text": ""
+    },
+    "enemyInfoTitle": {
+      "id": "AE17565F0D67C8F9",
+      "text": ""
+    },
+    "entryText": {
+      "id": "3114F0A83FEE898B",
+      "text": ""
+    },
+    "mapMarkType": 3,
+    "resetConfirmText": {
+      "id": "CFBBA6DE6A37CBF6",
+      "text": ""
+    },
+    "stopConfirmText": {
+      "id": "460EB1CF10FFB6CE",
+      "text": ""
+    }
+  },
+  "dungeon_char": {
+    "dungeonInfoTitle": {
+      "id": "",
+      "text": ""
+    },
+    "enemyInfoTitle": {
+      "id": "E7D84129DF2317A2",
+      "text": ""
+    },
+    "entryText": {
+      "id": "3D796701EFE85C5E",
+      "text": ""
+    },
+    "mapMarkType": 0,
+    "resetConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "stopConfirmText": {
+      "id": "3FA7E1D8A148378B",
+      "text": ""
+    }
+  },
+  "dungeon_factory": {
+    "dungeonInfoTitle": {
+      "id": "63D147AA2E4EC7ED",
+      "text": ""
+    },
+    "enemyInfoTitle": {
+      "id": "",
+      "text": ""
+    },
+    "entryText": {
+      "id": "A526D5807DBE9AB1",
+      "text": ""
+    },
+    "mapMarkType": 4,
+    "resetConfirmText": {
+      "id": "8D12D076AA8E0792",
+      "text": ""
+    },
+    "stopConfirmText": {
+      "id": "461C56A46D77B6E8",
+      "text": ""
+    }
+  },
+  "dungeon_race": {
+    "dungeonInfoTitle": {
+      "id": "",
+      "text": ""
+    },
+    "enemyInfoTitle": {
+      "id": "",
+      "text": ""
+    },
+    "entryText": {
+      "id": "",
+      "text": ""
+    },
+    "mapMarkType": 0,
+    "resetConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "stopConfirmText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dungeon_resource": {
+    "dungeonInfoTitle": {
+      "id": "781044169CAFE9D4",
+      "text": ""
+    },
+    "enemyInfoTitle": {
+      "id": "7D41C84BC86520FA",
+      "text": ""
+    },
+    "entryText": {
+      "id": "2B56D3C527A14728",
+      "text": ""
+    },
+    "mapMarkType": 18,
+    "resetConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "stopConfirmText": {
+      "id": "B6E9A44F0380BB2E",
+      "text": ""
+    }
+  },
+  "dungeon_rpg": {
+    "dungeonInfoTitle": {
+      "id": "",
+      "text": ""
+    },
+    "enemyInfoTitle": {
+      "id": "",
+      "text": ""
+    },
+    "entryText": {
+      "id": "",
+      "text": ""
+    },
+    "mapMarkType": 0,
+    "resetConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "stopConfirmText": {
+      "id": "",
+      "text": ""
+    }
+  },
+  "dungeon_train": {
+    "dungeonInfoTitle": {
+      "id": "1DD7B89B806EE08A",
+      "text": ""
+    },
+    "enemyInfoTitle": {
+      "id": "FDC63F5899E10A6E",
+      "text": ""
+    },
+    "entryText": {
+      "id": "EE35CB924C863F54",
+      "text": ""
+    },
+    "mapMarkType": 0,
+    "resetConfirmText": {
+      "id": "8E514517517F4C52",
+      "text": ""
+    },
+    "stopConfirmText": {
+      "id": "E985F0E34BB8EEE0",
+      "text": ""
+    }
+  }
+}

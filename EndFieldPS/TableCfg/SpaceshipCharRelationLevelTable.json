@@ -1,0 +1,26 @@
+{
+  "1": {
+    "favorDesc": {
+      "id": "FB7BDAD697F03874",
+      "text": ""
+    },
+    "favorability": 0,
+    "relationLevel": 1
+  },
+  "2": {
+    "favorDesc": {
+      "id": "BCEB92FD993614A7",
+      "text": ""
+    },
+    "favorability": 300,
+    "relationLevel": 2
+  },
+  "3": {
+    "favorDesc": {
+      "id": "377D574BA0F7A4EB",
+      "text": ""
+    },
+    "favorability": 1500,
+    "relationLevel": 3
+  }
+}

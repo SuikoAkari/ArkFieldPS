@@ -1,0 +1,1784 @@
+{
+  "item_obtain_activity": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "0721A22F342880D2",
+      "text": ""
+    },
+    "iconId": "icon_tips_tower",
+    "id": "item_obtain_activity",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_adventurebook": {
+    "bindSystem": 652,
+    "desc": {
+      "id": "09B0B6389678C146",
+      "text": ""
+    },
+    "iconId": "icon_tips_adventure_book",
+    "id": "item_obtain_adventurebook",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureStage\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "item_obtain_apitem": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "487121FC9CB81108",
+      "text": ""
+    },
+    "iconId": "icon_tips_explore",
+    "id": "item_obtain_apitem",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_blackbox": {
+    "bindSystem": 69,
+    "desc": {
+      "id": "0C3A9628116A7117",
+      "text": ""
+    },
+    "iconId": "icon_tips_blackbox",
+    "id": "item_obtain_blackbox",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureBlackbox\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "item_obtain_blackbox_activate_1": {
+    "bindSystem": 69,
+    "desc": {
+      "id": "EB3711355FB13FA4",
+      "text": ""
+    },
+    "iconId": "icon_tips_blackbox",
+    "id": "item_obtain_blackbox_activate_1",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureBlackbox\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "item_obtain_blackbox_activate_2": {
+    "bindSystem": 69,
+    "desc": {
+      "id": "F6830180B4C19661",
+      "text": ""
+    },
+    "iconId": "icon_tips_blackbox",
+    "id": "item_obtain_blackbox_activate_2",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureBlackbox\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "item_obtain_char_potential": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "AB8F003A988B7268",
+      "text": ""
+    },
+    "iconId": "icon_tips_gacha",
+    "id": "item_obtain_char_potential",
+    "phaseArgs": "",
+    "phaseId": "GachaPool"
+  },
+  "item_obtain_commonshop": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "0BA467C6BCDE62C6",
+      "text": ""
+    },
+    "iconId": "icon_tips_shop",
+    "id": "item_obtain_commonshop",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_commonshop_1": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "4E35E1B23212674C",
+      "text": ""
+    },
+    "iconId": "icon_tips_shop",
+    "id": "item_obtain_commonshop_1",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_diamond": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "241A3E759B7859B2",
+      "text": ""
+    },
+    "iconId": "icon_tips_shop",
+    "id": "item_obtain_diamond",
+    "phaseArgs": "{\r\n  \u0022sourceId\u0022: \u0022item_originium_recharge\u0022,\r\n  \u0022targetId\u0022: \u0022item_diamond\u0022\r\n}",
+    "phaseId": "CommonMoneyExchange"
+  },
+  "item_obtain_dungeon_0001": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "4A3A64C9C868BF06",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0001",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource200001663\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0002": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "D0F6BA8315C43AD4",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0002",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource2100320002\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0003": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "03485BB97DD15F2D",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0003",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource2100320003\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0004": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "1AFBA0F1B1B319F8",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0004",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource2100320000\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0005": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "48FAB37C4CF0EAA3",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0005",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource200001631\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0006": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "3F9AB44023A0E6CF",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0006",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource2100320001\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0007": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "AA7FE62589F46A52",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0007",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource2800001110\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0008": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "2A4B89D35A7E7C1B",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0008",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource2800001094\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0010": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "4902A9602739ABE4",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0010",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource3500031160\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0011": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "11CA16D25894CF9C",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0011",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource3500031161\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0012": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "81121ACC1500A183",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0012",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource3400010150\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_0013": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "2CEA2BD1155C5847",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0013",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_dg_resource2800001095\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_dungeon_bossrush": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "080A80E942853ECA",
+      "text": ""
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_bossrush",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureDungeon\u0022,\r\n  \u0022dungeonTab\u0022: \u0022BossRush\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "item_obtain_energy_point": {
+    "bindSystem": 70,
+    "desc": {
+      "id": "48032FA7A6AE28D1",
+      "text": ""
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_energy_point",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureDungeon\u0022,\r\n  \u0022dungeonTab\u0022: \u0022EnemySpawner\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "item_obtain_equip": {
+    "bindSystem": 67,
+    "desc": {
+      "id": "466CD358AD5D77B4",
+      "text": ""
+    },
+    "iconId": "icon_tips_proc",
+    "id": "item_obtain_equip",
+    "phaseArgs": "",
+    "phaseId": "EquipProducer"
+  },
+  "item_obtain_ether_collection": {
+    "bindSystem": 57,
+    "desc": {
+      "id": "AE4DDBA81AEE1BC2",
+      "text": ""
+    },
+    "iconId": "icon_tips_explore",
+    "id": "item_obtain_ether_collection",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_explore": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "A709888D7F005C7B",
+      "text": ""
+    },
+    "iconId": "icon_tips_explore",
+    "id": "item_obtain_explore",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gacha": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "A5F97C734A438F58",
+      "text": ""
+    },
+    "iconId": "icon_tips_gacha",
+    "id": "item_obtain_gacha",
+    "phaseArgs": "",
+    "phaseId": "GachaPool"
+  },
+  "item_obtain_gather": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "D40119E231548C79",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_copper_ore": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "C25BEE7142BE5DAD",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_copper_ore",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_minepoint_team10100070034\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_crylplant_1_1": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "0EEE3170FB9196BD",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_crylplant_1_1",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_tundranest2100030043\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_crylplant_1_2": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "384835E035B2FBD8",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_crylplant_1_2",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_tundranest3400080023\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_crylplant_1_3": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "E151F0E8B55F7FED",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_crylplant_1_3",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_tundranest2800060029\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_crylplant_2_1": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "2D2A147ED4C34DE4",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_crylplant_2_1",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_tundranest10100070067\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_iron_ore": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "754361BE5A7A5B2F",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_iron_ore",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_minepoint_team3400080042\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_map01_lv001": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "42DF6B2D086DA889",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map01_lv001",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map01_lv001_1": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "A562AE68E3A43559",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map01_lv001_1",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map01_lv001_2": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "FA482E69EB8C8751",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map01_lv001_2",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map01_lv002_1": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "289710D05DC5F91C",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map01_lv002_1",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map01_lv005": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "18957AA1C1E3C3DB",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map01_lv005",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map01_lv005_1": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "FD568E8AFC032A18",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map01_lv005_1",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map01_lv006_1": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "ADFF187D083CEE30",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map01_lv006_1",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map01_lv007": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "097A3AA32569C3D7",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map01_lv007",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map02_lv001": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "C787E7611A517A04",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map02_lv001",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map02_lv001_1": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "E263212D47BC4507",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map02_lv001_1",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map02_lv001_2": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "E5935FAF389DD766",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map02_lv001_2",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map02_lv001_3": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "559005972F4F0FDF",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map02_lv001_3",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map02_lv001_4": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "D5B58E16F9023A1A",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map02_lv001_4",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_map02_lv001_5": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "FFD58C9AEC75D6BD",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_map02_lv001_5",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_gather_mushroom_1_1": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "D0605068A7429164",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_mushroom_1_1",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_tundranest2100030037\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_mushroom_1_2": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "AB07BD24044C73F3",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_mushroom_1_2",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_tundranest3400080019\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_mushroom_1_3": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "8A1D0D18C2DE9885",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_mushroom_1_3",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_tundranest2800060030\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_mushroom_2_1": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "67D7961EF3DF5CEF",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_mushroom_2_1",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_tundranest10100070051\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_originium_ore": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "E363824B694D8DFA",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_originium_ore",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_minepoint_team2100030100\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_quartz_sand": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "2DC0B86AE3E404A9",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_quartz_sand",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_minepoint_team2100030096\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_spcstone_1_1": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "A4EE2F906A02EC3C",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_spcstone_1_1",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_spcstone2100030054\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_spcstone_1_2": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "C450334AE0EB0415",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_spcstone_1_2",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_spcstone3400080022\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_spcstone_1_3": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "9190A042CD2F571A",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_spcstone_1_3",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_spcstone2800060031\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_gather_spcstone_2_1": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "486A946485AD8CF8",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_gather_spcstone_2_1",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_doodad_spcstone10100070038\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_hub": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "39E4C8C672A5B17F",
+      "text": ""
+    },
+    "iconId": "icon_tips_factory",
+    "id": "item_obtain_hub",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_levelup": {
+    "bindSystem": 651,
+    "desc": {
+      "id": "71FDC4CE2A0CD028",
+      "text": ""
+    },
+    "iconId": "icon_tips_adventure_book",
+    "id": "item_obtain_levelup",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_mission": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "628323B0F1613D91",
+      "text": ""
+    },
+    "iconId": "icon_tips_mission",
+    "id": "item_obtain_mission",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_mission_daily": {
+    "bindSystem": 61,
+    "desc": {
+      "id": "D6CB7CD10BC441B6",
+      "text": ""
+    },
+    "iconId": "icon_tips_mission",
+    "id": "item_obtain_mission_daily",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureDaily\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "item_obtain_mission_main": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "15FD6FF85C1D1C5E",
+      "text": ""
+    },
+    "iconId": "icon_tips_mission",
+    "id": "item_obtain_mission_main",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_monster_angle": {
+    "bindSystem": 55,
+    "desc": {
+      "id": "E1CBED81F3727390",
+      "text": ""
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_monster_angle",
+    "phaseArgs": "{\r\n  \u0022monsterId\u0022: \u0022eny_0021_agmelee\u0022\r\n}",
+    "phaseId": "Wiki"
+  },
+  "item_obtain_monster_animal": {
+    "bindSystem": 55,
+    "desc": {
+      "id": "374338A2FB4B4E64",
+      "text": ""
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_monster_animal",
+    "phaseArgs": "{\r\n  \u0022monsterId\u0022: \u0022eny_0050_hound\u0022\r\n}",
+    "phaseId": "Wiki"
+  },
+  "item_obtain_monster_common": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "8D5ABA26D74C6985",
+      "text": ""
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_monster_common",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_monster_eb": {
+    "bindSystem": 55,
+    "desc": {
+      "id": "DDB115CE0FB21641",
+      "text": ""
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_monster_eb",
+    "phaseArgs": "{\r\n  \u0022monsterId\u0022: \u0022eny_0029_lbmob\u0022\r\n}",
+    "phaseId": "Wiki"
+  },
+  "item_obtain_monster_ebjl": {
+    "bindSystem": 55,
+    "desc": {
+      "id": "76FB49E28E339086",
+      "text": ""
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_monster_ebjl",
+    "phaseArgs": "{\r\n  \u0022monsterId\u0022: \u0022eny_0053_hsmob\u0022\r\n}",
+    "phaseId": "Wiki"
+  },
+  "item_obtain_monster_erosion": {
+    "bindSystem": 55,
+    "desc": {
+      "id": "ED74CD56C176467D",
+      "text": ""
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_monster_erosion",
+    "phaseArgs": "{\r\n  \u0022monsterId\u0022: \u0022eny_0059_erhound\u0022\r\n}",
+    "phaseId": "Wiki"
+  },
+  "item_obtain_payshop_weapon": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "1BF9512A0DB89D54",
+      "text": ""
+    },
+    "iconId": "icon_tips_shop",
+    "id": "item_obtain_payshop_weapon",
+    "phaseArgs": "{\r\n  \u0022tab\u0022: \u0022weapon\u0022\r\n}",
+    "phaseId": "ShopEntry"
+  },
+  "item_obtain_plant": {
+    "bindSystem": 201,
+    "desc": {
+      "id": "E707EC065AAF06FB",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_plant",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_plant_grass_spc_1": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "F570D9402F3029BA",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_plant_grass_spc_1",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_plant_grass_spc_2": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "430FC3AA95E2281A",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_plant_grass_spc_2",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_plant_moss_spc_1": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "7FE1C43184950ED9",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_plant_moss_spc_1",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_plant_moss_spc_2": {
+    "bindSystem": 10000000,
+    "desc": {
+      "id": "9908B26C795316C3",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_plant_moss_spc_2",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_racing_dungeon": {
+    "bindSystem": 601,
+    "desc": {
+      "id": "9FFE927E377AB06A",
+      "text": ""
+    },
+    "iconId": "icon_tips_gameplay",
+    "id": "item_obtain_racing_dungeon",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureRacingDungeon\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "item_obtain_recycle_jinlong": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "58E77A1FF292A3B3",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_recycle_jinlong",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_recycle_tundra": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "6986831F63334A40",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_recycle_tundra",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_recycle_tundra_1": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "7426E88E7764E331",
+      "text": ""
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_recycle_tundra_1",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_p_recycler2100030591\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_settlement": {
+    "bindSystem": 501,
+    "desc": {
+      "id": "AD5C12A5EFC6AA95",
+      "text": ""
+    },
+    "iconId": "icon_tips_factory",
+    "id": "item_obtain_settlement",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_settlement_jinlong": {
+    "bindSystem": 501,
+    "desc": {
+      "id": "9830A0C8FCE756CF",
+      "text": ""
+    },
+    "iconId": "icon_tips_factory",
+    "id": "item_obtain_settlement_jinlong",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_settlement_tundra": {
+    "bindSystem": 501,
+    "desc": {
+      "id": "B51A8C9F26FB7712",
+      "text": ""
+    },
+    "iconId": "icon_tips_factory",
+    "id": "item_obtain_settlement_tundra",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_shop_greenticket": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "6648B1FDEBEA19E9",
+      "text": ""
+    },
+    "iconId": "icon_tips_shop",
+    "id": "item_obtain_shop_greenticket",
+    "phaseArgs": "{\r\n  \u0022tab\u0022: \u0022green\u0022\r\n}",
+    "phaseId": "ShopEntry"
+  },
+  "item_obtain_shop_yellowticket": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "EE92D2C0783F2854",
+      "text": ""
+    },
+    "iconId": "icon_tips_shop",
+    "id": "item_obtain_shop_yellowticket",
+    "phaseArgs": "{\r\n  \u0022tab\u0022: \u0022yellow\u0022\r\n}",
+    "phaseId": "ShopEntry"
+  },
+  "item_obtain_spaceship_manu": {
+    "bindSystem": 404,
+    "desc": {
+      "id": "4E239469D1C60E2D",
+      "text": ""
+    },
+    "iconId": "icon_tips_mfg",
+    "id": "item_obtain_spaceship_manu",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_ss_room_manufacturingstation9800000058\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_spaceship_plant": {
+    "bindSystem": 404,
+    "desc": {
+      "id": "1888CC62AAF391E8",
+      "text": ""
+    },
+    "iconId": "icon_tips_explore",
+    "id": "item_obtain_spaceship_plant",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_ss_room_growcabin9800000059\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_spaceship_seed": {
+    "bindSystem": 404,
+    "desc": {
+      "id": "DBE1F9D2B8658C8D",
+      "text": ""
+    },
+    "iconId": "icon_tips_explore",
+    "id": "item_obtain_spaceship_seed",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_ss_room_growcabin9800000059\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_spaceship_shop": {
+    "bindSystem": 406,
+    "desc": {
+      "id": "5A7942A43E121201",
+      "text": ""
+    },
+    "iconId": "icon_tips_shop",
+    "id": "item_obtain_spaceship_shop",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_npc_ss_shop9800060001\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "item_obtain_techtree": {
+    "bindSystem": 104,
+    "desc": {
+      "id": "A449B9286E97B6AD",
+      "text": ""
+    },
+    "iconId": "icon_tips_factory",
+    "id": "item_obtain_techtree",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_tower_defence": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "D926B03BE8F862DB",
+      "text": ""
+    },
+    "iconId": "icon_tips_tower",
+    "id": "item_obtain_tower_defence",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_valuable_gem": {
+    "bindSystem": 3,
+    "desc": {
+      "id": "8E4597CE3A2CD1F4",
+      "text": ""
+    },
+    "iconId": "icon_tips_proc",
+    "id": "item_obtain_valuable_gem",
+    "phaseArgs": "",
+    "phaseId": ""
+  },
+  "item_obtain_weapon_ticket": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "E31F6A5D75E62C13",
+      "text": ""
+    },
+    "iconId": "icon_tips_gacha",
+    "id": "item_obtain_weapon_ticket",
+    "phaseArgs": "{\r\n  \u0022tab\u0022: \u0022weapon\u0022\r\n}",
+    "phaseId": "ShopEntry"
+  },
+  "item_obtain_weapongold": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "045A99C3B3FB5AF6",
+      "text": ""
+    },
+    "iconId": "icon_tips_shop",
+    "id": "item_obtain_weapongold",
+    "phaseArgs": "{\r\n  \u0022sourceId\u0022: \u0022item_diamond\u0022,\r\n  \u0022targetId\u0022: \u0022item_gachabyproducts_weapongold\u0022\r\n}",
+    "phaseId": "CommonMoneyExchange"
+  },
+  "jump_PRTS_investigate_blight": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_PRTS_investigate_blight",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022research_blight\u0022\r\n}",
+    "phaseId": "PRTSInvestigateDetail"
+  },
+  "jump_PRTS_story_coll_uwst_3": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_PRTS_story_coll_uwst_3",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022research_nar_res_uwst_3\u0022\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_adventure_book": {
+    "bindSystem": 652,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_adventure_book",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureStage\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "jump_battle_train": {
+    "bindSystem": 602,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_battle_train",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureTraining\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "jump_blackbox": {
+    "bindSystem": 69,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_blackbox",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureBlackbox\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "jump_camp_map01_lv001": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_camp_map01_lv001",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_sp_campfire2100000284\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_char_level_upgrade": {
+    "bindSystem": 59,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_char_level_upgrade",
+    "phaseArgs": "",
+    "phaseId": "CharInfo"
+  },
+  "jump_dungeon_boss_rush": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_dungeon_boss_rush",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureDungeon\u0022,\r\n  \u0022dungeonTab\u0022: \u0022BossRush\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "jump_dungeon_char": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_dungeon_char",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureDungeon\u0022,\r\n  \u0022dungeonTab\u0022: \u0022CharResource\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "jump_dungeon_weapon": {
+    "bindSystem": 52,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_dungeon_weapon",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureDungeon\u0022,\r\n  \u0022dungeonTab\u0022: \u0022BasicResource\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "jump_equip": {
+    "bindSystem": 59,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_equip",
+    "phaseArgs": "{\r\n  \u0022pageType\u0022: 3\r\n}",
+    "phaseId": "CharInfo"
+  },
+  "jump_equip_produce": {
+    "bindSystem": 67,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_equip_produce",
+    "phaseArgs": "",
+    "phaseId": "EquipProducer"
+  },
+  "jump_fac_techtree": {
+    "bindSystem": 104,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_fac_techtree",
+    "phaseArgs": "",
+    "phaseId": "FacTechTree"
+  },
+  "jump_fac_techtree_asm": {
+    "bindSystem": 104,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_fac_techtree_asm",
+    "phaseArgs": "{\r\n  \u0022techId\u0022: \u0022tech_tundra_2_asm_1\u0022\r\n}",
+    "phaseId": "FacTechTree"
+  },
+  "jump_gacha": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_gacha",
+    "phaseArgs": "",
+    "phaseId": "GachaPool"
+  },
+  "jump_gacha_beginner": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_gacha_beginner",
+    "phaseArgs": "{\r\n  \u0022poolId\u0022: \u0022beginner_2024_12_1\u0022\r\n}",
+    "phaseId": "GachaPool"
+  },
+  "jump_gacha_limit_1": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_gacha_limit_1",
+    "phaseArgs": "{\r\n  \u0022poolId\u0022: \u0022special_2024_12_1\u0022\r\n}",
+    "phaseId": "GachaPool"
+  },
+  "jump_gacha_limit_2": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_gacha_limit_2",
+    "phaseArgs": "{\r\n  \u0022poolId\u0022: \u0022special_2025_1_1\u0022\r\n}",
+    "phaseId": "GachaPool"
+  },
+  "jump_gemrecast": {
+    "bindSystem": 3,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_gemrecast",
+    "phaseArgs": "",
+    "phaseId": "GemRecast"
+  },
+  "jump_gm01m7_1": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_gm01m7_1",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_col_message_gm01m7_9\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_gm01m7_2": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_gm01m7_2",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_col_message_gm01m7_10\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_gm01m7_3": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_gm01m7_3",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022research_blight\u0022\r\n}",
+    "phaseId": "PRTSInvestigateDetail"
+  },
+  "jump_handwork_item_plant_moss_spc_powder_1": {
+    "bindSystem": 201,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_handwork_item_plant_moss_spc_powder_1",
+    "phaseArgs": "",
+    "phaseId": "ManualCraft"
+  },
+  "jump_hub_craft": {
+    "bindSystem": 119,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_hub_craft",
+    "phaseArgs": "{\r\n  \u0022craftId\u0022: \u0022grinder_1\u0022\r\n}",
+    "phaseId": "FacHubCraft"
+  },
+  "jump_manul_craft": {
+    "bindSystem": 201,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_manul_craft",
+    "phaseArgs": "",
+    "phaseId": "ManualCraft"
+  },
+  "jump_map01_lv001": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_map01_lv001",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map01_lv001\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_map01_lv002": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_map01_lv002",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map01_lv002\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_map01_lv003": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_map01_lv003",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map01_lv003\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_map01_lv005": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_map01_lv005",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map01_lv005\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_map01_lv006": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_map01_lv006",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map01_lv006\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_map01_lv007": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_map01_lv007",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map01_lv007\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_map02_lv001": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_map02_lv001",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map02_lv001\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_map_spaceship": {
+    "bindSystem": 0,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_map_spaceship",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022base01_lv001\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_mission_daily": {
+    "bindSystem": 61,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_daily",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureDaily\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "jump_payshop": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_payshop",
+    "phaseArgs": "",
+    "phaseId": "ShopEntry"
+  },
+  "jump_payshop_green": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_payshop_green",
+    "phaseArgs": "{\r\n  \u0022tab\u0022: \u0022green\u0022\r\n}",
+    "phaseId": "ShopEntry"
+  },
+  "jump_payshop_weapon": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_payshop_weapon",
+    "phaseArgs": "{\r\n  \u0022tab\u0022: \u0022weapon\u0022\r\n}",
+    "phaseId": "ShopEntry"
+  },
+  "jump_payshop_yellow": {
+    "bindSystem": 51,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_payshop_yellow",
+    "phaseArgs": "{\r\n  \u0022tab\u0022: \u0022yellow\u0022\r\n}",
+    "phaseId": "ShopEntry"
+  },
+  "jump_racing_dungeon": {
+    "bindSystem": 601,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_racing_dungeon",
+    "phaseArgs": "{\r\n  \u0022panelId\u0022: \u0022AdventureRacingDungeon\u0022\r\n}",
+    "phaseId": "AdventureBook"
+  },
+  "jump_scne_grade": {
+    "bindSystem": 501,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_scne_grade",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map01_lv001\u0022\r\n}",
+    "phaseId": "SceneGrade"
+  },
+  "jump_scne_grade_m1l1": {
+    "bindSystem": 501,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_scne_grade_m1l1",
+    "phaseArgs": "{\r\n  \u0022levelId\u0022: \u0022map01_lv001\u0022\r\n}",
+    "phaseId": "SceneGrade"
+  },
+  "jump_settlement": {
+    "bindSystem": 501,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_settlement",
+    "phaseArgs": "",
+    "phaseId": "SettlementMain"
+  },
+  "jump_sm1l1m2_1": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m2_1",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m2_1\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m2_2": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m2_2",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m2_2\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m4_1": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m4_1",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m4_hatman_1\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m4_2": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m4_2",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m4_hatman_2\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m4_3": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m4_3",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m4_hatman_3\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_1": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_1",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_Alexander_1\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_2": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_2",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_Alexander_2\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_3": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_3",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_Alexander_3\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_4": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_4",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_Hans_1\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_5": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_5",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_Hans_2\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_6": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_6",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_Hans_3\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_7": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_7",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_hatman_1\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_8": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_8",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_hatman_2\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m5_9": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m5_9",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m5_hatman_3\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m6_1": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m6_1",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m6_Hatman_doc\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m6_2": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m6_2",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m6_Alexander_doc\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l1m6_3": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l1m6_3",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_sm1l1m6_Hans_doc\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l5m2_1": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l5m2_1",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_digital_sm1l5m2_1\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_sm1l5m2_2": {
+    "bindSystem": 56,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_sm1l5m2_2",
+    "phaseArgs": "{\r\n  \u0022id\u0022: \u0022nar_digital_sm1l5m2_2\u0022,\r\n  \u0022isFirstLvId\u0022: false\r\n}",
+    "phaseId": "PRTSStoryCollDetail"
+  },
+  "jump_spaceship_manu": {
+    "bindSystem": 404,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_spaceship_manu",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_ss_room_manufacturingstation9800000058\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_spaceship_plant": {
+    "bindSystem": 404,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_spaceship_plant",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_ss_room_growcabin9800000059\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_spaceship_shop": {
+    "bindSystem": 406,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_spaceship_shop",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022mark_npc_ss_shop9800060001\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_stm_tundra_1": {
+    "bindSystem": 501,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_stm_tundra_1",
+    "phaseArgs": "{\r\n  \u0022instId\u0022: \u0022stm_tundra_1\u0022\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_weapon": {
+    "bindSystem": 59,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_weapon",
+    "phaseArgs": "{\r\n  \u0022pageType\u0022: 2\r\n}",
+    "phaseId": "CharInfo"
+  },
+  "jump_wiki": {
+    "bindSystem": 55,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_wiki",
+    "phaseArgs": "",
+    "phaseId": "Wiki"
+  },
+  "jump_wiki_tut_advlevel": {
+    "bindSystem": 55,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "iconId": "",
+    "id": "jump_wiki_tut_advlevel",
+    "phaseArgs": "{\r\n  \u0022wikiEntryId\u0022: \u0022wiki_tut_adv_adventure_level\u0022\r\n}",
+    "phaseId": "Wiki"
+  }
+}

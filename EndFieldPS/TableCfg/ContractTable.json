@@ -1,0 +1,311 @@
+{
+  "contract_worker_1_1": {
+    "contractId": "contract_worker_1_1",
+    "contractName": {
+      "id": "539D82ABEB251A1F",
+      "text": ""
+    },
+    "desc": {
+      "id": "975EB4659A2E0B9A",
+      "text": ""
+    },
+    "frontIcon": "contract_bloc01_front_medicine_a",
+    "icon": "contract_bloc01_medicine_a",
+    "itemValueGroup": [
+      {
+        "itemId": "item_glass_bottle",
+        "value": 1
+      },
+      {
+        "itemId": "item_bottled_rec_hp_1",
+        "value": 10
+      },
+      {
+        "itemId": "item_bottled_food_1",
+        "value": 20
+      }
+    ],
+    "maxValue": 1800,
+    "minValue": 1200,
+    "neededItems": [
+      "item_glass_bottle",
+      "item_bottled_rec_hp_1",
+      "item_bottled_food_1"
+    ],
+    "orderIdGroup": [
+      "order_worker_1_1_1",
+      "order_worker_1_1_2",
+      "order_worker_1_1_3"
+    ],
+    "orderWeight": [
+      2,
+      4,
+      6
+    ],
+    "rewardItems": [
+      "item_spaceship_tundra_gold"
+    ],
+    "traderLevel": 1,
+    "type": 0
+  },
+  "contract_worker_1_2": {
+    "contractId": "contract_worker_1_2",
+    "contractName": {
+      "id": "DC94524AE2177A10",
+      "text": ""
+    },
+    "desc": {
+      "id": "4524515F0EBD82D4",
+      "text": ""
+    },
+    "frontIcon": "contract_bloc01_front_medicine_b",
+    "icon": "contract_bloc01_medicine_b",
+    "itemValueGroup": [
+      {
+        "itemId": "item_bottled_rec_hp_1",
+        "value": 1
+      },
+      {
+        "itemId": "item_bottled_food_1",
+        "value": 1
+      },
+      {
+        "itemId": "item_bottled_rec_hp_2",
+        "value": 5
+      },
+      {
+        "itemId": "item_bottled_food_2",
+        "value": 10
+      }
+    ],
+    "maxValue": 1800,
+    "minValue": 1200,
+    "neededItems": [
+      "item_bottled_rec_hp_1",
+      "item_bottled_food_1",
+      "item_bottled_rec_hp_2",
+      "item_bottled_food_2"
+    ],
+    "orderIdGroup": [
+      "order_worker_1_2_1",
+      "order_worker_1_2_2",
+      "order_worker_1_2_3"
+    ],
+    "orderWeight": [
+      2,
+      4,
+      6
+    ],
+    "rewardItems": [
+      "item_spaceship_tundra_gold"
+    ],
+    "traderLevel": 2,
+    "type": 0
+  },
+  "contract_worker_1_3": {
+    "contractId": "contract_worker_1_3",
+    "contractName": {
+      "id": "51772B7787883AE7",
+      "text": ""
+    },
+    "desc": {
+      "id": "E6422012EB0F1CD9",
+      "text": ""
+    },
+    "frontIcon": "contract_bloc01_front_medicine_c",
+    "icon": "contract_bloc01_medicine_c",
+    "itemValueGroup": [
+      {
+        "itemId": "item_bottled_rec_hp_2",
+        "value": 1
+      },
+      {
+        "itemId": "item_bottled_food_2",
+        "value": 1
+      },
+      {
+        "itemId": "item_bottled_rec_hp_3",
+        "value": 5
+      },
+      {
+        "itemId": "item_bottled_food_3",
+        "value": 10
+      }
+    ],
+    "maxValue": 1800,
+    "minValue": 1200,
+    "neededItems": [
+      "item_bottled_rec_hp_2",
+      "item_bottled_food_2",
+      "item_bottled_rec_hp_3",
+      "item_bottled_food_3"
+    ],
+    "orderIdGroup": [
+      "order_worker_1_3_1",
+      "order_worker_1_3_2",
+      "order_worker_1_3_3"
+    ],
+    "orderWeight": [
+      2,
+      4,
+      6
+    ],
+    "rewardItems": [
+      "item_spaceship_tundra_gold"
+    ],
+    "traderLevel": 3,
+    "type": 0
+  },
+  "contract_worker_2_1": {
+    "contractId": "contract_worker_2_1",
+    "contractName": {
+      "id": "A011A9F49F311A2C",
+      "text": ""
+    },
+    "desc": {
+      "id": "8EA68F2C6E6A1CE2",
+      "text": ""
+    },
+    "frontIcon": "contract_bloc01_front_tool_a",
+    "icon": "contract_bloc01_tool_a",
+    "itemValueGroup": [
+      {
+        "itemId": "item_originium_powder",
+        "value": 1
+      },
+      {
+        "itemId": "item_glass_cmpt",
+        "value": 1
+      },
+      {
+        "itemId": "item_proc_battery_1",
+        "value": 20
+      }
+    ],
+    "maxValue": 1800,
+    "minValue": 1200,
+    "neededItems": [
+      "item_originium_powder",
+      "item_glass_cmpt",
+      "item_proc_battery_1"
+    ],
+    "orderIdGroup": [
+      "order_worker_2_1_1",
+      "order_worker_2_1_2",
+      "order_worker_2_1_3"
+    ],
+    "orderWeight": [
+      2,
+      4,
+      6
+    ],
+    "rewardItems": [
+      "item_spaceship_tundra_gold"
+    ],
+    "traderLevel": 1,
+    "type": 1
+  },
+  "contract_worker_2_2": {
+    "contractId": "contract_worker_2_2",
+    "contractName": {
+      "id": "9491B2BD60ABDB11",
+      "text": ""
+    },
+    "desc": {
+      "id": "FB025555D2562784",
+      "text": ""
+    },
+    "frontIcon": "contract_bloc01_front_tool_b",
+    "icon": "contract_bloc01_tool_b",
+    "itemValueGroup": [
+      {
+        "itemId": "item_crystal_enr",
+        "value": 1
+      },
+      {
+        "itemId": "item_iron_cmpt",
+        "value": 1
+      },
+      {
+        "itemId": "item_proc_battery_1",
+        "value": 5
+      },
+      {
+        "itemId": "item_proc_battery_2",
+        "value": 10
+      }
+    ],
+    "maxValue": 1800,
+    "minValue": 1200,
+    "neededItems": [
+      "item_crystal_enr",
+      "item_iron_cmpt",
+      "item_proc_battery_1",
+      "item_proc_battery_2"
+    ],
+    "orderIdGroup": [
+      "order_worker_2_2_1",
+      "order_worker_2_2_2",
+      "order_worker_2_2_3"
+    ],
+    "orderWeight": [
+      2,
+      4,
+      6
+    ],
+    "rewardItems": [
+      "item_spaceship_tundra_gold"
+    ],
+    "traderLevel": 2,
+    "type": 1
+  },
+  "contract_worker_2_3": {
+    "contractId": "contract_worker_2_3",
+    "contractName": {
+      "id": "1CFC469560089A32",
+      "text": ""
+    },
+    "desc": {
+      "id": "690B175DE5C00D16",
+      "text": ""
+    },
+    "frontIcon": "contract_bloc01_front_tool_c",
+    "icon": "contract_bloc01_tool_c",
+    "itemValueGroup": [
+      {
+        "itemId": "item_iron_enr_cmpt",
+        "value": 1
+      },
+      {
+        "itemId": "item_proc_battery_2",
+        "value": 5
+      },
+      {
+        "itemId": "item_proc_battery_3",
+        "value": 10
+      }
+    ],
+    "maxValue": 1800,
+    "minValue": 1200,
+    "neededItems": [
+      "item_iron_enr_cmpt",
+      "item_proc_battery_2",
+      "item_proc_battery_3"
+    ],
+    "orderIdGroup": [
+      "order_worker_2_3_1",
+      "order_worker_2_3_2",
+      "order_worker_2_3_3"
+    ],
+    "orderWeight": [
+      2,
+      4,
+      6
+    ],
+    "rewardItems": [
+      "item_spaceship_tundra_gold"
+    ],
+    "traderLevel": 3,
+    "type": 1
+  }
+}

@@ -1,0 +1,683 @@
+{
+  "world_energy_point01": {
+    "diffGradeEnemyInfosList": [
+      {
+        "ids": [
+          "eny_0021_agmelee",
+          "eny_0063_agmelee2",
+          "eny_0025_agrange",
+          "eny_0064_agrange2",
+          "eny_0023_aghornb",
+          "eny_0027_agscorp"
+        ],
+        "levels": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "ids": [
+          "eny_0021_agmelee",
+          "eny_0063_agmelee2",
+          "eny_0025_agrange",
+          "eny_0064_agrange2",
+          "eny_0023_aghornb",
+          "eny_0027_agscorp"
+        ],
+        "levels": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ]
+      },
+      {
+        "ids": [
+          "eny_0021_agmelee",
+          "eny_0063_agmelee2",
+          "eny_0025_agrange",
+          "eny_0064_agrange2",
+          "eny_0023_aghornb",
+          "eny_0027_agscorp"
+        ],
+        "levels": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ]
+      },
+      {
+        "ids": [
+          "eny_0021_agmelee",
+          "eny_0063_agmelee2",
+          "eny_0025_agrange",
+          "eny_0064_agrange2",
+          "eny_0023_aghornb",
+          "eny_0027_agscorp"
+        ],
+        "levels": [
+          55,
+          55,
+          55,
+          55,
+          55,
+          55
+        ]
+      }
+    ],
+    "diffGradeItemList": [
+      {
+        "ids": [
+          "item_gem_rarity_2",
+          "item_drop_angle_m_1",
+          "item_drop_angle_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_2",
+          "item_drop_angle_m_1",
+          "item_drop_angle_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_3",
+          "item_drop_angle_m_1",
+          "item_drop_angle_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_3",
+          "item_drop_angle_m_1",
+          "item_drop_angle_s_1",
+          "item_drop_enemycommon_1",
+          "item_drop_angle_l_1"
+        ]
+      }
+    ],
+    "firstPassRewardId": "reward_world_energy_point01",
+    "gameMechanicsId": "world_energy_point01",
+    "icon": "adventure_eny_0023_aghornb",
+    "sceneId": "map01_lv001",
+    "sortId": 1
+  },
+  "world_energy_point02": {
+    "diffGradeEnemyInfosList": [
+      {
+        "ids": [
+          "eny_0029_lbmob",
+          "eny_0065_lbmob2",
+          "eny_0060_lbmad",
+          "eny_0050_hound",
+          "eny_0067_hound2",
+          "eny_0046_lbshamman",
+          "eny_0068_lbtough2"
+        ],
+        "levels": [
+          29,
+          29,
+          29,
+          29,
+          29,
+          29,
+          29
+        ]
+      },
+      {
+        "ids": [
+          "eny_0029_lbmob",
+          "eny_0065_lbmob2",
+          "eny_0060_lbmad",
+          "eny_0050_hound",
+          "eny_0067_hound2",
+          "eny_0046_lbshamman",
+          "eny_0068_lbtough2"
+        ],
+        "levels": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ]
+      },
+      {
+        "ids": [
+          "eny_0029_lbmob",
+          "eny_0065_lbmob2",
+          "eny_0060_lbmad",
+          "eny_0050_hound",
+          "eny_0067_hound2",
+          "eny_0046_lbshamman",
+          "eny_0068_lbtough2"
+        ],
+        "levels": [
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55
+        ]
+      },
+      {
+        "ids": [
+          "eny_0029_lbmob",
+          "eny_0065_lbmob2",
+          "eny_0060_lbmad",
+          "eny_0050_hound",
+          "eny_0067_hound2",
+          "eny_0046_lbshamman",
+          "eny_0068_lbtough2"
+        ],
+        "levels": [
+          65,
+          65,
+          65,
+          65,
+          65,
+          65,
+          65
+        ]
+      }
+    ],
+    "diffGradeItemList": [
+      {
+        "ids": [
+          "item_gem_rarity_2",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_3",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_3",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_4",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_enemycommon_1"
+        ]
+      }
+    ],
+    "firstPassRewardId": "reward_world_energy_point02",
+    "gameMechanicsId": "world_energy_point02",
+    "icon": "adventure_eny_0060_lbmad",
+    "sceneId": "map01_lv005",
+    "sortId": 2
+  },
+  "world_energy_point03": {
+    "diffGradeEnemyInfosList": [
+      {
+        "ids": [
+          "eny_0021_agmelee",
+          "eny_0063_agmelee2",
+          "eny_0023_aghornb",
+          "eny_0025_agrange",
+          "eny_0064_agrange2",
+          "eny_0027_agscorp",
+          "eny_0007_mimicw",
+          "eny_0058_agdisk"
+        ],
+        "levels": [
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35
+        ]
+      },
+      {
+        "ids": [
+          "eny_0021_agmelee",
+          "eny_0063_agmelee2",
+          "eny_0023_aghornb",
+          "eny_0025_agrange",
+          "eny_0064_agrange2",
+          "eny_0027_agscorp",
+          "eny_0007_mimicw",
+          "eny_0058_agdisk"
+        ],
+        "levels": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      {
+        "ids": [
+          "eny_0021_agmelee",
+          "eny_0063_agmelee2",
+          "eny_0023_aghornb",
+          "eny_0025_agrange",
+          "eny_0064_agrange2",
+          "eny_0027_agscorp",
+          "eny_0007_mimicw",
+          "eny_0058_agdisk"
+        ],
+        "levels": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      },
+      {
+        "ids": [
+          "eny_0021_agmelee",
+          "eny_0063_agmelee2",
+          "eny_0023_aghornb",
+          "eny_0025_agrange",
+          "eny_0064_agrange2",
+          "eny_0027_agscorp",
+          "eny_0007_mimicw",
+          "eny_0058_agdisk"
+        ],
+        "levels": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ]
+      }
+    ],
+    "diffGradeItemList": [
+      {
+        "ids": [
+          "item_gem_rarity_2",
+          "item_drop_angle_m_1",
+          "item_drop_angle_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_3",
+          "item_drop_angle_l_1",
+          "item_drop_angle_m_1",
+          "item_drop_angle_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_4",
+          "item_drop_angle_l_1",
+          "item_drop_angle_m_1",
+          "item_drop_angle_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_4",
+          "item_drop_angle_l_1",
+          "item_drop_angle_m_1",
+          "item_drop_angle_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      }
+    ],
+    "firstPassRewardId": "reward_world_energy_point03",
+    "gameMechanicsId": "world_energy_point03",
+    "icon": "adventure_eny_0058_agdisk",
+    "sceneId": "map01_lv006",
+    "sortId": 3
+  },
+  "world_energy_point04": {
+    "diffGradeEnemyInfosList": [
+      {
+        "ids": [
+          "eny_0033_lbhunt",
+          "eny_0066_lbhunt2",
+          "eny_0050_hound",
+          "eny_0067_hound2",
+          "eny_0059_erhound",
+          "eny_0049_rogue",
+          "eny_0047_firebat",
+          "eny_0048_hvybow"
+        ],
+        "levels": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      {
+        "ids": [
+          "eny_0033_lbhunt",
+          "eny_0066_lbhunt2",
+          "eny_0050_hound",
+          "eny_0067_hound2",
+          "eny_0059_erhound",
+          "eny_0049_rogue",
+          "eny_0047_firebat",
+          "eny_0048_hvybow"
+        ],
+        "levels": [
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55
+        ]
+      },
+      {
+        "ids": [
+          "eny_0033_lbhunt",
+          "eny_0066_lbhunt2",
+          "eny_0050_hound",
+          "eny_0067_hound2",
+          "eny_0059_erhound",
+          "eny_0049_rogue",
+          "eny_0047_firebat",
+          "eny_0048_hvybow"
+        ],
+        "levels": [
+          65,
+          65,
+          65,
+          65,
+          65,
+          65,
+          65,
+          65
+        ]
+      },
+      {
+        "ids": [
+          "eny_0033_lbhunt",
+          "eny_0066_lbhunt2",
+          "eny_0050_hound",
+          "eny_0067_hound2",
+          "eny_0059_erhound",
+          "eny_0049_rogue",
+          "eny_0047_firebat",
+          "eny_0048_hvybow"
+        ],
+        "levels": [
+          75,
+          75,
+          75,
+          75,
+          75,
+          75,
+          75,
+          75
+        ]
+      }
+    ],
+    "diffGradeItemList": [
+      {
+        "ids": [
+          "item_gem_rarity_3",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_erosion_m_1",
+          "item_drop_erosion_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_3",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_erosion_m_1",
+          "item_drop_erosion_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_4",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_erosion_m_1",
+          "item_drop_erosion_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_4",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_erosion_m_1",
+          "item_drop_erosion_s_1",
+          "item_drop_enemycommon_1"
+        ]
+      }
+    ],
+    "firstPassRewardId": "reward_world_energy_point04",
+    "gameMechanicsId": "world_energy_point04",
+    "icon": "adventure_eny_0048_hvybow",
+    "sceneId": "map01_lv007",
+    "sortId": 4
+  },
+  "world_energy_point05": {
+    "diffGradeEnemyInfosList": [
+      {
+        "ids": [
+          "eny_0054_hsmino",
+          "eny_0055_hscrane",
+          "eny_0053_hsmob",
+          "eny_0049_rogue",
+          "eny_0050_hound",
+          "eny_0033_lbhunt",
+          "eny_0065_lbmob2",
+          "eny_0066_lbhunt2"
+        ],
+        "levels": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      {
+        "ids": [
+          "eny_0054_hsmino",
+          "eny_0055_hscrane",
+          "eny_0053_hsmob",
+          "eny_0049_rogue",
+          "eny_0050_hound",
+          "eny_0033_lbhunt",
+          "eny_0065_lbmob2",
+          "eny_0066_lbhunt2"
+        ],
+        "levels": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      },
+      {
+        "ids": [
+          "eny_0054_hsmino",
+          "eny_0055_hscrane",
+          "eny_0053_hsmob",
+          "eny_0049_rogue",
+          "eny_0050_hound",
+          "eny_0033_lbhunt",
+          "eny_0065_lbmob2",
+          "eny_0066_lbhunt2"
+        ],
+        "levels": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ]
+      },
+      {
+        "ids": [
+          "eny_0054_hsmino",
+          "eny_0055_hscrane",
+          "eny_0053_hsmob",
+          "eny_0049_rogue",
+          "eny_0050_hound",
+          "eny_0033_lbhunt",
+          "eny_0065_lbmob2",
+          "eny_0066_lbhunt2"
+        ],
+        "levels": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    ],
+    "diffGradeItemList": [
+      {
+        "ids": [
+          "item_gem_rarity_3",
+          "item_drop_erosion_s_1",
+          "item_drop_erosion_m_1",
+          "item_drop_eb_jl_m_1",
+          "item_drop_eb_jl_s_1",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_4",
+          "item_drop_erosion_s_1",
+          "item_drop_erosion_m_1",
+          "item_drop_eb_jl_m_1",
+          "item_drop_eb_jl_s_1",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_4",
+          "item_drop_erosion_s_1",
+          "item_drop_erosion_m_1",
+          "item_drop_eb_jl_m_1",
+          "item_drop_eb_jl_s_1",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_enemycommon_1"
+        ]
+      },
+      {
+        "ids": [
+          "item_gem_rarity_4",
+          "item_drop_erosion_s_1",
+          "item_drop_erosion_m_1",
+          "item_drop_eb_jl_m_1",
+          "item_drop_eb_jl_s_1",
+          "item_drop_eb_l_1",
+          "item_drop_eb_m_1",
+          "item_drop_eb_s_1",
+          "item_drop_animal_1",
+          "item_drop_enemycommon_1"
+        ]
+      }
+    ],
+    "firstPassRewardId": "reward_world_energy_point04",
+    "gameMechanicsId": "world_energy_point05",
+    "icon": "adventure_eny_0054_hsmino",
+    "sceneId": "map02_lv001",
+    "sortId": 5
+  }
+}

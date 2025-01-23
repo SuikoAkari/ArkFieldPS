@@ -1,0 +1,290 @@
+{
+  "order_worker_1_1_1": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_1",
+    "desc": {
+      "id": "EB3048B14C9D9FE2",
+      "text": ""
+    },
+    "name": {
+      "id": "B8E49E40AEB12DCA",
+      "text": ""
+    },
+    "needValue": 1200,
+    "orderId": "order_worker_1_1_1",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_1_1_2": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_1",
+    "desc": {
+      "id": "929E7F30D32924D8",
+      "text": ""
+    },
+    "name": {
+      "id": "75CF9507B8B82608",
+      "text": ""
+    },
+    "needValue": 1500,
+    "orderId": "order_worker_1_1_2",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_1_1_3": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_1",
+    "desc": {
+      "id": "2442107D7C61A388",
+      "text": ""
+    },
+    "name": {
+      "id": "857AB304AF939DEB",
+      "text": ""
+    },
+    "needValue": 1800,
+    "orderId": "order_worker_1_1_3",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_1_2_1": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_2",
+    "desc": {
+      "id": "03B74EA8A3BA64F8",
+      "text": ""
+    },
+    "name": {
+      "id": "9F903A83BFA22E35",
+      "text": ""
+    },
+    "needValue": 1200,
+    "orderId": "order_worker_1_2_1",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_1_2_2": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_2",
+    "desc": {
+      "id": "52618B02C7D5243B",
+      "text": ""
+    },
+    "name": {
+      "id": "50C2A3C203E02FF5",
+      "text": ""
+    },
+    "needValue": 1500,
+    "orderId": "order_worker_1_2_2",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_1_2_3": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_2",
+    "desc": {
+      "id": "27DFFE49A6D3DA01",
+      "text": ""
+    },
+    "name": {
+      "id": "02C13BE859F3FDF4",
+      "text": ""
+    },
+    "needValue": 1800,
+    "orderId": "order_worker_1_2_3",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_1_3_1": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_3",
+    "desc": {
+      "id": "00D160073E1F0615",
+      "text": ""
+    },
+    "name": {
+      "id": "F2DB04A9B7B80757",
+      "text": ""
+    },
+    "needValue": 1200,
+    "orderId": "order_worker_1_3_1",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_1_3_2": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_3",
+    "desc": {
+      "id": "9ECFF8734EECF430",
+      "text": ""
+    },
+    "name": {
+      "id": "276695F6E3C3202F",
+      "text": ""
+    },
+    "needValue": 1500,
+    "orderId": "order_worker_1_3_2",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_1_3_3": {
+    "blocExp": 10,
+    "color": "FFDF04",
+    "contractId": "contract_worker_1_3",
+    "desc": {
+      "id": "2AC95738AD0B16F3",
+      "text": ""
+    },
+    "name": {
+      "id": "8CB6CEEC3BBCE858",
+      "text": ""
+    },
+    "needValue": 1800,
+    "orderId": "order_worker_1_3_3",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_1_1": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_1",
+    "desc": {
+      "id": "1F9A2CF1BA4BF483",
+      "text": ""
+    },
+    "name": {
+      "id": "FB8E41C557FB5013",
+      "text": ""
+    },
+    "needValue": 1200,
+    "orderId": "order_worker_2_1_1",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_1_2": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_1",
+    "desc": {
+      "id": "ED8D609E9292CAE4",
+      "text": ""
+    },
+    "name": {
+      "id": "0E9417DFDA163C25",
+      "text": ""
+    },
+    "needValue": 1500,
+    "orderId": "order_worker_2_1_2",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_1_3": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_1",
+    "desc": {
+      "id": "FE5B8DBCDBEE9AC8",
+      "text": ""
+    },
+    "name": {
+      "id": "FC08AD996F836FFF",
+      "text": ""
+    },
+    "needValue": 1800,
+    "orderId": "order_worker_2_1_3",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_2_1": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_2",
+    "desc": {
+      "id": "5D627165060CCB83",
+      "text": ""
+    },
+    "name": {
+      "id": "7EBBCCB19078E0C7",
+      "text": ""
+    },
+    "needValue": 1200,
+    "orderId": "order_worker_2_2_1",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_2_2": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_2",
+    "desc": {
+      "id": "FEF1EA68AD3298F1",
+      "text": ""
+    },
+    "name": {
+      "id": "9937813AFDD7B9F2",
+      "text": ""
+    },
+    "needValue": 1500,
+    "orderId": "order_worker_2_2_2",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_2_3": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_2",
+    "desc": {
+      "id": "CDF19662DD1A303D",
+      "text": ""
+    },
+    "name": {
+      "id": "3D3422B2B348B82B",
+      "text": ""
+    },
+    "needValue": 1800,
+    "orderId": "order_worker_2_2_3",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_3_1": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_3",
+    "desc": {
+      "id": "67946AB0736F5B81",
+      "text": ""
+    },
+    "name": {
+      "id": "38B602CBEE76AC67",
+      "text": ""
+    },
+    "needValue": 1200,
+    "orderId": "order_worker_2_3_1",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_3_2": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_3",
+    "desc": {
+      "id": "725D663DA4502516",
+      "text": ""
+    },
+    "name": {
+      "id": "86E270F2B25D1329",
+      "text": ""
+    },
+    "needValue": 1500,
+    "orderId": "order_worker_2_3_2",
+    "rewardId": "reward_order_tundra_1_1_1"
+  },
+  "order_worker_2_3_3": {
+    "blocExp": 10,
+    "color": "1B81B1",
+    "contractId": "contract_worker_2_3",
+    "desc": {
+      "id": "F1FA87B2D29C7E02",
+      "text": ""
+    },
+    "name": {
+      "id": "AA5E2D1FA83214B6",
+      "text": ""
+    },
+    "needValue": 1800,
+    "orderId": "order_worker_2_3_3",
+    "rewardId": "reward_order_tundra_1_1_1"
+  }
+}

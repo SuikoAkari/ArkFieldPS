@@ -1,0 +1,3558 @@
+{
+  "eny_0007_mimicw": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0007_mimicw",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0007_mimicw",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0007_mimicw"
+  },
+  "eny_0007_mimicw_dungeon": {
+    "aiTemplateId": "aiconf_eny_0007_mimicw_dungeon",
+    "attrModifiers": [
+      {
+        "attrType": 12,
+        "attrValue": 100,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0007_mimicw",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0007_mimicw_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0007_mimicw"
+  },
+  "eny_0007_mimicw_quest01": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0007_mimicw",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0007_mimicw_quest01",
+    "modelId": "eny_0007_mimicw_quest01_postmodel",
+    "showBigHeadbar": false,
+    "templateId": "eny_0007_mimicw"
+  },
+  "eny_0018_lbtough": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0018_lbtough",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0018_lbtough",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_001": {
+    "aiTemplateId": "aiconf_eny_0018_lbtough_001",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0018_lbtough_001",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0018_lbtough_001",
+    "modelId": "",
+    "showBigHeadbar": true,
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_cardefend": {
+    "aiTemplateId": "Settlement/aiconf_eny_0018_lbtough_cardefend",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0018_lbtough",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0018_lbtough_cardefend",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0018_lbtough",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0018_lbtough_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_quest01": {
+    "aiTemplateId": "aiconf_eny_0018_lbtough_hibernate",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0018_lbtough",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0018_lbtough_quest01",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_race": {
+    "aiTemplateId": "aiconf_eny_0018_lbtough_endinggame",
+    "attrModifiers": [
+      {
+        "attrType": 20,
+        "attrValue": 60,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": 1.11111111111111,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0018_lbtough",
+    "bornBuffs": [
+      "buff_common_born",
+      "buff_eny_0018_lbtough_endinggame_vfx"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0018_lbtough_race",
+    "modelId": "eny_0018_lbtough_race_postmodel",
+    "showBigHeadbar": true,
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0018_lbtough_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0018_lbtough",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0018_lbtough_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0018_lbtough_train": {
+    "aiTemplateId": "aiconf_eny_0018_lbtough_train",
+    "attrModifiers": [
+      {
+        "attrType": 1,
+        "attrValue": -0.33,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0018_lbtough",
+    "bornBuffs": [
+      "buff_eny_0018_lbtough_train"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0018_lbtough_train",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0018_lbtough"
+  },
+  "eny_0021_agmelee": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0021_agmelee",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0021_agmelee",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_agtrinit": {
+    "aiTemplateId": "aiconf_eny_0021_agmelee_agtrinit",
+    "attrModifiers": [
+      {
+        "attrType": 2,
+        "attrValue": -0.1,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": -0.1,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0021_agmelee",
+    "bornBuffs": [
+      "buff_eny_0045_agtrinit_minion_buff"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0021_agmelee_agtrinit",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_ce_1hp": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0021_agmelee",
+    "bornBuffs": [
+      "buff_eny_0021_agmelee_ce_deduct_hp"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0021_agmelee_ce_1hp",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_dummy": {
+    "aiTemplateId": "aiconf_eny_0021_agmelee_dummy",
+    "attrModifiers": [
+      {
+        "attrType": 1,
+        "attrValue": 1000,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0021_agmelee",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0021_agmelee_dummy",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0021_agmelee",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0021_agmelee_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_prolog": {
+    "aiTemplateId": "aiconf_eny_0021_agmelee_prolog",
+    "attrModifiers": [
+      {
+        "attrType": 1,
+        "attrValue": 0.6,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 2,
+        "attrValue": -0.8,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0021_agmelee",
+    "bornBuffs": [
+      "buff_prolog_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0021_agmelee_prolog",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_prolog2": {
+    "aiTemplateId": "aiconf_eny_0021_agmelee_prolog2",
+    "attrModifiers": [
+      {
+        "attrType": 1,
+        "attrValue": 0.6,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 2,
+        "attrValue": -0.8,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0021_agmelee_prolog2",
+    "bornBuffs": [
+      "buff_prolog_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0021_agmelee_prolog2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_prolog_xl": {
+    "aiTemplateId": "aiconf_eny_0021_agmelee_prolog",
+    "attrModifiers": [
+      {
+        "attrType": 1,
+        "attrValue": 0.6,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 2,
+        "attrValue": -0.8,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0021_agmelee",
+    "bornBuffs": [
+      "buff_prolog_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0021_agmelee_prolog_xl",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0021_agmelee_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0021_agmelee_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0021_agmelee",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0021_agmelee_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0021_agmelee"
+  },
+  "eny_0023_aghornb": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0023_aghornb",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0023_aghornb",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_agtrinit": {
+    "aiTemplateId": "",
+    "attrModifiers": [
+      {
+        "attrType": 2,
+        "attrValue": 1,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": -0.5,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0023_aghornb",
+    "bornBuffs": [
+      "buff_eny_0045_agtrinit_minion_buff"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0023_aghornb_agtrinit",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0023_aghornb",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0023_aghornb_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_noborneffect": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0023_aghornb",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0023_aghornb_noborneffect",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_prolog": {
+    "aiTemplateId": "aiconf_eny_0023_aghornb_prolog",
+    "attrModifiers": [
+      {
+        "attrType": 1,
+        "attrValue": 0.8,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 20,
+        "attrValue": -120,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 2,
+        "attrValue": -0.8,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0023_aghornb",
+    "bornBuffs": [
+      "buff_prolog_born",
+      "buff_prolog_no_poise_rec"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0023_aghornb_prolog",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_race": {
+    "aiTemplateId": "aiconf_eny_0023_aghornb_endinggame",
+    "attrModifiers": [
+      {
+        "attrType": 20,
+        "attrValue": 80,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": 2.5,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0023_aghornb",
+    "bornBuffs": [
+      "buff_common_born",
+      "buff_eny_0023_aghornb_endinggame_vfx",
+      "buff_common_superarmor_infinity"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0023_aghornb_race",
+    "modelId": "eny_0023_aghornb_race_postmodel",
+    "showBigHeadbar": true,
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0023_aghornb_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0023_aghornb",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0023_aghornb_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0023_aghornb_train": {
+    "aiTemplateId": "aiconf_eny_0023_aghornb_train",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0023_aghornb",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0023_aghornb_train",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0023_aghornb"
+  },
+  "eny_0025_agrange": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0025_agrange",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0025_agrange",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_agtrinit": {
+    "aiTemplateId": "aiconf_eny_0025_agrange_agtrinit",
+    "attrModifiers": [
+      {
+        "attrType": 2,
+        "attrValue": -0.1,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": -0.1,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0025_agrange",
+    "bornBuffs": [
+      "buff_eny_0045_agtrinit_minion_buff"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0025_agrange_agtrinit",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0025_agrange",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0025_agrange_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_noborneffect": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0025_agrange",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0025_agrange_noborneffect",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_prolog": {
+    "aiTemplateId": "aiconf_eny_0025_agrange_prolog",
+    "attrModifiers": [
+      {
+        "attrType": 12,
+        "attrValue": 10,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": -0.6,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 2,
+        "attrValue": -0.8,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0025_agrange",
+    "bornBuffs": [
+      "buff_prolog_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0025_agrange_prolog",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_quest01": {
+    "aiTemplateId": "aiconf_eny_0025_agrange_quest01",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0025_agrange",
+    "bornBuffs": [
+      "buff_eny_0025_agrange_effect_asset"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0025_agrange_quest01",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_race": {
+    "aiTemplateId": "aiconf_eny_0025_agrange_race",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0025_agrange",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0025_agrange_race",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0025_agrange_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0025_agrange_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0025_agrange",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0025_agrange_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0025_agrange"
+  },
+  "eny_0027_agscorp": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0027_agscorp",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0027_agscorp",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0027_agscorp_agtrinit": {
+    "aiTemplateId": "",
+    "attrModifiers": [
+      {
+        "attrType": 2,
+        "attrValue": 1,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": -0.5,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0027_agscorp",
+    "bornBuffs": [
+      "buff_eny_0045_agtrinit_minion_buff"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0027_agscorp_agtrinit",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0027_agscorp_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0027_agscorp",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0027_agscorp_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0027_agscorp_quest01": {
+    "aiTemplateId": "aiconf_eny_0027_agscorp_quest01",
+    "attrModifiers": [
+      {
+        "attrType": 20,
+        "attrValue": -5,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 2,
+        "attrValue": -0.65,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0027_agscorp",
+    "bornBuffs": [
+      "buff_eny_0027_agscorp_quest01_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0027_agscorp_quest01",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0027_agscorp_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0027_agscorp_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0027_agscorp",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0027_agscorp_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0027_agscorp"
+  },
+  "eny_0029_lbmob": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0029_lbmob",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0029_lbmob",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0029_lbmob_cardefend": {
+    "aiTemplateId": "Settlement/aiconf_eny_0029_lbmob_cardefend",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0029_lbmob",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0029_lbmob_cardefend",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0029_lbmob_dummy": {
+    "aiTemplateId": "aiconf_eny_0029_lbmob_dummy",
+    "attrModifiers": [
+      {
+        "attrType": 1,
+        "attrValue": 1000,
+        "modifierType": 1,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0029_lbmob",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0029_lbmob_dummy",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0029_lbmob_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0029_lbmob",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0029_lbmob_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0029_lbmob_settlment": {
+    "aiTemplateId": "Settlement/aiconf_eny_0029_lbmob_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0029_lbmob",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0029_lbmob_settlment",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0029_lbmob"
+  },
+  "eny_0033_lbhunt": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0033_lbhunt",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0033_lbhunt",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0033_lbhunt_cardefend": {
+    "aiTemplateId": "Settlement/aiconf_eny_0033_lbhunt_cardefend",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0033_lbhunt",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0033_lbhunt_cardefend",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0033_lbhunt_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0033_lbhunt",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0033_lbhunt_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0033_lbhunt_noborneffect": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0033_lbhunt",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0033_lbhunt_noborneffect",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0033_lbhunt_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0033_lbhunt_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0033_lbhunt",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0033_lbhunt_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0033_lbhunt"
+  },
+  "eny_0039_agcanno": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0039_agcanno",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0039_agcanno",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0039_agcanno"
+  },
+  "eny_0039_agcanno_dung01": {
+    "aiTemplateId": "aiconf_eny_0039_agcanno_dung01",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0039_agcanno",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0039_agcanno_dung01",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0039_agcanno"
+  },
+  "eny_0045_agtrinit": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0045_agtrinit",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0045_agtrinit",
+    "modelId": "",
+    "showBigHeadbar": true,
+    "templateId": "eny_0045_agtrinit"
+  },
+  "eny_0045_agtrinit_race": {
+    "aiTemplateId": "aiconf_eny_0045_agtrinit_race",
+    "attrModifiers": [
+      {
+        "attrType": 1,
+        "attrValue": 1,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0045_agtrinit",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0045_agtrinit_race",
+    "modelId": "",
+    "showBigHeadbar": true,
+    "templateId": "eny_0045_agtrinit"
+  },
+  "eny_0046_lbshamman": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0046_lbshamman",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0046_lbshamman",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_cardefend": {
+    "aiTemplateId": "Settlement/aiconf_eny_0046_lbshamman_cardefend",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0046_lbshamman",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0046_lbshamman_cardefend",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0046_lbshamman",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0046_lbshamman_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_phantom": {
+    "aiTemplateId": "aiconf_eny_0046_lbshamman_phantom",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0046_lbshamman",
+    "bornBuffs": [
+      "buff_eny_0046_lbshamman_phantom_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0046_lbshamman_phantom",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_race": {
+    "aiTemplateId": "aiconf_eny_0046_lbshamman_endrpg",
+    "attrModifiers": [
+      {
+        "attrType": 20,
+        "attrValue": 80,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": 2.5,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0046_lbshamman",
+    "bornBuffs": [
+      "buff_common_born",
+      "buff_common_superarmor_infinity"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0046_lbshamman_race",
+    "modelId": "eny_0046_lbshamman_race_postmodel",
+    "showBigHeadbar": true,
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0046_lbshamman_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0046_lbshamman_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0046_lbshamman",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0046_lbshamman_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0046_lbshamman"
+  },
+  "eny_0047_firebat": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0047_firebat",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0047_firebat",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0047_firebat"
+  },
+  "eny_0047_firebat_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0047_firebat",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0047_firebat_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0047_firebat"
+  },
+  "eny_0047_firebat_race": {
+    "aiTemplateId": "aiconf_eny_0047_firebat_race",
+    "attrModifiers": [
+      {
+        "attrType": 20,
+        "attrValue": 70,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": 2.5,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0047_firebat",
+    "bornBuffs": [
+      "buff_common_born",
+      "buff_common_superarmor_infinity"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0047_firebat_race",
+    "modelId": "eny_0047_firebat_race_postmodel",
+    "showBigHeadbar": true,
+    "templateId": "eny_0047_firebat"
+  },
+  "eny_0048_hvybow": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0048_hvybow",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0048_hvybow",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0048_hvybow_bridge_warden": {
+    "aiTemplateId": "aiconf_eny_0048_hvybow_brige_warden",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0048_hvybow",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0048_hvybow_bridge_warden",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0048_hvybow_cardefend": {
+    "aiTemplateId": "aiconf_eny_0048_hvybow_cardefend",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0048_hvybow",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0048_hvybow_cardefend",
+    "modelId": "",
+    "showBigHeadbar": true,
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0048_hvybow_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0048_hvybow",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0048_hvybow_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0048_hvybow_race": {
+    "aiTemplateId": "aiconf_eny_0048_hvybow_race",
+    "attrModifiers": [
+      {
+        "attrType": 20,
+        "attrValue": 30,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": 1.11111111111111,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0048_hvybow",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0048_hvybow_race",
+    "modelId": "eny_0048_hvybow_race_postmodel",
+    "showBigHeadbar": false,
+    "templateId": "eny_0048_hvybow"
+  },
+  "eny_0049_rogue": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0049_rogue",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0049_rogue",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0049_rogue"
+  },
+  "eny_0049_rogue_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0049_rogue",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0049_rogue_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0049_rogue"
+  },
+  "eny_0049_rogue_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0049_rogue_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0049_rogue",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0049_rogue_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0049_rogue"
+  },
+  "eny_0050_hound": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0050_hound",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0050_hound",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0050_hound_cardefend": {
+    "aiTemplateId": "Settlement/aiconf_eny_0050_hound_cardefend",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0050_hound",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0050_hound_cardefend",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0050_hound_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0050_hound",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0050_hound_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0050_hound_noborneffect": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0050_hound",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0050_hound_noborneffect",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0050_hound_settlement": {
+    "aiTemplateId": "Settlement/aiconf_eny_0050_hound_settlement",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0050_hound",
+    "bornBuffs": [
+      "buff_settlement_addtag"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 80,
+        "startLevel": 1
+      }
+    ],
+    "enemyId": "eny_0050_hound_settlement",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0050_hound"
+  },
+  "eny_0051_rodin": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0051_rodin",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0051_rodin",
+    "modelId": "",
+    "showBigHeadbar": true,
+    "templateId": "eny_0051_rodin"
+  },
+  "eny_0052_palesent": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0052_palesent",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0052_palesent",
+    "modelId": "",
+    "showBigHeadbar": true,
+    "templateId": "eny_0052_palesent"
+  },
+  "eny_0053_hsmob": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0053_hsmob",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0053_hsmob",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0053_hsmob"
+  },
+  "eny_0054_hsmino": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0054_hsmino",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0054_hsmino",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0054_hsmino"
+  },
+  "eny_0054_hsmino_race": {
+    "aiTemplateId": "",
+    "attrModifiers": [
+      {
+        "attrType": 20,
+        "attrValue": 40,
+        "modifierType": 0,
+        "modifyAttributeType": 0
+      },
+      {
+        "attrType": 1,
+        "attrValue": 2.22222222222222,
+        "modifierType": 4,
+        "modifyAttributeType": 0
+      }
+    ],
+    "attrTemplateId": "eny_0054_hsmino",
+    "bornBuffs": [],
+    "dropItems": [],
+    "enemyId": "eny_0054_hsmino_race",
+    "modelId": "",
+    "showBigHeadbar": true,
+    "templateId": "eny_0054_hsmino"
+  },
+  "eny_0055_hscrane": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0055_hscrane",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0055_hscrane",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0055_hscrane"
+  },
+  "eny_0057_dog": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0057_dog",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0057_dog",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0057_dog"
+  },
+  "eny_0058_agdisk": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0058_agdisk",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0058_agdisk",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0058_agdisk"
+  },
+  "eny_0058_agdisk_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0058_agdisk",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0058_agdisk_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0058_agdisk"
+  },
+  "eny_0058_agdisk_race": {
+    "aiTemplateId": "aiconf_eny_0058_agdisk_race",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0058_agdisk",
+    "bornBuffs": [
+      "buff_common_born",
+      "buff_eny_0058_agdisk_race_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0058_agdisk_race",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0058_agdisk"
+  },
+  "eny_0059_erhound": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0059_erhound",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0059_erhound",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0059_erhound"
+  },
+  "eny_0059_erhound_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0059_erhound",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0059_erhound_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0059_erhound"
+  },
+  "eny_0060_lbmad": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0060_lbmad",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0060_lbmad",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0060_lbmad"
+  },
+  "eny_0060_lbmad_dungeon": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0060_lbmad",
+    "bornBuffs": [
+      "buff_common_born"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0060_lbmad_dungeon",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0060_lbmad"
+  },
+  "eny_0061_palecore": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0061_palecore",
+    "bornBuffs": [
+      "buff_eny_0061_palecore_counter02",
+      "buff_eny_0061_palecore_counter"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0061_palecore",
+    "modelId": "",
+    "showBigHeadbar": true,
+    "templateId": "eny_0061_palecore"
+  },
+  "eny_0062_paletent": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0062_paletent",
+    "bornBuffs": [
+      "buff_eny_0062_paletent_buff"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0062_paletent",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0062_paletent"
+  },
+  "eny_0062_paletent_melee": {
+    "aiTemplateId": "aiconf_eny_0062_paletent_melee",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0062_paletent",
+    "bornBuffs": [
+      "buff_eny_0062_paletent_buff"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0062_paletent_melee",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0062_paletent"
+  },
+  "eny_0062_paletent_range": {
+    "aiTemplateId": "aiconf_eny_0062_paletent_range",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0062_paletent",
+    "bornBuffs": [
+      "buff_eny_0062_paletent_buff"
+    ],
+    "dropItems": [],
+    "enemyId": "eny_0062_paletent_range",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0062_paletent"
+  },
+  "eny_0063_agmelee2": {
+    "aiTemplateId": "aiconf_eny_0063_agmelee2",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0063_agmelee2",
+    "bornBuffs": [
+      "buff_common_lower_superarmor_when_interrupted"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0063_agmelee2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0063_agmelee2"
+  },
+  "eny_0064_agrange2": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0064_agrange2",
+    "bornBuffs": [
+      "buff_common_lower_superarmor_when_interrupted"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0064_agrange2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0064_agrange2"
+  },
+  "eny_0065_lbmob2": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0065_lbmob2",
+    "bornBuffs": [
+      "buff_common_lower_superarmor_when_interrupted"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0065_lbmob2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0065_lbmob2"
+  },
+  "eny_0066_lbhunt2": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0066_lbhunt2",
+    "bornBuffs": [
+      "buff_common_lower_superarmor_when_interrupted"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0066_lbhunt2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0066_lbhunt2"
+  },
+  "eny_0067_hound2": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0067_hound2",
+    "bornBuffs": [
+      "buff_common_lower_superarmor_when_interrupted"
+    ],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0067_hound2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0067_hound2"
+  },
+  "eny_0068_lbtough2": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0068_lbtough2",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0068_lbtough2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0068_lbtough2"
+  },
+  "eny_0069_aghornb2": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0069_aghornb2",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0069_aghornb2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0069_aghornb2"
+  },
+  "eny_0070_agscorp2": {
+    "aiTemplateId": "",
+    "attrModifiers": [],
+    "attrTemplateId": "eny_0070_agscorp2",
+    "bornBuffs": [],
+    "dropItems": [
+      {
+        "endLevel": 4,
+        "startLevel": 1
+      },
+      {
+        "endLevel": 9,
+        "startLevel": 5
+      },
+      {
+        "endLevel": 14,
+        "startLevel": 10
+      },
+      {
+        "endLevel": 19,
+        "startLevel": 15
+      },
+      {
+        "endLevel": 24,
+        "startLevel": 20
+      },
+      {
+        "endLevel": 29,
+        "startLevel": 25
+      },
+      {
+        "endLevel": 34,
+        "startLevel": 30
+      },
+      {
+        "endLevel": 39,
+        "startLevel": 35
+      },
+      {
+        "endLevel": 44,
+        "startLevel": 40
+      },
+      {
+        "endLevel": 49,
+        "startLevel": 45
+      },
+      {
+        "endLevel": 54,
+        "startLevel": 50
+      },
+      {
+        "endLevel": 59,
+        "startLevel": 55
+      },
+      {
+        "endLevel": 64,
+        "startLevel": 60
+      },
+      {
+        "endLevel": 69,
+        "startLevel": 65
+      },
+      {
+        "endLevel": 74,
+        "startLevel": 70
+      },
+      {
+        "endLevel": 79,
+        "startLevel": 75
+      },
+      {
+        "endLevel": 80,
+        "startLevel": 80
+      }
+    ],
+    "enemyId": "eny_0070_agscorp2",
+    "modelId": "",
+    "showBigHeadbar": false,
+    "templateId": "eny_0070_agscorp2"
+  }
+}

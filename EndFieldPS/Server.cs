@@ -18,7 +18,6 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Titanium.Web.Proxy.Http;
 using static EndFieldPS.Dispatch;
 
 
@@ -48,16 +47,15 @@ namespace EndFieldPS
             public delegate void HandlerDelegate(string command, string[] args);
         }
         public static List<Player> clients = new List<Player>();
-        public static string ServerVersion = "1.0.1";
+        public static string ServerVersion = "1.0.2";
         public static bool Initialized = false;
         public static bool showLogs = true;
         public static SQLiteConnection _db;
         public static Dispatch dispatch;
         public static ResourceManager resourceManager;
         public static ConfigFile config;
+        
 
-      
-   
         public static ResourceManager GetResources()
         {
             return resourceManager;
@@ -162,11 +160,6 @@ namespace EndFieldPS
         public static string ColoredText(string text, string color)
         {
             return text.Pastel(color);
-        }
-        public static void Print(string text)
-        {
-            Logger.Log(text);
-            Console.WriteLine($"[{ColoredText("Server", "03fcce")}] " + text);
         }
         public static void Shutdown()
         {

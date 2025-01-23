@@ -1,0 +1,402 @@
+{
+  "MovementDev": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "MovementDev"
+  },
+  "factory_benchmark": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "factory_benchmark"
+  },
+  "indie_dg002": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "indie_dg002"
+  },
+  "ld_prototype_region": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "ld_prototype_region"
+  },
+  "ld_tasktest01": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "ld_tasktest01"
+  },
+  "map01_lv001": {
+    "grades": [
+      {
+        "bandwidth": 80,
+        "battleBuildingLimit": 7,
+        "grade": 1,
+        "monsterBaseLevel": 10,
+        "prosperity": 0,
+        "travelPoleLimit": 10
+      },
+      {
+        "bandwidth": 110,
+        "battleBuildingLimit": 9,
+        "grade": 2,
+        "monsterBaseLevel": 25,
+        "prosperity": 1,
+        "travelPoleLimit": 12
+      },
+      {
+        "bandwidth": 150,
+        "battleBuildingLimit": 12,
+        "grade": 3,
+        "monsterBaseLevel": 40,
+        "prosperity": 3,
+        "travelPoleLimit": 15
+      },
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 15,
+        "grade": 4,
+        "monsterBaseLevel": 55,
+        "prosperity": 7,
+        "travelPoleLimit": 20
+      }
+    ],
+    "name": "map01_lv001"
+  },
+  "map01_lv002": {
+    "grades": [
+      {
+        "bandwidth": 60,
+        "battleBuildingLimit": 5,
+        "grade": 1,
+        "monsterBaseLevel": 15,
+        "prosperity": 0,
+        "travelPoleLimit": 7
+      },
+      {
+        "bandwidth": 70,
+        "battleBuildingLimit": 6,
+        "grade": 2,
+        "monsterBaseLevel": 30,
+        "prosperity": 2,
+        "travelPoleLimit": 8
+      },
+      {
+        "bandwidth": 80,
+        "battleBuildingLimit": 8,
+        "grade": 3,
+        "monsterBaseLevel": 40,
+        "prosperity": 4,
+        "travelPoleLimit": 9
+      },
+      {
+        "bandwidth": 100,
+        "battleBuildingLimit": 10,
+        "grade": 4,
+        "monsterBaseLevel": 60,
+        "prosperity": 8,
+        "travelPoleLimit": 10
+      }
+    ],
+    "name": "map01_lv002"
+  },
+  "map01_lv003": {
+    "grades": [
+      {
+        "bandwidth": 60,
+        "battleBuildingLimit": 5,
+        "grade": 1,
+        "monsterBaseLevel": 20,
+        "prosperity": 0,
+        "travelPoleLimit": 7
+      },
+      {
+        "bandwidth": 70,
+        "battleBuildingLimit": 6,
+        "grade": 2,
+        "monsterBaseLevel": 35,
+        "prosperity": 2,
+        "travelPoleLimit": 8
+      },
+      {
+        "bandwidth": 80,
+        "battleBuildingLimit": 8,
+        "grade": 3,
+        "monsterBaseLevel": 45,
+        "prosperity": 5,
+        "travelPoleLimit": 9
+      },
+      {
+        "bandwidth": 100,
+        "battleBuildingLimit": 10,
+        "grade": 4,
+        "monsterBaseLevel": 65,
+        "prosperity": 8,
+        "travelPoleLimit": 10
+      }
+    ],
+    "name": "map01_lv003"
+  },
+  "map01_lv005": {
+    "grades": [
+      {
+        "bandwidth": 80,
+        "battleBuildingLimit": 5,
+        "grade": 1,
+        "monsterBaseLevel": 25,
+        "prosperity": 0,
+        "travelPoleLimit": 10
+      },
+      {
+        "bandwidth": 110,
+        "battleBuildingLimit": 6,
+        "grade": 2,
+        "monsterBaseLevel": 40,
+        "prosperity": 3,
+        "travelPoleLimit": 12
+      },
+      {
+        "bandwidth": 150,
+        "battleBuildingLimit": 8,
+        "grade": 3,
+        "monsterBaseLevel": 55,
+        "prosperity": 6,
+        "travelPoleLimit": 15
+      },
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 10,
+        "grade": 4,
+        "monsterBaseLevel": 65,
+        "prosperity": 10,
+        "travelPoleLimit": 20
+      }
+    ],
+    "name": "map01_lv005"
+  },
+  "map01_lv006": {
+    "grades": [
+      {
+        "bandwidth": 90,
+        "battleBuildingLimit": 5,
+        "grade": 1,
+        "monsterBaseLevel": 35,
+        "prosperity": 0,
+        "travelPoleLimit": 15
+      },
+      {
+        "bandwidth": 120,
+        "battleBuildingLimit": 6,
+        "grade": 2,
+        "monsterBaseLevel": 50,
+        "prosperity": 5,
+        "travelPoleLimit": 17
+      },
+      {
+        "bandwidth": 160,
+        "battleBuildingLimit": 8,
+        "grade": 3,
+        "monsterBaseLevel": 60,
+        "prosperity": 7,
+        "travelPoleLimit": 20
+      },
+      {
+        "bandwidth": 220,
+        "battleBuildingLimit": 10,
+        "grade": 4,
+        "monsterBaseLevel": 70,
+        "prosperity": 11,
+        "travelPoleLimit": 25
+      }
+    ],
+    "name": "map01_lv006"
+  },
+  "map01_lv007": {
+    "grades": [
+      {
+        "bandwidth": 80,
+        "battleBuildingLimit": 5,
+        "grade": 1,
+        "monsterBaseLevel": 40,
+        "prosperity": 0,
+        "travelPoleLimit": 10
+      },
+      {
+        "bandwidth": 110,
+        "battleBuildingLimit": 6,
+        "grade": 2,
+        "monsterBaseLevel": 55,
+        "prosperity": 7,
+        "travelPoleLimit": 12
+      },
+      {
+        "bandwidth": 150,
+        "battleBuildingLimit": 8,
+        "grade": 3,
+        "monsterBaseLevel": 65,
+        "prosperity": 9,
+        "travelPoleLimit": 15
+      },
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 10,
+        "grade": 4,
+        "monsterBaseLevel": 75,
+        "prosperity": 12,
+        "travelPoleLimit": 20
+      }
+    ],
+    "name": "map01_lv007"
+  },
+  "map02_lv001": {
+    "grades": [
+      {
+        "bandwidth": 120,
+        "battleBuildingLimit": 7,
+        "grade": 1,
+        "monsterBaseLevel": 50,
+        "prosperity": 0,
+        "travelPoleLimit": 15
+      },
+      {
+        "bandwidth": 160,
+        "battleBuildingLimit": 9,
+        "grade": 2,
+        "monsterBaseLevel": 60,
+        "prosperity": 1,
+        "travelPoleLimit": 17
+      },
+      {
+        "bandwidth": 220,
+        "battleBuildingLimit": 12,
+        "grade": 3,
+        "monsterBaseLevel": 70,
+        "prosperity": 2,
+        "travelPoleLimit": 20
+      },
+      {
+        "bandwidth": 300,
+        "battleBuildingLimit": 15,
+        "grade": 4,
+        "monsterBaseLevel": 80,
+        "prosperity": 4,
+        "travelPoleLimit": 25
+      }
+    ],
+    "name": "map02_lv001"
+  },
+  "map10000_test1": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "map10000_test1"
+  },
+  "map10000_test2": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "map10000_test2"
+  },
+  "test_animPlayground": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "test_animPlayground"
+  },
+  "testbed_interactive": {
+    "grades": [
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 1,
+        "monsterBaseLevel": 0,
+        "prosperity": 0,
+        "travelPoleLimit": 50
+      },
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 2,
+        "monsterBaseLevel": 10,
+        "prosperity": 1,
+        "travelPoleLimit": 50
+      },
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 3,
+        "monsterBaseLevel": 20,
+        "prosperity": 2,
+        "travelPoleLimit": 50
+      },
+      {
+        "bandwidth": 200,
+        "battleBuildingLimit": 50,
+        "grade": 4,
+        "monsterBaseLevel": 30,
+        "prosperity": 3,
+        "travelPoleLimit": 50
+      }
+    ],
+    "name": "testbed_interactive"
+  }
+}

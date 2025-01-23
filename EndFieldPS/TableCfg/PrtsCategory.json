@@ -1,0 +1,56 @@
+{
+  "collection": {
+    "categoryId": "collection",
+    "name": {
+      "id": "0B546B859AFB6155",
+      "text": ""
+    },
+    "order": 1,
+    "tabIcon": "icon_entrance_knowledge"
+  },
+  "digital": {
+    "categoryId": "digital",
+    "name": {
+      "id": "2855AC4B2BB4C80E",
+      "text": ""
+    },
+    "order": 3,
+    "tabIcon": "icon_entrance_knowledge"
+  },
+  "document": {
+    "categoryId": "document",
+    "name": {
+      "id": "C7B65EB5D5699300",
+      "text": ""
+    },
+    "order": 1,
+    "tabIcon": "icon_entrance_pivot"
+  },
+  "media": {
+    "categoryId": "media",
+    "name": {
+      "id": "E09D7419093A00A2",
+      "text": ""
+    },
+    "order": 1,
+    "tabIcon": "icon_entrance_audio"
+  },
+  "paper": {
+    "categoryId": "paper",
+    "name": {
+      "id": "275BB428DF74B9D3",
+      "text": ""
+    },
+    "order": 2,
+    "tabIcon": "icon_entrance_knowledge"
+  },
+  "report": {
+    "categoryId": "report",
+    "name": {
+      "id": "E76A2655A3A8491A",
+      "text": ""
+    },
+    "order": 2,
+    "tabIcon": "icon_entrance_pivot"
+  }
+}

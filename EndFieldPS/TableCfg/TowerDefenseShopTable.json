@@ -1,0 +1,52 @@
+{
+  "battle_cannon_1_temp": {
+    "buildingId": "battle_cannon_1_temp",
+    "money": 8,
+    "needTechId": ""
+  },
+  "battle_cannon_2_temp": {
+    "buildingId": "battle_cannon_2_temp",
+    "money": 15,
+    "needTechId": ""
+  },
+  "battle_frost_1_temp": {
+    "buildingId": "battle_frost_1_temp",
+    "money": 8,
+    "needTechId": ""
+  },
+  "battle_laser_1_temp": {
+    "buildingId": "battle_laser_1_temp",
+    "money": 15,
+    "needTechId": ""
+  },
+  "battle_laser_2_temp": {
+    "buildingId": "battle_laser_2_temp",
+    "money": 20,
+    "needTechId": ""
+  },
+  "battle_lightning_1_temp": {
+    "buildingId": "battle_lightning_1_temp",
+    "money": 20,
+    "needTechId": ""
+  },
+  "battle_shockwave_1_temp": {
+    "buildingId": "battle_shockwave_1_temp",
+    "money": 10,
+    "needTechId": ""
+  },
+  "battle_sniper_1_temp": {
+    "buildingId": "battle_sniper_1_temp",
+    "money": 10,
+    "needTechId": ""
+  },
+  "battle_turret_1_temp": {
+    "buildingId": "battle_turret_1_temp",
+    "money": 5,
+    "needTechId": ""
+  },
+  "battle_turret_2_temp": {
+    "buildingId": "battle_turret_2_temp",
+    "money": 10,
+    "needTechId": ""
+  }
+}

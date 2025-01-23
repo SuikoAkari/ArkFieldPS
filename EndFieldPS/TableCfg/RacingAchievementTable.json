@@ -1,0 +1,414 @@
+{
+  "1": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "500460F12E96ABA4",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 2,
+        "rewardId": ""
+      }
+    ]
+  },
+  "2": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "B0538AD3D23C3913",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 2,
+        "rewardId": ""
+      }
+    ]
+  },
+  "3": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "50A0C063F2D7AF15",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 2,
+        "rewardId": ""
+      }
+    ]
+  },
+  "4": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "033A980427857894",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": "reward_dung_race_achievement_complete_difficulty_4"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 2,
+        "rewardId": ""
+      }
+    ]
+  },
+  "5": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "1288FEBF6C92FEA9",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": "reward_dung_race_achievement_complete_difficulty_5"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 2,
+        "rewardId": ""
+      }
+    ]
+  },
+  "6": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "AA55A47AC7CA0BE2",
+          "text": ""
+        },
+        "conditionType": 4,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": ""
+      }
+    ]
+  },
+  "7": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "6F9124090268CDE4",
+          "text": ""
+        },
+        "conditionType": 4,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": ""
+      }
+    ]
+  },
+  "8": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "14DEB6C1B230CD55",
+          "text": ""
+        },
+        "conditionType": 5,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": ""
+      }
+    ]
+  },
+  "9": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "8DF47F54CF0F2D23",
+          "text": ""
+        },
+        "conditionType": 5,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": ""
+      }
+    ]
+  },
+  "10": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "CC9F283F27EE93B2",
+          "text": ""
+        },
+        "conditionType": 5,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": ""
+      }
+    ]
+  },
+  "11": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "18C0C8D2010F4E4F",
+          "text": ""
+        },
+        "conditionType": 5,
+        "rewardId": "reward_dung_race_achievement_1"
+      },
+      {
+        "conditionDesc": {
+          "id": "",
+          "text": ""
+        },
+        "conditionType": 1,
+        "rewardId": ""
+      }
+    ]
+  },
+  "12": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "DB2A50022A74BC33",
+          "text": ""
+        },
+        "conditionType": 6,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "13": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "0E9BCF8D535377D5",
+          "text": ""
+        },
+        "conditionType": 6,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "14": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "EECBFAF6FE211BDD",
+          "text": ""
+        },
+        "conditionType": 6,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "15": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "6638428824AC3748",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "16": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "F95D978A638976E6",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "17": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "1295AB23C951B2B4",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "18": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "8558677FEA76E34F",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "19": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "DD4FF2A50FC401F8",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "20": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "0FAC07F7214FA322",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "21": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "3D158A515DAD2DDF",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "22": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "83C8E955B099558F",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "23": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "FCE5395C907BBEEC",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "24": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "03B23A8E20B22043",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "25": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "18DBC9DFCE524C1B",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "26": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "DD8AE632E3BFEB93",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  },
+  "27": {
+    "list": [
+      {
+        "conditionDesc": {
+          "id": "0BB54D36FC2479F7",
+          "text": ""
+        },
+        "conditionType": 10,
+        "rewardId": "reward_dung_race_achievement_1"
+      }
+    ]
+  }
+}

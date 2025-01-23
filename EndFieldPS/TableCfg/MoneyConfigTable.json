@@ -1,0 +1,12 @@
+{
+  "item_spaceship_jinlong_gold": {
+    "MoneyClearLimit": 10000,
+    "clearRule": 2,
+    "moneyId": "item_spaceship_jinlong_gold"
+  },
+  "item_spaceship_tundra_gold": {
+    "MoneyClearLimit": 10000,
+    "clearRule": 2,
+    "moneyId": "item_spaceship_tundra_gold"
+  }
+}

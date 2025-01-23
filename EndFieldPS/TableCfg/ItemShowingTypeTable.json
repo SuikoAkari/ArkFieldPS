@@ -1,0 +1,92 @@
+{
+  "1": {
+    "icon": "icon_item_type_ore",
+    "name": {
+      "id": "10788EA53AFB87B4",
+      "text": ""
+    },
+    "sortId": 1,
+    "type": 1
+  },
+  "2": {
+    "icon": "icon_item_type_plant",
+    "name": {
+      "id": "D6F79641B37C2D57",
+      "text": ""
+    },
+    "sortId": 2,
+    "type": 2
+  },
+  "4": {
+    "icon": "icon_item_type_product",
+    "name": {
+      "id": "D49A61701A87ED4C",
+      "text": ""
+    },
+    "sortId": 3,
+    "type": 4
+  },
+  "5": {
+    "icon": "icon_item_type_usable",
+    "name": {
+      "id": "B344CB2E447403E1",
+      "text": ""
+    },
+    "sortId": 6,
+    "type": 5
+  },
+  "8": {
+    "icon": "icon_item_type_equip_head",
+    "name": {
+      "id": "367A6BE034CE3AD8",
+      "text": ""
+    },
+    "sortId": 8,
+    "type": 8
+  },
+  "9": {
+    "icon": "icon_item_type_equip_body",
+    "name": {
+      "id": "9067C336B3173A37",
+      "text": ""
+    },
+    "sortId": 9,
+    "type": 9
+  },
+  "10": {
+    "icon": "icon_item_type_equip_ring",
+    "name": {
+      "id": "A2B786B742981B65",
+      "text": ""
+    },
+    "sortId": 10,
+    "type": 10
+  },
+  "15": {
+    "icon": "icon_item_type_doodad",
+    "name": {
+      "id": "A6472E27CD4C23BC",
+      "text": ""
+    },
+    "sortId": 4,
+    "type": 15
+  },
+  "16": {
+    "icon": "icon_item_type_nurturance",
+    "name": {
+      "id": "7E114356E4F60FD4",
+      "text": ""
+    },
+    "sortId": 5,
+    "type": 16
+  },
+  "17": {
+    "icon": "icon_item_type_tools_building",
+    "name": {
+      "id": "E3F38FCD06AADBF4",
+      "text": ""
+    },
+    "sortId": 7,
+    "type": 17
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "item_expcard_stage1_high": 20000,
+  "item_expcard_stage1_low": 400,
+  "item_expcard_stage1_mid": 2000,
+  "item_expcard_stage2_high": 20000,
+  "item_expcard_stage2_low": 1000
+}

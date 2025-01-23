@@ -1,0 +1,199 @@
+{
+  "beginner_2024_12_1": {
+    "list": [
+      {
+        "charId": "chr_0009_azrila",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0013_aglina",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0015_lifeng",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0004_pelica",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0007_ikut",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0012_avywen",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0018_dapan",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0005_chen",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0006_wolfgd",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0011_seraph",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0014_aurora",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      }
+    ]
+  },
+  "special_2024_12_1": {
+    "list": [
+      {
+        "charId": "chr_0016_laevat",
+        "isHardGuaranteeItem": true,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0009_azrila",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0013_aglina",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0015_lifeng",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0017_yvonne",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0012_avywen",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0007_ikut",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0004_pelica",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0018_dapan",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0005_chen",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0006_wolfgd",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0011_seraph",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0014_aurora",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      }
+    ]
+  },
+  "special_2025_1_1": {
+    "list": [
+      {
+        "charId": "chr_0017_yvonne",
+        "isHardGuaranteeItem": true,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0009_azrila",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0013_aglina",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0015_lifeng",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0016_laevat",
+        "isHardGuaranteeItem": false,
+        "starLevel": 6
+      },
+      {
+        "charId": "chr_0007_ikut",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0012_avywen",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0004_pelica",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0018_dapan",
+        "isHardGuaranteeItem": false,
+        "starLevel": 5
+      },
+      {
+        "charId": "chr_0005_chen",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0006_wolfgd",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0011_seraph",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      },
+      {
+        "charId": "chr_0014_aurora",
+        "isHardGuaranteeItem": false,
+        "starLevel": 4
+      }
+    ]
+  }
+}

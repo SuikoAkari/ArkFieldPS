@@ -1,0 +1,86 @@
+{
+  "direct_recharge_18": {
+    "bonusCount": 8,
+    "icon": "bg_shop_diamond2",
+    "itemCount": 54,
+    "itemid": "item_originium_recharge",
+    "name": {
+      "id": "4A0873ACC30AA46C",
+      "text": ""
+    },
+    "price": 18,
+    "rechargeId": "direct_recharge_18",
+    "sdkId": "recharge_court_18",
+    "sortId": 2
+  },
+  "direct_recharge_198": {
+    "bonusCount": 90,
+    "icon": "bg_shop_diamond4",
+    "itemCount": 594,
+    "itemid": "item_originium_recharge",
+    "name": {
+      "id": "8F8B42494BE21A6F",
+      "text": ""
+    },
+    "price": 198,
+    "rechargeId": "direct_recharge_198",
+    "sdkId": "recharge_court_198",
+    "sortId": 4
+  },
+  "direct_recharge_328": {
+    "bonusCount": 150,
+    "icon": "bg_shop_diamond5",
+    "itemCount": 984,
+    "itemid": "item_originium_recharge",
+    "name": {
+      "id": "2D8CF1D5AAE24B7C",
+      "text": ""
+    },
+    "price": 328,
+    "rechargeId": "direct_recharge_328",
+    "sdkId": "recharge_court_328",
+    "sortId": 5
+  },
+  "direct_recharge_6": {
+    "bonusCount": 0,
+    "icon": "bg_shop_diamond1",
+    "itemCount": 18,
+    "itemid": "item_originium_recharge",
+    "name": {
+      "id": "34F044E8C3E5DFCF",
+      "text": ""
+    },
+    "price": 6,
+    "rechargeId": "direct_recharge_6",
+    "sdkId": "recharge_court_6",
+    "sortId": 1
+  },
+  "direct_recharge_648": {
+    "bonusCount": 300,
+    "icon": "bg_shop_diamond6",
+    "itemCount": 1944,
+    "itemid": "item_originium_recharge",
+    "name": {
+      "id": "4F4C7B3F131E88A4",
+      "text": ""
+    },
+    "price": 648,
+    "rechargeId": "direct_recharge_648",
+    "sdkId": "recharge_court_648",
+    "sortId": 6
+  },
+  "direct_recharge_98": {
+    "bonusCount": 42,
+    "icon": "bg_shop_diamond3",
+    "itemCount": 294,
+    "itemid": "item_originium_recharge",
+    "name": {
+      "id": "43994755FC0389DC",
+      "text": ""
+    },
+    "price": 98,
+    "rechargeId": "direct_recharge_98",
+    "sdkId": "recharge_court_98",
+    "sortId": 3
+  }
+}

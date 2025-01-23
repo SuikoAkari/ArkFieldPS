@@ -1,0 +1,1300 @@
+{
+  "npc_f1m9_angesi": {
+    "chatId": "npc_f1m9_angesi",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "64C76E22CC880211",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "npc_f1m9_bulanna": {
+    "chatId": "npc_f1m9_bulanna",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "6CD9AA1E0A4BB7A8",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "npc_gentleman_rfg_b_05_g01": {
+    "chatId": "npc_gentleman_rfg_b_05_g01",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_gentleman_rfg_b_05_g01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_gentleman_rfg_b_05_g01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "07C16B5407276B4B",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_Seraph_perlica": {
+    "chatId": "sns_chat_Seraph_perlica",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_group",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_group_a",
+    "memberRawNum": 3,
+    "name": {
+      "id": "8F95CD14C8FFE0E9",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_adu": {
+    "chatId": "sns_chat_adu",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single",
+    "memberRawNum": 0,
+    "name": {
+      "id": "87DDDAEF5F6AAE86",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_avywen_l": {
+    "chatId": "sns_chat_avywen_l",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_group",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_group_a",
+    "memberRawNum": 3,
+    "name": {
+      "id": "66E585AA3743CFDF",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_chen_perlica": {
+    "chatId": "sns_chat_chen_perlica",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_group",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_group_a",
+    "memberRawNum": 3,
+    "name": {
+      "id": "EACA9CEA7A7781DE",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_daniel": {
+    "chatId": "sns_chat_daniel",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single",
+    "memberRawNum": 0,
+    "name": {
+      "id": "6FE49E44447B6668",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_end_f1m4": {
+    "chatId": "sns_chat_end_f1m4",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_channel",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 5,
+    "name": {
+      "id": "95EBE9E8BF10F021",
+      "text": ""
+    },
+    "owner": "sns_chr_0004_pelica",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 1
+  },
+  "sns_chat_nfm_0": {
+    "chatId": "sns_chat_nfm_0",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_channel",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 10,
+    "name": {
+      "id": "22BFFBE9A6FDBDAA",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_nfm_0_1": {
+    "chatId": "sns_chat_nfm_0_1",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_channel",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 10,
+    "name": {
+      "id": "950DB004C545C981",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_nfm_l": {
+    "chatId": "sns_chat_nfm_l",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_channel",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 8,
+    "name": {
+      "id": "68CA7EC9D94D52BC",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_nfm_l_1": {
+    "chatId": "sns_chat_nfm_l_1",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_channel",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 8,
+    "name": {
+      "id": "F37725ECBA3B4DC6",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_roman": {
+    "chatId": "sns_chat_roman",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_gentleman_unionminer_a_29_g01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_gentleman_unionminer_a_29_g01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "AB0D2A85F9EF30A2",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_saveTATA": {
+    "chatId": "sns_chat_saveTATA",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_round_sns_endfield_group",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_sns_endfield_group_a",
+    "memberRawNum": 4,
+    "name": {
+      "id": "14421DA31B73CD4F",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chat_zophiel_perlica_chen": {
+    "chatId": "sns_chat_zophiel_perlica_chen",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_group",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_group_a",
+    "memberRawNum": 4,
+    "name": {
+      "id": "6D24142EEF4EBE0A",
+      "text": ""
+    },
+    "owner": "sns_chr_0017_zophiel",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 1
+  },
+  "sns_chr_0002_endmin": {
+    "chatId": "sns_chr_0002_endmin",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0002_endminm",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0002_endminm",
+    "memberRawNum": 0,
+    "name": {
+      "id": "3C6A79EC74ACE17D",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0003_endmin": {
+    "chatId": "sns_chr_0003_endmin",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0003_endminf",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0003_endminf",
+    "memberRawNum": 0,
+    "name": {
+      "id": "20EBAE4F2543DBAA",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0004_pelica": {
+    "chatId": "sns_chr_0004_pelica",
+    "chatType": 1,
+    "desc": {
+      "id": "BE199AFF8F380D61",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0004_pelica",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0004_pelica",
+    "memberRawNum": 0,
+    "name": {
+      "id": "9D37B2EFBF7A6AB0",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0005_chen": {
+    "chatId": "sns_chr_0005_chen",
+    "chatType": 1,
+    "desc": {
+      "id": "4F0225B064BE50E6",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0005_chen",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0005_chen",
+    "memberRawNum": 0,
+    "name": {
+      "id": "5B0F47922AB7FDA7",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0006_wolfgd": {
+    "chatId": "sns_chr_0006_wolfgd",
+    "chatType": 1,
+    "desc": {
+      "id": "589B930B492944A7",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0006_wolfgd",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0006_wolfgd",
+    "memberRawNum": 0,
+    "name": {
+      "id": "9CB080BFED4E4987",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0007_ikut": {
+    "chatId": "sns_chr_0007_ikut",
+    "chatType": 1,
+    "desc": {
+      "id": "63551CD17409F649",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0007_ikut",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0007_ikut",
+    "memberRawNum": 0,
+    "name": {
+      "id": "767467526D3D42D4",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0008_kholec": {
+    "chatId": "sns_chr_0008_kholec",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0008_kholec",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0008_kholec",
+    "memberRawNum": 0,
+    "name": {
+      "id": "E4EE581A7C151A22",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0009_azrila": {
+    "chatId": "sns_chr_0009_azrila",
+    "chatType": 1,
+    "desc": {
+      "id": "D61034352898DDB8",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0009_azrila",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0009_azrila",
+    "memberRawNum": 0,
+    "name": {
+      "id": "F424407D9AF7D48E",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0011_seraph": {
+    "chatId": "sns_chr_0011_seraph",
+    "chatType": 1,
+    "desc": {
+      "id": "8F3715379609C3D0",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0011_seraph",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0011_seraph",
+    "memberRawNum": 0,
+    "name": {
+      "id": "681849E0B965005C",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0012_avywen": {
+    "chatId": "sns_chr_0012_avywen",
+    "chatType": 1,
+    "desc": {
+      "id": "7E67C76A1E051F24",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0012_avywen",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0012_avywen",
+    "memberRawNum": 0,
+    "name": {
+      "id": "4FAD166E1F5847DD",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0013_aglina": {
+    "chatId": "sns_chr_0013_aglina",
+    "chatType": 1,
+    "desc": {
+      "id": "F456574043008273",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0013_aglina",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0013_aglina",
+    "memberRawNum": 0,
+    "name": {
+      "id": "6EFDDE911D8F55DF",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0014_aurora": {
+    "chatId": "sns_chr_0014_aurora",
+    "chatType": 1,
+    "desc": {
+      "id": "7A7DE042930C7A7D",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0014_aurora",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0014_aurora",
+    "memberRawNum": 0,
+    "name": {
+      "id": "ACB0673B3CD1B522",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0015_lifeng": {
+    "chatId": "sns_chr_0015_lifeng",
+    "chatType": 1,
+    "desc": {
+      "id": "2B8945DDA0466D22",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0015_lifeng",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0015_lifeng",
+    "memberRawNum": 0,
+    "name": {
+      "id": "CDA8F86A87FDE81D",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0016_laevat": {
+    "chatId": "sns_chr_0016_laevat",
+    "chatType": 1,
+    "desc": {
+      "id": "0DD1AA0DC791C811",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0016_laevat",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0016_laevat",
+    "memberRawNum": 0,
+    "name": {
+      "id": "A76B21BF58503C91",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0017_zophiel": {
+    "chatId": "sns_chr_0017_zophiel",
+    "chatType": 1,
+    "desc": {
+      "id": "EBCF5FA764D4DA76",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0017_yvonne",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0017_yvonne",
+    "memberRawNum": 0,
+    "name": {
+      "id": "EA181B9394DCF8A4",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_0018_dapan": {
+    "chatId": "sns_chr_0018_dapan",
+    "chatType": 1,
+    "desc": {
+      "id": "E582EC3893A1B1F7",
+      "text": ""
+    },
+    "icon": "icon_round_chr_0018_dapan",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0018_dapan",
+    "memberRawNum": 0,
+    "name": {
+      "id": "770D9960770249FD",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_chr_jite": {
+    "chatId": "sns_chr_jite",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "5CD1E99127E72F42",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_gm01m7_1": {
+    "chatId": "sns_gm01m7_1",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_channel",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 3,
+    "name": {
+      "id": "640C93C542795DBF",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_3012_g01": {
+    "chatId": "sns_npc_3012_g01",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_lady_rfg_a_05_g01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_lady_rfg_a_05_g01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "1ACE1C3FA439AE55",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_Alexander": {
+    "chatId": "sns_npc_Alexander",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_gentleman_tgccsales_a_02_g01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_gentleman_tgccsales_a_02_g01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "57DA7848DECFED92",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_EnfDepartmentManager": {
+    "chatId": "sns_npc_EnfDepartmentManager",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "7680FEB8218E0920",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_Johns": {
+    "chatId": "sns_npc_Johns",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "8AC48AC1C92BAD14",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_Nobody": {
+    "chatId": "sns_npc_Nobody",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "7F95913FBF75E49E",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_Oldhans": {
+    "chatId": "sns_npc_Oldhans",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_gentleman_tgccsales_a_01_g01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_gentleman_tgccsales_a_01_g01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "C6A2DF02289F0246",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_System": {
+    "chatId": "sns_npc_System",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "F3A12D88C9D8E00C",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_aji": {
+    "chatId": "sns_npc_aji",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "F1ACCB95CE4539E9",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_andrew": {
+    "chatId": "sns_npc_andrew",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_spl_andrew_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_spl_andrew_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "5FA2B722191B6AB5",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_boy_hsfarmer_a_01": {
+    "chatId": "sns_npc_boy_hsfarmer_a_01",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "F2751CDBA0FB1C38",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_fiona": {
+    "chatId": "sns_npc_fiona",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_spl_fiona_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_spl_fiona_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "7535536806B62751",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_gentleman_efscholar_a_04": {
+    "chatId": "sns_npc_gentleman_efscholar_a_04",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "D2CC4AA08F60FACD",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_gentleman_unionscholar_a_23": {
+    "chatId": "sns_npc_gentleman_unionscholar_a_23",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "EFCDEF525837C8EF",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_hatman": {
+    "chatId": "sns_npc_hatman",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_gentleman_tgccsales_a_03_g01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_gentleman_tgccsales_a_03_g01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "6C563AAF24839846",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_joost": {
+    "chatId": "sns_npc_joost",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "BF20F4B7410C7383",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_klapa": {
+    "chatId": "sns_npc_klapa",
+    "chatType": 1,
+    "desc": {
+      "id": "F28245B0FDB705CB",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "BB7AA51B63AAE104",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_kls_m": {
+    "chatId": "sns_npc_kls_m",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_gentleman_unionminer_a_16_g01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_gentleman_unionminer_a_16_g01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "F9051989A7047D7E",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_nfm": {
+    "chatId": "sns_npc_nfm",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_gentleman_unionminer_a_26_g01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_gentleman_unionminer_a_26_g01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "D1F9757A2EF5E429",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_npc_boy_efstaff_a_02": {
+    "chatId": "sns_npc_npc_boy_efstaff_a_02",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "6DE775606383EC63",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_nroman": {
+    "chatId": "sns_npc_nroman",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "D3C89FA6C2A445A1",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_qinjc": {
+    "chatId": "sns_npc_qinjc",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_spl_qinjc_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_spl_qinjc_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": "AF5D4AA719EB1427",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_npc_sartre": {
+    "chatId": "sns_npc_sartre",
+    "chatType": 1,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": "E8F508C7286C0157",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_team_Enf": {
+    "chatId": "sns_team_Enf",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_round_sns_endfield_group",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_sns_endfield_group_a",
+    "memberRawNum": 4,
+    "name": {
+      "id": "FBE97B15CCC38175",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_team_busnisses": {
+    "chatId": "sns_team_busnisses",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_round_sns_endfield_group",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_sns_endfield_group_a",
+    "memberRawNum": 4,
+    "name": {
+      "id": "E2EEB6572D88F99B",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  },
+  "sns_team_hub_01": {
+    "chatId": "sns_team_hub_01",
+    "chatType": 2,
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sns_npc_channel",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 4,
+    "name": {
+      "id": "71325A50DC31C7EF",
+      "text": ""
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": "",
+      "text": ""
+    },
+    "tagType": 0
+  }
+}

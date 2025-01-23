@@ -1,0 +1,52 @@
+{
+  "sp_hub_1": {
+    "buildingId": "sp_hub_1",
+    "icon": "item_port_sp_hub_1",
+    "levelData": {
+      "0": 3
+    },
+    "sortId": 0
+  },
+  "sp_mfg_sta_1": {
+    "buildingId": "sp_mfg_sta_1",
+    "icon": "item_port_sp_mfg_sta_1",
+    "levelData": {
+      "1": 1,
+      "2": 2
+    },
+    "sortId": 3
+  },
+  "sp_proc_sta_1": {
+    "buildingId": "sp_proc_sta_1",
+    "icon": "item_port_sp_proc_sta_1",
+    "levelData": {
+      "1": 1
+    },
+    "sortId": 2
+  },
+  "sp_rec_sta_1": {
+    "buildingId": "sp_rec_sta_1",
+    "icon": "item_port_sp_rec_sta_1",
+    "levelData": {
+      "0": 1
+    },
+    "sortId": 5
+  },
+  "sp_trd_sta_1": {
+    "buildingId": "sp_trd_sta_1",
+    "icon": "item_port_sp_trd_sta_1",
+    "levelData": {
+      "1": 1,
+      "2": 2
+    },
+    "sortId": 4
+  },
+  "sp_workshop_1": {
+    "buildingId": "sp_workshop_1",
+    "icon": "item_port_sp_workshop_1",
+    "levelData": {
+      "0": 0
+    },
+    "sortId": 1
+  }
+}

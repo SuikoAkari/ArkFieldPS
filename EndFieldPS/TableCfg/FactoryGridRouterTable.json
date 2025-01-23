@@ -1,0 +1,142 @@
+{
+  "log_converger": {
+    "gridUnitData": {
+      "buildCamState": "Factory/CCS_Fac_Building_Medium",
+      "iconOnPanel": "icon_log_converger",
+      "itemId": "item_log_converger",
+      "msPerRound": 2000,
+      "name": {
+        "id": "9870F259353E7971",
+        "text": ""
+      }
+    },
+    "id": "log_converger",
+    "inputPorts": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 0
+        }
+      }
+    ],
+    "outputPorts": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      }
+    ],
+    "range": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "log_splitter": {
+    "gridUnitData": {
+      "buildCamState": "Factory/CCS_Fac_Building_Medium",
+      "iconOnPanel": "icon_log_router",
+      "itemId": "item_log_splitter",
+      "msPerRound": 2000,
+      "name": {
+        "id": "6204BCBDC62D6FAB",
+        "text": ""
+      }
+    },
+    "id": "log_splitter",
+    "inputPorts": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      }
+    ],
+    "outputPorts": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 0
+        }
+      }
+    ],
+    "range": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  }
+}

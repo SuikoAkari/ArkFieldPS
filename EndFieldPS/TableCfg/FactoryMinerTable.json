@@ -1,0 +1,134 @@
+{
+  "miner_1": {
+    "hasDroneMode": false,
+    "id": "miner_1",
+    "minePosition": {
+      "x": 1,
+      "y": 0,
+      "z": 1
+    },
+    "mineable": [
+      {
+        "consumeItem": {
+          "count": 0,
+          "id": ""
+        },
+        "miningItemId": "item_originium_ore",
+        "produceRate": 1
+      }
+    ],
+    "msPerRound": 3000,
+    "msTransferCD": 0
+  },
+  "miner_2": {
+    "hasDroneMode": true,
+    "id": "miner_2",
+    "minePosition": {
+      "x": 1,
+      "y": 0,
+      "z": 1
+    },
+    "mineable": [
+      {
+        "consumeItem": {
+          "count": 0,
+          "id": ""
+        },
+        "miningItemId": "item_originium_ore",
+        "produceRate": 1
+      },
+      {
+        "consumeItem": {
+          "count": 0,
+          "id": ""
+        },
+        "miningItemId": "item_quartz_sand",
+        "produceRate": 1
+      }
+    ],
+    "msPerRound": 3000,
+    "msTransferCD": 10000
+  },
+  "miner_3": {
+    "hasDroneMode": true,
+    "id": "miner_3",
+    "minePosition": {
+      "x": 1,
+      "y": 0,
+      "z": 1
+    },
+    "mineable": [
+      {
+        "consumeItem": {
+          "count": 0,
+          "id": ""
+        },
+        "miningItemId": "item_originium_ore",
+        "produceRate": 1
+      },
+      {
+        "consumeItem": {
+          "count": 0,
+          "id": ""
+        },
+        "miningItemId": "item_quartz_sand",
+        "produceRate": 1
+      },
+      {
+        "consumeItem": {
+          "count": 0,
+          "id": ""
+        },
+        "miningItemId": "item_iron_ore",
+        "produceRate": 1
+      }
+    ],
+    "msPerRound": 3000,
+    "msTransferCD": 10000
+  },
+  "miner_4": {
+    "hasDroneMode": true,
+    "id": "miner_4",
+    "minePosition": {
+      "x": 1,
+      "y": 0,
+      "z": 1
+    },
+    "mineable": [
+      {
+        "consumeItem": {
+          "count": 1,
+          "id": "item_liquid_water"
+        },
+        "miningItemId": "item_originium_ore",
+        "produceRate": 1
+      },
+      {
+        "consumeItem": {
+          "count": 1,
+          "id": "item_liquid_water"
+        },
+        "miningItemId": "item_quartz_sand",
+        "produceRate": 1
+      },
+      {
+        "consumeItem": {
+          "count": 1,
+          "id": "item_liquid_water"
+        },
+        "miningItemId": "item_iron_ore",
+        "produceRate": 1
+      },
+      {
+        "consumeItem": {
+          "count": 1,
+          "id": "item_liquid_water"
+        },
+        "miningItemId": "item_copper_ore",
+        "produceRate": 1
+      }
+    ],
+    "msPerRound": 3000,
+    "msTransferCD": 10000
+  }
+}

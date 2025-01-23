@@ -1,0 +1,688 @@
+{
+  "factory_benchmark": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "factory_benchmark",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "indie_dg002": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "indie_dg002",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "ld_prototype_region": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "ld_prototype_region",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "ld_tasktest01": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "ld_tasktest01",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map01_lv001": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map01_lv001",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "f1m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map01_lv002": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map01_lv002",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "f1m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map01_lv003": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map01_lv003",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "sm1l3m3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map01_lv005": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map01_lv005",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e2m5"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map01_lv006": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map01_lv006",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e2m8"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map01_lv007": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map01_lv007",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e3m6"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map02_lv001": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map02_lv001",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e5m1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map10000_test1": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map10000_test1",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "map10000_test2": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "map10000_test2",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  },
+  "testbed_interactive": {
+    "compareOperator": 3,
+    "conditionType": 19,
+    "name": "testbed_interactive",
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "e1m1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0
+        ],
+        "valueIntList": [
+          0
+        ],
+        "valueStringList": [
+          "0"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": 1
+  }
+}

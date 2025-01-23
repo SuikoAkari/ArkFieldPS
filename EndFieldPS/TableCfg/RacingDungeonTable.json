@@ -1,0 +1,156 @@
+{
+  "dung_race001": {
+    "list": {
+      "1": {
+        "baseScore": 200,
+        "bossRoomId": [
+          14,
+          15,
+          16
+        ],
+        "enemyDesc": {
+          "id": "6C94B4579CAD83FC",
+          "text": ""
+        },
+        "level": 1,
+        "reviveHP": 0.3,
+        "rewardDesc": {
+          "id": "2652BC6CC9451DA1",
+          "text": ""
+        },
+        "roomScore": 20,
+        "scoreRatio": 1,
+        "tacticsList": [
+          "race_start_buff_2",
+          "race_start_buff_1",
+          "race_start_buff_12",
+          "race_start_buff_14",
+          "race_start_buff_4",
+          "race_start_buff_8",
+          "race_start_buff_9",
+          "race_start_buff_5"
+        ]
+      },
+      "2": {
+        "baseScore": 200,
+        "bossRoomId": [
+          14,
+          15,
+          16
+        ],
+        "enemyDesc": {
+          "id": "E86739621AF89D28",
+          "text": ""
+        },
+        "level": 2,
+        "reviveHP": 0.3,
+        "rewardDesc": {
+          "id": "B2B1C4EF8B04E1CF",
+          "text": ""
+        },
+        "roomScore": 20,
+        "scoreRatio": 1.5,
+        "tacticsList": [
+          "race_start_buff_2",
+          "race_start_buff_1",
+          "race_start_buff_12",
+          "race_start_buff_14",
+          "race_start_buff_4",
+          "race_start_buff_8",
+          "race_start_buff_9",
+          "race_start_buff_5"
+        ]
+      },
+      "3": {
+        "baseScore": 200,
+        "bossRoomId": [
+          14,
+          15,
+          16
+        ],
+        "enemyDesc": {
+          "id": "AFDDA7D647A25370",
+          "text": ""
+        },
+        "level": 3,
+        "reviveHP": 0.3,
+        "rewardDesc": {
+          "id": "",
+          "text": ""
+        },
+        "roomScore": 20,
+        "scoreRatio": 2,
+        "tacticsList": [
+          "race_start_buff_2",
+          "race_start_buff_1",
+          "race_start_buff_12",
+          "race_start_buff_14",
+          "race_start_buff_4",
+          "race_start_buff_8",
+          "race_start_buff_9",
+          "race_start_buff_5"
+        ]
+      },
+      "4": {
+        "baseScore": 200,
+        "bossRoomId": [
+          14,
+          15,
+          16
+        ],
+        "enemyDesc": {
+          "id": "E10DA6D2A4893B89",
+          "text": ""
+        },
+        "level": 4,
+        "reviveHP": 0.3,
+        "rewardDesc": {
+          "id": "",
+          "text": ""
+        },
+        "roomScore": 20,
+        "scoreRatio": 2.5,
+        "tacticsList": [
+          "race_start_buff_2",
+          "race_start_buff_1",
+          "race_start_buff_12",
+          "race_start_buff_14",
+          "race_start_buff_4",
+          "race_start_buff_8",
+          "race_start_buff_9",
+          "race_start_buff_5"
+        ]
+      },
+      "5": {
+        "baseScore": 200,
+        "bossRoomId": [
+          14,
+          15,
+          16
+        ],
+        "enemyDesc": {
+          "id": "2C1CD34B929FF20D",
+          "text": ""
+        },
+        "level": 5,
+        "reviveHP": 0.3,
+        "rewardDesc": {
+          "id": "",
+          "text": ""
+        },
+        "roomScore": 20,
+        "scoreRatio": 4,
+        "tacticsList": [
+          "race_start_buff_2",
+          "race_start_buff_1",
+          "race_start_buff_12",
+          "race_start_buff_14",
+          "race_start_buff_4",
+          "race_start_buff_8",
+          "race_start_buff_9",
+          "race_start_buff_5"
+        ]
+      }
+    }
+  }
+}

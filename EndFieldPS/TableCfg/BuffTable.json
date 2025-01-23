@@ -1,0 +1,318 @@
+{
+  "buff_abilityentity_int_doodad_passive": {
+    "buffConfigPath": "Gameplay/Buff/Interactive/buff_abilityentity_int_doodad_passive",
+    "buffId": "buff_abilityentity_int_doodad_passive"
+  },
+  "buff_abilityentity_interact_bomb_passive": {
+    "buffConfigPath": "Gameplay/Buff/Interactive/buff_abilityentity_interact_bomb_passive",
+    "buffId": "buff_abilityentity_interact_bomb_passive"
+  },
+  "buff_abilityentity_interact_mud_carpet_passive": {
+    "buffConfigPath": "Gameplay/Buff/Interactive/buff_abilityentity_interact_mud_carpet_passive",
+    "buffId": "buff_abilityentity_interact_mud_carpet_passive"
+  },
+  "buff_abilityentity_interact_mud_carpet_target": {
+    "buffConfigPath": "Gameplay/Buff/Interactive/buff_abilityentity_interact_mud_carpet_target",
+    "buffId": "buff_abilityentity_interact_mud_carpet_target"
+  },
+  "buff_chr_0003_endmin_extra_attack": {
+    "buffConfigPath": "Gameplay/Buff/Character/buff_chr_0003_endmin_extra_attack",
+    "buffId": "buff_chr_0003_endmin_extra_attack"
+  },
+  "buff_chr_0003_endmin_normal_skill3_auradamage": {
+    "buffConfigPath": "Gameplay/Buff/Character/buff_chr_0003_endmin_normal_skill3_auradamage",
+    "buffId": "buff_chr_0003_endmin_normal_skill3_auradamage"
+  },
+  "buff_chr_0003_endmin_wind_move": {
+    "buffConfigPath": "Gameplay/Buff/Character/buff_chr_0003_endmin_wind_move",
+    "buffId": "buff_chr_0003_endmin_wind_move"
+  },
+  "buff_chr_0006_wolfgd_ultimate_skill": {
+    "buffConfigPath": "Gameplay/Buff/Character/buff_chr_0006_wolfgd_ultimate_skill",
+    "buffId": "buff_chr_0006_wolfgd_ultimate_skill"
+  },
+  "buff_chr_0009_azrila_ultimate_skill": {
+    "buffConfigPath": "Gameplay/Buff/Character/buff_chr_0009_azrila_ultimate_skill",
+    "buffId": "buff_chr_0009_azrila_ultimate_skill"
+  },
+  "buff_chr_0012_avywen_ultimate_skill_abentity": {
+    "buffConfigPath": "Gameplay/Buff/Character/buff_chr_0012_avywen_ultimate_skill_abentity",
+    "buffId": "buff_chr_0012_avywen_ultimate_skill_abentity"
+  },
+  "buff_common_addweakness_physical": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_addweakness_physical",
+    "buffId": "buff_common_addweakness_physical"
+  },
+  "buff_common_airborne_with_lightning": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_airborne_with_lightning",
+    "buffId": "buff_common_airborne_with_lightning"
+  },
+  "buff_common_auto_recover_main_sp": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_auto_recover_main_sp",
+    "buffId": "buff_common_auto_recover_main_sp"
+  },
+  "buff_common_character_bomb_countdown": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_character_bomb_countdown",
+    "buffId": "buff_common_character_bomb_countdown"
+  },
+  "buff_common_combo_damageup": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_combo_damageup",
+    "buffId": "buff_common_combo_damageup"
+  },
+  "buff_common_elemental_debuff_lightning": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_elemental_debuff_lightning",
+    "buffId": "buff_common_elemental_debuff_lightning"
+  },
+  "buff_common_enemy_elite_1": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_enemy_elite_1",
+    "buffId": "buff_common_enemy_elite_1"
+  },
+  "buff_common_enemy_halo_effect": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_enemy_halo_effect",
+    "buffId": "buff_common_enemy_halo_effect"
+  },
+  "buff_common_enemy_patrolregen": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_enemy_patrolregen",
+    "buffId": "buff_common_enemy_patrolregen"
+  },
+  "buff_common_enemy_poiseresist_normal": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_enemy_poiseresist_normal",
+    "buffId": "buff_common_enemy_poiseresist_normal"
+  },
+  "buff_common_energyshard_cryst": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_energyshard_cryst",
+    "buffId": "buff_common_energyshard_cryst"
+  },
+  "buff_common_energyshard_fire": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_energyshard_fire",
+    "buffId": "buff_common_energyshard_fire"
+  },
+  "buff_common_energyshard_pulse": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_energyshard_pulse",
+    "buffId": "buff_common_energyshard_pulse"
+  },
+  "buff_common_frozen": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_frozen",
+    "buffId": "buff_common_frozen"
+  },
+  "buff_common_full_immune": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_full_immune",
+    "buffId": "buff_common_full_immune"
+  },
+  "buff_common_full_immune_infinity": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_full_immune_infinity",
+    "buffId": "buff_common_full_immune_infinity"
+  },
+  "buff_common_heal_potion_1": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_heal_potion_1",
+    "buffId": "buff_common_heal_potion_1"
+  },
+  "buff_common_heal_potion_2": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_heal_potion_2",
+    "buffId": "buff_common_heal_potion_2"
+  },
+  "buff_common_heal_potion_all": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_heal_potion_all",
+    "buffId": "buff_common_heal_potion_all"
+  },
+  "buff_common_hurt": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_hurt",
+    "buffId": "buff_common_hurt"
+  },
+  "buff_common_knockback_damage": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_knockback_damage",
+    "buffId": "buff_common_knockback_damage"
+  },
+  "buff_common_knockback_with_lightning": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_knockback_with_lightning",
+    "buffId": "buff_common_knockback_with_lightning"
+  },
+  "buff_common_knockdown_with_lightning": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_knockdown_with_lightning",
+    "buffId": "buff_common_knockdown_with_lightning"
+  },
+  "buff_common_mainsp_ball_blue": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_mainsp_ball_blue",
+    "buffId": "buff_common_mainsp_ball_blue"
+  },
+  "buff_common_mainsp_ball_green": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_mainsp_ball_green",
+    "buffId": "buff_common_mainsp_ball_green"
+  },
+  "buff_common_mainsp_ball_red": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_mainsp_ball_red",
+    "buffId": "buff_common_mainsp_ball_red"
+  },
+  "buff_common_mainsp_ball_yellow": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_mainsp_ball_yellow",
+    "buffId": "buff_common_mainsp_ball_yellow"
+  },
+  "buff_common_stop_recover_ap": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_stop_recover_ap",
+    "buffId": "buff_common_stop_recover_ap"
+  },
+  "buff_common_stunned": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_stunned",
+    "buffId": "buff_common_stunned"
+  },
+  "buff_common_unmovable": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_unmovable",
+    "buffId": "buff_common_unmovable"
+  },
+  "buff_common_weakness_countchanged": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_weakness_countchanged",
+    "buffId": "buff_common_weakness_countchanged"
+  },
+  "buff_common_weakness_triggered": {
+    "buffConfigPath": "Gameplay/Buff/Common/buff_common_weakness_triggered",
+    "buffId": "buff_common_weakness_triggered"
+  },
+  "buff_eny_0003_lbmelee_permanent_effect": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0003_lbmelee_permanent_effect",
+    "buffId": "buff_eny_0003_lbmelee_permanent_effect"
+  },
+  "buff_eny_0008_gorgax_assault_skill06": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_assault_skill06",
+    "buffId": "buff_eny_0008_gorgax_assault_skill06"
+  },
+  "buff_eny_0008_gorgax_assault_skill08": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_assault_skill08",
+    "buffId": "buff_eny_0008_gorgax_assault_skill08"
+  },
+  "buff_eny_0008_gorgax_convertstage": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_convertstage",
+    "buffId": "buff_eny_0008_gorgax_convertstage"
+  },
+  "buff_eny_0008_gorgax_poisemonitor": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_poisemonitor",
+    "buffId": "buff_eny_0008_gorgax_poisemonitor"
+  },
+  "buff_eny_0008_gorgax_skill07": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_skill07",
+    "buffId": "buff_eny_0008_gorgax_skill07"
+  },
+  "buff_eny_0008_gorgax_skill07_effectbuff": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_skill07_effectbuff",
+    "buffId": "buff_eny_0008_gorgax_skill07_effectbuff"
+  },
+  "buff_eny_0008_gorgax_specialhurt": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_specialhurt",
+    "buffId": "buff_eny_0008_gorgax_specialhurt"
+  },
+  "buff_eny_0008_gorgax_test_move": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_test_move",
+    "buffId": "buff_eny_0008_gorgax_test_move"
+  },
+  "buff_eny_0008_gorgax_test_physics_listener": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0008_gorgax_test_physics_listener",
+    "buffId": "buff_eny_0008_gorgax_test_physics_listener"
+  },
+  "buff_eny_0015_mimicw2_skill01_poisoned": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0015_mimicw2_skill01_poisoned",
+    "buffId": "buff_eny_0015_mimicw2_skill01_poisoned"
+  },
+  "buff_eny_0017_dexasco_assault_test": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0017_dexasco_assault_test",
+    "buffId": "buff_eny_0017_dexasco_assault_test"
+  },
+  "buff_eny_0017_dexasco_obstacle_test": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0017_dexasco_obstacle_test",
+    "buffId": "buff_eny_0017_dexasco_obstacle_test"
+  },
+  "buff_eny_0017_dexasco_passiveskill": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0017_dexasco_passiveskill",
+    "buffId": "buff_eny_0017_dexasco_passiveskill"
+  },
+  "buff_eny_0017_dexasco_physical_listener": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0017_dexasco_physical_listener",
+    "buffId": "buff_eny_0017_dexasco_physical_listener"
+  },
+  "buff_eny_0017_dexasco_skill07": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0017_dexasco_skill07",
+    "buffId": "buff_eny_0017_dexasco_skill07"
+  },
+  "buff_eny_0021_agmelee_skill01": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0021_agmelee_skill01",
+    "buffId": "buff_eny_0021_agmelee_skill01"
+  },
+  "buff_eny_0023_aghornb_skill02": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0023_aghornb_skill02",
+    "buffId": "buff_eny_0023_aghornb_skill02"
+  },
+  "buff_eny_0045_agtrinit_enter_weak": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_enter_weak",
+    "buffId": "buff_eny_0045_agtrinit_enter_weak"
+  },
+  "buff_eny_0045_agtrinit_skill13_loop": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_skill13_loop",
+    "buffId": "buff_eny_0045_agtrinit_skill13_loop"
+  },
+  "buff_eny_0045_agtrinit_skill13hit_player": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_skill13hit_player",
+    "buffId": "buff_eny_0045_agtrinit_skill13hit_player"
+  },
+  "buff_eny_0045_agtrinit_skill23": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_skill23",
+    "buffId": "buff_eny_0045_agtrinit_skill23"
+  },
+  "buff_eny_0045_agtrinit_state0fx": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_state0fx",
+    "buffId": "buff_eny_0045_agtrinit_state0fx"
+  },
+  "buff_eny_0045_agtrinit_state1fx": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_state1fx",
+    "buffId": "buff_eny_0045_agtrinit_state1fx"
+  },
+  "buff_eny_0045_agtrinit_state2fx": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_state2fx",
+    "buffId": "buff_eny_0045_agtrinit_state2fx"
+  },
+  "buff_eny_0045_agtrinit_weak_hit": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_weak_hit",
+    "buffId": "buff_eny_0045_agtrinit_weak_hit"
+  },
+  "buff_eny_0045_agtrinit_weak_hit_range": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_0045_agtrinit_weak_hit_range",
+    "buffId": "buff_eny_0045_agtrinit_weak_hit_range"
+  },
+  "buff_eny_5001_tritest_enter_weak": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_5001_tritest_enter_weak",
+    "buffId": "buff_eny_5001_tritest_enter_weak"
+  },
+  "buff_eny_5001_tritest_skill13_hit_player": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_5001_tritest_skill13_hit_player",
+    "buffId": "buff_eny_5001_tritest_skill13_hit_player"
+  },
+  "buff_eny_5001_tritest_skill13_loop": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_5001_tritest_skill13_loop",
+    "buffId": "buff_eny_5001_tritest_skill13_loop"
+  },
+  "buff_eny_5001_tritest_state0fx": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_5001_tritest_state0fx",
+    "buffId": "buff_eny_5001_tritest_state0fx"
+  },
+  "buff_eny_5001_tritest_state1fx": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_5001_tritest_state1fx",
+    "buffId": "buff_eny_5001_tritest_state1fx"
+  },
+  "buff_eny_5001_tritest_state2fx": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_5001_tritest_state2fx",
+    "buffId": "buff_eny_5001_tritest_state2fx"
+  },
+  "buff_eny_5001_tritest_weak_hit": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_5001_tritest_weak_hit",
+    "buffId": "buff_eny_5001_tritest_weak_hit"
+  },
+  "buff_eny_5001_tritest_weak_hit_range": {
+    "buffConfigPath": "Gameplay/Buff/Enemy/buff_eny_5001_tritest_weak_hit_range",
+    "buffId": "buff_eny_5001_tritest_weak_hit_range"
+  },
+  "buff_levelscript_test_damage": {
+    "buffConfigPath": "Gameplay/Buff/Interactive/buff_levelscript_test_damage",
+    "buffId": "buff_levelscript_test_damage"
+  },
+  "buff_levelscript_test_stun": {
+    "buffConfigPath": "Gameplay/Buff/Interactive/buff_levelscript_test_stun",
+    "buffId": "buff_levelscript_test_stun"
+  }
+}

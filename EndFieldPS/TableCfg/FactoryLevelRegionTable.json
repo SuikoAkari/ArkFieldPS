@@ -1,0 +1,272 @@
+{
+  "MovementDev": {
+    "list": [
+      "region_MovementDev"
+    ]
+  },
+  "blackbox_assebling_1": {
+    "list": [
+      "region_blackbox_assebling_1"
+    ]
+  },
+  "blackbox_assebling_2": {
+    "list": [
+      "region_blackbox_assebling_2"
+    ]
+  },
+  "blackbox_asseblingbomb_1": {
+    "list": [
+      "region_blackbox_asseblingbomb_1"
+    ]
+  },
+  "blackbox_basic_1": {
+    "list": [
+      "region_blackbox_basic_1"
+    ]
+  },
+  "blackbox_belt_1": {
+    "list": [
+      "region_blackbox_belt_1"
+    ]
+  },
+  "blackbox_belt_2": {
+    "list": [
+      "region_blackbox_belt_2"
+    ]
+  },
+  "blackbox_bus_1": {
+    "list": [
+      "region_blackbox_bus_1"
+    ]
+  },
+  "blackbox_bus_2": {
+    "list": [
+      "region_blackbox_bus_2"
+    ]
+  },
+  "blackbox_cmpt_1": {
+    "list": [
+      "region_blackbox_cmpt_1"
+    ]
+  },
+  "blackbox_connector_1": {
+    "list": [
+      "region_blackbox_connector_1"
+    ]
+  },
+  "blackbox_converger_1": {
+    "list": [
+      "region_blackbox_converger_1"
+    ]
+  },
+  "blackbox_filling_1": {
+    "list": [
+      "region_blackbox_filling_1"
+    ]
+  },
+  "blackbox_filling_2": {
+    "list": [
+      "region_blackbox_filling_2"
+    ]
+  },
+  "blackbox_filling_3": {
+    "list": [
+      "region_blackbox_filling_3"
+    ]
+  },
+  "blackbox_filling_4": {
+    "list": [
+      "region_blackbox_filling_4"
+    ]
+  },
+  "blackbox_filling_5": {
+    "list": [
+      "region_blackbox_filling_5"
+    ]
+  },
+  "blackbox_grinder_1": {
+    "list": [
+      "region_blackbox_grinder_1"
+    ]
+  },
+  "blackbox_hub_1": {
+    "list": [
+      "region_blackbox_hub_1"
+    ]
+  },
+  "blackbox_liquidcleaner_1": {
+    "list": [
+      "region_blackbox_liquidcleaner_1"
+    ]
+  },
+  "blackbox_miner_1": {
+    "list": [
+      "region_blackbox_miner_1"
+    ]
+  },
+  "blackbox_miner_2": {
+    "list": [
+      "region_blackbox_miner_2"
+    ]
+  },
+  "blackbox_miner_3": {
+    "list": [
+      "region_blackbox_miner_3"
+    ]
+  },
+  "blackbox_mix_1": {
+    "list": [
+      "region_blackbox_mix_1"
+    ]
+  },
+  "blackbox_mix_2": {
+    "list": [
+      "region_blackbox_mix_2"
+    ]
+  },
+  "blackbox_pipe_1": {
+    "list": [
+      "region_blackbox_pipe_1"
+    ]
+  },
+  "blackbox_pipe_2": {
+    "list": [
+      "region_blackbox_pipe_2"
+    ]
+  },
+  "blackbox_planter_1": {
+    "list": [
+      "region_blackbox_planter_1"
+    ]
+  },
+  "blackbox_planter_2": {
+    "list": [
+      "region_blackbox_planter_2"
+    ]
+  },
+  "blackbox_power_1": {
+    "list": [
+      "region_blackbox_power_1"
+    ]
+  },
+  "blackbox_powerstation_1": {
+    "list": [
+      "region_blackbox_powerstation_1"
+    ]
+  },
+  "blackbox_shaper_1": {
+    "list": [
+      "region_blackbox_shaper_1"
+    ]
+  },
+  "blackbox_shaper_2": {
+    "list": [
+      "region_blackbox_shaper_2"
+    ]
+  },
+  "blackbox_splitter_1": {
+    "list": [
+      "region_blackbox_splitter_1"
+    ]
+  },
+  "blackbox_squirter_1": {
+    "list": [
+      "region_blackbox_squirter_1"
+    ]
+  },
+  "blackbox_storager_1": {
+    "list": [
+      "region_blackbox_storager_1"
+    ]
+  },
+  "blackbox_thickener_1": {
+    "list": [
+      "region_blackbox_thickener_1"
+    ]
+  },
+  "blackbox_winder_1": {
+    "list": [
+      "region_blackbox_winder_1"
+    ]
+  },
+  "demo_blackbox": {
+    "list": [
+      "region_factory_blackbox"
+    ]
+  },
+  "demo_blackbox02": {
+    "list": [
+      "region_demo_blackbox02"
+    ]
+  },
+  "factory_benchmark": {
+    "list": [
+      "region_factory_benchmark"
+    ]
+  },
+  "indie_dg002": {
+    "list": [
+      "region_dg002"
+    ]
+  },
+  "ld_tasktest01": {
+    "list": [
+      "region_ld_tasktest01"
+    ]
+  },
+  "map01_lv001": {
+    "list": [
+      "region_102"
+    ]
+  },
+  "map01_lv002": {
+    "list": [
+      "region_301"
+    ]
+  },
+  "map01_lv003": {
+    "list": [
+      "region_401"
+    ]
+  },
+  "map01_lv005": {
+    "list": [
+      "region_501"
+    ]
+  },
+  "map01_lv006": {
+    "list": [
+      "region_601"
+    ]
+  },
+  "map01_lv007": {
+    "list": [
+      "region_701"
+    ]
+  },
+  "map02_lv001": {
+    "list": [
+      "region_map02_lv001"
+    ]
+  },
+  "map10000_test1": {
+    "list": [
+      "region_map10000_test1"
+    ]
+  },
+  "map10000_test2": {
+    "list": [
+      "region_map10000_test2"
+    ]
+  },
+  "test_animPlayground": {
+    "list": [
+      "region_test_animPlayground"
+    ]
+  },
+  "testbed_interactive": {
+    "list": [
+      "region_testbed_interactive"
+    ]
+  }
+}
