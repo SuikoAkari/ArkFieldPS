@@ -22,7 +22,27 @@
 <p>3. Run the server</p>
 
 <p>4. Run Fiddler classic and use this FiddlerScript</p>
+```javascript
+import System;
+import System.Windows.Forms;
+import Fiddler;
+import System.Text.RegularExpressions;
 
+class Handlers
+{
+    static function OnBeforeRequest(oS: Session) {
+        if(oS.host.Contains("gryphline.com") || oS.host.Contains("hg-cdn.com")) {
+            if(oS.HTTPMethodIs("CONNECT")){
+                return;
+            }
+            FiddlerObject.log(">>>>>>>>>>>> URL:" + oS.fullUrl);
+            oS.oRequest.headers.UriScheme = "http";
+            oS.oRequest["Cookie"] = (oS.oRequest["Cookie"] + ";OriginalHost=" + oS.host + ";OriginalUrl=" + oS.fullUrl);
+            oS.host = "localhost:5000";
+        }
+    }
+};
+```
 <p>5. Run the client and start to play! (Note: Only OS client is supported for now)</p>
 
 <h2>Note</h2>
