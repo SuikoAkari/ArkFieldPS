@@ -109,7 +109,7 @@ namespace EndFieldPS.Network
                 publicKey = publicKey.Replace("\n", "");
                 publicKey = publicKey.Replace("-----END PUBLIC KEY-----", "");
                 publicKey = publicKey.Trim();
-                Server.Print(publicKey);
+                Logger.Print(publicKey);
                 byte[] publicKey_ = Convert.FromBase64String(publicKey);
                 // Importa la chiave pubblica
                 rsa.ImportSubjectPublicKeyInfo(publicKey_, out _);
@@ -139,7 +139,7 @@ namespace EndFieldPS.Network
             PutUInt16(data, (ushort)body.ToByteArray().Length, 1);
             PutByteArray(data, head.ToByteArray(), 3);
             PutByteArray(data, body.ToByteArray(), 3+head.ToByteArray().Length);
-            Server.Print($"Sending packet: {((ScMessageId)msgId).ToString().Pastel(Color.LightBlue)} id: {msgId} with {data.Length} bytes");
+            Logger.Print($"Sending packet: {((ScMessageId)msgId).ToString().Pastel(Color.LightBlue)} id: {msgId} with {data.Length} bytes");
             
             return data;
         }
@@ -156,7 +156,7 @@ namespace EndFieldPS.Network
             Console.WriteLine("body "+ByteString.CopyFrom(BodyBytes).ToBase64());
             Console.WriteLine("head " + ByteString.CopyFrom(csHeadBytes).ToBase64());
             seqNext = csHead_.UpSeqid;
-            Server.Print("seq: "+seqNext);
+            Logger.Print("seq: "+seqNext);
             return new Packet() { csHead = csHead_, finishedBody = BodyBytes,cmdId=csHead_.Msgid };
         }
     }

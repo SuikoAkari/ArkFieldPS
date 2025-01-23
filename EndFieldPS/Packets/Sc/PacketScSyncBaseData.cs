@@ -17,8 +17,9 @@ namespace EndFieldPS.Packets.Sc
             ScSyncBaseData proto = new ScSyncBaseData()
             {
                 Roleid = client.roleId,
-                Level = 1,
-                RoleName = "Player",
+                Level = client.level,
+                Exp=client.xp,
+                RoleName = client.nickname,
                 Gender = Gender.GenFemale,
                 ShortId="1",
                 

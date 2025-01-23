@@ -58,7 +58,7 @@
             {
                 if (!Server.hideLog.Contains(cmdId))
                     //  string jsonBody = Packet.ReadString(session.socket);
-                    Server.Print($"Can't find handler for {(Enum.GetName(typeof(CsMessageId), cmdId)).ToString().Pastel(Color.FromArgb(165, 229, 250))} ({(cmdId).ToString().Pastel(Color.FromArgb(165, 229, 250))})");
+                    Logger.Print($"Can't find handler for {(Enum.GetName(typeof(CsMessageId), cmdId)).ToString().Pastel(Color.FromArgb(165, 229, 250))} ({(cmdId).ToString().Pastel(Color.FromArgb(165, 229, 250))})");
             }
         }
 

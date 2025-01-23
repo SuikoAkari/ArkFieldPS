@@ -54,9 +54,8 @@ namespace EndFieldPS
         public static Dispatch dispatch;
         public static ResourceManager resourceManager;
         public static ConfigFile config;
+        
 
-      
-   
         public static ResourceManager GetResources()
         {
             return resourceManager;
@@ -161,11 +160,6 @@ namespace EndFieldPS
         public static string ColoredText(string text, string color)
         {
             return text.Pastel(color);
-        }
-        public static void Print(string text)
-        {
-            Logger.Log(text);
-            Console.WriteLine($"[{ColoredText("Server", "03fcce")}] " + text);
         }
         public static void Shutdown()
         {

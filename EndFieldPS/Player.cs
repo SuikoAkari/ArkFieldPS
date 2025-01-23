@@ -25,8 +25,6 @@ using static EndFieldPS.Resource.ResourceManager;
 
 namespace EndFieldPS
 {
-    
-
     public class GuidRandomizer
     {
         public ulong v = 0;
@@ -36,9 +34,9 @@ namespace EndFieldPS
             return v;
         }
     }
-
     public class Player
     {
+        //TODO move to Team class
         public class Team
         {
             public string name="";
@@ -48,7 +46,13 @@ namespace EndFieldPS
         public GuidRandomizer random = new GuidRandomizer();
         public Thread receivorThread;
         public Socket socket;
+        //Data
+        public string token = "";
+        public string nickname = "Endministrator";
         public ulong roleId= 1;
+        public uint level = 20;
+        public uint xp = 0;
+        //
         public Vector3f position;
         public Vector3f rotation;
         public int curSceneNumId;
@@ -65,6 +69,12 @@ namespace EndFieldPS
             inventoryManager = new(this);
             receivorThread = new Thread(new ThreadStart(Receive));
            
+        }
+        public void Load(string token)
+        {
+            //TODO
+            this.token = token;
+            Initialize(); //only if no account found (no mongodb implementation for now, so calling this directly)
         }
         public void Initialize()
         {
@@ -104,8 +114,8 @@ namespace EndFieldPS
         public void EnterScene(int sceneNumId)
         {
             curSceneNumId = sceneNumId;
-            position = ResourceManager.GetLevelData(sceneNumId).playerInitPos;
-            rotation = ResourceManager.GetLevelData(sceneNumId).playerInitRot;
+            position = GetLevelData(sceneNumId).playerInitPos;
+            rotation = GetLevelData(sceneNumId).playerInitRot;
             Send(new PacketScEnterSceneNotify(this,sceneNumId));
         }
         public bool SocketConnected(Socket s)
@@ -128,9 +138,9 @@ namespace EndFieldPS
             }
             catch (Exception e)
             {
-            
+                Disconnect();
             }
-
+            
         }
         public static byte[] ConcatenateByteArrays(byte[] array1, byte[] array2)
         {
@@ -138,7 +148,7 @@ namespace EndFieldPS
         }
         public void Receive()
         {
-            
+           
                 while (SocketConnected(socket))
                 {
                     byte[] buffer = new byte[3];
@@ -156,11 +166,11 @@ namespace EndFieldPS
                         int mLength = socket.Receive(moreData);
                         if (mLength == moreData.Length)
                         {
-                        buffer = ConcatenateByteArrays(buffer, moreData);
+                            buffer = ConcatenateByteArrays(buffer, moreData);
                             packet = Packet.Read(this, buffer);
 
 
-                            Server.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
+                            Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
                             NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
                         }
                        
@@ -170,12 +180,14 @@ namespace EndFieldPS
 
 
 
-            //client.Disconnect();
+            Disconnect();
         }
 
-        internal void Disconnect()
+        public void Disconnect()
         {
-           // throw new NotImplementedException();
+           Server.clients.Remove(this);
+            Logger.Print($"{nickname} Disconnected");
+            //TODO Save
         }
     }
 }

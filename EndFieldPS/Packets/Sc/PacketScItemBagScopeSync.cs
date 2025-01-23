@@ -85,7 +85,7 @@ namespace EndFieldPS.Packets.Sc
                     
                 }
             });
-            Server.Print(proto.ToString());
+            Logger.Print(proto.ToString());
             SetData(ScMessageId.ScItemBagScopeSync, proto);
         }
 
