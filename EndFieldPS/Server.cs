@@ -1,6 +1,7 @@
 ﻿
 using BeyondTools.VFS.Crypto;
 using EndFieldPS.Commands;
+using EndFieldPS.Database;
 using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
@@ -47,7 +48,7 @@ namespace EndFieldPS
             public delegate void HandlerDelegate(string command, string[] args);
         }
         public static List<Player> clients = new List<Player>();
-        public static string ServerVersion = "1.0.2";
+        public static string ServerVersion = "1.0.3-dev";
         public static bool Initialized = false;
         public static bool showLogs = true;
         public static SQLiteConnection _db;
@@ -82,6 +83,7 @@ namespace EndFieldPS
             // showLogs = false;
             Print($"Logs are {(showLogs ? "enabled" : "disabled")}");
             Server.config = config;
+            DatabaseManager.Init();
             ResourceManager.Init();
             new Thread(new ThreadStart(DispatchServer)).Start();
             
