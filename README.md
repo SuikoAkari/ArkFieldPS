@@ -22,7 +22,7 @@
 <p>3. Run the server</p>
 
 <p>4. Run Fiddler classic and use this FiddlerScript</p>
-```javascript
+```
 import System;
 import System.Windows.Forms;
 import Fiddler;
@@ -42,6 +42,7 @@ class Handlers
         }
     }
 };
+
 ```
 <p>5. Run the client and start to play! (Note: Only OS client is supported for now)</p>
 
