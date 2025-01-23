@@ -56,7 +56,7 @@
             }
             else
             {
-               Server.Print($"Command not found");
+               Logger.Print($"Command not found");
             }
         }
 
