@@ -3,8 +3,6 @@ using EndFieldPS.Network;
 using EndFieldPS.Packets.Sc;
 using EndFieldPS.Protocol;
 using Google.Protobuf;
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Parameters;
 using System;
 using System.Collections.Generic;
 using System.Linq;

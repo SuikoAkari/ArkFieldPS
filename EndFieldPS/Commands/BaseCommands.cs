@@ -1,10 +1,10 @@
 ﻿using EndFieldPS.Protocol;
-using Org.BouncyCastle.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static EndFieldPS.Resource.ResourceManager;
 
 namespace EndFieldPS.Commands
 {
@@ -22,6 +22,85 @@ namespace EndFieldPS.Commands
                 item.EnterScene(sceneNumId);
             }
         }
-        
+        [Server.Command("spawn", "Spawn cmd test")]
+        public static void SpawnCmd(string cmd, string[] args)
+        {
+            if (args.Length < 1) return;
+            string templateId = args[0];
+
+            foreach (var item in Server.clients)
+            {
+
+                ScObjectEnterView info = new()
+                {
+                    
+                    
+                    Detail =new()
+                    {
+                        
+                        TeamIndex = item.teamIndex,
+                        
+                        MonsterList =
+                        {
+                            new SceneMonster()
+                            {
+                                Level=5,
+                                CommonInfo = new()
+                                {
+                                    Hp=100,
+                                    Id=item.random.Next(),
+                                    Templateid=templateId,
+                                    
+                                    SceneNumId=item.curSceneNumId,
+                                    Position=item.position.ToProto(),
+                                    
+                                },
+                                
+                                BattleInfo = new()
+                                {
+                                    
+                                },
+                                
+                            }
+                        },
+                        
+                    },
+                };
+                enemyAttributeTemplateTable[templateId].levelDependentAttributes[5].attrs.ForEach(attr =>
+                {
+                    info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
+                    {
+                        AttrType = attr.attrType,
+                        BasicValue = 0,
+                        Value = attr.attrValue
+
+                    });
+
+                });
+                enemyAttributeTemplateTable[templateId].levelIndependentAttributes.attrs.ForEach(attr =>
+                {
+                    info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
+                    {
+                        AttrType = attr.attrType,
+                        BasicValue = 0,
+                        Value = attr.attrValue
+
+                    });
+
+                });
+                item.Send(ScMessageId.ScObjectEnterView, info);
+                
+                item.Send(ScMessageId.ScSpawnEnemy, new ScSpawnEnemy() 
+                {
+                    EnemyInstIds =
+                    {
+                        info.Detail.MonsterList[0].CommonInfo.Id
+                    },
+                    
+                    
+                });
+                
+            }
+        }
     }
 }
