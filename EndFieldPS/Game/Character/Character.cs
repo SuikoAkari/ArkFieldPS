@@ -1,4 +1,7 @@
 ﻿using EndFieldPS.Resource;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson.Serialization.IdGenerators;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +12,13 @@ namespace EndFieldPS.Game.Character
 {
     public class Character
     {
-
+        [BsonId(IdGenerator = typeof(ObjectIdGenerator))]
+        public ObjectId _id { get; set; }
+        [BsonElement("templateId")]
+        public string id;
         public ulong guid;
         public ulong weaponGuid;
-        public string id;
+
         public int level;
         public int xp;
         public ulong owner;
@@ -21,19 +27,19 @@ namespace EndFieldPS.Game.Character
         public int breakStage = 1;
         public Character()
         {
-
+           
         }
         public Character(ulong owner, string id) : this(owner, id, 1)
         {
 
         }
-        public Character(ulong owner,string id, int level)
+        public Character(ulong owner,string id, int level) : this()
         {
             this.owner = owner;
             this.id = id;
             this.level = level;
             guid = GetOwner().random.Next();
-            this.weaponGuid = GetOwner().AddWeapon(ResourceManager.GetDefaultWeapon(ResourceManager.characterTable[id].weaponType),1).guid;
+            this.weaponGuid = GetOwner().inventoryManager.AddWeapon(ResourceManager.GetDefaultWeapon(ResourceManager.characterTable[id].weaponType),1).guid;
             this.curHp = ResourceManager.characterTable[id].attributes[level].Attribute.attrs.Find(A => A.attrType == (int)AttributeType.MaxHp)!.attrValue;
         }
         public List<ResourceManager.Attribute> GetAttributes()

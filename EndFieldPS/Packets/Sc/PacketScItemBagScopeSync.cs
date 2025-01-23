@@ -1,4 +1,5 @@
-﻿using EndFieldPS.Network;
+﻿using EndFieldPS.Game.Inventory;
+using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
 using System;
@@ -12,7 +13,7 @@ namespace EndFieldPS.Packets.Sc
 {
     public class PacketScItemBagScopeSync : Packet
     {
-        public PacketScItemBagScopeSync(Player client) {
+        public PacketScItemBagScopeSync(Player client,ItemValuableDepotType type) {
             
             ScItemBagScopeSync proto = new ScItemBagScopeSync()
             {
@@ -39,53 +40,33 @@ namespace EndFieldPS.Packets.Sc
                 ScopeName = 1,
                 Depot = 
                 { 
-                    {(int)ItemValuableDepotType.Weapon,
-                        new ScdItemDepot()
-                        {
-                            InstList =
-                            {
-                        
-
-
-                            }
-                        } 
-                    },
-                    {(int)ItemValuableDepotType.SpecialItem,
-                        new ScdItemDepot()
-                        {
-                            
-                        }
-                    },
-                    {(int)ItemValuableDepotType.CommercialItem,
-                        new ScdItemDepot()
-                        {
-
-                        }
-                    },
-                    {(int)ItemValuableDepotType.Factory,
-                        new ScdItemDepot()
-                        {
-
-                        }
-                    }
 
                 }
 
             };
-            client.inventoryManager.weapons.ForEach(w => 
+            
+            //All depots type from 1 to 10
+            int i = (int)type;
+            if(i > 1)
             {
-                proto.Depot[1].InstList.Add(w.ToProto());
-            });
-
-            client.inventoryManager.items.ForEach(i =>
+                proto.FactoryDepot.Clear();
+                proto.Bag = null;
+            }
+            proto.Depot.Add(i, new ScdItemDepot());
+            List<Item> items = client.inventoryManager.items.FindAll(item => item.ItemType == (ItemValuableDepotType)i);
+            items.ForEach(item =>
             {
-                if (proto.Depot.ContainsKey((int)i.ItemType) && i.ItemType != ItemValuableDepotType.Equip && i.ItemType != ItemValuableDepotType.WeaponGem)
+                if (item.InstanceType())
                 {
-                    proto.Depot[(int)i.ItemType].StackableItems.Add(i.id,i.amount);
-                    
+                    proto.Depot[i].InstList.Add(item.ToProto());
+                }
+                else
+                {
+                    proto.Depot[(int)i].StackableItems.Add(item.id, item.amount);
                 }
             });
-            Logger.Print(proto.ToString());
+            
+           // Logger.Print(proto.ToString());
             SetData(ScMessageId.ScItemBagScopeSync, proto);
         }
 
