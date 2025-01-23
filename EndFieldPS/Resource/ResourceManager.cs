@@ -9,6 +9,19 @@ using static EndFieldPS.Resource.ResourceManager;
 
 namespace EndFieldPS.Resource
 {
+    public class IdConst
+    {
+        static System.Int32 ID_SERVER_SET_TYPE_BIT = 62;
+        static System.Int32 ID_CLIENT_RUNTIME_SET_TYPE_BIT = 61;
+        static System.Int32 ID_ROLE_INDEX_SHIFT = 57;
+        static System.UInt64 LOGIC_ID_SEGMENT = 10000;
+        static System.UInt64 MAX_LOGIC_ID_BOUND = 100000000;
+        static System.Int32 LOCAL_ID_SEGMENT = 10000;
+        static System.Int32 MAX_LOCAL_ID_BOUND = 100000000;
+        static System.Int32 MAX_LEVEL_ID_BOUND = 100000;
+        static System.UInt64 MAX_GLOBAL_ID = 10000000000000;
+        static System.UInt64 MAX_RUNTIME_CLIENT_ID = 2305843009213693952;
+    }
     public class ResourceManager
     {
         public static Dictionary<string, SceneAreaTable> sceneAreaTable = new();
@@ -29,6 +42,8 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, DomainDataTable> domainDataTable = new();
         public static Dictionary<string, CollectionTable> collectionTable = new();
         public static Dictionary<string, GachaCharPoolTable> gachaCharPoolTable = new();
+        public static Dictionary<string, CharBreakNodeTable> charBreakNodeTable = new();
+        public static Dictionary<string, EnemyAttributeTemplateTable> enemyAttributeTemplateTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -37,29 +52,42 @@ namespace EndFieldPS.Resource
             if (levelDatas.Find(a => a.id == name) == null) return 0;
             return levelDatas.Find(a => a.id == name).idNum;
         }
+        public static string ReadJsonFile(string path)
+        {
+            try
+            {
+                return File.ReadAllText(path);
+            }
+            catch(Exception e)
+            {
+                Logger.PrintError($"Error occured while loading {path}");
+                return "";
+            }
+        }
         public static void Init()
         {
-            Server.Print("Loading resources");
-            sceneAreaTable=JsonConvert.DeserializeObject<Dictionary<string, SceneAreaTable>>(File.ReadAllText("Excel/SceneAreaTable.json"));
-            strIdNumTable = JsonConvert.DeserializeObject<StrIdNumTable>(File.ReadAllText("Excel/StrIdNumTable.json"));
-            characterTable = JsonConvert.DeserializeObject<Dictionary<string, CharacterTable>>(File.ReadAllText("Excel/CharacterTable.json"));
-            systemJumpTable = JsonConvert.DeserializeObject<Dictionary<string, SystemJumpTable>>(File.ReadAllText("Excel/SystemJumpTable.json"));
-            settlementBasicDataTable = JsonConvert.DeserializeObject<Dictionary<string, SettlementBasicDataTable>>(File.ReadAllText("Excel/SettlementBasicDataTable.json"));
-            blocMissionTable = JsonConvert.DeserializeObject<Dictionary<string, BlocMissionTable>>(File.ReadAllText("Excel/BlocMissionTable.json"));
-            dialogTextTable = JsonConvert.DeserializeObject<Dictionary<string, DialogTextTable>>(File.ReadAllText("Excel/DialogTextTable.json"));
-            gameSystemConfigTable = JsonConvert.DeserializeObject<Dictionary<string, GameSystemConfigTable>>(File.ReadAllText("Excel/GameSystemConfigTable.json"));
-            wikiGroupTable = JsonConvert.DeserializeObject<Dictionary<string, WikiGroupTable>>(File.ReadAllText("Excel/WikiGroupTable.json"));
-            dialogIdTable = JsonConvert.DeserializeObject<StrIdNumTable>(File.ReadAllText("Json/GameplayConfig/DialogIdTable.json"));
-            blocUnlockTable = JsonConvert.DeserializeObject<Dictionary<string, object>>(File.ReadAllText("Excel/BlocUnlockTable.json"));
-            gameMechanicTable= JsonConvert.DeserializeObject<Dictionary<string, GameMechanicTable>>(File.ReadAllText("Excel/GameMechanicTable.json"));
-            weaponBasicTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponBasicTable>>(File.ReadAllText("Excel/WeaponBasicTable.json"));
-            missionAreaTable = JsonConvert.DeserializeObject<MissionAreaTable>(File.ReadAllText("Json/GameplayConfig/MissionAreaTable.json"));
-            blocDataTable = JsonConvert.DeserializeObject<Dictionary<string, BlocDataTable>>(File.ReadAllText("Excel/BlocDataTable.json"));
-            itemTable = JsonConvert.DeserializeObject<Dictionary<string, ItemTable>>(File.ReadAllText("Excel/ItemTable.json"));
-            domainDataTable = JsonConvert.DeserializeObject<Dictionary<string, DomainDataTable>>(File.ReadAllText("Excel/DomainDataTable.json"));
-            collectionTable = JsonConvert.DeserializeObject<Dictionary<string, CollectionTable>>(File.ReadAllText("Excel/CollectionTable.json"));
-            gachaCharPoolTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolTable>>(File.ReadAllText("Excel/GachaCharPoolTable.json"));
-            
+            Logger.Print("Loading TableCfg resources");
+            sceneAreaTable=JsonConvert.DeserializeObject<Dictionary<string, SceneAreaTable>>(ReadJsonFile("TableCfg/SceneAreaTable.json"));
+            strIdNumTable = JsonConvert.DeserializeObject<StrIdNumTable>(ReadJsonFile("TableCfg/StrIdNumTable.json"));
+            characterTable = JsonConvert.DeserializeObject<Dictionary<string, CharacterTable>>(ReadJsonFile("TableCfg/CharacterTable.json"));
+            systemJumpTable = JsonConvert.DeserializeObject<Dictionary<string, SystemJumpTable>>(ReadJsonFile("TableCfg/SystemJumpTable.json"));
+            settlementBasicDataTable = JsonConvert.DeserializeObject<Dictionary<string, SettlementBasicDataTable>>(ReadJsonFile("TableCfg/SettlementBasicDataTable.json"));
+            blocMissionTable = JsonConvert.DeserializeObject<Dictionary<string, BlocMissionTable>>(ReadJsonFile("TableCfg/BlocMissionTable.json"));
+            dialogTextTable = JsonConvert.DeserializeObject<Dictionary<string, DialogTextTable>>(ReadJsonFile("TableCfg/DialogTextTable.json"));
+            gameSystemConfigTable = JsonConvert.DeserializeObject<Dictionary<string, GameSystemConfigTable>>(ReadJsonFile("TableCfg/GameSystemConfigTable.json"));
+            wikiGroupTable = JsonConvert.DeserializeObject<Dictionary<string, WikiGroupTable>>(ReadJsonFile("TableCfg/WikiGroupTable.json"));
+            dialogIdTable = JsonConvert.DeserializeObject<StrIdNumTable>(ReadJsonFile("Json/GameplayConfig/DialogIdTable.json"));
+            blocUnlockTable = JsonConvert.DeserializeObject<Dictionary<string, object>>(ReadJsonFile("TableCfg/BlocUnlockTable.json"));
+            gameMechanicTable= JsonConvert.DeserializeObject<Dictionary<string, GameMechanicTable>>(ReadJsonFile("TableCfg/GameMechanicTable.json"));
+            weaponBasicTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponBasicTable>>(ReadJsonFile("TableCfg/WeaponBasicTable.json"));
+            missionAreaTable = JsonConvert.DeserializeObject<MissionAreaTable>(ReadJsonFile("Json/GameplayConfig/MissionAreaTable.json"));
+            blocDataTable = JsonConvert.DeserializeObject<Dictionary<string, BlocDataTable>>(ReadJsonFile("TableCfg/BlocDataTable.json"));
+            itemTable = JsonConvert.DeserializeObject<Dictionary<string, ItemTable>>(ReadJsonFile("TableCfg/ItemTable.json"));
+            domainDataTable = JsonConvert.DeserializeObject<Dictionary<string, DomainDataTable>>(ReadJsonFile("TableCfg/DomainDataTable.json"));
+            collectionTable = JsonConvert.DeserializeObject<Dictionary<string, CollectionTable>>(ReadJsonFile("TableCfg/CollectionTable.json"));
+            gachaCharPoolTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolTable>>(ReadJsonFile("TableCfg/GachaCharPoolTable.json"));
+            charBreakNodeTable = JsonConvert.DeserializeObject<Dictionary<string, CharBreakNodeTable>>(ReadJsonFile("TableCfg/CharBreakNodeTable.json"));
+            enemyAttributeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, EnemyAttributeTemplateTable>>(ReadJsonFile("TableCfg/EnemyAttributeTemplateTable.json"));
             LoadLevelDatas();
         }
         public static ItemTable GetItemTable(string id)
@@ -84,16 +112,17 @@ namespace EndFieldPS.Resource
         }
         public static void LoadLevelDatas()
         {
-            string directoryPath = @"Json/LevelData"; // Percorso della directory principale
+            Logger.Print("Loading LevelData resources");
+            string directoryPath = @"Json/LevelData";
             string[] jsonFiles = Directory.GetFiles(directoryPath, "*.json", SearchOption.AllDirectories);
             foreach(string json in jsonFiles)
             {
-                LevelData data = JsonConvert.DeserializeObject<LevelData>(File.ReadAllText(json));
+                LevelData data = JsonConvert.DeserializeObject<LevelData>(ReadJsonFile(json));
                 levelDatas.Add(data);
-                Print("Loading " + data.id);
+               // Print("Loading " + data.id);
             }
 
-            Print($"Loaded {levelDatas.Count} LevelData");
+            Logger.Print($"Loaded {levelDatas.Count} LevelData");
         }
         public static int GetItemTemplateId(string item_id)
         {
@@ -171,6 +200,7 @@ namespace EndFieldPS.Resource
         public class SettlementBasicDataTable
         {
             public string settlementId;
+            public string domainId;
         }
         public class StrIdNumTable
         {
@@ -226,6 +256,17 @@ namespace EndFieldPS.Resource
         {
             public string prefabId;
         }
+        public class CharBreakNodeTable
+        {
+            public int breakStage;
+            public string nodeId;
+        }
+        public class EnemyAttributeTemplateTable
+        {
+            public string templateId;
+            public List<Attributes> levelDependentAttributes;
+            public AttributeList levelIndependentAttributes;
+        }
         public class CharacterTable
         {
             public List<Attributes> attributes;
@@ -233,11 +274,14 @@ namespace EndFieldPS.Resource
             public int weaponType;
             public string engName;
             public int rarity;
+
         }
         public class Attributes
         {
             public int breakStage;
             public AttributeList Attribute;
+            //Enemy
+            public List<Attribute> attrs; 
         }
         public class AttributeList
         {
@@ -247,11 +291,6 @@ namespace EndFieldPS.Resource
         {
             public int attrType;
             public double attrValue;
-        }
-        public static void Print(string text)
-        {
-            Logger.Log(text);
-            Console.WriteLine($"[{Server.ColoredText("ResourceManager", "03fcce")}] " + text);
         }
 
 

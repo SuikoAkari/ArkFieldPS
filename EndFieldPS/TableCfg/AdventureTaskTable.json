@@ -1,0 +1,992 @@
+{
+  "ab_01_01": {
+    "adventureBookStage": 1,
+    "adventureTaskId": "ab_01_01",
+    "conditionId": "cond_ab_01_01",
+    "conditionType": 6502,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_1_1",
+    "sortId": 89,
+    "taskDesc": {
+      "id": "CF179C986CD2604A",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_01_02": {
+    "adventureBookStage": 1,
+    "adventureTaskId": "ab_01_02",
+    "conditionId": "cond_ab_01_02",
+    "conditionType": 6503,
+    "jumpSystemId": "jump_weapon",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_1_2",
+    "sortId": 88,
+    "taskDesc": {
+      "id": "5A103D67B9DAFBB1",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_01_03": {
+    "adventureBookStage": 1,
+    "adventureTaskId": "ab_01_03",
+    "conditionId": "cond_ab_01_03",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_equip",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_1_3",
+    "sortId": 87,
+    "taskDesc": {
+      "id": "729BFDED09968A47",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_01_04": {
+    "adventureBookStage": 1,
+    "adventureTaskId": "ab_01_04",
+    "conditionId": "cond_ab_01_04",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_1_4",
+    "sortId": 86,
+    "taskDesc": {
+      "id": "C816E45838B46713",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_01_05": {
+    "adventureBookStage": 1,
+    "adventureTaskId": "ab_01_05",
+    "conditionId": "cond_ab_01_05",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 5,
+    "rewardId": "reward_adventure_book_1_5",
+    "sortId": 85,
+    "taskDesc": {
+      "id": "5FB343759EC01D1A",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_01_06": {
+    "adventureBookStage": 1,
+    "adventureTaskId": "ab_01_06",
+    "conditionId": "cond_ab_01_06",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_equip_produce",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_1_6",
+    "sortId": 84,
+    "taskDesc": {
+      "id": "B69A937AAFE0281F",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_02_01": {
+    "adventureBookStage": 2,
+    "adventureTaskId": "ab_02_01",
+    "conditionId": "cond_ab_02_01",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_equip",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_2_1",
+    "sortId": 83,
+    "taskDesc": {
+      "id": "F84EC3594905E5ED",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_02_02": {
+    "adventureBookStage": 2,
+    "adventureTaskId": "ab_02_02",
+    "conditionId": "cond_ab_02_02",
+    "conditionType": 6006,
+    "jumpSystemId": "",
+    "progressToCompare": 5,
+    "rewardId": "reward_adventure_book_2_2",
+    "sortId": 82,
+    "taskDesc": {
+      "id": "5AF9A546A9B9F82F",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_02_03": {
+    "adventureBookStage": 2,
+    "adventureTaskId": "ab_02_03",
+    "conditionId": "cond_ab_02_03",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_equip_produce",
+    "progressToCompare": 8,
+    "rewardId": "reward_adventure_book_2_3",
+    "sortId": 81,
+    "taskDesc": {
+      "id": "37F50557A16907A4",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_02_04": {
+    "adventureBookStage": 2,
+    "adventureTaskId": "ab_02_04",
+    "conditionId": "cond_ab_02_04",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_2_4",
+    "sortId": 80,
+    "taskDesc": {
+      "id": "47311A1F26AD1EAB",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_02_05": {
+    "adventureBookStage": 2,
+    "adventureTaskId": "ab_02_05",
+    "conditionId": "cond_ab_02_05",
+    "conditionType": 5258,
+    "jumpSystemId": "jump_battle_train",
+    "progressToCompare": 3,
+    "rewardId": "reward_adventure_book_2_5",
+    "sortId": 79,
+    "taskDesc": {
+      "id": "5CB1AA60AAA8A621",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_02_06": {
+    "adventureBookStage": 2,
+    "adventureTaskId": "ab_02_06",
+    "conditionId": "cond_ab_02_06",
+    "conditionType": 5267,
+    "jumpSystemId": "jump_camp_map01_lv001",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_2_6",
+    "sortId": 78,
+    "taskDesc": {
+      "id": "77C9688FC7181404",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_03_01": {
+    "adventureBookStage": 3,
+    "adventureTaskId": "ab_03_01",
+    "conditionId": "cond_ab_03_01",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_dungeon_char",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_3_1",
+    "sortId": 77,
+    "taskDesc": {
+      "id": "932126B07A0B19BF",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_03_02": {
+    "adventureBookStage": 3,
+    "adventureTaskId": "ab_03_02",
+    "conditionId": "cond_ab_03_02",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_equip_produce",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_3_2",
+    "sortId": 76,
+    "taskDesc": {
+      "id": "5CC99AAA65816C31",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_03_03": {
+    "adventureBookStage": 3,
+    "adventureTaskId": "ab_03_03",
+    "conditionId": "cond_ab_03_03",
+    "conditionType": 5257,
+    "jumpSystemId": "jump_blackbox",
+    "progressToCompare": 3,
+    "rewardId": "reward_adventure_book_3_3",
+    "sortId": 75,
+    "taskDesc": {
+      "id": "1F0ACDAA205D24B7",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_03_04": {
+    "adventureBookStage": 3,
+    "adventureTaskId": "ab_03_04",
+    "conditionId": "cond_ab_03_04",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_spaceship_shop",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_3_4",
+    "sortId": 74,
+    "taskDesc": {
+      "id": "9D8525CC02AF0A1E",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_03_05": {
+    "adventureBookStage": 3,
+    "adventureTaskId": "ab_03_05",
+    "conditionId": "cond_ab_03_05",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_scne_grade",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_3_5",
+    "sortId": 73,
+    "taskDesc": {
+      "id": "DC03A459AAF7073D",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_03_06": {
+    "adventureBookStage": 3,
+    "adventureTaskId": "ab_03_06",
+    "conditionId": "cond_ab_03_06",
+    "conditionType": 5255,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 3,
+    "rewardId": "reward_adventure_book_3_6",
+    "sortId": 72,
+    "taskDesc": {
+      "id": "1FD90E9CB8847868",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_04_01": {
+    "adventureBookStage": 4,
+    "adventureTaskId": "ab_04_01",
+    "conditionId": "cond_ab_04_01",
+    "conditionType": 6504,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_4_1",
+    "sortId": 71,
+    "taskDesc": {
+      "id": "6CE149E51CB23891",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_04_02": {
+    "adventureBookStage": 4,
+    "adventureTaskId": "ab_04_02",
+    "conditionId": "cond_ab_04_02",
+    "conditionType": 5251,
+    "jumpSystemId": "jump_weapon",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_4_2",
+    "sortId": 70,
+    "taskDesc": {
+      "id": "BB176FB3B57FFE4D",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_04_03": {
+    "adventureBookStage": 4,
+    "adventureTaskId": "ab_04_03",
+    "conditionId": "cond_ab_04_03",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_equip_produce",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_4_3",
+    "sortId": 69,
+    "taskDesc": {
+      "id": "8108969C418F37C2",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_04_04": {
+    "adventureBookStage": 4,
+    "adventureTaskId": "ab_04_04",
+    "conditionId": "cond_ab_04_04",
+    "conditionType": 6006,
+    "jumpSystemId": "",
+    "progressToCompare": 10,
+    "rewardId": "reward_adventure_book_4_4",
+    "sortId": 68,
+    "taskDesc": {
+      "id": "D2123640DF2298D9",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_04_05": {
+    "adventureBookStage": 4,
+    "adventureTaskId": "ab_04_05",
+    "conditionId": "cond_ab_04_05",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_dungeon_boss_rush",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_4_5",
+    "sortId": 67,
+    "taskDesc": {
+      "id": "768866C1893E0504",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_04_06": {
+    "adventureBookStage": 4,
+    "adventureTaskId": "ab_04_06",
+    "conditionId": "cond_ab_04_06",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_4_6",
+    "sortId": 66,
+    "taskDesc": {
+      "id": "140C3355041A4BDE",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_05_01": {
+    "adventureBookStage": 5,
+    "adventureTaskId": "ab_05_01",
+    "conditionId": "cond_ab_05_01",
+    "conditionType": 6504,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_5_1",
+    "sortId": 65,
+    "taskDesc": {
+      "id": "44FCE820C77CBAA4",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_05_02": {
+    "adventureBookStage": 5,
+    "adventureTaskId": "ab_05_02",
+    "conditionId": "cond_ab_05_02",
+    "conditionType": 5251,
+    "jumpSystemId": "jump_weapon",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_5_2",
+    "sortId": 64,
+    "taskDesc": {
+      "id": "0E93CE5936356ED5",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_05_03": {
+    "adventureBookStage": 5,
+    "adventureTaskId": "ab_05_03",
+    "conditionId": "cond_ab_05_03",
+    "conditionType": 5257,
+    "jumpSystemId": "jump_blackbox",
+    "progressToCompare": 8,
+    "rewardId": "reward_adventure_book_5_3",
+    "sortId": 63,
+    "taskDesc": {
+      "id": "6E7C63D0CE306F70",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_05_04": {
+    "adventureBookStage": 5,
+    "adventureTaskId": "ab_05_04",
+    "conditionId": "cond_ab_05_04",
+    "conditionType": 5254,
+    "jumpSystemId": "jump_fac_techtree",
+    "progressToCompare": 13,
+    "rewardId": "reward_adventure_book_5_4",
+    "sortId": 62,
+    "taskDesc": {
+      "id": "30B3AA188C498613",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_05_05": {
+    "adventureBookStage": 5,
+    "adventureTaskId": "ab_05_05",
+    "conditionId": "cond_ab_05_05",
+    "conditionType": 6006,
+    "jumpSystemId": "",
+    "progressToCompare": 40,
+    "rewardId": "reward_adventure_book_5_5",
+    "sortId": 61,
+    "taskDesc": {
+      "id": "FA8BD57362F65210",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_05_06": {
+    "adventureBookStage": 5,
+    "adventureTaskId": "ab_05_06",
+    "conditionId": "cond_ab_05_06",
+    "conditionType": 6506,
+    "jumpSystemId": "jump_settlement",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_5_6",
+    "sortId": 60,
+    "taskDesc": {
+      "id": "19C50B466EB9B3A9",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_06_01": {
+    "adventureBookStage": 6,
+    "adventureTaskId": "ab_06_01",
+    "conditionId": "cond_ab_06_01",
+    "conditionType": 6502,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_6_1",
+    "sortId": 59,
+    "taskDesc": {
+      "id": "6908DE671431E27A",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_06_02": {
+    "adventureBookStage": 6,
+    "adventureTaskId": "ab_06_02",
+    "conditionId": "cond_ab_06_02",
+    "conditionType": 6503,
+    "jumpSystemId": "jump_weapon",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_6_2",
+    "sortId": 58,
+    "taskDesc": {
+      "id": "B888A87A0E43F6C8",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_06_03": {
+    "adventureBookStage": 6,
+    "adventureTaskId": "ab_06_03",
+    "conditionId": "cond_ab_06_03",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_equip_produce",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_6_3",
+    "sortId": 57,
+    "taskDesc": {
+      "id": "BA4AF3689C597CC7",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_06_04": {
+    "adventureBookStage": 6,
+    "adventureTaskId": "ab_06_04",
+    "conditionId": "cond_ab_06_04",
+    "conditionType": 6506,
+    "jumpSystemId": "jump_settlement",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_6_4",
+    "sortId": 56,
+    "taskDesc": {
+      "id": "423AC63ECCED4810",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_06_05": {
+    "adventureBookStage": 6,
+    "adventureTaskId": "ab_06_05",
+    "conditionId": "cond_ab_06_05",
+    "conditionType": 5257,
+    "jumpSystemId": "jump_blackbox",
+    "progressToCompare": 12,
+    "rewardId": "reward_adventure_book_6_5",
+    "sortId": 55,
+    "taskDesc": {
+      "id": "E62E9D49487D8648",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_06_06": {
+    "adventureBookStage": 6,
+    "adventureTaskId": "ab_06_06",
+    "conditionId": "cond_ab_06_06",
+    "conditionType": 6006,
+    "jumpSystemId": "",
+    "progressToCompare": 30,
+    "rewardId": "reward_adventure_book_6_6",
+    "sortId": 54,
+    "taskDesc": {
+      "id": "FB6D9117A3EB63A9",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_07_01": {
+    "adventureBookStage": 7,
+    "adventureTaskId": "ab_07_01",
+    "conditionId": "cond_ab_07_01",
+    "conditionType": 6504,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_7_1",
+    "sortId": 53,
+    "taskDesc": {
+      "id": "DB7DA882209AE7B5",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_07_02": {
+    "adventureBookStage": 7,
+    "adventureTaskId": "ab_07_02",
+    "conditionId": "cond_ab_07_02",
+    "conditionType": 5251,
+    "jumpSystemId": "jump_weapon",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_7_2",
+    "sortId": 52,
+    "taskDesc": {
+      "id": "600D231EE9DBA3F5",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_07_03": {
+    "adventureBookStage": 7,
+    "adventureTaskId": "ab_07_03",
+    "conditionId": "cond_ab_07_03",
+    "conditionType": 5255,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 7,
+    "rewardId": "reward_adventure_book_7_3",
+    "sortId": 51,
+    "taskDesc": {
+      "id": "F59ACA713F86D21E",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_07_04": {
+    "adventureBookStage": 7,
+    "adventureTaskId": "ab_07_04",
+    "conditionId": "cond_ab_07_04",
+    "conditionType": 6006,
+    "jumpSystemId": "",
+    "progressToCompare": 50,
+    "rewardId": "reward_adventure_book_7_4",
+    "sortId": 50,
+    "taskDesc": {
+      "id": "1C487B3858D2A4DC",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_07_05": {
+    "adventureBookStage": 7,
+    "adventureTaskId": "ab_07_05",
+    "conditionId": "cond_ab_07_05",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_racing_dungeon",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_7_5",
+    "sortId": 49,
+    "taskDesc": {
+      "id": "659802A0F8812FAC",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_07_06": {
+    "adventureBookStage": 7,
+    "adventureTaskId": "ab_07_06",
+    "conditionId": "cond_ab_07_06",
+    "conditionType": 5254,
+    "jumpSystemId": "jump_fac_techtree",
+    "progressToCompare": 35,
+    "rewardId": "reward_adventure_book_7_6",
+    "sortId": 48,
+    "taskDesc": {
+      "id": "803C5144F910A223",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_08_01": {
+    "adventureBookStage": 8,
+    "adventureTaskId": "ab_08_01",
+    "conditionId": "cond_ab_08_01",
+    "conditionType": 6504,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_8_1",
+    "sortId": 47,
+    "taskDesc": {
+      "id": "FC19F33147109DB9",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_08_02": {
+    "adventureBookStage": 8,
+    "adventureTaskId": "ab_08_02",
+    "conditionId": "cond_ab_08_02",
+    "conditionType": 5251,
+    "jumpSystemId": "jump_weapon",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_8_2",
+    "sortId": 46,
+    "taskDesc": {
+      "id": "B60992B1CAD700B6",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_08_03": {
+    "adventureBookStage": 8,
+    "adventureTaskId": "ab_08_03",
+    "conditionId": "cond_ab_08_03",
+    "conditionType": 6506,
+    "jumpSystemId": "jump_settlement",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_8_3",
+    "sortId": 45,
+    "taskDesc": {
+      "id": "159945A318D34991",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_08_04": {
+    "adventureBookStage": 8,
+    "adventureTaskId": "ab_08_04",
+    "conditionId": "cond_ab_08_04",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_gemrecast",
+    "progressToCompare": 1,
+    "rewardId": "reward_adventure_book_8_4",
+    "sortId": 44,
+    "taskDesc": {
+      "id": "3D3AA5E57D8F2A6F",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_08_05": {
+    "adventureBookStage": 8,
+    "adventureTaskId": "ab_08_05",
+    "conditionId": "cond_ab_08_05",
+    "conditionType": 5044,
+    "jumpSystemId": "jump_stm_tundra_1",
+    "progressToCompare": 5,
+    "rewardId": "reward_adventure_book_8_5",
+    "sortId": 43,
+    "taskDesc": {
+      "id": "5CC18A41D952775C",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_08_06": {
+    "adventureBookStage": 8,
+    "adventureTaskId": "ab_08_06",
+    "conditionId": "cond_ab_08_06",
+    "conditionType": 5257,
+    "jumpSystemId": "jump_blackbox",
+    "progressToCompare": 20,
+    "rewardId": "reward_adventure_book_8_6",
+    "sortId": 42,
+    "taskDesc": {
+      "id": "F2B924EDCEEE7364",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_09_01": {
+    "adventureBookStage": 9,
+    "adventureTaskId": "ab_09_01",
+    "conditionId": "cond_ab_09_01",
+    "conditionType": 6502,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_9_1",
+    "sortId": 41,
+    "taskDesc": {
+      "id": "555DC2EBE45C036E",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_09_02": {
+    "adventureBookStage": 9,
+    "adventureTaskId": "ab_09_02",
+    "conditionId": "cond_ab_09_02",
+    "conditionType": 6503,
+    "jumpSystemId": "jump_weapon",
+    "progressToCompare": 4,
+    "rewardId": "reward_adventure_book_9_2",
+    "sortId": 40,
+    "taskDesc": {
+      "id": "B6C531B8FF3F2D9E",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_09_03": {
+    "adventureBookStage": 9,
+    "adventureTaskId": "ab_09_03",
+    "conditionId": "cond_ab_09_03",
+    "conditionType": 6006,
+    "jumpSystemId": "",
+    "progressToCompare": 100,
+    "rewardId": "reward_adventure_book_9_3",
+    "sortId": 39,
+    "taskDesc": {
+      "id": "5C11524391999BB1",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_09_04": {
+    "adventureBookStage": 9,
+    "adventureTaskId": "ab_09_04",
+    "conditionId": "cond_ab_09_04",
+    "conditionType": 6006,
+    "jumpSystemId": "",
+    "progressToCompare": 60,
+    "rewardId": "reward_adventure_book_9_4",
+    "sortId": 38,
+    "taskDesc": {
+      "id": "1CA90ECA2FE4B9BE",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_09_05": {
+    "adventureBookStage": 9,
+    "adventureTaskId": "ab_09_05",
+    "conditionId": "cond_ab_09_05",
+    "conditionType": 5045,
+    "jumpSystemId": "jump_settlement",
+    "progressToCompare": 10,
+    "rewardId": "reward_adventure_book_9_5",
+    "sortId": 37,
+    "taskDesc": {
+      "id": "08E6E60D2441FC83",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "ab_09_06": {
+    "adventureBookStage": 9,
+    "adventureTaskId": "ab_09_06",
+    "conditionId": "cond_ab_09_06",
+    "conditionType": 5254,
+    "jumpSystemId": "jump_fac_techtree",
+    "progressToCompare": 16,
+    "rewardId": "reward_adventure_book_9_6",
+    "sortId": 36,
+    "taskDesc": {
+      "id": "B86C2FFC7F8559D1",
+      "text": ""
+    },
+    "taskType": 2
+  },
+  "daily_001": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_001",
+    "conditionId": "cond_daily_001",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 1,
+    "rewardId": "reward_daily_20",
+    "sortId": 100,
+    "taskDesc": {
+      "id": "9C652DE7CD70613F",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_002": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_002",
+    "conditionId": "cond_daily_002",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 60,
+    "rewardId": "reward_daily_10",
+    "sortId": 99,
+    "taskDesc": {
+      "id": "DF6760E7F17EBE19",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_003": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_003",
+    "conditionId": "cond_daily_003",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 120,
+    "rewardId": "reward_daily_10",
+    "sortId": 98,
+    "taskDesc": {
+      "id": "047AAEF29344D0E6",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_004": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_004",
+    "conditionId": "cond_daily_004",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 20,
+    "rewardId": "reward_daily_20",
+    "sortId": 97,
+    "taskDesc": {
+      "id": "FB83969D1338C94F",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_005": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_005",
+    "conditionId": "cond_daily_005",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_char_level_upgrade",
+    "progressToCompare": 1,
+    "rewardId": "reward_daily_20",
+    "sortId": 96,
+    "taskDesc": {
+      "id": "BDACB54D1E2C7FAB",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_006": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_006",
+    "conditionId": "cond_daily_006",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_weapon",
+    "progressToCompare": 1,
+    "rewardId": "reward_daily_20",
+    "sortId": 95,
+    "taskDesc": {
+      "id": "EB2706DC2BB9BB79",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_007": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_007",
+    "conditionId": "cond_daily_007",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_equip_produce",
+    "progressToCompare": 1,
+    "rewardId": "reward_daily_40",
+    "sortId": 94,
+    "taskDesc": {
+      "id": "A536C8EC43B50CEB",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_008": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_008",
+    "conditionId": "cond_daily_008",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 5,
+    "rewardId": "reward_daily_20",
+    "sortId": 93,
+    "taskDesc": {
+      "id": "5D0A3B2E594452C9",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_009": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_009",
+    "conditionId": "cond_daily_009",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_manul_craft",
+    "progressToCompare": 1,
+    "rewardId": "reward_daily_20",
+    "sortId": 92,
+    "taskDesc": {
+      "id": "EAC253269C27D352",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_010": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_010",
+    "conditionId": "cond_daily_010",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_racing_dungeon",
+    "progressToCompare": 1,
+    "rewardId": "reward_daily_80",
+    "sortId": 91,
+    "taskDesc": {
+      "id": "22FB3785A379E7C9",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_011": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_011",
+    "conditionId": "cond_daily_011",
+    "conditionType": 6507,
+    "jumpSystemId": "jump_map_spaceship",
+    "progressToCompare": 1,
+    "rewardId": "reward_daily_40",
+    "sortId": 90,
+    "taskDesc": {
+      "id": "4D761A505EC098D8",
+      "text": ""
+    },
+    "taskType": 1
+  },
+  "daily_012": {
+    "adventureBookStage": 0,
+    "adventureTaskId": "daily_012",
+    "conditionId": "cond_daily_012",
+    "conditionType": 6507,
+    "jumpSystemId": "",
+    "progressToCompare": 1,
+    "rewardId": "reward_daily_80",
+    "sortId": 90,
+    "taskDesc": {
+      "id": "0AA02051EFD19682",
+      "text": ""
+    },
+    "taskType": 1
+  }
+}

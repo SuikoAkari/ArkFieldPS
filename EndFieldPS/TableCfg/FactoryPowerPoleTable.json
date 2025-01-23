@@ -1,0 +1,26 @@
+{
+  "power_diffuser_1": {
+    "id": "power_diffuser_1",
+    "rangeExtend": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    }
+  },
+  "power_pole_1": {
+    "id": "power_pole_1",
+    "rangeExtend": {
+      "x": 4,
+      "y": 4,
+      "z": 4
+    }
+  },
+  "power_pole_2": {
+    "id": "power_pole_2",
+    "rangeExtend": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

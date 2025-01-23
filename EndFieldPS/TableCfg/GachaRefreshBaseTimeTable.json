@@ -1,0 +1,8 @@
+{
+  "rule_pay_weapon_daily": {
+    "baseTime1": "2025/1/14 10:00:00",
+    "baseTime2": "2025/1/14 10:00:00",
+    "baseTime3": "2025/1/13 21:00:00",
+    "refreshRuleId": "rule_pay_weapon_daily"
+  }
+}

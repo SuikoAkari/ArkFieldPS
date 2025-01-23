@@ -1,0 +1,90 @@
+{
+  "tag_component": {
+    "combineMachineIds": [],
+    "id": "tag_component",
+    "tagLabel": {
+      "id": "0658313AFE9AE2C7",
+      "text": ""
+    }
+  },
+  "tag_filling": {
+    "combineMachineIds": [],
+    "id": "tag_filling",
+    "tagLabel": {
+      "id": "CC12188E98CF8A9B",
+      "text": ""
+    }
+  },
+  "tag_furnance": {
+    "combineMachineIds": [],
+    "id": "tag_furnance",
+    "tagLabel": {
+      "id": "65FE4CA91D52F3AF",
+      "text": ""
+    }
+  },
+  "tag_grinder": {
+    "combineMachineIds": [],
+    "id": "tag_grinder",
+    "tagLabel": {
+      "id": "43FA29F6B3DE6744",
+      "text": ""
+    }
+  },
+  "tag_planter": {
+    "combineMachineIds": [],
+    "id": "tag_planter",
+    "tagLabel": {
+      "id": "CAD20DE88F6F3785",
+      "text": ""
+    }
+  },
+  "tag_power": {
+    "combineMachineIds": [],
+    "id": "tag_power",
+    "tagLabel": {
+      "id": "1A9A826C951674F0",
+      "text": ""
+    }
+  },
+  "tag_seedcollector": {
+    "combineMachineIds": [],
+    "id": "tag_seedcollector",
+    "tagLabel": {
+      "id": "7043364AADA99153",
+      "text": ""
+    }
+  },
+  "tag_shaper": {
+    "combineMachineIds": [],
+    "id": "tag_shaper",
+    "tagLabel": {
+      "id": "E70FD916345A0AD9",
+      "text": ""
+    }
+  },
+  "tag_thickener": {
+    "combineMachineIds": [],
+    "id": "tag_thickener",
+    "tagLabel": {
+      "id": "97B601F5DC3187EB",
+      "text": ""
+    }
+  },
+  "tag_tools": {
+    "combineMachineIds": [],
+    "id": "tag_tools",
+    "tagLabel": {
+      "id": "E41A3199F7F7C966",
+      "text": ""
+    }
+  },
+  "tag_winder": {
+    "combineMachineIds": [],
+    "id": "tag_winder",
+    "tagLabel": {
+      "id": "52B066D64009AED3",
+      "text": ""
+    }
+  }
+}

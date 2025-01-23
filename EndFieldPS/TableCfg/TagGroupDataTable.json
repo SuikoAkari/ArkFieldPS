@@ -1,0 +1,57 @@
+{
+  "tag_group_disposition": {
+    "desc": {
+      "id": "93EDC12049AE2C9D",
+      "text": ""
+    },
+    "tagGroupId": "tag_group_disposition",
+    "tagGroupName": {
+      "id": "B07622A334C32BC4",
+      "text": ""
+    }
+  },
+  "tag_group_expert": {
+    "desc": {
+      "id": "5DF395FE6E400679",
+      "text": ""
+    },
+    "tagGroupId": "tag_group_expert",
+    "tagGroupName": {
+      "id": "39A50FD5489EA298",
+      "text": ""
+    }
+  },
+  "tag_group_hobby": {
+    "desc": {
+      "id": "6FAB90EF7FA7C0B5",
+      "text": ""
+    },
+    "tagGroupId": "tag_group_hobby",
+    "tagGroupName": {
+      "id": "BD81A0E2C6278D63",
+      "text": ""
+    }
+  },
+  "tag_group_power": {
+    "desc": {
+      "id": "12DCCB911FAF9707",
+      "text": ""
+    },
+    "tagGroupId": "tag_group_power",
+    "tagGroupName": {
+      "id": "CC2F8A0F2146A0D5",
+      "text": ""
+    }
+  },
+  "tag_group_race": {
+    "desc": {
+      "id": "6D937998C6D41303",
+      "text": ""
+    },
+    "tagGroupId": "tag_group_race",
+    "tagGroupName": {
+      "id": "DC50166B9754EEF2",
+      "text": ""
+    }
+  }
+}

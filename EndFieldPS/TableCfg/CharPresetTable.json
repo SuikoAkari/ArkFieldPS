@@ -1,0 +1,2570 @@
+{
+  "42_high": {
+    "charId": "chr_0016_laevat",
+    "charLv": 80,
+    "comboSkillLevel": 12,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_attri",
+      "item_unit_t5_hand_01_suit_fire_natr",
+      "item_unit_t5_edc_02_suit_fire_natr",
+      "item_unit_t5_edc_02_suit_fire_natr"
+    ],
+    "id": "42_high",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 12,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0006",
+    "weaponLv": 80
+  },
+  "42_mid": {
+    "charId": "chr_0016_laevat",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_wisd",
+      "item_unit_t4_hand_01_suit_wisd",
+      "item_unit_t4_edc_02_suit_wisd",
+      "item_unit_t4_edc_02_suit_wisd"
+    ],
+    "id": "42_mid",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0006",
+    "weaponLv": 50
+  },
+  "aglina_40": {
+    "charId": "chr_0013_aglina",
+    "charLv": 40,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_attri",
+      "item_unit_t4_hand_01_suit_attri",
+      "item_unit_t4_edc_01_suit_attri",
+      "item_unit_t4_edc_02_suit_attri"
+    ],
+    "id": "aglina_40",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0007",
+    "weaponLv": 40
+  },
+  "aglina_50": {
+    "charId": "chr_0013_aglina",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_02_suit_atb",
+      "item_unit_t3_hand_01_suit_will",
+      "item_unit_t5_edc_01_suit_atb",
+      "item_unit_t5_edc_01_suit_atb"
+    ],
+    "id": "aglina_50",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0010",
+    "weaponLv": 50
+  },
+  "aglina_60": {
+    "charId": "chr_0013_aglina",
+    "charLv": 60,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_02_suit_fire_natr",
+      "item_unit_t5_hand_02_suit_fire_natr",
+      "item_unit_t5_edc_03_suit_fire_natr",
+      "item_unit_t5_edc_01_parts_atk"
+    ],
+    "id": "aglina_60",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0010",
+    "weaponLv": 60
+  },
+  "aglina_80": {
+    "charId": "chr_0013_aglina",
+    "charLv": 80,
+    "comboSkillLevel": 12,
+    "equipMedicineId": "item_bottled_grass1spc_2",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_02_suit_fire_natr",
+      "item_unit_t5_hand_02_suit_fire_natr",
+      "item_unit_t5_edc_03_suit_fire_natr",
+      "item_unit_t5_edc_01_parts_atk"
+    ],
+    "id": "aglina_80",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 12,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0010",
+    "weaponLv": 80
+  },
+  "aglina_T1": {
+    "charId": "chr_0013_aglina",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_atk",
+      "item_unit_t1_hand_01_parts_atk",
+      "item_unit_t1_edc_01_parts_spe",
+      "item_unit_t1_edc_01_parts_def"
+    ],
+    "id": "aglina_T1",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0003",
+    "weaponLv": 20
+  },
+  "aglina_T2": {
+    "charId": "chr_0013_aglina",
+    "charLv": 28,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t2_body_01_parts_spe",
+      "item_unit_t2_hand_01_parts_spe",
+      "item_unit_t2_edc_01_parts_spe",
+      "item_unit_t2_edc_02_parts_def"
+    ],
+    "id": "aglina_T2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0003",
+    "weaponLv": 28
+  },
+  "aglina_T3": {
+    "charId": "chr_0013_aglina",
+    "charLv": 36,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_2",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t3_body_01_suit_will",
+      "item_unit_t3_hand_01_suit_will",
+      "item_unit_t3_edc_01_suit_will",
+      "item_unit_t3_edc_02_suit_will"
+    ],
+    "id": "aglina_T3",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0007",
+    "weaponLv": 36
+  },
+  "aglina_T4": {
+    "charId": "chr_0013_aglina",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_attri",
+      "item_unit_t4_hand_01_suit_attri",
+      "item_unit_t4_edc_01_suit_attri",
+      "item_unit_t4_edc_02_suit_attri"
+    ],
+    "id": "aglina_T4",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0007",
+    "weaponLv": 50
+  },
+  "aglina_T5": {
+    "charId": "chr_0013_aglina",
+    "charLv": 70,
+    "comboSkillLevel": 9,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_02_suit_fire_natr",
+      "item_unit_t5_hand_02_suit_fire_natr",
+      "item_unit_t5_edc_03_suit_fire_natr",
+      "item_unit_t5_edc_01_parts_atk"
+    ],
+    "id": "aglina_T5",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 9,
+    "normalSkillLevel": 9,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 9,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0010",
+    "weaponLv": 70
+  },
+  "aglina_high": {
+    "charId": "chr_0013_aglina",
+    "charLv": 80,
+    "comboSkillLevel": 12,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_02_suit_atb",
+      "item_unit_t5_edc_01_suit_heal",
+      "item_unit_t5_edc_01_suit_atb",
+      "item_unit_t5_edc_01_suit_atb"
+    ],
+    "id": "aglina_high",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 12,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0010",
+    "weaponLv": 80
+  },
+  "aglina_mid": {
+    "charId": "chr_0013_aglina",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_02_suit_atb",
+      "item_unit_t4_hand_02_suit_atb",
+      "item_unit_t4_edc_03_suit_atb",
+      "item_unit_t4_edc_02_suit_agi"
+    ],
+    "id": "aglina_mid",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0010",
+    "weaponLv": 50
+  },
+  "avna_high": {
+    "charId": "chr_0012_avywen",
+    "charLv": 80,
+    "comboSkillLevel": 12,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_attri",
+      "item_unit_t5_hand_01_suit_pulse_cryst",
+      "item_unit_t5_edc_03_suit_pulse_cryst",
+      "item_unit_t5_edc_03_suit_pulse_cryst"
+    ],
+    "id": "avna_high",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 12,
+    "weaponGemId": "",
+    "weaponId": "wpn_lance_0011",
+    "weaponLv": 80
+  },
+  "avna_mid": {
+    "charId": "chr_0012_avywen",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_attri",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t4_edc_03_suit_atb",
+      "item_unit_t4_edc_03_suit_atb"
+    ],
+    "id": "avna_mid",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_lance_0011",
+    "weaponLv": 50
+  },
+  "azrila_high": {
+    "charId": "chr_0009_azrila",
+    "charLv": 80,
+    "comboSkillLevel": 12,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_02_suit_phy",
+      "item_unit_t5_hand_02_suit_atb",
+      "item_unit_t5_edc_02_suit_atb",
+      "item_unit_t5_edc_02_suit_atb"
+    ],
+    "id": "azrila_high",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 12,
+    "weaponGemId": "",
+    "weaponId": "wpn_claym_0008",
+    "weaponLv": 80
+  },
+  "azrila_mid": {
+    "charId": "chr_0009_azrila",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_atb",
+      "item_unit_t4_hand_02_suit_atb",
+      "item_unit_t4_edc_03_suit_atb",
+      "item_unit_t4_edc_01_parts_spe"
+    ],
+    "id": "azrila_mid",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_claym_0008",
+    "weaponLv": 50
+  },
+  "chen_002": {
+    "charId": "chr_0005_chen",
+    "charLv": 10,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe"
+    ],
+    "id": "chen_002",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 10
+  },
+  "chen_201": {
+    "charId": "chr_0005_chen",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_spe",
+      "item_unit_t1_hand_01_parts_spe"
+    ],
+    "id": "chen_201",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 18
+  },
+  "chen_40": {
+    "charId": "chr_0005_chen",
+    "charLv": 40,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "chen_40",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0007",
+    "weaponLv": 40
+  },
+  "chen_60": {
+    "charId": "chr_0005_chen",
+    "charLv": 60,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_phy",
+      "item_unit_t5_hand_01_suit_phy",
+      "item_unit_t5_edc_01_suit_phy",
+      "item_unit_t5_edc_02_parts_spe"
+    ],
+    "id": "chen_60",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0014",
+    "weaponLv": 60
+  },
+  "chen_80": {
+    "charId": "chr_0005_chen",
+    "charLv": 80,
+    "comboSkillLevel": 12,
+    "equipMedicineId": "item_bottled_grass1spc_2",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_phy",
+      "item_unit_t5_hand_01_suit_phy",
+      "item_unit_t5_edc_01_suit_phy",
+      "item_unit_t5_edc_02_parts_spe"
+    ],
+    "id": "chen_80",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 12,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0014",
+    "weaponLv": 80
+  },
+  "chen_T1": {
+    "charId": "chr_0005_chen",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_spe",
+      "item_unit_t1_hand_01_parts_spe",
+      "item_unit_t1_edc_01_parts_spe",
+      "item_unit_t1_edc_01_parts_def"
+    ],
+    "id": "chen_T1",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 20
+  },
+  "chen_T2": {
+    "charId": "chr_0005_chen",
+    "charLv": 28,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t2_body_01_parts_atk",
+      "item_unit_t2_hand_01_parts_def",
+      "item_unit_t2_edc_01_parts_atk",
+      "item_unit_t2_edc_01_parts_def"
+    ],
+    "id": "chen_T2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 28
+  },
+  "chen_T3": {
+    "charId": "chr_0005_chen",
+    "charLv": 36,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_2",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t3_body_01_suit_agi",
+      "item_unit_t3_hand_01_suit_agi",
+      "item_unit_t3_edc_01_suit_agi",
+      "item_unit_t3_edc_02_suit_agi"
+    ],
+    "id": "chen_T3",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0007",
+    "weaponLv": 36
+  },
+  "chen_T4": {
+    "charId": "chr_0005_chen",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "chen_T4",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0007",
+    "weaponLv": 50
+  },
+  "chen_T5": {
+    "charId": "chr_0005_chen",
+    "charLv": 70,
+    "comboSkillLevel": 9,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_phy",
+      "item_unit_t5_hand_01_suit_phy",
+      "item_unit_t5_edc_01_suit_phy",
+      "item_unit_t5_edc_02_parts_spe"
+    ],
+    "id": "chen_T5",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 9,
+    "normalSkillLevel": 9,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 9,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0014",
+    "weaponLv": 70
+  },
+  "chen_luodan": {
+    "charId": "chr_0005_chen",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe",
+      "item_unit_t05_hand_01_parts_spe"
+    ],
+    "id": "chen_luodan",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 20
+  },
+  "chen_pv1": {
+    "charId": "chr_0005_chen",
+    "charLv": 20,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe",
+      "item_unit_t05_hand_01_parts_spe"
+    ],
+    "id": "chen_pv1",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 20
+  },
+  "chen_pv2": {
+    "charId": "chr_0005_chen",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "chen_pv2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0007",
+    "weaponLv": 50
+  },
+  "dapan_pv2": {
+    "charId": "chr_0018_dapan",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "dapan_pv2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_claym_0004",
+    "weaponLv": 50
+  },
+  "endmin_002": {
+    "charId": "chr_9999_endmin",
+    "charLv": 10,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe"
+    ],
+    "id": "endmin_002",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 10
+  },
+  "endminf_201": {
+    "charId": "chr_9999_endmin",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_spe",
+      "item_unit_t1_hand_01_parts_spe"
+    ],
+    "id": "endminf_201",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 18
+  },
+  "endminf_40": {
+    "charId": "chr_9999_endmin",
+    "charLv": 40,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t3_body_01_suit_agi",
+      "item_unit_t3_hand_01_suit_agi",
+      "item_unit_t3_edc_01_suit_agi",
+      "item_unit_t3_edc_02_suit_agi"
+    ],
+    "id": "endminf_40",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0005",
+    "weaponLv": 40
+  },
+  "endminf_60": {
+    "charId": "chr_9999_endmin",
+    "charLv": 60,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "endminf_60",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0013",
+    "weaponLv": 60
+  },
+  "endminf_80": {
+    "charId": "chr_9999_endmin",
+    "charLv": 80,
+    "comboSkillLevel": 12,
+    "equipMedicineId": "item_bottled_grass1spc_2",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_phy",
+      "item_unit_t5_hand_01_suit_phy",
+      "item_unit_t5_edc_01_suit_phy",
+      "item_unit_t5_edc_02_parts_spe"
+    ],
+    "id": "endminf_80",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 12,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0013",
+    "weaponLv": 80
+  },
+  "endminf_T1": {
+    "charId": "chr_9999_endmin",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_spe",
+      "item_unit_t1_hand_01_parts_spe",
+      "item_unit_t1_edc_01_parts_spe",
+      "item_unit_t1_edc_01_parts_def"
+    ],
+    "id": "endminf_T1",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 20
+  },
+  "endminf_T2": {
+    "charId": "chr_9999_endmin",
+    "charLv": 28,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t2_body_01_parts_atk",
+      "item_unit_t2_hand_01_parts_def",
+      "item_unit_t2_edc_01_parts_atk",
+      "item_unit_t2_edc_01_parts_def"
+    ],
+    "id": "endminf_T2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 28
+  },
+  "endminf_T3": {
+    "charId": "chr_9999_endmin",
+    "charLv": 36,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_2",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t3_body_01_suit_agi",
+      "item_unit_t3_hand_01_suit_agi",
+      "item_unit_t3_edc_01_suit_agi",
+      "item_unit_t3_edc_02_suit_agi"
+    ],
+    "id": "endminf_T3",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0005",
+    "weaponLv": 36
+  },
+  "endminf_T4": {
+    "charId": "chr_9999_endmin",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "endminf_T4",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0005",
+    "weaponLv": 50
+  },
+  "endminf_T5": {
+    "charId": "chr_9999_endmin",
+    "charLv": 70,
+    "comboSkillLevel": 9,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_phy",
+      "item_unit_t5_hand_01_suit_phy",
+      "item_unit_t5_edc_01_suit_phy",
+      "item_unit_t5_edc_02_parts_spe"
+    ],
+    "id": "endminf_T5",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 9,
+    "normalSkillLevel": 9,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 9,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0013",
+    "weaponLv": 70
+  },
+  "endminf_luodan": {
+    "charId": "chr_9999_endmin",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe",
+      "item_unit_t05_hand_01_parts_spe"
+    ],
+    "id": "endminf_luodan",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 20
+  },
+  "endminf_pv1": {
+    "charId": "chr_9999_endmin",
+    "charLv": 20,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe",
+      "item_unit_t05_hand_01_parts_spe"
+    ],
+    "id": "endminf_pv1",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 20
+  },
+  "endminf_pv2": {
+    "charId": "chr_0002_endminm",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "endminf_pv2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0005",
+    "weaponLv": 50
+  },
+  "jiguang_50": {
+    "charId": "chr_0014_aurora",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_str",
+      "item_unit_t4_hand_02_suit_atb",
+      "item_unit_t4_edc_01_suit_str",
+      "item_unit_t4_edc_01_suit_str"
+    ],
+    "id": "jiguang_50",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_claym_0008",
+    "weaponLv": 50
+  },
+  "junren_mid": {
+    "charId": "chr_0007_ikut",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_atb",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t4_edc_01_suit_atb",
+      "item_unit_t4_edc_02_suit_agi"
+    ],
+    "id": "junren_mid",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0011",
+    "weaponLv": 50
+  },
+  "lifeng_pv2": {
+    "charId": "chr_0015_lifeng",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "lifeng_pv2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_lance_0004",
+    "weaponLv": 50
+  },
+  "pelica_201": {
+    "charId": "chr_0004_pelica",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_atk",
+      "item_unit_t1_hand_01_parts_atk"
+    ],
+    "id": "pelica_201",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0001",
+    "weaponLv": 18
+  },
+  "pelica_40": {
+    "charId": "chr_0004_pelica",
+    "charLv": 40,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t3_body_01_suit_wisd",
+      "item_unit_t3_hand_01_suit_wisd",
+      "item_unit_t3_edc_01_suit_wisd",
+      "item_unit_t3_edc_02_suit_wisd"
+    ],
+    "id": "pelica_40",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0004",
+    "weaponLv": 40
+  },
+  "pelica_60": {
+    "charId": "chr_0004_pelica",
+    "charLv": 60,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_02_suit_atb",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t4_edc_02_suit_atb",
+      "item_unit_t4_edc_03_suit_atb"
+    ],
+    "id": "pelica_60",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0008",
+    "weaponLv": 60
+  },
+  "pelica_80": {
+    "charId": "chr_0004_pelica",
+    "charLv": 80,
+    "comboSkillLevel": 12,
+    "equipMedicineId": "item_bottled_grass1spc_2",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_pulse_cryst",
+      "item_unit_t5_hand_01_suit_pulse_cryst",
+      "item_unit_t5_edc_02_suit_pulse_cryst",
+      "item_unit_t5_edc_01_parts_atk"
+    ],
+    "id": "pelica_80",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 12,
+    "normalSkillLevel": 12,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 12,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0008",
+    "weaponLv": 80
+  },
+  "pelica_T1": {
+    "charId": "chr_0004_pelica",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_atk",
+      "item_unit_t1_hand_01_parts_atk",
+      "item_unit_t1_edc_01_parts_spe",
+      "item_unit_t1_edc_01_parts_def"
+    ],
+    "id": "pelica_T1",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0001",
+    "weaponLv": 20
+  },
+  "pelica_T2": {
+    "charId": "chr_0004_pelica",
+    "charLv": 28,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t2_body_02_parts_atk",
+      "item_unit_t2_hand_02_parts_spe",
+      "item_unit_t2_edc_01_parts_spe",
+      "item_unit_t2_edc_02_parts_def"
+    ],
+    "id": "pelica_T2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0001",
+    "weaponLv": 28
+  },
+  "pelica_T3": {
+    "charId": "chr_0004_pelica",
+    "charLv": 36,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_2",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t3_body_01_suit_wisd",
+      "item_unit_t3_hand_01_suit_wisd",
+      "item_unit_t3_edc_01_suit_wisd",
+      "item_unit_t3_edc_02_suit_wisd"
+    ],
+    "id": "pelica_T3",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0004",
+    "weaponLv": 36
+  },
+  "pelica_T4": {
+    "charId": "chr_0004_pelica",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_02_suit_atb",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t4_edc_02_suit_atb",
+      "item_unit_t4_edc_03_suit_atb"
+    ],
+    "id": "pelica_T4",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0004",
+    "weaponLv": 50
+  },
+  "pelica_T5": {
+    "charId": "chr_0004_pelica",
+    "charLv": 70,
+    "comboSkillLevel": 9,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_pulse_cryst",
+      "item_unit_t5_hand_01_suit_pulse_cryst",
+      "item_unit_t5_edc_02_suit_pulse_cryst",
+      "item_unit_t5_edc_01_parts_atk"
+    ],
+    "id": "pelica_T5",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 9,
+    "normalSkillLevel": 9,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 9,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0008",
+    "weaponLv": 70
+  },
+  "pelica_luodan": {
+    "charId": "chr_0004_pelica",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe",
+      "item_unit_t05_hand_01_parts_spe"
+    ],
+    "id": "pelica_luodan",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0001",
+    "weaponLv": 20
+  },
+  "pelica_mid": {
+    "charId": "chr_0004_pelica",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_02_suit_atb",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t4_edc_02_suit_atb",
+      "item_unit_t4_edc_02_suit_wisd"
+    ],
+    "id": "pelica_mid",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0009",
+    "weaponLv": 50
+  },
+  "pelica_pv1": {
+    "charId": "chr_0004_pelica",
+    "charLv": 20,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe",
+      "item_unit_t05_hand_01_parts_spe"
+    ],
+    "id": "pelica_pv1",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0001",
+    "weaponLv": 20
+  },
+  "perlica_002": {
+    "charId": "chr_0004_pelica",
+    "charLv": 10,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_corp1_animal_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe"
+    ],
+    "id": "perlica_002",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0001",
+    "weaponLv": 10
+  },
+  "rdg001_wolfgd": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 40,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 20,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "rdg001_wolfgd",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0004",
+    "weaponLv": 40
+  },
+  "rdg002_aglina": {
+    "charId": "chr_0013_aglina",
+    "charLv": 40,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 20,
+    "equips": [
+      "item_unit_t3_body_01_suit_will",
+      "item_unit_t3_hand_01_suit_will",
+      "item_unit_t3_edc_01_suit_will",
+      "item_unit_t3_edc_02_suit_will"
+    ],
+    "id": "rdg002_aglina",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0007",
+    "weaponLv": 40
+  },
+  "rdg002_endmin": {
+    "charId": "chr_9999_endmin",
+    "charLv": 40,
+    "comboSkillLevel": 3,
+    "equipMedicineId": "item_bottled_rec_hp_3",
+    "equipMedicineNum": 20,
+    "equips": [
+      "item_unit_t4_body_01_suit_criti",
+      "item_unit_t4_hand_01_suit_criti",
+      "item_unit_t4_edc_02_suit_criti",
+      "item_unit_t4_edc_01_suit_criti"
+    ],
+    "id": "rdg002_endmin",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 3,
+    "normalSkillLevel": 3,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 3,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0005",
+    "weaponLv": 40
+  },
+  "saixi_50": {
+    "charId": "chr_0011_seraph",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_will",
+      "item_unit_t5_hand_01_suit_attri",
+      "item_unit_t4_edc_01_suit_will",
+      "item_unit_t4_edc_01_suit_will"
+    ],
+    "id": "saixi_50",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0009",
+    "weaponLv": 50
+  },
+  "std50_42": {
+    "charId": "chr_0016_laevat",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_02_suit_atb",
+      "item_unit_t4_hand_01_suit_wisd",
+      "item_unit_t4_edc_02_suit_wisd",
+      "item_unit_t4_edc_02_suit_wisd"
+    ],
+    "id": "std50_42",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0006",
+    "weaponLv": 60
+  },
+  "std50_aglina": {
+    "charId": "chr_0013_aglina",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_02_suit_atb",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t4_edc_02_suit_atb",
+      "item_unit_t4_edc_01_parts_atk"
+    ],
+    "id": "std50_aglina",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0010",
+    "weaponLv": 60
+  },
+  "std50_azrila": {
+    "charId": "chr_0009_azrila",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_atb",
+      "item_unit_t4_hand_02_suit_atb",
+      "item_unit_t4_edc_03_suit_atb",
+      "item_unit_t4_edc_03_suit_heal"
+    ],
+    "id": "std50_azrila",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_claym_0006",
+    "weaponLv": 60
+  },
+  "std50_jr": {
+    "charId": "chr_0007_ikut",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_atb",
+      "item_unit_t4_hand_01_parts_atk",
+      "item_unit_t4_edc_02_suit_atb",
+      "item_unit_t4_edc_02_suit_atb"
+    ],
+    "id": "std50_jr",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0011",
+    "weaponLv": 60
+  },
+  "std50_pelica": {
+    "charId": "chr_0004_pelica",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_02_suit_atb",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t4_edc_02_suit_atb",
+      "item_unit_t4_edc_01_parts_atk"
+    ],
+    "id": "std50_pelica",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0008",
+    "weaponLv": 60
+  },
+  "std50_saixi": {
+    "charId": "chr_0011_seraph",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_will",
+      "item_unit_t4_hand_01_suit_will",
+      "item_unit_t4_edc_01_suit_will",
+      "item_unit_t4_edc_02_suit_will"
+    ],
+    "id": "std50_saixi",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0009",
+    "weaponLv": 60
+  },
+  "std50_snow": {
+    "charId": "chr_0014_aurora",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_atb",
+      "item_unit_t4_hand_02_suit_atb",
+      "item_unit_t4_edc_03_suit_atb",
+      "item_unit_t4_edc_03_suit_heal"
+    ],
+    "id": "std50_snow",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_claym_0006",
+    "weaponLv": 60
+  },
+  "std50_tuzi": {
+    "charId": "chr_0012_avywen",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_will",
+      "item_unit_t4_hand_01_suit_will",
+      "item_unit_t4_edc_01_suit_will",
+      "item_unit_t4_edc_01_suit_will"
+    ],
+    "id": "std50_tuzi",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_lance_0011",
+    "weaponLv": 60
+  },
+  "std50_wolf": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_suit_atb",
+      "item_unit_t4_hand_01_suit_str",
+      "item_unit_t4_edc_01_suit_atb",
+      "item_unit_t4_edc_01_suit_atb"
+    ],
+    "id": "std50_wolf",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0009",
+    "weaponLv": 60
+  },
+  "std50_yifeng": {
+    "charId": "chr_0017_yvonne",
+    "charLv": 50,
+    "comboSkillLevel": 6,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_02_suit_criti",
+      "item_unit_t4_hand_02_suit_criti",
+      "item_unit_t4_edc_03_suit_criti",
+      "item_unit_t4_edc_03_suit_criti"
+    ],
+    "id": "std50_yifeng",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": true,
+    "normalAttackSkillLevel": 6,
+    "normalSkillLevel": 6,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 6,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0008",
+    "weaponLv": 60
+  },
+  "training_aglina": {
+    "charId": "chr_0013_aglina",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_spe",
+      "item_unit_t2_hand_01_parts_spe",
+      "item_unit_t2_edc_01_parts_spe",
+      "item_unit_t2_edc_02_parts_def"
+    ],
+    "id": "training_aglina",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0003",
+    "weaponLv": 25
+  },
+  "training_aurora": {
+    "charId": "chr_0014_aurora",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_def",
+      "item_unit_t2_hand_01_parts_atk",
+      "item_unit_t2_edc_01_parts_atk",
+      "item_unit_t2_edc_02_parts_def"
+    ],
+    "id": "training_aurora",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_claym_0003",
+    "weaponLv": 25
+  },
+  "training_avywen": {
+    "charId": "chr_0012_avywen",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_spe",
+      "item_unit_t2_hand_01_parts_spe",
+      "item_unit_t2_edc_02_parts_def",
+      "item_unit_t2_edc_01_parts_def"
+    ],
+    "id": "training_avywen",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_lance_0008",
+    "weaponLv": 25
+  },
+  "training_azrila": {
+    "charId": "chr_0009_azrila",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_def",
+      "item_unit_t2_hand_01_parts_atk",
+      "item_unit_t2_edc_01_parts_atk",
+      "item_unit_t2_edc_02_parts_def"
+    ],
+    "id": "training_azrila",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_claym_0003",
+    "weaponLv": 25
+  },
+  "training_chen": {
+    "charId": "chr_0005_chen",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_atk",
+      "item_unit_t2_hand_01_parts_def",
+      "item_unit_t2_edc_01_parts_atk",
+      "item_unit_t2_edc_01_parts_def"
+    ],
+    "id": "training_chen",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 25
+  },
+  "training_endmin": {
+    "charId": "chr_9999_endmin",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_atk",
+      "item_unit_t2_hand_01_parts_def",
+      "item_unit_t2_edc_01_parts_atk",
+      "item_unit_t2_edc_01_parts_def"
+    ],
+    "id": "training_endmin",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0008",
+    "weaponLv": 25
+  },
+  "training_laevat": {
+    "charId": "chr_0016_laevat",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_02_parts_atk",
+      "item_unit_t2_hand_02_parts_spe",
+      "item_unit_t2_edc_01_parts_spe",
+      "item_unit_t2_edc_01_parts_atk"
+    ],
+    "id": "training_laevat",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_sword_0009",
+    "weaponLv": 25
+  },
+  "training_pelica": {
+    "charId": "chr_0004_pelica",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_02_parts_atk",
+      "item_unit_t2_hand_02_parts_spe",
+      "item_unit_t2_edc_01_parts_spe",
+      "item_unit_t2_edc_02_parts_def"
+    ],
+    "id": "training_pelica",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0001",
+    "weaponLv": 25
+  },
+  "training_seraph": {
+    "charId": "chr_0011_seraph",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_spe",
+      "item_unit_t2_hand_01_parts_spe",
+      "item_unit_t2_edc_01_parts_spe",
+      "item_unit_t2_edc_02_parts_def"
+    ],
+    "id": "training_seraph",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_funnel_0003",
+    "weaponLv": 25
+  },
+  "training_wolfgd": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_def",
+      "item_unit_t2_hand_01_parts_atk",
+      "item_unit_t2_edc_01_parts_atk",
+      "item_unit_t2_edc_01_parts_def"
+    ],
+    "id": "training_wolfgd",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0002",
+    "weaponLv": 25
+  },
+  "training_yvonne": {
+    "charId": "chr_0017_yvonne",
+    "charLv": 25,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t2_body_01_parts_atk",
+      "item_unit_t2_hand_02_parts_spe",
+      "item_unit_t2_edc_01_parts_spe",
+      "item_unit_t2_edc_01_parts_def"
+    ],
+    "id": "training_yvonne",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0003",
+    "weaponLv": 25
+  },
+  "wolf_002": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 10,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe"
+    ],
+    "id": "wolf_002",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0002",
+    "weaponLv": 10
+  },
+  "wolfgd_201": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_spe",
+      "item_unit_t1_hand_01_parts_spe"
+    ],
+    "id": "wolfgd_201",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0002",
+    "weaponLv": 18
+  },
+  "wolfgd_T1": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t1_body_01_parts_spe",
+      "item_unit_t1_hand_01_parts_spe",
+      "item_unit_t1_edc_01_parts_spe",
+      "item_unit_t1_edc_01_parts_def"
+    ],
+    "id": "wolfgd_T1",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0002",
+    "weaponLv": 20
+  },
+  "wolfgd_T2": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 28,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t2_body_01_parts_def",
+      "item_unit_t2_hand_01_parts_atk",
+      "item_unit_t2_edc_01_parts_atk",
+      "item_unit_t2_edc_01_parts_def"
+    ],
+    "id": "wolfgd_T2",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0002",
+    "weaponLv": 28
+  },
+  "wolfgd_luodan": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 20,
+    "comboSkillLevel": 1,
+    "equipMedicineId": "item_bottled_rec_hp_1",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe",
+      "item_unit_t05_hand_01_parts_spe"
+    ],
+    "id": "wolfgd_luodan",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 1,
+    "normalSkillLevel": 1,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 1,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0002",
+    "weaponLv": 20
+  },
+  "wolfgd_pv1": {
+    "charId": "chr_0006_wolfgd",
+    "charLv": 20,
+    "comboSkillLevel": 2,
+    "equipMedicineId": "",
+    "equipMedicineNum": 0,
+    "equips": [
+      "item_unit_t05_body_01_parts_spe",
+      "item_unit_t05_hand_01_parts_spe"
+    ],
+    "id": "wolfgd_pv1",
+    "isCharBreakthrough": true,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 2,
+    "normalSkillLevel": 2,
+    "potentialLevel": 1,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 2,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0002",
+    "weaponLv": 20
+  },
+  "yifeng_50": {
+    "charId": "chr_0017_yvonne",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t5_body_01_suit_pulse_cryst",
+      "item_unit_t4_hand_01_suit_atb",
+      "item_unit_t5_edc_02_suit_pulse_cryst",
+      "item_unit_t5_edc_02_suit_pulse_cryst"
+    ],
+    "id": "yifeng_50",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0008",
+    "weaponLv": 50
+  },
+  "yifeng_mid": {
+    "charId": "chr_0017_yvonne",
+    "charLv": 50,
+    "comboSkillLevel": 5,
+    "equipMedicineId": "item_bottled_food_4",
+    "equipMedicineNum": 50,
+    "equips": [
+      "item_unit_t4_body_01_parts_atk",
+      "item_unit_t4_hand_01_suit_wisd",
+      "item_unit_t4_edc_02_suit_wisd",
+      "item_unit_t4_edc_02_suit_wisd"
+    ],
+    "id": "yifeng_mid",
+    "isCharBreakthrough": false,
+    "isWeaponBreakthrough": false,
+    "normalAttackSkillLevel": 5,
+    "normalSkillLevel": 5,
+    "potentialLevel": 2,
+    "talentNode": [
+      {
+        "talentNodeId": ""
+      }
+    ],
+    "ultimateSkillLevel": 5,
+    "weaponGemId": "",
+    "weaponId": "wpn_pistol_0008",
+    "weaponLv": 50
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "1": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0021_agmelee",
+      "eny_0025_agrange"
+    ],
+    "enemyLevels": [
+      50,
+      50
+    ],
+    "roomDesc": {
+      "id": "FD4BF8F867AD6D61",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "1E9D69719012BFAD",
+      "text": ""
+    },
+    "roomName": {
+      "id": "4E496E3855783B14",
+      "text": ""
+    }
+  },
+  "2": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0050_hound",
+      "eny_0033_lbhunt",
+      "eny_0066_lbhunt2"
+    ],
+    "enemyLevels": [
+      51,
+      51,
+      51
+    ],
+    "roomDesc": {
+      "id": "66FA09604EE7696B",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "9B0A84E8D84FDFAF",
+      "text": ""
+    },
+    "roomName": {
+      "id": "F8ED0BD6B4ABE469",
+      "text": ""
+    }
+  },
+  "3": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0050_hound",
+      "eny_0033_lbhunt"
+    ],
+    "enemyLevels": [
+      51,
+      51
+    ],
+    "roomDesc": {
+      "id": "1206E9853A79BD32",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "5F9B1BA8BE2CECE7",
+      "text": ""
+    },
+    "roomName": {
+      "id": "3FB5E48FE2EEC1DA",
+      "text": ""
+    }
+  },
+  "4": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0021_agmelee",
+      "eny_0025_agrange",
+      "eny_0007_mimicw"
+    ],
+    "enemyLevels": [
+      53,
+      53,
+      53
+    ],
+    "roomDesc": {
+      "id": "2D0AB2FD76B92E05",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "317F79C692864FFC",
+      "text": ""
+    },
+    "roomName": {
+      "id": "87119A0C678B57C7",
+      "text": ""
+    }
+  },
+  "5": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0021_agmelee",
+      "eny_0025_agrange"
+    ],
+    "enemyLevels": [
+      53,
+      53
+    ],
+    "roomDesc": {
+      "id": "196014F4D7E90E82",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "891C759BE7C4BA5B",
+      "text": ""
+    },
+    "roomName": {
+      "id": "739718861BB2F90C",
+      "text": ""
+    }
+  },
+  "6": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0021_agmelee",
+      "eny_0023_aghornb",
+      "eny_0039_agcanno"
+    ],
+    "enemyLevels": [
+      53,
+      53,
+      53
+    ],
+    "roomDesc": {
+      "id": "0C7B5E279156D4C4",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "06E9CAC603535DF6",
+      "text": ""
+    },
+    "roomName": {
+      "id": "512169D01B008BE8",
+      "text": ""
+    }
+  },
+  "7": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0021_agmelee",
+      "eny_0025_agrange",
+      "eny_0058_agdisk"
+    ],
+    "enemyLevels": [
+      53,
+      53,
+      53
+    ],
+    "roomDesc": {
+      "id": "2E4E336ED6EA3512",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "31BC7695FF4FEE85",
+      "text": ""
+    },
+    "roomName": {
+      "id": "175B91789810AC02",
+      "text": ""
+    }
+  },
+  "8": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0021_agmelee",
+      "eny_0063_agmelee2",
+      "eny_0023_aghornb"
+    ],
+    "enemyLevels": [
+      50,
+      50,
+      54
+    ],
+    "roomDesc": {
+      "id": "6144A16CCEA44BCA",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "D12663013519A63B",
+      "text": ""
+    },
+    "roomName": {
+      "id": "3DD4015434A58B5D",
+      "text": ""
+    }
+  },
+  "9": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0029_lbmob",
+      "eny_0060_lbmad",
+      "eny_0047_firebat"
+    ],
+    "enemyLevels": [
+      50,
+      50,
+      54
+    ],
+    "roomDesc": {
+      "id": "CD0A2757B1E42D02",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "0B341B6C7B2C87BA",
+      "text": ""
+    },
+    "roomName": {
+      "id": "A658B9C240960C97",
+      "text": ""
+    }
+  },
+  "10": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0050_hound",
+      "eny_0067_hound2",
+      "eny_0046_lbshamman"
+    ],
+    "enemyLevels": [
+      50,
+      50,
+      54
+    ],
+    "roomDesc": {
+      "id": "DB7E9686F6C30865",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "734E00A491B14E61",
+      "text": ""
+    },
+    "roomName": {
+      "id": "6FFA41A1E5A5702B",
+      "text": ""
+    }
+  },
+  "11": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0053_hsmob",
+      "eny_0055_hscrane"
+    ],
+    "enemyLevels": [
+      54,
+      56
+    ],
+    "roomDesc": {
+      "id": "DED3D42F213F673D",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "12149B40C3FFCFD3",
+      "text": ""
+    },
+    "roomName": {
+      "id": "C5CF3D79BD6E4F29",
+      "text": ""
+    }
+  },
+  "12": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0060_lbmad",
+      "eny_0046_lbshamman",
+      "eny_0047_firebat"
+    ],
+    "enemyLevels": [
+      54,
+      56,
+      56
+    ],
+    "roomDesc": {
+      "id": "2AEA6195DFB9C38A",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "05C1A5DDB169E95E",
+      "text": ""
+    },
+    "roomName": {
+      "id": "F948B6F54E5BBFD7",
+      "text": ""
+    }
+  },
+  "13": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0021_agmelee",
+      "eny_0007_mimicw",
+      "eny_0058_agdisk"
+    ],
+    "enemyLevels": [
+      54,
+      56,
+      56
+    ],
+    "roomDesc": {
+      "id": "433C9D1694D01D1E",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "EF84BD917A5D2AE0",
+      "text": ""
+    },
+    "roomName": {
+      "id": "E8A4A7768144DE8F",
+      "text": ""
+    }
+  },
+  "14": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0053_hsmob",
+      "eny_0055_hscrane",
+      "eny_0054_hsmino"
+    ],
+    "enemyLevels": [
+      54,
+      54,
+      57
+    ],
+    "roomDesc": {
+      "id": "CCE4B92E3352D043",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "EFFA21E976E1A07A",
+      "text": ""
+    },
+    "roomName": {
+      "id": "D9CB2C39049EBA00",
+      "text": ""
+    }
+  },
+  "15": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0018_lbtough",
+      "eny_0048_hvybow"
+    ],
+    "enemyLevels": [
+      57,
+      57
+    ],
+    "roomDesc": {
+      "id": "0BABE344E3687229",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "45C1F70DBFFA9658",
+      "text": ""
+    },
+    "roomName": {
+      "id": "6B7DE0F85F2B2906",
+      "text": ""
+    }
+  },
+  "16": {
+    "compeleteBuffDescId": [],
+    "enemyIds": [
+      "eny_0045_agtrinit"
+    ],
+    "enemyLevels": [
+      57
+    ],
+    "roomDesc": {
+      "id": "EA87A70268D3E226",
+      "text": ""
+    },
+    "roomFeaturesDesc": {
+      "id": "DD546DB2666F34F5",
+      "text": ""
+    },
+    "roomName": {
+      "id": "E448A93E006AE267",
+      "text": ""
+    }
+  }
+}

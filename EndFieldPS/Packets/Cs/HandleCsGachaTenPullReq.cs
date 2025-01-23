@@ -2,8 +2,7 @@
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
 using Google.Protobuf;
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Parameters;
+using Google.Protobuf.WellKnownTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -75,8 +74,9 @@ namespace EndFieldPS.Packets.Cs
                     
                 });
             }
-           
-           session.Send(ScMessageId.ScGachaSyncPullResult, result); 
+            session.Send(ScMessageId.ScGachaBegin, new Empty());
+            session.Send(ScMessageId.ScGachaSyncPullResult, result); 
+            
         }
        
     }

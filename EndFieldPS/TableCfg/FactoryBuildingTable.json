@@ -1,0 +1,6333 @@
+{
+  "battle_cannon_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_cannon_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "20B7CDE78B736E12",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_cannon_1",
+    "id": "battle_cannon_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_cannon_1",
+    "modelHeight": 3.3,
+    "name": {
+      "id": "11C033B9F71C7C0C",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 10,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_cannon_1_dg002": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_battle_cannon_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "00667545EF4196DB",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_cannon_2",
+    "id": "battle_cannon_1_dg002",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 10,
+    "name": {
+      "id": "A51DD3499A6C18F2",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 5,
+      "height": 10,
+      "width": 5,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_cannon_2": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_cannon_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "6222B9301C1A8AA2",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_cannon_2",
+    "id": "battle_cannon_2",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_cannon_2",
+    "modelHeight": 3.6,
+    "name": {
+      "id": "A1EC8886BB38D8B9",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 15,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_frost_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_frost_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "F854D05781347DD4",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_frost_1",
+    "id": "battle_frost_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_frost_1",
+    "modelHeight": 3,
+    "name": {
+      "id": "510FBCAF06740DA1",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 10,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_laser_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_laser_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "CE77B98A0A148B5A",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_laser_1",
+    "id": "battle_laser_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_laser_1",
+    "modelHeight": 5.7,
+    "name": {
+      "id": "24D633FF9A28E527",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 10,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 6,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_laser_2": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_laser_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "544B445072C07567",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_laser_2",
+    "id": "battle_laser_2",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_laser_2",
+    "modelHeight": 6,
+    "name": {
+      "id": "EFAF1D3E12920C9F",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 15,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 6,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_lightning_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_lightning_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "0101AA431DC8065D",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_lightning_1",
+    "id": "battle_lightning_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_lightning_1",
+    "modelHeight": 4.6,
+    "name": {
+      "id": "F3F78EBD35CE6240",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 15,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 5,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_medic_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_medic_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "D1096CE64BD0E42F",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_medic_1",
+    "id": "battle_medic_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_medtower",
+    "modelHeight": 2.9,
+    "name": {
+      "id": "E7D7E5DF4E2C7236",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 5,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_shockwave_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_shockwave_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "78C69F62AD7B9071",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_shockwave_1",
+    "id": "battle_shockwave_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_shockwave_1",
+    "modelHeight": 3.6,
+    "name": {
+      "id": "F91ECC3A4A04443A",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 15,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_sniper_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_sniper_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "B9AFAA1286BF91B8",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_sniper_1",
+    "id": "battle_sniper_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_sniper_1",
+    "modelHeight": 4,
+    "name": {
+      "id": "62804ADA28FF20D7",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 15,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_turret_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_turret_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "D37989659B9F5968",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_turret_1",
+    "id": "battle_turret_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_turret_1",
+    "modelHeight": 3.5,
+    "name": {
+      "id": "E62964E84AB81F26",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 5,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "battle_turret_2": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_battle_turret_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "F2A25DE8E8C181B4",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_battle_turret_2",
+    "id": "battle_turret_2",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_turret_2",
+    "modelHeight": 3.6,
+    "name": {
+      "id": "566B6125FF6C3DC0",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 15,
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 21
+  },
+  "component_mc_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_cmpt_mc_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "8207CE4A2F311425",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_cmpt_mc_1",
+    "id": "component_mc_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_component_mc_1",
+    "modelHeight": 3.5,
+    "name": {
+      "id": "5C47CFD93F081290",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "dumper_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_dumper_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "56E07EFCB251A9CF",
+      "text": ""
+    },
+    "domainLimited": "liquid",
+    "iconOnPanel": "icon_port_dumper_1",
+    "id": "dumper_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 4,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_dumper",
+    "modelHeight": 4.2,
+    "name": {
+      "id": "01183798CE5C5BEB",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 10,
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 26
+  },
+  "dumper_nop_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_dumper_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "210E7D5399055B99",
+      "text": ""
+    },
+    "domainLimited": "liquid",
+    "iconOnPanel": "icon_port_dumper_1",
+    "id": "dumper_nop_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 4,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_dumper",
+    "modelHeight": 4.2,
+    "name": {
+      "id": "061EDB3F90350C9A",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 26
+  },
+  "filling_powder_mc_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_filling_pd_mc_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "A555C39C889AC055",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_filling_pd_mc_1",
+    "id": "filling_powder_mc_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 6,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_filling_powder_mc_1",
+    "modelHeight": 3.4,
+    "name": {
+      "id": "C8F21E2EB821262A",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": 4,
+      "height": 4,
+      "width": 6,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "furnance_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_furnance_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "631CA7BCAA2EEFE3",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_furnance_1",
+    "id": "furnance_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_furnance_1",
+    "modelHeight": 3.94,
+    "name": {
+      "id": "433705EFA73A03F9",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 5,
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "furnance_nop_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_furnance_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "905AD25B22E1D4D1",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_furnance_1",
+    "id": "furnance_nop_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_furnance_1",
+    "modelHeight": 3.94,
+    "name": {
+      "id": "A94228C3CACCF2FF",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 5,
+    "quickBarType": "",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "grinder_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_grinder_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "5B837C923B535D00",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_grinder_1",
+    "id": "grinder_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_grinder_1",
+    "modelHeight": 3.4,
+    "name": {
+      "id": "303246966282B3D9",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "liquid_cleaner_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_liquid_cleaner_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "305A5E238FA82A18",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_liquid_cleaner_1",
+    "id": "liquid_cleaner_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_liquid_cleaner_1",
+    "modelHeight": 4.4,
+    "name": {
+      "id": "179015DAEF926C17",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 30,
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": 3,
+      "height": 5,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 28
+  },
+  "liquid_storager_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_liquid_storager_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "935AC195FBC7AF76",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_liquid_storager_1",
+    "id": "liquid_storager_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_liquid_storebox",
+    "modelHeight": 4.1,
+    "name": {
+      "id": "8EEAB7B2DE562E45",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 0,
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 24
+  },
+  "liquid_storager_nop_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_liquid_storager_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "54BC4C35B179B4B0",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_liquid_storager_1",
+    "id": "liquid_storager_nop_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_liquid_storebox",
+    "modelHeight": 4.1,
+    "name": {
+      "id": "B458B2FB7DFEDC94",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 24
+  },
+  "loader_1": {
+    "bandwidth": 1,
+    "bgOnPanel": "bg_port_loader_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "974107D6EB8C50CD",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_loader_1",
+    "id": "loader_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 2,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 3,
+    "name": {
+      "id": "E1631B059D934846",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": 1,
+      "height": 3,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 2,
+    "type": 10
+  },
+  "miner_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_miner_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "BF03B399B1AAA420",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_miner_1",
+    "id": "miner_1",
+    "inputPorts": [],
+    "limitType": 1,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 2.3,
+    "name": {
+      "id": "9B42F677B677EE59",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 0,
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": 3,
+      "height": 3,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 8
+  },
+  "miner_2": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_miner_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "2ECA089C370A2707",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_miner_2",
+    "id": "miner_2",
+    "inputPorts": [],
+    "limitType": 1,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 5,
+    "name": {
+      "id": "1C754FBD9D143752",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 5,
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": 3,
+      "height": 5,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 8
+  },
+  "miner_3": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_miner_3",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "4C6132A312D546F9",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_miner_3",
+    "id": "miner_3",
+    "inputPorts": [],
+    "limitType": 1,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 5,
+    "name": {
+      "id": "E9C9060028223970",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": 3,
+      "height": 5,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 8
+  },
+  "miner_4": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_miner_4",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "4854B0990AEC13AE",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_liquid_miner",
+    "id": "miner_4",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 1,
+    "liquidEnabled": true,
+    "markInfoId": "",
+    "modelHeight": 4.7,
+    "name": {
+      "id": "825A2E0507FF3761",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 0,
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": 3,
+      "height": 5,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 8
+  },
+  "mix_pool_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_mix_pool_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "8097B3A49856D5D1",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_mix_pool_1",
+    "id": "mix_pool_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_mix_pool_1",
+    "modelHeight": 5.1,
+    "name": {
+      "id": "5F141B84D72361A4",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": 5,
+      "height": 5,
+      "width": 5,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 27
+  },
+  "planter_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_planter_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "AD11360D149577E1",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_planter_1",
+    "id": "planter_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_planter_1",
+    "modelHeight": 4.1,
+    "name": {
+      "id": "D23F817C3A566302",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": 5,
+      "height": 4,
+      "width": 5,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "power_diffuser_1": {
+    "bandwidth": 1,
+    "bgOnPanel": "bg_port_power_diffuser_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "15DFD2BEE55096C8",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_power_pole_1",
+    "id": "power_diffuser_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerpole",
+    "modelHeight": 6.7,
+    "name": {
+      "id": "D69E7B4E172A223F",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "electric_machine",
+    "range": {
+      "depth": 2,
+      "height": 7,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 23
+  },
+  "power_gate_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_power_port_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "8A2B29E2929B6417",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_power_port_1",
+    "id": "power_gate_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powergate",
+    "modelHeight": 3,
+    "name": {
+      "id": "05C08B4E254BC8CA",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 19
+  },
+  "power_pole_1": {
+    "bandwidth": 1,
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "74A812B523D2FE17",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_power_pole_1",
+    "id": "power_pole_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerpole",
+    "modelHeight": 6.7,
+    "name": {
+      "id": "8A8EAD9BD64E0D84",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 2,
+      "height": 7,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 2
+  },
+  "power_pole_2": {
+    "bandwidth": 1,
+    "bgOnPanel": "bg_port_power_pole_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "D461C225C1F5FB1B",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_power_pole_2",
+    "id": "power_pole_2",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerpole_2",
+    "modelHeight": 15.5,
+    "name": {
+      "id": "A1E1756DED7EAF64",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "electric_machine",
+    "range": {
+      "depth": 3,
+      "height": 15,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 2
+  },
+  "power_port_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_power_port_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "758378585EBDFCA6",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_power_port_1",
+    "id": "power_port_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerport",
+    "modelHeight": 3.4,
+    "name": {
+      "id": "E44FAB97F03B1419",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 18
+  },
+  "power_station_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_power_sta_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "272F01998A3F8A86",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_power_sta_1",
+    "id": "power_station_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_power_station_1",
+    "modelHeight": 3,
+    "name": {
+      "id": "BAC03B8EFD70FB54",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "electric_machine",
+    "range": {
+      "depth": 2,
+      "height": 4,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 3
+  },
+  "power_terminal_1": {
+    "bandwidth": 1,
+    "bgOnPanel": "bg_power_port_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "9039700900DAB948",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_power_port_1",
+    "id": "power_terminal_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerterminal",
+    "modelHeight": 7,
+    "name": {
+      "id": "988EF76E6BB4139D",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 2,
+      "height": 7,
+      "width": 2,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 17
+  },
+  "pump_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_pump_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "004F3A7D2EC09383",
+      "text": ""
+    },
+    "domainLimited": "liquid",
+    "iconOnPanel": "icon_port_pump_1",
+    "id": "pump_1",
+    "inputPorts": [],
+    "limitType": 4,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_pump",
+    "modelHeight": 5.1,
+    "name": {
+      "id": "35290AF74B45CDD0",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": 3,
+      "height": 5,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 25
+  },
+  "seedcollector_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_seedcol_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "798FA9E703DC8C22",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_seedcol_1",
+    "id": "seedcollector_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_seedcollector_1",
+    "modelHeight": 3.3,
+    "name": {
+      "id": "62FC46F44C98F07D",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": 5,
+      "height": 4,
+      "width": 5,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "shaper_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_shaper_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "C5EFC00D9724C393",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_shaper_1",
+    "id": "shaper_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_shaper_1",
+    "modelHeight": 3.2,
+    "name": {
+      "id": "40E1869DB7ADA495",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "soil_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "743677B602824842",
+      "text": ""
+    },
+    "desc": {
+      "id": "62C0C95F9DF1D8D1",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_1",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_1",
+    "modelHeight": 1,
+    "name": {
+      "id": "497D5032A0ADE9B2",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_2": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "26E84BDD6471E907",
+      "text": ""
+    },
+    "desc": {
+      "id": "BF5084E1965A8B0B",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_2",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_2",
+    "modelHeight": 1,
+    "name": {
+      "id": "BB9C47AAC4750812",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_bbflower_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "878D76C1A02CBDA0",
+      "text": ""
+    },
+    "desc": {
+      "id": "6D1B93AF47815C4F",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_bbflower_1",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_bbflower_1",
+    "modelHeight": 1,
+    "name": {
+      "id": "85860848CD192A37",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_grass_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "F3345F1BD760E978",
+      "text": ""
+    },
+    "desc": {
+      "id": "4C7C8E34B56154CE",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_grass_1",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_grass_1",
+    "modelHeight": 1,
+    "name": {
+      "id": "FE4DFE0D4C0F7382",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_grass_2": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "00E26E7204075A8A",
+      "text": ""
+    },
+    "desc": {
+      "id": "7D85AF37571969D4",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_grass_2",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_grass_2",
+    "modelHeight": 1,
+    "name": {
+      "id": "54D93AA91EC5D65B",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_grass_fast_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "325AA64C1D96F712",
+      "text": ""
+    },
+    "desc": {
+      "id": "DBB3AAB9EABEDADE",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_grass_fast_1",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_grass_fast_1",
+    "modelHeight": 1,
+    "name": {
+      "id": "4C4355A8A5F46133",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_grass_fast_2": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "E94FD191E8FA3177",
+      "text": ""
+    },
+    "desc": {
+      "id": "CAD682D8E96B41CA",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_grass_fast_2",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_grass_fast_2",
+    "modelHeight": 1,
+    "name": {
+      "id": "957124623E7FF0B0",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_moss_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "4E3C85F1F50E00E2",
+      "text": ""
+    },
+    "desc": {
+      "id": "E14ACE6022AB80DB",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_moss_1",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_moss_1",
+    "modelHeight": 1,
+    "name": {
+      "id": "DAD7E4902EF27D58",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_moss_2": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "6DA304913D217C23",
+      "text": ""
+    },
+    "desc": {
+      "id": "D5EE7FEC7116E5D6",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_moss_2",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_moss_2",
+    "modelHeight": 1,
+    "name": {
+      "id": "C609FE462565F998",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_moss_3": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "97EC776D5C6F8528",
+      "text": ""
+    },
+    "desc": {
+      "id": "4C0F1A518300E8A5",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_moss_3",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_moss_3",
+    "modelHeight": 1,
+    "name": {
+      "id": "5EDAEA3062840C92",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_sp_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "0A6491D1AA6C8C1A",
+      "text": ""
+    },
+    "desc": {
+      "id": "B55046131215C2C2",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_1",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_1",
+    "modelHeight": 1,
+    "name": {
+      "id": "064C1A85E69027E1",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_sp_2": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "9AFABAD488B0A47D",
+      "text": ""
+    },
+    "desc": {
+      "id": "875619B1A72373D4",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_2",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_2",
+    "modelHeight": 1,
+    "name": {
+      "id": "AA6CC8FD5E1E69DC",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_sp_3": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "2333FA62DD8EDF8E",
+      "text": ""
+    },
+    "desc": {
+      "id": "4EC83A4452F20DF0",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_3",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_3",
+    "modelHeight": 1,
+    "name": {
+      "id": "D3C10EEC11FF19C0",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_sp_4": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "7131B8B2F020A44B",
+      "text": ""
+    },
+    "desc": {
+      "id": "4DF9347053A341D5",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_4",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_4",
+    "modelHeight": 1,
+    "name": {
+      "id": "3C3C3361096AB422",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_sp_fast_3": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "3300EDFDAC232077",
+      "text": ""
+    },
+    "desc": {
+      "id": "C7E31FDEE23E7137",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_fast_3",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_fast_3",
+    "modelHeight": 1,
+    "name": {
+      "id": "2CD90DE002425CA5",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "soil_sp_fast_4": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "700D400AEBF44886",
+      "text": ""
+    },
+    "desc": {
+      "id": "3FABEA430C260EE3",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_fast_4",
+    "inputPorts": [],
+    "limitType": 3,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_fast_4",
+    "modelHeight": 1,
+    "name": {
+      "id": "D1B14016D8E364CA",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 1,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 15
+  },
+  "sp_hub_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "0141223D6595422B",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_sp_hub_1",
+    "id": "sp_hub_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 6,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 7,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 8,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 9,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 10,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 11,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 12,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 13,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_sp_hub",
+    "modelHeight": 10,
+    "name": {
+      "id": "64DA3DEC13CC7304",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": true,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 7
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 7
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 9,
+      "height": 10,
+      "width": 9,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 1
+  },
+  "sp_mfg_sta_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "2031F82D6AF741A5",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_sp_mfg_sta_1",
+    "id": "sp_mfg_sta_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 4,
+    "name": {
+      "id": "553A9FBAC7387C36",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": true,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 4,
+      "width": 6,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 13
+  },
+  "sp_proc_sta_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "4AC9DE752F739514",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_sp_proc_sta_1",
+    "id": "sp_proc_sta_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 4,
+    "name": {
+      "id": "8D9A98A48918BB30",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": true,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 4,
+      "width": 6,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 20
+  },
+  "sp_rec_sta_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "E169BD3A6E68C1FC",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_sp_rec_sta_1",
+    "id": "sp_rec_sta_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 4,
+    "name": {
+      "id": "D5C135F7CF6134E3",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": true,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 4,
+      "width": 6,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 12
+  },
+  "sp_sub_hub_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "5DF702DF84E9FDBB",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_sp_hub_1",
+    "id": "sp_sub_hub_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 6,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 8
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 7,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 8,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 9,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 10,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 11,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 12,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 13,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_sp_sub_hub",
+    "modelHeight": 10,
+    "name": {
+      "id": "A41117401D8D2DB1",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": true,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 7
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 7
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 9,
+      "height": 10,
+      "width": 9,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 22
+  },
+  "sp_trd_sta_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "5B208C34E30C1605",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_sp_trd_sta_1",
+    "id": "sp_trd_sta_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 4,
+    "name": {
+      "id": "21DDA87E968AC32A",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": true,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 4,
+      "width": 6,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 9
+  },
+  "sp_workshop_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "30E78522061F8A98",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_sp_workshop_1",
+    "id": "sp_workshop_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 4,
+    "name": {
+      "id": "0D871C45C81440E1",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": true,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 4,
+      "height": 4,
+      "width": 4,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 7
+  },
+  "squirter_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_squirter_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "FD4F42A0ED11B77C",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_squirter_1",
+    "id": "squirter_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_squirter_1",
+    "modelHeight": 4,
+    "name": {
+      "id": "35085868C169D243",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 10,
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 29
+  },
+  "squirter_nop_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_squirter_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "0CC0011B40F8065A",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_squirter_1",
+    "id": "squirter_nop_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_squirter_1",
+    "modelHeight": 4,
+    "name": {
+      "id": "006BB0030BF4D94D",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 29
+  },
+  "storager_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_storager_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "6BFBE809625F5BC4",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_storager_1",
+    "id": "storager_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_storebox",
+    "modelHeight": 4,
+    "name": {
+      "id": "1F0F5493332FA284",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 5,
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 4
+  },
+  "storager_nop_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_storager_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "90C236456E5A9879",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_storager_1",
+    "id": "storager_nop_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_storebox",
+    "modelHeight": 4,
+    "name": {
+      "id": "C0AD0BC0497B32DD",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 5,
+    "quickBarType": "",
+    "range": {
+      "depth": 3,
+      "height": 4,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 4
+  },
+  "thickener_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_thickener_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "AED17B36FBC62B9C",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_thickener_1",
+    "id": "thickener_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_thickener_1",
+    "modelHeight": 4.9,
+    "name": {
+      "id": "8E3774601A9FB447",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 20,
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": 4,
+      "height": 5,
+      "width": 6,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "tools_assebling_mc_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_tools_asm_mc_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "92F26318456B7564",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_tools_asm_mc_1",
+    "id": "tools_assebling_mc_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_tools_assebling_mc_1",
+    "modelHeight": 2.9,
+    "name": {
+      "id": "55FA814F954077CD",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 30,
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": 4,
+      "height": 4,
+      "width": 6,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  },
+  "travel_pole_1": {
+    "bandwidth": 3,
+    "bgOnPanel": "bg_port_travel_pole_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "08E87B089FB88F9C",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_travel_pole_1",
+    "id": "travel_pole_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_transtower",
+    "modelHeight": 7,
+    "name": {
+      "id": "68B3DB42A79BFEEB",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 10,
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": 3,
+      "height": 7,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 16
+  },
+  "travel_pole_2": {
+    "bandwidth": 3,
+    "bgOnPanel": "bg_port_travel_pole_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "10964A53FCB19EB1",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_travel_pole_2",
+    "id": "travel_pole_2",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_transtower_2",
+    "modelHeight": 6.8,
+    "name": {
+      "id": "07B171B70688D347",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 15,
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": 3,
+      "height": 7,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 16
+  },
+  "travel_pole_nop_1": {
+    "bandwidth": 3,
+    "bgOnPanel": "bg_port_travel_pole_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "4BA4139F95512A79",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_travel_pole_1",
+    "id": "travel_pole_nop_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_transtower",
+    "modelHeight": 6.6,
+    "name": {
+      "id": "990A10C8E5ED12A4",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 3,
+      "height": 7,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 16
+  },
+  "unloader_1": {
+    "bandwidth": 1,
+    "bgOnPanel": "bg_port_unloader_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "907DCFD625F2243E",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_unloader_1",
+    "id": "unloader_1",
+    "inputPorts": [],
+    "limitType": 2,
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 3,
+    "name": {
+      "id": "A039860391FBD38C",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 0,
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": 1,
+      "height": 3,
+      "width": 3,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 11
+  },
+  "v_fluid_container_1": {
+    "bandwidth": 0,
+    "bgOnPanel": "bg_port_liquid_storager_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": false,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "F6EF7555542416F2",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_liquid_storager_1",
+    "id": "v_fluid_container_1",
+    "inputPorts": [],
+    "limitType": 0,
+    "liquidEnabled": true,
+    "markInfoId": "",
+    "modelHeight": 1,
+    "name": {
+      "id": "A8F4B7B29C074CEC",
+      "text": ""
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "powerConsume": 0,
+    "quickBarType": "",
+    "range": {
+      "depth": 1,
+      "height": 1,
+      "width": 1,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 30
+  },
+  "winder_1": {
+    "bandwidth": 2,
+    "bgOnPanel": "bg_port_winder_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canDelete": true,
+    "delConfirmText": {
+      "id": "",
+      "text": ""
+    },
+    "desc": {
+      "id": "D5009C13481EAF21",
+      "text": ""
+    },
+    "domainLimited": "",
+    "iconOnPanel": "icon_port_winder_1",
+    "id": "winder_1",
+    "inputPorts": [
+      {
+        "index": 0,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 0,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "limitType": 0,
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_winder_1",
+    "modelHeight": 4,
+    "name": {
+      "id": "90C5E25BE68CC439",
+      "text": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": 0,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 2,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 3,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 4,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      },
+      {
+        "index": 5,
+        "isOutput": 1,
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "powerConsume": 10,
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": 4,
+      "height": 4,
+      "width": 6,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "roadAttachSide": 0,
+    "type": 6
+  }
+}

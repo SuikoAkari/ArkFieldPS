@@ -1,0 +1,17 @@
+{
+  "test_moment_001": {
+    "forwardId": "",
+    "imgPath": "",
+    "likeCount": 8,
+    "likeList": [
+      "sns_chr_0004_pelica"
+    ],
+    "momentId": "test_moment_001",
+    "owner": "sns_chr_0004_pelica",
+    "text": {
+      "id": "E73428FEFC9E1319",
+      "text": ""
+    },
+    "videoPath": []
+  }
+}

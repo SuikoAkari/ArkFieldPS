@@ -1,0 +1,43 @@
+{
+  "AbnormalAndBurstIncrease": {
+    "list": [
+      "FireAbnormalDamageIncrease",
+      "PulseAbnormalDamageIncrease",
+      "CrystAbnormalDamageIncrease",
+      "NaturalAbnormalDamageIncrease",
+      "FireBurstDamageIncrease",
+      "PulseBurstDamageIncrease",
+      "CrystBurstDamageIncrease",
+      "NaturalBurstDamageIncrease"
+    ]
+  },
+  "AllDamageTakenScalar": {
+    "list": [
+      "PhysicalDamageTakenScalar",
+      "FireDamageTakenScalar",
+      "PulseDamageTakenScalar",
+      "CrystDamageTakenScalar",
+      "NaturalDamageTakenScalar",
+      "EtherDamageTakenScalar"
+    ]
+  },
+  "AllSkillDamageIncrease": {
+    "list": [
+      "NormalSkillDamageIncrease",
+      "UltimateSkillDamageIncrease",
+      "ComboSkillDamageIncrease"
+    ]
+  },
+  "CrystAndPulseDamageIncrease": {
+    "list": [
+      "CrystDamageIncrease",
+      "PulseDamageIncrease"
+    ]
+  },
+  "FireAndNaturalDamageIncrease": {
+    "list": [
+      "FireDamageIncrease",
+      "NaturalDamageIncrease"
+    ]
+  }
+}

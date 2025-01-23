@@ -1,0 +1,4738 @@
+{
+  "gm01m3_submit": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_iron_enr_bottle"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              10
+            ],
+            "valueIntList": [
+              10
+            ],
+            "valueStringList": [
+              "10"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "gm01m3_submit"
+  },
+  "submit_001_1": {
+    "desc": {
+      "id": "54112A06C7E28CB5",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "2A22A3D28C913A01",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quest_e1m2_bfix"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_001_1"
+  },
+  "submit_001_crystal_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_crystal_shell"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_001_crystal_1"
+  },
+  "submit_003_1": {
+    "desc": {
+      "id": "017D8AD6FBE77BEF",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "D72FA2ACCF4C4789",
+      "text": ""
+    },
+    "paramData": [],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_003_1"
+  },
+  "submit_003_chips": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_003_chips_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_003_chips_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_003_chips"
+  },
+  "submit_003_chips_3": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_003_chips_3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_003_chips_3"
+  },
+  "submit_006_1": {
+    "desc": {
+      "id": "0A8B098BE2CDC649",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "57731933EF2E9116",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quest_e2m6_fixboard"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_1"
+  },
+  "submit_006_2": {
+    "desc": {
+      "id": "C6805BA2BDFAFA89",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "674C3DA2D53FB7B0",
+      "text": ""
+    },
+    "paramData": [],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_2"
+  },
+  "submit_006_database_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_databasefor006_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_database_1"
+  },
+  "submit_006_database_2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_databasefor006_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_database_2"
+  },
+  "submit_006_database_3": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_databasefor006_3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_database_3"
+  },
+  "submit_006_headdress_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quest_e2m5_headdress"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_headdress_1"
+  },
+  "submit_006_rubbishKing_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_rubbishKing_tool1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_rubbishKing_tool2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_rubbishKing_tool3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_rubbishKing_1"
+  },
+  "submit_006_rubbishKing_camera": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_rubbishKing_camera"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_rubbishKing_camera"
+  },
+  "submit_006_rubbishKing_cd": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_rubbishKing_cd"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_rubbishKing_cd"
+  },
+  "submit_006_rubbishKing_compressor": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_rubbishKing_compressor"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_006_rubbishKing_compressor"
+  },
+  "submit_c13m1_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_mission_c13_pack1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_c13m1_1"
+  },
+  "submit_c13m1_2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_mission_c13_pack2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_c13m1_2"
+  },
+  "submit_c13m1_3": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_mission_c13_pack3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_c13m1_3"
+  },
+  "submit_common_item_crystal_shell_L": {
+    "desc": {
+      "id": "64199B7A89B6A536",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "EFC0A32527E18F20",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_crystal_shell"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              200
+            ],
+            "valueIntList": [
+              200
+            ],
+            "valueStringList": [
+              "200"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_crystal_shell_L"
+  },
+  "submit_common_item_crystal_shell_M": {
+    "desc": {
+      "id": "C080B17772423B47",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "B2C9953221B265EA",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_crystal_shell"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              20
+            ],
+            "valueIntList": [
+              20
+            ],
+            "valueStringList": [
+              "20"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_crystal_shell_M"
+  },
+  "submit_common_item_crystal_shell_S": {
+    "desc": {
+      "id": "957E6CDE9EC9F4AE",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "7B9F54357DFA1148",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_crystal_shell"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_crystal_shell_S"
+  },
+  "submit_common_item_f1m101": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_sp_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              3
+            ],
+            "valueIntList": [
+              3
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_f1m101"
+  },
+  "submit_common_item_glass_cmpt_L": {
+    "desc": {
+      "id": "22D6F29A7A8A0455",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "3DABDDDC83614C0D",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              200
+            ],
+            "valueIntList": [
+              200
+            ],
+            "valueStringList": [
+              "200"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_glass_cmpt_L"
+  },
+  "submit_common_item_glass_cmpt_M": {
+    "desc": {
+      "id": "747B4952DB5B4BC8",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "9B0ED428BDCD72CF",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              20
+            ],
+            "valueIntList": [
+              20
+            ],
+            "valueStringList": [
+              "20"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_glass_cmpt_M"
+  },
+  "submit_common_item_glass_cmpt_S": {
+    "desc": {
+      "id": "67CEA8132407D11F",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "235738D534F78B58",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_glass_cmpt_S"
+  },
+  "submit_common_item_iron_cmpt_L": {
+    "desc": {
+      "id": "024E0BDAA9037206",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "6199E91B6340B46C",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_iron_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              200
+            ],
+            "valueIntList": [
+              200
+            ],
+            "valueStringList": [
+              "200"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_iron_cmpt_L"
+  },
+  "submit_common_item_iron_cmpt_M": {
+    "desc": {
+      "id": "76F03DDFD219FDA1",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "7A22F62C8BE98C0D",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_iron_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              20
+            ],
+            "valueIntList": [
+              20
+            ],
+            "valueStringList": [
+              "20"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_iron_cmpt_M"
+  },
+  "submit_common_item_iron_cmpt_S": {
+    "desc": {
+      "id": "C65654071014228C",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "B04E00520144593B",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_iron_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_iron_cmpt_S"
+  },
+  "submit_common_item_iron_enr_cmpt_L": {
+    "desc": {
+      "id": "908A6F20B7070E22",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "EC29E63F1E3BEA21",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_iron_enr_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              200
+            ],
+            "valueIntList": [
+              200
+            ],
+            "valueStringList": [
+              "200"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_iron_enr_cmpt_L"
+  },
+  "submit_common_item_iron_enr_cmpt_M": {
+    "desc": {
+      "id": "AF57BDE3F0353767",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "65566E2F866C9B94",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_iron_enr_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              20
+            ],
+            "valueIntList": [
+              20
+            ],
+            "valueStringList": [
+              "20"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_iron_enr_cmpt_M"
+  },
+  "submit_common_item_iron_enr_cmpt_S": {
+    "desc": {
+      "id": "CDD66BDED6F89595",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "FB3AA6F314C2E372",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_iron_enr_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_iron_enr_cmpt_S"
+  },
+  "submit_common_item_m1m8_23": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_m1m8_grassSample_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              10
+            ],
+            "valueIntList": [
+              10
+            ],
+            "valueStringList": [
+              "10"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_m1m8_grassSample_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_m1m8_grassSample_3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_m1m8_grassSample_4"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_common_item_m1m8_23"
+  },
+  "submit_e1m10_stolenitems_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quest_e1m6_drug"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quest_e1m6_tool"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quest_e1m6_battery"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quest_e1m6_needle"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m10_stolenitems_1"
+  },
+  "submit_e1m3_crystalshell": {
+    "desc": {
+      "id": "EC02767B41A65A3F",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "845A1F4A4638626E",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_crystal_shell"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m3_crystalshell"
+  },
+  "submit_e1m3_crystalshell2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_crystal_shell"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              30
+            ],
+            "valueIntList": [
+              30
+            ],
+            "valueStringList": [
+              "30"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m3_crystalshell2"
+  },
+  "submit_e1m3_fixtool": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quest_e1m3_fixtool"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m3_fixtool"
+  },
+  "submit_e1m3_mosspowder": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_powder_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              30
+            ],
+            "valueIntList": [
+              30
+            ],
+            "valueStringList": [
+              "30"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m3_mosspowder"
+  },
+  "submit_e1m3_powder": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_originium_powder"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              10
+            ],
+            "valueIntList": [
+              10
+            ],
+            "valueStringList": [
+              "10"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m3_powder"
+  },
+  "submit_e1m9_andrew_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_originium_ore"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              50
+            ],
+            "valueIntList": [
+              50
+            ],
+            "valueStringList": [
+              "50"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_quartz_sand"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              50
+            ],
+            "valueIntList": [
+              50
+            ],
+            "valueStringList": [
+              "50"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m9_andrew_1"
+  },
+  "submit_e1m9_andrew_2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              10
+            ],
+            "valueIntList": [
+              10
+            ],
+            "valueStringList": [
+              "10"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m9_andrew_2"
+  },
+  "submit_e1m9_bodyparts_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_unit_t1_body_01_parts_spe"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_unit_t1_body_01_parts_spe"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_unit_t1_body_01_parts_spe"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_unit_t1_body_01_parts_spe"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m9_bodyparts_1"
+  },
+  "submit_e1m9_drill_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              50
+            ],
+            "valueIntList": [
+              50
+            ],
+            "valueStringList": [
+              "50"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_bottle"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              50
+            ],
+            "valueIntList": [
+              50
+            ],
+            "valueStringList": [
+              "50"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e1m9_drill_1"
+  },
+  "submit_e2m3_1": {
+    "desc": {
+      "id": "6459777F0C4FD5F0",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "3124156DEE301F09",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              10
+            ],
+            "valueIntList": [
+              10
+            ],
+            "valueStringList": [
+              "10"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e2m3_1"
+  },
+  "submit_e2m3_2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_e2m2_ID"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e2m3_2"
+  },
+  "submit_e5m1_watersample": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_fbottle_glass_water"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e5m1_watersample"
+  },
+  "submit_e5m1_yujian": {
+    "desc": {
+      "id": "526706411B9B6738",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "2E4E90A1ADABB75F",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_mission_tianshi_talisman"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_e5m1_yujian"
+  },
+  "submit_f1m10_tankuai": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_sp_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_f1m10_tankuai"
+  },
+  "submit_gm01m23_food": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_bottled_food_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_gm01m23_food"
+  },
+  "submit_item_f1m7_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              30
+            ],
+            "valueIntList": [
+              30
+            ],
+            "valueStringList": [
+              "30"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_spc_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              3
+            ],
+            "valueIntList": [
+              3
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_f1m7_1"
+  },
+  "submit_item_f1m7_2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_carbon_powder"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              30
+            ],
+            "valueIntList": [
+              30
+            ],
+            "valueStringList": [
+              "30"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_bottle"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              3
+            ],
+            "valueIntList": [
+              3
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_f1m7_2"
+  },
+  "submit_item_f1m7_3": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_f1m7_Medi"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_f1m7_3"
+  },
+  "submit_item_f1m7_4": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_f1m7_Medi"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_f1m7_4"
+  },
+  "submit_item_f1m7_5": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_f1m7_Medi"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_f1m7_5"
+  },
+  "submit_item_f1m9_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_f1m9_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_f1m9_1"
+  },
+  "submit_item_gm01m10_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_sp_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_gm01m10_1"
+  },
+  "submit_item_gm01m10_2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_gm01m10_watch"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_gm01m10_2"
+  },
+  "submit_item_gm01m16_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_gm01m16_1"
+  },
+  "submit_item_gm01m16_2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_gm01m16_2"
+  },
+  "submit_item_gm01m16_3": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_gm01m16_3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_gm01m16_3"
+  },
+  "submit_item_gm01m16_4": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_mushroom_spc_2_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_gm01m16_4"
+  },
+  "submit_item_mission_sm1l3m4_keycard": {
+    "desc": {
+      "id": "2C4230C2A14210F2",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "Factory/BuildingPanelIcon/icon_port_submit",
+    "name": {
+      "id": "36509F10A032F83D",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_mission_sm1l3m4_keycard"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_mission_sm1l3m4_keycard"
+  },
+  "submit_item_mission_sm1l6m2_brokenmedicinebox": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_mission_sm1l6m2_brokenmedicinebox"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_item_mission_sm1l6m2_brokenmedicinebox"
+  },
+  "submit_sm1l1m4_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_powder_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l1m4_1"
+  },
+  "submit_sm1l1m5_phone": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l1m5_Eriksson_workphone"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l1m5_phone"
+  },
+  "submit_sm1l1m9_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_powder_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              20
+            ],
+            "valueIntList": [
+              20
+            ],
+            "valueStringList": [
+              "20"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l1m9_1"
+  },
+  "submit_sm1l2m2_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_mission_sm1l2m2_metal"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              2
+            ],
+            "valueIntList": [
+              2
+            ],
+            "valueStringList": [
+              "2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l2m2_1"
+  },
+  "submit_sm1l5m1_reporter": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l5m1_reporter"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l5m1_reporter"
+  },
+  "submit_sm1l5m3_foodpack": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l5m3_foodpack"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l5m3_foodpack"
+  },
+  "submit_sm1l5m3_karlnote": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l5m3_karlnote"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l5m3_karlnote"
+  },
+  "submit_sm1l5m3_rice1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l5m3_rice"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l5m3_rice1"
+  },
+  "submit_sm1l5m3_rice2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l5m3_rice"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l5m3_rice2"
+  },
+  "submit_sm1l5m3_rice3": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l5m3_rice"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l5m3_rice3"
+  },
+  "submit_sm1l5m4_repair": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l5m4_repair"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              3
+            ],
+            "valueIntList": [
+              3
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l5m4_repair"
+  },
+  "submit_sm1l5m4_snack": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_sm1l5m4_snack"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submit_sm1l5m4_snack"
+  },
+  "submt_item_e2m6_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_spc_powder_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submt_item_e2m6_1"
+  },
+  "submt_item_f1m4_1": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_plant_moss_2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              5
+            ],
+            "valueIntList": [
+              5
+            ],
+            "valueStringList": [
+              "5"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      },
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_f1m4_book"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submt_item_f1m4_1"
+  },
+  "submt_item_f1m4_2": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_glass_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              50
+            ],
+            "valueIntList": [
+              50
+            ],
+            "valueStringList": [
+              "50"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "submt_item_f1m4_2"
+  },
+  "test_oneofsome": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_unit_t4_hand_01_parts_spe",
+              "item_unit_t5_body_01_suit_criti"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              1
+            ],
+            "valueIntList": [
+              1
+            ],
+            "valueStringList": [
+              "1"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 2
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "test_oneofsome"
+  },
+  "test_oneofsome_test_noninst": {
+    "desc": {
+      "id": "",
+      "text": ""
+    },
+    "hintDes": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "",
+    "name": {
+      "id": "",
+      "text": ""
+    },
+    "paramData": [
+      {
+        "paramList": [
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "item_crystal_shell",
+              "item_glass_cmpt"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          },
+          {
+            "realType": 0,
+            "valueBoolList": null,
+            "valueFloatList": [
+              2
+            ],
+            "valueIntList": [
+              2
+            ],
+            "valueStringList": [
+              "2"
+            ],
+            "valueType": 0,
+            "valueVector3": null
+          }
+        ],
+        "type": 2
+      }
+    ],
+    "selectHintDes": {
+      "id": "",
+      "text": ""
+    },
+    "submitId": "test_oneofsome_test_noninst"
+  }
+}

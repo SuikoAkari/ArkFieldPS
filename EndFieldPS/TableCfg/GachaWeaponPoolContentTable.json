@@ -1,0 +1,1042 @@
+{
+  "weaponbox_2024_12_1": {
+    "list": [
+      {
+        "isHardGuaranteeItem": true,
+        "itemId": "wpn_sword_0006",
+        "randomWeight": 20,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0013",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0014",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0006",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0006",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0008",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0009",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0011",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0001",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0002",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      }
+    ]
+  },
+  "weaponbox_2025_1_1": {
+    "list": [
+      {
+        "isHardGuaranteeItem": true,
+        "itemId": "wpn_pistol_0008",
+        "randomWeight": 20,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0007",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0009",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0011",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0007",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0011",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0009",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0011",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0001",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0002",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      }
+    ]
+  },
+  "weaponbox_constant_1": {
+    "list": [
+      {
+        "isHardGuaranteeItem": true,
+        "itemId": "wpn_claym_0008",
+        "randomWeight": 20,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0006",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0007",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0011",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0011",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0009",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0009",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0011",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0001",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0002",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      }
+    ]
+  },
+  "weaponbox_constant_2": {
+    "list": [
+      {
+        "isHardGuaranteeItem": true,
+        "itemId": "wpn_funnel_0010",
+        "randomWeight": 20,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0008",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0009",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0013",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0007",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0006",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0009",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0011",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0001",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0002",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      }
+    ]
+  },
+  "weaponbox_constant_3": {
+    "list": [
+      {
+        "isHardGuaranteeItem": true,
+        "itemId": "wpn_lance_0012",
+        "randomWeight": 20,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0006",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0011",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0014",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0006",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0008",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0007",
+        "randomWeight": 10,
+        "starLevel": 6
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0011",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0012",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0010",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0007",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0004",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0005",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0006",
+        "randomWeight": 10,
+        "starLevel": 5
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_sword_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_claym_0009",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_lance_0008",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0001",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_funnel_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0002",
+        "randomWeight": 10,
+        "starLevel": 4
+      },
+      {
+        "isHardGuaranteeItem": false,
+        "itemId": "wpn_pistol_0003",
+        "randomWeight": 10,
+        "starLevel": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "recommendRule": {
+    "id": "recommendRule",
+    "recommonendGroupIdList": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  }
+}

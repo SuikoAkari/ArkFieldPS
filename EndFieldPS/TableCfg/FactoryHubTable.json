@@ -1,0 +1,12 @@
+{
+  "sp_hub_1": {
+    "buildingId": "sp_hub_1",
+    "powerGenerate": 150,
+    "powerStorageCapacity": 100000
+  },
+  "sp_sub_hub_1": {
+    "buildingId": "sp_sub_hub_1",
+    "powerGenerate": 0,
+    "powerStorageCapacity": 100000
+  }
+}

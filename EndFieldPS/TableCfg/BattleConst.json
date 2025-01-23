@@ -1,0 +1,12 @@
+{
+  "atkRateOfMain": 0.01,
+  "atkRateOfSub": 0.004,
+  "efficiencyOfAGI": 0.002,
+  "efficiencyOfDEF": 0.01,
+  "efficiencyOfSTR": 10,
+  "efficiencyOfWISD": 0.002,
+  "healerEfficiencyOfWILL": 0,
+  "maxUltimateSp": 100,
+  "poiseBreakDamageLevelModifier": 1,
+  "recoverEfficiencyOfWILL": 0.002
+}

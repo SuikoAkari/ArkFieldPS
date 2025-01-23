@@ -1,0 +1,30 @@
+{
+  "stm_tundra_1": {
+    "leftBottomPos": {
+      "x": -752.29,
+      "y": 0,
+      "z": 143.84
+    },
+    "mapImage": "defense_map_stm_tundra_1",
+    "rightUpPos": {
+      "x": -604.7,
+      "y": 0,
+      "z": 291.45
+    },
+    "settlementId": "stm_tundra_1"
+  },
+  "stm_tundra_2": {
+    "leftBottomPos": {
+      "x": 690.873,
+      "y": 0,
+      "z": -454.735
+    },
+    "mapImage": "defense_map_stm_tundra_2",
+    "rightUpPos": {
+      "x": 866.523,
+      "y": 0,
+      "z": -279.084
+    },
+    "settlementId": "stm_tundra_2"
+  }
+}

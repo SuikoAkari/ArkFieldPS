@@ -1,0 +1,1334 @@
+{
+  "spaceship_skill_acc_all_ps_recovery1_1": {
+    "desc": {
+      "id": "E79D88F362CEF9C1",
+      "text": ""
+    },
+    "effectType": 0,
+    "icon": "facskill_spaceship_physical_power",
+    "id": "spaceship_skill_acc_all_ps_recovery1_1",
+    "level": 1,
+    "name": {
+      "id": "8D54FF8FCDA89A28",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.18
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.18"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 0,
+    "skillNamePostfix": "\u03B1",
+    "sortId": 1,
+    "talentName": {
+      "id": "EBD86372DDBDFDDC",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_all_ps_recovery1_2": {
+    "desc": {
+      "id": "4F88D2C865B6DD87",
+      "text": ""
+    },
+    "effectType": 0,
+    "icon": "facskill_spaceship_physical_power",
+    "id": "spaceship_skill_acc_all_ps_recovery1_2",
+    "level": 2,
+    "name": {
+      "id": "6071F833D4686069",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.24
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.24"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 0,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 2,
+    "talentName": {
+      "id": "8F8B5786DA5E183D",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_all_ps_recovery2_1": {
+    "desc": {
+      "id": "8F537432301FE9B0",
+      "text": ""
+    },
+    "effectType": 0,
+    "icon": "facskill_spaceship_physical_power",
+    "id": "spaceship_skill_acc_all_ps_recovery2_1",
+    "level": 1,
+    "name": {
+      "id": "AA5A9D5A01F3FE4E",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.24
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.24"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 0,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 3,
+    "talentName": {
+      "id": "D6C24131C3B49EAA",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_all_ps_recovery2_2": {
+    "desc": {
+      "id": "1EE80E84F2EEC4CB",
+      "text": ""
+    },
+    "effectType": 0,
+    "icon": "facskill_spaceship_physical_power",
+    "id": "spaceship_skill_acc_all_ps_recovery2_2",
+    "level": 2,
+    "name": {
+      "id": "9C6C749E92656CE1",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.3
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 0,
+    "skillNamePostfix": "\u03B3",
+    "sortId": 4,
+    "talentName": {
+      "id": "71223E17A3A221D2",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_charmaterial_produce1_1": {
+    "desc": {
+      "id": "7581F7C5D2E673D2",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_fungus",
+    "id": "spaceship_skill_acc_charmaterial_produce1_1",
+    "level": 1,
+    "name": {
+      "id": "1B3A6FDFEDF6FF4B",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.08
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.08"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          1
+        ],
+        "valueIntList": [
+          1
+        ],
+        "valueStringList": [
+          "1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B1",
+    "sortId": 21,
+    "talentName": {
+      "id": "931615A8B891FDBE",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_charmaterial_produce1_2": {
+    "desc": {
+      "id": "0F4C5A57D27DD9BC",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_fungus",
+    "id": "spaceship_skill_acc_charmaterial_produce1_2",
+    "level": 2,
+    "name": {
+      "id": "6C984F248C188F01",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.12
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.12"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          1
+        ],
+        "valueIntList": [
+          1
+        ],
+        "valueStringList": [
+          "1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 22,
+    "talentName": {
+      "id": "1C8302542B82B58C",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_charmaterial_produce2_1": {
+    "desc": {
+      "id": "0C6EE35943DDFBD0",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_fungus",
+    "id": "spaceship_skill_acc_charmaterial_produce2_1",
+    "level": 1,
+    "name": {
+      "id": "E0F251CD67750461",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.12
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.12"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          1
+        ],
+        "valueIntList": [
+          1
+        ],
+        "valueStringList": [
+          "1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 23,
+    "talentName": {
+      "id": "9FD0F92AE0B50066",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_charmaterial_produce2_2": {
+    "desc": {
+      "id": "04B09A0EFA591A1F",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_fungus",
+    "id": "spaceship_skill_acc_charmaterial_produce2_2",
+    "level": 2,
+    "name": {
+      "id": "7F0BBB3937022FC0",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.16
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.16"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          1
+        ],
+        "valueIntList": [
+          1
+        ],
+        "valueStringList": [
+          "1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B3",
+    "sortId": 24,
+    "talentName": {
+      "id": "838BA8054ED18FBE",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_room_gc_produce1_1": {
+    "desc": {
+      "id": "36A4C9E7E4595A20",
+      "text": ""
+    },
+    "effectType": 2,
+    "icon": "facskill_spaceship_plant_efficient",
+    "id": "spaceship_skill_acc_room_gc_produce1_1",
+    "level": 1,
+    "name": {
+      "id": "B4B25AAB864D6C00",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.06
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.06"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B1",
+    "sortId": 17,
+    "talentName": {
+      "id": "4844A4BB99D23399",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_room_gc_produce1_2": {
+    "desc": {
+      "id": "161B0814205EAC9F",
+      "text": ""
+    },
+    "effectType": 2,
+    "icon": "facskill_spaceship_plant_efficient",
+    "id": "spaceship_skill_acc_room_gc_produce1_2",
+    "level": 2,
+    "name": {
+      "id": "E4B08695A99322B3",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.09
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.09"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 18,
+    "talentName": {
+      "id": "F7F28166958B6FF0",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_room_gc_produce2_1": {
+    "desc": {
+      "id": "65162E3690A97A30",
+      "text": ""
+    },
+    "effectType": 2,
+    "icon": "facskill_spaceship_plant_efficient",
+    "id": "spaceship_skill_acc_room_gc_produce2_1",
+    "level": 1,
+    "name": {
+      "id": "3E7BC1E5ABFD414A",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.09
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.09"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 19,
+    "talentName": {
+      "id": "CF0CE6B608F79334",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_room_gc_produce2_2": {
+    "desc": {
+      "id": "AFB4DC54FA74130C",
+      "text": ""
+    },
+    "effectType": 2,
+    "icon": "facskill_spaceship_plant_efficient",
+    "id": "spaceship_skill_acc_room_gc_produce2_2",
+    "level": 2,
+    "name": {
+      "id": "27601117D5F95DF8",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.12
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.12"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B3",
+    "sortId": 20,
+    "talentName": {
+      "id": "80662739A7D43FFE",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_room_ms_produce1_1": {
+    "desc": {
+      "id": "462877966BE52348",
+      "text": ""
+    },
+    "effectType": 2,
+    "icon": "facskill_spaceship_manufacture_efficiency",
+    "id": "spaceship_skill_acc_room_ms_produce1_1",
+    "level": 1,
+    "name": {
+      "id": "35580D41571659A1",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.06
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.06"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 1,
+    "skillNamePostfix": "\u03B1",
+    "sortId": 13,
+    "talentName": {
+      "id": "0D477BCCC4D265E1",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_room_ms_produce1_2": {
+    "desc": {
+      "id": "09D2C01FA96E6449",
+      "text": ""
+    },
+    "effectType": 2,
+    "icon": "facskill_spaceship_manufacture_efficiency",
+    "id": "spaceship_skill_acc_room_ms_produce1_2",
+    "level": 2,
+    "name": {
+      "id": "F321AB05C3294C4A",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.09
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.09"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 1,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 14,
+    "talentName": {
+      "id": "52440C71B0F620C5",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_room_ms_produce2_1": {
+    "desc": {
+      "id": "B94FE85959464B63",
+      "text": ""
+    },
+    "effectType": 2,
+    "icon": "facskill_spaceship_manufacture_efficiency",
+    "id": "spaceship_skill_acc_room_ms_produce2_1",
+    "level": 1,
+    "name": {
+      "id": "92A9A63BCD8D0402",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.09
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.09"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 1,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 15,
+    "talentName": {
+      "id": "0823FB605EB3A05D",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_room_ms_produce2_2": {
+    "desc": {
+      "id": "71850513E5908AD0",
+      "text": ""
+    },
+    "effectType": 2,
+    "icon": "facskill_spaceship_manufacture_efficiency",
+    "id": "spaceship_skill_acc_room_ms_produce2_2",
+    "level": 2,
+    "name": {
+      "id": "EE2FA3DD9FE9DE8C",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.12
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.12"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 1,
+    "skillNamePostfix": "\u03B3",
+    "sortId": 16,
+    "talentName": {
+      "id": "81A68243DB95ED5D",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_skillmaterial_produce1_1": {
+    "desc": {
+      "id": "FB18658863D8D852",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_flower",
+    "id": "spaceship_skill_acc_skillmaterial_produce1_1",
+    "level": 1,
+    "name": {
+      "id": "B7F9451ECF7AB1C3",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.08
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.08"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          2
+        ],
+        "valueIntList": [
+          2
+        ],
+        "valueStringList": [
+          "2"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B1",
+    "sortId": 25,
+    "talentName": {
+      "id": "DF77C1F1B3A69B1D",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_skillmaterial_produce1_2": {
+    "desc": {
+      "id": "3AFC8FBA8FC0BBAA",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_flower",
+    "id": "spaceship_skill_acc_skillmaterial_produce1_2",
+    "level": 2,
+    "name": {
+      "id": "11E01888628DC9B6",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.12
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.12"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          2
+        ],
+        "valueIntList": [
+          2
+        ],
+        "valueStringList": [
+          "2"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 26,
+    "talentName": {
+      "id": "97BD0D7DCD2A6310",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_skillmaterial_produce2_1": {
+    "desc": {
+      "id": "6695AE8DF7D250A2",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_flower",
+    "id": "spaceship_skill_acc_skillmaterial_produce2_1",
+    "level": 1,
+    "name": {
+      "id": "42C3F54E80583157",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.12
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.12"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          2
+        ],
+        "valueIntList": [
+          2
+        ],
+        "valueStringList": [
+          "2"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 27,
+    "talentName": {
+      "id": "1A7696DEA1848787",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_skillmaterial_produce2_2": {
+    "desc": {
+      "id": "3694751B5612C50C",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_flower",
+    "id": "spaceship_skill_acc_skillmaterial_produce2_2",
+    "level": 2,
+    "name": {
+      "id": "B15A8CE6B060C418",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.16
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.16"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          2
+        ],
+        "valueIntList": [
+          2
+        ],
+        "valueStringList": [
+          "2"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B3",
+    "sortId": 28,
+    "talentName": {
+      "id": "1DEA96F9E832AB47",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_weaponmaterial_produce1_1": {
+    "desc": {
+      "id": "58CF057801EA3B6E",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_mineral",
+    "id": "spaceship_skill_acc_weaponmaterial_produce1_1",
+    "level": 1,
+    "name": {
+      "id": "91C739B3D9572E46",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.08
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.08"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B1",
+    "sortId": 29,
+    "talentName": {
+      "id": "FAF603B7562DC28F",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_weaponmaterial_produce1_2": {
+    "desc": {
+      "id": "236D7C36CA10DDA3",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_mineral",
+    "id": "spaceship_skill_acc_weaponmaterial_produce1_2",
+    "level": 2,
+    "name": {
+      "id": "61643DDB239BE8F8",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.12
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.12"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 30,
+    "talentName": {
+      "id": "630C4D025E7E798A",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_weaponmaterial_produce2_1": {
+    "desc": {
+      "id": "DC690F7C7BD5CFF5",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_mineral",
+    "id": "spaceship_skill_acc_weaponmaterial_produce2_1",
+    "level": 1,
+    "name": {
+      "id": "600BE1338BE661B8",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.12
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.12"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 31,
+    "talentName": {
+      "id": "BD280A1CBAED1D0D",
+      "text": ""
+    }
+  },
+  "spaceship_skill_acc_weaponmaterial_produce2_2": {
+    "desc": {
+      "id": "0EEB708ADBFDB231",
+      "text": ""
+    },
+    "effectType": 3,
+    "icon": "facskill_spaceship_plant_mineral",
+    "id": "spaceship_skill_acc_weaponmaterial_produce2_2",
+    "level": 2,
+    "name": {
+      "id": "42020CBCE6BF17DC",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.16
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.16"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      },
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          3
+        ],
+        "valueIntList": [
+          3
+        ],
+        "valueStringList": [
+          "3"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B3",
+    "sortId": 32,
+    "talentName": {
+      "id": "04246E25B96EF5D4",
+      "text": ""
+    }
+  },
+  "spaceship_skill_reduce_room_ps_gc_cost1_1": {
+    "desc": {
+      "id": "74FE5496471DF514",
+      "text": ""
+    },
+    "effectType": 1,
+    "icon": "facskill_spaceship_plant_power_consume",
+    "id": "spaceship_skill_reduce_room_ps_gc_cost1_1",
+    "level": 1,
+    "name": {
+      "id": "8AE1D67CEF904816",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.1
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B1",
+    "sortId": 9,
+    "talentName": {
+      "id": "7E02693999EC9628",
+      "text": ""
+    }
+  },
+  "spaceship_skill_reduce_room_ps_gc_cost1_2": {
+    "desc": {
+      "id": "DFEFBDA04C3E9852",
+      "text": ""
+    },
+    "effectType": 1,
+    "icon": "facskill_spaceship_plant_power_consume",
+    "id": "spaceship_skill_reduce_room_ps_gc_cost1_2",
+    "level": 2,
+    "name": {
+      "id": "41AD6F5681D3A5FB",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.14
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.14"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 10,
+    "talentName": {
+      "id": "02FA1BEFA5F58064",
+      "text": ""
+    }
+  },
+  "spaceship_skill_reduce_room_ps_gc_cost2_1": {
+    "desc": {
+      "id": "78C0F14D05BB09F9",
+      "text": ""
+    },
+    "effectType": 1,
+    "icon": "facskill_spaceship_plant_power_consume",
+    "id": "spaceship_skill_reduce_room_ps_gc_cost2_1",
+    "level": 1,
+    "name": {
+      "id": "CD38191379A9825D",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.14
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.14"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 11,
+    "talentName": {
+      "id": "3E4DF1CFAAD9989C",
+      "text": ""
+    }
+  },
+  "spaceship_skill_reduce_room_ps_gc_cost2_2": {
+    "desc": {
+      "id": "4EA89560985FFF31",
+      "text": ""
+    },
+    "effectType": 1,
+    "icon": "facskill_spaceship_plant_power_consume",
+    "id": "spaceship_skill_reduce_room_ps_gc_cost2_2",
+    "level": 2,
+    "name": {
+      "id": "7F96D4D4E7E0A922",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.18
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.18"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 2,
+    "skillNamePostfix": "\u03B3",
+    "sortId": 12,
+    "talentName": {
+      "id": "7004794D2A648489",
+      "text": ""
+    }
+  },
+  "spaceship_skill_reduce_room_ps_ms_cost1_1": {
+    "desc": {
+      "id": "3C6885BDBD912D61",
+      "text": ""
+    },
+    "effectType": 1,
+    "icon": "facskill_spaceship_manufacture_power_consume",
+    "id": "spaceship_skill_reduce_room_ps_ms_cost1_1",
+    "level": 1,
+    "name": {
+      "id": "F6F52B000EFE83F7",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.1
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.1"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 1,
+    "skillNamePostfix": "\u03B1",
+    "sortId": 5,
+    "talentName": {
+      "id": "B1501126AB1EA91C",
+      "text": ""
+    }
+  },
+  "spaceship_skill_reduce_room_ps_ms_cost1_2": {
+    "desc": {
+      "id": "69F6E75658A77FDE",
+      "text": ""
+    },
+    "effectType": 1,
+    "icon": "facskill_spaceship_manufacture_power_consume",
+    "id": "spaceship_skill_reduce_room_ps_ms_cost1_2",
+    "level": 2,
+    "name": {
+      "id": "D7657D4A72F97FD7",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.14
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.14"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 1,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 6,
+    "talentName": {
+      "id": "8F45224F9477D483",
+      "text": ""
+    }
+  },
+  "spaceship_skill_reduce_room_ps_ms_cost2_1": {
+    "desc": {
+      "id": "B10994F52D3CBFAA",
+      "text": ""
+    },
+    "effectType": 1,
+    "icon": "facskill_spaceship_manufacture_power_consume",
+    "id": "spaceship_skill_reduce_room_ps_ms_cost2_1",
+    "level": 1,
+    "name": {
+      "id": "EBC6D0626EE2A9D1",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.14
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.14"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 1,
+    "skillNamePostfix": "\u03B2",
+    "sortId": 7,
+    "talentName": {
+      "id": "BD774AB46FA54A6E",
+      "text": ""
+    }
+  },
+  "spaceship_skill_reduce_room_ps_ms_cost2_2": {
+    "desc": {
+      "id": "A5AF4473F8763B38",
+      "text": ""
+    },
+    "effectType": 1,
+    "icon": "facskill_spaceship_manufacture_power_consume",
+    "id": "spaceship_skill_reduce_room_ps_ms_cost2_2",
+    "level": 2,
+    "name": {
+      "id": "8769DD4F297ACD12",
+      "text": ""
+    },
+    "parameters": [
+      {
+        "realType": 0,
+        "valueBoolList": null,
+        "valueFloatList": [
+          0.18
+        ],
+        "valueIntList": null,
+        "valueStringList": [
+          "0.18"
+        ],
+        "valueType": 0,
+        "valueVector3": null
+      }
+    ],
+    "roomType": 1,
+    "skillNamePostfix": "\u03B3",
+    "sortId": 8,
+    "talentName": {
+      "id": "78A8FA0F62A0A2D7",
+      "text": ""
+    }
+  }
+}

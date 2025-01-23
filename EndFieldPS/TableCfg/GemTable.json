@@ -1,0 +1,467 @@
+{
+  "gat_passive_attr_agi": {
+    "gemTermId": "gat_passive_attr_agi",
+    "isSkillTerm": false,
+    "sortOrder": 1,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_agi",
+    "tagName": {
+      "id": "2EB5E081B1719508",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_atk": {
+    "gemTermId": "gat_passive_attr_atk",
+    "isSkillTerm": false,
+    "sortOrder": 6,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_atk",
+    "tagName": {
+      "id": "FA3FC7357BD73996",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_atkdam": {
+    "gemTermId": "gat_passive_attr_atkdam",
+    "isSkillTerm": false,
+    "sortOrder": 17,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_atkdam",
+    "tagName": {
+      "id": "61B5C0874F006E4A",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_cridam": {
+    "gemTermId": "gat_passive_attr_cridam",
+    "isSkillTerm": false,
+    "sortOrder": 14,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_cridam",
+    "tagName": {
+      "id": "ED8B7D743E88C38F",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_crirate": {
+    "gemTermId": "gat_passive_attr_crirate",
+    "isSkillTerm": false,
+    "sortOrder": 13,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_crirate",
+    "tagName": {
+      "id": "DADAFF9F7BE98A6E",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_firedam": {
+    "gemTermId": "gat_passive_attr_firedam",
+    "isSkillTerm": false,
+    "sortOrder": 9,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_firedam",
+    "tagName": {
+      "id": "BED7A3E099FFD6B5",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_hp": {
+    "gemTermId": "gat_passive_attr_hp",
+    "isSkillTerm": false,
+    "sortOrder": 7,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_hp",
+    "tagName": {
+      "id": "24A4193A80131AAB",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_icedam": {
+    "gemTermId": "gat_passive_attr_icedam",
+    "isSkillTerm": false,
+    "sortOrder": 11,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_icedam",
+    "tagName": {
+      "id": "E29F1C12AF098A34",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_magicdam": {
+    "gemTermId": "gat_passive_attr_magicdam",
+    "isSkillTerm": false,
+    "sortOrder": 16,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_magicdam",
+    "tagName": {
+      "id": "46DB70A52FCB8F1C",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_main": {
+    "gemTermId": "gat_passive_attr_main",
+    "isSkillTerm": false,
+    "sortOrder": 5,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_main",
+    "tagName": {
+      "id": "71DC3E6CCF3022BF",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_naturaldam": {
+    "gemTermId": "gat_passive_attr_naturaldam",
+    "isSkillTerm": false,
+    "sortOrder": 12,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_naturaldam",
+    "tagName": {
+      "id": "146F0C5113B04927",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_phydam": {
+    "gemTermId": "gat_passive_attr_phydam",
+    "isSkillTerm": false,
+    "sortOrder": 8,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_phydam",
+    "tagName": {
+      "id": "7ABB34405090B654",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_pulsedam": {
+    "gemTermId": "gat_passive_attr_pulsedam",
+    "isSkillTerm": false,
+    "sortOrder": 10,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_pulsedam",
+    "tagName": {
+      "id": "45B0A14A4A0E7B13",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_str": {
+    "gemTermId": "gat_passive_attr_str",
+    "isSkillTerm": false,
+    "sortOrder": 2,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_str",
+    "tagName": {
+      "id": "3123ADD1E499B7CC",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_usp": {
+    "gemTermId": "gat_passive_attr_usp",
+    "isSkillTerm": false,
+    "sortOrder": 15,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_usp",
+    "tagName": {
+      "id": "F5E2C6DC588415F5",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_will": {
+    "gemTermId": "gat_passive_attr_will",
+    "isSkillTerm": false,
+    "sortOrder": 3,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_will",
+    "tagName": {
+      "id": "6DB9720C81A64617",
+      "text": ""
+    }
+  },
+  "gat_passive_attr_wisd": {
+    "gemTermId": "gat_passive_attr_wisd",
+    "isSkillTerm": false,
+    "sortOrder": 4,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "",
+    "tagId": "attr_wisd",
+    "tagName": {
+      "id": "9BC035790B8E05D4",
+      "text": ""
+    }
+  },
+  "gst_passive_break": {
+    "gemTermId": "gst_passive_break",
+    "isSkillTerm": true,
+    "sortOrder": 24,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_07",
+    "tagId": "break",
+    "tagName": {
+      "id": "CA406F8A3061FCD6",
+      "text": ""
+    }
+  },
+  "gst_passive_burst": {
+    "gemTermId": "gst_passive_burst",
+    "isSkillTerm": true,
+    "sortOrder": 28,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_08",
+    "tagId": "burst",
+    "tagName": {
+      "id": "8A937A0A4A618E53",
+      "text": ""
+    }
+  },
+  "gst_passive_combo": {
+    "gemTermId": "gst_passive_combo",
+    "isSkillTerm": true,
+    "sortOrder": 20,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_03",
+    "tagId": "combo",
+    "tagName": {
+      "id": "5DE593CB4A93AF07",
+      "text": ""
+    }
+  },
+  "gst_passive_crit": {
+    "gemTermId": "gst_passive_crit",
+    "isSkillTerm": true,
+    "sortOrder": 27,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_10",
+    "tagId": "crit",
+    "tagName": {
+      "id": "DAAC1FEBDA934EAD",
+      "text": ""
+    }
+  },
+  "gst_passive_force": {
+    "gemTermId": "gst_passive_force",
+    "isSkillTerm": true,
+    "sortOrder": 18,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_01",
+    "tagId": "force",
+    "tagName": {
+      "id": "87DB85CB9CCAA28F",
+      "text": ""
+    }
+  },
+  "gst_passive_heal": {
+    "gemTermId": "gst_passive_heal",
+    "isSkillTerm": true,
+    "sortOrder": 26,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_09",
+    "tagId": "heal",
+    "tagName": {
+      "id": "0846CFD8217BB236",
+      "text": ""
+    }
+  },
+  "gst_passive_magabn": {
+    "gemTermId": "gst_passive_magabn",
+    "isSkillTerm": true,
+    "sortOrder": 25,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_11",
+    "tagId": "magabn",
+    "tagName": {
+      "id": "987160FCDE0077D7",
+      "text": ""
+    }
+  },
+  "gst_passive_phyabn": {
+    "gemTermId": "gst_passive_phyabn",
+    "isSkillTerm": true,
+    "sortOrder": 23,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_06",
+    "tagId": "phyabn",
+    "tagName": {
+      "id": "D9B097DF83118D90",
+      "text": ""
+    }
+  },
+  "gst_passive_smash": {
+    "gemTermId": "gst_passive_smash",
+    "isSkillTerm": true,
+    "sortOrder": 21,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_04",
+    "tagId": "smash",
+    "tagName": {
+      "id": "B751A2FEDE353276",
+      "text": ""
+    }
+  },
+  "gst_passive_spirit": {
+    "gemTermId": "gst_passive_spirit",
+    "isSkillTerm": true,
+    "sortOrder": 22,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_05",
+    "tagId": "spirit",
+    "tagName": {
+      "id": "1A2CBF5B66A4D5CA",
+      "text": ""
+    }
+  },
+  "gst_passive_tacafter": {
+    "gemTermId": "gst_passive_tacafter",
+    "isSkillTerm": true,
+    "sortOrder": 30,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_13",
+    "tagId": "tacafter",
+    "tagName": {
+      "id": "DD0BCFB085703FBB",
+      "text": ""
+    }
+  },
+  "gst_passive_tacseq": {
+    "gemTermId": "gst_passive_tacseq",
+    "isSkillTerm": true,
+    "sortOrder": 31,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_14",
+    "tagId": "tacseq",
+    "tagName": {
+      "id": "A908256E104D7474",
+      "text": ""
+    }
+  },
+  "gst_passive_tactic": {
+    "gemTermId": "gst_passive_tactic",
+    "isSkillTerm": true,
+    "sortOrder": 19,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_02",
+    "tagId": "tactic",
+    "tagName": {
+      "id": "26BDE59DDFB1F8A1",
+      "text": ""
+    }
+  },
+  "gst_passive_ult": {
+    "gemTermId": "gst_passive_ult",
+    "isSkillTerm": true,
+    "sortOrder": 29,
+    "tagDesc": {
+      "id": "",
+      "text": ""
+    },
+    "tagIcon": "icon_wpngem_12",
+    "tagId": "ult",
+    "tagName": {
+      "id": "630A6011FB238DA1",
+      "text": ""
+    }
+  }
+}

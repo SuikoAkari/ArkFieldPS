@@ -1,0 +1,535 @@
+{
+  "chr_0004_pelica": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0004_pelica",
+        "skillId": "spaceship_skill_acc_all_ps_recovery1_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "C3A854EE3D7D037D",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0004_pelica",
+        "skillId": "spaceship_skill_acc_all_ps_recovery1_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "967B3E45DE21E0D8",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0004_pelica",
+        "skillId": "spaceship_skill_acc_charmaterial_produce2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "871B4E672BC6B03E",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0004_pelica",
+        "skillId": "spaceship_skill_acc_charmaterial_produce2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "CB01DCF7D8698BF6",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0005_chen": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0005_chen",
+        "skillId": "spaceship_skill_reduce_room_ps_ms_cost1_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "EB23F0580DC9FAD8",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0005_chen",
+        "skillId": "spaceship_skill_reduce_room_ps_ms_cost1_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "B2D3FF707F610338",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0005_chen",
+        "skillId": "spaceship_skill_acc_charmaterial_produce2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "FAF4E8DC98CFE64D",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0005_chen",
+        "skillId": "spaceship_skill_acc_charmaterial_produce2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "283BABFD23A56612",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0006_wolfgd": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0006_wolfgd",
+        "skillId": "spaceship_skill_acc_room_ms_produce1_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "09386C1086ED535D",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0006_wolfgd",
+        "skillId": "spaceship_skill_acc_room_ms_produce1_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "B2C73C37E9E0E54E",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0006_wolfgd",
+        "skillId": "spaceship_skill_reduce_room_ps_gc_cost2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "A5673D128ACCF23C",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0006_wolfgd",
+        "skillId": "spaceship_skill_reduce_room_ps_gc_cost2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "66DEAC71A0AAF289",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0007_ikut": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0007_ikut",
+        "skillId": "spaceship_skill_acc_all_ps_recovery1_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "53B2F8E8D48926B3",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0007_ikut",
+        "skillId": "spaceship_skill_acc_all_ps_recovery1_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "57D6E2AED6D525AC",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0007_ikut",
+        "skillId": "spaceship_skill_acc_weaponmaterial_produce2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "541E2B7589E11947",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0007_ikut",
+        "skillId": "spaceship_skill_acc_weaponmaterial_produce2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "B3D5953DE3933FFB",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0009_azrila": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0009_azrila",
+        "skillId": "spaceship_skill_acc_room_ms_produce2_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "F5A39019ED6535A3",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0009_azrila",
+        "skillId": "spaceship_skill_acc_room_ms_produce2_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "D1D7D536B0261EE4",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0009_azrila",
+        "skillId": "spaceship_skill_reduce_room_ps_ms_cost2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "A7417C5A85353C21",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0009_azrila",
+        "skillId": "spaceship_skill_reduce_room_ps_ms_cost2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "8C4DA7B272A08A1D",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0011_seraph": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0011_seraph",
+        "skillId": "spaceship_skill_acc_all_ps_recovery1_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "73972F5BD7AF6989",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0011_seraph",
+        "skillId": "spaceship_skill_acc_all_ps_recovery1_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "F69096903D01DA91",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0011_seraph",
+        "skillId": "spaceship_skill_acc_skillmaterial_produce2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "CC77007F132072F6",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0011_seraph",
+        "skillId": "spaceship_skill_acc_skillmaterial_produce2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "3D9B97F5828097E0",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0012_avywen": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0012_avywen",
+        "skillId": "spaceship_skill_acc_skillmaterial_produce1_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "6A01047A36DC52DF",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0012_avywen",
+        "skillId": "spaceship_skill_acc_skillmaterial_produce1_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "415BDD260E4F45B0",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0012_avywen",
+        "skillId": "spaceship_skill_acc_all_ps_recovery2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "5D93B40EB96416CF",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0012_avywen",
+        "skillId": "spaceship_skill_acc_all_ps_recovery2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "42C4B5BF92E8EBA6",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0013_aglina": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0013_aglina",
+        "skillId": "spaceship_skill_reduce_room_ps_ms_cost2_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "05B48DBDC369B989",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0013_aglina",
+        "skillId": "spaceship_skill_reduce_room_ps_ms_cost2_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "1751945E1FBA30D8",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0013_aglina",
+        "skillId": "spaceship_skill_acc_room_ms_produce2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "56E8C357A767B81F",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0013_aglina",
+        "skillId": "spaceship_skill_acc_room_ms_produce2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "7D8E7993D73097C4",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0014_aurora": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0014_aurora",
+        "skillId": "spaceship_skill_acc_room_ms_produce1_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "74C6E54FBAB5C487",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0014_aurora",
+        "skillId": "spaceship_skill_acc_room_ms_produce1_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "1C68E017F5BD7F70",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0014_aurora",
+        "skillId": "spaceship_skill_acc_all_ps_recovery2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "4A8DF6986D7693C9",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0014_aurora",
+        "skillId": "spaceship_skill_acc_all_ps_recovery2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "5B89D0BC1B44B464",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0015_lifeng": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0015_lifeng",
+        "skillId": "spaceship_skill_acc_charmaterial_produce2_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "2987D1D2B46918F4",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0015_lifeng",
+        "skillId": "spaceship_skill_acc_charmaterial_produce2_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "E34042A795D6A799",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0015_lifeng",
+        "skillId": "spaceship_skill_acc_skillmaterial_produce2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "4693D2324C2F49E5",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0015_lifeng",
+        "skillId": "spaceship_skill_acc_skillmaterial_produce2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "92894721E46D0DDE",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0016_laevat": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0016_laevat",
+        "skillId": "spaceship_skill_reduce_room_ps_gc_cost2_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "BB9E123677C49AA8",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0016_laevat",
+        "skillId": "spaceship_skill_reduce_room_ps_gc_cost2_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "2231F2B1ADFD2A56",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0016_laevat",
+        "skillId": "spaceship_skill_acc_weaponmaterial_produce2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "838FB44C8E5E7AD9",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0016_laevat",
+        "skillId": "spaceship_skill_acc_weaponmaterial_produce2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "F59B792F6A4D9F9C",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0017_yvonne": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0017_yvonne",
+        "skillId": "spaceship_skill_acc_weaponmaterial_produce2_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "6CEF8BF623CF191E",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0017_yvonne",
+        "skillId": "spaceship_skill_acc_weaponmaterial_produce2_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "4C66CB55DDE24AC7",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0017_yvonne",
+        "skillId": "spaceship_skill_reduce_room_ps_ms_cost2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "9F71F7D476582D1D",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0017_yvonne",
+        "skillId": "spaceship_skill_reduce_room_ps_ms_cost2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "BE9DFD85852F57E7",
+          "text": ""
+        }
+      }
+    ]
+  },
+  "chr_0018_dapan": {
+    "maxSkillCount": 2,
+    "skillList": [
+      {
+        "charId": "chr_0018_dapan",
+        "skillId": "spaceship_skill_acc_skillmaterial_produce1_1",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "52F994EE72926F9C",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0018_dapan",
+        "skillId": "spaceship_skill_acc_skillmaterial_produce1_2",
+        "skillIndex": 0,
+        "unlockHint": {
+          "id": "DAF43A42ACA13760",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0018_dapan",
+        "skillId": "spaceship_skill_acc_room_ms_produce2_1",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "418584F7AC3082AA",
+          "text": ""
+        }
+      },
+      {
+        "charId": "chr_0018_dapan",
+        "skillId": "spaceship_skill_acc_room_ms_produce2_2",
+        "skillIndex": 1,
+        "unlockHint": {
+          "id": "BB66FAA2FD60DDCC",
+          "text": ""
+        }
+      }
+    ]
+  }
+}

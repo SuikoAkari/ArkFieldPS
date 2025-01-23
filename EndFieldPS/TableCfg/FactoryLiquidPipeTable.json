@@ -1,0 +1,16 @@
+{
+  "log_pipe_01": {
+    "id": "log_pipe_01",
+    "pipeData": {
+      "buildCamState": "Factory/CCS_Fac_Building_Large",
+      "iconOnPanel": "icon_log_pipe_01",
+      "itemId": "item_log_pipe_01",
+      "msPerRound": 250,
+      "name": {
+        "id": "356D6A789CD54A9E",
+        "text": ""
+      },
+      "volume": 1
+    }
+  }
+}

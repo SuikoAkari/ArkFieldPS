@@ -1,0 +1,110 @@
+{
+  "dungeon_bossrush": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": true,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "dungeon_bossrush",
+    "icon": "dungeon_icon",
+    "iconBg": "dungeon_icon_bg",
+    "onceReward": true
+  },
+  "dungeon_challenge": {
+    "canReChallenge": true,
+    "canReChallengeAfterFail": true,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "dungeon_challenge",
+    "icon": "dungeon_icon",
+    "iconBg": "dungeon_icon_bg",
+    "onceReward": false
+  },
+  "dungeon_char": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": false,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "dungeon_char",
+    "icon": "dungeon_icon",
+    "iconBg": "dungeon_icon_bg",
+    "onceReward": true
+  },
+  "dungeon_factory": {
+    "canReChallenge": true,
+    "canReChallengeAfterFail": true,
+    "canReChallengeAfterReward": true,
+    "gameCategory": "dungeon_factory",
+    "icon": "challenge_icon_2",
+    "iconBg": "",
+    "onceReward": false
+  },
+  "dungeon_race": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": false,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "dungeon_race",
+    "icon": "racing_dungeon_icon",
+    "iconBg": "racing_dungeon_icon_bg",
+    "onceReward": false
+  },
+  "dungeon_resource": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": true,
+    "canReChallengeAfterReward": true,
+    "gameCategory": "dungeon_resource",
+    "icon": "dungeon_icon",
+    "iconBg": "dungeon_icon_bg",
+    "onceReward": false
+  },
+  "dungeon_rpg": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": false,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "dungeon_rpg",
+    "icon": "",
+    "iconBg": "",
+    "onceReward": false
+  },
+  "dungeon_train": {
+    "canReChallenge": true,
+    "canReChallengeAfterFail": true,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "dungeon_train",
+    "icon": "dungeon_icon",
+    "iconBg": "dungeon_icon_bg",
+    "onceReward": true
+  },
+  "settlement_defence": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": true,
+    "canReChallengeAfterReward": true,
+    "gameCategory": "settlement_defence",
+    "icon": "settlementdefense_icon",
+    "iconBg": "",
+    "onceReward": true
+  },
+  "world_challenge_race": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": false,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "world_challenge_race",
+    "icon": "",
+    "iconBg": "challenge_icon_bg",
+    "onceReward": true
+  },
+  "world_energy_point": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": false,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "world_energy_point",
+    "icon": "",
+    "iconBg": "challenge_icon_bg",
+    "onceReward": true
+  },
+  "world_energy_point_small": {
+    "canReChallenge": false,
+    "canReChallengeAfterFail": false,
+    "canReChallengeAfterReward": false,
+    "gameCategory": "world_energy_point_small",
+    "icon": "",
+    "iconBg": "challenge_icon_bg",
+    "onceReward": true
+  }
+}

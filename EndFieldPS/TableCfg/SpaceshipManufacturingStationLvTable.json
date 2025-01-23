@@ -1,0 +1,40 @@
+{
+  "1": {
+    "id": "manufacturing_station_level_1",
+    "level": 1,
+    "machineCapacity": 120,
+    "rewardId": "",
+    "roomPrefab": "prefab_1",
+    "roomType": 1,
+    "stationMaxCount": 1,
+    "unlockRecipe": [
+      "mfg_exp_1_1"
+    ]
+  },
+  "2": {
+    "id": "manufacturing_station_level_2",
+    "level": 2,
+    "machineCapacity": 240,
+    "rewardId": "",
+    "roomPrefab": "prefab_2",
+    "roomType": 1,
+    "stationMaxCount": 2,
+    "unlockRecipe": [
+      "mfg_exp_1_2",
+      "mfg_exp_2_1"
+    ]
+  },
+  "3": {
+    "id": "manufacturing_station_level_3",
+    "level": 3,
+    "machineCapacity": 480,
+    "rewardId": "",
+    "roomPrefab": "prefab_3",
+    "roomType": 1,
+    "stationMaxCount": 3,
+    "unlockRecipe": [
+      "mfg_exp_1_3",
+      "mfg_exp_2_2"
+    ]
+  }
+}

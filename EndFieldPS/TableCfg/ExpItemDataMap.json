@@ -1,0 +1,22 @@
+{
+  "item_expcard_stage1_high": {
+    "expGain": 20000,
+    "expType": 0
+  },
+  "item_expcard_stage1_low": {
+    "expGain": 400,
+    "expType": 0
+  },
+  "item_expcard_stage1_mid": {
+    "expGain": 2000,
+    "expType": 0
+  },
+  "item_expcard_stage2_high": {
+    "expGain": 20000,
+    "expType": 2
+  },
+  "item_expcard_stage2_low": {
+    "expGain": 1000,
+    "expType": 2
+  }
+}

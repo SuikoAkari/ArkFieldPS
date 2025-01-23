@@ -1,0 +1,30 @@
+{
+  "int_miner_1": {
+    "id": "int_miner_1",
+    "missionUseType": 2
+  },
+  "int_miner_2": {
+    "id": "int_miner_2",
+    "missionUseType": 2
+  },
+  "int_minerbase_iron": {
+    "id": "int_minerbase_iron",
+    "missionUseType": 1
+  },
+  "int_minerbase_originium": {
+    "id": "int_minerbase_originium",
+    "missionUseType": 1
+  },
+  "int_minerbase_quartz": {
+    "id": "int_minerbase_quartz",
+    "missionUseType": 1
+  },
+  "int_powerpole_large": {
+    "id": "int_powerpole_large",
+    "missionUseType": 3
+  },
+  "int_powerpole_small": {
+    "id": "int_powerpole_small",
+    "missionUseType": 3
+  }
+}

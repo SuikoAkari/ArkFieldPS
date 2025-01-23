@@ -1,0 +1,123 @@
+{
+  "picks_tundra_tree_1": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_tree_pine\u002B1_003_01",
+    "breakModel": "P_itree_pine\u002B1_003_01c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_1",
+    "maxHp": 80,
+    "modelId": "P_itree_pine\u002B1_003_01a",
+    "normalModel": "P_itree_pine\u002B1_003_01a"
+  },
+  "picks_tundra_tree_10": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_itree_pine\u002B2_003_02a",
+    "breakModel": "P_itree_pine\u002B1_003_02c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_10",
+    "maxHp": 80,
+    "modelId": "P_itree_pine\u002B2_003_02a",
+    "normalModel": "P_itree_pine\u002B2_003_02a"
+  },
+  "picks_tundra_tree_11": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_itree_pine\u002B2_003_03a",
+    "breakModel": "P_itree_pine\u002B1_003_03c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_11",
+    "maxHp": 80,
+    "modelId": "P_itree_pine\u002B2_003_03a",
+    "normalModel": "P_itree_pine\u002B2_003_03a"
+  },
+  "picks_tundra_tree_2": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_tree_tybirch\u002B1_001_01",
+    "breakModel": "P_itree_tybirch\u002B1_001_01c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_2",
+    "maxHp": 80,
+    "modelId": "P_itree_tybirch\u002B1_001_01a",
+    "normalModel": "P_itree_tybirch\u002B1_001_01a"
+  },
+  "picks_tundra_tree_3": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_tree_tybirch\u002B1_001_02",
+    "breakModel": "P_itree_tybirch\u002B1_001_01c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_3",
+    "maxHp": 80,
+    "modelId": "P_itree_tybirch\u002B1_001_02a",
+    "normalModel": "P_itree_tybirch\u002B1_001_02a"
+  },
+  "picks_tundra_tree_4": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_tree_tybirch\u002B1_001_04",
+    "breakModel": "P_itree_tybirch\u002B1_001_04c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_4",
+    "maxHp": 80,
+    "modelId": "P_itree_tybirch\u002B1_001_04a",
+    "normalModel": "P_itree_tybirch\u002B1_001_04a"
+  },
+  "picks_tundra_tree_5": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_tree_tybirch\u002B1_001_05",
+    "breakModel": "P_itree_tybirch\u002B1_001_04c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_5",
+    "maxHp": 80,
+    "modelId": "P_itree_tybirch\u002B1_001_05a",
+    "normalModel": "P_itree_tybirch\u002B1_001_05a"
+  },
+  "picks_tundra_tree_6": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_itree_pine\u002B1_003_02a",
+    "breakModel": "P_itree_pine\u002B1_003_02c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_6",
+    "maxHp": 80,
+    "modelId": "P_itree_pine\u002B1_003_02a",
+    "normalModel": "P_itree_pine\u002B1_003_02a"
+  },
+  "picks_tundra_tree_7": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_itree_pine\u002B1_003_03a",
+    "breakModel": "P_itree_pine\u002B1_003_03c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_7",
+    "maxHp": 80,
+    "modelId": "P_itree_pine\u002B1_003_03a",
+    "normalModel": "P_itree_pine\u002B1_003_03a"
+  },
+  "picks_tundra_tree_8": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_itree_tybirch\u002B1_001_06a",
+    "breakModel": "P_itree_tybirch\u002B1_001_06c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_8",
+    "maxHp": 80,
+    "modelId": "P_itree_tybirch\u002B1_001_06a",
+    "normalModel": "P_itree_tybirch\u002B1_001_06a"
+  },
+  "picks_tundra_tree_9": {
+    "breakCount": 1,
+    "breakEffect": "P_interactive_itree_pine\u002B2_003_01a",
+    "breakModel": "P_itree_pine\u002B1_003_01c",
+    "breakedDropRewardId": "reward_doodad_tree_1",
+    "breakingDropRewardId": "reward_doodad_tree_1",
+    "id": "picks_tundra_tree_9",
+    "maxHp": 80,
+    "modelId": "P_itree_pine\u002B2_003_01a",
+    "normalModel": "P_itree_pine\u002B2_003_01a"
+  }
+}

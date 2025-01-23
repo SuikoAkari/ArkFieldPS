@@ -92,30 +92,7 @@ namespace EndFieldPS.Packets.Sc
 
                     Panels =
                     {
-                        new ScdFactorySyncScenePanel()
-                        {
-                            Index=0,
-                            Level=1,
-                            
-                        },
-                        new ScdFactorySyncScenePanel()
-                        {
-                            Index=1,
-                            Level=1,
 
-                        },
-                        new ScdFactorySyncScenePanel()
-                        {
-                            Index=2,
-                            Level=1,
-
-                        },
-                        new ScdFactorySyncScenePanel()
-                        {
-                            Index=3,
-                            Level=1,
-
-                        }
                     }
                 };
                 foreach (var item in domainDataTable[chapterId].settlementGroup)

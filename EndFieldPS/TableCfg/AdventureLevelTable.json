@@ -1,0 +1,492 @@
+{
+  "1": {
+    "level": 1,
+    "levelUpExp": 0,
+    "nextLevelUpExp": 220,
+    "raiseMaxStamina": 0,
+    "rewardId": ""
+  },
+  "2": {
+    "level": 2,
+    "levelUpExp": 220,
+    "nextLevelUpExp": 490,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_2"
+  },
+  "3": {
+    "level": 3,
+    "levelUpExp": 490,
+    "nextLevelUpExp": 810,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_3"
+  },
+  "4": {
+    "level": 4,
+    "levelUpExp": 810,
+    "nextLevelUpExp": 1180,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_4"
+  },
+  "5": {
+    "level": 5,
+    "levelUpExp": 1180,
+    "nextLevelUpExp": 1600,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_5"
+  },
+  "6": {
+    "level": 6,
+    "levelUpExp": 1600,
+    "nextLevelUpExp": 2070,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_6"
+  },
+  "7": {
+    "level": 7,
+    "levelUpExp": 2070,
+    "nextLevelUpExp": 2590,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_7"
+  },
+  "8": {
+    "level": 8,
+    "levelUpExp": 2590,
+    "nextLevelUpExp": 3150,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_8"
+  },
+  "9": {
+    "level": 9,
+    "levelUpExp": 3150,
+    "nextLevelUpExp": 3760,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_9"
+  },
+  "10": {
+    "level": 10,
+    "levelUpExp": 3760,
+    "nextLevelUpExp": 4410,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_10"
+  },
+  "11": {
+    "level": 11,
+    "levelUpExp": 4410,
+    "nextLevelUpExp": 5100,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_11"
+  },
+  "12": {
+    "level": 12,
+    "levelUpExp": 5100,
+    "nextLevelUpExp": 5830,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_12"
+  },
+  "13": {
+    "level": 13,
+    "levelUpExp": 5830,
+    "nextLevelUpExp": 6600,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_13"
+  },
+  "14": {
+    "level": 14,
+    "levelUpExp": 6600,
+    "nextLevelUpExp": 7400,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_14"
+  },
+  "15": {
+    "level": 15,
+    "levelUpExp": 7400,
+    "nextLevelUpExp": 8240,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_15"
+  },
+  "16": {
+    "level": 16,
+    "levelUpExp": 8240,
+    "nextLevelUpExp": 9110,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_16"
+  },
+  "17": {
+    "level": 17,
+    "levelUpExp": 9110,
+    "nextLevelUpExp": 10010,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_17"
+  },
+  "18": {
+    "level": 18,
+    "levelUpExp": 10010,
+    "nextLevelUpExp": 10940,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_18"
+  },
+  "19": {
+    "level": 19,
+    "levelUpExp": 10940,
+    "nextLevelUpExp": 11900,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_19"
+  },
+  "20": {
+    "level": 20,
+    "levelUpExp": 11900,
+    "nextLevelUpExp": 12890,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_20"
+  },
+  "21": {
+    "level": 21,
+    "levelUpExp": 12890,
+    "nextLevelUpExp": 13890,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_21"
+  },
+  "22": {
+    "level": 22,
+    "levelUpExp": 13890,
+    "nextLevelUpExp": 14890,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_22"
+  },
+  "23": {
+    "level": 23,
+    "levelUpExp": 14890,
+    "nextLevelUpExp": 15900,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_23"
+  },
+  "24": {
+    "level": 24,
+    "levelUpExp": 15900,
+    "nextLevelUpExp": 16920,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_24"
+  },
+  "25": {
+    "level": 25,
+    "levelUpExp": 16920,
+    "nextLevelUpExp": 17940,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_25"
+  },
+  "26": {
+    "level": 26,
+    "levelUpExp": 17940,
+    "nextLevelUpExp": 18970,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_26"
+  },
+  "27": {
+    "level": 27,
+    "levelUpExp": 18970,
+    "nextLevelUpExp": 20010,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_27"
+  },
+  "28": {
+    "level": 28,
+    "levelUpExp": 20010,
+    "nextLevelUpExp": 21050,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_28"
+  },
+  "29": {
+    "level": 29,
+    "levelUpExp": 21050,
+    "nextLevelUpExp": 22100,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_29"
+  },
+  "30": {
+    "level": 30,
+    "levelUpExp": 22100,
+    "nextLevelUpExp": 23160,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_30"
+  },
+  "31": {
+    "level": 31,
+    "levelUpExp": 23160,
+    "nextLevelUpExp": 24230,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_31"
+  },
+  "32": {
+    "level": 32,
+    "levelUpExp": 24230,
+    "nextLevelUpExp": 25300,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_32"
+  },
+  "33": {
+    "level": 33,
+    "levelUpExp": 25300,
+    "nextLevelUpExp": 26380,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_33"
+  },
+  "34": {
+    "level": 34,
+    "levelUpExp": 26380,
+    "nextLevelUpExp": 27470,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_34"
+  },
+  "35": {
+    "level": 35,
+    "levelUpExp": 27470,
+    "nextLevelUpExp": 28560,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_35"
+  },
+  "36": {
+    "level": 36,
+    "levelUpExp": 28560,
+    "nextLevelUpExp": 29660,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_36"
+  },
+  "37": {
+    "level": 37,
+    "levelUpExp": 29660,
+    "nextLevelUpExp": 30770,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_37"
+  },
+  "38": {
+    "level": 38,
+    "levelUpExp": 30770,
+    "nextLevelUpExp": 31880,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_38"
+  },
+  "39": {
+    "level": 39,
+    "levelUpExp": 31880,
+    "nextLevelUpExp": 33000,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_39"
+  },
+  "40": {
+    "level": 40,
+    "levelUpExp": 33000,
+    "nextLevelUpExp": 34130,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_40"
+  },
+  "41": {
+    "level": 41,
+    "levelUpExp": 34130,
+    "nextLevelUpExp": 35260,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_41"
+  },
+  "42": {
+    "level": 42,
+    "levelUpExp": 35260,
+    "nextLevelUpExp": 36400,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_42"
+  },
+  "43": {
+    "level": 43,
+    "levelUpExp": 36400,
+    "nextLevelUpExp": 37550,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_43"
+  },
+  "44": {
+    "level": 44,
+    "levelUpExp": 37550,
+    "nextLevelUpExp": 38710,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_44"
+  },
+  "45": {
+    "level": 45,
+    "levelUpExp": 38710,
+    "nextLevelUpExp": 39880,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_45"
+  },
+  "46": {
+    "level": 46,
+    "levelUpExp": 39880,
+    "nextLevelUpExp": 41060,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_46"
+  },
+  "47": {
+    "level": 47,
+    "levelUpExp": 41060,
+    "nextLevelUpExp": 42250,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_47"
+  },
+  "48": {
+    "level": 48,
+    "levelUpExp": 42250,
+    "nextLevelUpExp": 43450,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_48"
+  },
+  "49": {
+    "level": 49,
+    "levelUpExp": 43450,
+    "nextLevelUpExp": 44660,
+    "raiseMaxStamina": 5,
+    "rewardId": "reward_adventure_levelup_49"
+  },
+  "50": {
+    "level": 50,
+    "levelUpExp": 44660,
+    "nextLevelUpExp": 45880,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_50"
+  },
+  "51": {
+    "level": 51,
+    "levelUpExp": 45880,
+    "nextLevelUpExp": 47110,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_51"
+  },
+  "52": {
+    "level": 52,
+    "levelUpExp": 47110,
+    "nextLevelUpExp": 48350,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_52"
+  },
+  "53": {
+    "level": 53,
+    "levelUpExp": 48350,
+    "nextLevelUpExp": 49600,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_53"
+  },
+  "54": {
+    "level": 54,
+    "levelUpExp": 49600,
+    "nextLevelUpExp": 50860,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_54"
+  },
+  "55": {
+    "level": 55,
+    "levelUpExp": 50860,
+    "nextLevelUpExp": 52130,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_55"
+  },
+  "56": {
+    "level": 56,
+    "levelUpExp": 52130,
+    "nextLevelUpExp": 53410,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_56"
+  },
+  "57": {
+    "level": 57,
+    "levelUpExp": 53410,
+    "nextLevelUpExp": 54700,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_57"
+  },
+  "58": {
+    "level": 58,
+    "levelUpExp": 54700,
+    "nextLevelUpExp": 56010,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_58"
+  },
+  "59": {
+    "level": 59,
+    "levelUpExp": 56010,
+    "nextLevelUpExp": 57330,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_59"
+  },
+  "60": {
+    "level": 60,
+    "levelUpExp": 57330,
+    "nextLevelUpExp": 58660,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_60"
+  },
+  "61": {
+    "level": 61,
+    "levelUpExp": 58660,
+    "nextLevelUpExp": 60010,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_61"
+  },
+  "62": {
+    "level": 62,
+    "levelUpExp": 60010,
+    "nextLevelUpExp": 61370,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_62"
+  },
+  "63": {
+    "level": 63,
+    "levelUpExp": 61370,
+    "nextLevelUpExp": 62750,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_63"
+  },
+  "64": {
+    "level": 64,
+    "levelUpExp": 62750,
+    "nextLevelUpExp": 64140,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_64"
+  },
+  "65": {
+    "level": 65,
+    "levelUpExp": 64140,
+    "nextLevelUpExp": 65540,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_65"
+  },
+  "66": {
+    "level": 66,
+    "levelUpExp": 65540,
+    "nextLevelUpExp": 66960,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_66"
+  },
+  "67": {
+    "level": 67,
+    "levelUpExp": 66960,
+    "nextLevelUpExp": 68390,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_67"
+  },
+  "68": {
+    "level": 68,
+    "levelUpExp": 68390,
+    "nextLevelUpExp": 69840,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_68"
+  },
+  "69": {
+    "level": 69,
+    "levelUpExp": 69840,
+    "nextLevelUpExp": 71300,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_69"
+  },
+  "70": {
+    "level": 70,
+    "levelUpExp": 71300,
+    "nextLevelUpExp": 0,
+    "raiseMaxStamina": 0,
+    "rewardId": "reward_adventure_levelup_70"
+  }
+}

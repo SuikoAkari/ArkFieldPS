@@ -1,0 +1,26 @@
+{
+  "document": {
+    "icon": "icon_entrance_pivot",
+    "name": {
+      "id": "8BCA7CCC44DC08EA",
+      "text": ""
+    },
+    "pageType": "document"
+  },
+  "multi_media": {
+    "icon": "icon_entrance_audio",
+    "name": {
+      "id": "9149D9741324C0E6",
+      "text": ""
+    },
+    "pageType": "multi_media"
+  },
+  "text": {
+    "icon": "icon_entrance_knowledge",
+    "name": {
+      "id": "74C3ED98082EB1E0",
+      "text": ""
+    },
+    "pageType": "text"
+  }
+}

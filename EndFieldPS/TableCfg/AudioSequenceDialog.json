@@ -1,0 +1,456 @@
+{
+  "1": {
+    "sequence": {
+      "-1842897305": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1713403366,
+          1413201148
+        ]
+      },
+      "-1813713939": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0006_wolfgd"
+        ],
+        "sequence": [
+          1707171920,
+          -1009327837
+        ]
+      },
+      "-1763533204": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0003_endminf"
+        ],
+        "sequence": [
+          -634179075,
+          772516833
+        ]
+      },
+      "-1254363012": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1223055443,
+          -1760234321
+        ]
+      },
+      "-1043173564": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          1727796517,
+          -1049211137
+        ]
+      },
+      "-1043173561": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0003_endminf",
+          "chr_0006_wolfgd"
+        ],
+        "sequence": [
+          -2018448355,
+          -1908324935
+        ]
+      },
+      "-724626264": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0003_endminf"
+        ],
+        "sequence": [
+          231720465,
+          342953531
+        ]
+      },
+      "-724626261": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0004_pelica",
+          "chr_0006_wolfgd"
+        ],
+        "sequence": [
+          19487825,
+          1387217877
+        ]
+      },
+      "35455268": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0003_endminf",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          1975831698,
+          675818499
+        ]
+      },
+      "318289288": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0004_pelica",
+          "chr_0003_endminf"
+        ],
+        "sequence": [
+          271760506,
+          1578370331
+        ]
+      },
+      "318289291": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0005_chen"
+        ],
+        "sequence": [
+          -1709469898,
+          624374469
+        ]
+      },
+      "684863602": {
+        "cdTime": 3600,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0003_endminf",
+          "chr_0006_wolfgd",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1232711565,
+          958970189,
+          206345025,
+          -1232711562,
+          958970186,
+          1458789471,
+          1458789470
+        ]
+      },
+      "802306937": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1989979628,
+          -1989979625,
+          1001924405,
+          1001924402,
+          1001924403
+        ]
+      },
+      "802306938": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0003_endminf",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          1580700994,
+          -2004714429,
+          -2004714430,
+          -2004714427
+        ]
+      },
+      "802306939": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1628059802,
+          -1628059803,
+          -1573793425
+        ]
+      },
+      "802306940": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0003_endminf",
+          "chr_0005_chen"
+        ],
+        "sequence": [
+          -315102556,
+          1277163854
+        ]
+      },
+      "802306941": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0003_endminf"
+        ],
+        "sequence": [
+          967083376,
+          967083379,
+          -1588576333
+        ]
+      },
+      "802306942": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0006_wolfgd"
+        ],
+        "sequence": [
+          961163415,
+          -1239634908
+        ]
+      },
+      "851092466": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -880722045,
+          1901376963
+        ]
+      }
+    }
+  },
+  "2": {
+    "sequence": {
+      "-1842897305": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1713403366,
+          1413201148
+        ]
+      },
+      "-1813713939": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0006_wolfgd"
+        ],
+        "sequence": [
+          1707171920,
+          -1009327837
+        ]
+      },
+      "-1763533204": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0002_endminm"
+        ],
+        "sequence": [
+          -634179075,
+          -2068198129
+        ]
+      },
+      "-1254363012": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1223055443,
+          -1760234321
+        ]
+      },
+      "-1043173564": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          1727796517,
+          -1049211137
+        ]
+      },
+      "-1043173561": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0002_endminm",
+          "chr_0006_wolfgd"
+        ],
+        "sequence": [
+          -1427947281,
+          -1908324935
+        ]
+      },
+      "-724626264": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0002_endminm"
+        ],
+        "sequence": [
+          231720465,
+          -506963231
+        ]
+      },
+      "-724626261": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0004_pelica",
+          "chr_0006_wolfgd"
+        ],
+        "sequence": [
+          19487825,
+          1387217877
+        ]
+      },
+      "35455268": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0002_endminm",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          783083828,
+          675818499
+        ]
+      },
+      "318289288": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0004_pelica",
+          "chr_0002_endminm"
+        ],
+        "sequence": [
+          271760506,
+          1047746749
+        ]
+      },
+      "318289291": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0005_chen"
+        ],
+        "sequence": [
+          -1709469898,
+          624374469
+        ]
+      },
+      "684863602": {
+        "cdTime": 3600,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0002_endminm",
+          "chr_0006_wolfgd",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1232711565,
+          -111291049,
+          206345025,
+          -1232711562,
+          -111291056,
+          1458789471,
+          1458789470
+        ]
+      },
+      "802306937": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1989979628,
+          -1989979625,
+          1001924405,
+          1001924402,
+          1001924403
+        ]
+      },
+      "802306938": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0002_endminm",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1192128964,
+          -2004714429,
+          -2004714430,
+          -2004714427
+        ]
+      },
+      "802306939": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -1628059802,
+          -1628059803,
+          -1573793425
+        ]
+      },
+      "802306940": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0002_endminm",
+          "chr_0005_chen"
+        ],
+        "sequence": [
+          1128132058,
+          1277163854
+        ]
+      },
+      "802306941": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0002_endminm"
+        ],
+        "sequence": [
+          967083376,
+          967083379,
+          480883101
+        ]
+      },
+      "802306942": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0005_chen",
+          "chr_0006_wolfgd"
+        ],
+        "sequence": [
+          961163415,
+          -1239634908
+        ]
+      },
+      "851092466": {
+        "cdTime": 1200,
+        "involvedSpeakers": [
+          "chr_0006_wolfgd",
+          "chr_0004_pelica"
+        ],
+        "sequence": [
+          -880722045,
+          1901376963
+        ]
+      }
+    }
+  }
+}

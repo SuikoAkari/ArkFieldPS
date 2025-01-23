@@ -1,0 +1,469 @@
+{
+  "race_start_buff_1": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "cooldown",
+            "value": 0.8,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_combo_skill_cd_down"
+      }
+    ],
+    "buffDesc": {
+      "id": "C7C43AA006C86238",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_1",
+    "name": {
+      "id": "8FF46243EB973929",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_1",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 0
+  },
+  "race_start_buff_10": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "poise_dmg_up",
+            "value": 0.25,
+            "valueStr": ""
+          },
+          {
+            "key": "power_atk_dmg_up",
+            "value": 0.5,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_poise_dmg_up_but_no_dash"
+      }
+    ],
+    "buffDesc": {
+      "id": "6F71E1394E688CC7",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_10",
+    "name": {
+      "id": "C299BCD0014D33B0",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_10",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 0
+  },
+  "race_start_buff_11": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "atb",
+            "value": 100,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_gain_atb_when_all_skills_cast"
+      }
+    ],
+    "buffDesc": {
+      "id": "7EA0DD6CB8F1D5B5",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_11",
+    "name": {
+      "id": "D08A51C3CA706537",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_11",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 0
+  },
+  "race_start_buff_12": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.3,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_stronger_items"
+      }
+    ],
+    "buffDesc": {
+      "id": "6CE5F1C797A1000C",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_12",
+    "name": {
+      "id": "1848F53E45A4FBFB",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_12",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 1
+  },
+  "race_start_buff_13": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "crit_value",
+            "value": 0.3,
+            "valueStr": ""
+          },
+          {
+            "key": "crit_dmg",
+            "value": 0.4,
+            "valueStr": ""
+          },
+          {
+            "key": "extra_crit_dmg",
+            "value": 0.4,
+            "valueStr": ""
+          },
+          {
+            "key": "duration",
+            "value": 10,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_crit_down_crit_dmg_up"
+      }
+    ],
+    "buffDesc": {
+      "id": "428BBA76EA8E110A",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_14",
+    "name": {
+      "id": "214A91B7DAFDC9C1",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_13",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 0
+  },
+  "race_start_buff_14": {
+    "buffBBDatas": [],
+    "buffDesc": {
+      "id": "193F505F928E8505",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_13",
+    "name": {
+      "id": "1DA53B21C49D7BC4",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_14",
+    "teamEffectBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "multiplier",
+            "value": 0.015,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_crit_dmg_up_on_kill"
+      }
+    ],
+    "unlockLevel": 1
+  },
+  "race_start_buff_2": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "heal",
+            "value": 0.06,
+            "valueStr": ""
+          },
+          {
+            "key": "threshold",
+            "value": 0.5,
+            "valueStr": ""
+          },
+          {
+            "key": "heal_display",
+            "value": 0.3,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_heal_when_low"
+      }
+    ],
+    "buffDesc": {
+      "id": "295715775181BCC8",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_2",
+    "name": {
+      "id": "7E398C50614FD71E",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_2",
+    "teamEffectBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 0.5,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_heal_after_room"
+      }
+    ],
+    "unlockLevel": 0
+  },
+  "race_start_buff_3": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "atb",
+            "value": 25,
+            "valueStr": ""
+          },
+          {
+            "key": "cd",
+            "value": 5,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_gain_atb_after_spell_fusion"
+      }
+    ],
+    "buffDesc": {
+      "id": "D323A4043793AB0F",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_3",
+    "name": {
+      "id": "5B90BD3130E34194",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_3",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 0
+  },
+  "race_start_buff_4": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "poise",
+            "value": 10,
+            "valueStr": ""
+          },
+          {
+            "key": "cd",
+            "value": 0.5,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_dash_atk_deal_poise_dmg"
+      }
+    ],
+    "buffDesc": {
+      "id": "829F832552C584F0",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_4",
+    "name": {
+      "id": "AFB7BE847FBB4F6A",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_4",
+    "teamEffectBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "charge_speed",
+            "value": 1,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_dash_count_up"
+      }
+    ],
+    "unlockLevel": 2
+  },
+  "race_start_buff_5": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_up",
+            "value": 0.3,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_risky_dmg_taken_up"
+      }
+    ],
+    "buffDesc": {
+      "id": "2B586C0DEF68DB63",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_5",
+    "name": {
+      "id": "0BBBA60E13C89BA8",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_5",
+    "teamEffectBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "atb_recover",
+            "value": -0.5,
+            "valueStr": ""
+          },
+          {
+            "key": "normal_atk_atb",
+            "value": 1.3,
+            "valueStr": ""
+          }
+        ],
+        "teamEffectPath": "Assets/Beyond/DynamicAssets/Gameplay/TeamEffect/Race/team_effect_race_risky_atb_thru_normal_atk"
+      }
+    ],
+    "unlockLevel": 2
+  },
+  "race_start_buff_6": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "usp",
+            "value": 0.3,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_usp_gain_up"
+      }
+    ],
+    "buffDesc": {
+      "id": "858D586B11C2B187",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_6",
+    "name": {
+      "id": "DCC2317B4A8E43CC",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_6",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 0
+  },
+  "race_start_buff_7": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_up",
+            "value": 1,
+            "valueStr": ""
+          },
+          {
+            "key": "crit",
+            "value": 0.5,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_normal_atk_dmg_up"
+      }
+    ],
+    "buffDesc": {
+      "id": "8056AA6FAC735D8A",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_7",
+    "name": {
+      "id": "61F243C6CFC19B33",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_7",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 0
+  },
+  "race_start_buff_8": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "distance",
+            "value": 40,
+            "valueStr": ""
+          },
+          {
+            "key": "dmg_up",
+            "value": 0.8,
+            "valueStr": ""
+          },
+          {
+            "key": "duration",
+            "value": 2,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_next_skill_dmg_up_on_distance_traversed"
+      }
+    ],
+    "buffDesc": {
+      "id": "B88DBE0DD110EBAC",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_8",
+    "name": {
+      "id": "E5E4CBCCB876D5CC",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_8",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 3
+  },
+  "race_start_buff_9": {
+    "buffBBDatas": [
+      {
+        "blackboard": [
+          {
+            "key": "cd",
+            "value": 25,
+            "valueStr": ""
+          },
+          {
+            "key": "atb",
+            "value": -300,
+            "valueStr": ""
+          },
+          {
+            "key": "cost_atb",
+            "value": 300,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_race_skills_cost_cd"
+      }
+    ],
+    "buffDesc": {
+      "id": "2B029262E3D99BD6",
+      "text": ""
+    },
+    "icon": "icon_racedg_unit_9",
+    "name": {
+      "id": "4817F0AC75C47C4A",
+      "text": ""
+    },
+    "tacticsId": "race_start_buff_9",
+    "teamEffectBBDatas": [],
+    "unlockLevel": 3
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "component_mc_1": {
+    "modeMap": [
+      {
+        "groupName": "group_component_normal",
+        "modeName": "normal"
+      }
+    ]
+  },
+  "filling_powder_mc_1": {
+    "modeMap": [
+      {
+        "groupName": "group_filling_normal",
+        "modeName": "normal"
+      },
+      {
+        "groupName": "group_filling_liquid",
+        "modeName": "liquid"
+      }
+    ]
+  },
+  "furnance_1": {
+    "modeMap": [
+      {
+        "groupName": "group_furnance_normal",
+        "modeName": "normal"
+      },
+      {
+        "groupName": "group_furnance_liquid",
+        "modeName": "liquid"
+      }
+    ]
+  },
+  "furnance_nop_1": {
+    "modeMap": [
+      {
+        "groupName": "group_furnance_normal",
+        "modeName": "normal"
+      }
+    ]
+  },
+  "grinder_1": {
+    "modeMap": [
+      {
+        "groupName": "group_grinder_normal",
+        "modeName": "normal"
+      }
+    ]
+  },
+  "mix_pool_1": {
+    "modeMap": [
+      {
+        "groupName": "group_mix_pool_1_liquid",
+        "modeName": "liquid"
+      }
+    ]
+  },
+  "planter_1": {
+    "modeMap": [
+      {
+        "groupName": "group_planter_normal",
+        "modeName": "normal"
+      },
+      {
+        "groupName": "group_planter_liquid",
+        "modeName": "liquid"
+      }
+    ]
+  },
+  "seedcollector_1": {
+    "modeMap": [
+      {
+        "groupName": "group_seedcollector_normal",
+        "modeName": "normal"
+      }
+    ]
+  },
+  "shaper_1": {
+    "modeMap": [
+      {
+        "groupName": "group_shaper_normal",
+        "modeName": "normal"
+      },
+      {
+        "groupName": "group_shaper_liquid",
+        "modeName": "liquid"
+      }
+    ]
+  },
+  "thickener_1": {
+    "modeMap": [
+      {
+        "groupName": "group_thickener_normal",
+        "modeName": "normal"
+      }
+    ]
+  },
+  "tools_assebling_mc_1": {
+    "modeMap": [
+      {
+        "groupName": "group_tools_normal",
+        "modeName": "normal"
+      }
+    ]
+  },
+  "winder_1": {
+    "modeMap": [
+      {
+        "groupName": "group_winder_normal",
+        "modeName": "normal"
+      }
+    ]
+  }
+}

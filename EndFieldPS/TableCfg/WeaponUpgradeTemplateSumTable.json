@@ -1,0 +1,8082 @@
+{
+  "weapon_upgrade_curve_3star_0.95": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_3star_1": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_3star_1.05": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_4star_0.9": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_4star_0.95": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_4star_1": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_4star_1.1": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_0.9": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_0.95": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_0.97": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_0.98": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_1": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_1.03": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_1.05": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_5star_1.1": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_0.9": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_0.95": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_1": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_1.1": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  },
+  "weapon_upgrade_curve_6star_1.2": {
+    "list": [
+      {
+        "lvUpExpSum": 0,
+        "lvUpGoldSum": 0,
+        "weaponLv": 1
+      },
+      {
+        "lvUpExpSum": 140,
+        "lvUpGoldSum": 0,
+        "weaponLv": 2
+      },
+      {
+        "lvUpExpSum": 320,
+        "lvUpGoldSum": 0,
+        "weaponLv": 3
+      },
+      {
+        "lvUpExpSum": 560,
+        "lvUpGoldSum": 0,
+        "weaponLv": 4
+      },
+      {
+        "lvUpExpSum": 870,
+        "lvUpGoldSum": 0,
+        "weaponLv": 5
+      },
+      {
+        "lvUpExpSum": 1270,
+        "lvUpGoldSum": 0,
+        "weaponLv": 6
+      },
+      {
+        "lvUpExpSum": 1760,
+        "lvUpGoldSum": 0,
+        "weaponLv": 7
+      },
+      {
+        "lvUpExpSum": 2360,
+        "lvUpGoldSum": 0,
+        "weaponLv": 8
+      },
+      {
+        "lvUpExpSum": 3100,
+        "lvUpGoldSum": 0,
+        "weaponLv": 9
+      },
+      {
+        "lvUpExpSum": 4000,
+        "lvUpGoldSum": 0,
+        "weaponLv": 10
+      },
+      {
+        "lvUpExpSum": 5080,
+        "lvUpGoldSum": 110,
+        "weaponLv": 11
+      },
+      {
+        "lvUpExpSum": 6410,
+        "lvUpGoldSum": 240,
+        "weaponLv": 12
+      },
+      {
+        "lvUpExpSum": 8030,
+        "lvUpGoldSum": 400,
+        "weaponLv": 13
+      },
+      {
+        "lvUpExpSum": 9970,
+        "lvUpGoldSum": 590,
+        "weaponLv": 14
+      },
+      {
+        "lvUpExpSum": 12250,
+        "lvUpGoldSum": 820,
+        "weaponLv": 15
+      },
+      {
+        "lvUpExpSum": 14890,
+        "lvUpGoldSum": 1080,
+        "weaponLv": 16
+      },
+      {
+        "lvUpExpSum": 18140,
+        "lvUpGoldSum": 1410,
+        "weaponLv": 17
+      },
+      {
+        "lvUpExpSum": 22110,
+        "lvUpGoldSum": 1810,
+        "weaponLv": 18
+      },
+      {
+        "lvUpExpSum": 26930,
+        "lvUpGoldSum": 2290,
+        "weaponLv": 19
+      },
+      {
+        "lvUpExpSum": 32720,
+        "lvUpGoldSum": 2870,
+        "weaponLv": 20
+      },
+      {
+        "lvUpExpSum": 39640,
+        "lvUpGoldSum": 3560,
+        "weaponLv": 21
+      },
+      {
+        "lvUpExpSum": 47580,
+        "lvUpGoldSum": 4350,
+        "weaponLv": 22
+      },
+      {
+        "lvUpExpSum": 56450,
+        "lvUpGoldSum": 5240,
+        "weaponLv": 23
+      },
+      {
+        "lvUpExpSum": 66170,
+        "lvUpGoldSum": 6210,
+        "weaponLv": 24
+      },
+      {
+        "lvUpExpSum": 76670,
+        "lvUpGoldSum": 7260,
+        "weaponLv": 25
+      },
+      {
+        "lvUpExpSum": 87880,
+        "lvUpGoldSum": 8380,
+        "weaponLv": 26
+      },
+      {
+        "lvUpExpSum": 99960,
+        "lvUpGoldSum": 9590,
+        "weaponLv": 27
+      },
+      {
+        "lvUpExpSum": 112860,
+        "lvUpGoldSum": 10880,
+        "weaponLv": 28
+      },
+      {
+        "lvUpExpSum": 126540,
+        "lvUpGoldSum": 12250,
+        "weaponLv": 29
+      },
+      {
+        "lvUpExpSum": 140950,
+        "lvUpGoldSum": 13690,
+        "weaponLv": 30
+      },
+      {
+        "lvUpExpSum": 155920,
+        "lvUpGoldSum": 15190,
+        "weaponLv": 31
+      },
+      {
+        "lvUpExpSum": 171380,
+        "lvUpGoldSum": 16740,
+        "weaponLv": 32
+      },
+      {
+        "lvUpExpSum": 187280,
+        "lvUpGoldSum": 18330,
+        "weaponLv": 33
+      },
+      {
+        "lvUpExpSum": 203550,
+        "lvUpGoldSum": 19960,
+        "weaponLv": 34
+      },
+      {
+        "lvUpExpSum": 220130,
+        "lvUpGoldSum": 21620,
+        "weaponLv": 35
+      },
+      {
+        "lvUpExpSum": 237080,
+        "lvUpGoldSum": 23320,
+        "weaponLv": 36
+      },
+      {
+        "lvUpExpSum": 254510,
+        "lvUpGoldSum": 25060,
+        "weaponLv": 37
+      },
+      {
+        "lvUpExpSum": 272490,
+        "lvUpGoldSum": 26860,
+        "weaponLv": 38
+      },
+      {
+        "lvUpExpSum": 290820,
+        "lvUpGoldSum": 28690,
+        "weaponLv": 39
+      },
+      {
+        "lvUpExpSum": 309570,
+        "lvUpGoldSum": 30570,
+        "weaponLv": 40
+      },
+      {
+        "lvUpExpSum": 328810,
+        "lvUpGoldSum": 32490,
+        "weaponLv": 41
+      },
+      {
+        "lvUpExpSum": 348700,
+        "lvUpGoldSum": 34480,
+        "weaponLv": 42
+      },
+      {
+        "lvUpExpSum": 369110,
+        "lvUpGoldSum": 36520,
+        "weaponLv": 43
+      },
+      {
+        "lvUpExpSum": 390070,
+        "lvUpGoldSum": 38620,
+        "weaponLv": 44
+      },
+      {
+        "lvUpExpSum": 411590,
+        "lvUpGoldSum": 40770,
+        "weaponLv": 45
+      },
+      {
+        "lvUpExpSum": 433690,
+        "lvUpGoldSum": 42980,
+        "weaponLv": 46
+      },
+      {
+        "lvUpExpSum": 456150,
+        "lvUpGoldSum": 45230,
+        "weaponLv": 47
+      },
+      {
+        "lvUpExpSum": 478970,
+        "lvUpGoldSum": 47510,
+        "weaponLv": 48
+      },
+      {
+        "lvUpExpSum": 502170,
+        "lvUpGoldSum": 49830,
+        "weaponLv": 49
+      },
+      {
+        "lvUpExpSum": 525750,
+        "lvUpGoldSum": 52190,
+        "weaponLv": 50
+      },
+      {
+        "lvUpExpSum": 549730,
+        "lvUpGoldSum": 54590,
+        "weaponLv": 51
+      },
+      {
+        "lvUpExpSum": 574110,
+        "lvUpGoldSum": 57030,
+        "weaponLv": 52
+      },
+      {
+        "lvUpExpSum": 598910,
+        "lvUpGoldSum": 59510,
+        "weaponLv": 53
+      },
+      {
+        "lvUpExpSum": 624130,
+        "lvUpGoldSum": 62030,
+        "weaponLv": 54
+      },
+      {
+        "lvUpExpSum": 649790,
+        "lvUpGoldSum": 64600,
+        "weaponLv": 55
+      },
+      {
+        "lvUpExpSum": 675900,
+        "lvUpGoldSum": 67210,
+        "weaponLv": 56
+      },
+      {
+        "lvUpExpSum": 702470,
+        "lvUpGoldSum": 69870,
+        "weaponLv": 57
+      },
+      {
+        "lvUpExpSum": 729510,
+        "lvUpGoldSum": 72570,
+        "weaponLv": 58
+      },
+      {
+        "lvUpExpSum": 757040,
+        "lvUpGoldSum": 75320,
+        "weaponLv": 59
+      },
+      {
+        "lvUpExpSum": 785060,
+        "lvUpGoldSum": 78120,
+        "weaponLv": 60
+      },
+      {
+        "lvUpExpSum": 813590,
+        "lvUpGoldSum": 80970,
+        "weaponLv": 61
+      },
+      {
+        "lvUpExpSum": 842200,
+        "lvUpGoldSum": 83960,
+        "weaponLv": 62
+      },
+      {
+        "lvUpExpSum": 870920,
+        "lvUpGoldSum": 87100,
+        "weaponLv": 63
+      },
+      {
+        "lvUpExpSum": 899770,
+        "lvUpGoldSum": 90390,
+        "weaponLv": 64
+      },
+      {
+        "lvUpExpSum": 928770,
+        "lvUpGoldSum": 93850,
+        "weaponLv": 65
+      },
+      {
+        "lvUpExpSum": 957950,
+        "lvUpGoldSum": 97480,
+        "weaponLv": 66
+      },
+      {
+        "lvUpExpSum": 987330,
+        "lvUpGoldSum": 101290,
+        "weaponLv": 67
+      },
+      {
+        "lvUpExpSum": 1016940,
+        "lvUpGoldSum": 105290,
+        "weaponLv": 68
+      },
+      {
+        "lvUpExpSum": 1046800,
+        "lvUpGoldSum": 109500,
+        "weaponLv": 69
+      },
+      {
+        "lvUpExpSum": 1076930,
+        "lvUpGoldSum": 113920,
+        "weaponLv": 70
+      },
+      {
+        "lvUpExpSum": 1107350,
+        "lvUpGoldSum": 118570,
+        "weaponLv": 71
+      },
+      {
+        "lvUpExpSum": 1138460,
+        "lvUpGoldSum": 123530,
+        "weaponLv": 72
+      },
+      {
+        "lvUpExpSum": 1170250,
+        "lvUpGoldSum": 128800,
+        "weaponLv": 73
+      },
+      {
+        "lvUpExpSum": 1202710,
+        "lvUpGoldSum": 134400,
+        "weaponLv": 74
+      },
+      {
+        "lvUpExpSum": 1235810,
+        "lvUpGoldSum": 140350,
+        "weaponLv": 75
+      },
+      {
+        "lvUpExpSum": 1269530,
+        "lvUpGoldSum": 146660,
+        "weaponLv": 76
+      },
+      {
+        "lvUpExpSum": 1303850,
+        "lvUpGoldSum": 153340,
+        "weaponLv": 77
+      },
+      {
+        "lvUpExpSum": 1338750,
+        "lvUpGoldSum": 160410,
+        "weaponLv": 78
+      },
+      {
+        "lvUpExpSum": 1374210,
+        "lvUpGoldSum": 167890,
+        "weaponLv": 79
+      },
+      {
+        "lvUpExpSum": 1410200,
+        "lvUpGoldSum": 175790,
+        "weaponLv": 80
+      }
+    ]
+  }
+}

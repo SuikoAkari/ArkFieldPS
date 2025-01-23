@@ -1,0 +1,116 @@
+{
+  "0": {
+    "bg": "icon_sapceship_room_bg_control_center",
+    "color": "4fc0fd",
+    "desc": {
+      "id": "738C0078799AE851",
+      "text": ""
+    },
+    "extraDesc1": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sapceship_room_icon_control_console",
+    "maxLvOptName": {
+      "id": "FAE1263671981B60",
+      "text": ""
+    },
+    "name": {
+      "id": "39D8043D0C834785",
+      "text": ""
+    },
+    "newFormulaTitle": {
+      "id": "",
+      "text": ""
+    },
+    "previewProductItemIds": [],
+    "type": 0,
+    "upgradeOptName": {
+      "id": "DF24D77777FC71A0",
+      "text": ""
+    },
+    "viewOptName": {
+      "id": "EABC05B55073E714",
+      "text": ""
+    }
+  },
+  "1": {
+    "bg": "icon_sapceship_room_bg_manufacturing_station",
+    "color": "efe533",
+    "desc": {
+      "id": "F16F718F544904AF",
+      "text": ""
+    },
+    "extraDesc1": {
+      "id": "712CCC99F9DB7982",
+      "text": ""
+    },
+    "icon": "icon_sapceship_room_icon_manufacturing_station",
+    "maxLvOptName": {
+      "id": "F8820286AEC15050",
+      "text": ""
+    },
+    "name": {
+      "id": "AD5AEC7F525B2F03",
+      "text": ""
+    },
+    "newFormulaTitle": {
+      "id": "15BEC771C0D0BC76",
+      "text": ""
+    },
+    "previewProductItemIds": [
+      "item_expcard_stage1_low",
+      "item_expcard_stage1_mid",
+      "item_expcard_stage1_high",
+      "item_expcard_stage2_low"
+    ],
+    "type": 1,
+    "upgradeOptName": {
+      "id": "1706EA4E28A1638C",
+      "text": ""
+    },
+    "viewOptName": {
+      "id": "B0153AF23D8A8871",
+      "text": ""
+    }
+  },
+  "2": {
+    "bg": "icon_sapceship_room_bg_grow_cabin",
+    "color": "96b44d",
+    "desc": {
+      "id": "49313A7F2CEEB0EB",
+      "text": ""
+    },
+    "extraDesc1": {
+      "id": "",
+      "text": ""
+    },
+    "icon": "icon_sapceship_room_icon_grow_cabin",
+    "maxLvOptName": {
+      "id": "9DB97117EDE09916",
+      "text": ""
+    },
+    "name": {
+      "id": "F1A1112FF30CF899",
+      "text": ""
+    },
+    "newFormulaTitle": {
+      "id": "48DE5C5CEA53C4D1",
+      "text": ""
+    },
+    "previewProductItemIds": [
+      "item_plant_mushroom_1_1",
+      "item_plant_crylplant_1_1",
+      "item_plant_spcstone_1_1"
+    ],
+    "type": 2,
+    "upgradeOptName": {
+      "id": "8CBED2512268B2C5",
+      "text": ""
+    },
+    "viewOptName": {
+      "id": "A06F218DFB31ED39",
+      "text": ""
+    }
+  }
+}

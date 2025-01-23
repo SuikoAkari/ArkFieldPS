@@ -1,0 +1,266 @@
+{
+  "tips_adventure_1": {
+    "id": "E5DF8843CD5ABA1B",
+    "text": ""
+  },
+  "tips_adventure_2": {
+    "id": "C883DF5101579F93",
+    "text": ""
+  },
+  "tips_bat_1": {
+    "id": "E78767B940A91C83",
+    "text": ""
+  },
+  "tips_bat_10": {
+    "id": "4816CE9D59C48461",
+    "text": ""
+  },
+  "tips_bat_11": {
+    "id": "E5DD9F42C9ED752D",
+    "text": ""
+  },
+  "tips_bat_12": {
+    "id": "4454BBAAFEA0A613",
+    "text": ""
+  },
+  "tips_bat_2": {
+    "id": "FFE4B37D28A8483A",
+    "text": ""
+  },
+  "tips_bat_3": {
+    "id": "181111888CC74E75",
+    "text": ""
+  },
+  "tips_bat_4": {
+    "id": "AB1458E3B67BB830",
+    "text": ""
+  },
+  "tips_bat_5": {
+    "id": "49A2DE13F3294D70",
+    "text": ""
+  },
+  "tips_bat_6": {
+    "id": "9E90AE17335868C5",
+    "text": ""
+  },
+  "tips_bat_7": {
+    "id": "F82C50C0AA350895",
+    "text": ""
+  },
+  "tips_bat_8": {
+    "id": "816856834C1874FB",
+    "text": ""
+  },
+  "tips_bat_9": {
+    "id": "DE93D4EE7A496D26",
+    "text": ""
+  },
+  "tips_char_1": {
+    "id": "60C7740A54BE3A09",
+    "text": ""
+  },
+  "tips_char_2": {
+    "id": "DFDB84778E5DF8DB",
+    "text": ""
+  },
+  "tips_char_3": {
+    "id": "5712FFBEC024D92B",
+    "text": ""
+  },
+  "tips_char_4": {
+    "id": "82053E36009EA614",
+    "text": ""
+  },
+  "tips_char_5": {
+    "id": "74AFC83DF387DF1C",
+    "text": ""
+  },
+  "tips_doo_1": {
+    "id": "D25DB16E3A52DC1C",
+    "text": ""
+  },
+  "tips_doo_2": {
+    "id": "075346F05F57DE3D",
+    "text": ""
+  },
+  "tips_doo_3": {
+    "id": "DE514D849EE7A035",
+    "text": ""
+  },
+  "tips_doo_4": {
+    "id": "A8955D95CB46030A",
+    "text": ""
+  },
+  "tips_doo_5": {
+    "id": "1BB604EB28FF58C7",
+    "text": ""
+  },
+  "tips_doo_6": {
+    "id": "115107142559728E",
+    "text": ""
+  },
+  "tips_doo_7": {
+    "id": "37F8D27A31228A77",
+    "text": ""
+  },
+  "tips_equip_1": {
+    "id": "689813DAD8543F08",
+    "text": ""
+  },
+  "tips_equip_2": {
+    "id": "9CA300F9EAE63389",
+    "text": ""
+  },
+  "tips_equip_3": {
+    "id": "70CC6EBD7758A935",
+    "text": ""
+  },
+  "tips_fac_1": {
+    "id": "53758013BFC7E675",
+    "text": ""
+  },
+  "tips_fac_2": {
+    "id": "602F308E8F963202",
+    "text": ""
+  },
+  "tips_fac_3": {
+    "id": "F193AB9F8B4420BB",
+    "text": ""
+  },
+  "tips_fac_4": {
+    "id": "574B02566AFF69D3",
+    "text": ""
+  },
+  "tips_fac_5": {
+    "id": "7C01BF995A0AE2A0",
+    "text": ""
+  },
+  "tips_fac_6": {
+    "id": "6F7A499B92E33B09",
+    "text": ""
+  },
+  "tips_map_1": {
+    "id": "335EBD8AA68BB049",
+    "text": ""
+  },
+  "tips_map_2": {
+    "id": "342EAAFBB6FE2D08",
+    "text": ""
+  },
+  "tips_map_3": {
+    "id": "F0A52CEDAE0ED628",
+    "text": ""
+  },
+  "tips_nar_1": {
+    "id": "B3A7C72A908B1DC2",
+    "text": ""
+  },
+  "tips_nar_10": {
+    "id": "5FC13D48C60CD0EF",
+    "text": ""
+  },
+  "tips_nar_11": {
+    "id": "4B5DA9D764B3DB72",
+    "text": ""
+  },
+  "tips_nar_12": {
+    "id": "5925A10723CD6AB2",
+    "text": ""
+  },
+  "tips_nar_13": {
+    "id": "C5001EA6E96914B1",
+    "text": ""
+  },
+  "tips_nar_14": {
+    "id": "4C4742124B1210A0",
+    "text": ""
+  },
+  "tips_nar_15": {
+    "id": "117999C0A3676DD0",
+    "text": ""
+  },
+  "tips_nar_2": {
+    "id": "3DC3CF67FE63E8BF",
+    "text": ""
+  },
+  "tips_nar_3": {
+    "id": "7DA08399E3E1E4F6",
+    "text": ""
+  },
+  "tips_nar_4": {
+    "id": "F8C03F4364C0E4A8",
+    "text": ""
+  },
+  "tips_nar_5": {
+    "id": "FCB397CDECF4C7E4",
+    "text": ""
+  },
+  "tips_nar_6": {
+    "id": "0AA255EC4A2DB464",
+    "text": ""
+  },
+  "tips_nar_7": {
+    "id": "A305D0F231C4D312",
+    "text": ""
+  },
+  "tips_nar_8": {
+    "id": "4CECBDCCB051E192",
+    "text": ""
+  },
+  "tips_nar_9": {
+    "id": "E39882140CD6664F",
+    "text": ""
+  },
+  "tips_sps_1": {
+    "id": "AB6701E42D73EDE6",
+    "text": ""
+  },
+  "tips_sps_2": {
+    "id": "5B6C6917ECA5CF45",
+    "text": ""
+  },
+  "tips_sps_3": {
+    "id": "96D68F5C3847C6EB",
+    "text": ""
+  },
+  "tips_sps_4": {
+    "id": "3FFC694658AB5221",
+    "text": ""
+  },
+  "tips_sps_5": {
+    "id": "2A0843649EF54ACA",
+    "text": ""
+  },
+  "tips_stm_1": {
+    "id": "43BA544D25A8F7C4",
+    "text": ""
+  },
+  "tips_stm_2": {
+    "id": "FED4E7829F8A4B3D",
+    "text": ""
+  },
+  "tips_stm_3": {
+    "id": "5ADD115DD2B28DB6",
+    "text": ""
+  },
+  "tips_weapon_1": {
+    "id": "E1BC468EDE1F41D9",
+    "text": ""
+  },
+  "tips_weapon_2": {
+    "id": "A2C1D816B2D02C0F",
+    "text": ""
+  },
+  "tips_weapon_3": {
+    "id": "16406B7658C10A77",
+    "text": ""
+  },
+  "tips_weapon_4": {
+    "id": "F6813E317983607F",
+    "text": ""
+  },
+  "tips_weapon_5": {
+    "id": "2EA1430DAC3CFB9D",
+    "text": ""
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "1": {
+    "enemyLv": 1,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 2,
+    "squadSkillLvSum": 8,
+    "squadWeaponLvSum": 2
+  },
+  "2": {
+    "enemyLv": 2,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 4,
+    "squadSkillLvSum": 8,
+    "squadWeaponLvSum": 4
+  },
+  "3": {
+    "enemyLv": 3,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 6,
+    "squadSkillLvSum": 8,
+    "squadWeaponLvSum": 6
+  },
+  "4": {
+    "enemyLv": 4,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 8,
+    "squadSkillLvSum": 8,
+    "squadWeaponLvSum": 8
+  },
+  "5": {
+    "enemyLv": 5,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 10,
+    "squadSkillLvSum": 8,
+    "squadWeaponLvSum": 10
+  },
+  "6": {
+    "enemyLv": 6,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 12,
+    "squadSkillLvSum": 8,
+    "squadWeaponLvSum": 12
+  },
+  "7": {
+    "enemyLv": 7,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 21,
+    "squadSkillLvSum": 12,
+    "squadWeaponLvSum": 21
+  },
+  "8": {
+    "enemyLv": 8,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 24,
+    "squadSkillLvSum": 12,
+    "squadWeaponLvSum": 24
+  },
+  "9": {
+    "enemyLv": 9,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 27,
+    "squadSkillLvSum": 12,
+    "squadWeaponLvSum": 27
+  },
+  "10": {
+    "enemyLv": 10,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 30,
+    "squadSkillLvSum": 12,
+    "squadWeaponLvSum": 30
+  },
+  "11": {
+    "enemyLv": 11,
+    "squadEquipLvSum": 0,
+    "squadLvSum": 33,
+    "squadSkillLvSum": 12,
+    "squadWeaponLvSum": 33
+  },
+  "12": {
+    "enemyLv": 12,
+    "squadEquipLvSum": 80,
+    "squadLvSum": 48,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 48
+  },
+  "13": {
+    "enemyLv": 13,
+    "squadEquipLvSum": 80,
+    "squadLvSum": 52,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 52
+  },
+  "14": {
+    "enemyLv": 14,
+    "squadEquipLvSum": 80,
+    "squadLvSum": 56,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 56
+  },
+  "15": {
+    "enemyLv": 15,
+    "squadEquipLvSum": 80,
+    "squadLvSum": 60,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 60
+  },
+  "16": {
+    "enemyLv": 16,
+    "squadEquipLvSum": 160,
+    "squadLvSum": 64,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 64
+  },
+  "17": {
+    "enemyLv": 17,
+    "squadEquipLvSum": 160,
+    "squadLvSum": 68,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 68
+  },
+  "18": {
+    "enemyLv": 18,
+    "squadEquipLvSum": 160,
+    "squadLvSum": 72,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 72
+  },
+  "19": {
+    "enemyLv": 19,
+    "squadEquipLvSum": 160,
+    "squadLvSum": 76,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 76
+  },
+  "20": {
+    "enemyLv": 20,
+    "squadEquipLvSum": 160,
+    "squadLvSum": 80,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 80
+  },
+  "21": {
+    "enemyLv": 21,
+    "squadEquipLvSum": 384,
+    "squadLvSum": 84,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 84
+  },
+  "22": {
+    "enemyLv": 22,
+    "squadEquipLvSum": 384,
+    "squadLvSum": 88,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 88
+  },
+  "23": {
+    "enemyLv": 23,
+    "squadEquipLvSum": 384,
+    "squadLvSum": 92,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 92
+  },
+  "24": {
+    "enemyLv": 24,
+    "squadEquipLvSum": 384,
+    "squadLvSum": 96,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 96
+  },
+  "25": {
+    "enemyLv": 25,
+    "squadEquipLvSum": 384,
+    "squadLvSum": 100,
+    "squadSkillLvSum": 16,
+    "squadWeaponLvSum": 100
+  },
+  "26": {
+    "enemyLv": 26,
+    "squadEquipLvSum": 448,
+    "squadLvSum": 104,
+    "squadSkillLvSum": 32,
+    "squadWeaponLvSum": 104
+  },
+  "27": {
+    "enemyLv": 27,
+    "squadEquipLvSum": 448,
+    "squadLvSum": 108,
+    "squadSkillLvSum": 32,
+    "squadWeaponLvSum": 108
+  },
+  "28": {
+    "enemyLv": 28,
+    "squadEquipLvSum": 448,
+    "squadLvSum": 112,
+    "squadSkillLvSum": 32,
+    "squadWeaponLvSum": 112
+  },
+  "29": {
+    "enemyLv": 29,
+    "squadEquipLvSum": 448,
+    "squadLvSum": 116,
+    "squadSkillLvSum": 32,
+    "squadWeaponLvSum": 116
+  },
+  "30": {
+    "enemyLv": 30,
+    "squadEquipLvSum": 448,
+    "squadLvSum": 120,
+    "squadSkillLvSum": 32,
+    "squadWeaponLvSum": 120
+  },
+  "31": {
+    "enemyLv": 31,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 124,
+    "squadSkillLvSum": 32,
+    "squadWeaponLvSum": 124
+  },
+  "32": {
+    "enemyLv": 32,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 128,
+    "squadSkillLvSum": 32,
+    "squadWeaponLvSum": 128
+  },
+  "33": {
+    "enemyLv": 33,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 132,
+    "squadSkillLvSum": 48,
+    "squadWeaponLvSum": 132
+  },
+  "34": {
+    "enemyLv": 34,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 136,
+    "squadSkillLvSum": 48,
+    "squadWeaponLvSum": 136
+  },
+  "35": {
+    "enemyLv": 35,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 140,
+    "squadSkillLvSum": 48,
+    "squadWeaponLvSum": 140
+  },
+  "36": {
+    "enemyLv": 36,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 144,
+    "squadSkillLvSum": 48,
+    "squadWeaponLvSum": 144
+  },
+  "37": {
+    "enemyLv": 37,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 148,
+    "squadSkillLvSum": 48,
+    "squadWeaponLvSum": 148
+  },
+  "38": {
+    "enemyLv": 38,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 152,
+    "squadSkillLvSum": 48,
+    "squadWeaponLvSum": 152
+  },
+  "39": {
+    "enemyLv": 39,
+    "squadEquipLvSum": 576,
+    "squadLvSum": 156,
+    "squadSkillLvSum": 48,
+    "squadWeaponLvSum": 156
+  },
+  "40": {
+    "enemyLv": 40,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 160,
+    "squadSkillLvSum": 64,
+    "squadWeaponLvSum": 160
+  },
+  "41": {
+    "enemyLv": 41,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 164,
+    "squadSkillLvSum": 64,
+    "squadWeaponLvSum": 164
+  },
+  "42": {
+    "enemyLv": 42,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 168,
+    "squadSkillLvSum": 64,
+    "squadWeaponLvSum": 168
+  },
+  "43": {
+    "enemyLv": 43,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 172,
+    "squadSkillLvSum": 64,
+    "squadWeaponLvSum": 172
+  },
+  "44": {
+    "enemyLv": 44,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 176,
+    "squadSkillLvSum": 64,
+    "squadWeaponLvSum": 176
+  },
+  "45": {
+    "enemyLv": 45,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 180,
+    "squadSkillLvSum": 64,
+    "squadWeaponLvSum": 180
+  },
+  "46": {
+    "enemyLv": 46,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 184,
+    "squadSkillLvSum": 64,
+    "squadWeaponLvSum": 184
+  },
+  "47": {
+    "enemyLv": 47,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 188,
+    "squadSkillLvSum": 80,
+    "squadWeaponLvSum": 188
+  },
+  "48": {
+    "enemyLv": 48,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 192,
+    "squadSkillLvSum": 80,
+    "squadWeaponLvSum": 192
+  },
+  "49": {
+    "enemyLv": 49,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 196,
+    "squadSkillLvSum": 80,
+    "squadWeaponLvSum": 196
+  },
+  "50": {
+    "enemyLv": 50,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 200,
+    "squadSkillLvSum": 80,
+    "squadWeaponLvSum": 200
+  },
+  "51": {
+    "enemyLv": 51,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 204,
+    "squadSkillLvSum": 80,
+    "squadWeaponLvSum": 204
+  },
+  "52": {
+    "enemyLv": 52,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 208,
+    "squadSkillLvSum": 80,
+    "squadWeaponLvSum": 208
+  },
+  "53": {
+    "enemyLv": 53,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 212,
+    "squadSkillLvSum": 80,
+    "squadWeaponLvSum": 212
+  },
+  "54": {
+    "enemyLv": 54,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 216,
+    "squadSkillLvSum": 96,
+    "squadWeaponLvSum": 216
+  },
+  "55": {
+    "enemyLv": 55,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 220,
+    "squadSkillLvSum": 96,
+    "squadWeaponLvSum": 220
+  },
+  "56": {
+    "enemyLv": 56,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 224,
+    "squadSkillLvSum": 96,
+    "squadWeaponLvSum": 224
+  },
+  "57": {
+    "enemyLv": 57,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 228,
+    "squadSkillLvSum": 96,
+    "squadWeaponLvSum": 228
+  },
+  "58": {
+    "enemyLv": 58,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 232,
+    "squadSkillLvSum": 96,
+    "squadWeaponLvSum": 232
+  },
+  "59": {
+    "enemyLv": 59,
+    "squadEquipLvSum": 800,
+    "squadLvSum": 236,
+    "squadSkillLvSum": 96,
+    "squadWeaponLvSum": 236
+  },
+  "60": {
+    "enemyLv": 60,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 240,
+    "squadSkillLvSum": 96,
+    "squadWeaponLvSum": 240
+  },
+  "61": {
+    "enemyLv": 61,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 244,
+    "squadSkillLvSum": 112,
+    "squadWeaponLvSum": 244
+  },
+  "62": {
+    "enemyLv": 62,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 248,
+    "squadSkillLvSum": 112,
+    "squadWeaponLvSum": 248
+  },
+  "63": {
+    "enemyLv": 63,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 252,
+    "squadSkillLvSum": 112,
+    "squadWeaponLvSum": 252
+  },
+  "64": {
+    "enemyLv": 64,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 256,
+    "squadSkillLvSum": 112,
+    "squadWeaponLvSum": 256
+  },
+  "65": {
+    "enemyLv": 65,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 260,
+    "squadSkillLvSum": 112,
+    "squadWeaponLvSum": 260
+  },
+  "66": {
+    "enemyLv": 66,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 264,
+    "squadSkillLvSum": 112,
+    "squadWeaponLvSum": 264
+  },
+  "67": {
+    "enemyLv": 67,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 268,
+    "squadSkillLvSum": 112,
+    "squadWeaponLvSum": 268
+  },
+  "68": {
+    "enemyLv": 68,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 272,
+    "squadSkillLvSum": 128,
+    "squadWeaponLvSum": 272
+  },
+  "69": {
+    "enemyLv": 69,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 276,
+    "squadSkillLvSum": 128,
+    "squadWeaponLvSum": 276
+  },
+  "70": {
+    "enemyLv": 70,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 280,
+    "squadSkillLvSum": 128,
+    "squadWeaponLvSum": 280
+  },
+  "71": {
+    "enemyLv": 71,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 284,
+    "squadSkillLvSum": 128,
+    "squadWeaponLvSum": 284
+  },
+  "72": {
+    "enemyLv": 72,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 288,
+    "squadSkillLvSum": 128,
+    "squadWeaponLvSum": 288
+  },
+  "73": {
+    "enemyLv": 73,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 292,
+    "squadSkillLvSum": 128,
+    "squadWeaponLvSum": 292
+  },
+  "74": {
+    "enemyLv": 74,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 296,
+    "squadSkillLvSum": 128,
+    "squadWeaponLvSum": 296
+  },
+  "75": {
+    "enemyLv": 75,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 300,
+    "squadSkillLvSum": 144,
+    "squadWeaponLvSum": 300
+  },
+  "76": {
+    "enemyLv": 76,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 304,
+    "squadSkillLvSum": 144,
+    "squadWeaponLvSum": 304
+  },
+  "77": {
+    "enemyLv": 77,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 308,
+    "squadSkillLvSum": 144,
+    "squadWeaponLvSum": 308
+  },
+  "78": {
+    "enemyLv": 78,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 312,
+    "squadSkillLvSum": 144,
+    "squadWeaponLvSum": 312
+  },
+  "79": {
+    "enemyLv": 79,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 316,
+    "squadSkillLvSum": 144,
+    "squadWeaponLvSum": 316
+  },
+  "80": {
+    "enemyLv": 80,
+    "squadEquipLvSum": 1120,
+    "squadLvSum": 320,
+    "squadSkillLvSum": 144,
+    "squadWeaponLvSum": 320
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "charBreak20": {
+    "breakStage": 1,
+    "equipTierLimit": 2,
+    "nodeId": "charBreak20",
+    "talentNodeType": 1
+  },
+  "charBreak40": {
+    "breakStage": 2,
+    "equipTierLimit": 3,
+    "nodeId": "charBreak40",
+    "talentNodeType": 1
+  },
+  "charBreak60": {
+    "breakStage": 3,
+    "equipTierLimit": 4,
+    "nodeId": "charBreak60",
+    "talentNodeType": 1
+  },
+  "charBreak70": {
+    "breakStage": 4,
+    "equipTierLimit": 5,
+    "nodeId": "charBreak70",
+    "talentNodeType": 1
+  },
+  "equipBreakBlue": {
+    "breakStage": 2,
+    "equipTierLimit": 4,
+    "nodeId": "equipBreakBlue",
+    "talentNodeType": 2
+  },
+  "equipBreakGreen": {
+    "breakStage": 1,
+    "equipTierLimit": 3,
+    "nodeId": "equipBreakGreen",
+    "talentNodeType": 2
+  },
+  "equipBreakPurple": {
+    "breakStage": 3,
+    "equipTierLimit": 5,
+    "nodeId": "equipBreakPurple",
+    "talentNodeType": 2
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "wpn_potential_3star": {
+    "list": [
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "talentLv": 1
+      },
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 2,
+            "upperBound": 1
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "talentLv": 2
+      },
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 3,
+            "upperBound": 1
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "talentLv": 3
+      },
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 4,
+            "upperBound": 2
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "talentLv": 4
+      },
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 5,
+            "upperBound": 2
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "talentLv": 5
+      }
+    ]
+  },
+  "wpn_potential_456star": {
+    "list": [
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 1,
+            "upperBound": 0
+          }
+        ],
+        "talentLv": 1
+      },
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 2,
+            "upperBound": 1
+          }
+        ],
+        "talentLv": 2
+      },
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 3,
+            "upperBound": 1
+          }
+        ],
+        "talentLv": 3
+      },
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 4,
+            "upperBound": 2
+          }
+        ],
+        "talentLv": 4
+      },
+      {
+        "skillLevelExtraBounds": [
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "lowerBound": 5,
+            "upperBound": 2
+          }
+        ],
+        "talentLv": 5
+      }
+    ]
+  }
+}

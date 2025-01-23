@@ -1,0 +1,27 @@
+{
+  "item_expcard_stage1_high": {
+    "list": [
+      "mfg_exp_1_3"
+    ]
+  },
+  "item_expcard_stage1_low": {
+    "list": [
+      "mfg_exp_1_1"
+    ]
+  },
+  "item_expcard_stage1_mid": {
+    "list": [
+      "mfg_exp_1_2"
+    ]
+  },
+  "item_expcard_stage2_high": {
+    "list": [
+      "mfg_exp_2_2"
+    ]
+  },
+  "item_expcard_stage2_low": {
+    "list": [
+      "mfg_exp_2_1"
+    ]
+  }
+}

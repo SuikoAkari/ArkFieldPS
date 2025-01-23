@@ -1,0 +1,444 @@
+{
+  "arrow_fc001_1": {
+    "activeMethod": 2,
+    "levelId": "map01_fc001",
+    "logicId": 0,
+    "markInfoId": "mark_arrow",
+    "markInsId": "arrow_fc001_1",
+    "pos": {
+      "x": 24.3,
+      "y": 1.72,
+      "z": -19.73
+    },
+    "visibleMethod": 2
+  },
+  "arrow_fc001_2": {
+    "activeMethod": 2,
+    "levelId": "map01_fc001",
+    "logicId": 0,
+    "markInfoId": "mark_arrow",
+    "markInsId": "arrow_fc001_2",
+    "pos": {
+      "x": 1.1,
+      "y": 9.8,
+      "z": 25.2
+    },
+    "visibleMethod": 2
+  },
+  "arrow_fc001_3": {
+    "activeMethod": 2,
+    "levelId": "map01_fc001",
+    "logicId": 0,
+    "markInfoId": "mark_arrow",
+    "markInsId": "arrow_fc001_3",
+    "pos": {
+      "x": 38.9,
+      "y": 11.68,
+      "z": 40.5
+    },
+    "visibleMethod": 2
+  },
+  "camp_map01_lv001_10282": {
+    "activeMethod": 2,
+    "levelId": "map01_lv001",
+    "logicId": 10282,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv001_10282",
+    "pos": {
+      "x": -183.3,
+      "y": 147.3,
+      "z": -43.8
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv001_284": {
+    "activeMethod": 2,
+    "levelId": "map01_lv001",
+    "logicId": 284,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv001_284",
+    "pos": {
+      "x": -60,
+      "y": 98.14,
+      "z": -384.2
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv001_31": {
+    "activeMethod": 2,
+    "levelId": "map01_lv001",
+    "logicId": 31,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv001_31",
+    "pos": {
+      "x": -298.8,
+      "y": 94.9,
+      "z": -442.7
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv001_322": {
+    "activeMethod": 2,
+    "levelId": "map01_lv001",
+    "logicId": 322,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv001_322",
+    "pos": {
+      "x": -205.35,
+      "y": 114.43,
+      "z": -322.4
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv001_73": {
+    "activeMethod": 2,
+    "levelId": "map01_lv001",
+    "logicId": 73,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv001_73",
+    "pos": {
+      "x": 58.36,
+      "y": 98.44,
+      "z": -388.92
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv001_86": {
+    "activeMethod": 2,
+    "levelId": "map01_lv001",
+    "logicId": 86,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv001_86",
+    "pos": {
+      "x": -213.08,
+      "y": 139,
+      "z": -92.6
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv001_93": {
+    "activeMethod": 2,
+    "levelId": "map01_lv001",
+    "logicId": 93,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv001_93",
+    "pos": {
+      "x": -435.3924,
+      "y": 92.75,
+      "z": -497.6
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv002_1237": {
+    "activeMethod": 2,
+    "levelId": "map01_lv002",
+    "logicId": 1237,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv002_1237",
+    "pos": {
+      "x": -669.49,
+      "y": 122.02518,
+      "z": -74.89
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv002_1239": {
+    "activeMethod": 2,
+    "levelId": "map01_lv002",
+    "logicId": 1239,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv002_1239",
+    "pos": {
+      "x": -794.39,
+      "y": 127.3333,
+      "z": 119.68
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv002_1240": {
+    "activeMethod": 2,
+    "levelId": "map01_lv002",
+    "logicId": 1240,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv002_1240",
+    "pos": {
+      "x": -841.39,
+      "y": 142.47307,
+      "z": 123.43
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv003_1865": {
+    "activeMethod": 2,
+    "levelId": "map01_lv003",
+    "logicId": 1865,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv003_1865",
+    "pos": {
+      "x": 236.87,
+      "y": 66.71,
+      "z": -576.28
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv003_1874": {
+    "activeMethod": 2,
+    "levelId": "map01_lv003",
+    "logicId": 1874,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv003_1874",
+    "pos": {
+      "x": 349.81,
+      "y": 27.137001,
+      "z": -688.19
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv005_20743": {
+    "activeMethod": 2,
+    "levelId": "map01_lv005",
+    "logicId": 20743,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv005_20743",
+    "pos": {
+      "x": 819.84,
+      "y": 100.01,
+      "z": -191.64
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv005_20746": {
+    "activeMethod": 2,
+    "levelId": "map01_lv005",
+    "logicId": 20746,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv005_20746",
+    "pos": {
+      "x": 340.1637,
+      "y": 95.9121,
+      "z": -284.906
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv005_20747": {
+    "activeMethod": 2,
+    "levelId": "map01_lv005",
+    "logicId": 20747,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv005_20747",
+    "pos": {
+      "x": 606.9,
+      "y": 96.8,
+      "z": -152.11
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv006_31058": {
+    "activeMethod": 2,
+    "levelId": "map01_lv006",
+    "logicId": 31058,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv006_31058",
+    "pos": {
+      "x": 722.88,
+      "y": 71.3,
+      "z": 97.14
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv006_31059": {
+    "activeMethod": 2,
+    "levelId": "map01_lv006",
+    "logicId": 31059,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv006_31059",
+    "pos": {
+      "x": 292.21,
+      "y": 56.96,
+      "z": 479.31
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv006_31060": {
+    "activeMethod": 2,
+    "levelId": "map01_lv006",
+    "logicId": 31060,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv006_31060",
+    "pos": {
+      "x": 500.71,
+      "y": 40.38675,
+      "z": 319.19
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv006_31061": {
+    "activeMethod": 2,
+    "levelId": "map01_lv006",
+    "logicId": 31061,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv006_31061",
+    "pos": {
+      "x": 642.91,
+      "y": 35.33,
+      "z": 439.13
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv007_147": {
+    "activeMethod": 2,
+    "levelId": "map01_lv007",
+    "logicId": 147,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv007_147",
+    "pos": {
+      "x": 39.09,
+      "y": 159.5153,
+      "z": 694.74
+    },
+    "visibleMethod": 0
+  },
+  "camp_map01_lv007_388": {
+    "activeMethod": 2,
+    "levelId": "map01_lv007",
+    "logicId": 388,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map01_lv007_388",
+    "pos": {
+      "x": -99.34,
+      "y": 197.11374,
+      "z": 348.63
+    },
+    "visibleMethod": 0
+  },
+  "camp_map02_lv001_50175": {
+    "activeMethod": 2,
+    "levelId": "map02_lv001",
+    "logicId": 50175,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map02_lv001_50175",
+    "pos": {
+      "x": -183.66,
+      "y": 38.52,
+      "z": -87.70999
+    },
+    "visibleMethod": 0
+  },
+  "camp_map02_lv007_10070": {
+    "activeMethod": 2,
+    "levelId": "map02_lv007",
+    "logicId": 10070,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map02_lv007_10070",
+    "pos": {
+      "x": 496.6491,
+      "y": 22.677547,
+      "z": -76.44581
+    },
+    "visibleMethod": 0
+  },
+  "camp_map02_lv007_10071": {
+    "activeMethod": 2,
+    "levelId": "map02_lv007",
+    "logicId": 10071,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "camp_map02_lv007_10071",
+    "pos": {
+      "x": 667.8,
+      "y": 16.137548,
+      "z": -105.13826
+    },
+    "visibleMethod": 0
+  },
+  "core_fc001_1": {
+    "activeMethod": 0,
+    "levelId": "map01_fc001",
+    "logicId": 779,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "core_fc001_1",
+    "pos": {
+      "x": 34.3,
+      "y": 1.72,
+      "z": -8.73
+    },
+    "visibleMethod": 0
+  },
+  "core_fc001_2": {
+    "activeMethod": 0,
+    "levelId": "map01_fc001",
+    "logicId": 807,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "core_fc001_2",
+    "pos": {
+      "x": 11.1,
+      "y": 9.8,
+      "z": 45.3
+    },
+    "visibleMethod": 0
+  },
+  "core_fc001_3": {
+    "activeMethod": 0,
+    "levelId": "map01_fc001",
+    "logicId": 810,
+    "markInfoId": "mark_sp_campfire",
+    "markInsId": "core_fc001_3",
+    "pos": {
+      "x": 48.9,
+      "y": 11.68,
+      "z": 40.5
+    },
+    "visibleMethod": 0
+  },
+  "fac_unlocker_lv003_20031": {
+    "activeMethod": 2,
+    "levelId": "map01_lv003",
+    "logicId": 20031,
+    "markInfoId": "mark_fac_unlocker",
+    "markInsId": "fac_unlocker_lv003_20031",
+    "pos": {
+      "x": 451.29,
+      "y": 141.94,
+      "z": 337.21
+    },
+    "visibleMethod": 0
+  },
+  "fac_unlocker_lv005_140060": {
+    "activeMethod": 2,
+    "levelId": "map01_lv005",
+    "logicId": 140060,
+    "markInfoId": "mark_fac_unlocker",
+    "markInsId": "fac_unlocker_lv005_140060",
+    "pos": {
+      "x": 691.68,
+      "y": 116.4,
+      "z": 378.1
+    },
+    "visibleMethod": 0
+  },
+  "fac_unlocker_lv006_70001": {
+    "activeMethod": 2,
+    "levelId": "map01_lv006",
+    "logicId": 70001,
+    "markInfoId": "mark_fac_unlocker",
+    "markInsId": "fac_unlocker_lv006_70001",
+    "pos": {
+      "x": 526.64,
+      "y": 46.44,
+      "z": 274.22
+    },
+    "visibleMethod": 0
+  },
+  "fac_unlocker_lv006_70173": {
+    "activeMethod": 2,
+    "levelId": "map01_lv006",
+    "logicId": 70173,
+    "markInfoId": "mark_fac_unlocker",
+    "markInsId": "fac_unlocker_lv006_70173",
+    "pos": {
+      "x": 404.29,
+      "y": 77.42,
+      "z": 581.1
+    },
+    "visibleMethod": 0
+  }
+}

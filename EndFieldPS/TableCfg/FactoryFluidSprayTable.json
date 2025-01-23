@@ -1,0 +1,36 @@
+{
+  "squirter_1": {
+    "id": "squirter_1",
+    "maximumSuply": 1,
+    "squirterOffset": {
+      "x": 3,
+      "y": 0,
+      "z": -1
+    },
+    "squirterRange": {
+      "x": 4,
+      "y": 4,
+      "z": 5
+    },
+    "validItemIds": [
+      "item_liquid_water"
+    ]
+  },
+  "squirter_nop_1": {
+    "id": "squirter_nop_1",
+    "maximumSuply": 1,
+    "squirterOffset": {
+      "x": 3,
+      "y": 0,
+      "z": -1
+    },
+    "squirterRange": {
+      "x": 4,
+      "y": 4,
+      "z": 5
+    },
+    "validItemIds": [
+      "item_liquid_water"
+    ]
+  }
+}

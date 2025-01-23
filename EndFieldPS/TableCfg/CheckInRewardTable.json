@@ -1,0 +1,82 @@
+{
+  "1": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage1_1"
+  },
+  "2": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage1_2"
+  },
+  "3": {
+    "isKeyReward": true,
+    "rewardId": "reward_checkin_stage1_3"
+  },
+  "4": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage1_4"
+  },
+  "5": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage1_5"
+  },
+  "6": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage1_6"
+  },
+  "7": {
+    "isKeyReward": true,
+    "rewardId": "reward_checkin_stage1_7"
+  },
+  "8": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_1"
+  },
+  "9": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_2"
+  },
+  "10": {
+    "isKeyReward": true,
+    "rewardId": "reward_checkin_stage2_3"
+  },
+  "11": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_1"
+  },
+  "12": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_2"
+  },
+  "13": {
+    "isKeyReward": true,
+    "rewardId": "reward_checkin_stage2_3"
+  },
+  "14": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_1"
+  },
+  "15": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_2"
+  },
+  "16": {
+    "isKeyReward": true,
+    "rewardId": "reward_checkin_stage2_3"
+  },
+  "17": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_1"
+  },
+  "18": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_2"
+  },
+  "19": {
+    "isKeyReward": true,
+    "rewardId": "reward_checkin_stage2_3"
+  },
+  "20": {
+    "isKeyReward": false,
+    "rewardId": "reward_checkin_stage2_1"
+  }
+}

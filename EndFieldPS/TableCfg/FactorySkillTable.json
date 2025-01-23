@@ -1,0 +1,460 @@
+{
+  "facskill_all_nor_power1_1": {
+    "buildingType": 1,
+    "desc": {
+      "id": "5C253C0EFF49F403",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "miner_1",
+      "miner_2",
+      "miner_3",
+      "miner_4",
+      "furnance_1",
+      "furnance_nop_1",
+      "grinder_1",
+      "winder_1",
+      "component_mc_1",
+      "shaper_1",
+      "filling_powder_mc_1",
+      "thickener_1",
+      "tools_assebling_mc_1",
+      "seedcollector_1",
+      "planter_1",
+      "storager_1",
+      "storager_nop_1"
+    ],
+    "icon": "facskill_all_nor_power1",
+    "id": "facskill_all_nor_power1_1",
+    "name": {
+      "id": "F7F953C5743BEF9E",
+      "text": ""
+    },
+    "paramList": [
+      -0.2
+    ],
+    "sortId": 11,
+    "type": [
+      1,
+      6
+    ]
+  },
+  "facskill_mfg_exp_cost1_1": {
+    "buildingType": 13,
+    "desc": {
+      "id": "DE9ED8B8B6A5ABA6",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_mfg_sta_1"
+    ],
+    "icon": "facskill_mfg_exp_cost1",
+    "id": "facskill_mfg_exp_cost1_1",
+    "name": {
+      "id": "AC5103E44ED34F70",
+      "text": ""
+    },
+    "paramList": [
+      -0.15
+    ],
+    "sortId": 1,
+    "type": [
+      5,
+      6
+    ]
+  },
+  "facskill_mfg_exp_spd_cost1_1": {
+    "buildingType": 13,
+    "desc": {
+      "id": "CD3C5FC7ADF932C4",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_mfg_sta_1"
+    ],
+    "icon": "facskill_mfg_exp_spd_cost1",
+    "id": "facskill_mfg_exp_spd_cost1_1",
+    "name": {
+      "id": "85AAF6168D9ABAFD",
+      "text": ""
+    },
+    "paramList": [
+      0.08,
+      0.16
+    ],
+    "sortId": 6,
+    "type": [
+      5,
+      7
+    ]
+  },
+  "facskill_mfg_exp_spd_cost1_2": {
+    "buildingType": 13,
+    "desc": {
+      "id": "5751D054FF85E298",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_mfg_sta_1"
+    ],
+    "icon": "facskill_mfg_exp_spd_cost1",
+    "id": "facskill_mfg_exp_spd_cost1_2",
+    "name": {
+      "id": "77287FA218FBE230",
+      "text": ""
+    },
+    "paramList": [
+      0.08,
+      0.16
+    ],
+    "sortId": 12,
+    "type": [
+      5,
+      7
+    ]
+  },
+  "facskill_mfg_exp_spd_cost1_3": {
+    "buildingType": 13,
+    "desc": {
+      "id": "2B28FF78B62BC753",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_mfg_sta_1"
+    ],
+    "icon": "facskill_mfg_exp_spd_cost1",
+    "id": "facskill_mfg_exp_spd_cost1_3",
+    "name": {
+      "id": "964C6CAF2A9EC0D0",
+      "text": ""
+    },
+    "paramList": [
+      0.08,
+      0.16
+    ],
+    "sortId": 16,
+    "type": [
+      5,
+      6
+    ]
+  },
+  "facskill_miner_org_spd1_2": {
+    "buildingType": 1,
+    "desc": {
+      "id": "82FD2D0FD379297F",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "miner_1",
+      "miner_2",
+      "miner_3"
+    ],
+    "icon": "facskill_miner_org_spd1",
+    "id": "facskill_miner_org_spd1_2",
+    "name": {
+      "id": "326ED1D6E457B582",
+      "text": ""
+    },
+    "paramList": [
+      0.15
+    ],
+    "sortId": 8,
+    "type": [
+      0,
+      7
+    ]
+  },
+  "facskill_miner_org_spd2_1": {
+    "buildingType": 1,
+    "desc": {
+      "id": "D6636F43192BB1B7",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "miner_1",
+      "miner_2",
+      "miner_3"
+    ],
+    "icon": "facskill_miner_org_spd2",
+    "id": "facskill_miner_org_spd2_1",
+    "name": {
+      "id": "5925C0650FBCCA3A",
+      "text": ""
+    },
+    "paramList": [
+      0.2
+    ],
+    "sortId": 2,
+    "type": [
+      0,
+      7
+    ]
+  },
+  "facskill_miner_uorg_spd1_2": {
+    "buildingType": 1,
+    "desc": {
+      "id": "8DFC47C013399105",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "miner_2",
+      "miner_3"
+    ],
+    "icon": "facskill_miner_uorg_spd1",
+    "id": "facskill_miner_uorg_spd1_2",
+    "name": {
+      "id": "989270AAE6B73E43",
+      "text": ""
+    },
+    "paramList": [
+      0.15
+    ],
+    "sortId": 5,
+    "type": [
+      0,
+      7
+    ]
+  },
+  "facskill_miner_uorg_spd1_3": {
+    "buildingType": 1,
+    "desc": {
+      "id": "5B66B7B9C98E9C42",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "miner_2",
+      "miner_3"
+    ],
+    "icon": "facskill_miner_uorg_spd1",
+    "id": "facskill_miner_uorg_spd1_3",
+    "name": {
+      "id": "DC1D63000E5EA4C9",
+      "text": ""
+    },
+    "paramList": [
+      0.15
+    ],
+    "sortId": 14,
+    "type": [
+      0,
+      7
+    ]
+  },
+  "facskill_miner_uorg_spd2_1": {
+    "buildingType": 1,
+    "desc": {
+      "id": "7F1753DA821F2E2E",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "miner_2",
+      "miner_3"
+    ],
+    "icon": "facskill_miner_uorg_spd2",
+    "id": "facskill_miner_uorg_spd2_1",
+    "name": {
+      "id": "9CA86EE115A8ACFD",
+      "text": ""
+    },
+    "paramList": [
+      0.2
+    ],
+    "sortId": 4,
+    "type": [
+      0,
+      7
+    ]
+  },
+  "facskill_proc_equip_cost1_1": {
+    "buildingType": 20,
+    "desc": {
+      "id": "C92CD8ECB37E7792",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_proc_sta_1"
+    ],
+    "icon": "facskill_proc_equip_cost1",
+    "id": "facskill_proc_equip_cost1_1",
+    "name": {
+      "id": "F9B53D9D3B25569B",
+      "text": ""
+    },
+    "paramList": [
+      -0.15
+    ],
+    "sortId": 13,
+    "type": [
+      5,
+      6
+    ]
+  },
+  "facskill_proc_gem_cost1_1": {
+    "buildingType": 20,
+    "desc": {
+      "id": "6113629131BD94A6",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_proc_sta_1"
+    ],
+    "icon": "facskill_proc_gem_cost1",
+    "id": "facskill_proc_gem_cost1_1",
+    "name": {
+      "id": "EF26C4BBCF3FD822",
+      "text": ""
+    },
+    "paramList": [
+      0.1
+    ],
+    "sortId": 15,
+    "type": [
+      5,
+      6
+    ]
+  },
+  "facskill_rec_spd1_1": {
+    "buildingType": 12,
+    "desc": {
+      "id": "C1D1D11074FC1574",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_rec_sta_1"
+    ],
+    "icon": "facskill_rec_spd1",
+    "id": "facskill_rec_spd1_1",
+    "name": {
+      "id": "0E178E379951C291",
+      "text": ""
+    },
+    "paramList": [
+      0.2
+    ],
+    "sortId": 9,
+    "type": [
+      3,
+      7
+    ]
+  },
+  "facskill_trd_order_cost1_1": {
+    "buildingType": 9,
+    "desc": {
+      "id": "EA5C5FA9FA12BE9F",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_trd_sta_1"
+    ],
+    "icon": "facskill_trd_order_cost1",
+    "id": "facskill_trd_order_cost1_1",
+    "name": {
+      "id": "0DCA38AD39FD2901",
+      "text": ""
+    },
+    "paramList": [
+      -0.1
+    ],
+    "sortId": 3,
+    "type": [
+      4,
+      6
+    ]
+  },
+  "facskill_trd_order_cost1_2": {
+    "buildingType": 9,
+    "desc": {
+      "id": "F1C5D3BE6AD69098",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_trd_sta_1"
+    ],
+    "icon": "facskill_trd_order_cost1",
+    "id": "facskill_trd_order_cost1_2",
+    "name": {
+      "id": "6C74CF28ACEE8382",
+      "text": ""
+    },
+    "paramList": [
+      -0.1
+    ],
+    "sortId": 7,
+    "type": [
+      4,
+      6
+    ]
+  },
+  "facskill_trd_order_cost1_3": {
+    "buildingType": 9,
+    "desc": {
+      "id": "152A724077489049",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_trd_sta_1"
+    ],
+    "icon": "facskill_trd_order_cost1",
+    "id": "facskill_trd_order_cost1_3",
+    "name": {
+      "id": "79C9AF1E3FAB0DDC",
+      "text": ""
+    },
+    "paramList": [
+      -0.1
+    ],
+    "sortId": 10,
+    "type": [
+      4,
+      6
+    ]
+  },
+  "facskill_trd_order_cost2_1": {
+    "buildingType": 9,
+    "desc": {
+      "id": "14E3ACCB3CC150CD",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_trd_sta_1"
+    ],
+    "icon": "facskill_trd_order_spd_cost1",
+    "id": "facskill_trd_order_cost2_1",
+    "name": {
+      "id": "FE88351A6D1F7CAF",
+      "text": ""
+    },
+    "paramList": [
+      -0.15
+    ],
+    "sortId": 17,
+    "type": [
+      4,
+      6
+    ]
+  },
+  "facskill_trd_order_cost3_1": {
+    "buildingType": 9,
+    "desc": {
+      "id": "D6F3E1202B6848CA",
+      "text": ""
+    },
+    "effectBuildingId": [
+      "sp_trd_sta_1"
+    ],
+    "icon": "facskill_trd_order_spd_cost2",
+    "id": "facskill_trd_order_cost3_1",
+    "name": {
+      "id": "69D3FADE98655622",
+      "text": ""
+    },
+    "paramList": [
+      -0.2
+    ],
+    "sortId": 18,
+    "type": [
+      4,
+      6
+    ]
+  }
+}

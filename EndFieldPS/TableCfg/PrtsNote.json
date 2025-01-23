@@ -1,0 +1,247 @@
+{
+  "hint_research_angle_1_1": {
+    "desc": {
+      "id": "22879BFBB4C0E609",
+      "text": ""
+    },
+    "id": "hint_research_angle_1_1"
+  },
+  "hint_research_angle_2_1": {
+    "desc": {
+      "id": "58EB2E35B0482804",
+      "text": ""
+    },
+    "id": "hint_research_angle_2_1"
+  },
+  "hint_research_angle_2_2": {
+    "desc": {
+      "id": "473B95F20F880022",
+      "text": ""
+    },
+    "id": "hint_research_angle_2_2"
+  },
+  "hint_research_angle_3_1": {
+    "desc": {
+      "id": "5CE1E6E3556202E4",
+      "text": ""
+    },
+    "id": "hint_research_angle_3_1"
+  },
+  "hint_research_blight_1_1": {
+    "desc": {
+      "id": "194C6C6BEED3C0A4",
+      "text": ""
+    },
+    "id": "hint_research_blight_1_1"
+  },
+  "hint_research_blight_1_2": {
+    "desc": {
+      "id": "6D2554F5F6D7BD9A",
+      "text": ""
+    },
+    "id": "hint_research_blight_1_2"
+  },
+  "hint_research_blight_1_3": {
+    "desc": {
+      "id": "035F0A4CE8241DE5",
+      "text": ""
+    },
+    "id": "hint_research_blight_1_3"
+  },
+  "hint_research_blight_2_1": {
+    "desc": {
+      "id": "B718C42BC4757B77",
+      "text": ""
+    },
+    "id": "hint_research_blight_2_1"
+  },
+  "hint_research_blight_3_1": {
+    "desc": {
+      "id": "CB00989BAB263E63",
+      "text": ""
+    },
+    "id": "hint_research_blight_3_1"
+  },
+  "hint_research_blight_3_2": {
+    "desc": {
+      "id": "942EFE180F9136FB",
+      "text": ""
+    },
+    "id": "hint_research_blight_3_2"
+  },
+  "hint_research_blight_4_1": {
+    "desc": {
+      "id": "3DA20D11A77A2C9B",
+      "text": ""
+    },
+    "id": "hint_research_blight_4_1"
+  },
+  "hint_research_blight_4_2": {
+    "desc": {
+      "id": "8842B2CF66994928",
+      "text": ""
+    },
+    "id": "hint_research_blight_4_2"
+  },
+  "hint_research_landbreaker_1_1": {
+    "desc": {
+      "id": "96A7A158791DC397",
+      "text": ""
+    },
+    "id": "hint_research_landbreaker_1_1"
+  },
+  "hint_research_landbreaker_1_2": {
+    "desc": {
+      "id": "624202F1766F5093",
+      "text": ""
+    },
+    "id": "hint_research_landbreaker_1_2"
+  },
+  "hint_research_landbreaker_1_3": {
+    "desc": {
+      "id": "FF8B05034F630299",
+      "text": ""
+    },
+    "id": "hint_research_landbreaker_1_3"
+  },
+  "hint_research_landbreaker_2_1": {
+    "desc": {
+      "id": "01868EF5D8FB9FB7",
+      "text": ""
+    },
+    "id": "hint_research_landbreaker_2_1"
+  },
+  "hint_research_landbreaker_2_2": {
+    "desc": {
+      "id": "D4C1E9AEC2772DB0",
+      "text": ""
+    },
+    "id": "hint_research_landbreaker_2_2"
+  },
+  "hint_research_landbreaker_3_1": {
+    "desc": {
+      "id": "56A9A3D50EFE8129",
+      "text": ""
+    },
+    "id": "hint_research_landbreaker_3_1"
+  },
+  "hint_research_landbreaker_3_2": {
+    "desc": {
+      "id": "BE1F4CD793031E20",
+      "text": ""
+    },
+    "id": "hint_research_landbreaker_3_2"
+  },
+  "hint_research_lb_culture_1_1": {
+    "desc": {
+      "id": "7DDBC8E7072F4AB2",
+      "text": ""
+    },
+    "id": "hint_research_lb_culture_1_1"
+  },
+  "hint_research_lb_culture_1_2": {
+    "desc": {
+      "id": "0DCD4EC60B2767C4",
+      "text": ""
+    },
+    "id": "hint_research_lb_culture_1_2"
+  },
+  "hint_research_lb_culture_1_4": {
+    "desc": {
+      "id": "B6FF191127E016B4",
+      "text": ""
+    },
+    "id": "hint_research_lb_culture_1_4"
+  },
+  "hint_research_lb_culture_2_1": {
+    "desc": {
+      "id": "D0C35C38347F0C24",
+      "text": ""
+    },
+    "id": "hint_research_lb_culture_2_1"
+  },
+  "hint_research_lb_culture_2_2": {
+    "desc": {
+      "id": "6C80F50EAA52932A",
+      "text": ""
+    },
+    "id": "hint_research_lb_culture_2_2"
+  },
+  "hint_research_lb_culture_2_3": {
+    "desc": {
+      "id": "F040A0B105476235",
+      "text": ""
+    },
+    "id": "hint_research_lb_culture_2_3"
+  },
+  "hint_research_uwst_1_1": {
+    "desc": {
+      "id": "DCABFB2C9A4BBC01",
+      "text": ""
+    },
+    "id": "hint_research_uwst_1_1"
+  },
+  "hint_research_uwst_1_2": {
+    "desc": {
+      "id": "CA9A7E2E25CE9E25",
+      "text": ""
+    },
+    "id": "hint_research_uwst_1_2"
+  },
+  "hint_research_uwst_2_1": {
+    "desc": {
+      "id": "E298CBF8CD8AAAC1",
+      "text": ""
+    },
+    "id": "hint_research_uwst_2_1"
+  },
+  "hint_research_uwst_2_2": {
+    "desc": {
+      "id": "3B03736D86C2357A",
+      "text": ""
+    },
+    "id": "hint_research_uwst_2_2"
+  },
+  "research_infiltrator_1_1": {
+    "desc": {
+      "id": "08CC1E58101B8FB9",
+      "text": ""
+    },
+    "id": "research_infiltrator_1_1"
+  },
+  "research_infiltrator_1_2": {
+    "desc": {
+      "id": "9FE2C6455DD31975",
+      "text": ""
+    },
+    "id": "research_infiltrator_1_2"
+  },
+  "research_infiltrator_2_1": {
+    "desc": {
+      "id": "D248057A750CC055",
+      "text": ""
+    },
+    "id": "research_infiltrator_2_1"
+  },
+  "research_threat_1_1": {
+    "desc": {
+      "id": "6DD1C88C5530A507",
+      "text": ""
+    },
+    "id": "research_threat_1_1"
+  },
+  "research_threat_1_2": {
+    "desc": {
+      "id": "4C629DDF7E4FFAE2",
+      "text": ""
+    },
+    "id": "research_threat_1_2"
+  },
+  "research_threat_2_1": {
+    "desc": {
+      "id": "FDE7D7689605A721",
+      "text": ""
+    },
+    "id": "research_threat_2_1"
+  }
+}

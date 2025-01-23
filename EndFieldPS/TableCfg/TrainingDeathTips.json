@@ -1,0 +1,42 @@
+{
+  "squadEquipLvSum": {
+    "tipContents": [
+      {
+        "id": "1AAB2CD286335489",
+        "text": ""
+      }
+    ]
+  },
+  "squadLvSum": {
+    "tipContents": [
+      {
+        "id": "EF68C7A1AEC49480",
+        "text": ""
+      },
+      {
+        "id": "BA9D12464DBABF00",
+        "text": ""
+      }
+    ]
+  },
+  "squadSkillLvSum": {
+    "tipContents": [
+      {
+        "id": "FE4182B7FAD0B9BB",
+        "text": ""
+      }
+    ]
+  },
+  "squadWeaponLvSum": {
+    "tipContents": [
+      {
+        "id": "29DAB72BEBB9B1D1",
+        "text": ""
+      },
+      {
+        "id": "6D8DA229CBC08725",
+        "text": ""
+      }
+    ]
+  }
+}

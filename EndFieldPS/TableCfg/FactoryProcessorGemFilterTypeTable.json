@@ -1,0 +1,34 @@
+{
+  "1": {
+    "name": {
+      "id": "03129438A784A61B",
+      "text": ""
+    },
+    "sortId": 1,
+    "type": 1
+  },
+  "2": {
+    "name": {
+      "id": "59A453CD27EC087F",
+      "text": ""
+    },
+    "sortId": 2,
+    "type": 2
+  },
+  "3": {
+    "name": {
+      "id": "B8D241815419845F",
+      "text": ""
+    },
+    "sortId": 3,
+    "type": 3
+  },
+  "4": {
+    "name": {
+      "id": "DF4A79DCA0E7A37A",
+      "text": ""
+    },
+    "sortId": 4,
+    "type": 4
+  }
+}

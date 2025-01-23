@@ -1,0 +1,82 @@
+{
+  "power_army": {
+    "blocId": "power_army",
+    "blocName": {
+      "id": "62C02745B1C0C7F9",
+      "text": ""
+    },
+    "engName": "Ironclad Legion",
+    "icon": "icon_power_army",
+    "tagId": "tag_power_army"
+  },
+  "power_commerce": {
+    "blocId": "power_commerce",
+    "blocName": {
+      "id": "B38D77A718439366",
+      "text": ""
+    },
+    "engName": "Ringtower Merchants",
+    "icon": "icon_power_commerce",
+    "tagId": "tag_power_commerce"
+  },
+  "power_divider": {
+    "blocId": "power_divider",
+    "blocName": {
+      "id": "7AA0C9E4F03D2CCF",
+      "text": ""
+    },
+    "engName": "Divider",
+    "icon": "icon_power_divider",
+    "tagId": "tag_power_divider"
+  },
+  "power_endfield": {
+    "blocId": "power_endfield",
+    "blocName": {
+      "id": "E04876F28E3DAAC7",
+      "text": ""
+    },
+    "engName": "Endfield Engineering Dept",
+    "icon": "icon_power_endfield",
+    "tagId": "tag_power_endfield"
+  },
+  "power_hongshan": {
+    "blocId": "power_hongshan",
+    "blocName": {
+      "id": "0969F5FFA65191A1",
+      "text": ""
+    },
+    "engName": "Hongshan",
+    "icon": "icon_power_hongshan",
+    "tagId": "tag_power_hongshan"
+  },
+  "power_monastery": {
+    "blocId": "power_monastery",
+    "blocName": {
+      "id": "47CEDB28ADC9E909",
+      "text": ""
+    },
+    "engName": "Silent Society",
+    "icon": "icon_power_monastery",
+    "tagId": "tag_power_monastery"
+  },
+  "power_rhodes": {
+    "blocId": "power_rhodes",
+    "blocName": {
+      "id": "D314B393BFFC468F",
+      "text": ""
+    },
+    "engName": "Rhodes Island",
+    "icon": "icon_power_rhodes",
+    "tagId": "tag_power_rhodes"
+  },
+  "power_tribe": {
+    "blocId": "power_tribe",
+    "blocName": {
+      "id": "9DCDC6AC296094BA",
+      "text": ""
+    },
+    "engName": "Lifebreath Zone",
+    "icon": "icon_power_tribe",
+    "tagId": "tag_power_tribe"
+  }
+}

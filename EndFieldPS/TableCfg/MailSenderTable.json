@@ -1,0 +1,34 @@
+{
+  "fiona": {
+    "id": "fiona",
+    "senderIcon": "Mail/mail_endfield",
+    "senderName": {
+      "id": "E5CA8FD304B5E65D",
+      "text": ""
+    }
+  },
+  "pelica": {
+    "id": "pelica",
+    "senderIcon": "CharIcon/icon_chr_0004_pelica",
+    "senderName": {
+      "id": "6DF6027E2B15D70B",
+      "text": ""
+    }
+  },
+  "survey": {
+    "id": "survey",
+    "senderIcon": "Mail/mail_endfield",
+    "senderName": {
+      "id": "0E74B6ED41C38480",
+      "text": ""
+    }
+  },
+  "system": {
+    "id": "system",
+    "senderIcon": "Mail/mail_endfield",
+    "senderName": {
+      "id": "7633CA10C0EDD1C9",
+      "text": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item_proc_battery_1": {
+    "BatteryEnergy": 1000,
+    "id": "item_proc_battery_1"
+  },
+  "item_proc_battery_2": {
+    "BatteryEnergy": 1500,
+    "id": "item_proc_battery_2"
+  },
+  "item_proc_battery_3": {
+    "BatteryEnergy": 2000,
+    "id": "item_proc_battery_3"
+  }
+}

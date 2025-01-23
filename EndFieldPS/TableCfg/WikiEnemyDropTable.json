@@ -1,0 +1,210 @@
+{
+  "eny_0007_mimicw": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0018_lbtough": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0021_agmelee": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0023_aghornb": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0025_agrange": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0027_agscorp": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0029_lbmob": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0033_lbhunt": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0039_agcanno": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0045_agtrinit": {
+    "dropItemIds": []
+  },
+  "eny_0046_lbshamman": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0047_firebat": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0048_hvybow": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0049_rogue": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0050_hound": {
+    "dropItemIds": [
+      "item_drop_animal_1"
+    ]
+  },
+  "eny_0051_rodin": {
+    "dropItemIds": []
+  },
+  "eny_0052_palesent": {
+    "dropItemIds": []
+  },
+  "eny_0053_hsmob": {
+    "dropItemIds": [
+      "item_drop_eb_jl_m_1",
+      "item_drop_eb_jl_s_1"
+    ]
+  },
+  "eny_0054_hsmino": {
+    "dropItemIds": [
+      "item_drop_erosion_m_1",
+      "item_drop_erosion_s_1"
+    ]
+  },
+  "eny_0055_hscrane": {
+    "dropItemIds": [
+      "item_drop_erosion_m_1",
+      "item_drop_erosion_s_1"
+    ]
+  },
+  "eny_0057_dog": {
+    "dropItemIds": [
+      "item_drop_animal_1"
+    ]
+  },
+  "eny_0058_agdisk": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0059_erhound": {
+    "dropItemIds": [
+      "item_drop_erosion_m_1",
+      "item_drop_erosion_s_1"
+    ]
+  },
+  "eny_0060_lbmad": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0061_palecore": {
+    "dropItemIds": []
+  },
+  "eny_0062_paletent": {
+    "dropItemIds": []
+  },
+  "eny_0063_agmelee2": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0064_agrange2": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0065_lbmob2": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0066_lbhunt2": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0067_hound2": {
+    "dropItemIds": [
+      "item_drop_animal_1"
+    ]
+  },
+  "eny_0068_lbtough2": {
+    "dropItemIds": [
+      "item_drop_eb_l_1",
+      "item_drop_eb_s_1",
+      "item_drop_eb_m_1"
+    ]
+  },
+  "eny_0069_aghornb2": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  },
+  "eny_0070_agscorp2": {
+    "dropItemIds": [
+      "item_drop_angle_l_1",
+      "item_drop_angle_s_1",
+      "item_drop_angle_m_1"
+    ]
+  }
+}

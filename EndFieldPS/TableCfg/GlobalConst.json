@@ -1,0 +1,96 @@
+{
+  "adventureExpItemId": "item_adventureexp",
+  "adventureRacingDugeonRewards": [
+    "item_diamond",
+    "item_gachabyproducts_weapongold",
+    "item_adventureexp",
+    "item_case_wpn_selfselect_1",
+    "item_case_gem_random_1",
+    "item_wpngem_upgrade_r5",
+    "item_expcard_stage2_high",
+    "item_char_skill_level_7_12",
+    "item_gold"
+  ],
+  "apItemId": "item_ap",
+  "charEquipSlotPartTypes": [
+    1,
+    0,
+    2,
+    2
+  ],
+  "charInfoInitAttributeNum": 3,
+  "coinPostModelNames": [
+    "drop_coin_1_postmodel",
+    "drop_coin_2_postmodel",
+    "drop_coin_3_postmodel"
+  ],
+  "coinThresholds": [
+    0,
+    10,
+    50
+  ],
+  "dashCostEnergyValue": 60,
+  "defaultDomainId": "domain_1",
+  "defaultInteractOptionLabel": "CS_INTERACT_DEFAULT_OPTION",
+  "diamondItemId": "item_diamond",
+  "disableTimeAIBarkAfterRadio": 15,
+  "downgradeSceneIntervalTime": 7200,
+  "dropRarityVFXNames": [
+    "P_interactive_dropprops_glow_01",
+    "P_interactive_dropprops_glow_01",
+    "P_interactive_dropprops_glow_01",
+    "P_interactive_dropprops_glow_02",
+    "P_interactive_dropprops_glow_03",
+    "P_interactive_dropprops_glow_04",
+    "P_interactive_dropprops_glow_05"
+  ],
+  "endminVirtualCharId": "chr_9999_endmin",
+  "equipEnhanceRatios": [
+    1.05,
+    1.15,
+    1.25
+  ],
+  "equipRecycleItem": "item_drop_enemycommon_1",
+  "equipRecycleRatio": 0.9,
+  "etherItemId": "item_collection_ether",
+  "femaleCharID": "chr_0003_endminf",
+  "femaleNPCTemplateID": "npc_chr_0003_endminf",
+  "friendListLenMax": 50,
+  "friendRequestListLenMax": 20,
+  "gachaWeaponItemId": "item_gachabyproducts_weapongold",
+  "gameplayNetworkingBusyToast": "CS_GAMEPLAY_NETWORKING_BUSY",
+  "goldItemId": "item_gold",
+  "greenItemId": "item_gachabyproducts_weaponticket",
+  "guideHelperInvisiblePanelList": [
+    "ReadingPopUp",
+    "CommonPopUp",
+    "RewardsPopUpForBlackBox"
+  ],
+  "guideHelperInvisiblePhaseList": [
+    "Wiki"
+  ],
+  "initCharList": [],
+  "initDefaultSquad": [
+    "chr_0003_endminf"
+  ],
+  "itemSubmitRecycleReward": "reward_manualCollection_preItem",
+  "maleCharID": "chr_0002_endminm",
+  "maleNPCTemplateID": "npc_chr_0002_endminm",
+  "mapMarkTrackPointLenLimit": 50,
+  "originiumItemId": "item_originium_recharge",
+  "poleFastTravelChargeInterval": 20,
+  "poleFastTravelMaxChargeTime": 500,
+  "serverRefreshDataTime": 16725168000000000,
+  "skipToastCharList": [
+    "chr_0003_endminf",
+    "chr_0004_pelica"
+  ],
+  "spaceShipShopMapMarkInstId": "mark_npc_ss_shop9800060001",
+  "tdGoldItemId": "item_test_settlement_coin_1",
+  "totalBagSlotNum": 30,
+  "totalSquadNum": 5,
+  "userNameLenMax": 16,
+  "userNameLenMin": 1,
+  "wikiLatestUnlockNum": 6,
+  "yellowItemId": "item_gachabyproducts_charticket"
+}

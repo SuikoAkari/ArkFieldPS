@@ -1,0 +1,83 @@
+{
+  "abilityentity_chr_0003_endmin_normal_skill3": {
+    "abilityEntityId": "abilityentity_chr_0003_endmin_normal_skill3",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_chr_0003_endmin_normal_skill3"
+  },
+  "abilityentity_chr_0006_wolfgd_skill02": {
+    "abilityEntityId": "abilityentity_chr_0006_wolfgd_skill02",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_chr_0006_wolfgd_skill02"
+  },
+  "abilityentity_chr_0012_avywen_ultimate_skill": {
+    "abilityEntityId": "abilityentity_chr_0012_avywen_ultimate_skill",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_chr_0012_avywen_ultimate_skill"
+  },
+  "abilityentity_eny_0002_agmark_test": {
+    "abilityEntityId": "abilityentity_eny_0002_agmark_test",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_0002_agmark_test"
+  },
+  "abilityentity_eny_0007_mimicw_skill02": {
+    "abilityEntityId": "abilityentity_eny_0007_mimicw_skill02",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_0007_mimicw_skill02"
+  },
+  "abilityentity_eny_0008_gorgax_skill07": {
+    "abilityEntityId": "abilityentity_eny_0008_gorgax_skill07",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_0008_gorgax_skill07"
+  },
+  "abilityentity_eny_0008_gorgax_skill11": {
+    "abilityEntityId": "abilityentity_eny_0008_gorgax_skill11",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_0008_gorgax_skill11"
+  },
+  "abilityentity_eny_0017_dexasco_skill07": {
+    "abilityEntityId": "abilityentity_eny_0017_dexasco_skill07",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_0017_dexasco_skill07"
+  },
+  "abilityentity_eny_0017_dexasco_skill09": {
+    "abilityEntityId": "abilityentity_eny_0017_dexasco_skill09",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_0017_dexasco_skill09"
+  },
+  "abilityentity_eny_0033_lbhunt_skill01": {
+    "abilityEntityId": "abilityentity_eny_0033_lbhunt_skill01",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_0033_lbhunt_skill01"
+  },
+  "abilityentity_eny_0045_agtrinit_skill13": {
+    "abilityEntityId": "abilityentity_eny_0045_agtrinit_skill13",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_0045_agtrinit_skill13"
+  },
+  "abilityentity_eny_5001_tritest_skill13": {
+    "abilityEntityId": "abilityentity_eny_5001_tritest_skill13",
+    "attributeData": null,
+    "path": "GameData/AbilityEntity/data_abilityentity_eny_5001_tritest_skill13"
+  },
+  "abilityentity_interact_bomb": {
+    "abilityEntityId": "abilityentity_interact_bomb",
+    "attributeData": {
+      "atk": 50
+    },
+    "path": "GameData/AbilityEntity/data_abilityentity_interact_bomb"
+  },
+  "abilityentity_interact_bomb_skill": {
+    "abilityEntityId": "abilityentity_interact_bomb_skill",
+    "attributeData": {
+      "atk": 50
+    },
+    "path": "GameData/AbilityEntity/data_abilityentity_interact_bomb_skill"
+  },
+  "abilityentity_interact_mud_carpet": {
+    "abilityEntityId": "abilityentity_interact_mud_carpet",
+    "attributeData": {
+      "atk": 10
+    },
+    "path": "GameData/AbilityEntity/data_abilityentity_interact_mud_carpet"
+  }
+}

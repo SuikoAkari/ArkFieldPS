@@ -1,0 +1,25 @@
+{
+  "blackScreenTextMinDuration": 4,
+  "cinematicUIShowTime": 5,
+  "dialogBlackScreenTime": 0.5,
+  "dialogByeIconType": 7,
+  "dialogCamMaxPitch": 60,
+  "dialogCamMinPitch": -20,
+  "dialogNpcTurnToPlayerMinAngle": 20,
+  "dialogTextMinDuration": 2,
+  "dialogTrunkAudioWaitTime": 0.7,
+  "dialogTrunkDisableTime": 1,
+  "dialogTrunkMaxDuration": 100,
+  "dialogTrunkNormalDuration": 7,
+  "envTalkTextMinDuration": 4,
+  "envTalkTriggerDistance": 12,
+  "interactCameraDefaultVerticalDegrees": [
+    0,
+    20
+  ],
+  "radioAudioWaitTime": 0.5,
+  "radioMaxWaitTime": 15,
+  "radioMinWaitTime": 5,
+  "radioTextMinDuration": 2,
+  "textShowDurationPerWord": 0.15
+}

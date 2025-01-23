@@ -1,0 +1,62 @@
+{
+  "mfg_exp_1_1": {
+    "id": "mfg_exp_1_1",
+    "ingredients": [],
+    "outcome": {
+      "count": 1,
+      "id": "item_expcard_stage1_low"
+    },
+    "rarity": 1,
+    "showingType": 6,
+    "sortId": 5,
+    "totalProgress": 45000
+  },
+  "mfg_exp_1_2": {
+    "id": "mfg_exp_1_2",
+    "ingredients": [],
+    "outcome": {
+      "count": 1,
+      "id": "item_expcard_stage1_mid"
+    },
+    "rarity": 2,
+    "showingType": 6,
+    "sortId": 4,
+    "totalProgress": 193500
+  },
+  "mfg_exp_1_3": {
+    "id": "mfg_exp_1_3",
+    "ingredients": [],
+    "outcome": {
+      "count": 1,
+      "id": "item_expcard_stage1_high"
+    },
+    "rarity": 3,
+    "showingType": 6,
+    "sortId": 2,
+    "totalProgress": 1746000
+  },
+  "mfg_exp_2_1": {
+    "id": "mfg_exp_2_1",
+    "ingredients": [],
+    "outcome": {
+      "count": 1,
+      "id": "item_expcard_stage2_low"
+    },
+    "rarity": 4,
+    "showingType": 6,
+    "sortId": 3,
+    "totalProgress": 193500
+  },
+  "mfg_exp_2_2": {
+    "id": "mfg_exp_2_2",
+    "ingredients": [],
+    "outcome": {
+      "count": 1,
+      "id": "item_expcard_stage2_high"
+    },
+    "rarity": 5,
+    "showingType": 6,
+    "sortId": 1,
+    "totalProgress": 3492000
+  }
+}

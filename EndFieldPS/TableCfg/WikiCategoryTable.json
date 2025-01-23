@@ -1,0 +1,50 @@
+{
+  "wiki_type_building": {
+    "categoryId": "wiki_type_building",
+    "categoryName": {
+      "id": "FA4AB1A69170CA13",
+      "text": ""
+    },
+    "categoryPriority": 5
+  },
+  "wiki_type_equip": {
+    "categoryId": "wiki_type_equip",
+    "categoryName": {
+      "id": "724FC21EA2BE1115",
+      "text": ""
+    },
+    "categoryPriority": 4
+  },
+  "wiki_type_item": {
+    "categoryId": "wiki_type_item",
+    "categoryName": {
+      "id": "8E3F569376287124",
+      "text": ""
+    },
+    "categoryPriority": 6
+  },
+  "wiki_type_monster": {
+    "categoryId": "wiki_type_monster",
+    "categoryName": {
+      "id": "F24671FB39A1C177",
+      "text": ""
+    },
+    "categoryPriority": 2
+  },
+  "wiki_type_tutorial": {
+    "categoryId": "wiki_type_tutorial",
+    "categoryName": {
+      "id": "16C97ABEBD635470",
+      "text": ""
+    },
+    "categoryPriority": 1
+  },
+  "wiki_type_weapon": {
+    "categoryId": "wiki_type_weapon",
+    "categoryName": {
+      "id": "AD92D652E8B48DFE",
+      "text": ""
+    },
+    "categoryPriority": 3
+  }
+}

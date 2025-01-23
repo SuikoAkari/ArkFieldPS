@@ -1,0 +1,2805 @@
+{
+  "item_anglel_corp1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_anglel_corp1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_anglel_flower2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_anglel_flower2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_anglem_corp1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_anglem_corp1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_anglem_flower2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_anglem_flower2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_angles_corp1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_angles_corp1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_angles_flower2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_angles_flower2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_animal_angles_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_animal_angles_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_animal_insec2_angles_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_animal_insec2_angles_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_flower1spc_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_flower1spc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_flower1spc_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_flower1spc_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_flower1spc_3": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_flower1spc_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_flower2spc_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_flower2spc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_flower2spc_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_flower2spc_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_flower2spc_3": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_flower2spc_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_food_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_food_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_food_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_food_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_food_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_food_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_food_4": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_food_4",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_food_5": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_food_5",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_grass1spc_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_grass1spc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_grass1spc_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_grass1spc_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_grass2spc_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_grass2spc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_grass2spc_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_grass2spc_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_insec1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_insec1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_insec1_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_insec1_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_insec2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_insec2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_insec2_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_insec2_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_moss_1_2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_moss_1_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_moss_2_animal_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_moss_2_animal_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_moss_spc_1_2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_bottled_moss_spc_1_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_rec_hp_0": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_rec_hp_0",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_bottled_rec_hp_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_rec_hp_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_rec_hp_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_rec_hp_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_rec_hp_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_rec_hp_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_rec_hp_4": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_rec_hp_4",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_bottled_rec_hp_5": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_bottled_rec_hp_5",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_carbon_enr": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_carbon_enr",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_carbon_enr_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_carbon_enr_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_carbon_mtl": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_carbon_mtl",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_carbon_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_carbon_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_copper_cmpt": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_copper_cmpt",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_copper_jar": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_copper_jar",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_copper_nugget": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_copper_nugget",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_copper_ore": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_copper_ore",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_copper_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_copper_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_corp1_animal_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_corp1_animal_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_corp1_flower1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_corp1_flower1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_corp2_animal_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_corp2_animal_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_corp2_flower2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_corp2_flower2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_corp3_animal_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_corp3_animal_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_corp3_grass1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_corp3_grass1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_corp4_animal_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_corp4_animal_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_corp4_grass2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_corp4_grass2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_crystal_enr": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_crystal_enr",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_crystal_enr_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_crystal_enr_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_crystal_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_crystal_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_crystal_shell": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_crystal_shell",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_drop_angle_l_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_angle_l_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_angle_m_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_angle_m_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_angle_s_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_angle_s_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_animal_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_animal_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_eb_jl_m_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_eb_jl_m_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_eb_jl_s_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_eb_jl_s_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_eb_l_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_eb_l_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_eb_m_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_eb_m_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_eb_s_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_eb_s_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_enemycommon_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_enemycommon_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_erosion_m_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_erosion_m_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_drop_erosion_s_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_drop_erosion_s_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_ebl_corp2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_ebl_corp2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_ebl_flower1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_ebl_flower1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_ebm_corp2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_ebm_corp2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_ebm_flower1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_ebm_flower1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_ebs_corp2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_ebs_corp2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_ebs_flower1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_ebs_flower1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_equip_script_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_equip_script_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_equip_script_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_equip_script_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_equip_script_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_equip_script_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_equip_script_4": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_equip_script_4",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_erosionm_corp3_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_erosionm_corp3_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_erosionm_grass2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_erosionm_grass2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_erosions_corp3_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_erosions_corp3_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_erosions_grass2_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_erosions_grass2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_copper_grass_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_copper_grass_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_copper_grass_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_copper_grass_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_copper_sewage": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_copper_sewage",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_copper_water": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_copper_water",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_glass_grass_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_glass_grass_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_glass_grass_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_glass_grass_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_glass_sewage": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_glass_sewage",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_glass_water": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_glass_water",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_glassenr_grass_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_glassenr_grass_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_glassenr_grass_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_glassenr_grass_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_glassenr_sewage": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_glassenr_sewage",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_glassenr_water": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_glassenr_water",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_iron_grass_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_iron_grass_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_iron_grass_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_iron_grass_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_iron_sewage": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_iron_sewage",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_iron_water": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_iron_water",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_ironenr2_grass_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_ironenr2_grass_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_ironenr2_grass_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_ironenr2_grass_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_ironenr2_sewage": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_ironenr2_sewage",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_ironenr2_water": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_ironenr2_water",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_ironenr_grass_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_ironenr_grass_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_ironenr_grass_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_ironenr_grass_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_ironenr_sewage": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_ironenr_sewage",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_fbottle_ironenr_water": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_fbottle_ironenr_water",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_glass_bottle": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_glass_bottle",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_glass_cmpt": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_glass_cmpt",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_glass_enr_bottle": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_glass_enr_bottle",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_glass_enr_cmpt": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_glass_enr_cmpt",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_bottle": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_bottle",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_cmpt": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_cmpt",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_enr": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_enr",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_enr_bottle": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_enr_bottle",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_enr_cmpt": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_enr_cmpt",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_enr_jar": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_enr_jar",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_enr_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_enr_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_nugget": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_nugget",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_ore": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_ore",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_iron_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_iron_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_jlebm_corp4_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_jlebm_corp4_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_jlebm_grass1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_jlebm_grass1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_jlebs_corp4_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_jlebs_corp4_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_jlebs_grass1_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_jlebs_grass1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_legend_tea_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_legend_tea_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_liquid_plant_grass_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_liquid_plant_grass_1",
+    "itemState": true,
+    "repoStackLimit": 0,
+    "showInHubDomainIds": [
+      "domain_2"
+    ],
+    "showInUnloader": false,
+    "subType": 2
+  },
+  "item_liquid_plant_grass_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_liquid_plant_grass_2",
+    "itemState": true,
+    "repoStackLimit": 0,
+    "showInHubDomainIds": [
+      "domain_2"
+    ],
+    "showInUnloader": false,
+    "subType": 2
+  },
+  "item_liquid_sewage": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_liquid_sewage",
+    "itemState": true,
+    "repoStackLimit": 0,
+    "showInHubDomainIds": [
+      "domain_2"
+    ],
+    "showInUnloader": false,
+    "subType": 3
+  },
+  "item_liquid_water": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_liquid_water",
+    "itemState": true,
+    "repoStackLimit": 0,
+    "showInHubDomainIds": [
+      "domain_2"
+    ],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_originium_enr_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_originium_enr_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_originium_ore": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_originium_ore",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_originium_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_originium_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_bbflower_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_bbflower_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_bbflower_powder_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_bbflower_powder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_bbflower_seed_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_bbflower_seed_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_crylplant_1_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_crylplant_1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_crylplant_1_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_crylplant_1_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_crylplant_1_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_crylplant_1_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_crylplant_2_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_crylplant_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_crylplant_seed_1_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_crylplant_seed_1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_crylplant_seed_1_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_crylplant_seed_1_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_crylplant_seed_1_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_crylplant_seed_1_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_crylplant_seed_2_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_crylplant_seed_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_grass_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_grass_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_grass_powder_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_powder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_grass_powder_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_powder_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_grass_seed_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_seed_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_grass_seed_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_seed_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_grass_spc_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_spc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_grass_spc_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_spc_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_grass_spc_powder_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_spc_powder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_grass_spc_powder_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_grass_spc_powder_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_enr_powder_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_enr_powder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_enr_powder_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_enr_powder_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_powder_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_powder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_powder_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_powder_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_powder_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_powder_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_seed_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_seed_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_seed_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_seed_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_seed_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_seed_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_spc_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_spc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_moss_spc_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_spc_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_moss_spc_powder_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_spc_powder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_moss_spc_powder_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_moss_spc_powder_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_mushroom_1_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_mushroom_1_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_1_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_mushroom_1_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_1_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_mushroom_2_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_mushroom_seed_1_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_seed_1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_mushroom_seed_1_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_seed_1_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_mushroom_seed_1_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_seed_1_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_mushroom_seed_2_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_seed_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_mushroom_spc_2_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_mushroom_spc_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_sp_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_sp_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_sp_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_sp_4": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_4",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_sp_seed_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_seed_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_sp_seed_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_seed_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_sp_seed_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_seed_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_sp_seed_4": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_seed_4",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_sp_spc_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_sp_spc_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_spcstone_1_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_spcstone_1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_spcstone_1_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_spcstone_1_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_spcstone_1_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_spcstone_1_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_spcstone_2_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_spcstone_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_spcstone_seed_1_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_spcstone_seed_1_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_spcstone_seed_1_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_spcstone_seed_1_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_spcstone_seed_1_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_spcstone_seed_1_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_spcstone_seed_2_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_spcstone_seed_2_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_tundra_impts": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_tundra_impts",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_tundra_insect_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_tundra_insect_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_tundra_insect_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_tundra_insect_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_plant_tundra_insect_powder_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_tundra_insect_powder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_tundra_insect_powder_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_tundra_insect_powder_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_plant_tundra_wood": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_plant_tundra_wood",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_cannon_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_cannon_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_cannon_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_cannon_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_frost_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_frost_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_laser_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_laser_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_laser_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_laser_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_lightning_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_lightning_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_medic_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_medic_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_shockwave_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_shockwave_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_sniper_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_sniper_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_turret_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_turret_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_battle_turret_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_battle_turret_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_cmpt_mc_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_cmpt_mc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_dumper_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_dumper_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_dumper_nop_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_dumper_nop_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_filling_pd_mc_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_filling_pd_mc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_furnance_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_furnance_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_furnance_nop_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_furnance_nop_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_grinder_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_grinder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_liquid_cleaner_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_liquid_cleaner_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_liquid_storager_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_liquid_storager_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_liquid_storager_nop_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_liquid_storager_nop_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_loader_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_loader_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_miner_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_miner_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_miner_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_miner_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_miner_3": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_miner_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_miner_4": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_miner_4",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_mix_pool_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_mix_pool_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_planter_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_planter_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_power_diffuser_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_power_diffuser_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_power_gate_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_power_gate_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_power_pole_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_power_pole_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_power_pole_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_power_pole_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_power_port_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_power_port_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_power_sta_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_power_sta_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_power_terminal_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_power_terminal_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_pump_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_pump_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_seedcol_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_seedcol_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_shaper_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_shaper_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_bbflower_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_bbflower_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_grass_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_grass_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_grass_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_grass_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_grass_fast_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_grass_fast_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_grass_fast_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_grass_fast_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_moss_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_moss_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_moss_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_moss_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_moss_3": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_moss_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_sp_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_sp_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_sp_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_sp_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_sp_3": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_sp_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_sp_4": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_sp_4",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_sp_fast_3": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_sp_fast_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_soil_sp_fast_4": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_soil_sp_fast_4",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_sp_hub_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_sp_hub_1",
+    "itemState": false,
+    "repoStackLimit": 1,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_sp_mfg_sta_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_sp_mfg_sta_1",
+    "itemState": false,
+    "repoStackLimit": 1,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_sp_proc_sta_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_sp_proc_sta_1",
+    "itemState": false,
+    "repoStackLimit": 1,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_sp_rec_sta_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_sp_rec_sta_1",
+    "itemState": false,
+    "repoStackLimit": 1,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_sp_sub_hub_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_sp_sub_hub_1",
+    "itemState": false,
+    "repoStackLimit": 1,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_sp_trd_sta_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_sp_trd_sta_1",
+    "itemState": false,
+    "repoStackLimit": 1,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_sp_workshop_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_sp_workshop_1",
+    "itemState": false,
+    "repoStackLimit": 1,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_squirter_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_squirter_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_squirter_nop_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_squirter_nop_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_storager_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_storager_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_storager_nop_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_storager_nop_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_thickener_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_thickener_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_tools_asm_mc_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_tools_asm_mc_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_travel_pole_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_travel_pole_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_travel_pole_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_travel_pole_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_travel_pole_nop_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_travel_pole_nop_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_unloader_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_unloader_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_port_winder_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_port_winder_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_proc_battery_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_proc_battery_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_proc_battery_2": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_proc_battery_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_proc_battery_3": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_proc_battery_3",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_proc_bomb_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_proc_bomb_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_quartz_enr": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_quartz_enr",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_quartz_enr_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_quartz_enr_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_quartz_glass": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_quartz_glass",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_quartz_powder": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_quartz_powder",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_quartz_sand": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_quartz_sand",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [
+      "domain_1",
+      "domain_2"
+    ],
+    "showInUnloader": true,
+    "subType": 4
+  },
+  "item_quest_e1m5_inhibit": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_quest_e1m5_inhibit",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_sp_metal_ore_1": {
+    "buildingBufferStackLimit": 50,
+    "id": "item_sp_metal_ore_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_spaceship_cmpt_1": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_spaceship_cmpt_1",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  },
+  "item_spaceship_cmpt_2": {
+    "buildingBufferStackLimit": -1,
+    "id": "item_spaceship_cmpt_2",
+    "itemState": false,
+    "repoStackLimit": 10000,
+    "showInHubDomainIds": [],
+    "showInUnloader": false,
+    "subType": 4
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "1": {
+    "dungeonCategory2nd": 1,
+    "name": {
+      "id": "301EF5BBE5A4915F",
+      "text": ""
+    }
+  },
+  "2": {
+    "dungeonCategory2nd": 2,
+    "name": {
+      "id": "29706F356278CF26",
+      "text": ""
+    }
+  },
+  "3": {
+    "dungeonCategory2nd": 3,
+    "name": {
+      "id": "EDEF994975949D4F",
+      "text": ""
+    }
+  },
+  "4": {
+    "dungeonCategory2nd": 4,
+    "name": {
+      "id": "056B9D577CA751F8",
+      "text": ""
+    }
+  },
+  "5": {
+    "dungeonCategory2nd": 5,
+    "name": {
+      "id": "F7F2D49FCDF1DF27",
+      "text": ""
+    }
+  },
+  "6": {
+    "dungeonCategory2nd": 6,
+    "name": {
+      "id": "5B22E742EBFE094D",
+      "text": ""
+    }
+  }
+}

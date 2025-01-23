@@ -1,0 +1,455 @@
+{
+  "AI_GYM": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "MovementDev": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "base01_dg001": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      -1369118462,
+      -125947832,
+      -1009199387
+    ]
+  },
+  "base01_lv001": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      -1369118462,
+      -125947832,
+      -1009199387
+    ]
+  },
+  "base01_lv002": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      -1369118462,
+      -125947832,
+      -1009199387
+    ]
+  },
+  "blackbox_assebling_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_assebling_2": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_asseblingbomb_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_basic_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_belt_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_belt_2": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_bus_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_bus_2": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_cmpt_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_connector_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_converger_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_filling_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_filling_2": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_filling_3": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_grinder_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_hub_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_miner_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_miner_2": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_planter_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_power_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_powerstation_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_shaper_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_splitter_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_storager_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_thickener_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "blackbox_winder_1": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "demo_blackbox": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "demo_infrastructure": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "demo_rpgdungeon": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "demo_spacestation": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "dung01_cdg001": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg002": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg003": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg004": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg005": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg006": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg007": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg008": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg009": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_cdg010": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      440864268
+    ]
+  },
+  "dung01_rdg001": {
+    "battleMusicTriggerEvent": 651879959,
+    "levelInitEvent": [
+      -1369118462,
+      -125947830
+    ]
+  },
+  "dung01_rdg002": {
+    "battleMusicTriggerEvent": 651879954,
+    "levelInitEvent": [
+      -1369118462,
+      -125947825
+    ]
+  },
+  "dung01_sdg001": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "dung01_sdg002": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "dung01_sdg003": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "dung01_sdg004": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "dung01_sdg005": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "dung01_sdg006": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "factory_benchmark": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "indie_dg002": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      -1369118462,
+      -125947832,
+      -1492545197
+    ]
+  },
+  "indie_dg003": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      -1369118462,
+      -125947832,
+      -1492545197
+    ]
+  },
+  "indie_race001": {
+    "battleMusicTriggerEvent": 1096909678,
+    "levelInitEvent": [
+      1572318175,
+      359686208
+    ]
+  },
+  "indie_rpg001": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "ld_arcade01": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "ld_enemytest01": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "ld_guidetest": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "ld_playground_xiaochong": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "ld_prototype_test_juju": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "ld_prototype_yukikaze": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "ld_tasktest01": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "ld_tasktest02": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "map01_lv001": {
+    "battleMusicTriggerEvent": 651879956,
+    "levelInitEvent": [
+      -1369118462,
+      -125947831
+    ]
+  },
+  "map01_lv002": {
+    "battleMusicTriggerEvent": 651879959,
+    "levelInitEvent": [
+      -1369118462,
+      -125947830
+    ]
+  },
+  "map01_lv003": {
+    "battleMusicTriggerEvent": 651879958,
+    "levelInitEvent": [
+      -1369118462,
+      -125947829
+    ]
+  },
+  "map01_lv005": {
+    "battleMusicTriggerEvent": 651879952,
+    "levelInitEvent": [
+      -1369118462,
+      -125947827
+    ]
+  },
+  "map01_lv006": {
+    "battleMusicTriggerEvent": 651879955,
+    "levelInitEvent": [
+      -1369118462,
+      -125947826
+    ]
+  },
+  "map01_lv007": {
+    "battleMusicTriggerEvent": 651879954,
+    "levelInitEvent": [
+      -1369118462,
+      -125947825
+    ]
+  },
+  "map02_lv000": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "map02_lv001": {
+    "battleMusicTriggerEvent": 31157422,
+    "levelInitEvent": [
+      -2028181516,
+      -125947831
+    ]
+  },
+  "map02_lv007": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": [
+      -2028181516,
+      -125947825
+    ]
+  },
+  "qa_performance_enemy": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "qa_whitebox": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "server_test_level": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_001_juju": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_3c_ce": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_ClarkGym": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_bingganbox": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_cooperationdemo": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_enemygroup": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_gwq": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_item_look_dev": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_lv006_new": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_plane": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_prtotype_fyx": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "test_wyr": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "testbed_gameplay": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "testbed_interactive": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "testbed_level_script": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "testbed_npc": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  },
+  "testbed_sound": {
+    "battleMusicTriggerEvent": 0,
+    "levelInitEvent": []
+  }
+}

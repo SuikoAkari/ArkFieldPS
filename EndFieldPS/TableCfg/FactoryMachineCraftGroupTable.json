@@ -1,0 +1,580 @@
+{
+  "group_component_normal": {
+    "craftList": [
+      "component_iron_cmpt_1",
+      "component_glass_cmpt_1",
+      "component_iron_enr_cmpt_1",
+      "component_glass_enr_cmpt_1",
+      "component_copper_cmpt_1"
+    ],
+    "formulaGroupIdGroup": "group_component_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_filling_liquid": {
+    "craftList": [
+      "filling_bottled_food_4_1",
+      "filling_bottled_food_4_2",
+      "filling_bottled_food_5_1",
+      "filling_bottled_rec_hp_4_1",
+      "filling_bottled_rec_hp_4_2",
+      "filling_bottled_rec_hp_5_1"
+    ],
+    "formulaGroupIdGroup": "group_filling_liquid",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          6
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_filling_normal": {
+    "craftList": [
+      "filling_bottled_food_1_1",
+      "filling_bottled_food_2_1",
+      "filling_bottled_food_3_1",
+      "filling_bottled_rec_hp_1_1",
+      "filling_bottled_rec_hp_2_1",
+      "filling_bottled_rec_hp_3_1"
+    ],
+    "formulaGroupIdGroup": "group_filling_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_furnance_liquid": {
+    "craftList": [
+      "furnance_copper_nugget_1",
+      "furnance_iron_nugget_3"
+    ],
+    "formulaGroupIdGroup": "group_furnance_liquid",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          3
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          3
+        ]
+      }
+    ]
+  },
+  "group_furnance_normal": {
+    "craftList": [
+      "furnance_iron_nugget_1",
+      "furnance_iron_nugget_2",
+      "furnance_quartz_glass_1",
+      "furnance_quartz_glass_2",
+      "furnance_crystal_shell_1",
+      "furnance_crystal_shell_2",
+      "furnance_crystal_enr_1",
+      "furnance_iron_enr_1",
+      "furnance_quartz_enr_1",
+      "furnance_carbon_enr_1",
+      "furnance_crystal_enr_powder_1",
+      "furnance_crystal_powder_1",
+      "furnance_carbon_material_1",
+      "furnance_carbon_material_2",
+      "furnance_carbon_material_3",
+      "furnance_carbon_material_4",
+      "furnance_carbon_material_5",
+      "furnance_carbon_material_6",
+      "furnance_carbon_powder_1",
+      "furnance_carbon_powder_2",
+      "furnance_carbon_powder_3",
+      "furnance_carbon_powder_4",
+      "furnance_carbon_powder_5",
+      "furnance_carbon_enr_powder_1",
+      "furnance_carbon_enr_powder_2"
+    ],
+    "formulaGroupIdGroup": "group_furnance_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_grinder_normal": {
+    "craftList": [
+      "grinder_iron_powder_1",
+      "grinder_quartz_powder_1",
+      "grinder_originium_powder_1",
+      "grinder_carbon_powder_1",
+      "grinder_crystal_powder_1",
+      "grinder_plant_moss_powder_1_1",
+      "grinder_plant_moss_powder_2_1",
+      "grinder_plant_moss_powder_3_1",
+      "grinder_plant_bbflower_powder_1_1",
+      "grinder_plant_grass_powder_1_1",
+      "grinder_plant_grass_powder_2_1"
+    ],
+    "formulaGroupIdGroup": "group_grinder_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_mix_pool_1_liquid": {
+    "craftList": [
+      "pool_liquid_plant_grass_1_1",
+      "pool_liquid_plant_grass_2_1"
+    ],
+    "formulaGroupIdGroup": "group_mix_pool_1_liquid",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          2,
+          3
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          2
+        ]
+      },
+      {
+        "bindingPortIndices": [
+          3
+        ]
+      }
+    ]
+  },
+  "group_planter_liquid": {
+    "craftList": [
+      "planter_plant_grass_1_1",
+      "planter_plant_grass_2_1"
+    ],
+    "formulaGroupIdGroup": "group_planter_liquid",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          5
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_planter_normal": {
+    "craftList": [
+      "planter_plant_moss_1_1",
+      "planter_plant_moss_2_1",
+      "planter_plant_moss_3_1",
+      "planter_plant_bbflower_1"
+    ],
+    "formulaGroupIdGroup": "group_planter_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_seedcollector_normal": {
+    "craftList": [
+      "seedcollector_plant_moss_1_1",
+      "seedcollector_plant_moss_2_1",
+      "seedcollector_plant_moss_3_1",
+      "seedcollector_plant_bbflower_1",
+      "seedcollector_plant_grass_1_1",
+      "seedcollector_plant_grass_2_1",
+      "seedcollector_plant_sp_1",
+      "seedcollector_plant_sp_2",
+      "seedcollector_plant_sp_3",
+      "seedcollector_plant_sp_4"
+    ],
+    "formulaGroupIdGroup": "group_seedcollector_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_shaper_liquid": {
+    "craftList": [
+      "shaper_iron_enr_jar_1",
+      "shaper_copper_jar_1"
+    ],
+    "formulaGroupIdGroup": "group_shaper_liquid",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          3
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          3
+        ]
+      }
+    ]
+  },
+  "group_shaper_normal": {
+    "craftList": [
+      "shaper_iron_bottle_1",
+      "shaper_glass_bottle_1",
+      "shaper_iron_enr_bottle_1",
+      "shaper_glass_enr_bottle_1"
+    ],
+    "formulaGroupIdGroup": "group_shaper_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_thickener_normal": {
+    "craftList": [
+      "thickener_iron_enr_powder_1",
+      "thickener_quartz_enr_powder_1",
+      "thickener_originium_enr_powder_1",
+      "thickener_carbon_enr_powder_1",
+      "thickener_crystal_enr_powder_1",
+      "thickener_plant_moss_enr_powder_1_1",
+      "thickener_plant_moss_enr_powder_2_1"
+    ],
+    "formulaGroupIdGroup": "group_thickener_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_tools_normal": {
+    "craftList": [
+      "tools_proc_bomb_1_1",
+      "tools_proc_battery_1_1",
+      "tools_proc_battery_2_1",
+      "tools_proc_battery_3_1"
+    ],
+    "formulaGroupIdGroup": "group_tools_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_winder_normal": {
+    "craftList": [
+      "winder_equip_script_1",
+      "winder_equip_script_2",
+      "winder_equip_script_3",
+      "winder_equip_script_4"
+    ],
+    "formulaGroupIdGroup": "group_winder_normal",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "msPerRound": 1000,
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  }
+}
