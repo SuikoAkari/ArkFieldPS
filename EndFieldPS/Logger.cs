@@ -38,6 +38,13 @@ public static class Logger
         string prefix = "<" + "ERROR".Pastel("eb4034") + $":{className.Pastel("999")}>";
         Console.WriteLine($"{prefix} " + text.Pastel("917e7e"));
     }
+    public static void PrintWarn(string text)
+    {
+        string className = GetCallingClassName();
+        Logger.Log(text);
+        string prefix = "<" + "WARN".Pastel("ff9100") + $":{className.Pastel("999")}>";
+        Console.WriteLine($"{prefix} " + text);
+    }
     public static string GetColor(string c)
     {
         if (ClassColors.ContainsKey(c)) return ClassColors[c];
