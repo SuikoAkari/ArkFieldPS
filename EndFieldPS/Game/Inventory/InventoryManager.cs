@@ -1,5 +1,7 @@
 ﻿using EndFieldPS.Database;
+using EndFieldPS.Packets.Sc;
 using EndFieldPS.Resource;
+using Google.Protobuf.Collections;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +31,11 @@ namespace EndFieldPS.Game.Inventory
                 if (items.Find(i => i.id == "item_gold") == null) return 0;
                 return items.Find(i => i.id == "item_gold")!.amount;
             }
+        }
+
+        public Item GetItemById(string id)
+        {
+            return items.Find(i => i.id == id);
         }
         public InventoryManager(Player o) {
 
@@ -77,6 +84,48 @@ namespace EndFieldPS.Game.Inventory
             }
 
             
+        }
+        public void RemoveItem(Item item,int amt)
+        {
+            item.amount -= amt;
+            if(item.amount <= 0)
+            {
+                items.Remove(item);
+            }
+            this.owner.Send(new PacketScItemBagScopeModify(this.owner, item));
+        }
+        public bool ConsumeItems(RepeatedField<ItemInfo> items)
+        {
+            bool found = true;
+            foreach (ItemInfo item in items)
+            {
+                Item i= GetItemById(item.ResId);
+                if (i != null)
+                {
+                    if(i.amount < item.ResCount)
+                    {
+                        found = false;
+                        break;
+                    }
+                }
+                else
+                {
+                    found = false;
+                    break;
+                }
+            }
+            foreach (ItemInfo item in items)
+            {
+                Item i = GetItemById(item.ResId);
+                if (i != null)
+                {
+                    if (i.amount >= item.ResCount)
+                    {
+                       RemoveItem(i,item.ResCount);
+                    }
+                }
+            }
+            return found;
         }
     }
 }

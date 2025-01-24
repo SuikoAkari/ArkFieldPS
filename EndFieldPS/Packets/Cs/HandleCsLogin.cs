@@ -81,10 +81,11 @@ namespace EndFieldPS.Packets.Cs
             };
             session.Send(ScMessageId.ScItemBagCommonSync, common);
             session.Send(new PacketScItemBagScopeSync(session,ItemValuableDepotType.Weapon));
+            session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.WeaponGem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.CommercialItem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Factory));
+            session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.SpecialItem));
             
-
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
 
             {

@@ -14,6 +14,15 @@ namespace EndFieldPS.Resource
         Completed = 3,
         Failed = 4
     }
+    public enum TalentNodeType // TypeDefIndex: 33688
+    {
+        None = 0,
+        CharBreak = 1,
+        EquipBreak = 2,
+        Attr = 3,
+        PassiveSkill = 4,
+        FactorySkill = 5
+    }
     public enum GuideState // TypeDefIndex: 33634
     {
         None = 0,
