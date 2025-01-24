@@ -11,13 +11,14 @@ EndFieldPS is a private server for EndField CBT2
 *   Character switch
 *   Team switch
 *   Scene switch (work for some scene for now)
+*   Save data with MongoDB
 
 ## Installation Steps:
-
-1. Download precompiled build or build yourself
-2. Put Json and TableCfg folder inside the .exe folder (You can download a copy here https://github.com/PotRooms/EndFieldData/tree/main)
-3. Run the server
-4. Run Fiddler classic and use this FiddlerScript
+1. Install mongodb if not have it already
+2. Download precompiled build or build yourself
+3. Put Json and TableCfg folder inside the .exe folder (You can download a copy here https://github.com/PotRooms/EndFieldData/tree/main)
+4. Run the server
+5. Run Fiddler classic and use this FiddlerScript
 ```javascript
 import System;
 import System.Windows.Forms;
@@ -39,7 +40,7 @@ class Handlers
     }
 };
 ```
-5. Run the client and start to play! (Note: Only OS client is supported for now)
-
+6. Run the client and start to play! (Note: Only OS client is supported for now)
+7. Need to create an account using: account create (username) in the console, then login with email (username)@randomemailformathere.whatyouwant . There is no password so random password for the password field.
 # Note
 This project was not created with the intention of replacing the official servers. For removal requests or clarifications contact me on Telegram: @SuikoAkari

@@ -1,6 +1,7 @@
 ﻿
 using BeyondTools.VFS.Crypto;
 using EndFieldPS.Commands;
+using EndFieldPS.Database;
 using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
@@ -47,7 +48,7 @@ namespace EndFieldPS
             public delegate void HandlerDelegate(string command, string[] args);
         }
         public static List<Player> clients = new List<Player>();
-        public static string ServerVersion = "1.0.2";
+        public static string ServerVersion = "1.0.3";
         public static bool Initialized = false;
         public static bool showLogs = true;
         public static SQLiteConnection _db;
@@ -80,8 +81,9 @@ namespace EndFieldPS
             Logger.Initialize(); // can also pass hideLogs here
             showLogs = !hideLogs;
             // showLogs = false;
-            Print($"Logs are {(showLogs ? "enabled" : "disabled")}");
+            Logger.Print($"Logs are {(showLogs ? "enabled" : "disabled")}");
             Server.config = config;
+            DatabaseManager.Init();
             ResourceManager.Init();
             new Thread(new ThreadStart(DispatchServer)).Start();
             
@@ -94,7 +96,7 @@ namespace EndFieldPS
             {
                 serverSocket.Bind(new IPEndPoint(ipAddress, port));
                 serverSocket.Listen(config.MaxClients);
-                Print($"Server listening on {ipAddress}:{port}");
+                Logger.Print($"Server listening on {ipAddress}:{port}");
                 Initialized = true;
                 while (true)
                 {
@@ -106,7 +108,7 @@ namespace EndFieldPS
                         clients.Add(client);
                         client.receivorThread.Start();
 
-                        Print("Connected new client: " + clients.Count());
+                        Logger.Print("Connected new client: " + clients.Count());
                     }
 
 
@@ -114,13 +116,13 @@ namespace EndFieldPS
             }
             catch (Exception ex)
             {
-                Print($"Error: {ex.Message}");
+                Logger.PrintError($" {ex.Message}");
             }
             finally
             {
                 // Arresta il server
                 serverSocket.Close();
-                Print("Server stopped.");
+                Logger.Print("Server stopped.");
             }
 
         }
@@ -138,7 +140,7 @@ namespace EndFieldPS
                 }
                 catch (Exception ex)
                 {
-                    Print(ex.Message);
+                    Logger.Print(ex.Message);
                 }
 
             } 
