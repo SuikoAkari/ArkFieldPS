@@ -52,6 +52,7 @@ namespace EndFieldPS.Resource
             if (levelDatas.Find(a => a.id == name) == null) return 0;
             return levelDatas.Find(a => a.id == name).idNum;
         }
+        public static bool missingResources = false;
         public static string ReadJsonFile(string path)
         {
             try
@@ -61,6 +62,7 @@ namespace EndFieldPS.Resource
             catch(Exception e)
             {
                 Logger.PrintError($"Error occured while loading {path}");
+                missingResources = true;
                 return "";
             }
         }
@@ -89,6 +91,10 @@ namespace EndFieldPS.Resource
             charBreakNodeTable = JsonConvert.DeserializeObject<Dictionary<string, CharBreakNodeTable>>(ReadJsonFile("TableCfg/CharBreakNodeTable.json"));
             enemyAttributeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, EnemyAttributeTemplateTable>>(ReadJsonFile("TableCfg/EnemyAttributeTemplateTable.json"));
             LoadLevelDatas();
+            if (missingResources)
+            {
+                Logger.PrintWarn("Missing some resources. The gameserver will probably crash.");
+            }
         }
         public static ItemTable GetItemTable(string id)
         {
