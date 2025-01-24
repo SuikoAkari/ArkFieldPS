@@ -47,6 +47,7 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, CharLevelUpTable> charLevelUpTable = new();
         public static Dictionary<string, ExpItemDataMap> expItemDataMap = new();
         public static Dictionary<string, CharGrowthTable> charGrowthTable = new();
+        public static Dictionary<string, WeaponUpgradeTemplateTable> weaponUpgradeTemplateTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -96,6 +97,7 @@ namespace EndFieldPS.Resource
             charLevelUpTable = JsonConvert.DeserializeObject<Dictionary<string, CharLevelUpTable>>(ReadJsonFile("TableCfg/CharLevelUpTable.json"));
             expItemDataMap = JsonConvert.DeserializeObject<Dictionary<string, ExpItemDataMap>>(ReadJsonFile("TableCfg/ExpItemDataMap.json"));
             charGrowthTable = JsonConvert.DeserializeObject<Dictionary<string, CharGrowthTable>>(ReadJsonFile("TableCfg/CharGrowthTable.json"));
+            weaponUpgradeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponUpgradeTemplateTable>>(ReadJsonFile("TableCfg/WeaponUpgradeTemplateTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
@@ -269,6 +271,19 @@ namespace EndFieldPS.Resource
         {
             public int weaponType;
             public string weaponId;
+            public string levelTemplateId;
+        }
+        public class WeaponUpgradeTemplateTable
+        {
+            public List<WeaponCurve> list;
+
+            public class WeaponCurve
+            {
+                public float baseAtk;
+                public ulong lvUpExp;
+                public ulong lvUpGold;
+                public ulong weaponLv;
+            }
         }
         public class DomainDataTable
         {

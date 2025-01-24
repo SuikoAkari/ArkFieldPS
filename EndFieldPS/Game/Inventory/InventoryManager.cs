@@ -94,6 +94,19 @@ namespace EndFieldPS.Game.Inventory
             }
             this.owner.Send(new PacketScItemBagScopeModify(this.owner, item));
         }
+        public bool ConsumeItems(MapField<string, ulong> costItemId2Count)
+        {
+            RepeatedField<ItemInfo> items = new RepeatedField<ItemInfo>();
+            foreach (var item in costItemId2Count)
+            {
+                items.Add(new ItemInfo()
+                {
+                    ResCount=(int)item.Value,
+                    ResId=item.Key,
+                });
+            }
+            return ConsumeItems(items);
+        }
         public bool ConsumeItems(RepeatedField<ItemInfo> items)
         {
             bool found = true;
@@ -127,5 +140,7 @@ namespace EndFieldPS.Game.Inventory
             }
             return found;
         }
+
+
     }
 }

@@ -32,6 +32,7 @@ namespace EndFieldPS.Game.Character
         public string breakNode = "charBreak20";
         public List<string> passiveSkillNodes = new();
         public List<string> attrNodes = new();
+        public List<string> factoryNodes = new();
         public Character()
         {
            
@@ -57,6 +58,9 @@ namespace EndFieldPS.Game.Character
                     break;
                 case TalentNodeType.PassiveSkill:
                     passiveSkillNodes.Add(nodeId);
+                    break;
+                case TalentNodeType.FactorySkill:
+                    factoryNodes.Add(nodeId);
                     break;
                 default:
                     Logger.PrintWarn($"Unimplemented NodeType {nodeInfo.nodeType}, not unlocked server side.");
@@ -208,9 +212,10 @@ namespace EndFieldPS.Game.Character
                     {
                         attrNodes
                     },
+                    
                     LatestFactorySkillNodes =
                     {
-
+                        factoryNodes
                     }
                 },
                 BattleMgrInfo = new()
