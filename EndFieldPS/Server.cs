@@ -48,7 +48,7 @@ namespace EndFieldPS
             public delegate void HandlerDelegate(string command, string[] args);
         }
         public static List<Player> clients = new List<Player>();
-        public static string ServerVersion = "1.0.3";
+        public static string ServerVersion = "1.1.0-dev";
         public static bool Initialized = false;
         public static bool showLogs = true;
         public static SQLiteConnection _db;
