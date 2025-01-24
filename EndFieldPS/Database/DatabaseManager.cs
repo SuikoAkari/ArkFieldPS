@@ -14,7 +14,7 @@ namespace EndFieldPS.Database
             Logger.Print("Connecting to MongoDB..."); 
             try
             {
-                db = new Database("mongodb://localhost:27017", "endfieldps");
+                db = new Database(Server.config.MongoDb_connectionUri, Server.config.MongoDb_databaseName);
                 Logger.Print("Connected to MongoDB database");
             }
             catch (Exception ex)
