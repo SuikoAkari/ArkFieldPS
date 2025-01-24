@@ -96,11 +96,11 @@ namespace EndFieldPS.Game.Inventory
                 case ItemValuableDepotType.Weapon:
                     return true;
                 case ItemValuableDepotType.WeaponGem:
-                    return true;
+                    return false;
                 case ItemValuableDepotType.Equip:
                     return true;
                 case ItemValuableDepotType.SpecialItem:
-                    return true;
+                    return false;
                 case ItemValuableDepotType.MissionItem:
                     return true;
                 default:

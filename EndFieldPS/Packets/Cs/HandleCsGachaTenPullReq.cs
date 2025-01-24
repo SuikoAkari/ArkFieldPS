@@ -54,29 +54,40 @@ namespace EndFieldPS.Packets.Cs
             {
                 GachaPoolId=req.GachaPoolId,
                 GachaType=req.GachaType,
-                
+                OriResultIds =
+                {
+                },
                 Star5GotCount= fivestarcount,
                 Star6GotCount= sixstarcount,
                 FinalResults =
                 {
 
                 },
-                UpGotCount=chars.Count,
+                UpGotCount=1,
                 
-            };
+            }; 
             foreach(string ch in chars)
             {
+                result.OriResultIds.Add("item_originium_ore");
                 result.FinalResults.Add(new ScdGachaFinalResult()
                 {
                     IsNew=true,
                     ItemId=ch,
+                    
                     RewardItemId=ch,
+                    RewardIds =
+                    {
+                        ch
+                    },
                     
                 });
             }
-            session.Send(ScMessageId.ScGachaBegin, new Empty());
-            session.Send(ScMessageId.ScGachaSyncPullResult, result); 
             
+
+            //session.Send(ScMessageId.ScGachaBegin, new Empty());
+            session.Send(ScMessageId.ScGachaSyncPullResult, result);
+          //  session.Send(CsMessageId.CsGachaEnd, new Empty());
+
         }
        
     }
