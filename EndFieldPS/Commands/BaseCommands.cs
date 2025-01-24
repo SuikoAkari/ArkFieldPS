@@ -1,4 +1,5 @@
-﻿using EndFieldPS.Protocol;
+﻿using EndFieldPS.Database;
+using EndFieldPS.Protocol;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,20 @@ namespace EndFieldPS.Commands
             foreach (var item in Server.clients)
             {
                 item.EnterScene(sceneNumId);
+            }
+        }
+        [Server.Command("account", "account command")]
+        public static void AccountCmd(string cmd, string[] args)
+        {
+            if (args.Length < 2) return;
+            switch (args[0])
+            {
+                case "create":
+                    DatabaseManager.db.CreateAccount(args[1]);
+                    break;
+                default:
+                    Logger.Print("Example: account create (username)");
+                    break;
             }
         }
         [Server.Command("spawn", "Spawn cmd test")]

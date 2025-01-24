@@ -41,6 +41,6 @@ class Handlers
 };
 ```
 6. Run the client and start to play! (Note: Only OS client is supported for now)
-7. Right now you don't need to create an account, data will be saved with the current hardcoded token, login with random email and password.
+7. Need to create an account using: account create (username) in the console, then login with email (username)@randomemailformathere.whatyouwant . There is no password so random password for the password field.
 # Note
 This project was not created with the intention of replacing the official servers. For removal requests or clarifications contact me on Telegram: @SuikoAkari
