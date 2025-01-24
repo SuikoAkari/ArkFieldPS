@@ -25,10 +25,6 @@ namespace EndFieldPS
             public string token { get; set; }
         }
         public Webserver server;
-        public static void Print(string text)
-        {
-            Console.WriteLine($"[{Server.ColoredText("Dispatch", "0307fc")}] " + text);
-        }
         public void Start()
         {
             server = new Webserver(Server.config.DispatchIp, Server.config.DispatchPort, false, null, null, DefaultRoute);
@@ -39,27 +35,27 @@ namespace EndFieldPS
             server.Events.ConnectionReceived += Events_ConnectionReceived;
      
             server.Start();
-            Print($"Dispatch started on {Server.config.DispatchIp}:{Server.config.DispatchPort}");
+            Logger.Print($"Dispatch started on {Server.config.DispatchIp}:{Server.config.DispatchPort}");
         }
 
         private void Events_ConnectionReceived(object? sender, ConnectionEventArgs e)
         {
-            Print("Requested " + e.Ip+":"+e.Port);
+            Logger.Print("Requested " + e.Ip+":"+e.Port);
         }
 
         private void Events_RequestDenied(object? sender, RequestEventArgs e)
         {
-            Print("Denied " + e.Url);
+            Logger.Print("Denied " + e.Url);
         }
 
         private void Events_RequestReceived(object? sender, RequestEventArgs e)
         {
-            Print("Requested " + e.Url);
+            Logger.Print("Requested " + e.Url);
         }
 
         private void Events_ResponseSent(object? sender, ResponseEventArgs e)
         {
-            Print("Sent " + e.Url + " status: " + e.StatusCode);
+            Logger.Print("Sent " + e.Url + " status: " + e.StatusCode);
         }
 
         static async Task DefaultRoute(HttpContext ctx)

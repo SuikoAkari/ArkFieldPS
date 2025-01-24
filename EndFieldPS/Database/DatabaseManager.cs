@@ -11,14 +11,16 @@ namespace EndFieldPS.Database
         public static Database db;
         public static void Init()
         {
-            Logger.Print("Connecting to mongodb...");
+            Logger.Print("Connecting to MongoDB..."); 
             try
             {
                 db = new Database("mongodb://localhost:27017", "endfieldps");
+                Logger.Print("Connected to MongoDB database");
             }
             catch (Exception ex)
             {
                 Logger.PrintError(ex.Message);
+                Logger.PrintError("Without initialized database the game server will crash. You can't run this server without MongoDB");
             }
            
         }
