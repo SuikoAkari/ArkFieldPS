@@ -27,6 +27,7 @@ namespace EndFieldPS.Database
         public uint level = 20;
         public uint xp = 0;
         public string nickname = "Endministrator";
+        public int teamIndex = 0;
         public List<Team> teams = new List<Team>();
         public ulong totalGuidCount = 1;
     }
@@ -93,7 +94,8 @@ namespace EndFieldPS.Database
                 roleId=player.roleId,
                 teams=player.teams,
                 xp=player.xp,
-                totalGuidCount=player.random.v
+                totalGuidCount=player.random.v,
+                teamIndex=player.teamIndex,
             };
             UpsertPlayerDataAsync(data);
         }

@@ -85,6 +85,7 @@ namespace EndFieldPS
                 teams = data.teams;
                 roleId = data.roleId;
                 random.v = data.totalGuidCount;
+                teamIndex = data.teamIndex;
                 LoadCharacters();
                 inventoryManager.Load();
             }
@@ -190,7 +191,7 @@ namespace EndFieldPS
                         byte[] moreData = new byte[bodyLength+headLength];
                         while (socket.Available < moreData.Length)
                         {
-
+                        
                         }
                         int mLength = socket.Receive(moreData);
                         if (mLength == moreData.Length)
