@@ -1,4 +1,5 @@
 ﻿using BeyondTools.VFS.Crypto;
+using EndFieldPS.Database;
 using EndFieldPS.Game;
 using EndFieldPS.Network;
 using EndFieldPS.Packets.Sc;
@@ -22,7 +23,7 @@ namespace EndFieldPS.Packets.Cs
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsLogin req = packet.DecodeBody<CsLogin>();
-            
+            Account account = DatabaseManager.db.GetAccountByTokenGrant(req.Token);
             ScLogin rsp = new()
             {
                 IsEnc = false,
@@ -38,13 +39,26 @@ namespace EndFieldPS.Packets.Cs
             byte[] encryptedEncKey = EncryptWithRsa(encKey, serverPublicKey);
             byte[] serverEncrypNonce = GenerateRandomBytes(12);
            // rsp.ServerEncrypNonce = ByteString.CopyFrom(serverEncrypNonce);
-          //  rsp.ServerPublicKey = ByteString.CopyFrom(encryptedEncKey);
+           // rsp.ServerPublicKey = ByteString.CopyFrom(encryptedEncKey);
        
             CSChaCha20 cipher = new CSChaCha20(encKey, serverEncrypNonce, 1);
             if (req.ClientVersion == GameConstants.GAME_VERSION)
             {
+                if (account == null)
+                {
+                    session.Send(ScMessageId.ScNtfErrorCode, new ScNtfErrorCode()
+                    {
+                        Details = "Account error",
+                        ErrorCode = -1
+                    });
+                    session.Disconnect();
+                    return;
+                }
+                session.Load(account.id);
+                
+                rsp.Uid = ""+session.accountId;
                 session.Send(ScMessageId.ScLogin, rsp);
-                session.Load(req.Token);
+                
             }
             else
             {
@@ -66,8 +80,10 @@ namespace EndFieldPS.Packets.Cs
 
             };
             session.Send(ScMessageId.ScItemBagCommonSync, common);
-            session.Send(new PacketScItemBagScopeSync(session));
-            session.Send(new PacketScSyncCharBagInfo(session));
+            session.Send(new PacketScItemBagScopeSync(session,ItemValuableDepotType.Weapon));
+            session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.CommercialItem));
+            session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Factory));
+            
 
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
 
@@ -230,11 +246,12 @@ namespace EndFieldPS.Packets.Cs
                 MaxStamina = 200,
 
             };
+            session.Send(new PacketScSyncCharBagInfo(session));
             session.Send(ScMessageId.ScSyncFullDungeonStatus, dst);
             session.Send(new PacketScSpaceshipSync(session));
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
-            session.EnterScene(98); //101
-
+            session.EnterScene(); //101
+            session.Initialized = true;
         }
         static byte[] GenerateRandomBytes(int length)
         {

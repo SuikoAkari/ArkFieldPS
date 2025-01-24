@@ -21,17 +21,18 @@ using EndFieldPS.Game.Character;
 using EndFieldPS.Resource;
 using EndFieldPS.Game.Inventory;
 using static EndFieldPS.Resource.ResourceManager;
+using EndFieldPS.Database;
 
 
 namespace EndFieldPS
 {
     public class GuidRandomizer
     {
-        public ulong v = 0;
+        public ulong v = 1;
         public ulong Next()
         {
             v++;
-            return v;
+            return (ulong)v;
         }
     }
     public class Player
@@ -47,7 +48,7 @@ namespace EndFieldPS
         public Thread receivorThread;
         public Socket socket;
         //Data
-        public string token = "";
+        public string accountId = "";
         public string nickname = "Endministrator";
         public ulong roleId= 1;
         public uint level = 20;
@@ -60,8 +61,8 @@ namespace EndFieldPS
         public InventoryManager inventoryManager;
 
         public int teamIndex = 0;
-        public List<Team> teams= new List<Team>();  
-
+        public List<Team> teams= new List<Team>();
+        public bool Initialized = false;
         public Player(Socket socket)
         {
             this.socket = socket;
@@ -70,11 +71,34 @@ namespace EndFieldPS
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
-        public void Load(string token)
+        public void Load(string accountId)
         {
-            //TODO
-            this.token = token;
-            Initialize(); //only if no account found (no mongodb implementation for now, so calling this directly)
+            this.accountId = accountId;
+            PlayerData data = DatabaseManager.db.GetPlayerById(this.accountId);
+            Logger.Print("data is " + (data != null).ToString());
+            if (data != null)
+            {
+                nickname=data.nickname;
+                position = data.position;
+                rotation = data.rotation;
+                curSceneNumId = data.curSceneNumId;
+                teams = data.teams;
+                roleId = data.roleId;
+                random.v = data.totalGuidCount;
+                teamIndex = data.teamIndex;
+                LoadCharacters();
+                inventoryManager.Load();
+            }
+            else
+            {
+                Initialize(); //only if no account found
+            }
+           
+        }
+        public void LoadCharacters()
+        {
+            chars = DatabaseManager.db.LoadCharacters(roleId);
+            Logger.Print($"Loaded {chars.Count} characters for {nickname} ({roleId})");
         }
         public void Initialize()
         {
@@ -86,7 +110,7 @@ namespace EndFieldPS
             {
                 if(item.Value.maxStackCount == -1)
                 {
-                    inventoryManager.items.Add(new Item(roleId, item.Value.id, 10000000));
+                    inventoryManager.items.Add(new Item(roleId, item.Value.id, 1000000));
                 }
                 else
                 {
@@ -105,11 +129,16 @@ namespace EndFieldPS
             teams.Add(new Team());
 
         }
-        public Weapon AddWeapon(string id, ulong level)
+        public void EnterScene()
         {
-            Weapon weapon = new Weapon(roleId, id, level);
-            inventoryManager.weapons.Add(weapon);
-            return weapon;
+            if (curSceneNumId == 0)
+            {
+                EnterScene(98); //or 101
+            }
+            else
+            {
+                Send(new PacketScEnterSceneNotify(this, curSceneNumId));
+            }
         }
         public void EnterScene(int sceneNumId)
         {
@@ -118,6 +147,7 @@ namespace EndFieldPS
             rotation = GetLevelData(sceneNumId).playerInitRot;
             Send(new PacketScEnterSceneNotify(this,sceneNumId));
         }
+
         public bool SocketConnected(Socket s)
         {
             return !((s.Poll(1000, SelectMode.SelectRead) && (s.Available == 0)) || !s.Connected);
@@ -161,7 +191,7 @@ namespace EndFieldPS
                         byte[] moreData = new byte[bodyLength+headLength];
                         while (socket.Available < moreData.Length)
                         {
-
+                        
                         }
                         int mLength = socket.Receive(moreData);
                         if (mLength == moreData.Length)
@@ -185,9 +215,24 @@ namespace EndFieldPS
 
         public void Disconnect()
         {
-           Server.clients.Remove(this);
+            Server.clients.Remove(this);
+            if(Initialized)Save();
             Logger.Print($"{nickname} Disconnected");
-            //TODO Save
+            
+        }
+        public void Save()
+        {
+            //Save playerdata
+            DatabaseManager.db.SavePlayerData(this);
+            SaveCharacters();
+            inventoryManager.Save();
+        }
+        public void SaveCharacters()
+        {
+            foreach(Character c in chars)
+            {
+                DatabaseManager.db.UpsertCharacterAsync(c);
+            }
         }
     }
 }
