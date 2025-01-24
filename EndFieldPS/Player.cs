@@ -48,7 +48,7 @@ namespace EndFieldPS
         public Thread receivorThread;
         public Socket socket;
         //Data
-        public string token = "";
+        public string accountId = "";
         public string nickname = "Endministrator";
         public ulong roleId= 1;
         public uint level = 20;
@@ -61,8 +61,8 @@ namespace EndFieldPS
         public InventoryManager inventoryManager;
 
         public int teamIndex = 0;
-        public List<Team> teams= new List<Team>();  
-
+        public List<Team> teams= new List<Team>();
+        public bool Initialized = false;
         public Player(Socket socket)
         {
             this.socket = socket;
@@ -71,11 +71,10 @@ namespace EndFieldPS
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
-        public void Load(string token)
+        public void Load(string accountId)
         {
-            //TODO
-            this.token = token;
-            PlayerData data = DatabaseManager.db.GetPlayerByToken(this.token);
+            this.accountId = accountId;
+            PlayerData data = DatabaseManager.db.GetPlayerById(this.accountId);
             Logger.Print("data is " + (data != null).ToString());
             if (data != null)
             {
@@ -98,7 +97,7 @@ namespace EndFieldPS
         public void LoadCharacters()
         {
             chars = DatabaseManager.db.LoadCharacters(roleId);
-            Logger.Print($"Loaded {chars.Count} characters for {nickname}({roleId})");
+            Logger.Print($"Loaded {chars.Count} characters for {nickname} ({roleId})");
         }
         public void Initialize()
         {
@@ -216,7 +215,7 @@ namespace EndFieldPS
         public void Disconnect()
         {
             Server.clients.Remove(this);
-            Save();
+            if(Initialized)Save();
             Logger.Print($"{nickname} Disconnected");
             
         }

@@ -1,4 +1,5 @@
-﻿using EndFieldPS.Game;
+﻿using EndFieldPS.Database;
+using EndFieldPS.Game;
 using Google.Protobuf.WellKnownTypes;
 using HttpServerLite;
 using MongoDB.Bson.IO;
@@ -15,15 +16,6 @@ namespace EndFieldPS
 {
     public class Dispatch
     {
-        public class Account()
-        {
-            [Column("account")]
-            public string account { get; set; }
-            [Column("password")]
-            public string md5password { get; set; }
-            [Column("token")]
-            public string token { get; set; }
-        }
         public Webserver server;
         public void Start()
         {
@@ -146,15 +138,28 @@ namespace EndFieldPS
 
             await ctx.Response.SendAsync(resp);
         }
-
+        public struct LoginJson
+        {
+            public string email;
+            public int from;
+            public string password;
+        }
         [StaticRoute(HttpServerLite.HttpMethod.POST, "/user/auth/v1/token_by_email_password")]
         public static async Task token_login(HttpContext ctx)
         {
             string requestBody = ctx.Request.DataAsString;
+            LoginJson body = Newtonsoft.Json.JsonConvert.DeserializeObject<LoginJson>(requestBody);
+            Account account = DatabaseManager.db.GetAccountByUsername(body.email.Split("@")[0]);
             Console.WriteLine(requestBody);
-            string resp = "{    \"msg\":\"OK\",    \"status\":0,    \"type\":\"A\",    \"token\":\"/pcMj2PHpRMe9wDkZZMux7fl\"}";
-
-
+            string resp = "{}";
+            if(account != null)
+            {
+                resp = "{\"msg\":\"OK\",\"status\":0,\"type\":\"A\",\"data\":{\"token\":\"" + account.token+"\"}}";
+            }
+            else
+            {
+                resp = "{\"msg\":\"Account not found\",\"status\":2,\"type\":\"A\"}";
+            }
 
             ctx.Response.StatusCode = 200;
             //ctx.Response.ContentLength = resp.Length;
@@ -165,7 +170,18 @@ namespace EndFieldPS
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/user/info/v1/basic")]
         public static async Task account_info_get(HttpContext ctx)
         {
+            string requestToken = ctx.Request.Query.Elements["token"];
+            Account account = DatabaseManager.db.GetAccountByToken(requestToken);
             string resp = "{\"data\":{\"hgId\":\"1799321925\",\"email\":\"dispatch@endfield.ps\",\"realEmail\":\"dispatch@endfield.ps\",\"isLatestUserAgreement\":true,\"nickName\":\"Endfield PS\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
+            if (account != null)
+            {
+                resp = "{\"data\":{\"hgId\":\""+account.id+"\",\"email\":\""+account.username+"@endfield.ps\",\"realEmail\":\""+account.username+"@endfield.ps\",\"isLatestUserAgreement\":true,\"nickName\":\""+account.username+"\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
+            }
+            else
+            {
+                resp = "{\"msg\":\"Account not found\",\"status\":2,\"type\":\"A\"}";
+            }
+            
 
 
 
@@ -175,7 +191,7 @@ namespace EndFieldPS
 
             await ctx.Response.SendAsync(resp);
         }
-        public class GrantClass
+        public struct GrantData
         {
             public string token;
         }
@@ -184,11 +200,14 @@ namespace EndFieldPS
         {
             string requestBody = ctx.Request.DataAsString;
 
-            GrantClass grant = Newtonsoft.Json.JsonConvert.DeserializeObject<GrantClass>(requestBody);
-            string resp = "{  \"data\": {  \"uid\": \"1\",  \"code\": \"5PHvncclDlHKfx/hW11YeaZGyw9QS+HAR25lkW+cQVU71RfAi3JK9mrYtUVz81NXqLbG6jwqMZfpQ7DYWxLk+PHCZ81TyWq4RHGvBf/VZdNx13JqC9YL7wfMtpXRQ2DYT1LgMv5KNXbz8JhW+aGVt91R2XYFbqlcJ7DZqHwMTVkNpU6W1R3YC4FZ+JRqCT8KvlyNHgT8\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"A\"}";
+            GrantData grant = Newtonsoft.Json.JsonConvert.DeserializeObject<GrantData>(requestBody);
+            Account account = DatabaseManager.db.GetAccountByToken(grant.token);
+            string resp = "{\"msg\": \"Error\",  \"status\": 2,  \"type\": \"A\"}";
+            if (account != null)
+            {
+                resp = "{\"data\": {  \"uid\": \"" + account.id + "\",  \"code\": \"" + DatabaseManager.db.GrantCode(account) + "\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"A\"}";
+            }
 
-
-           
             ctx.Response.StatusCode = 200;
          
             ctx.Response.ContentType = "application/json";
@@ -200,10 +219,13 @@ namespace EndFieldPS
         {
             string requestBody = ctx.Request.DataAsString;
 
-            GrantClass grant = Newtonsoft.Json.JsonConvert.DeserializeObject<GrantClass>(requestBody);
-            string resp = "{  \"data\": {  \"uid\": \"1\",  \"code\": \"5PHvncclDlHKfx/hW11YeaZGyw9QS+HAR25lkW+cQVU71RfAi3JK9mrYtUVz81NXqLbG6jwqMZfpQ7DYWxLk+PHCZ81TyWq4RHGvBf/VZdNx13JqC9YL7wfMtpXRQ2DYT1LgMv5KNXbz8JhW+aGVt91R2XYFbqlcJ7DZqHwMTVkNpU6W1R3YC4FZ+JRqCT8KvlyNHgT8\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"A\"}";
-
-
+            GrantData grant = Newtonsoft.Json.JsonConvert.DeserializeObject<GrantData>(requestBody);
+            Account account = DatabaseManager.db.GetAccountByTokenGrant(grant.token);
+            string resp = "{\"msg\": \"Error\",  \"status\": 2,  \"type\": \"A\"}";
+            if (account != null)
+            {
+                resp = "{\"data\": {  \"uid\": \""+account.id+"\",  \"code\": \""+account.grantToken+ "\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"A\"}";
+            }
 
             ctx.Response.StatusCode = 200;
 
@@ -257,20 +279,37 @@ namespace EndFieldPS
 
             await ctx.Response.SendAsync(resp);
         }
+        public class TokenChannelData
+        {
+            public string channelToken;
+
+        }
+        public class ChannelTokenData
+        {
+            public string code;
+        }
         [StaticRoute(HttpServerLite.HttpMethod.POST, "/u8/user/auth/v2/token_by_channel_token")]
         public static async Task token_channel_token(HttpContext ctx)
         {
-            string requestBody = ctx.Request.DataAsString;
-            Console.WriteLine(requestBody);
-            string resp = "{  \"data\": {    \"token\":\"2f268842ce98e35dc22285d042b7f09dfe26cb1fe6fcd9575b5c2139e27deb55118b1c43f81806a2832809e4598ea407c97020759020bd2c979a94060090ff3573c6ea915c487935eb567a14ab2675f76d7ec384d2ccce21ab31e8b725f92aff1cb86cecc884a8d066b49156117279d8a22abdf42d941e50da5a748b67c9ce5cdc63a5386ada6b4f824dda9e4fdcb706bf572af82e23d3f9565fb516f5b66fa07a4e9e451ce5ef5029e56b5a1aa54b1fffa5008ed797fb767daab43de833e889d14dc76aac67d1158afb71b6143be644ba20c32e3d6928e74cc888a09c094365d7f2db14f5c3ac2b569ac42c07f37635ec5519f3a4b5e5d80959c18d86ee7fe5b7a81c1a9de95fb94b2a67e6bc62ce6595e688b07a62\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"\"}";
+            try
+            {
+                string requestBody = ctx.Request.DataAsString;
+                Console.WriteLine(requestBody);
+                TokenChannelData data = Newtonsoft.Json.JsonConvert.DeserializeObject<TokenChannelData>(requestBody);
+                ChannelTokenData channelTokenBody = Newtonsoft.Json.JsonConvert.DeserializeObject<ChannelTokenData>(data.channelToken);
+                string resp = "{  \"data\": {    \"token\":\"" + channelTokenBody.code + "\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"\"}";
 
+                ctx.Response.StatusCode = 200;
 
+                ctx.Response.ContentType = "application/json";
 
-            ctx.Response.StatusCode = 200;
+                await ctx.Response.SendAsync(resp);
+            }
+            catch(Exception e)
+            {
+                Logger.PrintError(e.Message);
+            }
 
-            ctx.Response.ContentType = "application/json";
-
-            await ctx.Response.SendAsync(resp);
         }
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/meta")]
         public static async Task drawButton(HttpContext ctx)
