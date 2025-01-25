@@ -30,5 +30,3 @@ jobs:
       with:
           name: dotnet-${{ matrix.dotnet-version }}-build-windows
           path: EndFieldPS
-          # Use always() to always run this step to publish test results when there are test failures
-          if: ${{ always() }}
