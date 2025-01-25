@@ -43,6 +43,8 @@ EndFieldPS is a private server for EndField CBT2.
         }
     };
     ```
+    Make sure to enable "Decrypt HTTPS traffic" within fiddler! 
+      - Tools (top left in menubar) -> Options -> HTTPS -> Check "Capture HTTPS CONNECTs", "Decrypt HTTPS traffic" and also Actions (right next to "Capture HTTPS CONNECTs") -> Trust Root Certificate
 
     Or you can use mitmproxy command:
 
