@@ -22,7 +22,19 @@ namespace EndFieldPS.Packets.Sc
                     GachaPoolInfos =
                     {
 
+                    },
+                    GachaPoolRoleDatas =
+                    {
+
+                    },
+                    GachaPoolCategoryRoleDatas =
+                    {
+                        
                     }
+                },
+                WeaponGachaPool = new()
+                {
+                    
                 }
             };
             //TODO: Implement banner config for opentime etc
@@ -31,6 +43,23 @@ namespace EndFieldPS.Packets.Sc
                 proto.CharGachaPool.GachaPoolInfos.Add(new ScdGachaPoolInfo()
                 {
                     GachaPoolId = item.Value.id,
+                    IsClosed=false,
+                    CloseTime=0,
+                    OpenTime=0,
+                    PublicCloseReason=0,
+                    
+                    
+                });
+                proto.CharGachaPool.GachaPoolRoleDatas.Add(new ScdGachaPoolRoleData()
+                {
+                    GachaPoolId=item.Value.id,
+                    IsClosed=false,
+                    PersonalCloseReason=0,
+                    
+                });
+                proto.CharGachaPool.GachaPoolCategoryRoleDatas.Add(new ScdGachaPoolCategoryRoleData()
+                {
+                    GachaPoolType=item.Value.type,
                     
                 });
             }

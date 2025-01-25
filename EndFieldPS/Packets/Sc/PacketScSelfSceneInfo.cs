@@ -13,14 +13,14 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScSelfSceneInfo : Packet
     {
 
-        public PacketScSelfSceneInfo(Player session, bool isTeamSpawn=false) {
+        public PacketScSelfSceneInfo(Player session, bool isTeamSpawn=false, SelfInfoReasonType infoReason = SelfInfoReasonType.SlrEnterScene) {
             if (isTeamSpawn)
             {
                 ScSelfSceneInfo sceneInfo = new()
                 {
                     SceneId = 0,
                     SceneNumId = session.curSceneNumId,
-                    SelfInfoReason = 0,
+                    SelfInfoReason = (int)infoReason,
                     
                     TeamInfo = new()
                     {

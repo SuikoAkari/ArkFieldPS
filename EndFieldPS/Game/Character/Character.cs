@@ -225,7 +225,7 @@ namespace EndFieldPS.Game.Character
                 BattleInfo = new()
                 {
                     Hp = curHp,
-
+                    Ultimatesp=100,
                 },
                 SkillInfo = new()
                 {
