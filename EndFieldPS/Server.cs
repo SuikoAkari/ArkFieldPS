@@ -39,13 +39,14 @@ namespace EndFieldPS
         {
             public string command;
             public string desc;
-
-            public CommandAttribute(string cmdName, string desc = "No description")
+            public bool requiredTarget;
+            public CommandAttribute(string cmdName, string desc = "No description", bool requireTarget=false)
             {
                 this.command = cmdName;
                 this.desc = desc;
+                this.requiredTarget = requireTarget;
             }
-            public delegate void HandlerDelegate(string command, string[] args);
+            public delegate void HandlerDelegate(string command, string[] args, Player target);
         }
         public static List<Player> clients = new List<Player>();
         public static string ServerVersion = "1.1.0-dev";
@@ -136,7 +137,7 @@ namespace EndFieldPS
                     string[] split = cmd.Split(" ");
                     string[] args = cmd.Split(" ").Skip(1).ToArray();
                     string command = split[0].ToLower();
-                    CommandManager.Notify(command, args);
+                    CommandManager.Notify(command, args,clients.Find(c=>c.accountId==CommandManager.targetId));
                 }
                 catch (Exception ex)
                 {
