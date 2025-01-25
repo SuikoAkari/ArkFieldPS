@@ -40,6 +40,36 @@ class Handlers
     }
 };
 ```
+Or you can use mitmproxy
+command:
+```
+mitmproxy -s ak.py
+```
+ak.py:
+```
+import mitmproxy
+from mitmproxy import ctx, http
+class EndFieldModifier:
+    def requestheaders(self,flow: mitmproxy.http.HTTPFlow):
+        if "gryphline.com" in flow.request.host or "hg-cdn.com" in flow.request.host:
+            if flow.request.method=="CONNECT":
+                return
+            
+            flow.request.scheme="http"
+            flow.request.cookies.update({
+                "OriginalHost":flow.request.host,
+                "OriginalUrl":flow.request.url
+            })
+            flow.request.host="localhost"
+            flow.request.port=5000
+            ctx.log.info("URL:"+flow.request.url)
+            
+            
+            
+addons=[
+    EndFieldModifier()
+]
+```
 6. Run the client and start to play! (Note: Only OS client is supported for now)
 7. Need to create an account using: account create (username) in the console, then login with email (username)@randomemailformathere.whatyouwant . There is no password so random password for the password field.
 # Note
