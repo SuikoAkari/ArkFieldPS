@@ -42,11 +42,12 @@ class Handlers
 ```
 Or you can use mitmproxy
 command:
-'''
+```
 mitmproxy -s ak.py
-'''
+```
 ak.py:
-```import mitmproxy
+```
+import mitmproxy
 from mitmproxy import ctx, http
 class EndFieldModifier:
     def requestheaders(self,flow: mitmproxy.http.HTTPFlow):
