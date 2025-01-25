@@ -52,7 +52,7 @@ namespace EndFieldPS.Game.Inventory
         {
             foreach (Item item in items)
             {
-                DatabaseManager.db.UpsertItemAsync(item);
+                DatabaseManager.db.UpsertItem(item);
             }
         }
         public void Load()
@@ -91,6 +91,7 @@ namespace EndFieldPS.Game.Inventory
             if(item.amount <= 0)
             {
                 items.Remove(item);
+                DatabaseManager.db.DeleteItem(item);
             }
             this.owner.Send(new PacketScItemBagScopeModify(this.owner, item));
         }
