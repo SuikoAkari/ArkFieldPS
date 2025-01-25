@@ -237,6 +237,8 @@ namespace EndFieldPS.Resource
             public StrIdDic item_id;
             public Dictionary<string, int> dialogStrToNum;
             public StrIdDic chapter_map_id;
+            public StrIdDic char_voice_id;
+            public StrIdDic char_doc_id;
         }
         public class GachaCharPoolTable
         {

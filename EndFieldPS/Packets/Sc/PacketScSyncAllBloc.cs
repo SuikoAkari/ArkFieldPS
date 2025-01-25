@@ -12,7 +12,7 @@ namespace EndFieldPS.Packets.Sc
 {
     public class PacketScSyncAllBloc : Packet
     {
-
+        
         public PacketScSyncAllBloc(Player client) {
 
             ScSyncAllBloc allblocks = new()
@@ -29,7 +29,7 @@ namespace EndFieldPS.Packets.Sc
                     Exp = 0,
                     Level = 1,
                     Blocid = bloc.Value.blocId,
-
+                    
                 });
             }
             
