@@ -48,6 +48,7 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, ExpItemDataMap> expItemDataMap = new();
         public static Dictionary<string, CharGrowthTable> charGrowthTable = new();
         public static Dictionary<string, WeaponUpgradeTemplateTable> weaponUpgradeTemplateTable = new();
+        public static Dictionary<string, GachaCharPoolContentTable> gachaCharPoolContentTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -98,6 +99,7 @@ namespace EndFieldPS.Resource
             expItemDataMap = JsonConvert.DeserializeObject<Dictionary<string, ExpItemDataMap>>(ReadJsonFile("TableCfg/ExpItemDataMap.json"));
             charGrowthTable = JsonConvert.DeserializeObject<Dictionary<string, CharGrowthTable>>(ReadJsonFile("TableCfg/CharGrowthTable.json"));
             weaponUpgradeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponUpgradeTemplateTable>>(ReadJsonFile("TableCfg/WeaponUpgradeTemplateTable.json"));
+            gachaCharPoolContentTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolContentTable>>(ReadJsonFile("TableCfg/GachaCharPoolContentTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
@@ -240,7 +242,18 @@ namespace EndFieldPS.Resource
         {
             public string id;
             public List<string> upCharIds;
+            public int type;
 
+        }
+        public class GachaCharPoolContentTable
+        {
+            public List<GachaCharPoolItem> list;
+        }
+        public class GachaCharPoolItem
+        {
+            public string charId;
+            public string isHardGuaranteeItem;
+            public int starLevel;
         }
         public class DialogTextTable
         {
