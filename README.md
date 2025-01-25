@@ -14,12 +14,14 @@ EndFieldPS is a private server for EndField CBT2.
 
 ## Installation Steps
 
-1. Install [MongoDB](https://www.mongodb.com/try/download/community) and [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) if you don't have them already
+1. Install [.NET SDK](https://dotnet.microsoft.com/en-us/download) (8.0.12 is recommended), [MongoDB](https://www.mongodb.com/try/download/community) and [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) OR [mitmproxy](https://mitmproxy.org/) if you don't have them already
+   * When installing *Fiddler Classic*, make sure to **enable** "Decrypt HTTPS traffic" and **install** the certificate!
+   * You have to enable two features via Tools (top left in menubar) -> Options -> HTTPS -> Check "Capture HTTPS CONNECTs" and "Decrypt HTTPS traffic". You can also re-install the certificate via Actions (right next to "Capture HTTPS CONNECTs") -> Trust Root Certificate and press "Yes"
 2. Download the [precompiled build](https://github.com/SuikoAkari/EndFieldPS/releases/latest) or build it by yourself
 3. Put the `Json` and `TableCfg` folders inside the `EndFieldPS.exe` folder (you can download a copy [here](https://github.com/PotRooms/EndFieldData/tree/main))
 4. Run the server (`EndFieldPS.exe`)
 5. Overwrite the `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` script (or backup the default one and create a new file with the same name) with the following script:
-    * You can also run Fiddler Classic, go to `Rules -> Customize Rules` (CTRL + R) and save it, or by selecting the *FiddlerScript* tab
+    * You can also run *Fiddler Classic*, go to `Rules -> Customize Rules` (CTRL + R) and save it, or by selecting the *FiddlerScript* tab
 
     ```javascript
     import System;
@@ -42,10 +44,8 @@ EndFieldPS is a private server for EndField CBT2.
         }
     };
     ```
-    Make sure to enable "Decrypt HTTPS traffic" and install the certificate within fiddler! 
-      - Tools (top left in menubar) -> Options -> HTTPS -> Check "Capture HTTPS CONNECTs", "Decrypt HTTPS traffic" and also Actions (right next to "Capture HTTPS CONNECTs") -> Trust Root Certificate and press "Yes"
 
-    Or you can use mitmproxy command:
+    Or you can use the mitmproxy command:
 
     ```shell
     mitmproxy -s ak.py
@@ -78,7 +78,7 @@ EndFieldPS is a private server for EndField CBT2.
     ]
     ```
 
-6. Run Fiddler Classic - it should start with the new *Custom Rules script* (you can check in the *FiddlerScript* tab)
+6. Run *Fiddler Classic* - it should start with the new *Custom Rules script* (you can check it in the *FiddlerScript* tab)
 7. Run the Game Client and start to play! (Note: Only OS client is supported for now)
 8. You must create an account using `account create (username)` in the server console, then login in the game with an email like `(username)@randomemailformathere.whatyouwant`. There is no password so you can input a random password for its field.
 
