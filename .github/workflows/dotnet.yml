@@ -12,9 +12,16 @@ on:
 
 jobs:
   build:
-
-    runs-on: windows-latest
-
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-13, macos-latest]
+        debug: [debug, distribution]
+        include:
+          - os: windows-latest
+            build: EndFieldPS-${{github.ref_name}}-Windows
+          - os: ubuntu-latest
+            build: EndFieldPS-${{github.ref_name}}-Linux
+    runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
@@ -28,5 +35,5 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
-          name: dotnet-${{ matrix.dotnet-version }}-build-windows
+          name: ${{ matrix.build }}
           path: EndFieldPS/bin/Release/net8.0
