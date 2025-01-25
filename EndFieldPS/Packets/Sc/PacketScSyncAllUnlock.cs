@@ -20,7 +20,7 @@ namespace EndFieldPS.Packets.Sc
             {
 
             };
-            foreach (var item in gameSystemConfigTable)
+           /* foreach (var item in gameSystemConfigTable)
             {
                 unlock.UnlockSystems.Add(item.Value.unlockSystemType);
             }
@@ -31,7 +31,7 @@ namespace EndFieldPS.Packets.Sc
             foreach (UnlockSystemType unlockType in System.Enum.GetValues(typeof(UnlockSystemType)))
             {
                 // unlock.UnlockSystems.Add((int)unlockType);
-            }
+            }*/
             unlock.UnlockSystems.Add((int)UnlockSystemType.Watch);
             unlock.UnlockSystems.Add((int)UnlockSystemType.Weapon);
             unlock.UnlockSystems.Add((int)UnlockSystemType.Equip);
@@ -50,9 +50,23 @@ namespace EndFieldPS.Packets.Sc
             unlock.UnlockSystems.Add((int)UnlockSystemType.Map);
             unlock.UnlockSystems.Add((int)UnlockSystemType.FacZone);
             unlock.UnlockSystems.Add((int)UnlockSystemType.FacHub);
-            unlock.UnlockSystems.Add((int)UnlockSystemType.DungeonFactory);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.AdventureBook);
             unlock.UnlockSystems.Add((int)UnlockSystemType.FacSystem);
-            unlock.UnlockSystems.Add((int)UnlockSystemType.FacTransferPort);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.CharUI);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.EquipProduce);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.EquipTech);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.Gacha);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.Inventory);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.ItemQuickBar);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.ItemSubmitRecycle);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.ItemUse);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.Mail);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.ValuableDepot);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.Wiki);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.AIBark);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.AdventureExpAndLv);
+            //unlock.UnlockSystems.Add((int)UnlockSystemType.);
+            unlock.UnlockSystems.Add((int)UnlockSystemType.CharTeam);
             unlock.UnlockSystems.Add((int)UnlockSystemType.FacMode);
             unlock.UnlockSystems.Add((int)UnlockSystemType.FacOverview);
             unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipSystem);

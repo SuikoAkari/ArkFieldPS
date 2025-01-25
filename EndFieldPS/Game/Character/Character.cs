@@ -185,6 +185,7 @@ namespace EndFieldPS.Game.Character
             int breakStage = ResourceManager.charBreakNodeTable[breakNode].breakStage;
             return breakStage;
         }
+        
         public CharInfo ToProto()
         {
             CharInfo info = new CharInfo()
@@ -225,7 +226,7 @@ namespace EndFieldPS.Game.Character
                 BattleInfo = new()
                 {
                     Hp = curHp,
-                    Ultimatesp=100,
+                    Ultimatesp=160,
                 },
                 SkillInfo = new()
                 {

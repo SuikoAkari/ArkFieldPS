@@ -13,6 +13,7 @@ namespace EndFieldPS.Packets.Sc
     {
 
         public PacketScFactorySyncScope(Player client) {
+            
             //TODO dehardcode current chapter, quickbars, routes, bookmark etc
             ScFactorySyncScope proto = new ScFactorySyncScope()
             {
@@ -46,13 +47,14 @@ namespace EndFieldPS.Packets.Sc
                     UpdateTs = DateTime.UtcNow.Ticks + 100000000,
                     Routes =
                     {
-
+                        
                     },
 
                 },
+                
                 CurrentChapterId = "domain_1",
             };
-
+            
             SetData(ScMessageId.ScFactorySyncScope, proto);
         }
 

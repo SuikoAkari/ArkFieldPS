@@ -27,10 +27,15 @@ namespace EndFieldPS.Packets.Sc
 
                         },
                         Level=1,
-
+                        StationedCharList =
+                        {
+                        }
                     }
                 },
+                Chars =
+                {
 
+                }
             };
 
             SetData(ScMessageId.ScSpaceshipSync, proto);

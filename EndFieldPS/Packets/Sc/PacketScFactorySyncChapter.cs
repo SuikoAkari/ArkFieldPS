@@ -66,7 +66,19 @@ namespace EndFieldPS.Packets.Sc
                 }
                 
             };
-            
+            foreach (var item in strIdNumTable.chapter_map_id.dic)
+            {
+                chapter.Maps.Add(new ScdFactorySyncMap()
+                {
+                    MapId = item.Value,
+                    
+                    Wires =
+                    {
+
+                    },
+
+                });
+            }
             domainDataTable[chapterId].levelGroup.ForEach(levelGroup =>
             {
                 var scene = new ScdFactorySyncScene()
@@ -112,17 +124,8 @@ namespace EndFieldPS.Packets.Sc
                     
                 }
                 chapter.Scenes.Add(scene);
-                if(chapter.Maps.ToList().Find(a=>a.MapId== strIdNumTable.chapter_map_id.dic[GetLevelData(GetSceneNumIdFromLevelData(levelGroup)).mapIdStr])==null)
-                chapter.Maps.Add(new ScdFactorySyncMap()
-                {
-                    MapId = strIdNumTable.chapter_map_id.dic[GetLevelData(GetSceneNumIdFromLevelData(levelGroup)).mapIdStr],
-                    
-                    Wires =
-                    {
 
-                    },
-                    
-                });
+
             });
 
             SetData(ScMessageId.ScFactorySyncChapter, chapter);
