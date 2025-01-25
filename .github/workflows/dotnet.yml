@@ -24,9 +24,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore --configuration Release
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
           name: dotnet-${{ matrix.dotnet-version }}-build-windows
-          path: EndFieldPS
+          path: EndFieldPS/bin/Release/net8.0
