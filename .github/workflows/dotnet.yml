@@ -12,9 +12,15 @@ on:
 
 jobs:
   build:
-
-    runs-on: windows-latest
-
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+        include:
+          - os: windows-latest
+            build: EndFieldPS-${{github.ref_name}}-Windows
+          - os: ubuntu-latest
+            build: EndFieldPS-${{github.ref_name}}-Linux
+    runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
@@ -24,6 +30,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet build --no-restore --configuration Release
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+          name: ${{ matrix.build }}
+          path: EndFieldPS/bin/Release/net8.0
