@@ -15,7 +15,7 @@
     {
         private static List<Type> s_handlerTypes = new List<Type>();
         private static ImmutableDictionary<string, (Server.CommandAttribute, Server.CommandAttribute.HandlerDelegate)> s_notifyReqGroup;
-
+        public static string targetId;
         public static void Init()
         {
             var handlers = ImmutableDictionary.CreateBuilder<string, (Server.CommandAttribute, Server.CommandAttribute.HandlerDelegate)>();
@@ -32,13 +32,14 @@
 
                     var commandParameter = Expression.Parameter(typeof(string));
                     var argsParameter = Expression.Parameter(typeof(string[]));
-                   
+                    var targetParameter = Expression.Parameter(typeof(Player));
 
                     var call = Expression.Call(method,
                         Expression.Convert(commandParameter, parameterInfo[0].ParameterType),
-                        Expression.Convert(argsParameter, parameterInfo[1].ParameterType));
+                        Expression.Convert(argsParameter, parameterInfo[1].ParameterType),
+                        Expression.Convert(targetParameter, parameterInfo[2].ParameterType));
 
-                    var lambda = Expression.Lambda<Server.CommandAttribute.HandlerDelegate>(call, commandParameter, argsParameter);
+                    var lambda = Expression.Lambda<Server.CommandAttribute.HandlerDelegate>(call, commandParameter, argsParameter,targetParameter);
 
                     if (!handlers.TryGetKey(attribute.command, out _))
                         handlers.Add(attribute.command, (attribute, lambda.Compile()));
@@ -48,11 +49,27 @@
             s_notifyReqGroup = handlers.ToImmutable();
         }
 
-        public static void Notify(string cmd, string[] args)
+        public static void Notify(string cmd, string[] args,Player target)
         {
             if (s_notifyReqGroup.TryGetValue(cmd, out var handler))
             {
-                handler.Item2.Invoke(cmd,args);
+                if (handler.Item1.requiredTarget)
+                {
+                    if (target != null)
+                    {
+                        handler.Item2.Invoke(cmd, args, target);
+                    }
+                    else
+                    {
+                        Logger.PrintError("This command require a target player, set one with /target (uid)");
+                    }
+                    
+                }
+                else
+                {
+                    handler.Item2.Invoke(cmd, args, target);
+                }
+                
             }
             else
             {
