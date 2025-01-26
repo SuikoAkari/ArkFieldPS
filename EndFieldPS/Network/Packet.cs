@@ -139,7 +139,8 @@ namespace EndFieldPS.Network
             PutUInt16(data, (ushort)body.ToByteArray().Length, 1);
             PutByteArray(data, head.ToByteArray(), 3);
             PutByteArray(data, body.ToByteArray(), 3+head.ToByteArray().Length);
-            Logger.Print($"Sending packet: {((ScMessageId)msgId).ToString().Pastel(Color.LightBlue)} id: {msgId} with {data.Length} bytes");
+            if(Server.config.logOptions.packets)
+                Logger.Print($"Sending packet: {((ScMessageId)msgId).ToString().Pastel(Color.LightBlue)} id: {msgId} with {data.Length} bytes");
 
             return data;
         }

@@ -101,7 +101,7 @@ namespace EndFieldPS
         public void LoadCharacters()
         {
             chars = DatabaseManager.db.LoadCharacters(roleId);
-            Logger.Print($"Loaded {chars.Count} characters for {nickname} ({roleId})");
+            
         }
         public void Initialize()
         {
@@ -136,7 +136,7 @@ namespace EndFieldPS
         {
             if (curSceneNumId == 0)
             {
-                EnterScene(98); //or 101
+                EnterScene(Server.config.serverOptions.defaultSceneNumId); //or 101
             }
             else
             {
@@ -182,43 +182,44 @@ namespace EndFieldPS
         public void Receive()
         {
 
-                while (SocketConnected(socket))
+            while (SocketConnected(socket))
+            {
+                byte[] buffer = new byte[3];
+                int length = socket.Receive(buffer);
+                if (length ==3)
                 {
-                    byte[] buffer = new byte[3];
-                    int length = socket.Receive(buffer);
-                    if (length ==3)
+                    Packet packet = null;
+                    byte headLength = Packet.GetByte(buffer, 0);
+                    ushort bodyLength = Packet.GetUInt16(buffer, 1);
+                    byte[] moreData = new byte[bodyLength+headLength];
+                    while (socket.Available < moreData.Length)
                     {
-                        Packet packet = null;
-                        byte headLength = Packet.GetByte(buffer, 0);
-                        ushort bodyLength = Packet.GetUInt16(buffer, 1);
-                        byte[] moreData = new byte[bodyLength+headLength];
-                        while (socket.Available < moreData.Length)
-                        {
                         
-                        }
-                        int mLength = socket.Receive(moreData);
-                        if (mLength == moreData.Length)
-                        {
-                            buffer = ConcatenateByteArrays(buffer, moreData);
-                            packet = Packet.Read(this, buffer);
-                        
+                    }
+                    int mLength = socket.Receive(moreData);
+                    if (mLength == moreData.Length)
+                    {
+                        buffer = ConcatenateByteArrays(buffer, moreData);
+                        packet = Packet.Read(this, buffer);
 
+                        if (Server.config.logOptions.packets)
+                        {
                             Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
                             Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());
-                            try
-                            {
-                                NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
-                            }
-                            catch (Exception e)
-                            {
-                                Logger.PrintError("Error while notify packet: " + e.Message);
-                            }
-                        
                         }
-                       
 
+                        try
+                        {
+                            NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
+                        }
+                        catch (Exception e)
+                        {
+                            Logger.PrintError("Error while notify packet: " + e.Message);
+                        }
+                        
                     }
                 }
+            }
 
 
 

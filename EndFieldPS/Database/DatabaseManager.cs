@@ -14,7 +14,7 @@ namespace EndFieldPS.Database
             Logger.Print("Connecting to MongoDB..."); 
             try
             {
-                db = new Database(Server.config.MongoDb_connectionUri, Server.config.MongoDb_databaseName);
+                db = new Database(Server.config.mongoDatabase.uri, Server.config.mongoDatabase.collection);
                 Logger.Print("Connected to MongoDB database");
             }
             catch (Exception ex)
