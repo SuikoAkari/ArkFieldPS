@@ -8,13 +8,13 @@ namespace EndFieldPS.Packets.Sc
 
         public PacketScFactorySyncScope(Player client) {
             // TODO: Remove hardcoded values
-            SetData(ScMessageId.ScFactorySyncScope, new ScFactorySyncScope
+            SetData(ScMessageId.ScFactorySyncScope, new ScFactorySyncScope()
             {
                 ScopeName = 1,
                 CurrentChapterId = "domain_1",
                 Quickbars =
                 {
-                    new ScdFactorySyncQuickbar
+                    new ScdFactorySyncQuickbar()
                     {
                         List =
                         {
@@ -28,7 +28,7 @@ namespace EndFieldPS.Packets.Sc
                             "item_port_soil_moss_1"
                         }
                     },
-                    new ScdFactorySyncQuickbar
+                    new ScdFactorySyncQuickbar()
                     {
                         Type = 1,
                         List =
@@ -44,19 +44,23 @@ namespace EndFieldPS.Packets.Sc
                         }
                     }
                 },
-                TransportRoute =
+                TransportRoute = new()
                 {
-                    UpdateTs = DateTime.UtcNow.Ticks,
+                    UpdateTs = DateTime.UtcNow.AddDays(1).Ticks,
                     Routes =
                     {
                         new ScdFactoryHubTransportRoute
                         {
                             ChapterId = "domain_1",
-                            Index = 1
+                            Index = 1,
+                            
                         }
                     }
                 },
-                BookMark = {}
+                BookMark = new()
+                {
+                
+                }
             });
         }
 
