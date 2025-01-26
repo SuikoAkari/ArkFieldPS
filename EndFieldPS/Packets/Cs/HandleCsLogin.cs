@@ -81,19 +81,20 @@ namespace EndFieldPS.Packets.Cs
             };
             session.Send(ScMessageId.ScItemBagCommonSync, common);
             session.Send(new PacketScItemBagScopeSync(session,ItemValuableDepotType.Weapon));
+            session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.WeaponGem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.CommercialItem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Factory));
+            session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.SpecialItem));
             
-
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
-
             {
                 CollectionList =
                 {
 
                 },
-
+                
             };
+
 
             foreach (var item in ResourceManager.levelDatas)
             {
@@ -161,7 +162,7 @@ namespace EndFieldPS.Packets.Cs
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
             {
                 LastTickTime = DateTime.UtcNow.Ticks,
-
+                
             };
             int stid = 0;
             foreach (var item in settlementBasicDataTable)
@@ -182,28 +183,9 @@ namespace EndFieldPS.Packets.Cs
 
                     OfficerCharTemplateId = characterTable.Values.ToList()[stid].charId,
 
-
+                    
                 });
                 stid++;
-            }
-
-            ScSyncAllBitset bitset = new()
-            {
-                Bitset =
-                {
-
-                }
-            };
-            for (int bType = 0; bType < 52; bType++)
-            {
-                BitsetData data = new BitsetData() { Type = bType };
-                if (bType == 25)
-                {
-                    data.Value.Add(1);
-                    data.Value.Add(2);
-                }
-                bitset.Bitset.Add(data);
-
             }
             
             session.Send(new PacketScSyncAllRoleScene(session));
@@ -215,6 +197,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(ScMessageId.ScSyncAllGameVar, GameVars);
             session.Send(new PacketScSyncAllUnlock(session));
             session.Send(ScMessageId.ScSyncAllMission, missions);
+            session.Send(new PacketScSyncAllBitset(session));
             ScSceneMapMarkSync mapMarks = new()
             {
                 SceneStaticMapMarkList =

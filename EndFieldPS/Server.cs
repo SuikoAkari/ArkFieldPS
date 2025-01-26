@@ -2,6 +2,7 @@
 using BeyondTools.VFS.Crypto;
 using EndFieldPS.Commands;
 using EndFieldPS.Database;
+using EndFieldPS.Game;
 using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
@@ -39,16 +40,17 @@ namespace EndFieldPS
         {
             public string command;
             public string desc;
-
-            public CommandAttribute(string cmdName, string desc = "No description")
+            public bool requiredTarget;
+            public CommandAttribute(string cmdName, string desc = "No description", bool requireTarget=false)
             {
                 this.command = cmdName;
                 this.desc = desc;
+                this.requiredTarget = requireTarget;
             }
-            public delegate void HandlerDelegate(string command, string[] args);
+            public delegate void HandlerDelegate(string command, string[] args, Player target);
         }
         public static List<Player> clients = new List<Player>();
-        public static string ServerVersion = "1.0.3";
+        public static string ServerVersion = "1.0.5";
         public static bool Initialized = false;
         public static bool showLogs = true;
         public static SQLiteConnection _db;
@@ -79,6 +81,7 @@ namespace EndFieldPS
             }
             
             Logger.Initialize(); // can also pass hideLogs here
+            Logger.Print($"Starting server version {ServerVersion} with supported client version {GameConstants.GAME_VERSION}");
             showLogs = !hideLogs;
             // showLogs = false;
             Logger.Print($"Logs are {(showLogs ? "enabled" : "disabled")}");
@@ -136,7 +139,7 @@ namespace EndFieldPS
                     string[] split = cmd.Split(" ");
                     string[] args = cmd.Split(" ").Skip(1).ToArray();
                     string command = split[0].ToLower();
-                    CommandManager.Notify(command, args);
+                    CommandManager.Notify(command, args,clients.Find(c=>c.accountId==CommandManager.targetId));
                 }
                 catch (Exception ex)
                 {

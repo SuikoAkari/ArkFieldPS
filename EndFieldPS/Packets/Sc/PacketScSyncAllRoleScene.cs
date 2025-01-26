@@ -36,20 +36,28 @@ namespace EndFieldPS.Packets.Sc
                     Grade=1,
                     LastDownTs=DateTime.UtcNow.Ticks,
                     SceneNumId=scene.idNum,
+                    
                 });
             }
-            foreach (var area in sceneAreaTable)
+            foreach (var scene in levelDatas)
             {
                 AreaUnlockInfo u = new()
                 {
-                    SceneId = area.Value.sceneId,
+                    SceneId = scene.id,
                     UnlockAreaId =
                     {
-                        area.Value.areaId,
+                        
                     }
                 };
+                List<SceneAreaTable> areas =sceneAreaTable.Values.ToList().FindAll(a=>a.sceneId==scene.id);
+                foreach (var area in areas)
+                {
+
+                    u.UnlockAreaId.Add(area.areaId);
+                }
                 role.UnlockAreaInfo.Add(u);
             }
+            
             SetData(ScMessageId.ScSyncAllRoleScene, role);
         }
 

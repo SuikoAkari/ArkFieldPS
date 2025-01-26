@@ -12,19 +12,34 @@ namespace EndFieldPS.Commands
     public static class BaseCommands
     {
 
-        [Server.Command("scene", "Change scene")]
-        public static void SceneCmd(string cmd, string[] args)
+        [Server.Command("scene", "Change scene",true)]
+        public static void SceneCmd(string cmd, string[] args, Player target)
         {
             if (args.Length < 1) return;
             int sceneNumId = int.Parse(args[0]);
+            target.EnterScene(sceneNumId);
 
-            foreach (var item in Server.clients)
+        }
+        [Server.Command("target", "Set a target uid", false)]
+        public static void TargetCmd(string cmd, string[] args, Player target)
+        {
+            if (args.Length < 1)
             {
-                item.EnterScene(sceneNumId);
+                Logger.PrintError("Use: /target (uid)");
+                return;
             }
+            string id = args[0];
+            Player player = Server.clients.Find(c=>c.accountId == id);
+            if (player == null)
+            {
+                Logger.PrintError("Only online players can be set as target");
+                return;
+            }
+            CommandManager.targetId = id;
+            Logger.Print("Set Target player to "+id);
         }
         [Server.Command("account", "account command")]
-        public static void AccountCmd(string cmd, string[] args)
+        public static void AccountCmd(string cmd, string[] args, Player target)
         {
             if (args.Length < 2) return;
             switch (args[0])
@@ -38,7 +53,7 @@ namespace EndFieldPS.Commands
             }
         }
         [Server.Command("spawn", "Spawn cmd test")]
-        public static void SpawnCmd(string cmd, string[] args)
+        public static void SpawnCmd(string cmd, string[] args, Player target)
         {
             if (args.Length < 1) return;
             string templateId = args[0];

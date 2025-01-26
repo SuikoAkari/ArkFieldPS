@@ -140,7 +140,7 @@ namespace EndFieldPS.Network
             PutByteArray(data, head.ToByteArray(), 3);
             PutByteArray(data, body.ToByteArray(), 3+head.ToByteArray().Length);
             Logger.Print($"Sending packet: {((ScMessageId)msgId).ToString().Pastel(Color.LightBlue)} id: {msgId} with {data.Length} bytes");
-            
+
             return data;
         }
         public static Packet Read(Player client,byte[] byteArray)
@@ -153,10 +153,7 @@ namespace EndFieldPS.Network
             Array.Copy(byteArray, 3, csHeadBytes, 0, headLength);
             Array.Copy(byteArray, 3+ headLength, BodyBytes, 0, bodyLength);
             CSHead csHead_ = CSHead.Parser.ParseFrom(csHeadBytes);
-            Console.WriteLine("body "+ByteString.CopyFrom(BodyBytes).ToBase64());
-            Console.WriteLine("head " + ByteString.CopyFrom(csHeadBytes).ToBase64());
             seqNext = csHead_.UpSeqid;
-            Logger.Print("seq: "+seqNext);
             return new Packet() { csHead = csHead_, finishedBody = BodyBytes,cmdId=csHead_.Msgid };
         }
     }

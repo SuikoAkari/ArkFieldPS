@@ -97,7 +97,7 @@ namespace EndFieldPS.Database
                 totalGuidCount=player.random.v,
                 teamIndex=player.teamIndex,
             };
-            UpsertPlayerDataAsync(data);
+            UpsertPlayerData(data);
         }
         public void CreateAccount(string username)
         {
@@ -108,10 +108,10 @@ namespace EndFieldPS.Database
                 token= GenerateToken(22),
                 grantToken = GenerateToken(192)
             };
-            UpsertAccountAsync(account);
+            UpsertAccount(account);
             Logger.Print($"Account with username: {username} created with Account UID: {account.id}");
         }
-        public async Task UpsertPlayerDataAsync(PlayerData player)
+        public void UpsertPlayerData(PlayerData player)
         {
             var collection = _database.GetCollection<PlayerData>("players");
 
@@ -120,13 +120,13 @@ namespace EndFieldPS.Database
                 &
                 Builders<PlayerData>.Filter.Eq(p => p.accountId, player.accountId);
 
-            await collection.ReplaceOneAsync(
+            collection.ReplaceOne(
                 filter,
                 player,
                 new ReplaceOptions { IsUpsert = true }
             );
         }
-        public async Task UpsertAccountAsync(Account player)
+        public void UpsertAccount(Account player)
         {
             var collection = _database.GetCollection<Account>("accounts");
 
@@ -135,13 +135,13 @@ namespace EndFieldPS.Database
                 &
                 Builders<Account>.Filter.Eq(p => p.token, player.token);
 
-            await collection.ReplaceOneAsync(
+           collection.ReplaceOne(
                 filter,
                 player,
                 new ReplaceOptions { IsUpsert = true }
             );
         }
-        public async Task UpsertCharacterAsync(Character character)
+        public void UpsertCharacterAsync(Character character)
         {
             if (character._id == ObjectId.Empty)
             {
@@ -154,13 +154,13 @@ namespace EndFieldPS.Database
                 &
                 Builders<Character>.Filter.Eq(c => c.owner, character.owner);
 
-            var result=await collection.ReplaceOneAsync(
+            var result=collection.ReplaceOne(
                 filter,
                 character,
                 new ReplaceOptions { IsUpsert = true }
             );
         }
-        public async Task UpsertItemAsync(Item item)
+        public void UpsertItem(Item item)
         {
             if (item._id == ObjectId.Empty)
             {
@@ -173,17 +173,31 @@ namespace EndFieldPS.Database
                 &
                 Builders<Item>.Filter.Eq(c => c.owner, item.owner);
 
-            var result = await collection.ReplaceOneAsync(
+            var result = collection.ReplaceOne(
                 filter,
                 item,
                 new ReplaceOptions { IsUpsert = true }
             );
 
         }
+        public void DeleteItem(Item item)
+        {
+            
+            var collection = _database.GetCollection<Item>("items");
+
+            var filter =
+                Builders<Item>.Filter.Eq(c => c.guid, item.guid)
+                &
+                Builders<Item>.Filter.Eq(c => c.owner, item.owner);
+
+            var result = collection.DeleteOne(
+                filter
+            );
+        }
         public string GrantCode(Account account)
         {
             account.grantToken = GenerateToken(192);
-            UpsertAccountAsync(account);
+            UpsertAccount(account);
             return account.grantToken;
         }
         public Account GetAccountByToken(string token)

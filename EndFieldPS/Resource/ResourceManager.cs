@@ -44,6 +44,11 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, GachaCharPoolTable> gachaCharPoolTable = new();
         public static Dictionary<string, CharBreakNodeTable> charBreakNodeTable = new();
         public static Dictionary<string, EnemyAttributeTemplateTable> enemyAttributeTemplateTable = new();
+        public static Dictionary<string, CharLevelUpTable> charLevelUpTable = new();
+        public static Dictionary<string, ExpItemDataMap> expItemDataMap = new();
+        public static Dictionary<string, CharGrowthTable> charGrowthTable = new();
+        public static Dictionary<string, WeaponUpgradeTemplateTable> weaponUpgradeTemplateTable = new();
+        public static Dictionary<string, GachaCharPoolContentTable> gachaCharPoolContentTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -90,11 +95,20 @@ namespace EndFieldPS.Resource
             gachaCharPoolTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolTable>>(ReadJsonFile("TableCfg/GachaCharPoolTable.json"));
             charBreakNodeTable = JsonConvert.DeserializeObject<Dictionary<string, CharBreakNodeTable>>(ReadJsonFile("TableCfg/CharBreakNodeTable.json"));
             enemyAttributeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, EnemyAttributeTemplateTable>>(ReadJsonFile("TableCfg/EnemyAttributeTemplateTable.json"));
+            charLevelUpTable = JsonConvert.DeserializeObject<Dictionary<string, CharLevelUpTable>>(ReadJsonFile("TableCfg/CharLevelUpTable.json"));
+            expItemDataMap = JsonConvert.DeserializeObject<Dictionary<string, ExpItemDataMap>>(ReadJsonFile("TableCfg/ExpItemDataMap.json"));
+            charGrowthTable = JsonConvert.DeserializeObject<Dictionary<string, CharGrowthTable>>(ReadJsonFile("TableCfg/CharGrowthTable.json"));
+            weaponUpgradeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponUpgradeTemplateTable>>(ReadJsonFile("TableCfg/WeaponUpgradeTemplateTable.json"));
+            gachaCharPoolContentTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolContentTable>>(ReadJsonFile("TableCfg/GachaCharPoolContentTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
                 Logger.PrintWarn("Missing some resources. The gameserver will probably crash.");
             }
+        }
+        public static CharGrowthTable.CharTalentNode GetTalentNode(string c, string id)
+        {
+            return charGrowthTable[c].talentNodeMap[id];
         }
         public static ItemTable GetItemTable(string id)
         {
@@ -146,6 +160,15 @@ namespace EndFieldPS.Resource
         {
             public string missionId;
 
+        }
+        public class ExpItemDataMap
+        {
+            public int expGain;
+        }
+        public class CharLevelUpTable
+        {
+            public int exp;
+            public int gold;
         }
         public class GameMechanicTable
         {
@@ -214,12 +237,25 @@ namespace EndFieldPS.Resource
             public StrIdDic item_id;
             public Dictionary<string, int> dialogStrToNum;
             public StrIdDic chapter_map_id;
+            public StrIdDic char_voice_id;
+            public StrIdDic char_doc_id;
         }
         public class GachaCharPoolTable
         {
             public string id;
             public List<string> upCharIds;
+            public int type;
 
+        }
+        public class GachaCharPoolContentTable
+        {
+            public List<GachaCharPoolItem> list;
+        }
+        public class GachaCharPoolItem
+        {
+            public string charId;
+            public string isHardGuaranteeItem;
+            public int starLevel;
         }
         public class DialogTextTable
         {
@@ -250,6 +286,19 @@ namespace EndFieldPS.Resource
         {
             public int weaponType;
             public string weaponId;
+            public string levelTemplateId;
+        }
+        public class WeaponUpgradeTemplateTable
+        {
+            public List<WeaponCurve> list;
+
+            public class WeaponCurve
+            {
+                public float baseAtk;
+                public ulong lvUpExp;
+                public ulong lvUpGold;
+                public ulong weaponLv;
+            }
         }
         public class DomainDataTable
         {
@@ -272,6 +321,23 @@ namespace EndFieldPS.Resource
             public string templateId;
             public List<Attributes> levelDependentAttributes;
             public AttributeList levelIndependentAttributes;
+        }
+        public class CharGrowthTable
+        {
+            public Dictionary<string,CharTalentNode> talentNodeMap;
+            public string defaultWeaponId;
+
+            public class CharTalentNode
+            {
+                public string nodeId;
+                public TalentNodeType nodeType;
+                public List<RequireItem> requiredItem;
+            }
+        }
+        public class RequireItem
+        {
+            public string id;
+            public int count;
         }
         public class CharacterTable
         {

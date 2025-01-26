@@ -6,18 +6,20 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using static EndFieldPS.Resource.ResourceManager;
 
 namespace EndFieldPS.Packets.Sc
 {
     public class PacketScEnterSceneNotify : Packet
     {
 
-        public PacketScEnterSceneNotify(Player client, int sceneNumId = 21) {
+        public PacketScEnterSceneNotify(Player client, int sceneNumId = 21, bool repatriate=false, PassThroughData data=null) {
+
 
             ScEnterSceneNotify proto = new ScEnterSceneNotify()
             {
-                Position = client.position.ToProto(),
-                
+                Position = !repatriate ? client.position.ToProto() : client.safeZonePoint.ToProto(),
+                PassThroughData= data,
                 SceneId = 0,
                 RoleId = client.roleId,
                 SceneNumId = sceneNumId,

@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MongoDB.Bson.Serialization.IdGenerators;
+using static EndFieldPS.Resource.ResourceManager;
+using Google.Protobuf.Collections;
+using EndFieldPS.Packets.Sc;
+using EndFieldPS.Protocol;
 
 namespace EndFieldPS.Game.Inventory
 {
@@ -88,7 +92,64 @@ namespace EndFieldPS.Game.Inventory
         {
             return Server.clients.Find(c => c.roleId == this.owner);
         }
+        public (ulong, ulong, ulong) CalculateLevelAndGoldCost(ulong addedXp)
+        {
+            ulong gold = 0;
+            ulong curLevel = this.level;
+            WeaponBasicTable table = ResourceManager.weaponBasicTable[id];
+            WeaponUpgradeTemplateTable upgradeTable = ResourceManager.weaponUpgradeTemplateTable[table.levelTemplateId];
+            while (addedXp >= upgradeTable.list.Find(c=>c.weaponLv==curLevel).lvUpExp)
+            {
+                gold += upgradeTable.list.Find(c => c.weaponLv == curLevel).lvUpGold;
+                addedXp -= upgradeTable.list.Find(c => c.weaponLv == curLevel).lvUpExp;
+                curLevel++;
+                if (curLevel >= 80)
+                {
+                    curLevel = 80;
+                }
+            }
+            return (curLevel, gold, addedXp);
+        }
+        public ulong GetMaterialExp(string id)
+        {
+            switch (id)
+            {
+                case "item_weapon_expcard_low":
+                    return 200;
+                case "item_weapon_expcard_mid":
+                    return 1000;
+                case "item_weapon_expcard_high":
+                    return 10000;
+                default:
+                    return 0;
+            }
+        }
+        public void LevelUp(MapField<string, ulong> costItemId2Count, RepeatedField<ulong> costWeaponIds)
+        {
+            //TODO add exp from costWeapons
+            ulong addedXp = 0;
+            foreach (var material in costItemId2Count)
+            {
+                addedXp += GetMaterialExp(material.Key) * material.Value;
+            }
+            (ulong, ulong, ulong) CalculatedValues = CalculateLevelAndGoldCost(xp + addedXp);
 
+            costItemId2Count.Add("item_gold",CalculatedValues.Item2);
+            if (GetOwner().inventoryManager.ConsumeItems(costItemId2Count))
+            {
+                this.level = CalculatedValues.Item1;
+                this.xp = CalculatedValues.Item3;
+                ScWeaponAddExp levelUp = new()
+                {
+                    Weaponid = guid,
+                    WeaponLv=level,
+                    NewExp=xp,
+
+                };
+                GetOwner().Send(ScMessageId.ScWeaponAddExp, levelUp);
+                GetOwner().Send(new PacketScSyncWallet(GetOwner()));
+            }
+        }
         public bool InstanceType()
         {
             switch (ItemType)
@@ -96,17 +157,19 @@ namespace EndFieldPS.Game.Inventory
                 case ItemValuableDepotType.Weapon:
                     return true;
                 case ItemValuableDepotType.WeaponGem:
-                    return true;
+                    return false;
                 case ItemValuableDepotType.Equip:
                     return true;
                 case ItemValuableDepotType.SpecialItem:
-                    return true;
+                    return false;
                 case ItemValuableDepotType.MissionItem:
                     return true;
                 default:
                     return false;
             }
         }
+
+
     }
 
 }

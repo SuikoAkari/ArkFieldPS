@@ -17,8 +17,13 @@ namespace EndFieldPS.Packets.Sc
 
             ScGameMechanicsSync mechanics = new()
             {
+                GameUnlockConditions =
+                {
+
+                },
 
             };
+            
             foreach (var item in gameMechanicTable)
             {
                 mechanics.GameRecords.Add(new ScdGameMechanicsRecord()
