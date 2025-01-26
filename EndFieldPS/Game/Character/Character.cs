@@ -29,7 +29,7 @@ namespace EndFieldPS.Game.Character
         public ulong owner;
         public double curHp;
         public uint potential = 0;
-        public string breakNode = "charBreak70";
+        public string breakNode = "charBreak20";
         public List<string> passiveSkillNodes = new();
         public List<string> attrNodes = new();
         public List<string> factoryNodes = new();
