@@ -25,9 +25,14 @@ namespace EndFieldPS
             server.Events.RequestReceived += Events_RequestReceived;
             server.Events.RequestDenied += Events_RequestDenied;
             server.Events.ConnectionReceived += Events_ConnectionReceived;
-     
+            server.Events.Exception += Events_Exception;
             server.Start();
             Logger.Print($"Dispatch started on {Server.config.DispatchIp}:{Server.config.DispatchPort}");
+        }
+
+        private void Events_Exception(object? sender, ExceptionEventArgs e)
+        {
+           Logger.PrintError(e.Exception.Message);
         }
 
         private void Events_ConnectionReceived(object? sender, ConnectionEventArgs e)

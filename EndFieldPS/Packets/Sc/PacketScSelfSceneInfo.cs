@@ -50,7 +50,7 @@ namespace EndFieldPS.Packets.Sc
                 {
                     sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());
                 });
-                //  session.Send(Packet.EncodePacket((int)ScMessageId.ScObjectEnterView, test));
+   
                 SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
             }
            
