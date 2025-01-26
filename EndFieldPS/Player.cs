@@ -202,6 +202,7 @@ namespace EndFieldPS
                         
 
                             Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
+                            Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());
                             try
                             {
                                 NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
