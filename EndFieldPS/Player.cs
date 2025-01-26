@@ -56,6 +56,7 @@ namespace EndFieldPS
         //
         public Vector3f position;
         public Vector3f rotation;
+        public Vector3f safeZonePoint; //Don't need to be saved
         public int curSceneNumId;
         public List<Character> chars = new List<Character>();
         public InventoryManager inventoryManager;
@@ -178,7 +179,7 @@ namespace EndFieldPS
         }
         public void Receive()
         {
-           
+
                 while (SocketConnected(socket))
                 {
                     byte[] buffer = new byte[3];
@@ -198,10 +199,19 @@ namespace EndFieldPS
                         {
                             buffer = ConcatenateByteArrays(buffer, moreData);
                             packet = Packet.Read(this, buffer);
-
+                        
 
                             Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
-                            NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
+                            Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());
+                            try
+                            {
+                                NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
+                            }
+                            catch (Exception e)
+                            {
+                                Logger.PrintError("Error while notify packet: " + e.Message);
+                            }
+                        
                         }
                        
 

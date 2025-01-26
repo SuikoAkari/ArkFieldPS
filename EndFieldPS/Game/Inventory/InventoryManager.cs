@@ -1,5 +1,7 @@
 ﻿using EndFieldPS.Database;
+using EndFieldPS.Packets.Sc;
 using EndFieldPS.Resource;
+using Google.Protobuf.Collections;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,6 +32,11 @@ namespace EndFieldPS.Game.Inventory
                 return items.Find(i => i.id == "item_gold")!.amount;
             }
         }
+
+        public Item GetItemById(string id)
+        {
+            return items.Find(i => i.id == id);
+        }
         public InventoryManager(Player o) {
 
             owner = o;
@@ -45,7 +52,7 @@ namespace EndFieldPS.Game.Inventory
         {
             foreach (Item item in items)
             {
-                DatabaseManager.db.UpsertItemAsync(item);
+                DatabaseManager.db.UpsertItem(item);
             }
         }
         public void Load()
@@ -78,5 +85,63 @@ namespace EndFieldPS.Game.Inventory
 
             
         }
+        public void RemoveItem(Item item,int amt)
+        {
+            item.amount -= amt;
+            if(item.amount <= 0)
+            {
+                items.Remove(item);
+                DatabaseManager.db.DeleteItem(item);
+            }
+            this.owner.Send(new PacketScItemBagScopeModify(this.owner, item));
+        }
+        public bool ConsumeItems(MapField<string, ulong> costItemId2Count)
+        {
+            RepeatedField<ItemInfo> items = new RepeatedField<ItemInfo>();
+            foreach (var item in costItemId2Count)
+            {
+                items.Add(new ItemInfo()
+                {
+                    ResCount=(int)item.Value,
+                    ResId=item.Key,
+                });
+            }
+            return ConsumeItems(items);
+        }
+        public bool ConsumeItems(RepeatedField<ItemInfo> items)
+        {
+            bool found = true;
+            foreach (ItemInfo item in items)
+            {
+                Item i= GetItemById(item.ResId);
+                if (i != null)
+                {
+                    if(i.amount < item.ResCount)
+                    {
+                        found = false;
+                        break;
+                    }
+                }
+                else
+                {
+                    found = false;
+                    break;
+                }
+            }
+            foreach (ItemInfo item in items)
+            {
+                Item i = GetItemById(item.ResId);
+                if (i != null)
+                {
+                    if (i.amount >= item.ResCount)
+                    {
+                       RemoveItem(i,item.ResCount);
+                    }
+                }
+            }
+            return found;
+        }
+
+
     }
 }

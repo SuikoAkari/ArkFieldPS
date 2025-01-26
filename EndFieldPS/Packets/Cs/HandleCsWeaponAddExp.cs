@@ -1,4 +1,5 @@
 ﻿using EndFieldPS.Game.Character;
+using EndFieldPS.Game.Inventory;
 using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using Google.Protobuf;
@@ -13,17 +14,17 @@ using System.Xml.Linq;
 
 namespace EndFieldPS.Packets.Cs
 {
-    public class HandleCsCharLevelUp
+    public class HandleCsWeaponAddExp
     {
 
-        [Server.Handler(CsMessageId.CsCharLevelUp)]
+        [Server.Handler(CsMessageId.CsWeaponAddExp)]
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
-            CsCharLevelUp req = packet.DecodeBody<CsCharLevelUp>();
-
-            Character character = session.chars.Find(c=>c.guid==req.CharObjID);
-            if(character!=null)
-            character.LevelUp(req.Items);
+            CsWeaponAddExp req = packet.DecodeBody<CsWeaponAddExp>();
+            
+            Item item = session.inventoryManager.items.Find(c=>c.guid==req.Weaponid);
+            if(item != null)
+            item.LevelUp(req.CostItemId2Count,req.CostWeaponIds);
 
         }
        

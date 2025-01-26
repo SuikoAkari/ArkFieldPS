@@ -1,5 +1,4 @@
-﻿using EndFieldPS.Game.Character;
-using EndFieldPS.Network;
+﻿using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using Google.Protobuf;
 using System;
@@ -13,18 +12,15 @@ using System.Xml.Linq;
 
 namespace EndFieldPS.Packets.Cs
 {
-    public class HandleCsCharLevelUp
+    public class HandleCsSceneSetSafeZone
     {
 
-        [Server.Handler(CsMessageId.CsCharLevelUp)]
+        [Server.Handler(CsMessageId.CsSceneSetSafeZone)]
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
-            CsCharLevelUp req = packet.DecodeBody<CsCharLevelUp>();
-
-            Character character = session.chars.Find(c=>c.guid==req.CharObjID);
-            if(character!=null)
-            character.LevelUp(req.Items);
-
+            CsSceneSetSafeZone req = packet.DecodeBody<CsSceneSetSafeZone>();
+            //TODO understand how to work
+            
         }
        
     }

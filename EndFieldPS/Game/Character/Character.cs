@@ -1,12 +1,17 @@
-﻿using EndFieldPS.Resource;
+﻿using EndFieldPS.Packets.Sc;
+using EndFieldPS.Protocol;
+using EndFieldPS.Resource;
+using Google.Protobuf.Collections;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson.Serialization.IdGenerators;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static EndFieldPS.Resource.ResourceManager.CharGrowthTable;
 
 namespace EndFieldPS.Game.Character
 {
@@ -24,14 +29,44 @@ namespace EndFieldPS.Game.Character
         public ulong owner;
         public double curHp;
         public uint potential = 0;
-        public int breakStage = 1;
+        public string breakNode = "charBreak70";
+        public List<string> passiveSkillNodes = new();
+        public List<string> attrNodes = new();
+        public List<string> factoryNodes = new();
         public Character()
         {
            
         }
+        
         public Character(ulong owner, string id) : this(owner, id, 1)
         {
 
+        }
+
+        public void UnlockNode(string nodeId)
+        {
+            CharTalentNode nodeInfo = ResourceManager.GetTalentNode(id, nodeId);
+            if (nodeInfo == null) return;
+            //TODO remove cost items
+            switch (nodeInfo.nodeType)
+            {
+                case TalentNodeType.CharBreak:
+                    breakNode = nodeId;
+                    break;
+                case TalentNodeType.Attr:
+                    attrNodes.Add(nodeId);
+                    break;
+                case TalentNodeType.PassiveSkill:
+                    passiveSkillNodes.Add(nodeId);
+                    break;
+                case TalentNodeType.FactorySkill:
+                    factoryNodes.Add(nodeId);
+                    break;
+                default:
+                    Logger.PrintWarn($"Unimplemented NodeType {nodeInfo.nodeType}, not unlocked server side.");
+                    break;
+            }
+            GetOwner().Send(new PacketScCharUnlockTalentNode(GetOwner(), this,nodeId));
         }
         public Character(ulong owner,string id, int level) : this()
         {
@@ -39,12 +74,12 @@ namespace EndFieldPS.Game.Character
             this.id = id;
             this.level = level;
             guid = GetOwner().random.Next();
-            this.weaponGuid = GetOwner().inventoryManager.AddWeapon(ResourceManager.GetDefaultWeapon(ResourceManager.characterTable[id].weaponType),1).guid;
+            this.weaponGuid = GetOwner().inventoryManager.AddWeapon(ResourceManager.charGrowthTable[id].defaultWeaponId, 1).guid;
             this.curHp = ResourceManager.characterTable[id].attributes[level].Attribute.attrs.Find(A => A.attrType == (int)AttributeType.MaxHp)!.attrValue;
         }
         public List<ResourceManager.Attribute> GetAttributes()
         {
-            int lev = level - 1 + breakStage;
+            int lev = level - 1 + GetbreakStage();
             return ResourceManager.characterTable[id].attributes[lev].Attribute.attrs;
         }
         public Player GetOwner()
@@ -145,15 +180,12 @@ namespace EndFieldPS.Game.Character
             });
             return proto;
         }
-        public string GetBreakNode()
+        public int GetbreakStage()
         {
-            string lastNode = "";
-            if (ResourceManager.charBreakNodeTable.Values.ToList().Find(b => b.breakStage == breakStage)!=null)
-            {
-                lastNode = ResourceManager.charBreakNodeTable.Values.ToList().Find(b => b.breakStage == breakStage).nodeId;
-            }
-            return lastNode;
+            int breakStage = ResourceManager.charBreakNodeTable[breakNode].breakStage;
+            return breakStage;
         }
+        
         public CharInfo ToProto()
         {
             CharInfo info = new CharInfo()
@@ -172,7 +204,20 @@ namespace EndFieldPS.Game.Character
                 
                 Talent = new()
                 {
-                    LatestBreakNode= GetBreakNode(),
+                    LatestBreakNode= breakNode,
+                    LatestPassiveSkillNodes =
+                    {
+                        passiveSkillNodes
+                    },
+                    AttrNodes =
+                    {
+                        attrNodes
+                    },
+                    
+                    LatestFactorySkillNodes =
+                    {
+                        factoryNodes
+                    }
                 },
                 BattleMgrInfo = new()
                 {
@@ -181,7 +226,7 @@ namespace EndFieldPS.Game.Character
                 BattleInfo = new()
                 {
                     Hp = curHp,
-
+                    Ultimatesp=160,
                 },
                 SkillInfo = new()
                 {
@@ -226,6 +271,57 @@ namespace EndFieldPS.Game.Character
             };
 
             return info;
+        }
+        public (int,int,int) CalculateLevelAndGoldCost(int addedXp)
+        {
+            int gold = 0;
+            int curLevel = this.level;
+            while(addedXp >= ResourceManager.charLevelUpTable["" + curLevel].exp)
+            {
+                gold += ResourceManager.charLevelUpTable["" + curLevel].gold;
+                addedXp -= ResourceManager.charLevelUpTable["" + curLevel].exp;
+                curLevel++;
+                if(curLevel >= 80)
+                {
+                    curLevel = 80;
+                }
+            }
+            return (curLevel, gold, addedXp);
+        }
+        public void LevelUp(RepeatedField<ItemInfo> items)
+        {
+            int addedXp = 0;
+            foreach (var item in items)
+            {
+                addedXp += ResourceManager.expItemDataMap[item.ResId].expGain * item.ResCount;
+            }
+
+            (int, int, int) CalculatedValues = CalculateLevelAndGoldCost(xp+addedXp);
+            items.Add(new ItemInfo()
+            {
+                ResId = "item_gold",
+                ResCount = CalculatedValues.Item2
+            });
+            if (GetOwner().inventoryManager.ConsumeItems(items))
+            {
+                this.level = CalculatedValues.Item1;
+                this.xp= CalculatedValues.Item3;
+                ScCharLevelUp levelUp = new()
+                {
+                    CharObjID = guid,
+                    
+
+                };
+                ScCharSyncLevelExp synclevel = new()
+                {
+                    Exp = xp,
+                    CharObjID = guid,
+                    Level = level
+                };
+                GetOwner().Send(ScMessageId.ScCharSyncLevelExp, synclevel);
+                GetOwner().Send(ScMessageId.ScCharLevelUp, levelUp);
+                GetOwner().Send(new PacketScSyncWallet(GetOwner()));
+            }
         }
     }
 }

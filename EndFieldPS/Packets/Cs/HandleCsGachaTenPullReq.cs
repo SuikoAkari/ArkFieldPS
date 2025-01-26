@@ -27,22 +27,60 @@ namespace EndFieldPS.Packets.Cs
             List<string> chars = new List<string>();
             const double prob6Star = 0.008; // 0.8%
             const double prob5Star = 0.08;  // 8%
+            const double fiftyfifty = 0.50; // 50%
             GachaCharPoolTable table = ResourceManager.gachaCharPoolTable[req.GachaPoolId];
+            GachaCharPoolContentTable content = ResourceManager.gachaCharPoolContentTable[req.GachaPoolId];
             int sixstarcount = 0;
             int fivestarcount = 0;
+            List<GachaCharPoolItem> fiveStars = content.list.FindAll(c => c.starLevel == 5);
+            List<GachaCharPoolItem> sixStars = content.list.FindAll(c => c.starLevel == 6);
+            int fiveStarGuaranteedIndex = new Random().Next(9);
             for (int i=0; i < 10; i++)
             {
                 double roll = rng.NextDouble();
-
+                double fifty = rng.NextDouble();
+                
                 if (roll < prob6Star)
                 {
                     sixstarcount++;
-                    chars.Add(ResourceManager.characterTable[table.upCharIds[0]].charId);
+                    
+                    if (table.upCharIds.Count > 0)
+                    {
+                        if (fifty >= fiftyfifty)
+                        {
+                            chars.Add(ResourceManager.characterTable[table.upCharIds[0]].charId);
+                        }
+                        else
+                        {
+                            chars.Add(sixStars[new Random().Next(sixStars.Count - 1)].charId);
+                        }
+
+                    }
+                    else
+                    {
+                        chars.Add(sixStars[new Random().Next(sixStars.Count - 1)].charId);
+                    }
                 }
-                else if (roll < prob6Star + prob5Star)
+                else if (roll < prob6Star + prob5Star || fiveStarGuaranteedIndex == i)
                 {
                     fivestarcount++;
-                    chars.Add(ResourceManager.characterTable[table.upCharIds[1]].charId);
+                    if(table.upCharIds.Count > 1)
+                    {
+                        if(fifty >= fiftyfifty)
+                        {
+                            chars.Add(ResourceManager.characterTable[table.upCharIds[1]].charId);
+                        }
+                        else
+                        {
+                            chars.Add(fiveStars[new Random().Next(fiveStars.Count - 1)].charId);
+                        }
+                        
+                    }
+                    else
+                    {
+                        chars.Add(fiveStars[new Random().Next(fiveStars.Count-1)].charId);
+                    }
+                    
                 }
                 else
                 {
@@ -55,28 +93,37 @@ namespace EndFieldPS.Packets.Cs
                 GachaPoolId=req.GachaPoolId,
                 GachaType=req.GachaType,
                 
+                OriResultIds =
+                {
+                },
                 Star5GotCount= fivestarcount,
                 Star6GotCount= sixstarcount,
                 FinalResults =
                 {
 
                 },
-                UpGotCount=chars.Count,
+                UpGotCount= fivestarcount+ sixstarcount,
                 
-            };
+            }; 
             foreach(string ch in chars)
             {
+                bool exist = session.chars.Find(c => c.id == ch) != null;
+                result.OriResultIds.Add(ch);
                 result.FinalResults.Add(new ScdGachaFinalResult()
                 {
-                    IsNew=true,
+                    IsNew= !exist,
                     ItemId=ch,
-                    RewardItemId=ch,
-                    
+
                 });
             }
-            session.Send(ScMessageId.ScGachaBegin, new Empty());
-            session.Send(ScMessageId.ScGachaSyncPullResult, result); 
+
+
+            //session.Send(Packet.EncodePacket((int)CsMessageId.CsGachaTenPullReq, req));
             
+            session.Send(ScMessageId.ScGachaSyncPullResult, result);
+            //  session.Send(CsMessageId.CsGachaEnd, new Empty());
+           // session.Send(ScMessageId.ScGachaBegin, new Empty());
+
         }
        
     }

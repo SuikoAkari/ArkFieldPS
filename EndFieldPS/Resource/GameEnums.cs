@@ -14,6 +14,26 @@ namespace EndFieldPS.Resource
         Completed = 3,
         Failed = 4
     }
+    public enum SelfInfoReasonType // TypeDefIndex: 27123
+    {
+        SlrEnterScene = 0,
+        SlrReviveDead = 1,
+        SlrReviveRest = 2,
+        SlrChangeTeam = 3,
+        SlrReviveByItem = 4,
+        SlrResetDungeon = 5,
+        SlrSeamlesslyEnterScene = 6,
+        SlrSeamlesslyTouchScene = 7
+    }
+    public enum TalentNodeType // TypeDefIndex: 33688
+    {
+        None = 0,
+        CharBreak = 1,
+        EquipBreak = 2,
+        Attr = 3,
+        PassiveSkill = 4,
+        FactorySkill = 5
+    }
     public enum GuideState // TypeDefIndex: 33634
     {
         None = 0,
