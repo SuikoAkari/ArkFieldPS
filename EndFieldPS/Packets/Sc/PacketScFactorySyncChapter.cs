@@ -93,7 +93,7 @@ namespace EndFieldPS.Packets.Sc
                         TravelPoleMax = 10,
                         
                         BattleCurrent = 0,
-                        BattleMax = 200,
+                        BattleMax = 6,
                         SpCurrent = 100,
                         SpMax = 200
                     },
@@ -104,7 +104,22 @@ namespace EndFieldPS.Packets.Sc
 
                     Panels =
                     {
-
+                        new ScdFactorySyncScenePanel()
+                        {
+                            Level=2,
+                            MainMesh =
+                            {
+                                new ScdRectInt()
+                                {
+                                    X=-728,
+                                    Y=104,
+                                    Z=186,
+                                    L=32,
+                                    W=32,
+                                    H=50
+                                }
+                            }
+                        }
                     }
                 };
                 foreach (var item in domainDataTable[chapterId].settlementGroup)

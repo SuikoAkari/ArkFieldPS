@@ -18,7 +18,7 @@ namespace EndFieldPS.Packets.Sc
             {
                 ScSelfSceneInfo sceneInfo = new()
                 {
-                    SceneId = 0,
+                    SceneId = session.sceneManager.GetSceneGuid(session.curSceneNumId),
                     SceneNumId = session.curSceneNumId,
                     SelfInfoReason = (int)infoReason,
                     

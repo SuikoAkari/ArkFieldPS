@@ -22,6 +22,7 @@ using EndFieldPS.Resource;
 using EndFieldPS.Game.Inventory;
 using static EndFieldPS.Resource.ResourceManager;
 using EndFieldPS.Database;
+using EndFieldPS.Game;
 
 
 namespace EndFieldPS
@@ -60,7 +61,7 @@ namespace EndFieldPS
         public int curSceneNumId;
         public List<Character> chars = new List<Character>();
         public InventoryManager inventoryManager;
-
+        public SceneManager sceneManager;
         public int teamIndex = 0;
         public List<Team> teams= new List<Team>();
         public bool Initialized = false;
@@ -69,6 +70,7 @@ namespace EndFieldPS
             this.socket = socket;
             roleId = (ulong)new Random().Next();
             inventoryManager = new(this);
+            sceneManager = new(this);
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
@@ -94,7 +96,7 @@ namespace EndFieldPS
             {
                 Initialize(); //only if no account found
             }
-           
+            sceneManager.Load();
         }
         public void LoadCharacters()
         {

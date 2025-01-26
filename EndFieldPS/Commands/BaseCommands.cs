@@ -52,43 +52,37 @@ namespace EndFieldPS.Commands
                     break;
             }
         }
-        [Server.Command("spawn", "Spawn cmd test")]
+        [Server.Command("spawn", "Spawn cmd test",true)]
         public static void SpawnCmd(string cmd, string[] args, Player target)
         {
             if (args.Length < 1) return;
             string templateId = args[0];
 
-            foreach (var item in Server.clients)
-            {
-
                 ScObjectEnterView info = new()
                 {
-                    
-                    
                     Detail =new()
                     {
                         
-                        TeamIndex = item.teamIndex,
                         
                         MonsterList =
                         {
                             new SceneMonster()
                             {
-                                Level=5,
+                                Level=36,
                                 CommonInfo = new()
                                 {
-                                    Hp=100,
-                                    Id=item.random.Next(),
+                                    Hp=3000,
+                                    Id=4755837084444680198,
                                     Templateid=templateId,
                                     
-                                    SceneNumId=item.curSceneNumId,
-                                    Position=item.position.ToProto(),
-                                    
+                                    SceneNumId=target.curSceneNumId,
+                                    Position=target.position.ToProto(),
+                                    Type=3,
                                 },
                                 
                                 BattleInfo = new()
                                 {
-                                    
+
                                 },
                                 
                             }
@@ -101,7 +95,7 @@ namespace EndFieldPS.Commands
                     info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
                     {
                         AttrType = attr.attrType,
-                        BasicValue = 0,
+                        BasicValue = attr.attrValue,
                         Value = attr.attrValue
 
                     });
@@ -112,25 +106,30 @@ namespace EndFieldPS.Commands
                     info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
                     {
                         AttrType = attr.attrType,
-                        BasicValue = 0,
+                        BasicValue = attr.attrValue,
                         Value = attr.attrValue
 
                     });
 
                 });
-                item.Send(ScMessageId.ScObjectEnterView, info);
-                
-                item.Send(ScMessageId.ScSpawnEnemy, new ScSpawnEnemy() 
+            for(int i=4; i < 61; i++)
+            {
+                info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
                 {
-                    EnemyInstIds =
-                    {
-                        info.Detail.MonsterList[0].CommonInfo.Id
-                    },
-                    
-                    
+                    AttrType = i,
+                    BasicValue = 0,
+                    Value = 0
+
                 });
-                
             }
+            target.Send(ScMessageId.ScObjectEnterView, info);
+
+            target.Send(ScMessageId.ScSpawnEnemy, new ScSpawnEnemy()
+            {
+                ClientKey=4,
+                EnemyInstIds = { info.Detail.MonsterList[0].CommonInfo.Id }
+            });
+            
         }
     }
 }

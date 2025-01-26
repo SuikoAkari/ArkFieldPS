@@ -20,7 +20,7 @@ namespace EndFieldPS.Packets.Sc
             {
                 Position = !repatriate ? client.position.ToProto() : client.safeZonePoint.ToProto(),
                 PassThroughData= data,
-                SceneId = 0,
+                SceneId = client.sceneManager.GetSceneGuid(sceneNumId),
                 RoleId = client.roleId,
                 SceneNumId = sceneNumId,
 

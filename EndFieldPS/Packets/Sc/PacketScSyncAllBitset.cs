@@ -26,7 +26,8 @@ namespace EndFieldPS.Packets.Sc
                         
                         Value =
                         {
-                            
+                            0,
+                            0
                         }
                     },
                     new BitsetData()
@@ -35,7 +36,9 @@ namespace EndFieldPS.Packets.Sc
                         
                         Value =
                         {
-                            
+                            0,
+                            1500,
+                            300
                         }
                     }
 
@@ -44,6 +47,7 @@ namespace EndFieldPS.Packets.Sc
             foreach (var item in strIdNumTable.char_voice_id.dic)
             {
                 bitset.Bitset[0].Value.Add((ulong)item.Value);
+                bitset.Bitset[0].Value.Add((ulong)0);
             }
             foreach (var item in strIdNumTable.char_doc_id.dic)
             {
