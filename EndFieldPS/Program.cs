@@ -22,9 +22,9 @@ class Program
         }
         else
         {
-            File.WriteAllText("server_config.json", JsonConvert.SerializeObject(config, Formatting.Indented));
+           // File.WriteAllText("server_config.json", JsonConvert.SerializeObject(config, Formatting.Indented));
         }
-        
+        File.WriteAllText("server_config.json", JsonConvert.SerializeObject(config, Formatting.Indented));
 
         new Thread(() =>
         {
