@@ -2,6 +2,7 @@
 using BeyondTools.VFS.Crypto;
 using EndFieldPS.Commands;
 using EndFieldPS.Database;
+using EndFieldPS.Game;
 using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
@@ -80,6 +81,7 @@ namespace EndFieldPS
             }
             
             Logger.Initialize(); // can also pass hideLogs here
+            Logger.Print($"Starting server version {ServerVersion} with supported client version {GameConstants.GAME_VERSION}");
             showLogs = !hideLogs;
             // showLogs = false;
             Logger.Print($"Logs are {(showLogs ? "enabled" : "disabled")}");
