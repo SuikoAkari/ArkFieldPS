@@ -14,7 +14,7 @@
     public static class CommandManager
     {
         private static List<Type> s_handlerTypes = new List<Type>();
-        private static ImmutableDictionary<string, (Server.CommandAttribute, Server.CommandAttribute.HandlerDelegate)> s_notifyReqGroup;
+        public static ImmutableDictionary<string, (Server.CommandAttribute, Server.CommandAttribute.HandlerDelegate)> s_notifyReqGroup;
         public static string targetId;
         public static void Init()
         {

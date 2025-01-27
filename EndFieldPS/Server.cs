@@ -50,7 +50,7 @@ namespace EndFieldPS
             public delegate void HandlerDelegate(string command, string[] args, Player target);
         }
         public static List<Player> clients = new List<Player>();
-        public static string ServerVersion = "1.0.5_1";
+        public static string ServerVersion = "1.0.6";
         public static bool Initialized = false;
         public static bool showLogs = true;
         public static SQLiteConnection _db;
@@ -90,15 +90,15 @@ namespace EndFieldPS
             ResourceManager.Init();
             new Thread(new ThreadStart(DispatchServer)).Start();
             
-            IPAddress ipAddress = IPAddress.Parse(config.ServerIp);
-            int port = config.LocalPort;
+            IPAddress ipAddress = IPAddress.Parse(Server.config.gameServer.bindAddress);
+            int port = Server.config.gameServer.bindPort;
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             new Thread(new ThreadStart(CmdListener)).Start();
             
             try
             {
                 serverSocket.Bind(new IPEndPoint(ipAddress, port));
-                serverSocket.Listen(config.MaxClients);
+                serverSocket.Listen(int.MaxValue);
                 Logger.Print($"Server listening on {ipAddress}:{port}");
                 Initialized = true;
                 while (true)

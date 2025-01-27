@@ -1,15 +1,6 @@
 ﻿using EndFieldPS.Network;
 using EndFieldPS.Packets.Sc;
 using EndFieldPS.Protocol;
-using Google.Protobuf;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Sockets;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace EndFieldPS.Packets.Cs
 {
@@ -20,9 +11,15 @@ namespace EndFieldPS.Packets.Cs
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsSceneRepatriate req = packet.DecodeBody<CsSceneRepatriate>();
-            //TODO repatriate to actual repatriate position (probably need full level data)
-            session.EnterScene(req.SceneNumId);
-
+            // Not correctly fixed, need to find the issue - SuikoAkari
+            // No idea how pass_through_data is used, it's not part of the packet sent by the official server
+            /*session.Send(ScMessageId.ScSceneRepatriate, new ScSceneRepatriate()
+            {
+                SceneNumId = req.SceneNumId,
+                RepatriateSource = req.RepatriateSource,
+            });
+            //session.Send(new PacketScSyncCharBagInfo(session));
+            session.EnterScene(req.SceneNumId);*/
         }
        
     }

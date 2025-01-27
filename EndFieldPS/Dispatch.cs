@@ -19,15 +19,20 @@ namespace EndFieldPS
         public Webserver server;
         public void Start()
         {
-            server = new Webserver(Server.config.DispatchIp, Server.config.DispatchPort, false, null, null, DefaultRoute);
-            server.Settings.Headers.Host = "http://"+ Server.config.DispatchIp + ":"+ Server.config.DispatchPort;
+            server = new Webserver(Server.config.dispatchServer.bindAddress, Server.config.dispatchServer.bindPort, false, null, null, DefaultRoute);
+            server.Settings.Headers.Host = "http://"+ Server.config.dispatchServer.bindAddress + ":"+ Server.config.dispatchServer.bindPort;
             server.Events.ResponseSent += Events_ResponseSent;
             server.Events.RequestReceived += Events_RequestReceived;
             server.Events.RequestDenied += Events_RequestDenied;
             server.Events.ConnectionReceived += Events_ConnectionReceived;
-     
+            server.Events.Exception += Events_Exception;
             server.Start();
-            Logger.Print($"Dispatch started on {Server.config.DispatchIp}:{Server.config.DispatchPort}");
+            Logger.Print($"Dispatch started on {Server.config.dispatchServer.bindAddress}:{Server.config.dispatchServer.bindPort}");
+        }
+
+        private void Events_Exception(object? sender, ExceptionEventArgs e)
+        {
+           Logger.PrintError(e.Exception.Message);
         }
 
         private void Events_ConnectionReceived(object? sender, ConnectionEventArgs e)
@@ -239,7 +244,7 @@ namespace EndFieldPS
         {
             string requestBody = ctx.Request.DataAsString;
             Console.WriteLine(requestBody);
-            string resp = "{\"addr\": \""+Server.config.ServerIp+"\", \"port\": "+Server.config.LocalPort+"}";
+            string resp = "{\"addr\": \""+Server.config.gameServer.bindAddress+"\", \"port\": "+Server.config.gameServer.bindPort+"}";
 
 
 
