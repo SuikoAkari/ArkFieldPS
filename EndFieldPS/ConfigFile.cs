@@ -42,7 +42,11 @@ namespace EndFieldPS
     public struct LogSettings
     {
         public bool packets;
+        public bool debugPrint=true;
 
+        public LogSettings()
+        {
+        }
     }
     public struct GameserverSettings
     {

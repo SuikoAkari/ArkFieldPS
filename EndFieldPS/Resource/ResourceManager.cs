@@ -49,6 +49,7 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, CharGrowthTable> charGrowthTable = new();
         public static Dictionary<string, WeaponUpgradeTemplateTable> weaponUpgradeTemplateTable = new();
         public static Dictionary<string, GachaCharPoolContentTable> gachaCharPoolContentTable = new();
+        public static Dictionary<string, EnemyTable> enemyTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static List<LevelData> levelDatas = new();
 
@@ -100,6 +101,7 @@ namespace EndFieldPS.Resource
             charGrowthTable = JsonConvert.DeserializeObject<Dictionary<string, CharGrowthTable>>(ReadJsonFile("TableCfg/CharGrowthTable.json"));
             weaponUpgradeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponUpgradeTemplateTable>>(ReadJsonFile("TableCfg/WeaponUpgradeTemplateTable.json"));
             gachaCharPoolContentTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolContentTable>>(ReadJsonFile("TableCfg/GachaCharPoolContentTable.json"));
+            enemyTable = JsonConvert.DeserializeObject<Dictionary<string, EnemyTable>>(ReadJsonFile("TableCfg/EnemyTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
@@ -274,6 +276,12 @@ namespace EndFieldPS.Resource
             public string areaId;
             public string sceneId;
             public int areaIndex;
+        }
+        public class EnemyTable
+        {
+            public string attrTemplateId;
+            public string enemyId;
+            public string templateId;
         }
         public class ItemTable
         {

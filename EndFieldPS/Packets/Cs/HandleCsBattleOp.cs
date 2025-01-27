@@ -39,12 +39,29 @@ namespace EndFieldPS.Packets.Cs
                     case BattleActionOperateType.BattleOpTriggerAction:
                         OnTriggerAction(session, data.TriggerActionOpData);
                         break;
+                    case BattleActionOperateType.BattleOpEntityDie:
+                        OnEntityDie(session, data.EntityDieOpData);
+                        break;
                     default:
                         Logger.PrintWarn($"Unsupported BattleActionOperateType.{data.OpType}");
                         break;
                 }
             }
 
+        }
+
+        private static void OnEntityDie(Player session, BattleEntityDieOpData data)
+        {
+            if (session.sceneManager.GetEntity(data.EntityInstId) != null)
+            {
+                if (Server.config.logOptions.debugPrint)
+                {
+                    Logger.PrintWarn("Killed entity with guid: "+data.EntityInstId);
+                }
+                session.sceneManager.KillEntity(data.EntityInstId);
+            }
+                
+            
         }
 
         private static void OnTriggerAction(Player session, BattleTriggerActionOpData data)
@@ -65,7 +82,7 @@ namespace EndFieldPS.Packets.Cs
                         HealEntity(session, item);
                     }
                     break;
-
+                
                 default:
                     Logger.PrintWarn($"Unsupported ServerBattleActionType.{data.Action.ActionType}");
                     break;
@@ -89,6 +106,10 @@ namespace EndFieldPS.Packets.Cs
             if (en != null)
             {
                 en.Damage(detail.Value);
+                if (Server.config.logOptions.debugPrint)
+                {
+                    Logger.PrintWarn("Damaged entity with dmg: "+detail.Value);
+                }
             }
         }
         private static void OnSkillStartCast(Player session, BattleClientOpData data)
