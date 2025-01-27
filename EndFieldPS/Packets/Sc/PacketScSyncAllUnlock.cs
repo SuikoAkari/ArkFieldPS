@@ -73,7 +73,8 @@ namespace EndFieldPS.Packets.Sc
             unlock.UnlockSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
             unlock.UnlockSystems.Add((int)UnlockSystemType.FacBUS);
             unlock.UnlockSystems.Add((int)UnlockSystemType.PRTS);
-
+            unlock.UnlockSystems.Add((int)UnlockSystemType.Dungeon);
+            
             SetData(ScMessageId.ScSyncAllUnlock, unlock);
         }
 

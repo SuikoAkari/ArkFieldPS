@@ -29,6 +29,7 @@ namespace EndFieldPS.Packets.Sc
                 },
                 Blackboard = new()
                 {
+                    
                     Power = new()
                     {
                         PowerGen = 100,
@@ -63,7 +64,8 @@ namespace EndFieldPS.Packets.Sc
                 Scenes =
                 {
                     
-                }
+                },
+                
                 
             };
             foreach (var item in strIdNumTable.chapter_map_id.dic)

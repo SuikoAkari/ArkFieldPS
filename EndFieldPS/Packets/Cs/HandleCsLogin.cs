@@ -245,6 +245,13 @@ namespace EndFieldPS.Packets.Cs
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene(); //101
             session.Initialized = true;
+            ScSyncUltimateSpCellCnt idk = new()
+            {
+                ObjId=session.roleId,
+                UltimateSpCellCnt=3
+            };
+            
+            session.Send(ScMessageId.ScSyncUltimateSpCellCnt, idk);
         }
         static byte[] GenerateRandomBytes(int length)
         {

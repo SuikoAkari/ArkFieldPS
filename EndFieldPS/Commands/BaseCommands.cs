@@ -23,7 +23,12 @@ namespace EndFieldPS.Commands
             }
 
         }
-        
+        [Server.Command("kick", "kick target", true)]
+        public static void KickCmd(string cmd, string[] args, Player target)
+        {
+           target.Disconnect();
+            Logger.Print("Kicked "+target.accountId);
+        }
         [Server.Command("scene", "Change scene",true)]
         public static void SceneCmd(string cmd, string[] args, Player target)
         {
