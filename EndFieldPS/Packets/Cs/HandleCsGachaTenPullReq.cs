@@ -17,13 +17,18 @@ namespace EndFieldPS.Packets.Cs
 {
     public class HandleCsGachaTenPullReq
     {
-
+        [Server.Handler(CsMessageId.CsGachaSinglePullReq)]
+        public static void HandleOnePull(Player session, CsMessageId cmdId, Packet packet)
+        {
+            CsGachaSinglePullReq req = packet.DecodeBody<CsGachaSinglePullReq>();
+            session.gachaManager.DoGacha(req.GachaPoolId, 1);
+        }
         [Server.Handler(CsMessageId.CsGachaTenPullReq)]
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsGachaTenPullReq req = packet.DecodeBody<CsGachaTenPullReq>();
-            
-            Random rng = new Random();
+            session.gachaManager.DoGacha(req.GachaPoolId, 10);
+           /* Random rng = new Random();
             List<string> chars = new List<string>();
             const double prob6Star = 0.008; // 0.8%
             const double prob5Star = 0.08;  // 8%
@@ -120,9 +125,9 @@ namespace EndFieldPS.Packets.Cs
 
             //session.Send(Packet.EncodePacket((int)CsMessageId.CsGachaTenPullReq, req));
             
-            session.Send(ScMessageId.ScGachaSyncPullResult, result);
+            session.Send(ScMessageId.ScGachaSyncPullResult, result); */
             //  session.Send(CsMessageId.CsGachaEnd, new Empty());
-           // session.Send(ScMessageId.ScGachaBegin, new Empty());
+            // session.Send(ScMessageId.ScGachaBegin, new Empty());
 
         }
        

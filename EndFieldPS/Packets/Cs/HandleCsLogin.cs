@@ -95,7 +95,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.CommercialItem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Factory));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.SpecialItem));
-            
+            session.Send(new PacketScSyncAllMail(session));
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
             {
                 CollectionList =
@@ -245,13 +245,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene(); //101
             session.Initialized = true;
-            ScSyncUltimateSpCellCnt idk = new()
-            {
-                ObjId=session.roleId,
-                UltimateSpCellCnt=3
-            };
-            
-            session.Send(ScMessageId.ScSyncUltimateSpCellCnt, idk);
+
         }
         static byte[] GenerateRandomBytes(int length)
         {

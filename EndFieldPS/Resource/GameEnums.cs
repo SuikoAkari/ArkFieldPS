@@ -213,6 +213,17 @@ namespace EndFieldPS.Resource
         WeeklyStatBegin = 1001,
         WeeklyStatEnd = 1500
     }
+    public enum MailSubType // TypeDefIndex: 33718
+    {
+        Default = 0,
+        Questionnaire = 1
+    }
+    public enum MailType // TypeDefIndex: 33549
+    {
+        Mail = 0,
+        ItemCache = 1,
+        SpItemCache = 2
+    }
     public enum BitsetType // TypeDefIndex: 33649
     {
         None = 0,

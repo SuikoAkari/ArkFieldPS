@@ -23,6 +23,7 @@ using EndFieldPS.Game.Inventory;
 using static EndFieldPS.Resource.ResourceManager;
 using EndFieldPS.Database;
 using EndFieldPS.Game;
+using EndFieldPS.Game.Gacha;
 
 
 namespace EndFieldPS
@@ -62,15 +63,18 @@ namespace EndFieldPS
         public List<Character> chars = new List<Character>();
         public InventoryManager inventoryManager;
         public SceneManager sceneManager;
+        public GachaManager gachaManager;
         public int teamIndex = 0;
         public List<Team> teams= new List<Team>();
         public bool Initialized = false;
+        public List<Mail> mails = new List<Mail>();
         public Player(Socket socket)
         {
             this.socket = socket;
             roleId = (ulong)new Random().Next();
             inventoryManager = new(this);
             sceneManager = new(this);
+            gachaManager = new(this);
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
@@ -94,6 +98,7 @@ namespace EndFieldPS
                 random.v = data.totalGuidCount;
                 teamIndex = data.teamIndex;
                 LoadCharacters();
+                mails = DatabaseManager.db.LoadMails(roleId);
                 inventoryManager.Load();
             }
             else
@@ -134,6 +139,24 @@ namespace EndFieldPS
             teams.Add(new Team());
             teams.Add(new Team());
             teams.Add(new Team());
+
+            mails.Add(new Mail()
+            {
+                expireTime=DateTime.UtcNow.AddDays(30).Ticks,
+                sendTime=DateTime.UtcNow.Ticks,
+                claimed=false,
+                guid=random.Next(),
+                owner=roleId,
+                isRead=false,
+                content=new Mail_Content()
+                {
+                    content= "Welcome to EndField PS, Join our Discord for help: https://discord.gg/5uJGJJEFHa",
+                    senderName="SuikoAkari",
+                    title="Welcome",
+                    templateId="",
+                }
+
+            });
 
         }
         public void EnterScene()
@@ -272,6 +295,7 @@ namespace EndFieldPS
                 Initialized = false;
                 Save();
                 Logger.Print($"{nickname} Disconnected");
+                socket.Disconnect(false);
             }
             
             
@@ -280,14 +304,23 @@ namespace EndFieldPS
         {
             //Save playerdata
             DatabaseManager.db.SavePlayerData(this);
-            SaveCharacters();
             inventoryManager.Save();
+            SaveCharacters();
+            SaveMails();
+            
+        }
+        public void SaveMails()
+        {
+            foreach(Mail mail in mails)
+            {
+                DatabaseManager.db.UpsertMail(mail);
+            }
         }
         public void SaveCharacters()
         {
             foreach(Character c in chars)
             {
-                DatabaseManager.db.UpsertCharacterAsync(c);
+                DatabaseManager.db.UpsertCharacter(c);
             }
         }
     }
