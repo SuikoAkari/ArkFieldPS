@@ -1,5 +1,7 @@
 ﻿using EndFieldPS.Database;
+using EndFieldPS.Game.Entities;
 using EndFieldPS.Protocol;
+using EndFieldPS.Resource;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +13,17 @@ namespace EndFieldPS.Commands
 {
     public static class BaseCommands
     {
+        [Server.Command("help", "Show list of commands", false)]
+        public static void HelpCmd(string cmd, string[] args, Player target)
+        {
+            Logger.Print("List of possible commands: ");
+            foreach(var command in CommandManager.s_notifyReqGroup)
+            {
+                Logger.Print($"/{command.Key} - {command.Value.Item1.desc} (Require Target: {command.Value.Item1.requiredTarget})");
+            }
 
+        }
+        
         [Server.Command("scene", "Change scene",true)]
         public static void SceneCmd(string cmd, string[] args, Player target)
         {
@@ -52,85 +64,42 @@ namespace EndFieldPS.Commands
                     break;
             }
         }
-        [Server.Command("spawn", "Spawn cmd test")]
+        [Server.Command("spawn", "Spawn cmd test",true)]
         public static void SpawnCmd(string cmd, string[] args, Player target)
         {
-            if (args.Length < 1) return;
+            if (args.Length < 2) return;
             string templateId = args[0];
-
-            foreach (var item in Server.clients)
+            int level = int.Parse(args[1]);
+            if(level < 1)
             {
-
-                ScObjectEnterView info = new()
-                {
-                    
-                    
-                    Detail =new()
-                    {
-                        
-                        TeamIndex = item.teamIndex,
-                        
-                        MonsterList =
-                        {
-                            new SceneMonster()
-                            {
-                                Level=5,
-                                CommonInfo = new()
-                                {
-                                    Hp=100,
-                                    Id=item.random.Next(),
-                                    Templateid=templateId,
-                                    
-                                    SceneNumId=item.curSceneNumId,
-                                    Position=item.position.ToProto(),
-                                    
-                                },
-                                
-                                BattleInfo = new()
-                                {
-                                    
-                                },
-                                
-                            }
-                        },
-                        
-                    },
-                };
-                enemyAttributeTemplateTable[templateId].levelDependentAttributes[5].attrs.ForEach(attr =>
-                {
-                    info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
-                    {
-                        AttrType = attr.attrType,
-                        BasicValue = 0,
-                        Value = attr.attrValue
-
-                    });
-
-                });
-                enemyAttributeTemplateTable[templateId].levelIndependentAttributes.attrs.ForEach(attr =>
-                {
-                    info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
-                    {
-                        AttrType = attr.attrType,
-                        BasicValue = 0,
-                        Value = attr.attrValue
-
-                    });
-
-                });
-                item.Send(ScMessageId.ScObjectEnterView, info);
-                
-                item.Send(ScMessageId.ScSpawnEnemy, new ScSpawnEnemy() 
-                {
-                    EnemyInstIds =
-                    {
-                        info.Detail.MonsterList[0].CommonInfo.Id
-                    },
-                    
-                    
-                });
-                
+                Logger.PrintError("Level can't be less than 1");
+                return;
             }
+            switch (templateId.Split("_")[0])
+            {
+                case "eny":
+                    if (ResourceManager.enemyTable.ContainsKey(templateId))
+                    {
+                        EntityMonster mon = new(templateId, level, target.roleId, target.position, target.rotation);
+                        target.sceneManager.SpawnEntity(mon);
+                    }
+                    else
+                    {
+                        Logger.PrintError("Monster template id not found");
+                    }
+
+                    break;
+                default:
+
+                    Logger.PrintError("Unsupported template id to spawn: " + templateId.Split("_")[0]);
+                    break;
+            }
+            /*target.Send(ScMessageId.ScSpawnEnemy, new ScSpawnEnemy()
+            {
+                ClientKey=2,
+                EnemyInstIds = { info.Detail.MonsterList[0].CommonInfo.Id }
+            });*/
+            
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using EndFieldPS.Network;
+﻿using EndFieldPS.Game.Entities;
+using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using Google.Protobuf;
 using System;
@@ -24,9 +25,20 @@ namespace EndFieldPS.Packets.Cs
             {
                 if (moveInfo.Objid == session.teams[session.teamIndex].leader)
                 {
-                    session.position=new Vector3f(moveInfo.MotionInfo.Position);
+                    session.position = new Vector3f(moveInfo.MotionInfo.Position);
                     session.rotation = new Vector3f(moveInfo.MotionInfo.Rotation);
                 }
+                else
+                {
+                    Entity entity = session.sceneManager.GetEntity(moveInfo.Objid);
+
+                    if (entity != null && entity is not EntityCharacter)
+                    {
+                        entity.Position = new Vector3f(moveInfo.MotionInfo.Position);
+                        entity.Rotation = new Vector3f(moveInfo.MotionInfo.Rotation);
+                    }
+                }
+                
             }
             ScMoveObjectMove proto = new()
             {

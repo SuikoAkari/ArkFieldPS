@@ -18,7 +18,7 @@ namespace EndFieldPS.Packets.Sc
             {
                 ScSelfSceneInfo sceneInfo = new()
                 {
-                    SceneId = 0,
+                    SceneId = session.sceneManager.GetSceneGuid(session.curSceneNumId),
                     SceneNumId = session.curSceneNumId,
                     SelfInfoReason = (int)infoReason,
                     
@@ -50,7 +50,7 @@ namespace EndFieldPS.Packets.Sc
                 {
                     sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());
                 });
-                //  session.Send(Packet.EncodePacket((int)ScMessageId.ScObjectEnterView, test));
+                session.sceneManager.LoadCurrentTeamEntities();
                 SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
             }
            

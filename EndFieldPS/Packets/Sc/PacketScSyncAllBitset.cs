@@ -18,6 +18,8 @@ namespace EndFieldPS.Packets.Sc
 
             ScSyncAllBitset bitset = new()
             {
+                
+                
                 Bitset =
                 {
                     new BitsetData()
@@ -26,7 +28,13 @@ namespace EndFieldPS.Packets.Sc
                         
                         Value =
                         {
-                            
+                            18302558512577773568,
+                            10351514792732131327,
+                            732826689654224995,
+                            5453459960836881971,
+                            2259954429851840863,
+                            14082403297859863210,
+                            321385
                         }
                     },
                     new BitsetData()
@@ -35,7 +43,17 @@ namespace EndFieldPS.Packets.Sc
                         
                         Value =
                         {
-                            
+                            651555471184378880,
+                            7572302140
+                        }
+                    },
+                    new BitsetData()
+                    {
+                        Type=(int)BitsetType.LevelMapFirstView,
+
+                        Value =
+                        {
+                            51541704716
                         }
                     }
 
@@ -44,6 +62,7 @@ namespace EndFieldPS.Packets.Sc
             foreach (var item in strIdNumTable.char_voice_id.dic)
             {
                 bitset.Bitset[0].Value.Add((ulong)item.Value);
+                bitset.Bitset[0].Value.Add((ulong)0);
             }
             foreach (var item in strIdNumTable.char_doc_id.dic)
             {

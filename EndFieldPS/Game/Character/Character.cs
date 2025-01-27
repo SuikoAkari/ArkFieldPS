@@ -28,6 +28,7 @@ namespace EndFieldPS.Game.Character
         public int xp;
         public ulong owner;
         public double curHp;
+        public float ultimateSp = 200;
         public uint potential = 0;
         public string breakNode = "charBreak20";
         public List<string> passiveSkillNodes = new();
@@ -51,6 +52,9 @@ namespace EndFieldPS.Game.Character
             switch (nodeInfo.nodeType)
             {
                 case TalentNodeType.CharBreak:
+                    breakNode = nodeId;
+                    break;
+                case TalentNodeType.EquipBreak:
                     breakNode = nodeId;
                     break;
                 case TalentNodeType.Attr:
@@ -226,7 +230,7 @@ namespace EndFieldPS.Game.Character
                 BattleInfo = new()
                 {
                     Hp = curHp,
-                    Ultimatesp=160,
+                    Ultimatesp= ultimateSp,
                 },
                 SkillInfo = new()
                 {

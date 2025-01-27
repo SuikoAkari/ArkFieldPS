@@ -56,7 +56,7 @@
             }
             else
             {
-                if (!Server.hideLog.Contains(cmdId))
+                if (!Server.hideLog.Contains(cmdId) && Server.config.logOptions.packets)
                     Logger.PrintWarn($"Can't find handler for {(Enum.GetName(typeof(CsMessageId), cmdId)).ToString().Pastel(Color.FromArgb(165, 229, 250))} ({(cmdId).ToString().Pastel(Color.FromArgb(165, 229, 250))})");
             }
         }

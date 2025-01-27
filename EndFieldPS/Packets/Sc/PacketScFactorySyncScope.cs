@@ -1,11 +1,5 @@
 ﻿using EndFieldPS.Network;
 using EndFieldPS.Protocol;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EndFieldPS.Packets.Sc
 {
@@ -13,49 +7,61 @@ namespace EndFieldPS.Packets.Sc
     {
 
         public PacketScFactorySyncScope(Player client) {
-            
-            //TODO dehardcode current chapter, quickbars, routes, bookmark etc
-            ScFactorySyncScope proto = new ScFactorySyncScope()
+            // TODO: Remove hardcoded values
+            SetData(ScMessageId.ScFactorySyncScope, new ScFactorySyncScope()
             {
-                BookMark = new()
-                {
-
-                },
                 ScopeName = 1,
+                CurrentChapterId = "domain_1",
                 Quickbars =
                 {
                     new ScdFactorySyncQuickbar()
                     {
-                        Type=0,
                         List =
                         {
-                            "","","","","","","",""
+                            "item_port_power_pole_2",
+                            "item_port_travel_pole_1",
+                            "item_port_power_diffuser_1",
+                            "item_port_grinder_1",
+                            "item_port_battle_turret_1",
+                            "item_port_miner_2",
+                            "item_port_miner_3",
+                            "item_port_soil_moss_1"
                         }
                     },
                     new ScdFactorySyncQuickbar()
                     {
-                        Type=1,
+                        Type = 1,
                         List =
                         {
-                            "","","","","","","",""
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
                         }
                     }
                 },
-
                 TransportRoute = new()
                 {
-                    UpdateTs = DateTime.UtcNow.Ticks + 100000000,
+                    UpdateTs = DateTime.UtcNow.AddDays(1).Ticks,
                     Routes =
                     {
-                        
-                    },
-
+                        new ScdFactoryHubTransportRoute
+                        {
+                            ChapterId = "domain_1",
+                            Index = 1,
+                            
+                        }
+                    }
                 },
+                BookMark = new()
+                {
                 
-                CurrentChapterId = "domain_1",
-            };
-            
-            SetData(ScMessageId.ScFactorySyncScope, proto);
+                }
+            });
         }
 
     }
