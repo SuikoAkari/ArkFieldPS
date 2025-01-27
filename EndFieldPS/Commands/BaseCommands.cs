@@ -11,7 +11,17 @@ namespace EndFieldPS.Commands
 {
     public static class BaseCommands
     {
+        [Server.Command("help", "Show list of commands", false)]
+        public static void HelpCmd(string cmd, string[] args, Player target)
+        {
+            Logger.Print("List of possible commands: ");
+            foreach(var command in CommandManager.s_notifyReqGroup)
+            {
+                Logger.Print($"/{command.Key} - {command.Value.Item1.desc} (Require Target: {command.Value.Item1.requiredTarget})");
+            }
 
+        }
+        
         [Server.Command("scene", "Change scene",true)]
         public static void SceneCmd(string cmd, string[] args, Player target)
         {

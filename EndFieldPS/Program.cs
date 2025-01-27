@@ -20,10 +20,6 @@ class Program
         {
             config = JsonConvert.DeserializeObject<ConfigFile>(File.ReadAllText("server_config.json"))!;
         }
-        else
-        {
-           // File.WriteAllText("server_config.json", JsonConvert.SerializeObject(config, Formatting.Indented));
-        }
         File.WriteAllText("server_config.json", JsonConvert.SerializeObject(config, Formatting.Indented));
 
         new Thread(() =>
