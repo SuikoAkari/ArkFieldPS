@@ -98,6 +98,7 @@ namespace EndFieldPS.Game.Character
                 
                 BattleInfo = new()
                 {
+                    
                     MsgGeneration = 1,
                     
                     SkillList =
@@ -176,9 +177,9 @@ namespace EndFieldPS.Game.Character
                 proto.Attrs.Add(new AttrInfo()
                 {
                     AttrType = attr.attrType,
-                    BasicValue = 0,
+                    BasicValue = attr.attrValue,
                     Value = attr.attrValue
-
+                    
                 });
 
             });
@@ -231,6 +232,7 @@ namespace EndFieldPS.Game.Character
                 {
                     Hp = curHp,
                     Ultimatesp= ultimateSp,
+                    
                 },
                 SkillInfo = new()
                 {
@@ -273,7 +275,7 @@ namespace EndFieldPS.Game.Character
                     }
                 }
             };
-
+            
             return info;
         }
         public (int,int,int) CalculateLevelAndGoldCost(int addedXp)

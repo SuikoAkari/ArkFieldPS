@@ -149,12 +149,20 @@ namespace EndFieldPS
         }
         public void EnterScene(int sceneNumId)
         {
-            sceneManager.UnloadCurrent();
-            curSceneNumId = sceneNumId;
-            position = GetLevelData(sceneNumId).playerInitPos;
-            rotation = GetLevelData(sceneNumId).playerInitRot;
-            sceneManager.LoadCurrentTeamEntities();
-            Send(new PacketScEnterSceneNotify(this,sceneNumId));
+            if(GetLevelData(sceneNumId) != null)
+            {
+                sceneManager.UnloadCurrent();
+                curSceneNumId = sceneNumId;
+                position = GetLevelData(sceneNumId).playerInitPos;
+                rotation = GetLevelData(sceneNumId).playerInitRot;
+                sceneManager.LoadCurrentTeamEntities();
+                Send(new PacketScEnterSceneNotify(this, sceneNumId));
+            }
+            else
+            {
+                Logger.PrintError($"Scene {sceneNumId} not found");
+            }
+
         }
 
         public bool SocketConnected(Socket s)

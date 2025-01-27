@@ -46,6 +46,7 @@ namespace EndFieldPS.Packets.Sc
                 },
                 TransportRoute = new()
                 {
+                    
                     UpdateTs = DateTime.UtcNow.AddDays(1).Ticks,
                     Routes =
                     {
@@ -60,7 +61,8 @@ namespace EndFieldPS.Packets.Sc
                 BookMark = new()
                 {
                 
-                }
+                },
+                
             });
         }
 
