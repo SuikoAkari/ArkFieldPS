@@ -1,4 +1,6 @@
-﻿using EndFieldPS.Game.Character;
+﻿using EndFieldPS.Game;
+using EndFieldPS.Game.Character;
+using EndFieldPS.Game.Gacha;
 using EndFieldPS.Game.Inventory;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
@@ -59,7 +61,10 @@ namespace EndFieldPS.Database
             var client = new MongoClient(connectionString);
             _database = client.GetDatabase(dbName);
         }
-
+        public List<Mail> LoadMails(ulong roleId)
+        {
+            return _database.GetCollection<Mail>("mails").Find(c => c.owner == roleId).ToList();
+        }
         public List<Character> LoadCharacters(ulong roleId)
         {
             return _database.GetCollection<Character>("avatars").Find(c=>c.owner== roleId).ToList();
@@ -67,6 +72,20 @@ namespace EndFieldPS.Database
         public List<Item> LoadInventoryItems(ulong roleId)
         {
             return _database.GetCollection<Item>("items").Find(c => c.owner == roleId).ToList();
+        }
+        public void AddGachaTransaction(GachaTransaction transaction)
+        {
+            if (transaction._id == ObjectId.Empty)
+            {
+                transaction._id = ObjectId.GenerateNewId();
+            }
+            var collection = _database.GetCollection<GachaTransaction>("gachas");
+            //These transactions never need to be changed
+            collection.InsertOne(transaction);
+        }
+        public List<GachaTransaction> LoadGachaTransaction(ulong roleId, string templateId)
+        {
+            return _database.GetCollection<GachaTransaction>("gachas").Find(c => c.ownerId== roleId && c.gachaTemplateId==templateId).ToList();
         }
         public static string GenerateToken(int length)
         {
@@ -141,7 +160,7 @@ namespace EndFieldPS.Database
                 new ReplaceOptions { IsUpsert = true }
             );
         }
-        public void UpsertCharacterAsync(Character character)
+        public void UpsertCharacter(Character character)
         {
             if (character._id == ObjectId.Empty)
             {
@@ -157,6 +176,25 @@ namespace EndFieldPS.Database
             var result=collection.ReplaceOne(
                 filter,
                 character,
+                new ReplaceOptions { IsUpsert = true }
+            );
+        }
+        public void UpsertMail(Mail mail)
+        {
+            if (mail._id == ObjectId.Empty)
+            {
+                mail._id = ObjectId.GenerateNewId();
+            }
+            var collection = _database.GetCollection<Mail>("mails");
+
+            var filter =
+                Builders<Mail>.Filter.Eq(c => c.guid, mail.guid)
+                &
+                Builders<Mail>.Filter.Eq(c => c.owner, mail.owner);
+
+            var result = collection.ReplaceOne(
+                filter,
+                mail,
                 new ReplaceOptions { IsUpsert = true }
             );
         }

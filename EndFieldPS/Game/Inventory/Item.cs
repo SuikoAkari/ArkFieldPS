@@ -55,38 +55,50 @@ namespace EndFieldPS.Game.Inventory
         }
         public virtual ScdItemGrid ToProto()
         {
-            switch (ItemType)
+            try
             {
-                case ItemValuableDepotType.Weapon:
-                    return new ScdItemGrid()
-                    {
-                        Count = 1,
-                        Id = id,
-
-                        Inst = new()
+                switch (ItemType)
+                {
+                    case ItemValuableDepotType.Weapon:
+                        return new ScdItemGrid()
                         {
-                            InstId = guid,
-                            Weapon = new()
+                            Count = 1,
+                            Id = id,
+
+                            Inst = new()
                             {
                                 InstId = guid,
-                                EquipCharId = GetOwner().chars.Find(c => c.weaponGuid == guid) != null ? GetOwner().chars.Find(c => c.weaponGuid == guid).guid : 0,
-                                WeaponLv = level,
-                                TemplateId = ResourceManager.GetItemTemplateId(id),
-                                Exp = xp,
-                                AttachGemId= attachGemId,
-                                BreakthroughLv= breakthroughLv,
-                                RefineLv=refineLv
-                            },
-                            IsLock=locked
-                        }
-                    };
-                default:
-                    return new ScdItemGrid()
-                    {
-                        Count = amount,
-                        Id = id,
-                    };
+                                Weapon = new()
+                                {
+                                    InstId = guid,
+                                    EquipCharId = GetOwner().chars.Find(c => c.weaponGuid == guid) != null ? GetOwner().chars.Find(c => c.weaponGuid == guid).guid : 0,
+                                    WeaponLv = level,
+                                    TemplateId = ResourceManager.GetItemTemplateId(id),
+                                    Exp = xp,
+                                    AttachGemId = attachGemId,
+                                    BreakthroughLv = breakthroughLv,
+                                    RefineLv = refineLv
+                                },
+                                IsLock = locked
+                            }
+                        };
+                    default:
+                        return new ScdItemGrid()
+                        {
+                            Count = amount,
+                            Id = id,
+                        };
+                }
             }
+            catch(Exception e)
+            {
+                return new ScdItemGrid()
+                {
+                    Count = amount,
+                    Id = id,
+                };
+            }
+            
         }
         public Player GetOwner()
         {
