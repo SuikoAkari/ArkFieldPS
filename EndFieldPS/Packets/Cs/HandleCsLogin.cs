@@ -23,6 +23,16 @@ namespace EndFieldPS.Packets.Cs
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsLogin req = packet.DecodeBody<CsLogin>();
+            if(Server.clients.Count > Server.config.serverOptions.maxPlayers)
+            {
+                session.Send(ScMessageId.ScNtfErrorCode, new ScNtfErrorCode()
+                {
+                    Details = "Server Full",
+                    ErrorCode = (int)CODE.ErrCommonServerOverload,
+                });
+                session.Disconnect();
+                return;
+            }
             Account account = DatabaseManager.db.GetAccountByTokenGrant(req.Token);
             ScLogin rsp = new()
             {
@@ -49,7 +59,7 @@ namespace EndFieldPS.Packets.Cs
                     session.Send(ScMessageId.ScNtfErrorCode, new ScNtfErrorCode()
                     {
                         Details = "Account error",
-                        ErrorCode = -1
+                        ErrorCode = (int)CODE.ErrLoginProcessLogin,
                     });
                     session.Disconnect();
                     return;
@@ -65,7 +75,7 @@ namespace EndFieldPS.Packets.Cs
                 session.Send(ScMessageId.ScNtfErrorCode, new ScNtfErrorCode()
                 {
                     Details="Unsupported client version",
-                    ErrorCode=-1
+                    ErrorCode= (int)CODE.ErrCommonClientVersionNotEqual
                 });
                 session.Disconnect();
                 return;

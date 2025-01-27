@@ -98,7 +98,7 @@ namespace EndFieldPS
             try
             {
                 serverSocket.Bind(new IPEndPoint(ipAddress, port));
-                serverSocket.Listen(config.serverOptions.maxPlayers);
+                serverSocket.Listen(int.MaxValue);
                 Logger.Print($"Server listening on {ipAddress}:{port}");
                 Initialized = true;
                 while (true)
