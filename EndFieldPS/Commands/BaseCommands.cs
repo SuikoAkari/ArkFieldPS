@@ -1,5 +1,7 @@
 ﻿using EndFieldPS.Database;
+using EndFieldPS.Game.Entities;
 using EndFieldPS.Protocol;
+using EndFieldPS.Resource;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,80 +67,38 @@ namespace EndFieldPS.Commands
         [Server.Command("spawn", "Spawn cmd test",true)]
         public static void SpawnCmd(string cmd, string[] args, Player target)
         {
-            if (args.Length < 1) return;
+            if (args.Length < 2) return;
             string templateId = args[0];
-
-                ScObjectEnterView info = new()
-                {
-                    Detail =new()
-                    {
-                        
-                        
-                        MonsterList =
-                        {
-                            new SceneMonster()
-                            {
-                                Level=36,
-                                CommonInfo = new()
-                                {
-                                    Hp=3000,
-                                    Id=4755837084444680198,
-                                    Templateid=templateId,
-                                    
-                                    SceneNumId=target.curSceneNumId,
-                                    Position=target.position.ToProto(),
-                                    Type=3,
-                                },
-                                
-                                BattleInfo = new()
-                                {
-
-                                },
-                                
-                            }
-                        },
-                        
-                    },
-                };
-                enemyAttributeTemplateTable[templateId].levelDependentAttributes[5].attrs.ForEach(attr =>
-                {
-                    info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
-                    {
-                        AttrType = attr.attrType,
-                        BasicValue = attr.attrValue,
-                        Value = attr.attrValue
-
-                    });
-
-                });
-                enemyAttributeTemplateTable[templateId].levelIndependentAttributes.attrs.ForEach(attr =>
-                {
-                    info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
-                    {
-                        AttrType = attr.attrType,
-                        BasicValue = attr.attrValue,
-                        Value = attr.attrValue
-
-                    });
-
-                });
-            for(int i=4; i < 61; i++)
+            int level = int.Parse(args[1]);
+            if(level < 1)
             {
-                info.Detail.MonsterList[0].Attrs.Add(new AttrInfo()
-                {
-                    AttrType = i,
-                    BasicValue = 0,
-                    Value = 0
-
-                });
+                Logger.PrintError("Level can't be less than 1");
+                return;
             }
-            target.Send(ScMessageId.ScObjectEnterView, info);
-
-            target.Send(ScMessageId.ScSpawnEnemy, new ScSpawnEnemy()
+            switch (templateId.Split("_")[0])
             {
-                ClientKey=4,
+                case "eny":
+                    if (ResourceManager.enemyTable.ContainsKey(templateId))
+                    {
+                        EntityMonster mon = new(templateId, level, target.roleId, target.position, target.rotation);
+                        target.sceneManager.SpawnEntity(mon);
+                    }
+                    else
+                    {
+                        Logger.PrintError("Monster template id not found");
+                    }
+
+                    break;
+                default:
+
+                    Logger.PrintError("Unsupported template id to spawn: " + templateId.Split("_")[0]);
+                    break;
+            }
+            /*target.Send(ScMessageId.ScSpawnEnemy, new ScSpawnEnemy()
+            {
+                ClientKey=2,
                 EnemyInstIds = { info.Detail.MonsterList[0].CommonInfo.Id }
-            });
+            });*/
             
         }
     }

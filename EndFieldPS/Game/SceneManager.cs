@@ -1,6 +1,8 @@
 ﻿using EndFieldPS.Game.Entities;
+using EndFieldPS.Packets.Sc;
 using EndFieldPS.Resource;
 using MongoDB.Bson.Serialization.Attributes;
+using SharpCompress.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,23 +43,24 @@ namespace EndFieldPS.Game
         }
         public void LoadCurrentTeamEntities()
         {
-            Scene scene = scenes.Find(s => s.sceneNumId == player.curSceneNumId);
+            Scene scene = GetCurScene();
 
             if (scene != null)
             {
-                scene.Unload();
+                scene.entities.RemoveAll(e => e is EntityCharacter);
+                foreach (Character.Character chara in player.GetCurTeam())
+                {
+                    EntityCharacter ch = new(chara.guid, player.roleId);
+                    scene.entities.Add(ch);
+                }
             }
             
-            scene.entities.RemoveAll(e => e is EntityCharacter);
-            foreach(Character.Character chara in player.GetCurTeam())
-            {
-                EntityCharacter ch = new(chara.guid, player.roleId);
-                scene.entities.Add(ch);
-            }
+            
+
         }
         public void LoadCurrent()
         {
-            Scene scene = scenes.Find(s => s.sceneNumId == player.curSceneNumId);
+            Scene scene = GetCurScene();
 
             if (scene != null)
             {
@@ -65,6 +68,34 @@ namespace EndFieldPS.Game
             }
 
         }
+        public Scene GetCurScene()
+        {
+            return scenes.Find(s => s.sceneNumId == player.curSceneNumId);
+        }
+        public void SpawnEntity(Entity entity)
+        {
+
+            Scene scene = GetCurScene();
+
+            if (scene != null)
+            {
+                scene.entities.Add(entity);
+                //Spawn packet
+                player.Send(new PacketScObjectEnterView(player,entity));
+            }
+        }
+        public void KillEntity(ulong guid)
+        {
+            Scene scene = GetCurScene();
+
+            if (scene != null)
+            {
+                scene.entities.Remove(GetEntity(guid));
+                //Leave packet disabled for now
+                //player.Send(new PacketScObjectLeaveView(player, guid));
+            }
+        }
+
         public ulong GetSceneGuid(int sceneNumId)
         {
             return scenes.Find(s=>s.sceneNumId == sceneNumId).guid;
@@ -101,7 +132,7 @@ namespace EndFieldPS.Game
 
         public void Load()
         {
-            //Load actual scene entities
+            //Load actual scene entities (Missing full LevelData for that)
         }
 
         public Player GetOwner()
