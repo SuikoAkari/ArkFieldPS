@@ -83,6 +83,12 @@ EndFieldPS is a private server for EndField CBT2.
 7. Run the Game Client and start to play! (Note: Only OS client is supported for now)
 8. You must create an account using `account create (username)` in the server console, then login in the game with an email like `(username)@randomemailformathere.whatyouwant`. There is no password so you can input a random password for its field.
 
+## Additional Information
+
+You can find the description of all server commands [here](docs/CommandList/commands_en-US.md).<br>
+The list of all scenes is [here](docs/LevelsTable.md).<br>
+The list of all enemies is [here](docs/EnemiesTable.md).
+
 ## Discord
 
 If you want to discuss or help with this project, join our [Discord Server](https://discord.gg/gPvqhfdMU6)!
