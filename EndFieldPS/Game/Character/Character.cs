@@ -1,4 +1,5 @@
-﻿using EndFieldPS.Packets.Sc;
+﻿using EndFieldPS.Game.Inventory;
+using EndFieldPS.Packets.Sc;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
 using Google.Protobuf.Collections;
@@ -9,9 +10,12 @@ using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using static EndFieldPS.Resource.ResourceManager;
 using static EndFieldPS.Resource.ResourceManager.CharGrowthTable;
+using static EndFieldPS.Resource.ResourceManager.WeaponUpgradeTemplateTable;
 
 namespace EndFieldPS.Game.Character
 {
@@ -34,6 +38,7 @@ namespace EndFieldPS.Game.Character
         public List<string> passiveSkillNodes = new();
         public List<string> attrNodes = new();
         public List<string> factoryNodes = new();
+        public Dictionary<int,ulong> equipCol = new() { { 0, 0 }, { 1, 0 }, { 2, 0 }, { 3, 0 } };
         public Character()
         {
            
@@ -43,7 +48,47 @@ namespace EndFieldPS.Game.Character
         {
 
         }
+        public Dictionary<AttributeType,double> CalcAttributes()
+        {
+            Dictionary<AttributeType, double> attributes = new();
+            foreach (var item in GetAttributes())
+            {
+                attributes.Add((AttributeType)item.attrType, item.attrValue);
+            }
+            Item weapon = GetOwner().inventoryManager.items.Find(w => w.guid == weaponGuid);
+            if(weapon != null)
+            {
+                WeaponBasicTable wTable = ResourceManager.weaponBasicTable[weapon.id];
+                WeaponUpgradeTemplateTable template = ResourceManager.weaponUpgradeTemplateTable[wTable.levelTemplateId];
+                WeaponCurve curve=template.list.Find(c => c.weaponLv == weapon.level);
+                attributes[AttributeType.Atk] = attributes[AttributeType.Atk] + curve.baseAtk;
 
+            }
+            //Won't be very precise but for now
+            foreach (var equip in equipCol)
+            {
+                Item EquipItem = GetOwner().inventoryManager.items.Find(e => e.guid == equip.Value);
+                if (EquipItem != null)
+                {
+                    foreach (var modifier in EquipItem.GetEquipAttributeModifier())
+                    {
+                        switch (modifier.modifierType)
+                        {
+                            case ModifierType.BaseAddition:
+                            case ModifierType.Addition:
+                                attributes[modifier.attrType] = attributes[modifier.attrType] + modifier.attrValue;
+                                break;
+                            case ModifierType.BaseMultiplier:
+                                attributes[modifier.attrType] = attributes[modifier.attrType] *1+ modifier.attrValue;
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
+            }
+            return attributes;
+        }
         public void UnlockNode(string nodeId)
         {
             CharTalentNode nodeInfo = ResourceManager.GetTalentNode(id, nodeId);
@@ -79,7 +124,7 @@ namespace EndFieldPS.Game.Character
             this.level = level;
             guid = GetOwner().random.Next();
             this.weaponGuid = GetOwner().inventoryManager.AddWeapon(ResourceManager.charGrowthTable[id].defaultWeaponId, 1).guid;
-            this.curHp = ResourceManager.characterTable[id].attributes[level].Attribute.attrs.Find(A => A.attrType == (int)AttributeType.MaxHp)!.attrValue;
+            this.curHp = CalcAttributes()[AttributeType.MaxHp];
         }
         public List<ResourceManager.Attribute> GetAttributes()
         {
@@ -169,20 +214,19 @@ namespace EndFieldPS.Game.Character
                 },
                 Attrs =
                 {
-
+                    
                 }
             };
-            GetAttributes().ForEach(attr =>
+            foreach(var attr in CalcAttributes())
             {
                 proto.Attrs.Add(new AttrInfo()
                 {
-                    AttrType = attr.attrType,
-                    BasicValue = attr.attrValue,
-                    Value = attr.attrValue
-                    
-                });
+                    AttrType = (int)attr.Key,
+                    BasicValue = attr.Value,
+                    Value = attr.Value
 
-            });
+                });
+            }
             return proto;
         }
         public int GetbreakStage()
@@ -190,7 +234,22 @@ namespace EndFieldPS.Game.Character
             int breakStage = ResourceManager.charBreakNodeTable[breakNode].breakStage;
             return breakStage;
         }
-        
+        public bool IsEquipped(ulong equipGuid)
+        {
+            return equipCol.Values.Contains(equipGuid);
+        }
+        public Dictionary<int,ulong> GetEquipCol()
+        {
+            Dictionary<int, ulong> equips = new();
+            foreach(var item in equipCol)
+            {
+                if (item.Value != 0)
+                {
+                    equips.Add(item.Key,item.Value);
+                }
+            }
+            return equips;
+        }
         public CharInfo ToProto()
         {
             CharInfo info = new CharInfo()
@@ -206,6 +265,10 @@ namespace EndFieldPS.Game.Character
                 NormalSkill = id + "_NormalSkill",
                 WeaponId = weaponGuid,
                 PotentialLevel = potential,
+                EquipCol =
+                {
+                    GetEquipCol()
+                },
                 
                 Talent = new()
                 {

@@ -213,6 +213,19 @@ namespace EndFieldPS.Resource
         WeeklyStatBegin = 1001,
         WeeklyStatEnd = 1500
     }
+    public enum ModifierType // TypeDefIndex: 33568
+    {
+        Addition = 0,
+        Multiplier = 1,
+        FinalAddition = 3,
+        FinalMultiplier = 4,
+        BaseAddition = 5,
+        BaseMultiplier = 6,
+        BaseFinalAddition = 7,
+        BaseFinalMultiplier = 8,
+        Enum = 9,
+        None = 99999
+    }
     public enum MailSubType // TypeDefIndex: 33718
     {
         Default = 0,

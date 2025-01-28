@@ -37,6 +37,7 @@ namespace EndFieldPS.Game.Inventory
             this.owner = owner;
             this.id = id;
             this.amount = amt;
+            this.level = GetDefaultLevel();
             guid = GetOwner().random.Next();
         }
         public Item(ulong owner, string id, ulong level)
@@ -46,6 +47,22 @@ namespace EndFieldPS.Game.Inventory
             this.amount = 1;
             this.level = level;
             guid = GetOwner().random.Next();
+        }
+        public ulong GetDefaultLevel()
+        {
+            switch (ItemType)
+            {
+                case ItemValuableDepotType.Weapon:
+                    return 1;
+                case ItemValuableDepotType.Equip:
+                    return equipTable[id].minWearLv;
+                default:
+                    return 0;
+            }
+        }
+        public List<AttributeModifier> GetEquipAttributeModifier()
+        {
+            return ResourceManager.equipTable[id].attrModifiers;
         }
         public ItemValuableDepotType ItemType
         {
@@ -78,6 +95,27 @@ namespace EndFieldPS.Game.Inventory
                                     AttachGemId = attachGemId,
                                     BreakthroughLv = breakthroughLv,
                                     RefineLv = refineLv
+                                },
+                                IsLock = locked
+                            }
+                        };
+                    case ItemValuableDepotType.Equip:
+                        return new ScdItemGrid()
+                        {
+                            Count = 1,
+                            Id = id,
+
+                            Inst = new()
+                            {
+                                InstId = guid,
+                                
+                                Equip = new()
+                                {
+                                    
+                                    EquipCharId = GetOwner().chars.Find(c => c.IsEquipped(guid)) != null ? GetOwner().chars.Find(c => c.IsEquipped(guid)).guid : 0,
+                                    Equipid=guid,
+                                    Templateid=ResourceManager.GetItemTemplateId(id),
+                                    
                                 },
                                 IsLock = locked
                             }

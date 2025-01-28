@@ -11,17 +11,15 @@ namespace EndFieldPS.Game.Entities
 {
     public class EntityCharacter : Entity
     {
-        public ulong guid;
-        public int level;
-        public ulong worldOwner;
-        public double curHp
+
+        public new double curHp
         {
             get
             {
                 return GetChar().curHp;
             }
         }
-        public Vector3f Position
+        public new Vector3f Position
         {
             get
             {
@@ -32,7 +30,7 @@ namespace EndFieldPS.Game.Entities
                 GetOwner().position = value;
             }
         }
-        public Vector3f Rotation
+        public new Vector3f Rotation
         {
             get
             {
@@ -57,13 +55,27 @@ namespace EndFieldPS.Game.Entities
             {
                 IsDead = GetChar().curHp < 1,
                 Objid = guid,
+                
                 BattleInfo = new()
                 {
                     Hp=curHp,
+                    
                     Ultimatesp=GetChar().ultimateSp,
+                },
+                
+            };
+            ScEntityPropertyChange prop = new()
+            {
+                InstId=guid,
+                Info = new()
+                {
+                    Hp=curHp,
+                    Ultimatesp= GetChar().ultimateSp,
+                    
                 }
             };
             GetOwner().Send(ScMessageId.ScCharSyncStatus, state);
+            GetOwner().Send(ScMessageId.ScEntityPropertyChange, prop);
         }
 
         public override void Heal(double heal)
@@ -80,7 +92,17 @@ namespace EndFieldPS.Game.Entities
                     Ultimatesp = GetChar().ultimateSp,
                 }
             };
+            ScEntityPropertyChange prop = new()
+            {
+                InstId = guid,
+                Info = new()
+                {
+                    Hp = curHp,
+                    Ultimatesp = GetChar().ultimateSp,
+                }
+            };
             GetOwner().Send(ScMessageId.ScCharSyncStatus, state);
+            GetOwner().Send(ScMessageId.ScEntityPropertyChange, prop);
         }
         public Character.Character GetChar()
         {
