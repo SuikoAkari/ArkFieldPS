@@ -68,11 +68,10 @@ namespace EndFieldPS.Game.Gacha
             (int fiveStarPity, int sixStarPity, GachaTransaction? lastSixStar, bool isFiftyFiftyLost) 
                 PityInfo = GetCurrentPity(gachaId);
             int increaseTime = 0;
-            int pityforcalculate = PityInfo.sixStarPity-65;
-            while(pityforcalculate > 0)
+            int pityforcalculate = PityInfo.sixStarPity-64;
+            if(pityforcalculate < 1)
             {
-                increaseTime++;
-                pityforcalculate--;
+                pityforcalculate = 0;
             }
             GachaCharPoolTable table = ResourceManager.gachaCharPoolTable[gachaId];
             GachaCharPoolContentTable content = ResourceManager.gachaCharPoolContentTable[gachaId];

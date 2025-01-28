@@ -105,7 +105,15 @@ namespace EndFieldPS.Resource
         RemoteFactoryEntity = 2048,
         Creature = 4096
     }
-
+    public enum EntityDataType // TypeDefIndex: 24999
+    {
+        Character = 0,
+        Enemy = 1,
+        Interactive = 2,
+        Npc = 3,
+        AbilityEntity = 4,
+        Count = 5
+    }
     public enum ObjectTypeIndex // TypeDefIndex: 24768
     {
         Invalid = 0,
