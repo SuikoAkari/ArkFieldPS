@@ -68,7 +68,7 @@
 |216|True        |indie_dg003             |![Image](./LevelImages/216.png)|      |
 |128|True        |indie_race001           |![Image](./LevelImages/128.png)|      |
 |124|False       |indie_rpg001            |                               |      |
-|21 |False       |map01_lv001             |![Image](./LevelImages/21.png) |All main maps (`map01_lv*`) aren't working at the moment|
+|21 |False       |map01_lv001             |                               |All main maps (`map01_lv*`) aren't working at the moment|
 |2  |False       |map01_lv002             |                               |      |
 |3  |False       |map01_lv003             |                               |      |
 |34 |False       |map01_lv005             |                               |      |

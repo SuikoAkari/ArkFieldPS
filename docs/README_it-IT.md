@@ -1,5 +1,5 @@
 # EndField PS
-[EN](README.md) | [IT](docs/README_it-IT.md) | [RU](docs/README_ru-RU.md) | [CN](docs/README_zh-CN.md)
+[EN](/README.md) | [IT](./README_it-IT.md) | [RU](./README_ru-RU.md) | [CN](./README_zh-CN.md)
 
 ![Logo](https://socialify.git.ci/SuikoAkari/EndFieldPS/image?custom_description=Private+server+for+EndField&amp;description=1&amp;font=Jost&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Farknights.wiki.gg%2Fimages%2F3%2F31%2FArknights_Endfield_logo.png&amp;name=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark)
 
@@ -85,9 +85,9 @@ EndFieldPS è un server privato per la CBT2 di EndField.
 
 ## Informazioni aggiuntive
 
-Puoi trovare una descrizione di tutti i comandi del server [qui](docs/CommandList/commands_it-IT.md).<br>
-[Qui](docs/LevelsTable.md) la lista di tutte le scene.<br>
-[Qui](docs/EnemiesTable.md) la lista di tutti i nemici.
+Puoi trovare una descrizione di tutti i comandi del server [qui](./CommandList/commands_it-IT.md).<br>
+[Qui](./LevelsTable.md) la lista di tutte le scene.<br>
+[Qui](./EnemiesTable.md) la lista di tutti i nemici.
 
 ## Discord
 
