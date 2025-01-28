@@ -14,13 +14,9 @@ public static class Logger
     };
     private static string GetCallingClassName()
     {
-        // Ottiene lo stack trace corrente
         StackTrace stackTrace = new StackTrace();
 
-        // Trova il frame chiamante (2 livelli sopra il metodo attuale)
         var frame = stackTrace.GetFrame(2);
-
-        // Ottiene il tipo chiamante
         var method = frame?.GetMethod();
         return method?.DeclaringType?.Name ?? "Server";
     }

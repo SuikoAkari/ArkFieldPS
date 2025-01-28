@@ -29,6 +29,17 @@ namespace EndFieldPS.Commands
             target.Kick(CODE.ErrKickSessionEnd,"Kicked");
             Logger.Print("Kicked "+target.accountId);
         }
+        [Server.Command("heal", "heal target current team", true)]
+        public static void HealCmd(string cmd, string[] args, Player target)
+        {
+            target.sceneManager.GetCurScene().entities.FindAll(e => e is EntityCharacter).ForEach(e =>
+            {
+                EntityCharacter chara= (EntityCharacter)e;
+                chara.GetChar().curHp = 0;
+                chara.Heal(chara.GetChar().CalcAttributes()[AttributeType.MaxHp]);
+            });
+            Logger.Print("Healed!");
+        }
         [Server.Command("scene", "Change scene",true)]
         public static void SceneCmd(string cmd, string[] args, Player target)
         {

@@ -1,4 +1,5 @@
-﻿using EndFieldPS.Network;
+﻿using EndFieldPS.Game.Gacha;
+using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using System;
 using System.Collections.Generic;
@@ -40,6 +41,8 @@ namespace EndFieldPS.Packets.Sc
             //TODO: Implement banner config for opentime etc
             foreach (var item in gachaCharPoolTable)
             {
+                (int fiveStarPity, int sixStarPity, GachaTransaction? lastSixStar, bool isFiftyFiftyLost)
+                PityInfo = client.gachaManager.GetCurrentPity(item.Value.id);
                 proto.CharGachaPool.GachaPoolInfos.Add(new ScdGachaPoolInfo()
                 {
                     GachaPoolId = item.Value.id,
@@ -55,11 +58,18 @@ namespace EndFieldPS.Packets.Sc
                     GachaPoolId=item.Value.id,
                     IsClosed=false,
                     PersonalCloseReason=0,
+                    SoftGuaranteeProgress=PityInfo.sixStarPity,
+                    TotalPullCount = PityInfo.sixStarPity,
+                    Star5SoftGuaranteeProgress = PityInfo.fiveStarPity,
+                    HardGuaranteeProgress = PityInfo.sixStarPity,
                     
                 });
                 proto.CharGachaPool.GachaPoolCategoryRoleDatas.Add(new ScdGachaPoolCategoryRoleData()
                 {
                     GachaPoolType=item.Value.type,
+                    TotalPullCount = PityInfo.sixStarPity,
+                    Star5SoftGuaranteeProgress = PityInfo.fiveStarPity,
+                    SoftGuaranteeProgress = PityInfo.sixStarPity,
                     
                 });
             }

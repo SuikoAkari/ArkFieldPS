@@ -64,7 +64,7 @@ namespace EndFieldPS.Game.Gacha
             Random rng = new Random();
             const double prob6Star = 0.008; // 0.8%
             const double prob5Star = 0.08;  // 8%
-            
+           
             (int fiveStarPity, int sixStarPity, GachaTransaction? lastSixStar, bool isFiftyFiftyLost) 
                 PityInfo = GetCurrentPity(gachaId);
             int increaseTime = 0;
@@ -74,12 +74,11 @@ namespace EndFieldPS.Game.Gacha
                 increaseTime++;
                 pityforcalculate--;
             }
-           // Logger.Print($"Pity: {PityInfo.sixStarPity}");
-            //TODO: increase 6 star probability after 65 pull
             GachaCharPoolTable table = ResourceManager.gachaCharPoolTable[gachaId];
             GachaCharPoolContentTable content = ResourceManager.gachaCharPoolContentTable[gachaId];
+            GachaCharPoolTypeTable type = ResourceManager.gachaCharPoolTypeTable[""+table.type];
             //Sanity check
-            if(table==null || content == null)
+            if (table==null || content == null || type==null)
             {
                 return;
             }
@@ -96,9 +95,9 @@ namespace EndFieldPS.Game.Gacha
                 PityInfo.sixStarPity++;
                 GachaTransaction transaction = null;
                 //Six star pull
-                if (roll < finalProb6Star || PityInfo.sixStarPity>=80)
+                if (roll < finalProb6Star || PityInfo.sixStarPity>=type.softGuarantee)
                 {
-                    PityInfo.sixStarPity -= PityInfo.sixStarPity >= 80 ? 80 : PityInfo.sixStarPity;
+                    PityInfo.sixStarPity -= PityInfo.sixStarPity >= type.softGuarantee ? type.softGuarantee : PityInfo.sixStarPity;
                     if (table.upCharIds.Count > 0)
                     {
                         transaction = GetChar(table.upCharIds[0], PityInfo.isFiftyFiftyLost, fifty, sixStars, 6);
@@ -175,7 +174,7 @@ namespace EndFieldPS.Game.Gacha
                     RewardItemId= transaction.itemId,
                     RewardIds =
                     {
-                        "reward_4starChar_weaponCoin"
+                        $"reward_{transaction.rarity}starChar_weaponCoin"
                     }
                 });
                 
