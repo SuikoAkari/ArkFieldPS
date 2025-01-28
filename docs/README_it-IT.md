@@ -1,5 +1,5 @@
 # EndField PS
-[EN](README.md) | [IT](docs/README_it-IT.md)
+[EN](README.md) | [IT](docs/README_it-IT.md) | [RU](docs/README_ru-RU.md) | [CN](docs/README_zh-CN.md)
 
 ![Logo](https://socialify.git.ci/SuikoAkari/EndFieldPS/image?custom_description=Private+server+for+EndField&amp;description=1&amp;font=Jost&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Farknights.wiki.gg%2Fimages%2F3%2F31%2FArknights_Endfield_logo.png&amp;name=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark)
 
@@ -82,6 +82,12 @@ EndFieldPS è un server privato per la CBT2 di EndField.
 6. Avvia *Fiddler Classic* - dovrebbe avviarsi con il nuovo *Custom Rules script* (puoi controllarlo nella scheda *FiddlerScript*)
 7. Avvia il client del gioco e inizia a giocare! (Nota: Solo il client OS è supportato al momento)
 8. Devi creare un account usando `account create (username)` nella console del server, e accedere al gioco utilizzando un email con il seguente formato `(username)@randomemailformathere.whatyouwant`. Non esiste una password, quindi puoi inserire una password casuale per il suo campo.
+
+## Informazioni aggiuntive
+
+Puoi trovare una descrizione di tutti i comandi del server [qui](docs/CommandList/commands_it-IT.md).<br>
+[Qui](docs/LevelsTable.md) la lista di tutte le scene.<br>
+[Qui](docs/EnemiesTable.md) la lista di tutti i nemici.
 
 ## Discord
 
