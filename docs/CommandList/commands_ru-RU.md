@@ -9,4 +9,4 @@
 |scene          |Загружает сцену                 |<id сцены>                  |Да                |scene <id сцены>                |scene 209               |
 |kick           |Отключает пользователя от сессии|Отсутствуют                 |Да                |kick                            |kick                    |
 |spawn          |Спавнит врагов рядом с игроком  |<TemplateID врага> <уровень>|Да                |spawn <TID> <уровень>           |spawn eny_0007_mimicw 20|
-|account        |Создаёт аккаунт в базе данных   |<create|reset> <никнейм>    |Нет               |account <create|reset> <никнейм>|account create test     |
+|account        |Создаёт аккаунт в базе данных   |<create\reset> <никнейм>    |Нет               |account <create\reset> <никнейм>|account create test     |
