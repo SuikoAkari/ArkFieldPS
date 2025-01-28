@@ -13,33 +13,8 @@ namespace EndFieldPS.Commands
 {
     public static class BaseCommands
     {
-        [Server.Command("help", "Show list of commands", false)]
-        public static void HelpCmd(string cmd, string[] args, Player target)
-        {
-            Logger.Print("List of possible commands: ");
-            foreach(var command in CommandManager.s_notifyReqGroup)
-            {
-                Logger.Print($"/{command.Key} - {command.Value.Item1.desc} (Require Target: {command.Value.Item1.requiredTarget})");
-            }
 
-        }
-        [Server.Command("kick", "kick target", true)]
-        public static void KickCmd(string cmd, string[] args, Player target)
-        {
-            target.Kick(CODE.ErrKickSessionEnd,"Kicked");
-            Logger.Print("Kicked "+target.accountId);
-        }
-        [Server.Command("heal", "heal target current team", true)]
-        public static void HealCmd(string cmd, string[] args, Player target)
-        {
-            target.sceneManager.GetCurScene().entities.FindAll(e => e is EntityCharacter).ForEach(e =>
-            {
-                EntityCharacter chara= (EntityCharacter)e;
-                chara.GetChar().curHp = 0;
-                chara.Heal(chara.GetChar().CalcAttributes()[AttributeType.MaxHp]);
-            });
-            Logger.Print("Healed!");
-        }
+
         [Server.Command("scene", "Change scene",true)]
         public static void SceneCmd(string cmd, string[] args, Player target)
         {
@@ -66,20 +41,7 @@ namespace EndFieldPS.Commands
             CommandManager.targetId = id;
             Logger.Print("Set Target player to "+id);
         }
-        [Server.Command("account", "account command")]
-        public static void AccountCmd(string cmd, string[] args, Player target)
-        {
-            if (args.Length < 2) return;
-            switch (args[0])
-            {
-                case "create":
-                    DatabaseManager.db.CreateAccount(args[1]);
-                    break;
-                default:
-                    Logger.Print("Example: account create (username)");
-                    break;
-            }
-        }
+
         [Server.Command("spawn", "Spawn cmd test",true)]
         public static void SpawnCmd(string cmd, string[] args, Player target)
         {
