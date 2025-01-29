@@ -15,9 +15,13 @@ EndFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本�
 
 ## 安装步骤  
 
-1. 安装 [.NET SDK](https://dotnet.microsoft.com/en-us/download)（推荐版本 8.0.12）、[MongoDB](https://www.mongodb.com/try/download/community) 和 [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) 或 [mitmproxy](https://mitmproxy.org/)  
-   - 安装 *Fiddler Classic* 时，请确保启用了**解密 HTTPS 流量**并**安装证书**！  
-   - 需要通过菜单栏左上角的 Tools -> Options -> HTTPS，勾选 “Capture HTTPS CONNECTs” 和 “Decrypt HTTPS traffic”。您还可以通过 Actions（位于 “Capture HTTPS CONNECTs” 右侧）-> Trust Root Certificate 重新安装证书，点击 “Yes” 以确认。  
+1. 安装：
+   * [.NET SDK](https://dotnet.microsoft.com/en-us/download)（推荐版本 8.0.12）
+   * [MongoDB](https://www.mongodb.com/try/download/community) 
+   * [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) 或 [mitmproxy](https://mitmproxy.org/)  
+
+   1. 安装 *Fiddler Classic* 时，请确保启用了**解密 HTTPS 流量**并**安装证书**！  
+   2. 需要通过菜单栏左上角的 Tools -> Options -> HTTPS，勾选 “Capture HTTPS CONNECTs” 和 “Decrypt HTTPS traffic”。您还可以通过 Actions（位于 “Capture HTTPS CONNECTs” 右侧）-> Trust Root Certificate 重新安装证书，点击 “Yes” 以确认。  
 
 2. 下载 [预编译版本](https://github.com/SuikoAkari/EndFieldPS/releases/latest) 或自行构建项目。  
 3. 将 `Json` 和 `TableCfg` 文件夹放入 `EndFieldPS.exe` 所在的目录（可以从 [这里](https://github.com/PotRooms/EndFieldData/tree/main) 下载副本）。  

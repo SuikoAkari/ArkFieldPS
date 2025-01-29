@@ -16,9 +16,12 @@ EndFieldPS - приватный сервер для Arknights EndField CBT2.
 
 ## Шаги для установки
 
-1. Установите [.NET SDK](https://dotnet.microsoft.com/en-us/download) (рекомендуется версия 8.0.12), [MongoDB](https://www.mongodb.com/try/download/community) и [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) (или [mitmproxy](https://mitmproxy.org/)), если у вас их ещё нет.
-   * При установке *Fiddler Classic* убедитесь, что вы **включили** "Decrypt HTTPS traffic" и **установили** сертификат!
-   * Вам нужно включить две функции: перейдите в Tools (в левом верхнем меню) -> Options -> HTTPS -> Включите "Capture HTTPS CONNECTs" и "Decrypt HTTPS traffic". Вы также можете переустановить сертификаты с помощью Actions (напротив "Capture HTTPS CONNECTs") -> Trust Root Certificate и нажать "Yes".
+1. Установите: 
+   * [.NET SDK](https://dotnet.microsoft.com/en-us/download) (рекомендуется версия 8.0.12)
+   * [MongoDB](https://www.mongodb.com/try/download/community)
+   * [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) (или [mitmproxy](https://mitmproxy.org/)), если у вас их ещё нет.
+   1. При установке *Fiddler Classic* убедитесь, что вы **включили** "Decrypt HTTPS traffic" и **установили** сертификат!
+   2. Вам нужно включить две функции: перейдите в Tools (в левом верхнем меню) -> Options -> HTTPS -> Включите "Capture HTTPS CONNECTs" и "Decrypt HTTPS traffic". Вы также можете переустановить сертификаты с помощью Actions (напротив "Capture HTTPS CONNECTs") -> Trust Root Certificate и нажать "Yes".
 2. Скачайте [скомпилированную версию](https://github.com/SuikoAkari/EndFieldPS/releases/latest) или скомпилируйте самостоятельно.
 3. Положите `Json` и `TableCfg` папки рядом с `EndFieldPS.exe` (вы можете скачать их [здесь](https://github.com/PotRooms/EndFieldData/tree/main)).
 4. Запустите сервер (`EndFieldPS.exe`).
