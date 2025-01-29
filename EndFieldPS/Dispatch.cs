@@ -1,5 +1,6 @@
 ﻿using EndFieldPS.Database;
 using EndFieldPS.Game;
+using EndFieldPS.Game.Gacha;
 using Google.Protobuf.WellKnownTypes;
 using HttpServerLite;
 using MongoDB.Bson.IO;
@@ -11,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Channels;
 using System.Threading.Tasks;
+using static EndFieldPS.Game.Gacha.GachaManager;
 
 namespace EndFieldPS
 {
@@ -59,15 +61,9 @@ namespace EndFieldPS
         {
             byte[] resp;
             string curVer = "EndField PS";
-            resp = System.Text.Encoding.UTF8.GetBytes(curVer);
-           
-                ctx.Response.StatusCode = 200;
-                ctx.Response.ContentLength = resp.Length;
-                ctx.Response.SendAsync(resp);
-            Console.WriteLine(ctx.Request.Method.ToString());
 
-
-            // await ctx.Response.SendAsync(resp);
+            await data(ctx);
+            
         }
         
         [StaticRoute(HttpServerLite.HttpMethod.POST, "/u8/pay/getAllProductList")]
@@ -337,6 +333,73 @@ namespace EndFieldPS
             const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-";
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+        [StaticRoute(HttpServerLite.HttpMethod.GET, "/gachahistory")]
+        public static async Task gachahistory(HttpContext ctx)
+        {
+            string requestId = ctx.Request.Query.Elements["id"];
+           
+            PlayerData data = DatabaseManager.db.GetPlayerById(requestId);
+            string resp = "";
+            if (data != null)
+            {
+                resp = File.ReadAllText("Data/GachaHistory/index.html");
+            }
+            
+
+
+
+
+            ctx.Response.StatusCode = 200;
+
+            await ctx.Response.SendAsync(resp);
+        }
+        public static async Task data(HttpContext ctx)
+        {
+            string fileId = ctx.Request.Url.Elements.LastOrDefault();
+
+            string filePath = Path.Combine("Data/Static", fileId);
+            if (File.Exists(filePath))
+            {
+                byte[] fileBytes = File.ReadAllBytes(filePath);
+                string extension = Path.GetExtension(filePath).ToLower();
+                string contentType = extension switch
+                {
+                    ".jpg" or ".jpeg" => "image/jpeg",
+                    ".png" => "image/png",
+                    ".gif" => "image/gif",
+                    ".bmp" => "image/bmp",
+                    ".otf" => "font/otf",
+                    _ => "application/octet-stream",
+                };
+                ctx.Response.ContentType = contentType;
+
+                ctx.Response.StatusCode = 200;
+                await ctx.Response.SendAsync(fileBytes);
+            }
+            else
+            {
+
+                ctx.Response.StatusCode = 404;
+                await ctx.Response.SendAsync("File not found.");
+            }
+        }
+        [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/gachahistory")]
+        public static async Task gachahistory_api(HttpContext ctx)
+        {
+            string requestId = ctx.Request.Query.Elements["id"];
+            string banner = ctx.Request.Query.Elements["banner"];
+            string page = ctx.Request.Query.Elements["page"];
+            PlayerData data = DatabaseManager.db.GetPlayerById(requestId);
+            GachaHistoryAPI transactions = new();
+            if (data != null)
+            {
+                transactions = GachaManager.GetGachaHistoryPage(data, banner,int.Parse(page));
+            }
+            string resp = Newtonsoft.Json.JsonConvert.SerializeObject(transactions);
+
+            ctx.Response.StatusCode = 200;
+            await ctx.Response.SendAsync(resp);
         }
     }
 }

@@ -222,5 +222,25 @@ namespace EndFieldPS.Game.Gacha
             }
             return transaction;
         }
+
+        public static GachaHistoryAPI GetGachaHistoryPage(PlayerData data, string banner, int p = 1)
+        {
+            GachaHistoryAPI api = new();
+            int pageSize = 5; 
+
+            List<GachaTransaction> transactionList = DatabaseManager.db.LoadGachaTransaction(data.roleId, banner);
+            transactionList = transactionList.OrderByDescending(g => g.transactionTime).ToList();
+            int maxPages=(int)Math.Ceiling((double)transactionList.Count / pageSize);
+            api.maxPages = maxPages;
+            api.curPage = p;
+            api.transactionList= transactionList.Skip((p - 1) * pageSize).Take(pageSize).ToList();
+            return api;
+        }
+        public class GachaHistoryAPI
+        {
+            public int maxPages = 0;
+            public int curPage = 0;
+            public List<GachaTransaction> transactionList;
+        }
     }
 }
