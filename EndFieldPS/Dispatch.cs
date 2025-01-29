@@ -345,7 +345,10 @@ namespace EndFieldPS
             {
                 resp = File.ReadAllText("Data/GachaHistory/index.html");
             }
-            
+            else
+            {
+                resp = File.ReadAllText("Data/GachaHistory/index_noplayerfound.html");
+            }
 
 
 
@@ -395,6 +398,10 @@ namespace EndFieldPS
             if (data != null)
             {
                 transactions = GachaManager.GetGachaHistoryPage(data, banner,int.Parse(page));
+            }
+            else
+            {
+                transactions.transactionList = new();
             }
             string resp = Newtonsoft.Json.JsonConvert.SerializeObject(transactions);
 
