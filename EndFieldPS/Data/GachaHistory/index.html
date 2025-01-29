@@ -161,7 +161,7 @@
             const userId = getQueryParam("id")
             const banner = getQueryParam("banner")
             try {
-                const response = await fetch("http://127.0.0.1:5000/api/gachahistory?id=" + userId + "&banner=" + banner + "&page=" + curPage); // Example API
+                const response = await fetch("%dispatchip%/api/gachahistory?id=" + userId + "&banner=" + banner + "&page=" + curPage); // Example API
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
