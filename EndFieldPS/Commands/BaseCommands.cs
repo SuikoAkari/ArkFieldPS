@@ -80,10 +80,5 @@ namespace EndFieldPS.Commands
             
         }
 
-        [Server.Command("arise", "Revives/Heals your characters",true)]
-        public static void AriseCmd(string cmd, string[] args, Player target)
-        {
-            target.Send(ScMessageId.ScSceneRevival, new ScSceneRevival());
-        }
     }
 }
