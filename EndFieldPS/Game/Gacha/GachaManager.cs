@@ -102,7 +102,7 @@ namespace EndFieldPS.Game.Gacha
                     {
                         transaction = GetChar(table.upCharIds[0], PityInfo.isFiftyFiftyLost, fifty, sixStars, 6);
                         
-                        if (transaction.itemId != table.upCharIds[1])
+                        if (transaction.itemId != table.upCharIds[0])
                         {
                             PityInfo.isFiftyFiftyLost = true;
                         }
