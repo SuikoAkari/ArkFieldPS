@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Headhunting History</title>
+    <title>Headhunting History not available</title>
     <style>
         html {
             height: 100%;
@@ -105,121 +105,12 @@
     <svg style=" display: none;"viewBox="0 0 95.09 92.61"><defs><g id="svg-def-arrow3" fill="currentColor"><rect x="0.05" y="80.17" width="25.21" height="2.52" rx="1.26"></rect><rect x="54.33" y="80.17" width="25.21" height="2.52" rx="1.26"></rect><rect x="82.42" y="80.17" width="12.57" height="2.52" rx="1.26"></rect><rect y="85.13" width="30.82" height="2.52" rx="1.26"></rect><rect x="24.52" y="90.09" width="45.89" height="2.52" rx="1.26"></rect><rect x="32.86" y="85.13" width="3.9" height="2.52" rx="1.26"></rect><rect x="27.32" y="80.17" width="9.44" height="2.52" rx="1.26"></rect><rect x="38.81" y="80.17" width="13.47" height="2.52" rx="1.26"></rect><rect x="38.81" y="85.13" width="21.02" height="2.52" rx="1.26"></rect><rect x="62.4" y="85.13" width="9.62" height="2.52" rx="1.26"></rect><rect x="74.07" y="85.13" width="21.02" height="2.52" rx="1.26"></rect><path d="M38.09,0V29.37H53.3v15H38.09V71.11L85.3,35.55Z"></path><rect x="23.55" y="29.37" width="14.54" height="14.96"></rect></g></defs></svg>
     <div class="history">
         <div class="historyBar">
-            <h2>Headhunting history</h2>
+            <h2>Headhunting history not available</h2>
         </div>
-        <div class="history-content">
-            <div class="history-table">
-                <p style="width: 100%; text-align: center;">Banner</p>
-                <p style="width: 100%; text-align: center;">Name</p>
-                <p style="width: 100%; text-align: center;">Time</p>
-            </div>
-            <div id="history">Loading...</div>
-        </div>
-        <div class="history-page-list">
-            <svg viewBox="0 0 95.09 92.61" onclick="prevPage()" class="arrow" style="transform: scaleX(-1);"><use xlink:href="#svg-def-arrow3"></use></svg>
-            <div class="history-page-counter">
-                <p class="p-nomargin" id="curCounter">0</p>
-                <p class="p-nomargin" style="color: #ccc;">/</p>
-                <p class="p-nomargin" id="totalCounter"style="color: #ccc;">0</p>
-            </div>
-            <svg viewBox="0 0 95.09 92.61" onclick="nextPage()" class="arrow"><use xlink:href="#svg-def-arrow3"></use></svg>
-        </div>
+       
 
     </div>
 
-
-    <script>
-        var curPage = 1;
-        var data;
-        function prevPage() {
-            curPage--;
-            if (curPage < 1) {
-                curPage = 1;
-            }
-            fetchData();
-        }
-
-        function nextPage() {
-            curPage++;
-            if (curPage > data.maxPages) {
-                curPage = data.maxPages;
-            }
-            fetchData();
-        }
-        function ticksToDate(ticks) {
-            const ticksPerMillisecond = 10000; // 1 millisecondo = 10.000 ticks
-            const dotNetEpoch = -62135596800000; // Timestamp UTC per 0001-01-01T00:00:00Z
-
-            // Converti i ticks in millisecondi e somma all'epoca di .NET
-            return new Date(dotNetEpoch + ticks / ticksPerMillisecond);
-        }
-        function getQueryParam(name) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(name);
-        }
-        async function fetchData() {
-            const userId = getQueryParam("id")
-            const banner = getQueryParam("banner")
-            try {
-                const response = await fetch("http://127.0.0.1:5000/api/gachahistory?id=" + userId + "&banner=" + banner + "&page=" + curPage); // Example API
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                data = await response.json(); // Convert response to JSON
-                displayData(data); // Call function to display data
-            } catch (error) {
-                document.getElementById("history").innerHTML = ``;
-                for (let i = 0; i < 5; i++) {
-                    const tableElement = document.createElement("div");
-                    tableElement.className = "history-table-item";
-                    tableElement.innerHTML = `
-                                <p style="width: 100%; text-align: center;">No data</p>
-                               `
-                    document.getElementById("history").appendChild(tableElement);
-                }
-                
-            }
-        }
-        function getRarityColor(rarity) {
-            switch (rarity) {
-                case 5:
-                    return "#fff900";
-                case 6:
-                    return "#ff6000";
-                default:
-                    return "";
-            }
-        }
-        function displayData(data) {
-            const outputDiv = document.getElementById("history");
-            outputDiv.innerHTML = ""; // Clear previous content
-            document.getElementById("curCounter").textContent = ""+data.curPage;
-            document.getElementById("totalCounter").textContent = "" + data.maxPages;
-            var addEmptyOne = 5 - data.transactionList.length;
-            console.log(addEmptyOne);
-            data.transactionList.forEach(item => {
-                const tableElement = document.createElement("div");
-                tableElement.className = "history-table-item";
-                tableElement.innerHTML = `
-                                                <p style="width: 100%; text-align: center;">${item.gachaTemplateId}</p>
-                                                <p style="width: 100%; text-align: center; color: ${getRarityColor(item.rarity)};">${item.itemId}</p>
-                                                <p style="width: 100%; text-align: center;">${ticksToDate(item.transactionTime).toISOString()}</p>
-                                               `
-                outputDiv.appendChild(tableElement);
-            });
-
-            for (var i = 0; i < addEmptyOne; i++) {
-                console.log(addEmptyOne);
-                const tableElement = document.createElement("div");
-                tableElement.className = "history-table-item";
-                tableElement.innerHTML = `
-                                <p style="width: 100%; text-align: center;">No data</p>
-                               `
-                outputDiv.appendChild(tableElement);
-            }
-        }
-        fetchData();
-    </script>
 
 </body>
 </html>
