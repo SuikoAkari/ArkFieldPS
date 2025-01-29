@@ -100,10 +100,10 @@ namespace EndFieldPS
 
             await ctx.Response.SendAsync(resp);
         }
-        [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/1003/prod-cbt1oversea/default/Windows/game_config")]
+        [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/1003/prod-cbt/default/Windows/game_config")]
         public static async Task remote_config(HttpContext ctx)
         {
-            string resp = "{\"mockLogin\": false, \"selectSrv\": false, \"enableHotUpdate\": true, \"enableEntitySpawnLog\": false}";
+            string resp = "{\"mockLogin\": false, \"selectSrv\": false, \"enableHotUpdate\": false, \"enableEntitySpawnLog\": false}";
 
             ctx.Response.StatusCode = 200;
             ctx.Response.ContentLength = resp.Length;
@@ -380,7 +380,7 @@ namespace EndFieldPS
             else
             {
 
-                ctx.Response.StatusCode = 404;
+                ctx.Response.StatusCode = 200;
                 await ctx.Response.SendAsync("File not found.");
             }
         }
