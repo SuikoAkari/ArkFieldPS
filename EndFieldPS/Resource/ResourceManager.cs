@@ -49,8 +49,11 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, CharGrowthTable> charGrowthTable = new();
         public static Dictionary<string, WeaponUpgradeTemplateTable> weaponUpgradeTemplateTable = new();
         public static Dictionary<string, GachaCharPoolContentTable> gachaCharPoolContentTable = new();
+        public static Dictionary<string, GachaCharPoolTypeTable> gachaCharPoolTypeTable = new();
         public static Dictionary<string, EnemyTable> enemyTable = new();
+        public static Dictionary<string, EquipTable> equipTable = new();
         public static StrIdNumTable dialogIdTable = new();
+
         public static List<LevelData> levelDatas = new();
 
         public static int GetSceneNumIdFromLevelData(string name)
@@ -67,10 +70,11 @@ namespace EndFieldPS.Resource
             }
             catch(Exception e)
             {
-                Logger.PrintError($"Error occured while loading {path}");
+                Logger.PrintError($"Error occured while loading {path} Err: {e.Message}");
                 missingResources = true;
                 return "";
             }
+            
         }
         public static void Init()
         {
@@ -102,6 +106,8 @@ namespace EndFieldPS.Resource
             weaponUpgradeTemplateTable = JsonConvert.DeserializeObject<Dictionary<string, WeaponUpgradeTemplateTable>>(ReadJsonFile("TableCfg/WeaponUpgradeTemplateTable.json"));
             gachaCharPoolContentTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolContentTable>>(ReadJsonFile("TableCfg/GachaCharPoolContentTable.json"));
             enemyTable = JsonConvert.DeserializeObject<Dictionary<string, EnemyTable>>(ReadJsonFile("TableCfg/EnemyTable.json"));
+            gachaCharPoolTypeTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolTypeTable>>(ReadJsonFile("TableCfg/GachaCharPoolTypeTable.json"));
+            equipTable = JsonConvert.DeserializeObject<Dictionary<string, EquipTable>>(ReadJsonFile("TableCfg/EquipTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
@@ -178,7 +184,23 @@ namespace EndFieldPS.Resource
             public int difficulty;
             public string firstPassRewardId;
         }
-
+        public class AttributeModifier
+        {
+            public AttributeType attrType;
+            public double attrValue;
+            public ModifierType modifierType;
+            public int modifyAttributeType;
+        }
+        public class EquipTable
+        {
+            public string domainId;
+            public string itemId;
+            public ulong minWearLv;
+            public int partType;
+            public string suitID;
+            public List<AttributeModifier> displayAttrModifiers; 
+            public List<AttributeModifier> attrModifiers;
+        }
         public class WikiGroupTable
         {
             public List<WikiGroup> list;
@@ -248,6 +270,12 @@ namespace EndFieldPS.Resource
             public List<string> upCharIds;
             public int type;
 
+        }
+        public class GachaCharPoolTypeTable
+        {
+            public int type;
+            public int hardGuarantee;
+            public int softGuarantee;
         }
         public class GachaCharPoolContentTable
         {

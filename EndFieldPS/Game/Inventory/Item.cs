@@ -37,6 +37,7 @@ namespace EndFieldPS.Game.Inventory
             this.owner = owner;
             this.id = id;
             this.amount = amt;
+            this.level = GetDefaultLevel();
             guid = GetOwner().random.Next();
         }
         public Item(ulong owner, string id, ulong level)
@@ -47,6 +48,22 @@ namespace EndFieldPS.Game.Inventory
             this.level = level;
             guid = GetOwner().random.Next();
         }
+        public ulong GetDefaultLevel()
+        {
+            switch (ItemType)
+            {
+                case ItemValuableDepotType.Weapon:
+                    return 1;
+                case ItemValuableDepotType.Equip:
+                    return equipTable[id].minWearLv;
+                default:
+                    return 0;
+            }
+        }
+        public List<AttributeModifier> GetEquipAttributeModifier()
+        {
+            return ResourceManager.equipTable[id].attrModifiers;
+        }
         public ItemValuableDepotType ItemType
         {
             get{
@@ -55,38 +72,71 @@ namespace EndFieldPS.Game.Inventory
         }
         public virtual ScdItemGrid ToProto()
         {
-            switch (ItemType)
+            try
             {
-                case ItemValuableDepotType.Weapon:
-                    return new ScdItemGrid()
-                    {
-                        Count = 1,
-                        Id = id,
-
-                        Inst = new()
+                switch (ItemType)
+                {
+                    case ItemValuableDepotType.Weapon:
+                        return new ScdItemGrid()
                         {
-                            InstId = guid,
-                            Weapon = new()
+                            Count = 1,
+                            Id = id,
+
+                            Inst = new()
                             {
                                 InstId = guid,
-                                EquipCharId = GetOwner().chars.Find(c => c.weaponGuid == guid) != null ? GetOwner().chars.Find(c => c.weaponGuid == guid).guid : 0,
-                                WeaponLv = level,
-                                TemplateId = ResourceManager.GetItemTemplateId(id),
-                                Exp = xp,
-                                AttachGemId= attachGemId,
-                                BreakthroughLv= breakthroughLv,
-                                RefineLv=refineLv
-                            },
-                            IsLock=locked
-                        }
-                    };
-                default:
-                    return new ScdItemGrid()
-                    {
-                        Count = amount,
-                        Id = id,
-                    };
+                                Weapon = new()
+                                {
+                                    InstId = guid,
+                                    EquipCharId = GetOwner().chars.Find(c => c.weaponGuid == guid) != null ? GetOwner().chars.Find(c => c.weaponGuid == guid).guid : 0,
+                                    WeaponLv = level,
+                                    TemplateId = ResourceManager.GetItemTemplateId(id),
+                                    Exp = xp,
+                                    AttachGemId = attachGemId,
+                                    BreakthroughLv = breakthroughLv,
+                                    RefineLv = refineLv
+                                },
+                                IsLock = locked
+                            }
+                        };
+                    case ItemValuableDepotType.Equip:
+                        return new ScdItemGrid()
+                        {
+                            Count = 1,
+                            Id = id,
+
+                            Inst = new()
+                            {
+                                InstId = guid,
+                                
+                                Equip = new()
+                                {
+                                    
+                                    EquipCharId = GetOwner().chars.Find(c => c.IsEquipped(guid)) != null ? GetOwner().chars.Find(c => c.IsEquipped(guid)).guid : 0,
+                                    Equipid=guid,
+                                    Templateid=ResourceManager.GetItemTemplateId(id),
+                                    
+                                },
+                                IsLock = locked
+                            }
+                        };
+                    default:
+                        return new ScdItemGrid()
+                        {
+                            Count = amount,
+                            Id = id,
+                        };
+                }
             }
+            catch(Exception e)
+            {
+                return new ScdItemGrid()
+                {
+                    Count = amount,
+                    Id = id,
+                };
+            }
+            
         }
         public Player GetOwner()
         {

@@ -1,0 +1,36 @@
+|TemplateID        |In-game Name|
+|:-----------------|:-----------|
+|eny_0007_mimicw   |            |
+|eny_0018_lbtough  |            |
+|eny_0021_agmelee  |            |
+|eny_0023_aghornb  |            |
+|eny_0025_agrange  |            |
+|eny_0027_agscorp  |            |
+|eny_0029_lbmob    |            |
+|eny_0033_lbhunt   |            |
+|eny_0039_agcanno  |            |
+|eny_0045_agtrinit |            |
+|eny_0046_lbshamman|            |
+|eny_0047_firebat  |            |
+|eny_0048_hvybow   |            |
+|eny_0049_rogue    |            |
+|eny_0050_hound    |            |
+|eny_0051_rodin    |            |
+|eny_0052_palesent |            |
+|eny_0053_hsmob    |            |
+|eny_0054_hsmino   |            |
+|eny_0055_hscrane  |            |
+|eny_0057_dog      |            |
+|eny_0058_agdisk   |            |
+|eny_0059_erhound  |            |
+|eny_0060_lbmad    |            |
+|eny_0061_palecore |            |
+|eny_0062_paletent |            |
+|eny_0063_agmelee2 |            |
+|eny_0064_agrange2 |            |
+|eny_0065_lbmob2   |            |
+|eny_0066_lbhunt2  |            |
+|eny_0067_hound2   |            |
+|eny_0068_lbtough2 |            |
+|eny_0069_aghornb2 |            |
+|eny_0070_agscorp2 |            |
