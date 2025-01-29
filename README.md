@@ -15,9 +15,13 @@ EndFieldPS is a private server for EndField CBT2.
 
 ## Installation Steps
 
-1. Install [.NET SDK](https://dotnet.microsoft.com/en-us/download) (8.0.12 is recommended), [MongoDB](https://www.mongodb.com/try/download/community) and [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) OR [mitmproxy](https://mitmproxy.org/) if you don't have them already
-   * When installing *Fiddler Classic*, make sure to **enable** "Decrypt HTTPS traffic" and **install** the certificate!
-   * You have to enable two features via Tools (top left in menubar) -> Options -> HTTPS -> Check "Capture HTTPS CONNECTs" and "Decrypt HTTPS traffic". You can also re-install the certificate via Actions (right next to "Capture HTTPS CONNECTs") -> Trust Root Certificate and press "Yes"
+1. Install:
+   * [.NET SDK](https://dotnet.microsoft.com/en-us/download) (8.0.12 is recommended)
+   * [MongoDB](https://www.mongodb.com/try/download/community)
+   * [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) OR [mitmproxy](https://mitmproxy.org/)
+
+    1. When installing *Fiddler Classic*, make sure to **enable** "Decrypt HTTPS traffic" and **install** the certificate!
+    1. You have to enable two features via Tools (top left in menubar) -> Options -> HTTPS -> Check "Capture HTTPS CONNECTs" and "Decrypt HTTPS traffic". You can also re-install the certificate via Actions (right next to "Capture HTTPS CONNECTs") -> Trust Root Certificate and press "Yes"
 2. Download the [precompiled build](https://github.com/SuikoAkari/EndFieldPS/releases/latest) or build it by yourself
 3. Put the `Json` and `TableCfg` folders inside the `EndFieldPS.exe` folder (you can download a copy [here](https://github.com/PotRooms/EndFieldData/tree/main))
 4. Run the server (`EndFieldPS.exe`)
