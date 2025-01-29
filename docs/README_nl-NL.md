@@ -10,17 +10,17 @@ EndFieldPS is een privé server voor EndField CBT2.
 * Inloggen
 * Avatar veranderen
 * Team veranderen
-* scène veranderen (werkt voor sommige scènes)
+* Scène veranderen (werkt voor sommige scènes)
 * Data opslaan met MongoDB
 
-## Installatie stappen
+## Installatie hulp
 
-1. Installeer [.NET SDK](https://dotnet.microsoft.com/en-us/download) (8.0.12 is aangeraden), [MongoDB](https://www.mongodb.com/try/download/community) en [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) OR [mitmproxy](https://mitmproxy.org/) als je het niet al hebt.
-   * Als je *Fiddler Classic* installeert, zorg dat je "Decrypt HTTPS traffic" **aanzet** en het certificaat **installeerd**!
+1. Installeer [.NET SDK](https://dotnet.microsoft.com/en-us/download) (8.0.12 is aangeraden), [MongoDB](https://www.mongodb.com/try/download/community) en [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) OF [mitmproxy](https://mitmproxy.org/) als je het niet al hebt.
+   * Als je *Fiddler Classic* installeert, zorg dat je "Decrypt HTTPS traffic" **aanzet** en het certificaat **installeert**!
    * Je moet twee functies via tools aanzetten (links boven in menubar) -> Options -> HTTPS -> zet "Capture HTTPS CONNECTs" aan en "Decrypt HTTPS traffic" aan. Je kan ook het certificaat herinstalleren via Actions (rechts naast "Capture HTTPS CONNECTs") -> Trust Root Certificate en klik "Yes"
 2. Download de [precompiled build](https://github.com/SuikoAkari/EndFieldPS/releases/latest) of compile het zelf.
-3. Doe de `Json` en `TableCfg` folders in de `EndFieldPS.exe` folder (die kan je hier downloaden [here](https://github.com/PotRooms/EndFieldData/tree/main))
-4. Zet de server aan (`EndFieldPS.exe`)
+3. Doe de `Json` en `TableCfg` folders in de `EndFieldPS.exe` folder (die kan jedownloaden [hier](https://github.com/PotRooms/EndFieldData/tree/main) downloaden)
+4. Start de server aan (`EndFieldPS.exe`)
 5. Overschrijf de `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` script (of sla de originele op en maak een nieuwe met dezelfde naam) met het volgende script:
     * Je kan ook *Fiddler Classic* aanzetten, naar `Rules -> Customize Rules` (CTRL + R) gaan en het opslaan, of de *FiddlerScript* tab
 
@@ -79,9 +79,9 @@ EndFieldPS is een privé server voor EndField CBT2.
     ]
     ```
 
-6. Start *Fiddler Classic* aan - het zou moeten starten met het *Custom Rules script* (je kan het controleren in de *FiddlerScript* tab)
+6. Start *Fiddler Classic* - het zou moeten starten met het *Custom Rules script* (je kan het controleren in de *FiddlerScript* tab)
 7. Start de Game Client en begin te spelen! (Opmerking: Alleen de OS client werkt voor nu.)
-8. Je kan een account maken door `account create (username)` in de server console te typen, dan ingame inloggen met een mail zoals `(username)@randomemailformathere.whatyouwant`. Er is geen wachtwoord, dus je kan gewoon onzin typen.
+8. Je kan een account maken door `account create (username)` in de server console te typen, dan ingame inloggen met een mail zoals `(username)@randomemailformathere.whatyouwant`. Er is geen wachtwoord, dus je kan daar gewoon onzin typen.
 
 ## Discord
 
