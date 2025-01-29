@@ -101,7 +101,7 @@ namespace EndFieldPS
             await ctx.Response.SendAsync(resp);
         }
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/1003/prod-cbt/default/Windows/game_config")]
-        public static async Task remote_config(HttpContext ctx)
+        public static async Task game_config(HttpContext ctx)
         {
             string resp = "{\"mockLogin\": false, \"selectSrv\": false, \"enableHotUpdate\": false, \"enableEntitySpawnLog\": false}";
 
