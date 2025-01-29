@@ -21,7 +21,7 @@ EndFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本�
 
 2. 下载 [预编译版本](https://github.com/SuikoAkari/EndFieldPS/releases/latest) 或自行构建项目。  
 3. 将 `Json` 和 `TableCfg` 文件夹放入 `EndFieldPS.exe` 所在的目录（可以从 [这里](https://github.com/PotRooms/EndFieldData/tree/main) 下载副本）。  
-4. 运行服务器（`EndFieldPS.exe`）。  
+4. 运行服务端（`EndFieldPS.exe`）。  
 5. 覆盖 `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` 脚本（或者备份原有脚本并创建一个同名的新文件），替换为以下脚本：  
    - 您还可以运行 *Fiddler Classic*，转到 “Rules -> Customize Rules” (快捷键 CTRL + R) 保存脚本，或者通过 *FiddlerScript* 选项卡进行编辑。  
 
@@ -80,7 +80,13 @@ EndFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本�
 
 6. 运行 *Fiddler Classic*，它应使用新的 *自定义规则脚本* 启动（您可以在 *FiddlerScript* 选项卡中查看）。  
 7. 启动游戏客户端并开始游戏！（注意：目前仅支持国际服客户端）  
-8. 您需要在服务器控制台中使用 `account create (用户名)` 创建账户，然后在游戏中以 `(用户名)@任意邮箱格式.后缀名` 格式的邮箱登录。密码字段可随意填写。  
+8. 您需要在服务端控制台中使用 `account create (用户名)` 创建账户，然后在游戏中以 `(用户名)@任意邮箱格式.后缀名` 格式的邮箱登录。密码字段可随意填写。  
+
+## 补充信息  
+
+您可以在[这里](./CommandList/commands_zh-CN.md)找到所有服务端指令的详细说明。<br>  
+所有场景的列表[在此](./LevelsTable.md)。<br>  
+所有敌人的列表[在此](./EnemiesTable.md)。<br>  
 
 ## Discord  
 
