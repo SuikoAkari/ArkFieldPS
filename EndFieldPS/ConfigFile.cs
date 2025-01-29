@@ -26,7 +26,7 @@ namespace EndFieldPS
     }
     public struct ServerOptions
     {
-        public int defaultSceneNumId = 96;
+        public int defaultSceneNumId = 98;
         public int maxPlayers = 20;
 
         public ServerOptions()

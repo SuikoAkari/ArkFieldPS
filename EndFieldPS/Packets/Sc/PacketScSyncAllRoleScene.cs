@@ -25,8 +25,8 @@ namespace EndFieldPS.Packets.Sc
                 {
 
                 },
-                SubmitEtherCount = 0,
-                SubmitEtherLevel = 1,
+                SubmitEtherCount = 12,
+                SubmitEtherLevel = 5,
 
             };
             foreach (var scene in levelDatas)
