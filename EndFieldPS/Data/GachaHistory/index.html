@@ -93,6 +93,9 @@
             justify-content: center;
             gap: 2px;
         }
+        .p-nomargin{
+            margin:0px;
+        }
         .arrow {
             width: 35px;
         }
@@ -115,9 +118,9 @@
         <div class="history-page-list">
             <svg viewBox="0 0 95.09 92.61" onclick="prevPage()" class="arrow" style="transform: scaleX(-1);"><use xlink:href="#svg-def-arrow3"></use></svg>
             <div class="history-page-counter">
-                <p id="curCounter">0</p>
-                <p style="color: #ccc;">/</p>
-                <p id="totalCounter"style="color: #ccc;">0</p>
+                <p class="p-nomargin" id="curCounter">0</p>
+                <p class="p-nomargin" style="color: #ccc;">/</p>
+                <p class="p-nomargin" id="totalCounter"style="color: #ccc;">0</p>
             </div>
             <svg viewBox="0 0 95.09 92.61" onclick="nextPage()" class="arrow"><use xlink:href="#svg-def-arrow3"></use></svg>
         </div>
