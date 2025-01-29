@@ -15,7 +15,7 @@ EndFieldPS is een privé server voor EndField CBT2.
 
 ## Installatie hulp
 
-1. Installeer [.NET SDK](https://dotnet.microsoft.com/en-us/download) (8.0.12 is aangeraden), [MongoDB](https://www.mongodb.com/try/download/community) en [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) OF [mitmproxy](https://mitmproxy.org/) als je het niet al hebt.
+1. Installeer [.NET SDK](https://dotnet.microsoft.com/en-us/download) (8.0.12 is aangeraden), [MongoDB](https://www.mongodb.com/try/download/community) en [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) OF [mitmproxy](https://mitmproxy.org/) als je die niet al hebt.
    * Als je *Fiddler Classic* installeert, zorg dat je "Decrypt HTTPS traffic" **aanzet** en het certificaat **installeert**!
    * Je moet twee functies via tools aanzetten (links boven in menubar) -> Options -> HTTPS -> zet "Capture HTTPS CONNECTs" aan en "Decrypt HTTPS traffic" aan. Je kan ook het certificaat herinstalleren via Actions (rechts naast "Capture HTTPS CONNECTs") -> Trust Root Certificate en klik "Yes"
 2. Download de [precompiled build](https://github.com/SuikoAkari/EndFieldPS/releases/latest) of compile het zelf.
