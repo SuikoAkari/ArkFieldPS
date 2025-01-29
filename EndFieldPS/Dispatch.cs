@@ -343,7 +343,7 @@ namespace EndFieldPS
             string resp = "";
             if (data != null)
             {
-                resp = File.ReadAllText("Data/GachaHistory/index.html");
+                resp = File.ReadAllText("Data/GachaHistory/index.html").Replace("%dispatchip%",$"http://{Server.config.dispatchServer.bindAddress}:{Server.config.dispatchServer.bindPort}");
             }
             else
             {
