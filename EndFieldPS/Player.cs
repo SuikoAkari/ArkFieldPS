@@ -12,7 +12,7 @@ using System.Numerics;
 using MongoDB.Bson.Serialization.Attributes;
 using System.Reflection;
 using System.Net.Sockets;
-using static EndFieldPS.Dispatch;
+using static EndFieldPS.Http.Dispatch;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Collections;
 using System;

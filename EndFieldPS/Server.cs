@@ -3,6 +3,7 @@ using BeyondTools.VFS.Crypto;
 using EndFieldPS.Commands;
 using EndFieldPS.Database;
 using EndFieldPS.Game;
+using EndFieldPS.Http;
 using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
@@ -20,7 +21,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using static EndFieldPS.Dispatch;
+using static EndFieldPS.Http.Dispatch;
 
 
 namespace EndFieldPS
