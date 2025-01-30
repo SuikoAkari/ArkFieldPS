@@ -1,4 +1,5 @@
 ﻿
+using EndFieldPS.Resource.Table;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,7 @@ namespace EndFieldPS.Resource
         static System.UInt64 MAX_GLOBAL_ID = 10000000000000;
         static System.UInt64 MAX_RUNTIME_CLIENT_ID = 2305843009213693952;
     }
+    //TODO Move all tables to separated class
     public class ResourceManager
     {
         public static Dictionary<string, SceneAreaTable> sceneAreaTable = new();
@@ -156,14 +158,8 @@ namespace EndFieldPS.Resource
         {
             return strIdNumTable.item_id.dic[item_id];
         }
-        public class MissionAreaTable
-        {
-            public Dictionary<string, Dictionary<string, object>> m_areas;
-        }
-        public class BlocDataTable
-        {
-            public string blocId;
-        }
+
+
         public class BlocMissionTable
         {
             public string missionId;
