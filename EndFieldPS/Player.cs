@@ -39,13 +39,6 @@ namespace EndFieldPS
     }
     public class Player
     {
-        //TODO move to Team class
-        public class Team
-        {
-            public string name="";
-            public ulong leader;
-            public List<ulong> members=new();
-        }
         public GuidRandomizer random = new GuidRandomizer();
         public Thread receivorThread;
         public Socket socket;
@@ -122,7 +115,7 @@ namespace EndFieldPS
             {
                 if(item.Value.maxStackCount == -1)
                 {
-                    inventoryManager.items.Add(new Item(roleId, item.Value.id, 1000000));
+                    inventoryManager.items.Add(new Item(roleId, item.Value.id, 10000000));
                 }
                 else
                 {
