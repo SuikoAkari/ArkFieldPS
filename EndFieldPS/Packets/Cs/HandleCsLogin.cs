@@ -105,8 +105,7 @@ namespace EndFieldPS.Packets.Cs
                 },
                 
             };
-
-
+           
             foreach (var item in ResourceManager.levelDatas)
             {
                 foreach (var item1 in collectionTable)
@@ -146,16 +145,16 @@ namespace EndFieldPS.Packets.Cs
             };
             ScSyncAllGameVar GameVars = new()
             {
-
+                ServerVars =
+                {
+                    {(int)ServerGameVarEnum.ServerGameVarDashEnergyLimit,250 } //Dash
+                }
             };
-            for (int cVar = 1; cVar <= 38; cVar++)
+            /*for (int cVar = 1; cVar <= 38; cVar++)
             {
                 GameVars.ClientVars.Add(cVar, 1);
-            }
-            for (int sVar = 1; sVar <= 50; sVar++)
-            {
-                GameVars.ServerVars.Add(sVar, 1);
-            }
+            }*/
+            
 
             ScAdventureSyncAll adventure = new()
             {
