@@ -14,7 +14,7 @@ using System.Threading.Channels;
 using System.Threading.Tasks;
 using static EndFieldPS.Game.Gacha.GachaManager;
 
-namespace EndFieldPS
+namespace EndFieldPS.Http
 {
     public class Dispatch
     {
@@ -22,24 +22,24 @@ namespace EndFieldPS
         public void Start()
         {
             server = new Webserver(Server.config.dispatchServer.bindAddress, Server.config.dispatchServer.bindPort, false, null, null, DefaultRoute);
-            server.Settings.Headers.Host = "http://"+ Server.config.dispatchServer.bindAddress + ":"+ Server.config.dispatchServer.bindPort;
+            server.Settings.Headers.Host = "http://" + Server.config.dispatchServer.bindAddress + ":" + Server.config.dispatchServer.bindPort;
             server.Events.ResponseSent += Events_ResponseSent;
             server.Events.RequestReceived += Events_RequestReceived;
             server.Events.RequestDenied += Events_RequestDenied;
             server.Events.ConnectionReceived += Events_ConnectionReceived;
             server.Events.Exception += Events_Exception;
             server.Start();
-            Logger.Print($"Dispatch started on {Server.config.dispatchServer.bindAddress}:{Server.config.dispatchServer.bindPort}");
+            Logger.Print($"Dispatch server started on {Server.config.dispatchServer.bindAddress}:{Server.config.dispatchServer.bindPort}");
         }
 
         private void Events_Exception(object? sender, ExceptionEventArgs e)
         {
-           Logger.PrintError(e.Exception.Message);
+            Logger.PrintError(e.Exception.Message);
         }
 
         private void Events_ConnectionReceived(object? sender, ConnectionEventArgs e)
         {
-            Logger.Print("Requested " + e.Ip+":"+e.Port);
+            Logger.Print("Requested " + e.Ip + ":" + e.Port);
         }
 
         private void Events_RequestDenied(object? sender, RequestEventArgs e)
@@ -63,9 +63,9 @@ namespace EndFieldPS
             string curVer = "EndField PS";
 
             await data(ctx);
-            
+
         }
-        
+
         [StaticRoute(HttpServerLite.HttpMethod.POST, "/u8/pay/getAllProductList")]
         public static async Task getAllProductList(HttpContext ctx)
         {
@@ -81,7 +81,7 @@ namespace EndFieldPS
         public static async Task get_latest(HttpContext ctx)
         {
             string requestVersion = ctx.Request.Query.Elements["version"];
-            string resp = "{\"action\":0,\"version\":\""+GameConstants.GAME_VERSION+"\",\"request_version\":\""+requestVersion+"\",\"pkg\":{\"packs\":[],\"total_size\":\"0\",\"file_path\":\"" +GameConstants.GAME_VERSION_ASSET_URL+ "\",\"url\":\"\",\"md5\":\"\",\"package_size\":\"0\",\"file_id\":\"0\",\"sub_channel\":\"\"},\"patch\":null}";
+            string resp = "{\"action\":0,\"version\":\"" + GameConstants.GAME_VERSION + "\",\"request_version\":\"" + requestVersion + "\",\"pkg\":{\"packs\":[],\"total_size\":\"0\",\"file_path\":\"" + GameConstants.GAME_VERSION_ASSET_URL + "\",\"url\":\"\",\"md5\":\"\",\"package_size\":\"0\",\"file_id\":\"0\",\"sub_channel\":\"\"},\"patch\":null}";
 
             ctx.Response.StatusCode = 200;
             ctx.Response.ContentLength = resp.Length;
@@ -93,7 +93,7 @@ namespace EndFieldPS
         public static async Task network_config(HttpContext ctx)
         {
             string resp = "{\"asset\":\"https://beyond.hg-cdn.com/asset/\",\"hgage\":\"\",\"sdkenv\":\"2\",\"u8root\":\"https://u8.gryphline.com/u8\",\"appcode\":4,\"channel\":\"prod\",\"netlogid\":\"GFz8RRMDN45w\",\"gameclose\":false,\"netlogurl\":\"http://native-log-collect.gryphline.com:32000/\",\"accounturl\":\"https://binding-api-account-prod.gryphline.com\",\"launcherurl\":\"https://launcher.gryphline.com\"}";
-           
+
             ctx.Response.StatusCode = 200;
             ctx.Response.ContentLength = resp.Length;
             ctx.Response.ContentType = "application/json";
@@ -115,8 +115,8 @@ namespace EndFieldPS
         public static async Task Version(HttpContext ctx)
         {
             string resp = "{\"code\":0,\"msg\":\"\",\"data\":{\"version\":30}}";
-            
-          
+
+
             ctx.Response.StatusCode = 200;
             ctx.Response.ContentLength = resp.Length;
             ctx.Response.ContentType = "application/json";
@@ -124,15 +124,15 @@ namespace EndFieldPS
             await ctx.Response.SendAsync(resp);
         }
 
-       
+
 
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/app/v1/config")]
         public static async Task config_check(HttpContext ctx)
         {
             string resp = "{\"data\":{\"agreementUrl\":{\"register\":\"https://user.gryphline.com/{language}/protocol/plain/terms_of_service\",\"privacy\":\"https://user.gryphline.com/{language}/protocol/plain/privacy_policy\",\"unbind\":\"https://user.gryphline.com/{language}/protocol/plain/endfield/privacy_policy\",\"account\":\"https://user.gryphline.com/{language}/protocol/plain/terms_of_service\",\"game\":\"https://user.gryphline.com/{language}/protocol/plain/endfield/privacy_policy\"},\"app\":{\"googleAndroidClientId\":\"\",\"googleIosClientId\":\"\",\"enableAutoLogin\":true,\"enablePayment\":true,\"enableGuestRegister\":false,\"needShowName\":true,\"displayName\":{\"en-us\":\"Arknights: Endfield\",\"ja-jp\":\"アークナイツ：エンドフィールド\",\"ko-kr\":\"명일방주：엔드필드\",\"zh-cn\":\"明日方舟：终末地\",\"zh-tw\":\"明日方舟：終末地\"},\"unbindAgreement\":[],\"unbindLimitedDays\":30,\"unbindCoolDownDays\":14,\"customerServiceUrl\":\"https://gryphline.helpshift.com/hc/{language}/4-arknights-endfield\",\"enableUnbindGrant\":false},\"customerServiceUrl\":\"https://gryphline.helpshift.com/hc/{language}/4-arknights-endfield\",\"thirdPartyRedirectUrl\":\"https://web-api.gryphline.com/callback/thirdPartyAuth.html\",\"scanUrl\":{\"login\":\"yj://scan_login\"},\"loginChannels\":[],\"userCenterUrl\":\"https://user.gryphline.com/pcSdk/userInfo?language={language}\"},\"msg\":\"OK\",\"status\":0,\"type\":\"A\"}";
-            
-                       
-                  
+
+
+
             ctx.Response.StatusCode = 200;
             //ctx.Response.ContentLength = resp.Length;
             ctx.Response.ContentType = "application/json";
@@ -145,102 +145,16 @@ namespace EndFieldPS
             public int from;
             public string password;
         }
-        [StaticRoute(HttpServerLite.HttpMethod.POST, "/user/auth/v1/token_by_email_password")]
-        public static async Task token_login(HttpContext ctx)
-        {
-            string requestBody = ctx.Request.DataAsString;
-            LoginJson body = Newtonsoft.Json.JsonConvert.DeserializeObject<LoginJson>(requestBody);
-            Account account = DatabaseManager.db.GetAccountByUsername(body.email.Split("@")[0]);
-            Console.WriteLine(requestBody);
-            string resp = "{}";
-            if(account != null)
-            {
-                resp = "{\"msg\":\"OK\",\"status\":0,\"type\":\"A\",\"data\":{\"token\":\"" + account.token+"\"}}";
-            }
-            else
-            {
-                resp = "{\"msg\":\"Account not found\",\"status\":2,\"type\":\"A\"}";
-            }
-
-            ctx.Response.StatusCode = 200;
-            //ctx.Response.ContentLength = resp.Length;
-            ctx.Response.ContentType = "application/json";
-
-            await ctx.Response.SendAsync(resp);
-        }
-        [StaticRoute(HttpServerLite.HttpMethod.GET, "/user/info/v1/basic")]
-        public static async Task account_info_get(HttpContext ctx)
-        {
-            string requestToken = ctx.Request.Query.Elements["token"];
-            Account account = DatabaseManager.db.GetAccountByToken(requestToken);
-            string resp = "{\"data\":{\"hgId\":\"1799321925\",\"email\":\"dispatch@endfield.ps\",\"realEmail\":\"dispatch@endfield.ps\",\"isLatestUserAgreement\":true,\"nickName\":\"Endfield PS\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
-            if (account != null)
-            {
-                resp = "{\"data\":{\"hgId\":\""+account.id+"\",\"email\":\""+account.username+"@endfield.ps\",\"realEmail\":\""+account.username+"@endfield.ps\",\"isLatestUserAgreement\":true,\"nickName\":\""+account.username+"\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
-            }
-            else
-            {
-                resp = "{\"msg\":\"Account not found\",\"status\":2,\"type\":\"A\"}";
-            }
-            
-
-
-
-            ctx.Response.StatusCode = 200;
-            //ctx.Response.ContentLength = resp.Length;
-            ctx.Response.ContentType = "application/json";
-
-            await ctx.Response.SendAsync(resp);
-        }
-        public struct GrantData
-        {
-            public string token;
-        }
-        [StaticRoute(HttpServerLite.HttpMethod.POST, "/user/oauth2/v2/grant")]
-        public static async Task account_ugrant(HttpContext ctx)
-        {
-            string requestBody = ctx.Request.DataAsString;
-
-            GrantData grant = Newtonsoft.Json.JsonConvert.DeserializeObject<GrantData>(requestBody);
-            Account account = DatabaseManager.db.GetAccountByToken(grant.token);
-            string resp = "{\"msg\": \"Error\",  \"status\": 2,  \"type\": \"A\"}";
-            if (account != null)
-            {
-                resp = "{\"data\": {  \"uid\": \"" + account.id + "\",  \"code\": \"" + DatabaseManager.db.GrantCode(account) + "\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"A\"}";
-            }
-
-            ctx.Response.StatusCode = 200;
-         
-            ctx.Response.ContentType = "application/json";
-
-            await ctx.Response.SendAsync(resp);
-        }
-        [StaticRoute(HttpServerLite.HttpMethod.POST, "/u8/user/auth/v2/grant")]
-        public static async Task account_grant(HttpContext ctx)
-        {
-            string requestBody = ctx.Request.DataAsString;
-
-            GrantData grant = Newtonsoft.Json.JsonConvert.DeserializeObject<GrantData>(requestBody);
-            Account account = DatabaseManager.db.GetAccountByTokenGrant(grant.token);
-            string resp = "{\"msg\": \"Error\",  \"status\": 2,  \"type\": \"A\"}";
-            if (account != null)
-            {
-                resp = "{\"data\": {  \"uid\": \""+account.id+"\",  \"code\": \""+account.grantToken+ "\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"A\"}";
-            }
-
-            ctx.Response.StatusCode = 200;
-
-            ctx.Response.ContentType = "application/json";
-
-            await ctx.Response.SendAsync(resp);
-        }
+       
+       
         
+
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/1003/prod-cbt/default/default/server_config_EUAndUS")]
         public static async Task server_config_EUAndUS(HttpContext ctx)
         {
             string requestBody = ctx.Request.DataAsString;
             Console.WriteLine(requestBody);
-            string resp = "{\"addr\": \""+Server.config.gameServer.bindAddress+"\", \"port\": "+Server.config.gameServer.bindPort+"}";
+            string resp = "{\"addr\": \"" + Server.config.gameServer.bindAddress + "\", \"port\": " + Server.config.gameServer.bindPort + "}";
 
 
 
@@ -280,38 +194,7 @@ namespace EndFieldPS
 
             await ctx.Response.SendAsync(resp);
         }
-        public class TokenChannelData
-        {
-            public string channelToken;
-
-        }
-        public class ChannelTokenData
-        {
-            public string code;
-        }
-        [StaticRoute(HttpServerLite.HttpMethod.POST, "/u8/user/auth/v2/token_by_channel_token")]
-        public static async Task token_channel_token(HttpContext ctx)
-        {
-            try
-            {
-                string requestBody = ctx.Request.DataAsString;
-                Console.WriteLine(requestBody);
-                TokenChannelData data = Newtonsoft.Json.JsonConvert.DeserializeObject<TokenChannelData>(requestBody);
-                ChannelTokenData channelTokenBody = Newtonsoft.Json.JsonConvert.DeserializeObject<ChannelTokenData>(data.channelToken);
-                string resp = "{  \"data\": {    \"token\":\"" + channelTokenBody.code + "\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"\"}";
-
-                ctx.Response.StatusCode = 200;
-
-                ctx.Response.ContentType = "application/json";
-
-                await ctx.Response.SendAsync(resp);
-            }
-            catch(Exception e)
-            {
-                Logger.PrintError(e.Message);
-            }
-
-        }
+        
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/meta")]
         public static async Task drawButton(HttpContext ctx)
         {
@@ -326,37 +209,8 @@ namespace EndFieldPS
 
             await ctx.Response.SendAsync(resp);
         }
-        private static Random random = new Random();
 
-        public static string RandomString(int length)
-        {
-            const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-";
-            return new string(Enumerable.Repeat(chars, length)
-                .Select(s => s[random.Next(s.Length)]).ToArray());
-        }
-        [StaticRoute(HttpServerLite.HttpMethod.GET, "/gachahistory")]
-        public static async Task gachahistory(HttpContext ctx)
-        {
-            string requestId = ctx.Request.Query.Elements["id"];
-           
-            PlayerData data = DatabaseManager.db.GetPlayerById(requestId);
-            string resp = "";
-            if (data != null)
-            {
-                resp = File.ReadAllText("Data/GachaHistory/index.html").Replace("%dispatchip%",$"http://{Server.config.dispatchServer.bindAddress}:{Server.config.dispatchServer.bindPort}");
-            }
-            else
-            {
-                resp = File.ReadAllText("Data/GachaHistory/index_noplayerfound.html");
-            }
-
-
-
-
-            ctx.Response.StatusCode = 200;
-
-            await ctx.Response.SendAsync(resp);
-        }
+        
         public static async Task data(HttpContext ctx)
         {
             string fileId = ctx.Request.Url.Elements.LastOrDefault();
@@ -387,26 +241,6 @@ namespace EndFieldPS
                 await ctx.Response.SendAsync("File not found.");
             }
         }
-        [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/gachahistory")]
-        public static async Task gachahistory_api(HttpContext ctx)
-        {
-            string requestId = ctx.Request.Query.Elements["id"];
-            string banner = ctx.Request.Query.Elements["banner"];
-            string page = ctx.Request.Query.Elements["page"];
-            PlayerData data = DatabaseManager.db.GetPlayerById(requestId);
-            GachaHistoryAPI transactions = new();
-            if (data != null)
-            {
-                transactions = GachaManager.GetGachaHistoryPage(data, banner,int.Parse(page));
-            }
-            else
-            {
-                transactions.transactionList = new();
-            }
-            string resp = Newtonsoft.Json.JsonConvert.SerializeObject(transactions);
-
-            ctx.Response.StatusCode = 200;
-            await ctx.Response.SendAsync(resp);
-        }
+        
     }
 }

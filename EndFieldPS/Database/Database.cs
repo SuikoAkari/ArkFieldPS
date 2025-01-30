@@ -2,6 +2,7 @@
 using EndFieldPS.Game.Character;
 using EndFieldPS.Game.Gacha;
 using EndFieldPS.Game.Inventory;
+using EndFieldPS.Resource;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
@@ -118,8 +119,14 @@ namespace EndFieldPS.Database
             };
             UpsertPlayerData(data);
         }
-        public void CreateAccount(string username)
+        public (string,int) CreateAccount(string username)
         {
+            Account exist = GetAccountByUsername(username);
+            if (exist != null)
+            {
+                Logger.Print($"Cannot created account with username: {username} beecause it already exist.");
+                return ($"Cannot created account with username: {username} beecause it already exist.",1);
+            }
             Account account = new()
             {
                 username = username,
@@ -129,6 +136,7 @@ namespace EndFieldPS.Database
             };
             UpsertAccount(account);
             Logger.Print($"Account with username: {username} created with Account UID: {account.id}");
+            return ($"Account with username: {username} created with Account UID: {account.id}",0);
         }
         public void UpsertPlayerData(PlayerData player)
         {
