@@ -10,6 +10,7 @@ Note: <> - required arguments; [] - optional arguments;
 |scene          |Loads a scene                        |\<scene id>                 |Yes              |scene \<scene id>                   |scene 209               |
 |kick           |Disconnects the user from the session|None                        |Yes              |kick                                |kick                    |
 |spawn          |Spawns enemies near the player       |\<Enemy TemplateID> \<level>|Yes              |spawn \<TID> \<level>               |spawn eny_0007_mimicw 20|
+|heal           |Heals characters from the team       |None                        |Yes              |heal                                |heal                    |
 |account        |Creates an account in the database   |\<create\|reset> \<nickname>|No               |account \<create\|reset> \<nickname>|account create test     |
 |players        |Shows a list of all players          |None                        |No               |players                             |players                 |
 |clear          |Clears console                       |None                        |No               |clear                               |clear                   |
