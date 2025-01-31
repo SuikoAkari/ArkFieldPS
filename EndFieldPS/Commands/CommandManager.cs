@@ -81,5 +81,18 @@
         {
             s_handlerTypes.Add(type);
         }
+
+
+        public static void SendMessage(Player sender, string msg)
+        {
+            if (sender == null)
+            {
+                Logger.Print(msg);
+            }
+            else
+            {
+                //TODO sending to player command prompt page made by Xannix
+            }
+        }
     }
 }
