@@ -30,47 +30,32 @@ namespace EndFieldPS.Http
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/pcSdk/console")]
         public static async Task ConsoleResponce(HttpContext ctx)
         {
-            string[] playerCommands = ["help", "heal", "scene", "spawn"];
-            string command = ctx.Request.Query.Elements["command"];
+            string cmd = ctx.Request.Query.Elements["command"].Replace("+"," ");
             string token = ctx.Request.Query.Elements["token"];
-            string message = "Unknown command";
-            var args = command.Split('+').Skip(1).ToArray();
-
+            string message = "";
+            string[] split = cmd.Split(" ");
+            string[] args = cmd.Split(" ").Skip(1).ToArray();
+            string command = split[0].ToLower();
             if (token != null)
             {
                 Account account = DatabaseManager.db.GetAccountByToken(token);
                 Logger.Print(account.id);
                 Player player = Server.clients.Find(acc => acc.accountId == account.id);
-
-
-                switch (command.Split('+').ToArray()[0])
+                if (player != null)
                 {
-                    case "help":
-                        message = "";
-                        foreach (var com in CommandManager.s_notifyReqGroup)
-                        {
-                            if(playerCommands.Contains(com.Key))
-                            {
-                                message += $"\n{com.Key} - {com.Value.Item1.desc}";
-                            }
-                        }
-                        break;
 
-                    case "heal":
-                        CommandHeal.HealCmd("", [], player);
-                        message = "Healed";
-                        break;
-
-                    case "scene":
-                        BaseCommands.SceneCmd("", args, player);
-                        message = "Scene changed";
-                        break;
-
-                    case "spawn":
-                        CommandSpawn.SpawnCmd("", args, player);
-                        message = $"Enemy with id {args[0]} was spawned";
-                        break;
+                    CommandManager.Notify(player, command, args, player);
+                    foreach (string msg in player.temporanyChatMessages)
+                    {
+                        message += msg + "<br>";
+                    }
+                    player.temporanyChatMessages.Clear();
                 }
+                else
+                {
+                    message = "This session is not available anymore";
+                }
+
             }
             else message = "Token not found";
 

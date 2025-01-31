@@ -48,7 +48,7 @@ namespace EndFieldPS
                 this.desc = desc;
                 this.requiredTarget = requireTarget;
             }
-            public delegate void HandlerDelegate(string command, string[] args, Player target);
+            public delegate void HandlerDelegate(Player sender, string command, string[] args, Player target);
         }
         public static List<Player> clients = new List<Player>();
         public static string ServerVersion = "1.0.7-dev";
@@ -134,7 +134,7 @@ namespace EndFieldPS
                     string[] split = cmd.Split(" ");
                     string[] args = cmd.Split(" ").Skip(1).ToArray();
                     string command = split[0].ToLower();
-                    CommandManager.Notify(command, args,clients.Find(c=>c.accountId==CommandManager.targetId));
+                    CommandManager.Notify(null,command, args,clients.Find(c=>c.accountId==CommandManager.targetId));
                 }
                 catch (Exception ex)
                 {
