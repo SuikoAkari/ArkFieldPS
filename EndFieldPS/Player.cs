@@ -61,6 +61,8 @@ namespace EndFieldPS
         public List<Team> teams= new List<Team>();
         public bool Initialized = false;
         public List<Mail> mails = new List<Mail>();
+        public List<int> unlockedSystems = new();
+        public long maxDashEnergy = 250;
         public Player(Socket socket)
         {
             this.socket = socket;
@@ -90,6 +92,9 @@ namespace EndFieldPS
                 roleId = data.roleId;
                 random.v = data.totalGuidCount;
                 teamIndex = data.teamIndex;
+                if(data.unlockedSystems!=null)
+                unlockedSystems = data.unlockedSystems;
+                maxDashEnergy = data.maxDashEnergy;
                 LoadCharacters();
                 mails = DatabaseManager.db.LoadMails(roleId);
                 inventoryManager.Load();
@@ -103,7 +108,15 @@ namespace EndFieldPS
         public void LoadCharacters()
         {
             chars = DatabaseManager.db.LoadCharacters(roleId);
-            
+        }
+        //Added in 1.0.7
+        public Character GetCharacter(ulong guid)
+        {
+            return chars.Find(c => c.guid == guid);
+        }
+        public Character GetCharacter(string templateId)
+        {
+            return chars.Find(c => c.id==templateId);
         }
         public void Initialize()
         {
@@ -151,6 +164,51 @@ namespace EndFieldPS
 
             });
 
+            UnlockImportantSystems();
+        }
+        public void UnlockImportantSystems()
+        {
+            unlockedSystems.Add((int)UnlockSystemType.Watch);
+            unlockedSystems.Add((int)UnlockSystemType.Weapon);
+            unlockedSystems.Add((int)UnlockSystemType.Equip);
+            unlockedSystems.Add((int)UnlockSystemType.EquipEnhance);
+            unlockedSystems.Add((int)UnlockSystemType.NormalAttack);
+            unlockedSystems.Add((int)UnlockSystemType.NormalSkill);
+            unlockedSystems.Add((int)UnlockSystemType.UltimateSkill);
+            unlockedSystems.Add((int)UnlockSystemType.TeamSkill);
+            unlockedSystems.Add((int)UnlockSystemType.ComboSkill);
+            unlockedSystems.Add((int)UnlockSystemType.TeamSwitch);
+            unlockedSystems.Add((int)UnlockSystemType.Dash);
+            unlockedSystems.Add((int)UnlockSystemType.Jump);
+            unlockedSystems.Add((int)UnlockSystemType.Friend);
+            unlockedSystems.Add((int)UnlockSystemType.SNS);
+            unlockedSystems.Add((int)UnlockSystemType.Settlement);
+            unlockedSystems.Add((int)UnlockSystemType.Map);
+            unlockedSystems.Add((int)UnlockSystemType.FacZone);
+            unlockedSystems.Add((int)UnlockSystemType.FacHub);
+            unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
+            unlockedSystems.Add((int)UnlockSystemType.FacSystem);
+            unlockedSystems.Add((int)UnlockSystemType.CharUI);
+            unlockedSystems.Add((int)UnlockSystemType.EquipProduce);
+            unlockedSystems.Add((int)UnlockSystemType.EquipTech);
+            unlockedSystems.Add((int)UnlockSystemType.Gacha);
+            unlockedSystems.Add((int)UnlockSystemType.Inventory);
+            unlockedSystems.Add((int)UnlockSystemType.ItemQuickBar);
+            unlockedSystems.Add((int)UnlockSystemType.ItemSubmitRecycle);
+            unlockedSystems.Add((int)UnlockSystemType.ItemUse);
+            unlockedSystems.Add((int)UnlockSystemType.Mail);
+            unlockedSystems.Add((int)UnlockSystemType.ValuableDepot);
+            unlockedSystems.Add((int)UnlockSystemType.Wiki);
+            unlockedSystems.Add((int)UnlockSystemType.AIBark);
+            unlockedSystems.Add((int)UnlockSystemType.AdventureExpAndLv);
+            unlockedSystems.Add((int)UnlockSystemType.CharTeam);
+            unlockedSystems.Add((int)UnlockSystemType.FacMode);
+            unlockedSystems.Add((int)UnlockSystemType.FacOverview);
+            unlockedSystems.Add((int)UnlockSystemType.SpaceshipSystem);
+            unlockedSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
+            unlockedSystems.Add((int)UnlockSystemType.FacBUS);
+            unlockedSystems.Add((int)UnlockSystemType.PRTS);
+            unlockedSystems.Add((int)UnlockSystemType.Dungeon);
         }
         public void EnterScene()
         {
