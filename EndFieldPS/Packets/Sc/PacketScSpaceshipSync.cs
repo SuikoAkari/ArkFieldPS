@@ -30,14 +30,13 @@ namespace EndFieldPS.Packets.Sc
                         
                         StationedCharList =
                         {
-                            ""
                         }
                     },
                     
                 },
                 Chars =
                 {
-                    new ScdSpaceshipChar()
+                    /*new ScdSpaceshipChar()
                     {
                         CharId="",
                         StationedRoomId="control_center",
@@ -59,7 +58,7 @@ namespace EndFieldPS.Packets.Sc
                             
                         },
                         
-                    }
+                    }*/
                 }
             };
             
