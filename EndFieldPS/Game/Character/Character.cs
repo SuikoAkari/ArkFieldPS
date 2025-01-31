@@ -289,7 +289,7 @@ namespace EndFieldPS.Game.Character
                 },
                 BattleMgrInfo = new()
                 {
-                    
+
                 },
                 BattleInfo = new()
                 {
@@ -304,6 +304,7 @@ namespace EndFieldPS.Game.Character
                     ComboSkill = id + "_ComboSkill",
                     UltimateSkill = id + "_UltimateSkill",
                     DispNormalAttackSkill = id + "_NormalAttack",
+                    
                     LevelInfo =
                     {
                         new SkillLevelInfo()

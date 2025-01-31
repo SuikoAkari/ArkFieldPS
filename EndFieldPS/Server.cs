@@ -3,6 +3,7 @@ using BeyondTools.VFS.Crypto;
 using EndFieldPS.Commands;
 using EndFieldPS.Database;
 using EndFieldPS.Game;
+using EndFieldPS.Http;
 using EndFieldPS.Network;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
@@ -20,7 +21,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using static EndFieldPS.Dispatch;
+using static EndFieldPS.Http.Dispatch;
 
 
 namespace EndFieldPS
@@ -53,12 +54,9 @@ namespace EndFieldPS
         public static string ServerVersion = "1.0.7-dev";
         public static bool Initialized = false;
         public static bool showLogs = true;
-        public static SQLiteConnection _db;
         public static Dispatch dispatch;
         public static ResourceManager resourceManager;
         public static ConfigFile config;
-        
-
         public static ResourceManager GetResources()
         {
             return resourceManager;
@@ -71,7 +69,6 @@ namespace EndFieldPS
 
                 foreach (var type in types)
                 {
-
                     NotifyManager.AddReqGroupHandler(type);
                     CommandManager.AddReqGroupHandler(type);
                 }
@@ -80,10 +77,9 @@ namespace EndFieldPS
                 CommandManager.Init();
             }
             
-            Logger.Initialize(); // can also pass hideLogs here
+            Logger.Initialize();
             Logger.Print($"Starting server version {ServerVersion} with supported client version {GameConstants.GAME_VERSION}");
             showLogs = !hideLogs;
-            // showLogs = false;
             Logger.Print($"Logs are {(showLogs ? "enabled" : "disabled")}");
             Server.config = config;
             DatabaseManager.Init();
@@ -123,7 +119,6 @@ namespace EndFieldPS
             }
             finally
             {
-                // Arresta il server
                 serverSocket.Close();
                 Logger.Print("Server stopped.");
             }
@@ -143,7 +138,7 @@ namespace EndFieldPS
                 }
                 catch (Exception ex)
                 {
-                    Logger.Print(ex.Message);
+                    Logger.PrintError(ex.Message);
                 }
 
             } 
@@ -156,12 +151,6 @@ namespace EndFieldPS
         }
         public static CsMessageId[] hideLog = [];
 
-
-        public static uint GetCurrentSeconds()
-        {
-            return (uint)DateTime.Now.Millisecond / 1000;
-        }
-       
         public static string ColoredText(string text, string color)
         {
             return text.Pastel(color);

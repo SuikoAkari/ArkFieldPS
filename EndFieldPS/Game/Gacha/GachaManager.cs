@@ -15,7 +15,9 @@ namespace EndFieldPS.Game.Gacha
     {
 
         public Player player;
-        const double fiftyfifty = 0.50; // 50%
+        const double fiftyfifty = 0.45; // 50% (make it less than real 50, because the randomness make win fifty fifty every time
+
+        private static readonly Random random = new Random();
         public GachaManager(Player player)
         {
             this.player = player;
@@ -61,7 +63,6 @@ namespace EndFieldPS.Game.Gacha
         }
         public void DoGacha(string gachaId,int attempts)
         {
-            Random rng = new Random();
             const double prob6Star = 0.008; // 0.8%
             const double prob5Star = 0.08;  // 8%
            
@@ -87,8 +88,8 @@ namespace EndFieldPS.Game.Gacha
             List<GachaTransaction> transactions = new();
             for (int i = 0; i < attempts; i++)
             {
-                double roll = rng.NextDouble();
-                double fifty = rng.NextDouble();
+                double roll = random.NextDouble();
+                double fifty = random.NextDouble();
                 double finalProb6Star = prob6Star + 0.05f * pityforcalculate;
                 PityInfo.fiveStarPity++;
                 PityInfo.sixStarPity++;
@@ -101,7 +102,7 @@ namespace EndFieldPS.Game.Gacha
                     {
                         transaction = GetChar(table.upCharIds[0], PityInfo.isFiftyFiftyLost, fifty, sixStars, 6);
                         
-                        if (transaction.itemId != table.upCharIds[1])
+                        if (transaction.itemId != table.upCharIds[0])
                         {
                             PityInfo.isFiftyFiftyLost = true;
                         }
@@ -216,11 +217,43 @@ namespace EndFieldPS.Game.Gacha
             }
             else
             {
-                transaction.itemId = items[new Random().Next(items.Count - 1)].charId;
+                int index = random.Next(0,items.Count); // Miglior randomizzazione
+               //  index = (int)((1 - Math.Pow(random.NextDouble(), 2)) * (items.Count - 1));
+
+                // Se vuoi evitare di prendere spesso i primi 2-3 elementi:
+                // index = (int)Math.Pow(random.NextDouble(), 1.5) * items.Count;
+                if (index > items.Count-1)
+                {
+                    index = items.Count-1;
+                }
+                if(index < 0)
+                {
+                    index = 0;
+                }
+                transaction.itemId = items[index].charId;
                 transaction.hasLost = transaction.itemId != upChar;
-                
             }
             return transaction;
+        }
+
+        public static GachaHistoryAPI GetGachaHistoryPage(PlayerData data, string banner, int p = 1)
+        {
+            GachaHistoryAPI api = new();
+            int pageSize = 5; 
+
+            List<GachaTransaction> transactionList = DatabaseManager.db.LoadGachaTransaction(data.roleId, banner);
+            transactionList = transactionList.OrderByDescending(g => g.transactionTime).ToList();
+            int maxPages=(int)Math.Ceiling((double)transactionList.Count / pageSize);
+            api.maxPages = maxPages;
+            api.curPage = p;
+            api.transactionList= transactionList.Skip((p - 1) * pageSize).Take(pageSize).ToList();
+            return api;
+        }
+        public class GachaHistoryAPI
+        {
+            public int maxPages = 0;
+            public int curPage = 0;
+            public List<GachaTransaction> transactionList;
         }
     }
 }
