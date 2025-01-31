@@ -76,10 +76,10 @@ namespace EndFieldPS.Game.Character
                         {
                             case ModifierType.BaseAddition:
                             case ModifierType.Addition:
-                                attributes[modifier.attrType] = attributes[modifier.attrType] + modifier.attrValue;
+                                SetValueDic(attributes, modifier.attrType, GetValueDic(attributes, modifier.attrType) + modifier.attrValue);
                                 break;
                             case ModifierType.BaseMultiplier:
-                                attributes[modifier.attrType] = attributes[modifier.attrType] *1+ modifier.attrValue;
+                                SetValueDic(attributes, modifier.attrType, GetValueDic(attributes, modifier.attrType) * 1 + modifier.attrValue);
                                 break;
                             default:
                                 break;
@@ -88,6 +88,26 @@ namespace EndFieldPS.Game.Character
                 }
             }
             return attributes;
+        }
+        public double GetValueDic(Dictionary<AttributeType, double> dic, AttributeType type)
+        {
+
+            if (dic.ContainsKey(type))
+            {
+                return dic[type];
+            }
+            return 0;
+        }
+        public void SetValueDic(Dictionary<AttributeType, double> dic,AttributeType type,double value)
+        {
+            if (dic.ContainsKey(type))
+            {
+                dic[type] = value;
+            }
+            else
+            {
+                dic.Add(type, value);
+            }
         }
         public void UnlockNode(string nodeId)
         {
