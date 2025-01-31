@@ -10,10 +10,10 @@ namespace EndFieldPS.Commands.Handlers
     public static class CommandKick
     {
         [Server.Command("kick", "kick target", true)]
-        public static void Handle(string cmd, string[] args, Player target)
+        public static void Handle(Player sender, string cmd, string[] args, Player target)
         {
             target.Kick(CODE.ErrKickSessionEnd, "Kicked");
-            Logger.Print("Kicked " + target.accountId);
+            CommandManager.SendMessage(sender,"Kicked " + target.accountId);
         }
     }
 }

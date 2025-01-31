@@ -13,7 +13,7 @@ namespace EndFieldPS.Commands.Handlers
     {
 
         [Server.Command("heal", "Revives/Heals your team characters", true)]
-        public static void HealCmd(string cmd, string[] args, Player target)
+        public static void Handle(Player sender, string cmd, string[] args, Player target)
         {
             target.sceneManager.GetCurScene().entities.FindAll(e => e is EntityCharacter).ForEach(e =>
             {
@@ -25,7 +25,7 @@ namespace EndFieldPS.Commands.Handlers
             {
                 
             });
-            Logger.Print("Healed!");
+            CommandManager.SendMessage(sender, "Healed!");
         }
     }
 }

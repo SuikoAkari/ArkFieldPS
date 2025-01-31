@@ -10,11 +10,16 @@ namespace EndFieldPS.Commands.Handlers
     public static class CommandAccount
     {
         [Server.Command("account", "account command")]
-        public static void Handle(string cmd, string[] args, Player target)
+        public static void Handle(Player sender,string cmd, string[] args, Player target)
         {
+            if (sender != null)
+            {
+                CommandManager.SendMessage(sender, "This command can't be used ingame");
+                return;
+            }
             if (args.Length < 2)
             {
-                Logger.Print("Usage: account create|reset (username)");
+                CommandManager.SendMessage(sender, "Usage: account create|reset (username)");
                 return;
             }
             switch (args[0])
@@ -23,10 +28,10 @@ namespace EndFieldPS.Commands.Handlers
                     DatabaseManager.db.CreateAccount(args[1]);
                     break;
                 case "reset":
-                    Logger.Print("Reset is not implemented yet");
+                    CommandManager.SendMessage(sender, "Reset is not implemented yet");
                     break;
                 default:
-                    Logger.Print("Example: account create (username)");
+                    CommandManager.SendMessage(sender, "Example: account create (username)");
                     break;
             }
         }
