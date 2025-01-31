@@ -33,6 +33,8 @@ namespace EndFieldPS.Database
         public int teamIndex = 0;
         public List<Team> teams = new List<Team>();
         public ulong totalGuidCount = 1;
+        public List<int> unlockedSystems = new();
+        public long maxDashEnergy = 250;
     }
     public class Account
     {
@@ -116,6 +118,8 @@ namespace EndFieldPS.Database
                 xp=player.xp,
                 totalGuidCount=player.random.v,
                 teamIndex=player.teamIndex,
+                unlockedSystems=player.unlockedSystems,
+                maxDashEnergy=player.maxDashEnergy,
             };
             UpsertPlayerData(data);
         }
