@@ -39,6 +39,7 @@ namespace EndFieldPS
     }
     public class Player
     {
+        public List<string> temporanyChatMessages = new(); //for cbt2 only as no chat exist
         public GuidRandomizer random = new GuidRandomizer();
         public Thread receivorThread;
         public Socket socket;
@@ -62,7 +63,7 @@ namespace EndFieldPS
         public bool Initialized = false;
         public List<Mail> mails = new List<Mail>();
         public List<int> unlockedSystems = new();
-        public List<string> temporanyChatMessages = new(); //for cbt2 only as no chat exist
+
         public long maxDashEnergy = 250;
         public Player(Socket socket)
         {
