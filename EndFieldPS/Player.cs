@@ -60,11 +60,13 @@ namespace EndFieldPS
         public GachaManager gachaManager;
         public int teamIndex = 0;
         public List<Team> teams= new List<Team>();
-        public bool Initialized = false;
         public List<Mail> mails = new List<Mail>();
         public List<int> unlockedSystems = new();
-
         public long maxDashEnergy = 250;
+
+        public bool Initialized = false;
+
+        
         public Player(Socket socket)
         {
             this.socket = socket;
