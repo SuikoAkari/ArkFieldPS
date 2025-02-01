@@ -13,6 +13,7 @@ using Pastel;
 using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Net;
@@ -26,8 +27,19 @@ using static EndFieldPS.Http.Dispatch;
 
 namespace EndFieldPS
 {
+    public static class DateTimeExtensions
+    {
+        private static readonly DateTime UnixEpoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+
+        public static long ToUnixTimestampMilliseconds(this DateTime dateTime)
+        {
+            // Calcola il numero di millisecondi dall'epoca UNIX
+            return (long)(dateTime - UnixEpoch).TotalMilliseconds;
+        }
+    }
     public class Server
     {
+
         public class HandlerAttribute : Attribute
         {
             public CsMessageId CmdId { get; set; }
@@ -90,7 +102,8 @@ namespace EndFieldPS
             int port = Server.config.gameServer.bindPort;
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             new Thread(new ThreadStart(CmdListener)).Start();
-            
+            new Thread(new ThreadStart(Update)).Start();
+            Logger.Print(""+DateTime.UtcNow.ToUnixTimestampMilliseconds());
             try
             {
                 serverSocket.Bind(new IPEndPoint(ipAddress, port));
@@ -123,6 +136,21 @@ namespace EndFieldPS
                 Logger.Print("Server stopped.");
             }
 
+        }
+        public void Update()
+        {
+            while (true)
+            {
+                try
+                {
+                    clients.ForEach(client => { if (client != null) client.Update(); });
+                    
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
         }
         public void CmdListener()
         {

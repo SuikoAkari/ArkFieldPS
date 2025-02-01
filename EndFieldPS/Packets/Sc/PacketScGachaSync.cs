@@ -47,8 +47,8 @@ namespace EndFieldPS.Packets.Sc
                 {
                     GachaPoolId = item.Value.id,
                     IsClosed=false,
-                    CloseTime=0,
-                    OpenTime=0,
+                    CloseTime= DateTime.UtcNow.AddDays(20).ToUnixTimestampMilliseconds()/1000,
+                    OpenTime= DateTime.UtcNow.ToUnixTimestampMilliseconds() / 1000,
                     PublicCloseReason=0,
                     
                     

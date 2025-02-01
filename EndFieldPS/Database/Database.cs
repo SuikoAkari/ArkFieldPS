@@ -35,6 +35,8 @@ namespace EndFieldPS.Database
         public ulong totalGuidCount = 1;
         public List<int> unlockedSystems = new();
         public long maxDashEnergy = 250;
+        public uint curStamina;
+        public long nextRecoverTime;
     }
     public class Account
     {
@@ -113,13 +115,15 @@ namespace EndFieldPS.Database
                 nickname = player.nickname,
                 position = player.position,
                 rotation = player.rotation,
-                roleId=player.roleId,
-                teams=player.teams,
-                xp=player.xp,
-                totalGuidCount=player.random.v,
-                teamIndex=player.teamIndex,
-                unlockedSystems=player.unlockedSystems,
-                maxDashEnergy=player.maxDashEnergy,
+                roleId = player.roleId,
+                teams = player.teams,
+                xp = player.xp,
+                totalGuidCount = player.random.v,
+                teamIndex = player.teamIndex,
+                unlockedSystems = player.unlockedSystems,
+                maxDashEnergy = player.maxDashEnergy,
+                curStamina = player.curStamina,
+                nextRecoverTime = player.nextRecoverTime
             };
             UpsertPlayerData(data);
         }

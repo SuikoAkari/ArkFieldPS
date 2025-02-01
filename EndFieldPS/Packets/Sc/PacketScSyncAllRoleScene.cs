@@ -34,7 +34,7 @@ namespace EndFieldPS.Packets.Sc
                 role.SceneGradeInfo.Add(new SceneGradeInfo()
                 {
                     Grade=1,
-                    LastDownTs=DateTime.UtcNow.Ticks,
+                    LastDownTs= DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                     SceneNumId=scene.idNum,
                     
                 });
