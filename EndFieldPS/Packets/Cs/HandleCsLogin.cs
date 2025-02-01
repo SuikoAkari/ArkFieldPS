@@ -159,7 +159,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScGachaSync(session));
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
             {
-                LastTickTime = DateTime.UtcNow.Ticks,
+                LastTickTime = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                 
             };
             int stid = 0;
@@ -175,9 +175,9 @@ namespace EndFieldPS.Packets.Cs
                     {
 
                     },
-                    UnlockTs = DateTime.UtcNow.Ticks,
+                    UnlockTs = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                     AutoSubmit = false,
-                    LastManualSubmitTime = DateTime.UtcNow.Ticks,
+                    LastManualSubmitTime = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
 
                     OfficerCharTemplateId = characterTable.Values.ToList()[stid].charId,
 
@@ -221,18 +221,21 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScFactorySyncScope(session));
             session.Send(new PacketScFactorySyncChapter(session, "domain_1"));
             session.Send(new PacketScFactorySyncChapter(session, "domain_2"));
-            ScSyncFullDungeonStatus dst = new()
-            {
-                CurStamina = 200,
-                MaxStamina = 200,
 
-            };
             session.Send(new PacketScSyncCharBagInfo(session));
-            session.Send(ScMessageId.ScSyncFullDungeonStatus, dst);
+            
             session.Send(new PacketScSpaceshipSync(session));
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene();
             session.Initialized = true;
+            session.Update();
+            ScSyncFullDungeonStatus dungeonStatus = new()
+            {
+                CurStamina = session.curStamina,
+                MaxStamina = session.maxStamina,
+                NextRecoverTime = session.nextRecoverTime / 1000,
+            };
+            session.Send(ScMessageId.ScSyncFullDungeonStatus, dungeonStatus);
         }
         static byte[] GenerateRandomBytes(int length)
         {

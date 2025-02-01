@@ -63,7 +63,13 @@ namespace EndFieldPS
         public List<Mail> mails = new List<Mail>();
         public List<int> unlockedSystems = new();
         public long maxDashEnergy = 250;
-
+        public uint curStamina = 10;
+        public long nextRecoverTime = 0;
+        public uint maxStamina {
+            get{
+                return (uint)200;
+            } 
+        }
         public bool Initialized = false;
 
         
@@ -99,6 +105,8 @@ namespace EndFieldPS
                 if(data.unlockedSystems!=null)
                 unlockedSystems = data.unlockedSystems;
                 maxDashEnergy = data.maxDashEnergy;
+                curStamina = data.curStamina;
+                nextRecoverTime=data.nextRecoverTime;
                 LoadCharacters();
                 mails = DatabaseManager.db.LoadMails(roleId);
                 inventoryManager.Load();
@@ -363,6 +371,25 @@ namespace EndFieldPS
             SaveCharacters();
             SaveMails();
             
+        }
+        public void AddStamina(uint stamina)
+        {
+            curStamina += stamina;
+            if(curStamina > maxStamina)
+            {
+                curStamina = maxStamina;
+            }
+            if(Initialized)Send(new PacketScSyncStamina(this));
+        }
+        public void Update()
+        {
+            //Check recover time
+            long curtimestamp = DateTime.UtcNow.ToUnixTimestampMilliseconds();
+            if (curtimestamp >= nextRecoverTime)
+            {
+                nextRecoverTime= DateTime.UtcNow.AddMinutes(7).ToUnixTimestampMilliseconds();
+                AddStamina(1);
+            }
         }
         public void SaveMails()
         {

@@ -16,6 +16,7 @@ namespace EndFieldPS.Packets.Sc
             //TODO de hardcode this and implement a SpaceshipManager
             ScSpaceshipSync proto = new ScSpaceshipSync()
             {
+                
                 Rooms =
                 {
                     new ScdSpaceshipRoom()

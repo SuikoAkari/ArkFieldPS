@@ -170,8 +170,8 @@ namespace EndFieldPS.Game.Gacha
                 result.FinalResults.Add(new ScdGachaFinalResult()
                 {
                     IsNew = !exist,
-                    ItemId = transaction.itemId,
-                    RewardItemId= transaction.itemId,
+                    ItemId = !exist ? transaction.itemId : "item_charpotentialup_" + transaction.itemId,
+                    RewardItemId= !exist ? transaction.itemId : "item_charpotentialup_"+ transaction.itemId,
                     RewardIds =
                     {
                         $"reward_{transaction.rarity}starChar_weaponCoin"
