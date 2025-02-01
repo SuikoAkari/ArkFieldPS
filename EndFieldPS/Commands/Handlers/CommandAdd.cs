@@ -63,6 +63,8 @@ public static class CommandAdd
                     message = $"Character {character.id} was added to {target.nickname}.";
                     CommandManager.SendMessage(sender, message);
                     target.Send(new PacketScCharBagAddChar(target, character));
+                    Item weapon = target.inventoryManager.items.Find(i => i.guid == character.weaponGuid);
+                    if(weapon!=null)target.Send(new PacketScItemBagScopeModify(target, weapon));
                     return;
                 
                 default:
