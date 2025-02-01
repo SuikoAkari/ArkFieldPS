@@ -15,16 +15,16 @@ namespace EndFieldPS.Commands.Handlers
         [Server.Command("heal", "Revives/Heals your team characters", true)]
         public static void Handle(Player sender, string cmd, string[] args, Player target)
         {
-            target.sceneManager.GetCurScene().entities.FindAll(e => e is EntityCharacter).ForEach(e =>
+            sender.GetCurTeam().ForEach(chara =>
             {
-                EntityCharacter chara = (EntityCharacter)e;
-                chara.GetChar().curHp = 0;
-                chara.Heal(chara.GetChar().CalcAttributes()[AttributeType.MaxHp]);
+                chara.curHp = chara.CalcAttributes()[AttributeType.MaxHp];
+                
             });
             target.Send(ScMessageId.ScSceneRevival, new ScSceneRevival()
             {
                 
             });
+            sender.sceneManager.LoadCurrentTeamEntities();
             CommandManager.SendMessage(sender, "Healed!");
         }
     }
