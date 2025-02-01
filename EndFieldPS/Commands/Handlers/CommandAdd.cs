@@ -51,8 +51,8 @@ public static class CommandAdd
                         CommandManager.SendMessage(sender, "Character already exists");
                         return;
                     }
-
-                    if(lvl == 20) character.breakNode = "charBreak20";
+                    if (lvl <= 20) character.breakNode = "";
+                    if (lvl > 20 && lvl <= 40) character.breakNode = "charBreak20";
                     if(lvl > 40 && lvl <= 60) character.breakNode = "charBreak40";
                     if(lvl > 60 && lvl <= 70) character.breakNode = "charBreak60";
                     if(lvl > 70) character.breakNode = "charBreak70";
