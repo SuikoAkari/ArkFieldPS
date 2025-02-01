@@ -26,7 +26,7 @@ namespace EndFieldPS.Packets.Cs
                 ClientTs = req.ClientTs,
                 ServerTs = (ulong)curtimestamp,
             }));
-            Logger.Print("Server: " + curtimestamp + " client: " + req.ClientTs);
+            //Logger.Print("Server: " + curtimestamp + " client: " + req.ClientTs);
         }
        
     }
