@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EndFieldPS.Game.Character;
+using EndFieldPS.Game.Inventory;
+using EndFieldPS.Packets.Sc;
 
 namespace EndFieldPS.Commands.Handlers;
 
@@ -22,20 +24,24 @@ public static class CommandAdd
         {
             switch (args[0]) {
                 case "item":
-                    target.inventoryManager.AddItem(args[1], int.Parse(args[2]));
+                    Item item=target.inventoryManager.AddItem(args[1], int.Parse(args[2]));
                     message = $"Item {args[1]} was added to {target.nickname}";
+
+                    target.Send(new PacketScItemBagScopeModify(target, item));
                     break;
 
                 case "weapon":
-                    target.inventoryManager.AddWeapon(args[1], Convert.ToUInt64(args[2]));
+                    Item wep = target.inventoryManager.AddWeapon(args[1], Convert.ToUInt64(args[2]));
                     message = $"Weapon {args[1]} was added to {target.nickname}";
+
+                    target.Send(new PacketScItemBagScopeModify(target, wep));
                     break;
 
                 case "char":
                     int lvl = int.Parse(args[2]);
 
-                    if(lvl < 20 || lvl > 79) {
-                        CommandManager.SendMessage(sender, "Level can't be less than 20 or more than 79");
+                    if(lvl < 1 || lvl > 80) {
+                        CommandManager.SendMessage(sender, "Level can't be less than 1 or more than 80");
                         return;
                     }
 
@@ -49,12 +55,14 @@ public static class CommandAdd
                     if(lvl == 20) character.breakNode = "charBreak20";
                     if(lvl > 40 && lvl <= 60) character.breakNode = "charBreak40";
                     if(lvl > 60 && lvl <= 70) character.breakNode = "charBreak60";
-                    if(lvl > 70 && lvl < 80) character.breakNode = "charBreak70";
+                    if(lvl > 70) character.breakNode = "charBreak70";
                     
                     target.chars.Add(character);
                     target.SaveCharacters();
-                    message = $"Character {character.id} was added to {target.nickname}. You can use /kick command to reload session";
+                    
+                    message = $"Character {character.id} was added to {target.nickname}.";
                     CommandManager.SendMessage(sender, message);
+                    target.Send(new PacketScCharBagAddChar(target, character));
                     return;
                 
                 default:
