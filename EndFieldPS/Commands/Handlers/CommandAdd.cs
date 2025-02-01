@@ -1,0 +1,73 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using EndFieldPS.Game.Character;
+
+namespace EndFieldPS.Commands.Handlers;
+
+public static class CommandAdd
+{
+    [Server.Command("add", "Adds items, weapons or characters", true)]
+    public static void Handle(Player sender, string cmd, string[] args, Player target) 
+    {
+        if(args.Length < 2) {
+            CommandManager.SendMessage(sender, "Use: /add (item|weapon|char) (item/weapon/char id) (amount/lvl)");
+            return;
+        }
+
+        string message = "";
+        try 
+        {
+            switch (args[0]) {
+                case "item":
+                    target.inventoryManager.AddItem(args[1], int.Parse(args[2]));
+                    message = $"Item {args[1]} was added to {target.nickname}";
+                    break;
+
+                case "weapon":
+                    target.inventoryManager.AddWeapon(args[1], Convert.ToUInt64(args[2]));
+                    message = $"Weapon {args[1]} was added to {target.nickname}";
+                    break;
+
+                case "char":
+                    int lvl = int.Parse(args[2]);
+
+                    if(lvl < 20 || lvl > 79) {
+                        CommandManager.SendMessage(sender, "Level can't be less than 20 or more than 79");
+                        return;
+                    }
+
+                    Character character = new Character(target.roleId, args[1], lvl);
+
+                    if (target.chars.Find(c => c.id == character.id) != null) {
+                        CommandManager.SendMessage(sender, "Character already exists");
+                        return;
+                    }
+
+                    if(lvl == 20) character.breakNode = "charBreak20";
+                    if(lvl > 40 && lvl <= 60) character.breakNode = "charBreak40";
+                    if(lvl > 60 && lvl <= 70) character.breakNode = "charBreak60";
+                    if(lvl > 70 && lvl < 80) character.breakNode = "charBreak70";
+                    
+                    target.chars.Add(character);
+                    target.SaveCharacters();
+                    message = $"Character {character.id} was added to {target.nickname}. You can use /kick command to reload session";
+                    CommandManager.SendMessage(sender, message);
+                    return;
+                
+                default:
+                    CommandManager.SendMessage(sender, "Unknown argument, use item, weapon or character");
+                    return;
+            }
+
+            target.inventoryManager.Save();
+            CommandManager.SendMessage(sender, $"{message}. You can use /kick command to reload session");
+        }
+        catch (Exception err)
+        {
+            CommandManager.SendMessage(sender, $"An error occurred: {err}");
+        }
+    }
+}

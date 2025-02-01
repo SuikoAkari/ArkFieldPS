@@ -244,6 +244,20 @@ namespace EndFieldPS.Database
                 filter
             );
         }
+        public void DeleteCharacter(Character character)
+        {
+            
+            var collection = _database.GetCollection<Character>("avatars");
+
+            var filter =
+                Builders<Character>.Filter.Eq(c => c.guid, character.guid)
+                &
+                Builders<Character>.Filter.Eq(c => c.owner, character.owner);
+
+            var result = collection.DeleteOne(
+                filter
+            );
+        }
         public string GrantCode(Account account)
         {
             account.grantToken = GenerateToken(192);
