@@ -10,6 +10,8 @@
 |kick           |Отключает пользователя от сессии|Отсутствуют                   |Да                |kick                              |kick                    |
 |spawn          |Спавнит врагов рядом с игроком  |\<TemplateID врага> \<уровень>|Да                |spawn \<TID> \<уровень>           |spawn eny_0007_mimicw 20|
 |heal           |Лечит персонажей из отряда      |Отсутствуют                   |Да                |heal                              |heal                    |
+|add            |Добавляет предметы, оружие, персонажей|\<item\|weapon\|char> \<id> \<кол-во/уровень>|Да                |add \<item\|weapon\|char> \<id> \<кол-во/уровень>|add char chr_0007_ikut 79|
+|remove         |Удаляет персонажа               |\<id>                         |Да                |remove \<id>                      |remove chr_0007_ikut    |
 |account        |Создаёт аккаунт в базе данных   |\<create\|reset> \<никнейм>   |Нет               |account <create\|reset> \<никнейм>|account create test     |
 |players        |Показывает список всех игроков  |Отсутствуют                   |Нет               |players                           |players                 |
 |clear          |Очищает консоль                 |Отсутствуют                   |Нет               |clear                             |clear                   |
