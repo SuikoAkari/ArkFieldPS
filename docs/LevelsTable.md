@@ -75,3 +75,34 @@
 |35 |False       |map01_lv006             |                               |      |
 |28 |False       |map01_lv007             |                               |      |
 |101|True        |map02_lv001             |![Image](./LevelImages/101.png)|      |
+
+## Additional Information
+
+You can achieve a teleportation effect by editing the `players` entry in the `endfieldps` collection of your MongoDB. This allows you to explore areas that are normally blocked off by Invisible Walls, such as `dung01_bdg001`:
+![Image](./LevelImages/210_1.png)
+```
+position:Object
+x:-851
+y:142
+z:101
+
+rotation:Object
+x:0
+y:182
+z:0
+curSceneNumId:210
+```
+`dung01_bdg003`
+![Image](./LevelImages/175_1.png)
+```
+position:Object
+x:-63
+y:202
+z:337
+
+rotation:Object
+x:0
+y:148
+z:0
+curSceneNumId:175
+```
