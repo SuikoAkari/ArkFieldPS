@@ -103,7 +103,7 @@ namespace EndFieldPS
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             new Thread(new ThreadStart(CmdListener)).Start();
             new Thread(new ThreadStart(Update)).Start();
-            Logger.Print(""+DateTime.UtcNow.ToUnixTimestampMilliseconds());
+            //Logger.Print(""+DateTime.UtcNow.ToUnixTimestampMilliseconds());
             try
             {
                 serverSocket.Bind(new IPEndPoint(ipAddress, port));
