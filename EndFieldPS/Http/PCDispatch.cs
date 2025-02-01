@@ -39,7 +39,6 @@ namespace EndFieldPS.Http
             if (token != null)
             {
                 Account account = DatabaseManager.db.GetAccountByToken(token);
-                Logger.Print(account.id);
                 Player player = Server.clients.Find(acc => acc.accountId == account.id);
                 if (player != null)
                 {
