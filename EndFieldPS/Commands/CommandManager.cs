@@ -92,8 +92,9 @@
             }
             else
             {
+                //For sending to player command prompt page made by Xannix
                 sender.temporanyChatMessages.Add(msg);
-                //TODO sending to player command prompt page made by Xannix
+                
             }
         }
     }
