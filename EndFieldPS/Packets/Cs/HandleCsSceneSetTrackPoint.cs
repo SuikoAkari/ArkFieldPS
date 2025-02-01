@@ -1,4 +1,5 @@
 ﻿using EndFieldPS.Network;
+using EndFieldPS.Packets.Sc;
 using EndFieldPS.Protocol;
 using Google.Protobuf;
 using System;
@@ -20,11 +21,7 @@ namespace EndFieldPS.Packets.Cs
         {
             CsSceneSetTrackPoint req = packet.DecodeBody<CsSceneSetTrackPoint>();
 
-            ScSceneSetTrackPoint rsp = new()
-            {
-                TrackPoint = req.TrackPoint
-            };
-            session.Send(ScMessageId.ScSceneSetTrackPoint, rsp);
+            session.Send(new PacketScSceneSetTrackPoint(req.TrackPoint));
         }
     }
 }
