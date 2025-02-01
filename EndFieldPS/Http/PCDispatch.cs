@@ -39,22 +39,31 @@ namespace EndFieldPS.Http
             if (token != null)
             {
                 Account account = DatabaseManager.db.GetAccountByToken(token);
-                Logger.Print(account.id);
-                Player player = Server.clients.Find(acc => acc.accountId == account.id);
-                if (player != null)
+                if (account != null)
                 {
 
-                    CommandManager.Notify(player, command, args, player);
-                    foreach (string msg in player.temporanyChatMessages)
+                    Logger.Print(account.id);
+                    Player player = Server.clients.Find(acc => acc.accountId == account.id);
+                    if (player != null)
                     {
-                        message += msg + "<br>";
+
+                        CommandManager.Notify(player, command, args, player);
+                        foreach (string msg in player.temporanyChatMessages)
+                        {
+                            message += msg + "<br>";
+                        }
+                        player.temporanyChatMessages.Clear();
                     }
-                    player.temporanyChatMessages.Clear();
+                    else
+                    {
+                        message = "You aren't connected to the server";
+                    }
                 }
                 else
                 {
-                    message = "This session is not available anymore";
+                    message = "Account not found";
                 }
+                
 
             }
             else message = "Token not found";
