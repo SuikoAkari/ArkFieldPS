@@ -148,7 +148,7 @@ namespace EndFieldPS.Game.Character
         }
         public List<ResourceManager.Attribute> GetAttributes()
         {
-            int lev = level - 1 + GetbreakStage();
+            int lev = level - 1 + GetBreakStage();
             return ResourceManager.characterTable[id].attributes[lev].Attribute.attrs;
         }
         public Player GetOwner()
@@ -249,10 +249,18 @@ namespace EndFieldPS.Game.Character
             }
             return proto;
         }
-        public int GetbreakStage()
+        public int GetBreakStage()
         {
-            int breakStage = ResourceManager.charBreakNodeTable[breakNode].breakStage;
-            return breakStage;
+            if (ResourceManager.charBreakNodeTable.ContainsKey(breakNode))
+            {
+                int breakStage = ResourceManager.charBreakNodeTable[breakNode].breakStage;
+                return breakStage;
+            }
+            else
+            {
+                return 0;
+            }
+
         }
         public bool IsEquipped(ulong equipGuid)
         {
