@@ -14,7 +14,8 @@ public static class CommandAdd
     [Server.Command("add", "Adds items, weapons or characters", true)]
     public static void Handle(Player sender, string cmd, string[] args, Player target) 
     {
-        if(args.Length < 2) {
+        if(args.Length < 2) 
+        {
             CommandManager.SendMessage(sender, "Use: /add (item|weapon|char) (item/weapon/char id) (amount/lvl)");
             return;
         }
@@ -22,7 +23,8 @@ public static class CommandAdd
         string message = "";
         try 
         {
-            switch (args[0]) {
+            switch (args[0]) 
+            {
                 case "item":
                     Item item=target.inventoryManager.AddItem(args[1], int.Parse(args[2]));
                     message = $"Item {args[1]} was added to {target.nickname}";
@@ -40,19 +42,22 @@ public static class CommandAdd
                 case "char":
                     int lvl = int.Parse(args[2]);
 
-                    if(lvl < 1 || lvl > 80) {
+                    if(lvl < 1 || lvl > 80) 
+                    {
                         CommandManager.SendMessage(sender, "Level can't be less than 1 or more than 80");
                         return;
                     }
 
                     Character character = new Character(target.roleId, args[1], lvl);
 
-                    if (target.chars.Find(c => c.id == character.id) != null) {
+                    if(target.chars.Find(c => c.id == character.id) != null) 
+                    {
                         CommandManager.SendMessage(sender, "Character already exists");
                         return;
                     }
-                    if (lvl <= 20) character.breakNode = "";
-                    if (lvl > 20 && lvl <= 40) character.breakNode = "charBreak20";
+
+                    if(lvl <= 20) character.breakNode = "";
+                    if(lvl > 20 && lvl <= 40) character.breakNode = "charBreak20";
                     if(lvl > 40 && lvl <= 60) character.breakNode = "charBreak40";
                     if(lvl > 60 && lvl <= 70) character.breakNode = "charBreak60";
                     if(lvl > 70) character.breakNode = "charBreak70";
@@ -73,7 +78,7 @@ public static class CommandAdd
             }
 
             target.inventoryManager.Save();
-            CommandManager.SendMessage(sender, $"{message}. You can use /kick command to reload session");
+            CommandManager.SendMessage(sender, $"{message}.");
         }
         catch (Exception err)
         {
