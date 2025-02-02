@@ -15,7 +15,7 @@ namespace EndFieldPS.Commands.Handlers
         [Server.Command("heal", "Revives/Heals your team characters", true)]
         public static void Handle(Player sender, string cmd, string[] args, Player target)
         {
-            sender.GetCurTeam().ForEach(chara =>
+            target.GetCurTeam().ForEach(chara =>
             {
                 chara.curHp = chara.CalcAttributes()[AttributeType.MaxHp];
                 
@@ -24,7 +24,7 @@ namespace EndFieldPS.Commands.Handlers
             {
                 
             });
-            sender.sceneManager.LoadCurrentTeamEntities();
+            target.sceneManager.LoadCurrentTeamEntities();
             CommandManager.SendMessage(sender, "Healed!");
         }
     }
