@@ -144,7 +144,7 @@ namespace EndFieldPS
                 try
                 {
                     clients.ForEach(client => { if (client != null) client.Update(); });
-                    
+                    Thread.Sleep(1000);
                 }
                 catch (Exception ex)
                 {
