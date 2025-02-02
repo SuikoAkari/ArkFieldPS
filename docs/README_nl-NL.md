@@ -89,9 +89,9 @@ EndFieldPS is een privé server voor EndField CBT2.
 
 ## Extra Informatie
 
-Je kan een beschrijving van alle commando's [hier](docs/CommandList/commands_en-US.md) vinden.<br>
-De lijst van alle scènes zijn [hier](docs/LevelsTable.md).<br>
-De lijst van alle enemies zijn [hier](docs/EnemiesTable.md).
+Je kan een beschrijving van alle commando's [hier](./CommandList/commands_en-US.md) vinden.<br>
+De lijst van alle scènes zijn [hier](./LevelsTable.md).<br>
+De lijst van alle enemies zijn [hier](./EnemiesTable.md).
 
 ## Discord
 

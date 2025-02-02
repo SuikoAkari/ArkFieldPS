@@ -91,7 +91,8 @@ EndFieldPS is a private server for EndField CBT2.
 
 You can find the description of all server commands [here](docs/CommandList/commands_en-US.md).<br>
 The list of all scenes is [here](docs/LevelsTable.md).<br>
-The list of all enemies is [here](docs/EnemiesTable.md).
+The list of all enemies is [here](docs/EnemiesTable.md).<br>
+If you want to open the in-game console, go to `Settings -> Platform & Account -> Account Settings (Access Account button)`. To view avaiable commands, type `help`.
 
 ## Discord
 
