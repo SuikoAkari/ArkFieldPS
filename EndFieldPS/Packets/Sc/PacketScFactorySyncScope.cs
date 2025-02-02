@@ -47,7 +47,7 @@ namespace EndFieldPS.Packets.Sc
                 TransportRoute = new()
                 {
                     
-                    UpdateTs = DateTime.UtcNow.AddMinutes(1).ToUnixTimestampMilliseconds(),
+                    UpdateTs = DateTime.UtcNow.AddMinutes(0).ToUnixTimestampMilliseconds(),
                     Routes =
                     {
                         new ScdFactoryHubTransportRoute
@@ -55,6 +55,12 @@ namespace EndFieldPS.Packets.Sc
                             ChapterId = "domain_1",
                             Index = 1,
                             
+                        },
+                        new ScdFactoryHubTransportRoute
+                        {
+                            ChapterId = "domain_2",
+                            Index = 2,
+
                         }
                     }
                 },

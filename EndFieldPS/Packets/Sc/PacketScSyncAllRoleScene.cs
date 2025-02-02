@@ -44,6 +44,7 @@ namespace EndFieldPS.Packets.Sc
                 AreaUnlockInfo u = new()
                 {
                     SceneId = scene.id,
+                    
                     UnlockAreaId =
                     {
                         

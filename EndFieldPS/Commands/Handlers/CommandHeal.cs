@@ -1,4 +1,5 @@
 ﻿using EndFieldPS.Game.Entities;
+using EndFieldPS.Packets.Sc;
 using EndFieldPS.Protocol;
 using EndFieldPS.Resource;
 using System;
@@ -25,6 +26,7 @@ namespace EndFieldPS.Commands.Handlers
                 
             });
             target.sceneManager.LoadCurrentTeamEntities();
+            target.Send(new PacketScSelfSceneInfo(target,true,SelfInfoReasonType.SlrReviveRest));
             CommandManager.SendMessage(sender, "Healed!");
         }
     }

@@ -13,7 +13,6 @@ namespace EndFieldPS.Packets.Sc
     {
 
         public PacketScSyncStamina(Player client) {
-            long curtimestamp = ((DateTimeOffset)DateTime.UtcNow).ToUnixTimeSeconds();
             ScSyncStamina proto = new ScSyncStamina()
             {
                 CurStamina=client.curStamina,
