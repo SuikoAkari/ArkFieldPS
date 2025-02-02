@@ -55,11 +55,31 @@ namespace EndFieldPS.Packets.Sc
                         {
                             51541704716
                         }
+                    },
+                    new BitsetData()
+                    {
+                        Type=(int)BitsetType.AreaToastOnce,
+
+                        Value =
+                        {
+                            450078487693230336,
+                            2531075783884800
+                        }
+                    },
+                    new BitsetData()
+                    {
+                        Type=(int)BitsetType.NewSceneGradeUnlocked,
+
+                        Value =
+                        {
+                            8
+                        }
                     }
 
                 }
             };
-            foreach (var item in strIdNumTable.char_voice_id.dic)
+           
+          /*  foreach (var item in strIdNumTable.char_voice_id.dic)
             {
                 bitset.Bitset[0].Value.Add((ulong)item.Value);
                 bitset.Bitset[0].Value.Add((ulong)0);
@@ -67,7 +87,7 @@ namespace EndFieldPS.Packets.Sc
             foreach (var item in strIdNumTable.char_doc_id.dic)
             {
                 bitset.Bitset[1].Value.Add((ulong)item.Value);
-            }
+            }*/
             SetData(ScMessageId.ScSyncAllBitset, bitset);
         }
 

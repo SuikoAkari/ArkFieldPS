@@ -189,6 +189,7 @@ namespace EndFieldPS
             {
                 if(player.Initialized)
                 player.Save();
+                player.Kick(CODE.ErrServerClosed);
             }
         }
     }

@@ -23,7 +23,7 @@ namespace EndFieldPS.Packets.Sc
                 SceneId = client.sceneManager.GetSceneGuid(sceneNumId),
                 RoleId = client.roleId,
                 SceneNumId = sceneNumId,
-
+                
             };
 
             SetData(ScMessageId.ScEnterSceneNotify, proto);

@@ -21,11 +21,11 @@ namespace EndFieldPS.Packets.Sc
             {
                 ChapterId = chapterId,
                 
-                Tms=DateTime.UtcNow.Ticks,
+                Tms=DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                 
                 Nodes =
                 {
-                    
+
                 },
                 Blackboard = new()
                 {
