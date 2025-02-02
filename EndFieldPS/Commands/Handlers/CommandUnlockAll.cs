@@ -14,16 +14,16 @@ namespace EndFieldPS.Commands.Handlers
         public static void Handle(Player sender,string cmd, string[] args, Player target)
         {
 
-            sender.unlockedSystems.Clear();
-            sender.UnlockImportantSystems();
-            sender.maxDashEnergy = 250;
-            foreach (var system in sender.unlockedSystems)
+            target.unlockedSystems.Clear();
+            target.UnlockImportantSystems();
+            target.maxDashEnergy = 250;
+            foreach (var system in target.unlockedSystems)
             {
                 ScUnlockSystem unlocked = new()
                 {
                     UnlockSystemType = system,
                 };
-                sender.Send(ScMessageId.ScUnlockSystem, unlocked);
+                target.Send(ScMessageId.ScUnlockSystem, unlocked);
             }
         }
     }
