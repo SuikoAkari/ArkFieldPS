@@ -221,12 +221,15 @@ namespace EndFieldPS.Resource
             public Vector3f playerInitPos;
             public Vector3f playerInitRot;
         }
-        public struct Vector3f
+        public class Vector3f
         {
             public float x;
             public float y;
             public float z;
+            public Vector3f()
+            {
 
+            }
             public Vector3f(Vector v) : this()
             {
                 this.x=v.X; this.y=v.Y; this.z=v.Z; 
