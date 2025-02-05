@@ -17,16 +17,19 @@ namespace EndFieldPS.Packets.Cs
 {
     public class HandleCsGachaTenPullReq
     {
+        
         [Server.Handler(CsMessageId.CsGachaSinglePullReq)]
         public static void HandleOnePull(Player session, CsMessageId cmdId, Packet packet)
         {
             CsGachaSinglePullReq req = packet.DecodeBody<CsGachaSinglePullReq>();
+            session.gachaManager.upSeqId = packet.csHead.UpSeqid;
             session.gachaManager.DoGacha(req.GachaPoolId, 1);
         }
         [Server.Handler(CsMessageId.CsGachaTenPullReq)]
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsGachaTenPullReq req = packet.DecodeBody<CsGachaTenPullReq>();
+            session.gachaManager.upSeqId = packet.csHead.UpSeqid;
             session.gachaManager.DoGacha(req.GachaPoolId, 10);
            /* Random rng = new Random();
             List<string> chars = new List<string>();

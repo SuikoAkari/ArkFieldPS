@@ -96,6 +96,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.CommercialItem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Factory));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.SpecialItem));
+            
             session.Send(new PacketScSyncAllMail(session));
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
             {
@@ -151,11 +152,7 @@ namespace EndFieldPS.Packets.Cs
                 
             };
 
-            ScSyncGameMode gameMode = new()
-            {
-                ModeId = "Default",
 
-            };
             session.Send(new PacketScGachaSync(session));
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
             {
@@ -191,7 +188,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScGameMechanicsSync(session));
             session.Send(new PacketScSyncAllBloc(session));
             session.Send(new PacketScSyncWallet(session));
-            session.Send(ScMessageId.ScSyncGameMode, gameMode);
+            
             session.Send(new PacketScSyncAllGameVar(session));
             session.Send(new PacketScSyncAllUnlock(session));
             session.Send(ScMessageId.ScSyncAllMission, missions);
@@ -223,7 +220,28 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScFactorySyncChapter(session, "domain_2"));
 
             session.Send(new PacketScSyncCharBagInfo(session));
+            ScSyncAllDialog dialogues = new()
+            {
+
+            };
+            foreach (var item in dialogIdTable.dialogStrToNum)
+            {
+                try
+                {
+                    dialogues.DialogList.Add(new Dialog()
+                    {
+                        DialogId = item.Value,
+                        
+                    });
+                }
+                catch (Exception ex)
+                {
+
+                }
+
+            }
             
+            session.Send(ScMessageId.ScSyncAllDialog, dialogues);
             session.Send(new PacketScSpaceshipSync(session));
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene();
