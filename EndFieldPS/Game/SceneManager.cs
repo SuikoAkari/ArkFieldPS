@@ -133,7 +133,7 @@ namespace EndFieldPS.Game
         {
             entities.Clear();
         }
-
+        
         public void Load()
         {
             if (sceneNumId == 98)
