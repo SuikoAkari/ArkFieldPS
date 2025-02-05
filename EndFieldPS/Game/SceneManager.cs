@@ -139,11 +139,12 @@ namespace EndFieldPS.Game
             if (sceneNumId == 98)
             {
                 //Load spaceship manager chars
-                foreach (var chara in GetOwner().spaceshipManager.chars)
+                //Disabled as seem the client already spawn npcs automatically
+                /*foreach (var chara in GetOwner().spaceshipManager.chars)
                 {
                     EntityNpc npc = new EntityNpc(chara.GetNpcId(), chara.owner,chara.position,chara.rotation,chara.guid);
                     entities.Add(npc);
-                }
+                }*/
             }
             //Load actual scene entities (Missing full LevelData for that)
 

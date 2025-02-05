@@ -61,6 +61,29 @@ namespace EndFieldPS.Game.Spaceship
                 DatabaseManager.db.UpsertSpaceshipRoom(room);
             }
         }
+
+        public void UpdateStationedChars()
+        {
+            Dictionary<string, string> charAndRoom = new();
+            foreach(SpaceshipRoom room in rooms)
+            {
+                foreach (var c in room.stationedCharList)
+                {
+                    charAndRoom.Add(c, room.id);
+                }
+            }
+            foreach(SpaceshipChar chara in chars)
+            {
+                if (charAndRoom.ContainsKey(chara.id))
+                {
+                    chara.stationedRoomId = charAndRoom[chara.id];
+                }
+                else
+                {
+                    chara.stationedRoomId = "";
+                }
+            }
+        }
     }
     public class SpaceshipRoom
     {
@@ -95,10 +118,16 @@ namespace EndFieldPS.Game.Spaceship
             }
             return val;
         }
+        public int GetType()
+        {
+            SpaceshipRoomInsTable roomInfo = ResourceManager.spaceshipRoomInsTable[id];
+            return roomInfo.roomType;
+        }
         public Player GetOwner()
         {
             return Server.clients.Find(c=>c.roleId==owner);
         }
+        
         public ScdSpaceshipRoom ToRoomProto()
         {
             SpaceshipRoomInsTable roomInfo = ResourceManager.spaceshipRoomInsTable[id];
