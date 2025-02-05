@@ -30,7 +30,7 @@ class Program
         {
             Console.WriteLine("Shutting down...");
             
-            Server.Shutdown(); //TODO
+            Server.Shutdown();
         };
 
         while (Server.Initialized == false)

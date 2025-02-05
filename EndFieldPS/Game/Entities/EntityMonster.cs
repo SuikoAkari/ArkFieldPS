@@ -1,4 +1,5 @@
-﻿using EndFieldPS.Resource;
+﻿using EndFieldPS.Protocol;
+using EndFieldPS.Resource;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -91,7 +92,17 @@ namespace EndFieldPS.Game.Entities
         public override void Damage(double dmg)
         {
             curHp -= dmg;
-            //Find packet for update monster hp?
+            ScEntityPropertyChange prop = new()
+            {
+                InstId = guid,
+                Info = new()
+                {
+                    Hp = curHp,
+                   
+
+                }
+            };
+            GetOwner().Send(ScMessageId.ScEntityPropertyChange, prop);
         }
 
         public override void Heal(double heal)

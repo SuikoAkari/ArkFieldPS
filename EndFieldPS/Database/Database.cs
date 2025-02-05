@@ -1,5 +1,8 @@
-﻿using EndFieldPS.Game.Character;
+﻿using EndFieldPS.Game;
+using EndFieldPS.Game.Character;
+using EndFieldPS.Game.Gacha;
 using EndFieldPS.Game.Inventory;
+using EndFieldPS.Resource;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
@@ -30,6 +33,10 @@ namespace EndFieldPS.Database
         public int teamIndex = 0;
         public List<Team> teams = new List<Team>();
         public ulong totalGuidCount = 1;
+        public List<int> unlockedSystems = new();
+        public long maxDashEnergy = 250;
+        public uint curStamina;
+        public long nextRecoverTime;
     }
     public class Account
     {
@@ -59,7 +66,10 @@ namespace EndFieldPS.Database
             var client = new MongoClient(connectionString);
             _database = client.GetDatabase(dbName);
         }
-
+        public List<Mail> LoadMails(ulong roleId)
+        {
+            return _database.GetCollection<Mail>("mails").Find(c => c.owner == roleId).ToList();
+        }
         public List<Character> LoadCharacters(ulong roleId)
         {
             return _database.GetCollection<Character>("avatars").Find(c=>c.owner== roleId).ToList();
@@ -67,6 +77,20 @@ namespace EndFieldPS.Database
         public List<Item> LoadInventoryItems(ulong roleId)
         {
             return _database.GetCollection<Item>("items").Find(c => c.owner == roleId).ToList();
+        }
+        public void AddGachaTransaction(GachaTransaction transaction)
+        {
+            if (transaction._id == ObjectId.Empty)
+            {
+                transaction._id = ObjectId.GenerateNewId();
+            }
+            var collection = _database.GetCollection<GachaTransaction>("gachas");
+            //These transactions never need to be changed
+            collection.InsertOne(transaction);
+        }
+        public List<GachaTransaction> LoadGachaTransaction(ulong roleId, string templateId)
+        {
+            return _database.GetCollection<GachaTransaction>("gachas").Find(c => c.ownerId== roleId && c.gachaTemplateId==templateId).ToList();
         }
         public static string GenerateToken(int length)
         {
@@ -91,16 +115,26 @@ namespace EndFieldPS.Database
                 nickname = player.nickname,
                 position = player.position,
                 rotation = player.rotation,
-                roleId=player.roleId,
-                teams=player.teams,
-                xp=player.xp,
-                totalGuidCount=player.random.v,
-                teamIndex=player.teamIndex,
+                roleId = player.roleId,
+                teams = player.teams,
+                xp = player.xp,
+                totalGuidCount = player.random.v,
+                teamIndex = player.teamIndex,
+                unlockedSystems = player.unlockedSystems,
+                maxDashEnergy = player.maxDashEnergy,
+                curStamina = player.curStamina,
+                nextRecoverTime = player.nextRecoverTime
             };
             UpsertPlayerData(data);
         }
-        public void CreateAccount(string username)
+        public (string,int) CreateAccount(string username)
         {
+            Account exist = GetAccountByUsername(username);
+            if (exist != null)
+            {
+                Logger.Print($"Cannot created account with username: {username} beecause it already exist.");
+                return ($"Cannot created account with username: {username} beecause it already exist.",1);
+            }
             Account account = new()
             {
                 username = username,
@@ -110,6 +144,7 @@ namespace EndFieldPS.Database
             };
             UpsertAccount(account);
             Logger.Print($"Account with username: {username} created with Account UID: {account.id}");
+            return ($"Account with username: {username} created with Account UID: {account.id}",0);
         }
         public void UpsertPlayerData(PlayerData player)
         {
@@ -141,7 +176,7 @@ namespace EndFieldPS.Database
                 new ReplaceOptions { IsUpsert = true }
             );
         }
-        public void UpsertCharacterAsync(Character character)
+        public void UpsertCharacter(Character character)
         {
             if (character._id == ObjectId.Empty)
             {
@@ -157,6 +192,25 @@ namespace EndFieldPS.Database
             var result=collection.ReplaceOne(
                 filter,
                 character,
+                new ReplaceOptions { IsUpsert = true }
+            );
+        }
+        public void UpsertMail(Mail mail)
+        {
+            if (mail._id == ObjectId.Empty)
+            {
+                mail._id = ObjectId.GenerateNewId();
+            }
+            var collection = _database.GetCollection<Mail>("mails");
+
+            var filter =
+                Builders<Mail>.Filter.Eq(c => c.guid, mail.guid)
+                &
+                Builders<Mail>.Filter.Eq(c => c.owner, mail.owner);
+
+            var result = collection.ReplaceOne(
+                filter,
+                mail,
                 new ReplaceOptions { IsUpsert = true }
             );
         }
@@ -189,6 +243,20 @@ namespace EndFieldPS.Database
                 Builders<Item>.Filter.Eq(c => c.guid, item.guid)
                 &
                 Builders<Item>.Filter.Eq(c => c.owner, item.owner);
+
+            var result = collection.DeleteOne(
+                filter
+            );
+        }
+        public void DeleteCharacter(Character character)
+        {
+            
+            var collection = _database.GetCollection<Character>("avatars");
+
+            var filter =
+                Builders<Character>.Filter.Eq(c => c.guid, character.guid)
+                &
+                Builders<Character>.Filter.Eq(c => c.owner, character.owner);
 
             var result = collection.DeleteOne(
                 filter

@@ -23,6 +23,7 @@ namespace EndFieldPS.Packets.Cs
             CsMoveObjectMove req = packet.DecodeBody<CsMoveObjectMove>();
             foreach (var moveInfo in req.MoveInfo)
             {
+              
                 if (moveInfo.Objid == session.teams[session.teamIndex].leader)
                 {
                     session.position = new Vector3f(moveInfo.MotionInfo.Position);
@@ -47,6 +48,7 @@ namespace EndFieldPS.Packets.Cs
                     req.MoveInfo,
                 },
                 ServerNotify=false,
+                
             };
 
             session.Send(ScMessageId.ScMoveObjectMove, proto);

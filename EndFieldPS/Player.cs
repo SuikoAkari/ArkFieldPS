@@ -12,7 +12,7 @@ using System.Numerics;
 using MongoDB.Bson.Serialization.Attributes;
 using System.Reflection;
 using System.Net.Sockets;
-using static EndFieldPS.Dispatch;
+using static EndFieldPS.Http.Dispatch;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Collections;
 using System;
@@ -23,6 +23,7 @@ using EndFieldPS.Game.Inventory;
 using static EndFieldPS.Resource.ResourceManager;
 using EndFieldPS.Database;
 using EndFieldPS.Game;
+using EndFieldPS.Game.Gacha;
 
 
 namespace EndFieldPS
@@ -38,13 +39,7 @@ namespace EndFieldPS
     }
     public class Player
     {
-        //TODO move to Team class
-        public class Team
-        {
-            public string name="";
-            public ulong leader;
-            public List<ulong> members=new();
-        }
+        public List<string> temporanyChatMessages = new(); //for cbt2 only as no chat exist
         public GuidRandomizer random = new GuidRandomizer();
         public Thread receivorThread;
         public Socket socket;
@@ -62,15 +57,29 @@ namespace EndFieldPS
         public List<Character> chars = new List<Character>();
         public InventoryManager inventoryManager;
         public SceneManager sceneManager;
+        public GachaManager gachaManager;
         public int teamIndex = 0;
         public List<Team> teams= new List<Team>();
+        public List<Mail> mails = new List<Mail>();
+        public List<int> unlockedSystems = new();
+        public long maxDashEnergy = 250;
+        public uint curStamina = 10;
+        public long nextRecoverTime = 0;
+        public uint maxStamina {
+            get{
+                return (uint)200;
+            } 
+        }
         public bool Initialized = false;
+
+        
         public Player(Socket socket)
         {
             this.socket = socket;
             roleId = (ulong)new Random().Next();
             inventoryManager = new(this);
             sceneManager = new(this);
+            gachaManager = new(this);
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
@@ -93,7 +102,13 @@ namespace EndFieldPS
                 roleId = data.roleId;
                 random.v = data.totalGuidCount;
                 teamIndex = data.teamIndex;
+                if(data.unlockedSystems!=null)
+                unlockedSystems = data.unlockedSystems;
+                maxDashEnergy = data.maxDashEnergy;
+                curStamina = data.curStamina;
+                nextRecoverTime=data.nextRecoverTime;
                 LoadCharacters();
+                mails = DatabaseManager.db.LoadMails(roleId);
                 inventoryManager.Load();
             }
             else
@@ -105,7 +120,15 @@ namespace EndFieldPS
         public void LoadCharacters()
         {
             chars = DatabaseManager.db.LoadCharacters(roleId);
-            
+        }
+        //Added in 1.0.7
+        public Character GetCharacter(ulong guid)
+        {
+            return chars.Find(c => c.guid == guid);
+        }
+        public Character GetCharacter(string templateId)
+        {
+            return chars.Find(c => c.id==templateId);
         }
         public void Initialize()
         {
@@ -117,7 +140,7 @@ namespace EndFieldPS
             {
                 if(item.Value.maxStackCount == -1)
                 {
-                    inventoryManager.items.Add(new Item(roleId, item.Value.id, 1000000));
+                    inventoryManager.items.Add(new Item(roleId, item.Value.id, 10000000));
                 }
                 else
                 {
@@ -135,6 +158,69 @@ namespace EndFieldPS
             teams.Add(new Team());
             teams.Add(new Team());
 
+            mails.Add(new Mail()
+            {
+                expireTime=DateTime.UtcNow.AddDays(30).Ticks,
+                sendTime=DateTime.UtcNow.Ticks,
+                claimed=false,
+                guid=random.Next(),
+                owner=roleId,
+                isRead=false,
+                content=new Mail_Content()
+                {
+                    content= "Welcome to EndField PS, Join our Discord for help: https://discord.gg/5uJGJJEFHa",
+                    senderName="SuikoAkari",
+                    title="Welcome",
+                    templateId="",
+                }
+
+            });
+
+            UnlockImportantSystems();
+        }
+        public void UnlockImportantSystems()
+        {
+            unlockedSystems.Add((int)UnlockSystemType.Watch);
+            unlockedSystems.Add((int)UnlockSystemType.Weapon);
+            unlockedSystems.Add((int)UnlockSystemType.Equip);
+            unlockedSystems.Add((int)UnlockSystemType.EquipEnhance);
+            unlockedSystems.Add((int)UnlockSystemType.NormalAttack);
+            unlockedSystems.Add((int)UnlockSystemType.NormalSkill);
+            unlockedSystems.Add((int)UnlockSystemType.UltimateSkill);
+            unlockedSystems.Add((int)UnlockSystemType.TeamSkill);
+            unlockedSystems.Add((int)UnlockSystemType.ComboSkill);
+            unlockedSystems.Add((int)UnlockSystemType.TeamSwitch);
+            unlockedSystems.Add((int)UnlockSystemType.Dash);
+            unlockedSystems.Add((int)UnlockSystemType.Jump);
+            unlockedSystems.Add((int)UnlockSystemType.Friend);
+            unlockedSystems.Add((int)UnlockSystemType.SNS);
+            unlockedSystems.Add((int)UnlockSystemType.Settlement);
+            unlockedSystems.Add((int)UnlockSystemType.Map);
+            unlockedSystems.Add((int)UnlockSystemType.FacZone);
+            unlockedSystems.Add((int)UnlockSystemType.FacHub);
+            unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
+            unlockedSystems.Add((int)UnlockSystemType.FacSystem);
+            unlockedSystems.Add((int)UnlockSystemType.CharUI);
+            unlockedSystems.Add((int)UnlockSystemType.EquipProduce);
+            unlockedSystems.Add((int)UnlockSystemType.EquipTech);
+            unlockedSystems.Add((int)UnlockSystemType.Gacha);
+            unlockedSystems.Add((int)UnlockSystemType.Inventory);
+            unlockedSystems.Add((int)UnlockSystemType.ItemQuickBar);
+            unlockedSystems.Add((int)UnlockSystemType.ItemSubmitRecycle);
+            unlockedSystems.Add((int)UnlockSystemType.ItemUse);
+            unlockedSystems.Add((int)UnlockSystemType.Mail);
+            unlockedSystems.Add((int)UnlockSystemType.ValuableDepot);
+            unlockedSystems.Add((int)UnlockSystemType.Wiki);
+            unlockedSystems.Add((int)UnlockSystemType.AIBark);
+            unlockedSystems.Add((int)UnlockSystemType.AdventureExpAndLv);
+            unlockedSystems.Add((int)UnlockSystemType.CharTeam);
+            unlockedSystems.Add((int)UnlockSystemType.FacMode);
+            unlockedSystems.Add((int)UnlockSystemType.FacOverview);
+            unlockedSystems.Add((int)UnlockSystemType.SpaceshipSystem);
+            unlockedSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
+            unlockedSystems.Add((int)UnlockSystemType.FacBUS);
+            unlockedSystems.Add((int)UnlockSystemType.PRTS);
+            unlockedSystems.Add((int)UnlockSystemType.Dungeon);
         }
         public void EnterScene()
         {
@@ -149,12 +235,20 @@ namespace EndFieldPS
         }
         public void EnterScene(int sceneNumId)
         {
-            sceneManager.UnloadCurrent();
-            curSceneNumId = sceneNumId;
-            position = GetLevelData(sceneNumId).playerInitPos;
-            rotation = GetLevelData(sceneNumId).playerInitRot;
-            sceneManager.LoadCurrentTeamEntities();
-            Send(new PacketScEnterSceneNotify(this,sceneNumId));
+            if(GetLevelData(sceneNumId) != null)
+            {
+                sceneManager.UnloadCurrent();
+                curSceneNumId = sceneNumId;
+                position = GetLevelData(sceneNumId).playerInitPos;
+                rotation = GetLevelData(sceneNumId).playerInitRot;
+                sceneManager.LoadCurrentTeamEntities();
+                Send(new PacketScEnterSceneNotify(this, sceneNumId));
+            }
+            else
+            {
+                Logger.PrintError($"Scene {sceneNumId} not found");
+            }
+
         }
 
         public bool SocketConnected(Socket s)
@@ -264,6 +358,7 @@ namespace EndFieldPS
                 Initialized = false;
                 Save();
                 Logger.Print($"{nickname} Disconnected");
+                socket.Disconnect(false);
             }
             
             
@@ -272,14 +367,42 @@ namespace EndFieldPS
         {
             //Save playerdata
             DatabaseManager.db.SavePlayerData(this);
-            SaveCharacters();
             inventoryManager.Save();
+            SaveCharacters();
+            SaveMails();
+            
+        }
+        public void AddStamina(uint stamina)
+        {
+            curStamina += stamina;
+            if(curStamina > maxStamina)
+            {
+                curStamina = maxStamina;
+            }
+            if(Initialized)Send(new PacketScSyncStamina(this));
+        }
+        public void Update()
+        {
+            //Check recover time
+            long curtimestamp = DateTime.UtcNow.ToUnixTimestampMilliseconds();
+            if (curtimestamp >= nextRecoverTime)
+            {
+                nextRecoverTime= DateTime.UtcNow.AddMinutes(7).ToUnixTimestampMilliseconds();
+                AddStamina(1);
+            }
+        }
+        public void SaveMails()
+        {
+            foreach(Mail mail in mails)
+            {
+                DatabaseManager.db.UpsertMail(mail);
+            }
         }
         public void SaveCharacters()
         {
             foreach(Character c in chars)
             {
-                DatabaseManager.db.UpsertCharacterAsync(c);
+                DatabaseManager.db.UpsertCharacter(c);
             }
         }
     }

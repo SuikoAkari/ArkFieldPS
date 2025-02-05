@@ -92,10 +92,11 @@ namespace EndFieldPS.Packets.Cs
             session.Send(ScMessageId.ScItemBagCommonSync, common);
             session.Send(new PacketScItemBagScopeSync(session,ItemValuableDepotType.Weapon));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.WeaponGem));
+            session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Equip));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.CommercialItem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Factory));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.SpecialItem));
-            
+            session.Send(new PacketScSyncAllMail(session));
             ScSceneCollectionSync collection = new ScSceneCollectionSync()
             {
                 CollectionList =
@@ -104,8 +105,7 @@ namespace EndFieldPS.Packets.Cs
                 },
                 
             };
-
-
+           
             foreach (var item in ResourceManager.levelDatas)
             {
                 foreach (var item1 in collectionTable)
@@ -143,19 +143,7 @@ namespace EndFieldPS.Packets.Cs
                     }
                 }
             };
-            ScSyncAllGameVar GameVars = new()
-            {
-
-            };
-            for (int cVar = 1; cVar <= 38; cVar++)
-            {
-                GameVars.ClientVars.Add(cVar, 1);
-            }
-            for (int sVar = 1; sVar <= 50; sVar++)
-            {
-                GameVars.ServerVars.Add(sVar, 1);
-            }
-
+           
             ScAdventureSyncAll adventure = new()
             {
                 Exp = session.xp,
@@ -171,7 +159,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScGachaSync(session));
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
             {
-                LastTickTime = DateTime.UtcNow.Ticks,
+                LastTickTime = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                 
             };
             int stid = 0;
@@ -187,9 +175,9 @@ namespace EndFieldPS.Packets.Cs
                     {
 
                     },
-                    UnlockTs = DateTime.UtcNow.Ticks,
+                    UnlockTs = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                     AutoSubmit = false,
-                    LastManualSubmitTime = DateTime.UtcNow.Ticks,
+                    LastManualSubmitTime = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
 
                     OfficerCharTemplateId = characterTable.Values.ToList()[stid].charId,
 
@@ -204,7 +192,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScSyncAllBloc(session));
             session.Send(new PacketScSyncWallet(session));
             session.Send(ScMessageId.ScSyncGameMode, gameMode);
-            session.Send(ScMessageId.ScSyncAllGameVar, GameVars);
+            session.Send(new PacketScSyncAllGameVar(session));
             session.Send(new PacketScSyncAllUnlock(session));
             session.Send(ScMessageId.ScSyncAllMission, missions);
             session.Send(new PacketScSyncAllBitset(session));
@@ -233,18 +221,21 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScFactorySyncScope(session));
             session.Send(new PacketScFactorySyncChapter(session, "domain_1"));
             session.Send(new PacketScFactorySyncChapter(session, "domain_2"));
-            ScSyncFullDungeonStatus dst = new()
-            {
-                CurStamina = 200,
-                MaxStamina = 200,
 
-            };
             session.Send(new PacketScSyncCharBagInfo(session));
-            session.Send(ScMessageId.ScSyncFullDungeonStatus, dst);
+            
             session.Send(new PacketScSpaceshipSync(session));
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
-            session.EnterScene(); //101
+            session.EnterScene();
             session.Initialized = true;
+            session.Update();
+            ScSyncFullDungeonStatus dungeonStatus = new()
+            {
+                CurStamina = session.curStamina,
+                MaxStamina = session.maxStamina,
+                NextRecoverTime = session.nextRecoverTime / 1000,
+            };
+            session.Send(ScMessageId.ScSyncFullDungeonStatus, dungeonStatus);
         }
         static byte[] GenerateRandomBytes(int length)
         {

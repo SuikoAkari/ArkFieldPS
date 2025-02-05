@@ -25,8 +25,8 @@ namespace EndFieldPS.Packets.Sc
                 {
 
                 },
-                SubmitEtherCount = 0,
-                SubmitEtherLevel = 1,
+                SubmitEtherCount = 12,
+                SubmitEtherLevel = 5,
 
             };
             foreach (var scene in levelDatas)
@@ -34,7 +34,7 @@ namespace EndFieldPS.Packets.Sc
                 role.SceneGradeInfo.Add(new SceneGradeInfo()
                 {
                     Grade=1,
-                    LastDownTs=DateTime.UtcNow.Ticks,
+                    LastDownTs= DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                     SceneNumId=scene.idNum,
                     
                 });
@@ -44,6 +44,7 @@ namespace EndFieldPS.Packets.Sc
                 AreaUnlockInfo u = new()
                 {
                     SceneId = scene.id,
+                    
                     UnlockAreaId =
                     {
                         

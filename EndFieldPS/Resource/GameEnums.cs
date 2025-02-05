@@ -105,7 +105,15 @@ namespace EndFieldPS.Resource
         RemoteFactoryEntity = 2048,
         Creature = 4096
     }
-
+    public enum EntityDataType // TypeDefIndex: 24999
+    {
+        Character = 0,
+        Enemy = 1,
+        Interactive = 2,
+        Npc = 3,
+        AbilityEntity = 4,
+        Count = 5
+    }
     public enum ObjectTypeIndex // TypeDefIndex: 24768
     {
         Invalid = 0,
@@ -159,7 +167,16 @@ namespace EndFieldPS.Resource
         Training = 8,
         All = 15
     }
-
+    public enum GlobalAttributeType // TypeDefIndex: 23556
+    {
+        AtbRecover = 0,
+        AtbGainEfficiency = 1,
+        DashChargeCount = 2,
+        DashRecover = 3,
+        ExtraAtbEfficiencyNormalAttack = 4,
+        ExtraAtbEfficiencyPowerAttack = 5,
+        Enum = 6
+    }
     public enum ScopeNameIndex // TypeDefIndex: 33635
     {
         Main = 0,
@@ -212,6 +229,49 @@ namespace EndFieldPS.Resource
         DailyStatEnd = 1000,
         WeeklyStatBegin = 1001,
         WeeklyStatEnd = 1500
+    }
+    public enum ServerGameVarEnum // TypeDefIndex: 33657
+    {
+        ServerGameVarCommonBegin = 100000,
+        ServerTest1 = 100001,
+        ServerTest2 = 100002,
+        ServerGameVarAlreadySetGender = 100003,
+        ServerGameVarEnhanceBean = 100004,
+        ServerGameVarEnhanceBeanLastReplenishTime = 100005,
+        ServerGameVarDashEnergyLimit = 100006,
+        ServerGameVarAlreadySetName = 100007,
+        ServerGameVarCommonEnd = 109999,
+        ServerGameVarDailyRefreshBegin = 110000,
+        RecoverApByMoneyCount = 110001,
+        ServerGameVarDailyRefreshEnd = 119999,
+        ServerGameVarWeeklyRefreshBegin = 120000,
+        ServerGameVarWeeklyRefreshEnd = 129999,
+        ServerGameVarMonthlyRefreshBegin = 130000,
+        ServerGameVarMonthlyRefreshEnd = 139999
+    }
+    public enum ModifierType // TypeDefIndex: 33568
+    {
+        Addition = 0,
+        Multiplier = 1,
+        FinalAddition = 3,
+        FinalMultiplier = 4,
+        BaseAddition = 5,
+        BaseMultiplier = 6,
+        BaseFinalAddition = 7,
+        BaseFinalMultiplier = 8,
+        Enum = 9,
+        None = 99999
+    }
+    public enum MailSubType // TypeDefIndex: 33718
+    {
+        Default = 0,
+        Questionnaire = 1
+    }
+    public enum MailType // TypeDefIndex: 33549
+    {
+        Mail = 0,
+        ItemCache = 1,
+        SpItemCache = 2
     }
     public enum BitsetType // TypeDefIndex: 33649
     {

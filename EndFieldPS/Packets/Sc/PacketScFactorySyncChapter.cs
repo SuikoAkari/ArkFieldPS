@@ -21,14 +21,15 @@ namespace EndFieldPS.Packets.Sc
             {
                 ChapterId = chapterId,
                 
-                Tms=DateTime.UtcNow.Ticks,
+                Tms=DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                 
                 Nodes =
                 {
-                    
+
                 },
                 Blackboard = new()
                 {
+                    
                     Power = new()
                     {
                         PowerGen = 100,
@@ -63,7 +64,8 @@ namespace EndFieldPS.Packets.Sc
                 Scenes =
                 {
                     
-                }
+                },
+                
                 
             };
             foreach (var item in strIdNumTable.chapter_map_id.dic)

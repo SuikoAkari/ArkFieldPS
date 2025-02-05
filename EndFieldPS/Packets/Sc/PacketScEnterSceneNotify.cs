@@ -13,17 +13,17 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScEnterSceneNotify : Packet
     {
 
-        public PacketScEnterSceneNotify(Player client, int sceneNumId = 21, bool repatriate=false, PassThroughData data=null) {
+        public PacketScEnterSceneNotify(Player client, int sceneNumId = 21, Vector3f pos=null, PassThroughData data=null) {
 
 
             ScEnterSceneNotify proto = new ScEnterSceneNotify()
             {
-                Position = !repatriate ? client.position.ToProto() : client.safeZonePoint.ToProto(),
+                Position = pos==null ? client.position.ToProto() : pos.ToProto(),
                 PassThroughData= data,
                 SceneId = client.sceneManager.GetSceneGuid(sceneNumId),
                 RoleId = client.roleId,
                 SceneNumId = sceneNumId,
-
+                
             };
 
             SetData(ScMessageId.ScEnterSceneNotify, proto);

@@ -50,6 +50,25 @@ namespace EndFieldPS.Packets.Sc
                 {
                     sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());
                 });
+                if (session.curSceneNumId == 98)
+                {
+                    sceneInfo.Detail.NpcList.Add(new SceneNpc()
+                    {
+                        CommonInfo = new()
+                        {
+                            Hp=500,
+                            
+                            SceneNumId=98,
+                            Id=34034045,
+                            Templateid= "npc_0015_lifeng_spaceship_i001",
+                            Position=session.position.ToProto(),
+                            Rotation=session.rotation.ToProto(),
+                            Type= (int)EntityDataType.Npc,
+                            
+                        },
+                        
+                    });
+                }
                 session.sceneManager.LoadCurrentTeamEntities();
                 SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
             }

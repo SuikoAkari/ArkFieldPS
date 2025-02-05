@@ -29,17 +29,18 @@
                         continue;
 
                     var parameterInfo = method.GetParameters();
-
+                    var senderParameter = Expression.Parameter(typeof(Player));
                     var commandParameter = Expression.Parameter(typeof(string));
                     var argsParameter = Expression.Parameter(typeof(string[]));
                     var targetParameter = Expression.Parameter(typeof(Player));
 
-                    var call = Expression.Call(method,
-                        Expression.Convert(commandParameter, parameterInfo[0].ParameterType),
-                        Expression.Convert(argsParameter, parameterInfo[1].ParameterType),
-                        Expression.Convert(targetParameter, parameterInfo[2].ParameterType));
+                    var call = Expression.Call(method, 
+                        Expression.Convert(senderParameter, parameterInfo[0].ParameterType),
+                        Expression.Convert(commandParameter, parameterInfo[1].ParameterType),
+                        Expression.Convert(argsParameter, parameterInfo[2].ParameterType),
+                        Expression.Convert(targetParameter, parameterInfo[3].ParameterType));
 
-                    var lambda = Expression.Lambda<Server.CommandAttribute.HandlerDelegate>(call, commandParameter, argsParameter,targetParameter);
+                    var lambda = Expression.Lambda<Server.CommandAttribute.HandlerDelegate>(call,senderParameter, commandParameter, argsParameter,targetParameter);
 
                     if (!handlers.TryGetKey(attribute.command, out _))
                         handlers.Add(attribute.command, (attribute, lambda.Compile()));
@@ -49,7 +50,7 @@
             s_notifyReqGroup = handlers.ToImmutable();
         }
 
-        public static void Notify(string cmd, string[] args,Player target)
+        public static void Notify(Player sender,string cmd, string[] args,Player target)
         {
             if (s_notifyReqGroup.TryGetValue(cmd, out var handler))
             {
@@ -57,29 +58,44 @@
                 {
                     if (target != null)
                     {
-                        handler.Item2.Invoke(cmd, args, target);
+                        handler.Item2.Invoke(sender,cmd, args, target);
                     }
                     else
                     {
-                        Logger.PrintError("This command require a target player, set one with /target (uid)");
+                        SendMessage(sender,"This command require a target player, set one with /target (uid)");
                     }
                     
                 }
                 else
                 {
-                    handler.Item2.Invoke(cmd, args, target);
+                    handler.Item2.Invoke(sender, cmd, args, target);
                 }
                 
             }
             else
             {
-               Logger.Print($"Command not found");
+                SendMessage(sender, $"Command not found");
             }
         }
 
         public static void AddReqGroupHandler(Type type)
         {
             s_handlerTypes.Add(type);
+        }
+
+        
+        public static void SendMessage(Player sender, string msg)
+        {
+            if (sender == null)
+            {
+                Logger.Print(msg);
+            }
+            else
+            {
+                //For sending to player command prompt page made by Xannix
+                sender.temporanyChatMessages.Add(msg);
+                
+            }
         }
     }
 }

@@ -41,7 +41,8 @@ namespace EndFieldPS.Packets.Sc
                 Depot = 
                 { 
 
-                }
+                },
+                
 
             };
             

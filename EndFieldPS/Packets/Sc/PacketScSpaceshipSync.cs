@@ -16,6 +16,7 @@ namespace EndFieldPS.Packets.Sc
             //TODO de hardcode this and implement a SpaceshipManager
             ScSpaceshipSync proto = new ScSpaceshipSync()
             {
+                
                 Rooms =
                 {
                     new ScdSpaceshipRoom()
@@ -24,20 +25,44 @@ namespace EndFieldPS.Packets.Sc
                         Type=0,
                         ControlCenter = new()
                         {
-
+                            
                         },
                         Level=1,
+                        
                         StationedCharList =
                         {
                         }
-                    }
+                    },
+                    
                 },
                 Chars =
                 {
-
+                    /*new ScdSpaceshipChar()
+                    {
+                        CharId="",
+                        StationedRoomId="control_center",
+                        PhysicalStrength=10,
+                        IsPresented=true,
+                        Favorability=10,
+                        Skills =
+                        {
+                            new ScdSpaceshipCharSkill()
+                            {
+                                Index=0,
+                                SkillId="spaceship_skill_acc_charmaterial_produce2_1"
+                            },
+                            new ScdSpaceshipCharSkill()
+                            {
+                                Index=1,
+                                SkillId="spaceship_skill_acc_skillmaterial_produce2_1"
+                            }
+                            
+                        },
+                        
+                    }*/
                 }
             };
-
+            
             SetData(ScMessageId.ScSpaceshipSync, proto);
         }
 

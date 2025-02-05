@@ -19,36 +19,14 @@ namespace EndFieldPS.Packets.Cs
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsPing req = packet.DecodeBody<CsPing>();
+            long curtimestamp = DateTime.UtcNow.ToUnixTimestampMilliseconds();
+
             session.Send(Packet.EncodePacket((int)ScMessageId.ScPing, new ScPing()
             {
                 ClientTs = req.ClientTs,
-                ServerTs = (ulong)DateTime.UtcNow.Ticks,
+                ServerTs = (ulong)curtimestamp,
             }));
-
-            session.Send(Packet.EncodePacket((int)ScMessageId.ScFactoryHs, new ScFactoryHs()
-            {
-                Blackboard = new()
-                {
-                    Power = new()
-                    {
-                        PowerSaveCurrent=100,
-                        PowerSaveMax=200,
-                        PowerGenLastSec=2,
-                        PowerCostSum=1
-                    },
-                    
-                },
-                ChapterId="domain_02",
-                FbList =
-                {
-   
-                },
-                CtList =
-                {
-    
-                },
-                Tms= DateTime.UtcNow.Ticks,
-            }));
+            //Logger.Print("Server: " + curtimestamp + " client: " + req.ClientTs);
         }
        
     }
