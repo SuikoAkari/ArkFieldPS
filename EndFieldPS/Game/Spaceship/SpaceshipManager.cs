@@ -90,7 +90,7 @@ namespace EndFieldPS.Game.Spaceship
         [BsonId(IdGenerator = typeof(ObjectIdGenerator))]
         public ObjectId _id { get; set; }
         public string id="";
-        public int level;
+        public int level=1;
         public List<string> stationedCharList = new();
         public ulong owner;
         public SpaceshipRoom()
