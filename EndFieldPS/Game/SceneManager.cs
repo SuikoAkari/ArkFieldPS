@@ -6,6 +6,7 @@ using SharpCompress.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -81,7 +82,7 @@ namespace EndFieldPS.Game
             {
                 scene.entities.Add(entity);
                 //Spawn packet
-                player.Send(new PacketScObjectEnterView(player,entity));
+                player.Send(new PacketScObjectEnterView(player,new List<Entity>{ entity }));
             }
         }
         public void KillEntity(ulong guid)
@@ -124,7 +125,10 @@ namespace EndFieldPS.Game
         [BsonIgnore]
         public List<Entity> entities = new();
 
-
+        public List<Entity> GetEntityExcludingChar()
+        {
+            return entities.FindAll(c => c is not EntityCharacter);
+        }
         public void Unload()
         {
             entities.Clear();
@@ -132,12 +136,24 @@ namespace EndFieldPS.Game
 
         public void Load()
         {
+            if (sceneNumId == 98)
+            {
+                //Load spaceship manager chars
+                foreach (var chara in GetOwner().spaceshipManager.chars)
+                {
+                    EntityNpc npc = new EntityNpc(chara.GetNpcId(), chara.owner,chara.position,chara.rotation,chara.guid);
+                    entities.Add(npc);
+                }
+            }
             //Load actual scene entities (Missing full LevelData for that)
-        }
 
+            //Send all entities excluding chars that are spawned different
+            GetOwner().Send(new PacketScObjectEnterView(GetOwner(), GetEntityExcludingChar()));
+        }
+       
         public Player GetOwner()
         {
-            return Server.clients.Find(c => c.roleId == guid);
+            return Server.clients.Find(c => c.roleId == ownerId);
         }
     }
 }

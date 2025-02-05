@@ -24,6 +24,7 @@ using static EndFieldPS.Resource.ResourceManager;
 using EndFieldPS.Database;
 using EndFieldPS.Game;
 using EndFieldPS.Game.Gacha;
+using EndFieldPS.Game.Spaceship;
 
 
 namespace EndFieldPS
@@ -56,6 +57,7 @@ namespace EndFieldPS
         public int curSceneNumId;
         public List<Character> chars = new List<Character>();
         public InventoryManager inventoryManager;
+        public SpaceshipManager spaceshipManager;
         public SceneManager sceneManager;
         public GachaManager gachaManager;
         public int teamIndex = 0;
@@ -80,6 +82,7 @@ namespace EndFieldPS
             inventoryManager = new(this);
             sceneManager = new(this);
             gachaManager = new(this);
+            spaceshipManager = new(this);   
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
@@ -110,6 +113,7 @@ namespace EndFieldPS
                 LoadCharacters();
                 mails = DatabaseManager.db.LoadMails(roleId);
                 inventoryManager.Load();
+                spaceshipManager.Load();
             }
             else
             {
@@ -230,7 +234,16 @@ namespace EndFieldPS
             }
             else
             {
+                sceneManager.UnloadCurrent();
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
+                if (curSceneNumId == 98)
+                {
+                    Send(new PacketScSyncGameMode(this, "spaceship"));
+                }
+                else
+                {
+                    Send(new PacketScSyncGameMode(this, "default"));
+                }
             }
         }
         public void EnterScene(int sceneNumId)
@@ -241,8 +254,17 @@ namespace EndFieldPS
                 curSceneNumId = sceneNumId;
                 position = GetLevelData(sceneNumId).playerInitPos;
                 rotation = GetLevelData(sceneNumId).playerInitRot;
-                sceneManager.LoadCurrentTeamEntities();
+                
                 Send(new PacketScEnterSceneNotify(this, sceneNumId));
+                if (sceneNumId == 98)
+                {
+                    Send(new PacketScSyncGameMode(this, "spaceship"));
+                }
+                else
+                {
+                    
+                    Send(new PacketScSyncGameMode(this, "default"));
+                }
             }
             else
             {
@@ -263,13 +285,13 @@ namespace EndFieldPS
             }
             
         }
-        public void Send(Packet packet)
+        public void Send(Packet packet, ulong seq = 0)
         {
-            Send(Packet.EncodePacket(packet));
+            Send(Packet.EncodePacket(packet,seq));
         }
-        public void Send(ScMessageId id,IMessage mes)
+        public void Send(ScMessageId id,IMessage mes, ulong seq = 0)
         {
-            Send(Packet.EncodePacket((int)id, mes));
+            Send(Packet.EncodePacket((int)id, mes, seq));
         }
         public void Send(byte[] data)
         {
@@ -368,6 +390,7 @@ namespace EndFieldPS
             //Save playerdata
             DatabaseManager.db.SavePlayerData(this);
             inventoryManager.Save();
+            spaceshipManager.Save();
             SaveCharacters();
             SaveMails();
             

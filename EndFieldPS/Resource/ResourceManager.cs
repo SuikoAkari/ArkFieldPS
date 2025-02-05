@@ -54,6 +54,8 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, GachaCharPoolTypeTable> gachaCharPoolTypeTable = new();
         public static Dictionary<string, EnemyTable> enemyTable = new();
         public static Dictionary<string, EquipTable> equipTable = new();
+        public static Dictionary<string, SpaceShipCharBehaviourTable> spaceShipCharBehaviourTable = new();
+        public static Dictionary<string, SpaceshipRoomInsTable> spaceshipRoomInsTable = new();
         public static StrIdNumTable dialogIdTable = new();
 
         public static List<LevelData> levelDatas = new();
@@ -110,6 +112,8 @@ namespace EndFieldPS.Resource
             enemyTable = JsonConvert.DeserializeObject<Dictionary<string, EnemyTable>>(ReadJsonFile("TableCfg/EnemyTable.json"));
             gachaCharPoolTypeTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolTypeTable>>(ReadJsonFile("TableCfg/GachaCharPoolTypeTable.json"));
             equipTable = JsonConvert.DeserializeObject<Dictionary<string, EquipTable>>(ReadJsonFile("TableCfg/EquipTable.json"));
+            spaceShipCharBehaviourTable = JsonConvert.DeserializeObject<Dictionary<string, SpaceShipCharBehaviourTable>>(ReadJsonFile("TableCfg/SpaceShipCharBehaviourTable.json"));
+            spaceshipRoomInsTable = JsonConvert.DeserializeObject<Dictionary<string, SpaceshipRoomInsTable>>(ReadJsonFile("TableCfg/SpaceshipRoomInsTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
@@ -204,6 +208,16 @@ namespace EndFieldPS.Resource
         public class WikiGroup
         {
             public string groupId;
+        }
+        public class SpaceShipCharBehaviourTable
+        {
+            public string charId;
+            public string npcId;
+        }
+        public class SpaceshipRoomInsTable
+        {
+            public string id;
+            public int roomType;
         }
         public class GameSystemConfigTable
         {

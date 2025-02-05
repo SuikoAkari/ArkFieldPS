@@ -27,7 +27,36 @@ namespace EndFieldPS.Packets.Cs
             CsSceneLoadFinish req = packet.DecodeBody<CsSceneLoadFinish>();
 
             session.Send(new PacketScSelfSceneInfo(session, true));
-           
+            session.sceneManager.LoadCurrentTeamEntities();
+            session.sceneManager.LoadCurrent();
+           /* if (session.curSceneNumId == 98)
+            {
+                ScObjectEnterView enterView = new()
+                {
+                    Detail = new()
+                    {
+
+                    }
+                };
+                enterView.Detail.NpcList.Add(new SceneNpc()
+                {
+                    CommonInfo = new()
+                    {
+                        Hp=500,
+
+                        SceneNumId=98,
+                        Id=34034045,
+                        Templateid= "npc_0004_pelica_spaceship_i001",
+                        Position=session.position.ToProto(),
+                        Rotation=session.rotation.ToProto(),
+                        Type= (int)0,
+
+                    },
+
+                });
+                session.Send(ScMessageId.ScObjectEnterView, enterView);
+            }*/
+
         }
     }
 }

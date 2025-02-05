@@ -2,6 +2,7 @@
 using EndFieldPS.Game.Character;
 using EndFieldPS.Game.Gacha;
 using EndFieldPS.Game.Inventory;
+using EndFieldPS.Game.Spaceship;
 using EndFieldPS.Resource;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
@@ -74,6 +75,15 @@ namespace EndFieldPS.Database
         {
             return _database.GetCollection<Character>("avatars").Find(c=>c.owner== roleId).ToList();
         }
+        public List<SpaceshipChar> LoadSpaceshipChars(ulong roleId)
+        {
+            return _database.GetCollection<SpaceshipChar>("spaceship_chars").Find(c => c.owner == roleId).ToList();
+        }
+        public List<SpaceshipRoom> LoadSpaceshipRooms(ulong roleId)
+        {
+            return _database.GetCollection<SpaceshipRoom>("spaceship_rooms").Find(c => c.owner == roleId).ToList();
+        }
+        
         public List<Item> LoadInventoryItems(ulong roleId)
         {
             return _database.GetCollection<Item>("items").Find(c => c.owner == roleId).ToList();
@@ -173,6 +183,44 @@ namespace EndFieldPS.Database
            collection.ReplaceOne(
                 filter,
                 player,
+                new ReplaceOptions { IsUpsert = true }
+            );
+        }
+        public void UpsertSpaceshipChar(SpaceshipChar character)
+        {
+            if (character._id == ObjectId.Empty)
+            {
+                character._id = ObjectId.GenerateNewId();
+            }
+            var collection = _database.GetCollection<SpaceshipChar>("spaceship_chars");
+
+            var filter =
+                Builders<SpaceshipChar>.Filter.Eq(c => c.id, character.id)
+                &
+                Builders<SpaceshipChar>.Filter.Eq(c => c.owner, character.owner);
+
+            var result = collection.ReplaceOne(
+                filter,
+                character,
+                new ReplaceOptions { IsUpsert = true }
+            );
+        }
+        public void UpsertSpaceshipRoom(SpaceshipRoom room)
+        {
+            if (room._id == ObjectId.Empty)
+            {
+                room._id = ObjectId.GenerateNewId();
+            }
+            var collection = _database.GetCollection<SpaceshipRoom>("spaceship_rooms");
+
+            var filter =
+                Builders<SpaceshipRoom>.Filter.Eq(c => c.id, room.id)
+                &
+                Builders<SpaceshipRoom>.Filter.Eq(c => c.owner, room.owner);
+
+            var result = collection.ReplaceOne(
+                filter,
+                room,
                 new ReplaceOptions { IsUpsert = true }
             );
         }
