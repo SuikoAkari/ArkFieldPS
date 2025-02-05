@@ -22,8 +22,6 @@ namespace EndFieldPS.Game.Spaceship
         public float physicalStrength;
         public int favorability;
         public bool isWorking;
-        public Vector3f position;
-        public Vector3f rotation;
         public SpaceshipChar()
         {
 
