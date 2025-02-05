@@ -31,8 +31,7 @@ namespace EndFieldPS.Game.Spaceship
             this.owner = owner;
             this.id = id;
             this.guid = (ulong)new Random().NextInt64();
-            position = GetLevelData(98).playerInitPos;
-            rotation = GetLevelData(98).playerInitRot;
+
         }
         public string GetNpcId()
         {
