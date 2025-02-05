@@ -13,8 +13,8 @@ namespace EndFieldPS.Game.Character
             if (args.Length < 1)
             {
                 CommandManager.SendMessage(sender, @"Use: 
-/level <char_id/item_id> <level> - Update specific character/item level
-/level <level>                   - Update all characters and items to level");
+/level (char_id/item_id) (level) - Update specific character/item level
+/level (level)                   - Update all characters and items to level");
                 return;
             }
 
