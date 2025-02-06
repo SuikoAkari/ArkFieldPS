@@ -88,9 +88,13 @@ EndFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本�
 
 ## 补充信息  
 
-您可以在[这里](./CommandList/commands_zh-CN.md)找到所有服务端指令的详细说明。<br>  
-所有场景的列表[在此](./LevelsTable.md)。<br>  
-所有敌人的列表[在此](./EnemiesTable.md)。<br>  
+您可以在[这里](./CommandList/commands_zh-CN.md)找到所有服务端指令的详细说明。
+
+所有场景的列表[在此](./LevelsTable.md)。  
+
+所有敌人的列表[在此](./EnemiesTable.md)。
+
+如果你想使用游戏内控制台，请前往 `设置 → 平台与账号 → 账号设置（"点击前往"）`。要查看可用命令，请输入 `help`。  
 
 ## Discord  
 
