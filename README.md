@@ -25,7 +25,7 @@ EndFieldPS is a private server for EndField CBT2.
 2. Download the [precompiled build](https://github.com/SuikoAkari/EndFieldPS/releases/latest) or build it by yourself
 3. Put the `Json` and `TableCfg` folders inside the `EndFieldPS.exe` folder (you can download a copy [here](https://github.com/PotRooms/EndFieldData/tree/main))
 4. Run the server (`EndFieldPS.exe`)
-5. Overwrite the `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` script (or backup the default one and create a new file with the same name) with the following script:
+5. Overwrite the `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` script (or backup the default one and create a new file with the same name) with the following script (credits [root-mega](https://github.com/root-mega/):
     * You can also run *Fiddler Classic*, go to `Rules -> Customize Rules` (CTRL + R) and save it, or by selecting the *FiddlerScript* tab
 
     ```javascript
