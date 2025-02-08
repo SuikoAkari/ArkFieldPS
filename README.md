@@ -13,7 +13,7 @@ EndFieldPS is a private server for EndField CBT2.
 * Scene switch (works for some scene for now)
 * Save data with MongoDB
 
-## Installation Steps
+## Installation Steps (Windows)
 
 1. Install:
    * [.NET SDK](https://dotnet.microsoft.com/en-us/download) (8.0.12 is recommended)
@@ -86,6 +86,13 @@ EndFieldPS is a private server for EndField CBT2.
 6. Run *Fiddler Classic* - it should start with the new *Custom Rules script* (you can check it in the *FiddlerScript* tab)
 7. Run the Game Client and start to play! (Note: Only OS client is supported for now)
 8. You must create an account using `account create (username)` in the server console, then login in the game with an email like `(username)@randomemailformathere.whatyouwant`. There is no password so you can input a random password for its field.
+
+## Installation on Linux
+
+You can read the manual on different Linux distros here:
+|Linux distros     |Link  |
+|:-----------------|:-----|
+|Debian            |[Link](docs/RunOnLinuxServer.md)|
 
 ## Additional Information
 

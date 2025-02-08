@@ -14,10 +14,15 @@
 |remove         |Удаляет персонажа               |\<id>                         |Да                |remove \<id>                      |remove chr_0007_ikut    |
 |level          |Устанавливает предмету или персонажу уровень|[id персонажа\|оружия] \<уровень>|Да                |level [id персонажа\|оружия] \<уровень>|level wpn_funnel_0010 80|
 |charinfo       |Выдаёт информацию о персонаже   |\<id>                         |Да                |charinfo \<id>                    |charinfo chr_0007_ikut  |
+|nickname       |Изменяет никнейм в игре         |\<никнейм>                    |Да                |nickname \<никнейм>               |nickname blob           |
 |account        |Создаёт аккаунт в базе данных   |\<create\|reset> \<никнейм>   |Нет               |account <create\|reset> \<никнейм>|account create test     |
 |players        |Показывает список всех игроков  |Отсутствуют                   |Нет               |players                           |players                 |
 |clear          |Очищает консоль                 |Отсутствуют                   |Нет               |clear                             |clear                   |
 |unlockall      |Разблокирует все разрешения     |Отсутствуют                   |Да                |unlockall                         |unlockall               |
+|idlist         |Показывает id                   |\<chars\|enemies\|scenes>     |Нет               |idlist \<chars\|enemies\|scenes>  |idlist chars            |
 
-## Примечания
-Команда `level`: если не прописать конкретный `id`, то уровень будет изменён *всем* оружиям и персонажам.
+> [!WARNING]
+> Команда `level`: если не прописать конкретный `id`, то уровень будет изменён *всем* оружиям и персонажам.
+
+> [!NOTE]
+> Команда `nickname`: команда поддерживает кириллицу.
