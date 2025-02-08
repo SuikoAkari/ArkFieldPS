@@ -60,8 +60,9 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
   },
   "gameServer": {
     "bindAddress": "0.0.0.0",
-    "accessAddress": "your server IP",
-    "bindPort": 30000
+    "bindPort": 30000,
+    "accessAddress": "your server address",
+    "accessPort": 30000
   },
   "serverOptions": {
     "defaultSceneNumId": 98,
