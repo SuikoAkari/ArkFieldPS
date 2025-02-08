@@ -23,7 +23,7 @@ namespace EndFieldPS.Commands.Handlers
 
             for (int i=0; i < args.Length; i++) 
             {
-                args[i] = Uri.UnescapeDataString(args[i]);
+                args[i] = Uri.UnescapeDataString(args[i]).Replace(".", ",");
             }
 
             float x, y, z;
