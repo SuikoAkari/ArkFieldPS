@@ -56,6 +56,7 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, EquipTable> equipTable = new();
         public static Dictionary<string, SpaceShipCharBehaviourTable> spaceShipCharBehaviourTable = new();
         public static Dictionary<string, SpaceshipRoomInsTable> spaceshipRoomInsTable = new();
+        public static Dictionary<string, DungeonTable> dungeonTable = new();
         public static StrIdNumTable dialogIdTable = new();
 
         public static List<LevelData> levelDatas = new();
@@ -114,6 +115,7 @@ namespace EndFieldPS.Resource
             equipTable = JsonConvert.DeserializeObject<Dictionary<string, EquipTable>>(ReadJsonFile("TableCfg/EquipTable.json"));
             spaceShipCharBehaviourTable = JsonConvert.DeserializeObject<Dictionary<string, SpaceShipCharBehaviourTable>>(ReadJsonFile("TableCfg/SpaceShipCharBehaviourTable.json"));
             spaceshipRoomInsTable = JsonConvert.DeserializeObject<Dictionary<string, SpaceshipRoomInsTable>>(ReadJsonFile("TableCfg/SpaceshipRoomInsTable.json"));
+            dungeonTable = JsonConvert.DeserializeObject<Dictionary<string, DungeonTable>>(ReadJsonFile("TableCfg/DungeonTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
@@ -163,7 +165,12 @@ namespace EndFieldPS.Resource
             return strIdNumTable.item_id.dic[item_id];
         }
 
+        public class DungeonTable
+        {
+            public string dungeonId;
+            public string sceneId;
 
+        }
         public class BlocMissionTable
         {
             public string missionId;

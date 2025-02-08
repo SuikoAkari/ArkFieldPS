@@ -52,7 +52,8 @@ namespace EndFieldPS
     {
         public string bindAddress = "127.0.0.1";
         public int bindPort = 30000;
-
+        public string accessAddress = "127.0.0.1";
+        public int accessPort = 30000;
         public GameserverSettings()
         {
         }

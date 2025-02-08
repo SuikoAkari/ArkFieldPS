@@ -240,7 +240,10 @@ namespace EndFieldPS.Packets.Cs
                 }
 
             }
-            
+            ScSyncRacingDungeonPassedLevel l = new()
+            {
+
+            }; 
             session.Send(ScMessageId.ScSyncAllDialog, dialogues);
             session.Send(new PacketScSpaceshipSync(session));
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
