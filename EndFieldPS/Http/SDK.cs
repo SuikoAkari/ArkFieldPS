@@ -214,7 +214,7 @@ namespace EndFieldPS.Http
             string resp = "";
             if (data != null)
             {
-                resp = File.ReadAllText("Data/GachaHistory/index.html").Replace("%dispatchip%", $"http://{Server.config.dispatchServer.bindAddress}:{Server.config.dispatchServer.bindPort}");
+                resp = File.ReadAllText("Data/GachaHistory/index.html").Replace("%dispatchip%", $"http://{Server.config.dispatchServer.accessAddress}:{Server.config.dispatchServer.accessPort}");
             }
             else
             {
