@@ -51,6 +51,7 @@ namespace EndFieldPS
     public struct GameserverSettings
     {
         public string bindAddress = "127.0.0.1";
+        public string publicAddress = "127.0.0.1";
         public int bindPort = 30000;
 
         public GameserverSettings()
