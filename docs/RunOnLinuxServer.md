@@ -46,7 +46,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 > If you want to run endfieldps on a public server, please follow the steps.
 
 
-  Use vim or nano open `server_config.json` and change `dispatchServer.bindAddress` and `gameServer.bindAddress` to `"0.0.0.0"` like this.
+  Use vim or nano open `server_config.json` and change `dispatchServer.bindAddress` and `gameServer.bindAddress` to `"0.0.0.0"`, `gameServer.accessAddress` to your server ip.
 ```json
 {
   "mongoDatabase": {
@@ -60,6 +60,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
   },
   "gameServer": {
     "bindAddress": "0.0.0.0",
+    "accessAddress": "your server IP",
     "bindPort": 30000
   },
   "serverOptions": {
