@@ -61,6 +61,7 @@ namespace EndFieldPS
     public struct DispatchServerSettings
     {
         public string bindAddress = "127.0.0.1";
+        public string accessAddress = "127.0.0.1";
         public int bindPort = 5000;
         public string emailFormat = "@endfield.ps";
         public DispatchServerSettings()
