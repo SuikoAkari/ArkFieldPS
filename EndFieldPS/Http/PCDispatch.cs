@@ -17,7 +17,7 @@ namespace EndFieldPS.Http
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/pcSdk/userInfo")]
         public static async Task Info(HttpContext ctx)
         {
-            string resp = File.ReadAllText("Data/PlayerConsole/index.html").Replace("%dispatchip%", $"http://{Server.config.dispatchServer.bindAddress}:{Server.config.dispatchServer.bindPort}");
+            string resp = File.ReadAllText("Data/PlayerConsole/index.html").Replace("%dispatchip%", $"http://{Server.config.dispatchServer.accessAddress}:{Server.config.dispatchServer.accessPort}");
 
             ctx.Response.StatusCode = 200;
             ctx.Response.ContentType = "text/html";
