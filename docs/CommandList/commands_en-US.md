@@ -15,7 +15,12 @@ Note: <> - required arguments; [] - optional arguments;
 |remove         |Removes character                    |\<id>                       |Yes              |remove \<id>                        |remove chr_0007_ikut    |
 |level          |Sets the item or character level     |[char\|weapon id] \<lvl>    |Yes              |level [char\|weapon id] \<lvl>      |level wpn_funnel_0010 80|
 |charinfo       |Character information                |\<id>                       |Yes              |charinfo \<id>                      |charinfo chr_0007_ikut  |
+|nickname       |Changes in-game nickname             |\<nickname>                 |Yes              |nickname \<nickname>                |nickname blob           |
 |account        |Creates an account in the database   |\<create\|reset> \<nickname>|No               |account \<create\|reset> \<nickname>|account create test     |
 |players        |Shows a list of all players          |None                        |No               |players                             |players                 |
 |clear          |Clears console                       |None                        |No               |clear                               |clear                   |
 |unlockall      |Unlocks all permissions              |None                        |Yes              |unlockall                           |unlockall               |
+|idlist         |Shows ids                            |\<chars\|enemies\|scenes>   |No               |idlist \<chars\|enemies\|scenes>    |idlist chars            |
+
+> [!WARNING]
+> `level` command: if no specific `id` is specified, the level will be changed for *all* weapons and characters.
