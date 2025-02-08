@@ -154,7 +154,7 @@ namespace EndFieldPS.Http
         {
             string requestBody = ctx.Request.DataAsString;
             Console.WriteLine(requestBody);
-            string resp = "{\"addr\": \"" + Server.config.gameServer.bindAddress + "\", \"port\": " + Server.config.gameServer.bindPort + "}";
+            string resp = "{\"addr\": \"" + Server.config.gameServer.publicAddress + "\", \"port\": " + Server.config.gameServer.bindPort + "}";
 
 
 
