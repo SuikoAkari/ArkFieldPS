@@ -25,6 +25,7 @@ using EndFieldPS.Database;
 using EndFieldPS.Game;
 using EndFieldPS.Game.Gacha;
 using EndFieldPS.Game.Spaceship;
+using EndFieldPS.Game.Dungeons;
 
 
 namespace EndFieldPS
@@ -67,6 +68,7 @@ namespace EndFieldPS
         public long maxDashEnergy = 250;
         public uint curStamina = 10;
         public long nextRecoverTime = 0;
+        public Dungeon currentDungeon;
         public uint maxStamina {
             get{
                 return (uint)200;
@@ -225,6 +227,8 @@ namespace EndFieldPS
             unlockedSystems.Add((int)UnlockSystemType.FacBUS);
             unlockedSystems.Add((int)UnlockSystemType.PRTS);
             unlockedSystems.Add((int)UnlockSystemType.Dungeon);
+            unlockedSystems.Add((int)UnlockSystemType.RacingDungeon);
+           
         }
         public void EnterScene()
         {
@@ -427,6 +431,31 @@ namespace EndFieldPS
             {
                 DatabaseManager.db.UpsertCharacter(c);
             }
+        }
+
+        public void EnterDungeon(string dungeonId, EnterRacingDungeonParam racingParam)
+        {
+            Dungeon dungeon = new()
+            {
+                player = this,
+                prevPlayerPos = position,
+                prevPlayerRot = rotation,
+                prevPlayerSceneNumId = curSceneNumId,
+                table = ResourceManager.dungeonTable[dungeonId],
+            };
+            this.currentDungeon = dungeon;
+            ScEnterDungeon enter = new()
+            {
+                DungeonId = dungeonId,
+                SceneId = dungeon.table.sceneId,
+                
+            };
+           
+            Send(new PacketScSyncAllUnlock(this));
+            
+            EnterScene(GetSceneNumIdFromLevelData(dungeon.table.sceneId));
+            Send(ScMessageId.ScEnterDungeon, enter);
+
         }
     }
 }
