@@ -183,6 +183,7 @@ namespace EndFieldPS
             });
 
             UnlockImportantSystems();
+            spaceshipManager.Load();
         }
         public void UnlockImportantSystems()
         {
@@ -240,14 +241,6 @@ namespace EndFieldPS
             {
                 sceneManager.UnloadCurrent();
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
-                if (curSceneNumId == 98)
-                {
-                    Send(new PacketScSyncGameMode(this, "spaceship"));
-                }
-                else
-                {
-                    Send(new PacketScSyncGameMode(this, "default"));
-                }
             }
         }
         public void EnterScene(int sceneNumId)
@@ -260,15 +253,7 @@ namespace EndFieldPS
                 rotation = GetLevelData(sceneNumId).playerInitRot;
                 
                 Send(new PacketScEnterSceneNotify(this, sceneNumId));
-                if (sceneNumId == 98)
-                {
-                    Send(new PacketScSyncGameMode(this, "spaceship"));
-                }
-                else
-                {
-                    
-                    Send(new PacketScSyncGameMode(this, "default"));
-                }
+                
             }
             else
             {
