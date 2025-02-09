@@ -103,9 +103,9 @@ Use `paru` or `yay` to get AUR packages.
 paru -S dotnet-runtime-8.0 mongodb-bin
 ```
 
-We need `git` and `wget` to get PS files, get them with `pacman`
+We need `git`, `zip` and `wget` to get PS files, get them with `pacman`
 ```bash
-sudo pacman -S git wget
+sudo pacman -S git zip wget
 ```
 
 ### Install EndFieldPS
