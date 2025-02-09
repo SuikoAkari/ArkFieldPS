@@ -229,7 +229,7 @@ namespace EndFieldPS
             unlockedSystems.Add((int)UnlockSystemType.PRTS);
             unlockedSystems.Add((int)UnlockSystemType.Dungeon);
             unlockedSystems.Add((int)UnlockSystemType.RacingDungeon);
-           
+            unlockedSystems.Add((int)UnlockSystemType.CheckIn);
         }
         public void EnterScene()
         {

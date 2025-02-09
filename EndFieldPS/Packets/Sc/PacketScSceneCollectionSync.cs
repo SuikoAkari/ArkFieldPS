@@ -22,7 +22,7 @@ namespace EndFieldPS.Packets.Sc
                 {
 
                 },
-
+                
             };
 
             foreach (var item in ResourceManager.levelDatas)
@@ -33,7 +33,8 @@ namespace EndFieldPS.Packets.Sc
                     {
                         Count = 1,
                         PrefabId = item1.Value.prefabId,
-                        SceneName = item.id
+                        SceneName = item.id,
+                        
                     });
                 }
 

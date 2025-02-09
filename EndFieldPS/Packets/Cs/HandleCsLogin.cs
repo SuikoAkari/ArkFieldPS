@@ -181,6 +181,7 @@ namespace EndFieldPS.Packets.Cs
             session.Send(new PacketScSyncAllDialog(session));
             session.Send(new PacketScSpaceshipSync(session));
             session.Send(new PacketScSyncFullDungeonStatus(session));
+            session.Send(new PacketScActivitySync(session));
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene();
             session.Initialized = true;

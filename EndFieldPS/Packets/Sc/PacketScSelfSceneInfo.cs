@@ -29,7 +29,7 @@ namespace EndFieldPS.Packets.Sc
 
                 },
                 SceneGrade = 4,
-                    
+                
                 Detail = new()
                 {
                     TeamIndex = session.teamIndex,
@@ -42,6 +42,13 @@ namespace EndFieldPS.Packets.Sc
                 sceneInfo.Dungeon = new()
                 {
                     DungeonId = session.currentDungeon.table.dungeonId,
+                };
+            }
+            else
+            {
+                sceneInfo.Empty = new()
+                {
+                    
                 };
             }
             foreach (var item in ResourceManager.sceneAreaTable)
