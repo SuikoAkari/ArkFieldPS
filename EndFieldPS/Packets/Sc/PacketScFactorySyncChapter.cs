@@ -91,13 +91,10 @@ namespace EndFieldPS.Packets.Sc
                     {
                         Current = 100,
                         Max = 200,
-                        TravelPoleCurrent = 1,
                         TravelPoleMax = 10,
                         
                         BattleCurrent = 0,
                         BattleMax = 6,
-                        SpCurrent = 100,
-                        SpMax = 200
                     },
                     Settlements =
                     {
@@ -124,22 +121,40 @@ namespace EndFieldPS.Packets.Sc
                         }
                     }
                 };
-                foreach (var item in domainDataTable[chapterId].settlementGroup)
+                if (GetSceneNumIdFromLevelData(levelGroup) == 2)
                 {
-                    scene.Settlements.Add(item, new ScdFactorySyncSceneBandwidth()
+                    scene.Settlements.Add("stm_tundra_1", new ScdFactorySyncSceneBandwidth()
                     {
-                        Current = 100,
-                        Max = 200,
-                        TravelPoleCurrent = 1,
-                        TravelPoleMax = 10,
-                        BattleCurrent = 0,
-                        BattleMax = 200,
-                        SpCurrent = 100,
-                        SpMax = 200,
-                        
+                        Current = 9,
+                        Max = 19,
+                        TravelPoleCurrent = 0,
+                        TravelPoleMax = 5,
+                        BattleCurrent = 3,
+                        BattleMax = 5,
+
                     });
-                    
                 }
+                else
+                {
+                    foreach (var item in domainDataTable[chapterId].settlementGroup)
+                    {
+
+                        scene.Settlements.Add(item, new ScdFactorySyncSceneBandwidth()
+                        {
+                            Current = 100,
+                            Max = 200,
+                            TravelPoleCurrent = 1,
+                            TravelPoleMax = 10,
+                            BattleCurrent = 0,
+                            BattleMax = 200,
+                            SpCurrent = 100,
+                            SpMax = 200,
+
+                        });
+
+                    }
+                }
+                
                 chapter.Scenes.Add(scene);
 
 

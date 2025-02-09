@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static EndFieldPS.Resource.ResourceManager;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EndFieldPS.Resource
 {
@@ -133,6 +134,94 @@ namespace EndFieldPS.Resource
         public static LevelData GetLevelData(int sceneNumId)
         {
            return levelDatas.Find(e => e.idNum == sceneNumId);
+        }
+        public static List<string> CalculateChapterIdsBitset()
+        {
+            string bitset = "";
+            int maxValue = strIdNumTable.area_id.dic.Values.Max();
+            int chunkSize = 64;
+            for (int i = 0; i <= maxValue; i++)
+            {
+                if (strIdNumTable.area_id.dic.Values.ToList().Contains(i))
+                {
+                    bitset += "1";
+                }
+                else
+                {
+                    bitset += "0";
+                }
+            }
+            List<string> chunks = new List<string>();
+
+            for (int i = 0; i < bitset.Length; i += chunkSize)
+            {
+                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
+            }
+
+            return chunks;
+        }
+        public static List<string> CalculateDocsIdsBitset()
+        {
+            string bitset = "";
+            int maxValue = strIdNumTable.char_doc_id.dic.Values.Max();
+            int chunkSize = 64;
+            for (int i = 0; i <= maxValue; i++)
+            {
+                if (strIdNumTable.char_doc_id.dic.Values.ToList().Contains(i))
+                {
+                    bitset += "1";
+                }
+                else
+                {
+                    bitset += "0";
+                }
+            }
+            List<string> chunks = new List<string>();
+
+            for (int i = 0; i < bitset.Length; i += chunkSize)
+            {
+                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
+            }
+
+            return chunks;
+        }
+        public static List<string> CalculateVoiceIdsBitset()
+        {
+            string bitset = "";
+            int maxValue = strIdNumTable.char_voice_id.dic.Values.Max();
+            int chunkSize = 64;
+            for (int i = 0; i <= maxValue; i++)
+            {
+                if (strIdNumTable.char_voice_id.dic.Values.ToList().Contains(i))
+                {
+                    bitset += "1";
+                }
+                else
+                {
+                    bitset += "0";
+                }
+            }
+            List<string> chunks = new List<string>();
+
+            for (int i = 0; i < bitset.Length; i += chunkSize)
+            {
+                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
+            }
+
+            return chunks;
+        }
+        public static List<ulong> ToBitsetValue(List<string> binaryString)
+        {
+            //string binaryString = "1101"; // Numero binario
+            List<ulong> bits = new List<ulong>();
+
+            foreach (string bitset in binaryString)
+            {
+                ulong decimalValue = (ulong)Convert.ToUInt64(bitset, 2); // Converti in decimale
+                bits.Add(decimalValue);
+            }
+            
+            return bits;
         }
         public static LevelData GetLevelData(string sceneId)
         {
@@ -283,6 +372,8 @@ namespace EndFieldPS.Resource
             public StrIdDic chapter_map_id;
             public StrIdDic char_voice_id;
             public StrIdDic char_doc_id;
+            public StrIdDic area_id;
+            public StrIdDic map_mark_temp_id;
         }
         public class GachaCharPoolTable
         {

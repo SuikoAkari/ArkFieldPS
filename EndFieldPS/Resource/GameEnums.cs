@@ -327,6 +327,7 @@ namespace EndFieldPS.Resource
         FactroyPlacedBuilding = 51,
         EnumMax = 52
     }
+    
     public enum UnlockSystemType // TypeDefIndex: 33602
     {
         Map = 0,
