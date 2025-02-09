@@ -92,7 +92,8 @@ EndFieldPS is a private server for EndField CBT2.
 You can read the manual on different Linux distros here:
 |Linux distros     |Link  |
 |:-----------------|:-----|
-|Debian            |[Link](docs/RunOnLinuxServer.md)|
+|Debian            |[Link](docs/RunOnLinuxServer.md#Debian-12)|
+|ArchLinux         |[Link](docs/RunOnLinuxServer.md#ArchLinux)|
 
 ## Additional Information
 
