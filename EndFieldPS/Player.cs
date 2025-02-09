@@ -243,6 +243,23 @@ namespace EndFieldPS
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
             }
         }
+        public void EnterScene(int sceneNumId, Vector3f pos, Vector3f rot)
+        {
+            if (GetLevelData(sceneNumId) != null)
+            {
+                sceneManager.UnloadCurrent();
+                curSceneNumId = sceneNumId;
+                position = pos;
+                rotation = rot;
+
+                Send(new PacketScEnterSceneNotify(this, sceneNumId));
+
+            }
+            else
+            {
+                Logger.PrintError($"Scene {sceneNumId} not found");
+            }
+        }
         public void EnterScene(int sceneNumId)
         {
             if(GetLevelData(sceneNumId) != null)
@@ -441,6 +458,18 @@ namespace EndFieldPS
             EnterScene(GetSceneNumIdFromLevelData(dungeon.table.sceneId));
             Send(ScMessageId.ScEnterDungeon, enter);
 
+        }
+
+        public void LeaveDungeon(CsLeaveDungeon req)
+        {
+            ScLeaveDungeon rsp = new()
+            {
+                DungeonId = req.DungeonId,
+            };
+            Send(ScMessageId.ScLeaveDungeon, rsp);
+            Dungeon dungeon = currentDungeon;
+            currentDungeon = null;
+            EnterScene(dungeon.prevPlayerSceneNumId, dungeon.prevPlayerPos, dungeon.prevPlayerRot);
         }
     }
 }

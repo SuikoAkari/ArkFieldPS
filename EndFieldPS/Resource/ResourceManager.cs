@@ -185,6 +185,31 @@ namespace EndFieldPS.Resource
 
             return chunks;
         }
+        public static List<string> CalculateBitsets(List<int> ids)
+        {
+            string bitset = "";
+            int maxValue = ids.Max();
+            int chunkSize = 64;
+            for (int i = 0; i <= maxValue; i++)
+            {
+                if (ids.Contains(i))
+                {
+                    bitset += "1";
+                }
+                else
+                {
+                    bitset += "0";
+                }
+            }
+            List<string> chunks = new List<string>();
+
+            for (int i = 0; i < bitset.Length; i += chunkSize)
+            {
+                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
+            }
+
+            return chunks;
+        }
         public static List<string> CalculateVoiceIdsBitset()
         {
             string bitset = "";
@@ -210,7 +235,7 @@ namespace EndFieldPS.Resource
 
             return chunks;
         }
-        public static List<ulong> ToBitsetValue(List<string> binaryString)
+        public static List<ulong> ToLongBitsetValue(List<string> binaryString)
         {
             //string binaryString = "1101"; // Numero binario
             List<ulong> bits = new List<ulong>();

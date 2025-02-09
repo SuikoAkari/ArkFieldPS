@@ -13,47 +13,50 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScSelfSceneInfo : Packet
     {
 
-        public PacketScSelfSceneInfo(Player session, bool isTeamSpawn=false, SelfInfoReasonType infoReason = SelfInfoReasonType.SlrEnterScene) {
-            if (isTeamSpawn)
+        public PacketScSelfSceneInfo(Player session, SelfInfoReasonType infoReason = SelfInfoReasonType.SlrEnterScene) {
+
+            ScSelfSceneInfo sceneInfo = new()
             {
-                ScSelfSceneInfo sceneInfo = new()
+                SceneId = session.sceneManager.GetSceneGuid(session.curSceneNumId),
+                SceneNumId = session.curSceneNumId,
+                SelfInfoReason = (int)infoReason,
+                    
+                TeamInfo = new()
                 {
-                    SceneId = session.sceneManager.GetSceneGuid(session.curSceneNumId),
-                    SceneNumId = session.curSceneNumId,
-                    SelfInfoReason = (int)infoReason,
+                    CurLeaderId = session.teams[session.teamIndex].leader,
+                    TeamIndex = session.teamIndex,
+                    TeamType = CharBagTeamType.Main
+
+                },
+                SceneGrade = 4,
                     
-                    TeamInfo = new()
-                    {
-                        CurLeaderId = session.teams[session.teamIndex].leader,
-                        TeamIndex = session.teamIndex,
-                        TeamType = CharBagTeamType.Main
+                Detail = new()
+                {
+                    TeamIndex = session.teamIndex,
 
-                    },
-                    SceneGrade = 1,
-                    
-                    Detail = new()
-                    {
-                        TeamIndex = session.teamIndex,
-
-                        CharList =
-                        {
-
-                        },
                         
-                    }
-                };
-                foreach (var item in ResourceManager.sceneAreaTable)
-                {
-                    sceneInfo.UnlockArea.Add(item.Value.areaId);
                 }
-                session.teams[session.teamIndex].members.ForEach(m =>
+            };
+            if (session.currentDungeon != null)
+            {
+                sceneInfo.Dungeon = new()
                 {
-                    sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());
-                });
+                    DungeonId = session.currentDungeon.table.dungeonId,
+                };
+            }
+            foreach (var item in ResourceManager.sceneAreaTable)
+            {
+                if(session.curSceneNumId==ResourceManager.GetSceneNumIdFromLevelData(item.Value.sceneId))
+                    sceneInfo.UnlockArea.Add(item.Value.areaId);
+            }
+            session.teams[session.teamIndex].members.ForEach(m =>
+            {
+                sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());
+            });
                
                 
-                SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
-            }
+            SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
+            
            
         }
 

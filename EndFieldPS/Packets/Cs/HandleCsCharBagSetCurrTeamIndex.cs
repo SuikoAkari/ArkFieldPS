@@ -19,6 +19,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace EndFieldPS.Packets.Cs
 {
+    
     public class HandleCsCharBagSetCurrTeamIndex
     {
         [Server.Handler(CsMessageId.CsCharBagSetCurrTeamIndex)]
@@ -29,7 +30,7 @@ namespace EndFieldPS.Packets.Cs
             session.teams[session.teamIndex].leader = req.LeaderId;
             
             session.Send(new PacketScCharBagSetCurrTeamIndex(session));
-            session.Send(new PacketScSelfSceneInfo(session, true));
+            session.Send(new PacketScSelfSceneInfo(session,SelfInfoReasonType.SlrChangeTeam));
         }
     }
 }
