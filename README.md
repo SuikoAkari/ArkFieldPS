@@ -99,6 +99,8 @@ You can read the manual on different Linux distros here:
 You can find the description of all server commands [here](docs/CommandList/commands_en-US.md).<br>
 The list of all scenes is [here](docs/LevelsTable.md).<br>
 The list of all enemies is [here](docs/EnemiesTable.md).<br>
+The list of all characters is [here](docs/CharactersTable.md).<br>
+
 If you want to open the in-game console, go to `Settings -> Platform & Account -> Account Settings (Access Account button)`. To view avaiable commands, type `help`.
 
 ## Discord
