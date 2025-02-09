@@ -175,8 +175,10 @@ namespace EndFieldPS.Game.Gacha
                     RewardItemId= !exist ? transaction.itemId : "item_charpotentialup_"+ transaction.itemId,
                     RewardIds =
                     {
-                        $"reward_{transaction.rarity}starChar_weaponCoin"
-                    }
+                        $"reward_{transaction.rarity}starChar_weaponCoin",
+                       
+                    },
+                    
                 });
                 
                 DatabaseManager.db.AddGachaTransaction(transaction);
