@@ -33,7 +33,7 @@ namespace EndFieldPS.Packets.Cs
             };
             
             session.Send(ScMessageId.ScCharBagSetTeam,team);
-            session.Send(new PacketScSelfSceneInfo(session, true));
+            session.Send(new PacketScSelfSceneInfo(session, Resource.SelfInfoReasonType.SlrChangeTeam));
         }
        
     }

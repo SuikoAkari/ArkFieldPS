@@ -26,7 +26,7 @@ namespace EndFieldPS.Commands.Handlers
                 
             });
             target.sceneManager.LoadCurrentTeamEntities();
-            target.Send(new PacketScSelfSceneInfo(target,true,SelfInfoReasonType.SlrReviveRest));
+            target.Send(new PacketScSelfSceneInfo(target,SelfInfoReasonType.SlrReviveRest));
             CommandManager.SendMessage(sender, "Healed!");
         }
     }
