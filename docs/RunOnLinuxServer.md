@@ -125,7 +125,6 @@ git clone https://github.com/PotRooms/EndFieldData.git
 cd .. \
 unzip EndFieldPS-master-Linux.zip \ 
 cp -r GameData/EndFieldData/Json Json \ 
-cp -r GameData/EndFieldData/Proto Proto \
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
@@ -168,7 +167,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
 4. Run the PS
 
-  Don't forget to allow port `dispatchServer.accessPort` and `gameServer.accessPort` on firewall
+  Don't forget to allow port `dispatchServer.accessPort` and `gameServer.accessPort` (Default to be 5000 and 30000) on firewall
 ```bash
 ./EndFieldPS
 ```
