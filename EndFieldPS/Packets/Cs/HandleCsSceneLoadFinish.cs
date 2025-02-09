@@ -36,13 +36,14 @@ namespace EndFieldPS.Packets.Cs
             else
             {
                 
-                if (session.currentDungeon != null)
+                if (session.currentDungeon != null && session.curSceneNumId==GetSceneNumIdFromLevelData(session.currentDungeon.table.sceneId))
                 {
-                    session.Send(new PacketScSyncGameMode(session, "dungeon"));
+                    session.Send(new PacketScSyncGameMode(session, "dungeon_race"));
                 }
                 else
                 {
-                    session.Send(new PacketScSyncGameMode(session, "default"));
+                    session.currentDungeon = null;
+                    session.Send(new PacketScSyncGameMode(session, ""));
                 }
                     
             }
