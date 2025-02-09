@@ -91,7 +91,8 @@ EndFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本�
 您可以在这里找到适用于不同 Linux 发行版的安装指南:
 | 发行版 | 链接                                                |
 |:-------|:----------------------------------------------------|
-| Debian | [点此](./Linux/RunOnLinuxServer_zh-CN.md#debian-12) |
+| Debian | [点此](./Linux/RunOnLinuxServer_zh-CN.md#Debian-12) |
+| Archlinux | [点此](./Linux/RunOnLinuxServer_zh-CN.md#ArchLinux)|
 
 ## 补充信息  
 
