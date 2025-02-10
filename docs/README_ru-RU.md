@@ -94,8 +94,8 @@ EndFieldPS - приватный сервер для Arknights EndField CBT2.
 |:-----------------|:-----|
 |Debian            |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#debian-12)|
 |Arch Linux        |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#arch-linux)|
-|Fedora            |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#fedora-workstation-410)|
-|Ubuntu            |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#ubuntu-240)|
+|Fedora            |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#fedora-workstation)|
+|Ubuntu            |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#ubuntu)|
 
 ## Дополнительно
 

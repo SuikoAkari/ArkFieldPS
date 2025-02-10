@@ -5,7 +5,7 @@
 ## Установка зависимостей
 
 ### Debian 12
-Для начала вам нужно обновить источники репозиторией apt:
+Для начала вам нужно обновить источники репозиториев apt:
 ```bash
 sudo apt update && sudo apt upgrade
 ```
@@ -15,7 +15,7 @@ sudo apt update && sudo apt upgrade
 sudo apt install git wget curl zip
 ```
 2. Установите MongoDB 8:
-    Следуйте инструкции на официальном сайте [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-debian/)^(англ.)
+    Следуйте инструкции на официальном сайте [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-debian/)<sup>(англ.)</sup>
 
 3. Установите .Net 8:
     Следуйте инструкции на официальном сайте [Microsoft](https://learn.microsoft.com/ru-ru/dotnet/core/install/linux-debian?tabs=dotnet8)
@@ -40,7 +40,7 @@ sudo pacman -S git zip wget
 
 ---
 
-### Fedora Workstation 41
+### Fedora Workstation
 Проверьте обновления репозиториев и установите их:
 ```bash
 sudo dnf check-update && sudo dnf upgrade
@@ -76,7 +76,7 @@ sudo systemctl start mongod.service && sudo systemctl status mongod.service
 ```
   *Если вам нужно, чтобы служба запускалась при каждом запуске системы:*
 ```bash
-sudo systemctl enable mongod.service```
+sudo systemctl enable mongod.service
 ```
 
 2. Установка .Net 8:
@@ -87,9 +87,27 @@ sudo dnf install dotnet-sdk-8.0
 
 ---
 
-### Ubuntu 24.0
+### Ubuntu
+Для начала вам нужно проверить систему на наличие обновлений:
+```bash
+sudo apt update && sudo apt upgrade
+```
 
-===
+1. Установите зависимости:
+```bash
+sudo apt install git wget zip
+```
+2. Установите MongoDB 8:
+    Следуйте инструкции на официальном сайте [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)<sup>(англ.)</sup>
+> [!WARNING]
+> На втором шаге не забудьте выбрать вашу версию Ubuntu, иначе установка выдаст ошибку.
+
+3. Установите .Net 8:
+    Следуйте инструкции на официальном сайте [Microsoft](https://learn.microsoft.com/ru-ru/dotnet/core/install/linux-ubuntu-install?tabs=dotnet8)
+> [!WARNING]
+> Также не забудьте выбрать вашу версию Ubuntu.
+
+---
 
 ## Установка EndFieldPS
 1. Установите [приватный сервер](https://github.com/SuikoAkari/EndFieldPS/releases/latest) и [игровые значения](https://github.com/PotRooms/EndFieldData/tree/main):
@@ -130,6 +148,8 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
     "bindPort": 5000,
+    "accessAddress": "ip адрес вашего сервера",
+    "accessPort": 5000,
     "emailFormat": "@endfield.ps"
   },
   "gameServer": {
