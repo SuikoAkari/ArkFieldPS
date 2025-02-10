@@ -94,6 +94,8 @@ You can read the manual on different Linux distros here:
 |:-----------------|:-----|
 |Debian            |[Link](docs/RunOnLinuxServer.md#Debian-12)|
 |ArchLinux         |[Link](docs/RunOnLinuxServer.md#ArchLinux)|
+|Fedora            |[Link](docs/RunOnLinuxServer.md#fedora-workstation)|
+|Ubuntu            |[Link](docs/RunOnLinuxServer.md#ubuntu)|
 
 ## Additional Information
 

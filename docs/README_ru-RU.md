@@ -92,13 +92,17 @@ EndFieldPS - приватный сервер для Arknights EndField CBT2.
 Почитать руководство на различных дистрибутивах Linux Вы можете здесь:
 |Linux дистрибутив |Ссылка|
 |:-----------------|:-----|
-|Debian            |[Ссылка](./Linux/RunOnLinuxServer_Debian_ru-RU.md)|
+|Debian            |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#debian-12)|
+|Arch Linux        |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#arch-linux)|
+|Fedora            |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#fedora-workstation)|
+|Ubuntu            |[Ссылка](./Linux/RunOnLinuxServer_ru-RU.md#ubuntu)|
 
 ## Дополнительно
 
 Описание всех команд сервера вы можете найти [здесь](./CommandList/commands_ru-RU.md).<br>
 Список всех сцен находится [тут](./LevelsTable.md).<br>
 Список всех врагов - [тут](./EnemiesTable.md).<br>
+Список всех персонажей - [тут](docs/CharactersTable.md).<br>
 Вы можете открыть внутриигровую консоль, перейдя во вкладку `Settings -> Platform & Account -> Account Settings (кнопка Access Account)`. Чтобы просмотреть доступные команды, пропишите `help`.
 
 ## Discord
