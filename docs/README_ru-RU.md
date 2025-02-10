@@ -102,6 +102,7 @@ EndFieldPS - приватный сервер для Arknights EndField CBT2.
 Описание всех команд сервера вы можете найти [здесь](./CommandList/commands_ru-RU.md).<br>
 Список всех сцен находится [тут](./LevelsTable.md).<br>
 Список всех врагов - [тут](./EnemiesTable.md).<br>
+Список всех персонажей - [тут](docs/CharactersTable.md).<br>
 Вы можете открыть внутриигровую консоль, перейдя во вкладку `Settings -> Platform & Account -> Account Settings (кнопка Access Account)`. Чтобы просмотреть доступные команды, пропишите `help`.
 
 ## Discord
