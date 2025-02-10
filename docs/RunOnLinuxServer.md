@@ -2,6 +2,8 @@
 Contents
 - [Debian 12](#Debian-12) 
 - [ArchLinux](#ArchLinux)
+- [Fedora](#fedora-workstation)
+- [Ubuntu](#ubuntu)
 
 
 
