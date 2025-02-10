@@ -2,6 +2,15 @@
 
 # Запуск EndFieldPS на Linux
 
+## Оглавление
+- Установка зависимостей:
+  - [Debian 12](#debian-12) 
+  - [ArchLinux](#arch-linux)
+  - [Fedora](#fedora-workstation)
+  - [Ubuntu](#ubuntu)
+- [Установка EndFieldPS](#установка-endfieldps)
+- [Настройка EndFieldPS](#настройка-endfieldps)
+
 ## Установка зависимостей
 
 ### Debian 12
