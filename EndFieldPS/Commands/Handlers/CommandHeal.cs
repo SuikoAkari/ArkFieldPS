@@ -18,7 +18,7 @@ namespace EndFieldPS.Commands.Handlers
         {
             target.GetCurTeam().ForEach(chara =>
             {
-                chara.curHp = chara.CalcAttributes()[AttributeType.MaxHp];
+                chara.curHp = chara.CalcAttributes()[AttributeType.MaxHp].val;
                 
             });
             target.Send(ScMessageId.ScSceneRevival, new ScSceneRevival()

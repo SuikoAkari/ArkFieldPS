@@ -91,6 +91,12 @@ namespace EndFieldPS.Game
 
             if (scene != null)
             {
+                if(GetEntity(guid) is EntityMonster)
+                {
+                    EntityMonster monster = (EntityMonster)GetEntity(guid);
+                    EntityInteractive drop=new EntityInteractive("item_gem_rarity_3", player.roleId, monster.Position, monster.Rotation);
+                    SpawnEntity(drop);
+                }
                 scene.entities.Remove(GetEntity(guid));
                 //Leave packet disabled for now
                 //player.Send(new PacketScObjectLeaveView(player, guid));

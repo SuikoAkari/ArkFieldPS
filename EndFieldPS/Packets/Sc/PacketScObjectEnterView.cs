@@ -36,6 +36,12 @@ namespace EndFieldPS.Packets.Sc
                     EntityNpc npc = (EntityNpc)entity;
                     proto.Detail.NpcList.Add(npc.ToProto());
                 }
+                else if (entity is EntityInteractive)
+                {
+                    EntityInteractive interact = (EntityInteractive)entity;
+                    proto.Detail.InteractiveList.Add(interact.ToProto());
+                }
+                
             }
             
 

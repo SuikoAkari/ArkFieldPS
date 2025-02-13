@@ -33,7 +33,6 @@ namespace EndFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.CharDoc,
-
                         Value =
                         {
                              ResourceManager.ToLongBitsetValue(ResourceManager.CalculateDocsIdsBitset())
@@ -42,7 +41,6 @@ namespace EndFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.LevelMapFirstView,
-
                         Value =
                         {
                             51810140172
@@ -51,7 +49,6 @@ namespace EndFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.AreaToastOnce,
-
                         Value =
                         {
                             9745508118585934080,
@@ -61,7 +58,6 @@ namespace EndFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.NewSceneGradeUnlocked,
-
                         Value =
                         {
                             8
@@ -79,7 +75,6 @@ namespace EndFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.LevelHaveBeen,
-
                         Value =
                         {
                             51810140172,
@@ -93,7 +88,6 @@ namespace EndFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.InteractiveActive,
-
                         Value =
                         {
                             503839996,
@@ -105,10 +99,17 @@ namespace EndFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.NewChar,
-
                         Value =
                         {
                             0
+                        }
+                    },
+                    new BitsetData()
+                    {
+                        Type=(int)BitsetType.Wiki,
+                        Value =
+                        {
+                            ResourceManager.ToLongBitsetValue(ResourceManager.CalculateBitsets(ResourceManager.strIdNumTable.wiki_id.dic.Values.ToList()))
                         }
                     },
                 }

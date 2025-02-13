@@ -48,12 +48,12 @@ namespace EndFieldPS.Game.Character
         {
 
         }
-        public Dictionary<AttributeType,double> CalcAttributes()
+        public Dictionary<AttributeType, (double baseVal, double val)> CalcAttributes()
         {
-            Dictionary<AttributeType, double> attributes = new();
+            Dictionary<AttributeType, (double baseVal, double val)> attributes = new();
             foreach (var item in GetAttributes())
             {
-                attributes.Add((AttributeType)item.attrType, item.attrValue);
+                attributes.Add((AttributeType)item.attrType, (item.attrValue, item.attrValue));
             }
             Item weapon = GetOwner().inventoryManager.items.Find(w => w.guid == weaponGuid);
             if(weapon != null)
@@ -61,7 +61,7 @@ namespace EndFieldPS.Game.Character
                 WeaponBasicTable wTable = ResourceManager.weaponBasicTable[weapon.id];
                 WeaponUpgradeTemplateTable template = ResourceManager.weaponUpgradeTemplateTable[wTable.levelTemplateId];
                 WeaponCurve curve=template.list.Find(c => c.weaponLv == weapon.level);
-                attributes[AttributeType.Atk] = attributes[AttributeType.Atk] + curve.baseAtk;
+                attributes[AttributeType.Atk] = (attributes[AttributeType.Atk].baseVal + curve.baseAtk, attributes[AttributeType.Atk].baseVal + curve.baseAtk);
 
             }
             //Won't be very precise but for now
@@ -76,10 +76,11 @@ namespace EndFieldPS.Game.Character
                         {
                             case ModifierType.BaseAddition:
                             case ModifierType.Addition:
-                                SetValueDic(attributes, modifier.attrType, GetValueDic(attributes, modifier.attrType) + modifier.attrValue);
+                                attributes=SetValueDic(attributes, modifier.attrType, GetValueDic(attributes, modifier.attrType) + modifier.attrValue);
                                 break;
+                            case ModifierType.Multiplier:
                             case ModifierType.BaseMultiplier:
-                                SetValueDic(attributes, modifier.attrType, GetValueDic(attributes, modifier.attrType) * 1 + modifier.attrValue);
+                                attributes=SetValueDic(attributes, modifier.attrType, GetValueDic(attributes, modifier.attrType) * 1 + modifier.attrValue);
                                 break;
                             default:
                                 break;
@@ -89,25 +90,26 @@ namespace EndFieldPS.Game.Character
             }
             return attributes;
         }
-        public double GetValueDic(Dictionary<AttributeType, double> dic, AttributeType type)
+        public double GetValueDic(Dictionary<AttributeType, (double baseVal, double val)> dic, AttributeType type)
         {
 
             if (dic.ContainsKey(type))
             {
-                return dic[type];
+                return dic[type].val;
             }
             return 0;
         }
-        public void SetValueDic(Dictionary<AttributeType, double> dic,AttributeType type,double value)
+        public Dictionary<AttributeType, (double baseVal, double val)> SetValueDic(Dictionary<AttributeType, (double baseVal, double val)> dic,AttributeType type,double value)
         {
             if (dic.ContainsKey(type))
             {
-                dic[type] = value;
+                dic[type] = (dic[type].baseVal,value);
             }
             else
             {
-                dic.Add(type, value);
+                dic.Add(type, (0, value));
             }
+            return dic;
         }
         public void UnlockNode(string nodeId)
         {
@@ -144,7 +146,7 @@ namespace EndFieldPS.Game.Character
             this.level = level;
             guid = GetOwner().random.Next();
             this.weaponGuid = GetOwner().inventoryManager.AddWeapon(ResourceManager.charGrowthTable[id].defaultWeaponId, 1).guid;
-            this.curHp = CalcAttributes()[AttributeType.MaxHp];
+            this.curHp = CalcAttributes()[AttributeType.MaxHp].val;
         }
         public List<ResourceManager.Attribute> GetAttributes()
         {
@@ -242,9 +244,9 @@ namespace EndFieldPS.Game.Character
                 proto.Attrs.Add(new AttrInfo()
                 {
                     AttrType = (int)attr.Key,
-                    BasicValue = attr.Value,
-                    Value = attr.Value
-
+                    BasicValue = attr.Value.baseVal,
+                    Value = attr.Value.val
+                    
                 });
             }
             return proto;
@@ -367,7 +369,26 @@ namespace EndFieldPS.Game.Character
                     }
                 }
             };
-            
+            foreach (ulong equipGuid in equipCol.Values)
+            {
+                Item item = GetOwner().inventoryManager.items.Find(i => i.guid == equipGuid);
+                if (item != null)
+                {
+                    string equipSuitId = ResourceManager.GetEquipSuitTableKey(item.id);
+                    if (equipSuitId.Length > 0)
+                    {
+                        if (info.EquipSuit.ContainsKey(equipSuitId))
+                        {
+                            info.EquipSuit[equipSuitId] += 1;
+                        }
+                        else
+                        {
+                            info.EquipSuit.Add(equipSuitId, 1);
+                        }
+                    }
+
+                }
+            }
             return info;
         }
         public (int,int,int) CalculateLevelAndGoldCost(int addedXp)

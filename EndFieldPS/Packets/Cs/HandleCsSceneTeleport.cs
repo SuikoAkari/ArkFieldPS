@@ -19,18 +19,28 @@ namespace EndFieldPS.Packets.Cs
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsSceneTeleport req = packet.DecodeBody<CsSceneTeleport>();
-            session.curSceneNumId=req.SceneNumId;
-            ScSceneTeleport t = new()
+            
+            if (session.curSceneNumId != req.SceneNumId)
             {
-                TeleportReason = req.TeleportReason,
-                PassThroughData = req.PassThroughData,
-                Position = req.Position,
-                Rotation = req.Rotation,
-                SceneNumId = req.SceneNumId,
-                TpUuid = 20000000,
+                session.EnterScene(req.SceneNumId, new Resource.ResourceManager.Vector3f(req.Position), new Resource.ResourceManager.Vector3f(req.Rotation));
+            }
+            else
+            {
+                ScSceneTeleport t = new()
+                {
+                    TeleportReason = req.TeleportReason,
+                    PassThroughData = req.PassThroughData,
+                    Position = req.Position,
+                    Rotation = req.Rotation,
+                    SceneNumId = req.SceneNumId,
+                    TpUuid = 20000000,
 
-            };
-            session.Send(ScMessageId.ScSceneTeleport, t);
+                };
+                session.Send(ScMessageId.ScSceneTeleport, t);
+            }
+            
+            
+
         }
        
     }

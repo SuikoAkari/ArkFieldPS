@@ -36,7 +36,10 @@ namespace EndFieldPS.Game.Entities
         {
 
         }
-
+        public virtual bool Interact()
+        {
+            return false;
+        }
         public Player GetOwner()
         {
             return Server.clients.Find(c => c.roleId == worldOwner);

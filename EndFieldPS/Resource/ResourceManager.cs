@@ -55,6 +55,7 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, GachaCharPoolTypeTable> gachaCharPoolTypeTable = new();
         public static Dictionary<string, EnemyTable> enemyTable = new();
         public static Dictionary<string, EquipTable> equipTable = new();
+        public static Dictionary<string, EquipSuitTable> equipSuitTable = new();
         public static Dictionary<string, SpaceShipCharBehaviourTable> spaceShipCharBehaviourTable = new();
         public static Dictionary<string, SpaceshipRoomInsTable> spaceshipRoomInsTable = new();
         public static Dictionary<string, DungeonTable> dungeonTable = new();
@@ -117,11 +118,23 @@ namespace EndFieldPS.Resource
             spaceShipCharBehaviourTable = JsonConvert.DeserializeObject<Dictionary<string, SpaceShipCharBehaviourTable>>(ReadJsonFile("TableCfg/SpaceShipCharBehaviourTable.json"));
             spaceshipRoomInsTable = JsonConvert.DeserializeObject<Dictionary<string, SpaceshipRoomInsTable>>(ReadJsonFile("TableCfg/SpaceshipRoomInsTable.json"));
             dungeonTable = JsonConvert.DeserializeObject<Dictionary<string, DungeonTable>>(ReadJsonFile("TableCfg/DungeonTable.json"));
+            equipSuitTable = JsonConvert.DeserializeObject<Dictionary<string, EquipSuitTable>>(ReadJsonFile("TableCfg/EquipSuitTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
                 Logger.PrintWarn("Missing some resources. The gameserver will probably crash.");
             }
+        }
+        public static string GetEquipSuitTableKey(string suitTableId)
+        {
+            foreach(var item in equipSuitTable)
+            {
+                if (item.Value.equipList.Contains(suitTableId))
+                {
+                    return item.Key;    
+                }
+            }
+            return "";
         }
         public static CharGrowthTable.CharTalentNode GetTalentNode(string c, string id)
         {
@@ -185,6 +198,7 @@ namespace EndFieldPS.Resource
 
             return chunks;
         }
+
         public static List<string> CalculateBitsets(List<int> ids)
         {
             string bitset = "";
@@ -285,6 +299,10 @@ namespace EndFieldPS.Resource
             public string sceneId;
 
         }
+        public class EquipSuitTable
+        {
+            public List<string> equipList;
+        }
         public class BlocMissionTable
         {
             public string missionId;
@@ -321,6 +339,7 @@ namespace EndFieldPS.Resource
             public string suitID;
             public List<AttributeModifier> displayAttrModifiers; 
             public List<AttributeModifier> attrModifiers;
+            public AttributeModifier displayBaseAttrModifier;
         }
         public class WikiGroupTable
         {
@@ -399,6 +418,7 @@ namespace EndFieldPS.Resource
             public StrIdDic char_doc_id;
             public StrIdDic area_id;
             public StrIdDic map_mark_temp_id;
+            public StrIdDic wiki_id;
         }
         public class GachaCharPoolTable
         {

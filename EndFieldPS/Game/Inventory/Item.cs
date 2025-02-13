@@ -62,7 +62,9 @@ namespace EndFieldPS.Game.Inventory
         }
         public List<AttributeModifier> GetEquipAttributeModifier()
         {
-            return ResourceManager.equipTable[id].attrModifiers;
+            List<AttributeModifier> modifiers = ResourceManager.equipTable[id].attrModifiers;
+
+            return modifiers;
         }
         public ItemValuableDepotType ItemType
         {
@@ -100,7 +102,7 @@ namespace EndFieldPS.Game.Inventory
                             }
                         };
                     case ItemValuableDepotType.Equip:
-                        return new ScdItemGrid()
+                        ScdItemGrid equip=new ScdItemGrid()
                         {
                             Count = 1,
                             Id = id,
@@ -108,18 +110,29 @@ namespace EndFieldPS.Game.Inventory
                             Inst = new()
                             {
                                 InstId = guid,
-                                
+
                                 Equip = new()
                                 {
-                                    
+
                                     EquipCharId = GetOwner().chars.Find(c => c.IsEquipped(guid)) != null ? GetOwner().chars.Find(c => c.IsEquipped(guid)).guid : 0,
-                                    Equipid=guid,
-                                    Templateid=ResourceManager.GetItemTemplateId(id),
+                                    Equipid = guid,
+                                    Templateid = ResourceManager.GetItemTemplateId(id),
                                     
                                 },
                                 IsLock = locked
                             }
                         };
+                        foreach (var item in GetEquipAttributeModifier())
+                        {
+                            equip.Inst.Equip.Attrs.Add(new EquipAttr()
+                            {
+                                AttrType= (int)item.attrType,
+                                ModifierType=(int)item.modifierType,
+                                ModifierValue=item.attrValue,
+                                ModifyAttributeType=item.modifyAttributeType,
+                            });
+                        }
+                        return equip;
                     default:
                         return new ScdItemGrid()
                         {
