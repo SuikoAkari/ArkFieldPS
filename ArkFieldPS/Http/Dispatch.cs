@@ -60,7 +60,7 @@ namespace ArkFieldPS.Http
         static async Task DefaultRoute(HttpContext ctx)
         {
             byte[] resp;
-            string curVer = "EndField PS";
+            string curVer = "ArkField PS";
 
             await data(ctx);
 

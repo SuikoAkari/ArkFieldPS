@@ -42,7 +42,7 @@ namespace ArkFieldPS.Http
         {
             string requestToken = ctx.Request.Query.Elements["token"];
             Account account = DatabaseManager.db.GetAccountByToken(requestToken);
-            string resp = "{\"data\":{\"hgId\":\"1799321925\",\"email\":\"dispatch@endfield.ps\",\"realEmail\":\"dispatch@endfield.ps\",\"isLatestUserAgreement\":true,\"nickName\":\"Endfield PS\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
+            string resp = "{\"data\":{\"hgId\":\"1799321925\",\"email\":\"dispatch@endfield.ps\",\"realEmail\":\"dispatch@endfield.ps\",\"isLatestUserAgreement\":true,\"nickName\":\"ArkField PS\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
             if (account != null)
             {
                 resp = "{\"data\":{\"hgId\":\"" + account.id + "\",\"email\":\"" + account.username +Server.config.dispatchServer.emailFormat +"\",\"realEmail\":\"" + account.username + Server.config.dispatchServer.emailFormat + "\",\"isLatestUserAgreement\":true,\"nickName\":\"" + account.username + "\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";

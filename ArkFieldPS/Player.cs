@@ -174,7 +174,7 @@ namespace ArkFieldPS
                 isRead=false,
                 content=new Mail_Content()
                 {
-                    content= "Welcome to EndField PS, Join our Discord for help: https://discord.gg/5uJGJJEFHa",
+                    content= "Welcome to ArkField PS, Join our Discord for help: https://discord.gg/5uJGJJEFHa",
                     senderName="SuikoAkari",
                     title="Welcome",
                     templateId="",
