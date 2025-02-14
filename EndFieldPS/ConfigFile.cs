@@ -8,15 +8,6 @@ namespace EndFieldPS
 {
     public class ConfigFile
     {
-        /*  public string ServerIp = "127.0.0.1";
-          public int LocalPort = 30000;
-          public int DispatchPort = 5000;
-          public string DispatchIp = "127.0.0.1";
-          public int MaxClients = 20;
-          public bool QuestEnabled = false; //Not used
-
-          public string MongoDb_connectionUri = "mongodb://localhost:27017";
-          public string MongoDb_databaseName = "endfieldps";*/
         public MongoDatabaseSettings mongoDatabase = new();
         public DispatchServerSettings dispatchServer = new();
         public GameserverSettings gameServer = new();
@@ -42,7 +33,7 @@ namespace EndFieldPS
     public struct LogSettings
     {
         public bool packets;
-        public bool debugPrint=true;
+        public bool debugPrint=false;
 
         public LogSettings()
         {
@@ -52,7 +43,8 @@ namespace EndFieldPS
     {
         public string bindAddress = "127.0.0.1";
         public int bindPort = 30000;
-
+        public string accessAddress = "127.0.0.1";
+        public int accessPort = 30000;
         public GameserverSettings()
         {
         }
@@ -60,7 +52,10 @@ namespace EndFieldPS
     public struct DispatchServerSettings
     {
         public string bindAddress = "127.0.0.1";
+       
         public int bindPort = 5000;
+        public string accessAddress = "127.0.0.1";
+        public int accessPort = 5000;
         public string emailFormat = "@endfield.ps";
         public DispatchServerSettings()
         {

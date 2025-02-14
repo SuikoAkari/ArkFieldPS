@@ -124,15 +124,19 @@ namespace EndFieldPS.Network
             cmdId = (int)msgId;
             return this;
         }
-        public static byte[] EncodePacket(Packet packet)
+        public static byte[] EncodePacket(Packet packet,ulong seq = 0)
         {
-            return EncodePacket(packet.cmdId,packet.set_body);
+            return EncodePacket(packet.cmdId,packet.set_body,seq);
         }
         public static ulong seqNext = 1;
-        public static byte[] EncodePacket(int msgId, IMessage body)
+        public static byte[] EncodePacket(int msgId, IMessage body, ulong seqNext_ = 0)
         {
+            if (seqNext_ == 0)
+            {
+                seqNext_ = seqNext;
+            }
             seqNext++;
-            CSHead head = new() { Msgid = msgId, DownSeqid= seqNext, TotalPackCount=1 };
+            CSHead head = new() { Msgid = msgId,UpSeqid=seqNext_, DownSeqid= seqNext, TotalPackCount=1 };
             int totalSerializedDataSize = 3 + head.ToByteArray().Length + body.ToByteArray().Length;
             byte[] data = new byte[totalSerializedDataSize];
             PutByte(data, (byte)head.ToByteArray().Length, 0);
@@ -154,6 +158,10 @@ namespace EndFieldPS.Network
             Array.Copy(byteArray, 3, csHeadBytes, 0, headLength);
             Array.Copy(byteArray, 3+ headLength, BodyBytes, 0, bodyLength);
             CSHead csHead_ = CSHead.Parser.ParseFrom(csHeadBytes);
+            if (Server.config.logOptions.packets)
+            {
+                Logger.Print(csHead_.ToString());
+            }
             seqNext = csHead_.UpSeqid;
             return new Packet() { csHead = csHead_, finishedBody = BodyBytes,cmdId=csHead_.Msgid };
         }

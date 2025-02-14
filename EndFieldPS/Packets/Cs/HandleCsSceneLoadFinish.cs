@@ -26,8 +26,27 @@ namespace EndFieldPS.Packets.Cs
         {
             CsSceneLoadFinish req = packet.DecodeBody<CsSceneLoadFinish>();
 
-            session.Send(new PacketScSelfSceneInfo(session, true));
-           
+            session.Send(new PacketScSelfSceneInfo(session, SelfInfoReasonType.SlrEnterScene));
+            session.sceneManager.LoadCurrentTeamEntities();
+            session.sceneManager.LoadCurrent();
+            if (session.curSceneNumId == 98)
+            {
+                session.Send(new PacketScSyncGameMode(session, "spaceship"));
+            }
+            else
+            {
+                
+                if (session.currentDungeon != null && session.curSceneNumId==GetSceneNumIdFromLevelData(session.currentDungeon.table.sceneId))
+                {
+                    session.Send(new PacketScSyncGameMode(session, "dungeon_race"));
+                }
+                else
+                {
+                    session.currentDungeon = null;
+                    session.Send(new PacketScSyncGameMode(session, ""));
+                }
+                    
+            }
         }
     }
 }

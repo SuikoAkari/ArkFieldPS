@@ -15,6 +15,7 @@ namespace EndFieldPS.Game.Gacha
     {
 
         public Player player;
+        internal ulong upSeqId;
         const double fiftyfifty = 0.45; // 50% (make it less than real 50, because the randomness make win fifty fifty every time
 
         private static readonly Random random = new Random();
@@ -174,13 +175,15 @@ namespace EndFieldPS.Game.Gacha
                     RewardItemId= !exist ? transaction.itemId : "item_charpotentialup_"+ transaction.itemId,
                     RewardIds =
                     {
-                        $"reward_{transaction.rarity}starChar_weaponCoin"
-                    }
+                        $"reward_{transaction.rarity}starChar_weaponCoin",
+                       
+                    },
+                    
                 });
                 
                 DatabaseManager.db.AddGachaTransaction(transaction);
             }
-            player.Send(ScMessageId.ScGachaSyncPullResult, result);
+            player.Send(ScMessageId.ScGachaSyncPullResult, result,upSeqId);
             ScGachaModifyPoolRoleData roleData = new()
             {
                 GachaPoolId = gachaId,
@@ -200,7 +203,7 @@ namespace EndFieldPS.Game.Gacha
 
                 }
             };
-            player.Send(ScMessageId.ScGachaModifyPoolRoleData, roleData);
+            player.Send(ScMessageId.ScGachaModifyPoolRoleData, roleData, upSeqId);
         }
         public GachaTransaction GetChar(string upChar,bool guaranteed, double fifty, List<GachaCharPoolItem> items, int rarity)
         {

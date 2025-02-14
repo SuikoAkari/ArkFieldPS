@@ -18,7 +18,7 @@ namespace EndFieldPS.Commands.Handlers
         {
             target.GetCurTeam().ForEach(chara =>
             {
-                chara.curHp = chara.CalcAttributes()[AttributeType.MaxHp];
+                chara.curHp = chara.CalcAttributes()[AttributeType.MaxHp].val;
                 
             });
             target.Send(ScMessageId.ScSceneRevival, new ScSceneRevival()
@@ -26,7 +26,7 @@ namespace EndFieldPS.Commands.Handlers
                 
             });
             target.sceneManager.LoadCurrentTeamEntities();
-            target.Send(new PacketScSelfSceneInfo(target,true,SelfInfoReasonType.SlrReviveRest));
+            target.Send(new PacketScSelfSceneInfo(target,SelfInfoReasonType.SlrReviveRest));
             CommandManager.SendMessage(sender, "Healed!");
         }
     }

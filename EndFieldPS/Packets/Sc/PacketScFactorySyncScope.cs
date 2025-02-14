@@ -47,7 +47,7 @@ namespace EndFieldPS.Packets.Sc
                 TransportRoute = new()
                 {
                     
-                    UpdateTs = DateTime.UtcNow.AddMinutes(0).ToUnixTimestampMilliseconds(),
+                    UpdateTs = DateTime.UtcNow.AddMinutes(1).ToUnixTimestampMilliseconds()/1000,
                     Routes =
                     {
                         new ScdFactoryHubTransportRoute

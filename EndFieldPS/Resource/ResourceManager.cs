@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static EndFieldPS.Resource.ResourceManager;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EndFieldPS.Resource
 {
@@ -54,6 +55,10 @@ namespace EndFieldPS.Resource
         public static Dictionary<string, GachaCharPoolTypeTable> gachaCharPoolTypeTable = new();
         public static Dictionary<string, EnemyTable> enemyTable = new();
         public static Dictionary<string, EquipTable> equipTable = new();
+        public static Dictionary<string, EquipSuitTable> equipSuitTable = new();
+        public static Dictionary<string, SpaceShipCharBehaviourTable> spaceShipCharBehaviourTable = new();
+        public static Dictionary<string, SpaceshipRoomInsTable> spaceshipRoomInsTable = new();
+        public static Dictionary<string, DungeonTable> dungeonTable = new();
         public static StrIdNumTable dialogIdTable = new();
 
         public static List<LevelData> levelDatas = new();
@@ -110,11 +115,26 @@ namespace EndFieldPS.Resource
             enemyTable = JsonConvert.DeserializeObject<Dictionary<string, EnemyTable>>(ReadJsonFile("TableCfg/EnemyTable.json"));
             gachaCharPoolTypeTable = JsonConvert.DeserializeObject<Dictionary<string, GachaCharPoolTypeTable>>(ReadJsonFile("TableCfg/GachaCharPoolTypeTable.json"));
             equipTable = JsonConvert.DeserializeObject<Dictionary<string, EquipTable>>(ReadJsonFile("TableCfg/EquipTable.json"));
+            spaceShipCharBehaviourTable = JsonConvert.DeserializeObject<Dictionary<string, SpaceShipCharBehaviourTable>>(ReadJsonFile("TableCfg/SpaceShipCharBehaviourTable.json"));
+            spaceshipRoomInsTable = JsonConvert.DeserializeObject<Dictionary<string, SpaceshipRoomInsTable>>(ReadJsonFile("TableCfg/SpaceshipRoomInsTable.json"));
+            dungeonTable = JsonConvert.DeserializeObject<Dictionary<string, DungeonTable>>(ReadJsonFile("TableCfg/DungeonTable.json"));
+            equipSuitTable = JsonConvert.DeserializeObject<Dictionary<string, EquipSuitTable>>(ReadJsonFile("TableCfg/EquipSuitTable.json"));
             LoadLevelDatas();
             if (missingResources)
             {
                 Logger.PrintWarn("Missing some resources. The gameserver will probably crash.");
             }
+        }
+        public static string GetEquipSuitTableKey(string suitTableId)
+        {
+            foreach(var item in equipSuitTable)
+            {
+                if (item.Value.equipList.Contains(suitTableId))
+                {
+                    return item.Key;    
+                }
+            }
+            return "";
         }
         public static CharGrowthTable.CharTalentNode GetTalentNode(string c, string id)
         {
@@ -127,6 +147,120 @@ namespace EndFieldPS.Resource
         public static LevelData GetLevelData(int sceneNumId)
         {
            return levelDatas.Find(e => e.idNum == sceneNumId);
+        }
+        public static List<string> CalculateChapterIdsBitset()
+        {
+            string bitset = "";
+            int maxValue = strIdNumTable.area_id.dic.Values.Max();
+            int chunkSize = 64;
+            for (int i = 0; i <= maxValue; i++)
+            {
+                if (strIdNumTable.area_id.dic.Values.ToList().Contains(i))
+                {
+                    bitset += "1";
+                }
+                else
+                {
+                    bitset += "0";
+                }
+            }
+            List<string> chunks = new List<string>();
+
+            for (int i = 0; i < bitset.Length; i += chunkSize)
+            {
+                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
+            }
+
+            return chunks;
+        }
+        public static List<string> CalculateDocsIdsBitset()
+        {
+            string bitset = "";
+            int maxValue = strIdNumTable.char_doc_id.dic.Values.Max();
+            int chunkSize = 64;
+            for (int i = 0; i <= maxValue; i++)
+            {
+                if (strIdNumTable.char_doc_id.dic.Values.ToList().Contains(i))
+                {
+                    bitset += "1";
+                }
+                else
+                {
+                    bitset += "0";
+                }
+            }
+            List<string> chunks = new List<string>();
+
+            for (int i = 0; i < bitset.Length; i += chunkSize)
+            {
+                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
+            }
+
+            return chunks;
+        }
+
+        public static List<string> CalculateBitsets(List<int> ids)
+        {
+            string bitset = "";
+            int maxValue = ids.Max();
+            int chunkSize = 64;
+            for (int i = 0; i <= maxValue; i++)
+            {
+                if (ids.Contains(i))
+                {
+                    bitset += "1";
+                }
+                else
+                {
+                    bitset += "0";
+                }
+            }
+            List<string> chunks = new List<string>();
+
+            for (int i = 0; i < bitset.Length; i += chunkSize)
+            {
+                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
+            }
+
+            return chunks;
+        }
+        public static List<string> CalculateVoiceIdsBitset()
+        {
+            string bitset = "";
+            int maxValue = strIdNumTable.char_voice_id.dic.Values.Max();
+            int chunkSize = 64;
+            for (int i = 0; i <= maxValue; i++)
+            {
+                if (strIdNumTable.char_voice_id.dic.Values.ToList().Contains(i))
+                {
+                    bitset += "1";
+                }
+                else
+                {
+                    bitset += "0";
+                }
+            }
+            List<string> chunks = new List<string>();
+
+            for (int i = 0; i < bitset.Length; i += chunkSize)
+            {
+                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
+            }
+
+            return chunks;
+        }
+        public static List<ulong> ToLongBitsetValue(List<string> binaryString)
+        {
+            //string binaryString = "1101"; // Numero binario
+            List<ulong> bits = new List<ulong>();
+
+            foreach (string bitset in binaryString)
+            {
+                ulong decimalValue = (ulong)Convert.ToUInt64(bitset, 2); // Converti in decimale
+                bits.Add(decimalValue);
+            }
+            
+            return bits;
         }
         public static LevelData GetLevelData(string sceneId)
         {
@@ -159,7 +293,16 @@ namespace EndFieldPS.Resource
             return strIdNumTable.item_id.dic[item_id];
         }
 
+        public class DungeonTable
+        {
+            public string dungeonId;
+            public string sceneId;
 
+        }
+        public class EquipSuitTable
+        {
+            public List<string> equipList;
+        }
         public class BlocMissionTable
         {
             public string missionId;
@@ -196,6 +339,7 @@ namespace EndFieldPS.Resource
             public string suitID;
             public List<AttributeModifier> displayAttrModifiers; 
             public List<AttributeModifier> attrModifiers;
+            public AttributeModifier displayBaseAttrModifier;
         }
         public class WikiGroupTable
         {
@@ -204,6 +348,16 @@ namespace EndFieldPS.Resource
         public class WikiGroup
         {
             public string groupId;
+        }
+        public class SpaceShipCharBehaviourTable
+        {
+            public string charId;
+            public string npcId;
+        }
+        public class SpaceshipRoomInsTable
+        {
+            public string id;
+            public int roomType;
         }
         public class GameSystemConfigTable
         {
@@ -262,6 +416,9 @@ namespace EndFieldPS.Resource
             public StrIdDic chapter_map_id;
             public StrIdDic char_voice_id;
             public StrIdDic char_doc_id;
+            public StrIdDic area_id;
+            public StrIdDic map_mark_temp_id;
+            public StrIdDic wiki_id;
         }
         public class GachaCharPoolTable
         {

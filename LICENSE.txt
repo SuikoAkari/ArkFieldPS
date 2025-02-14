@@ -1,0 +1,8 @@
+Copyright (c) 2025 SuikoAkari
+
+This software is licensed under the GPL v3 with the following modification:
+- You may use, copy, modify, and distribute the software freely for non-commercial purposes only.
+- Commercial use of this software (including but not limited to reselling, distribution in proprietary products, or monetizing via any method) is prohibited.
+- Any distribution of the software, including modified versions, must retain this license and include the source code.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

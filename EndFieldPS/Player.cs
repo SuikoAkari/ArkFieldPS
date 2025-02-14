@@ -24,6 +24,8 @@ using static EndFieldPS.Resource.ResourceManager;
 using EndFieldPS.Database;
 using EndFieldPS.Game;
 using EndFieldPS.Game.Gacha;
+using EndFieldPS.Game.Spaceship;
+using EndFieldPS.Game.Dungeons;
 
 
 namespace EndFieldPS
@@ -56,6 +58,7 @@ namespace EndFieldPS
         public int curSceneNumId;
         public List<Character> chars = new List<Character>();
         public InventoryManager inventoryManager;
+        public SpaceshipManager spaceshipManager;
         public SceneManager sceneManager;
         public GachaManager gachaManager;
         public int teamIndex = 0;
@@ -65,6 +68,7 @@ namespace EndFieldPS
         public long maxDashEnergy = 250;
         public uint curStamina = 10;
         public long nextRecoverTime = 0;
+        public Dungeon currentDungeon;
         public uint maxStamina {
             get{
                 return (uint)200;
@@ -80,6 +84,7 @@ namespace EndFieldPS
             inventoryManager = new(this);
             sceneManager = new(this);
             gachaManager = new(this);
+            spaceshipManager = new(this);   
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
@@ -110,6 +115,7 @@ namespace EndFieldPS
                 LoadCharacters();
                 mails = DatabaseManager.db.LoadMails(roleId);
                 inventoryManager.Load();
+                spaceshipManager.Load();
             }
             else
             {
@@ -177,6 +183,7 @@ namespace EndFieldPS
             });
 
             UnlockImportantSystems();
+            spaceshipManager.Load();
         }
         public void UnlockImportantSystems()
         {
@@ -221,6 +228,8 @@ namespace EndFieldPS
             unlockedSystems.Add((int)UnlockSystemType.FacBUS);
             unlockedSystems.Add((int)UnlockSystemType.PRTS);
             unlockedSystems.Add((int)UnlockSystemType.Dungeon);
+            unlockedSystems.Add((int)UnlockSystemType.RacingDungeon);
+            unlockedSystems.Add((int)UnlockSystemType.CheckIn);
         }
         public void EnterScene()
         {
@@ -230,7 +239,25 @@ namespace EndFieldPS
             }
             else
             {
+                sceneManager.UnloadCurrent();
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
+            }
+        }
+        public void EnterScene(int sceneNumId, Vector3f pos, Vector3f rot)
+        {
+            if (GetLevelData(sceneNumId) != null)
+            {
+                sceneManager.UnloadCurrent();
+                curSceneNumId = sceneNumId;
+                position = pos;
+                rotation = rot;
+
+                Send(new PacketScEnterSceneNotify(this, sceneNumId));
+
+            }
+            else
+            {
+                Logger.PrintError($"Scene {sceneNumId} not found");
             }
         }
         public void EnterScene(int sceneNumId)
@@ -241,8 +268,9 @@ namespace EndFieldPS
                 curSceneNumId = sceneNumId;
                 position = GetLevelData(sceneNumId).playerInitPos;
                 rotation = GetLevelData(sceneNumId).playerInitRot;
-                sceneManager.LoadCurrentTeamEntities();
+                
                 Send(new PacketScEnterSceneNotify(this, sceneNumId));
+                
             }
             else
             {
@@ -263,13 +291,13 @@ namespace EndFieldPS
             }
             
         }
-        public void Send(Packet packet)
+        public void Send(Packet packet, ulong seq = 0)
         {
-            Send(Packet.EncodePacket(packet));
+            Send(Packet.EncodePacket(packet,seq));
         }
-        public void Send(ScMessageId id,IMessage mes)
+        public void Send(ScMessageId id,IMessage mes, ulong seq = 0)
         {
-            Send(Packet.EncodePacket((int)id, mes));
+            Send(Packet.EncodePacket((int)id, mes, seq));
         }
         public void Send(byte[] data)
         {
@@ -368,6 +396,7 @@ namespace EndFieldPS
             //Save playerdata
             DatabaseManager.db.SavePlayerData(this);
             inventoryManager.Save();
+            spaceshipManager.Save();
             SaveCharacters();
             SaveMails();
             
@@ -404,6 +433,43 @@ namespace EndFieldPS
             {
                 DatabaseManager.db.UpsertCharacter(c);
             }
+        }
+
+        public void EnterDungeon(string dungeonId, EnterRacingDungeonParam racingParam)
+        {
+            Dungeon dungeon = new()
+            {
+                player = this,
+                prevPlayerPos = position,
+                prevPlayerRot = rotation,
+                prevPlayerSceneNumId = curSceneNumId,
+                table = ResourceManager.dungeonTable[dungeonId],
+            };
+            this.currentDungeon = dungeon;
+            ScEnterDungeon enter = new()
+            {
+                DungeonId = dungeonId,
+                SceneId = dungeon.table.sceneId,
+                
+            };
+           
+            Send(new PacketScSyncAllUnlock(this));
+            
+            EnterScene(GetSceneNumIdFromLevelData(dungeon.table.sceneId));
+            Send(ScMessageId.ScEnterDungeon, enter);
+
+        }
+
+        public void LeaveDungeon(CsLeaveDungeon req)
+        {
+            ScLeaveDungeon rsp = new()
+            {
+                DungeonId = req.DungeonId,
+            };
+            Send(ScMessageId.ScLeaveDungeon, rsp);
+            Dungeon dungeon = currentDungeon;
+            currentDungeon = null;
+            EnterScene(dungeon.prevPlayerSceneNumId, dungeon.prevPlayerPos, dungeon.prevPlayerRot);
         }
     }
 }

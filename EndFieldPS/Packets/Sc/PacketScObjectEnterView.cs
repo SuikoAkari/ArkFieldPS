@@ -14,7 +14,7 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScObjectEnterView : Packet
     {
 
-        public PacketScObjectEnterView(Player session, Entity entity) {
+        public PacketScObjectEnterView(Player session, List<Entity> entities) {
 
             ScObjectEnterView proto = new()
             {
@@ -24,11 +24,26 @@ namespace EndFieldPS.Packets.Sc
                 },
                 
             };
-            if (entity is EntityMonster)
+            foreach (Entity entity in entities)
             {
-                EntityMonster monster = (EntityMonster) entity;
-                proto.Detail.MonsterList.Add(monster.ToProto());
+                if (entity is EntityMonster)
+                {
+                    EntityMonster monster = (EntityMonster)entity;
+                    proto.Detail.MonsterList.Add(monster.ToProto());
+                }
+                else if (entity is EntityNpc)
+                {
+                    EntityNpc npc = (EntityNpc)entity;
+                    proto.Detail.NpcList.Add(npc.ToProto());
+                }
+                else if (entity is EntityInteractive)
+                {
+                    EntityInteractive interact = (EntityInteractive)entity;
+                    proto.Detail.InteractiveList.Add(interact.ToProto());
+                }
+                
             }
+            
 
             SetData(ScMessageId.ScObjectEnterView, proto);
         }

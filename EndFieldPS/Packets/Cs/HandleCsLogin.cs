@@ -90,74 +90,33 @@ namespace EndFieldPS.Packets.Cs
 
             };
             session.Send(ScMessageId.ScItemBagCommonSync, common);
-            session.Send(new PacketScItemBagScopeSync(session,ItemValuableDepotType.Weapon));
+            session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Weapon));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.WeaponGem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Equip));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.CommercialItem));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Factory));
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.SpecialItem));
             session.Send(new PacketScSyncAllMail(session));
-            ScSceneCollectionSync collection = new ScSceneCollectionSync()
-            {
-                CollectionList =
-                {
-
-                },
-                
-            };
-           
-            foreach (var item in ResourceManager.levelDatas)
-            {
-                foreach (var item1 in collectionTable)
-                {
-                    collection.CollectionList.Add(new SceneCollection()
-                    {
-                        Count = 1,
-                        PrefabId = item1.Value.prefabId,
-                        SceneName = item.id
-                    });
-                }
-
-            }
-
-            session.Send(ScMessageId.ScSceneCollectionSync, collection);
+            session.Send(new PacketScSceneCollectionSync(session));
             ScSyncAllMission missions = new()
             {
                 Missions =
                 {
-                    {"e5m2_q#5d3", 
+                    {"f1m15", 
                         new Mission()
                         {
-                            MissionId="e5m2_q#5d3",
-                            MissionState=(int)MissionState.Completed,
+                            MissionId="f1m15",
+                            MissionState=(int)MissionState.Available,
                             
                         } 
-                    },
-                    {"e5m2_q#14",
-                        new Mission()
-                        {
-                            MissionId="e5m2_q#14",
-                            MissionState=(int)MissionState.Completed,
-
-                        }
                     }
-                }
-            };
-           
-            ScAdventureSyncAll adventure = new()
-            {
-                Exp = session.xp,
-                Level = (int)session.level,
+                },
                 
             };
+            session.Send(ScMessageId.ScSyncAllMission, missions);
 
-            ScSyncGameMode gameMode = new()
-            {
-                ModeId = "Default",
-
-            };
             session.Send(new PacketScGachaSync(session));
-            ScSettlementSyncAll settlements = new ScSettlementSyncAll()
+           /* ScSettlementSyncAll settlements = new ScSettlementSyncAll()
             {
                 LastTickTime = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
                 
@@ -185,16 +144,13 @@ namespace EndFieldPS.Packets.Cs
                 });
                 stid++;
             }
-            
+            session.Send(ScMessageId.ScSettlementSyncAll, settlements);*/
             session.Send(new PacketScSyncAllRoleScene(session));
-            session.Send(ScMessageId.ScSettlementSyncAll, settlements);
             session.Send(new PacketScGameMechanicsSync(session));
             session.Send(new PacketScSyncAllBloc(session));
             session.Send(new PacketScSyncWallet(session));
-            session.Send(ScMessageId.ScSyncGameMode, gameMode);
             session.Send(new PacketScSyncAllGameVar(session));
             session.Send(new PacketScSyncAllUnlock(session));
-            session.Send(ScMessageId.ScSyncAllMission, missions);
             session.Send(new PacketScSyncAllBitset(session));
             ScSceneMapMarkSync mapMarks = new()
             {
@@ -208,7 +164,7 @@ namespace EndFieldPS.Packets.Cs
                 }
             };
 
-            for (int i = 0; i <= 28; i++)
+            for (int i = 0; i <= 400; i++)
             {
                 mapMarks.SceneStaticMapMarkList.Add(new SceneStaticMapMark()
                 {
@@ -216,26 +172,22 @@ namespace EndFieldPS.Packets.Cs
                 });
             }
             session.Send(ScMessageId.ScSceneMapMarkSync, mapMarks);
-            session.Send(ScMessageId.ScAdventureSyncAll, adventure);
+            session.Send(new PacketScAdventureSyncAll(session));
           //session.Send(new PacketScFactorySync(session));
             session.Send(new PacketScFactorySyncScope(session));
             session.Send(new PacketScFactorySyncChapter(session, "domain_1"));
             session.Send(new PacketScFactorySyncChapter(session, "domain_2"));
-
             session.Send(new PacketScSyncCharBagInfo(session));
-            
+            session.Send(new PacketScSyncAllDialog(session));
             session.Send(new PacketScSpaceshipSync(session));
+            session.Send(new PacketScSyncFullDungeonStatus(session));
+            session.Send(new PacketScActivitySync(session));
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene();
             session.Initialized = true;
             session.Update();
-            ScSyncFullDungeonStatus dungeonStatus = new()
-            {
-                CurStamina = session.curStamina,
-                MaxStamina = session.maxStamina,
-                NextRecoverTime = session.nextRecoverTime / 1000,
-            };
-            session.Send(ScMessageId.ScSyncFullDungeonStatus, dungeonStatus);
+            
+            
         }
         static byte[] GenerateRandomBytes(int length)
         {

@@ -13,65 +13,57 @@ namespace EndFieldPS.Packets.Sc
     public class PacketScSelfSceneInfo : Packet
     {
 
-        public PacketScSelfSceneInfo(Player session, bool isTeamSpawn=false, SelfInfoReasonType infoReason = SelfInfoReasonType.SlrEnterScene) {
-            if (isTeamSpawn)
+        public PacketScSelfSceneInfo(Player session, SelfInfoReasonType infoReason = SelfInfoReasonType.SlrEnterScene) {
+
+            ScSelfSceneInfo sceneInfo = new()
             {
-                ScSelfSceneInfo sceneInfo = new()
+                SceneId = session.sceneManager.GetSceneGuid(session.curSceneNumId),
+                SceneNumId = session.curSceneNumId,
+                SelfInfoReason = (int)infoReason,
+                    
+                TeamInfo = new()
                 {
-                    SceneId = session.sceneManager.GetSceneGuid(session.curSceneNumId),
-                    SceneNumId = session.curSceneNumId,
-                    SelfInfoReason = (int)infoReason,
-                    
-                    TeamInfo = new()
-                    {
-                        CurLeaderId = session.teams[session.teamIndex].leader,
-                        TeamIndex = session.teamIndex,
-                        TeamType = CharBagTeamType.Main
+                    CurLeaderId = session.teams[session.teamIndex].leader,
+                    TeamIndex = session.teamIndex,
+                    TeamType = CharBagTeamType.Main
 
-                    },
-                    SceneGrade = 1,
-                    
-                    Detail = new()
-                    {
-                        TeamIndex = session.teamIndex,
+                },
+                SceneGrade = 4,
+                
+                Detail = new()
+                {
+                    TeamIndex = session.teamIndex,
 
-                        CharList =
-                        {
-
-                        },
                         
-                    }
+                }
+            };
+            if (session.currentDungeon != null)
+            {
+                sceneInfo.Dungeon = new()
+                {
+                    DungeonId = session.currentDungeon.table.dungeonId,
                 };
-                foreach (var item in ResourceManager.sceneAreaTable)
-                {
-                    sceneInfo.UnlockArea.Add(item.Value.areaId);
-                }
-                session.teams[session.teamIndex].members.ForEach(m =>
-                {
-                    sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());
-                });
-                if (session.curSceneNumId == 98)
-                {
-                    sceneInfo.Detail.NpcList.Add(new SceneNpc()
-                    {
-                        CommonInfo = new()
-                        {
-                            Hp=500,
-                            
-                            SceneNumId=98,
-                            Id=34034045,
-                            Templateid= "npc_0015_lifeng_spaceship_i001",
-                            Position=session.position.ToProto(),
-                            Rotation=session.rotation.ToProto(),
-                            Type= (int)EntityDataType.Npc,
-                            
-                        },
-                        
-                    });
-                }
-                session.sceneManager.LoadCurrentTeamEntities();
-                SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
             }
+            else
+            {
+                sceneInfo.Empty = new()
+                {
+                    
+                };
+            }
+            foreach (var item in ResourceManager.sceneAreaTable)
+            {
+                if(session.curSceneNumId==ResourceManager.GetSceneNumIdFromLevelData(item.Value.sceneId))
+                    sceneInfo.UnlockArea.Add(item.Value.areaId);
+            }
+            session.teams[session.teamIndex].members.ForEach(m =>
+            {
+                sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());
+            });
+               
+                
+            SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
+            
            
         }
 
