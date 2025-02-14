@@ -1,4 +1,4 @@
-# 在 Linux 上运行 EndFieldPS
+# 在 Linux 上运行 ArkFieldPS
 目录
 - [Debian 12](#Debian-12)
 - [ArchLinux](#ArchLinux)
@@ -25,13 +25,13 @@ sudo apt install git wget curl zip
 
     请参考 [Microsoft 官方文档](https://learn.microsoft.com/zh-cn/dotnet/core/install/linux-debian) 中的安装说明。
 
-### 安装 EndFieldPS
+### 安装 ArkFieldPS
 1. 下载服务端和服务端数据
 
 ```bash
 cd \
-mkdir EndFieldPS && cd EndFieldPS \
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \
+mkdir ArkFieldPS && cd ArkFieldPS \
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \
 mkdir GameData && cd GameData \
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
@@ -40,19 +40,19 @@ git clone https://github.com/PotRooms/EndFieldData.git
 
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \
+unzip ArkFieldPS-master-Linux.zip \
 cp -r GameData/EndFieldData/Json Json \
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 3. 修改配置  
 > [!NOTE]提示  
-> 如果你打算在公网服务器上运行 EndFieldPS，请按照以下步骤操作。
+> 如果你打算在公网服务器上运行 ArkFieldPS，请按照以下步骤操作。
 
 
-先运行一次 EndFieldPS, EndFieldPS 会自动生成 `server_config.json` 。
+先运行一次 ArkFieldPS, ArkFieldPS 会自动生成 `server_config.json` 。
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
 
 使用 Vim 或 nano 打开 `server_config.json` 文件，将 `dispatchServer.bindAddress` 和 `gameServer.bindAddress` 修改为 `"0.0.0.0"`，并将 `dispatchServer.accessAddress` 和 `gameServer.accessAddress` 修改为你的服务器 IP 地址。
@@ -65,7 +65,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -95,7 +95,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
 防火墙应当放通 `dispatchServer.accessPort` 和 `gameServer.accessPort` 端口
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
 
 
@@ -116,19 +116,19 @@ paru -S dotnet-runtime-8.0 mongodb-bin
 ```
 
 
-我们需要 `git`、`zip`、`wget` 获取 EndFieldPS 所需文件，使用 `pacman` 安装它们
+我们需要 `git`、`zip`、`wget` 获取 ArkFieldPS 所需文件，使用 `pacman` 安装它们
 ```bash
 sudo pacman -S git zip wget
 ```
 
 
-### 安装 EndFieldPS
+### 安装 ArkFieldPS
 1. 下载服务端和服务端数据
 
 ```bash
 cd \
-mkdir EndFieldPS && cd EndFieldPS \
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \
+mkdir ArkFieldPS && cd ArkFieldPS \
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \
 mkdir GameData && cd GameData \
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
@@ -137,19 +137,19 @@ git clone https://github.com/PotRooms/EndFieldData.git
 
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \
+unzip ArkFieldPS-master-Linux.zip \
 cp -r GameData/EndFieldData/Json Json \
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 3. 修改配置  
 > [!NOTE]提示  
-> 如果你打算在公网服务器上运行 EndFieldPS，请按照以下步骤操作。
+> 如果你打算在公网服务器上运行 ArkFieldPS，请按照以下步骤操作。
 
 
-先运行一次 EndFieldPS, EndFieldPS 会自动生成 `server_config.json` 。
+先运行一次 ArkFieldPS, ArkFieldPS 会自动生成 `server_config.json` 。
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
 
 使用 Vim 或 nano 打开 `server_config.json` 文件，将 `dispatchServer.bindAddress` 和 `gameServer.bindAddress` 修改为 `"0.0.0.0"`，并将 `dispatchServer.accessAddress` 和 `gameServer.accessAddress` 修改为你的服务器 IP 地址。
@@ -162,7 +162,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -192,7 +192,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
 防火墙应当放通 `dispatchServer.accessPort` 和 `gameServer.accessPort` 端口
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
 
 ## Fedora Workstation
@@ -241,12 +241,12 @@ sudo systemctl enable mongod.service
 sudo dnf install dotnet-sdk-8.0
 ```
 
-### 安装 EndFieldPS
+### 安装 ArkFieldPS
 1. 下载服务端和服务端数据
 ```bash
 cd \ 
-mkdir EndFieldPS && cd EndFieldPS \ 
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \ 
+mkdir ArkFieldPS && cd ArkFieldPS \ 
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
 mkdir GameData && cd GameData \ 
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
@@ -254,16 +254,16 @@ git clone https://github.com/PotRooms/EndFieldData.git
 2. 解压服务端并复制文件
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \ 
+unzip ArkFieldPS-master-Linux.zip \ 
 cp -r GameData/EndFieldData/Json Json \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 3. 修改配置
 > [!NOTE]提示
-> 如果你打算在公网服务器上运行 EndFieldPS，请按照以下步骤操作。
+> 如果你打算在公网服务器上运行 ArkFieldPS，请按照以下步骤操作。
 
-先运行一次 EndFieldPS，EndFieldPS 会自动生成 `server_config.json`。
+先运行一次 ArkFieldPS，ArkFieldPS 会自动生成 `server_config.json`。
 
 使用 vim 或 nano 打开 `server_config.json` 文件，将 `dispatchServer.bindAddress` 和 `gameServer.bindAddress` 修改为 `"0.0.0.0"`，并将 `dispatchServer.accessAddress` 和 `gameServer.accessAddress` 修改为你的服务器 IP 地址。
 
@@ -273,7 +273,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -303,7 +303,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
 防火墙应当放通 `dispatchServer.accessPort` 和 `gameServer.accessPort` 端口（默认为 5000 和 30000）
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
 
 ## Ubuntu
@@ -327,12 +327,12 @@ sudo apt install git wget zip
 > [!WARNING]警告
 > 同样，请记得选择正确的 Ubuntu 版本。
 
-### 安装 EndFieldPS
+### 安装 ArkFieldPS
 1. 下载服务端和服务端数据
 ```bash
 cd \ 
-mkdir EndFieldPS && cd EndFieldPS \ 
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \ 
+mkdir ArkFieldPS && cd ArkFieldPS \ 
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
 mkdir GameData && cd GameData \ 
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
@@ -340,16 +340,16 @@ git clone https://github.com/PotRooms/EndFieldData.git
 2. 解压服务端并复制文件
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \ 
+unzip ArkFieldPS-master-Linux.zip \ 
 cp -r GameData/EndFieldData/Json Json \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 3. 修改配置
 > [!NOTE]提示
-> 如果你打算在公网服务器上运行 EndFieldPS，请按照以下步骤操作。
+> 如果你打算在公网服务器上运行 ArkFieldPS，请按照以下步骤操作。
 
-先运行一次 EndFieldPS，EndFieldPS 会自动生成 `server_config.json`。
+先运行一次 ArkFieldPS，ArkFieldPS 会自动生成 `server_config.json`。
 
 使用 vim 或 nano 打开 `server_config.json` 文件，将 `dispatchServer.bindAddress` 和 `gameServer.bindAddress` 修改为 `"0.0.0.0"`，并将 `dispatchServer.accessAddress` 和 `gameServer.accessAddress` 修改为你的服务器 IP 地址。
 
@@ -359,7 +359,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -389,5 +389,5 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
 防火墙应当放通 `dispatchServer.accessPort` 和 `gameServer.accessPort` 端口（默认为 5000 和 30000）
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```

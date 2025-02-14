@@ -1,6 +1,6 @@
 [<= Назад к дистрибутивам](../README_ru-RU.md#установка-на-linux)
 
-# Запуск EndFieldPS на Linux
+# Запуск ArkFieldPS на Linux
 
 ## Оглавление
 - Установка зависимостей:
@@ -8,8 +8,8 @@
   - [ArchLinux](#arch-linux)
   - [Fedora](#fedora-workstation)
   - [Ubuntu](#ubuntu)
-- [Установка EndFieldPS](#установка-endfieldps)
-- [Настройка EndFieldPS](#настройка-endfieldps)
+- [Установка ArkFieldPS](#установка-ArkFieldPS)
+- [Настройка ArkFieldPS](#настройка-ArkFieldPS)
 
 ## Установка зависимостей
 
@@ -118,33 +118,33 @@ sudo apt install git wget zip
 
 ---
 
-## Установка EndFieldPS
-1. Установите [приватный сервер](https://github.com/SuikoAkari/EndFieldPS/releases/latest) и [игровые значения](https://github.com/PotRooms/EndFieldData/tree/main):
+## Установка ArkFieldPS
+1. Установите [приватный сервер](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) и [игровые значения](https://github.com/PotRooms/EndFieldData/tree/main):
 
 ```bash
 cd \ 
-mkdir EndFieldPS && cd EndFieldPS \ 
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \ 
+mkdir ArkFieldPS && cd ArkFieldPS \ 
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
 mkdir GameData && cd GameData \ 
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
-2. Извлеките EndFieldPS и скопируйте файлы:
+2. Извлеките ArkFieldPS и скопируйте файлы:
 
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \ 
+unzip ArkFieldPS-master-Linux.zip \ 
 cp -r GameData/EndFieldData/Json Json \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 ===
 
-## Настройка EndfieldPS
+## Настройка ArkFieldPS
 
 1. Настройка файла конфигурации
 > [!NOTE]
-> Если вы хотите запустить EndFieldPS на публичном сервере, пожалуйста, следуйте следующим инструкциям:
+> Если вы хотите запустить ArkFieldPS на публичном сервере, пожалуйста, следуйте следующим инструкциям:
 
 
   Используя vim или nano (или любой другой текстовой редактор), откройте `server_config.json` и измените `dispatchServer.bindAddress` и `gameServer.bindAddress` на `"0.0.0.0"`, `gameServer.accessAddress` - на ваш ip адрес:
@@ -152,7 +152,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -184,5 +184,5 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
   > Не забудьте разрешить порты `gameServer` и `dispatchServer` (по умолчанию это порты 30000 и 5000 соответственно) в вашем брандмауэре, если он включён
 
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```

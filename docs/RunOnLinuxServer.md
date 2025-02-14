@@ -1,4 +1,4 @@
-# Run EndFieldPS on Linux
+# Run ArkFieldPS on Linux
 Contents
 - [Debian 12](#Debian-12) 
 - [ArchLinux](#ArchLinux)
@@ -27,29 +27,29 @@ sudo apt install git wget curl zip
 
     Follow the instruction on [Microsoft](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian)   
 
-### Install EndFieldPS
+### Install ArkFieldPS
 1. Download PS and Data
 
 ```bash
 cd \ 
-mkdir EndFieldPS && cd EndFieldPS \ 
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \ 
+mkdir ArkFieldPS && cd ArkFieldPS \ 
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
 mkdir GameData && cd GameData \ 
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
-2. Extract EndFieldPS and Copy Files
+2. Extract ArkFieldPS and Copy Files
 
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \ 
+unzip ArkFieldPS-master-Linux.zip \ 
 cp -r GameData/EndFieldData/Json Json \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 3. Modify Config
 > [!NOTE]
-> If you want to run endfieldps on a public server, please follow the steps.
+> If you want to run ArkFieldPS on a public server, please follow the steps.
 
 
   Run the PS once, PS will auto generate `server_config.json`
@@ -60,7 +60,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -90,7 +90,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
   Allow port `dispatchServer.accessPort` and `gameServer.accessPort` on firewall
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
 
 
@@ -110,29 +110,29 @@ We need `git`, `zip` and `wget` to get PS files, get them with `pacman`
 sudo pacman -S git zip wget
 ```
 
-### Install EndFieldPS
+### Install ArkFieldPS
 1. Download PS and Data
 
 ```bash
 cd \ 
-mkdir EndFieldPS && cd EndFieldPS \ 
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \ 
+mkdir ArkFieldPS && cd ArkFieldPS \ 
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
 mkdir GameData && cd GameData \ 
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
-2. Extract EndFieldPS and Copy Files
+2. Extract ArkFieldPS and Copy Files
 
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \ 
+unzip ArkFieldPS-master-Linux.zip \ 
 cp -r GameData/EndFieldData/Json Json \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 3. Modify Config
 > [!NOTE]
-> If you want to run endfieldps on a public server, please follow the steps.
+> If you want to run ArkFieldPS on a public server, please follow the steps.
 
 
   Run the PS once, PS will auto generate `server_config.json`
@@ -143,7 +143,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -171,7 +171,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
   Don't forget to allow port `dispatchServer.accessPort` and `gameServer.accessPort` (Default to be 5000 and 30000) on firewall
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
 
 
@@ -221,29 +221,29 @@ sudo systemctl enable mongod.service
 sudo dnf install dotnet-sdk-8.0
 ```
 
-### Install EndFieldPS
+### Install ArkFieldPS
 1. Download PS and Data
 
 ```bash
 cd \ 
-mkdir EndFieldPS && cd EndFieldPS \ 
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \ 
+mkdir ArkFieldPS && cd ArkFieldPS \ 
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
 mkdir GameData && cd GameData \ 
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
-2. Extract EndFieldPS and Copy Files
+2. Extract ArkFieldPS and Copy Files
 
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \ 
+unzip ArkFieldPS-master-Linux.zip \ 
 cp -r GameData/EndFieldData/Json Json \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 3. Modify Config
 > [!NOTE]
-> If you want to run endfieldps on a public server, please follow the steps.
+> If you want to run ArkFieldPS on a public server, please follow the steps.
 
 
   Run the PS once, PS will auto generate `server_config.json`
@@ -254,7 +254,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -284,7 +284,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
   Don't forget to allow port `dispatchServer.accessPort` and `gameServer.accessPort` (Default to be 5000 and 30000) on firewall
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
 
 
@@ -309,29 +309,29 @@ sudo apt install git wget zip
 > [!WARNING]
 > Also, don't forget to select your version of Ubuntu.
 
-### Install EndFieldPS
+### Install ArkFieldPS
 1. Download PS and Data
 
 ```bash
 cd \ 
-mkdir EndFieldPS && cd EndFieldPS \ 
-wget https://github.com/SuikoAkari/EndFieldPS/releases/latest/download/EndFieldPS-master-Linux.zip \ 
+mkdir ArkFieldPS && cd ArkFieldPS \ 
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
 mkdir GameData && cd GameData \ 
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
-2. Extract EndFieldPS and Copy Files
+2. Extract ArkFieldPS and Copy Files
 
 ```bash
 cd .. \
-unzip EndFieldPS-master-Linux.zip \ 
+unzip ArkFieldPS-master-Linux.zip \ 
 cp -r GameData/EndFieldData/Json Json \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
 3. Modify Config
 > [!NOTE]
-> If you want to run endfieldps on a public server, please follow the steps.
+> If you want to run ArkFieldPS on a public server, please follow the steps.
 
 
   Run the PS once, PS will auto generate `server_config.json`
@@ -342,7 +342,7 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 {
   "mongoDatabase": {
     "uri": "mongodb://localhost:27017",
-    "collection": "endfieldps"
+    "collection": "ArkFieldPS"
   },
   "dispatchServer": {
     "bindAddress": "0.0.0.0",
@@ -372,5 +372,5 @@ cp -r GameData/EndFieldData/TableCfg/. TableCfg
 
   Don't forget to allow port `dispatchServer.accessPort` and `gameServer.accessPort` (Default to be 5000 and 30000) on firewall
 ```bash
-./EndFieldPS
+./ArkFieldPS
 ```
