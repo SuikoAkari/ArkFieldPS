@@ -19,7 +19,17 @@ namespace ArkFieldPS.Commands.Handlers
             target.GetCurTeam().ForEach(chara =>
             {
                 chara.curHp = chara.CalcAttributes()[AttributeType.MaxHp].val;
-                
+                ScCharSyncStatus state = new ScCharSyncStatus()
+                {
+                    Objid=chara.guid,
+                    IsDead=chara.curHp < 1,
+                    BattleInfo = new()
+                    {
+                        Hp=chara.curHp,
+                        Ultimatesp=chara.ultimateSp
+                    }
+                };
+                target.Send(ScMessageId.ScCharSyncStatus, state);
             });
             target.Send(ScMessageId.ScSceneRevival, new ScSceneRevival()
             {

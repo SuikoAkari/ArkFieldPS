@@ -18,16 +18,54 @@ namespace ArkFieldPS.Packets.Sc
 
         public PacketScFactorySyncChapter(Player client, string chapterId) {
 
-            
+            string json = File.ReadAllText("ScFactorySyncChapter.json");
+            //ScFactorySyncChapter chapter = Newtonsoft.Json.JsonConvert.DeserializeObject<ScFactorySyncChapter>(json);
             ScFactorySyncChapter chapter = new()
             {
                 ChapterId = chapterId,
-                
-                Tms=DateTime.UtcNow.ToUnixTimestampMilliseconds()/1000,
-                
+
+                Tms = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
+
                 Nodes =
                 {
-                   
+                   new ScdFacNode()
+                   {
+                       NodeId=1,
+                       NodeType=1,
+                       TemplateId="__inventory__",
+                       Transform = new()
+                       {
+                           Position=new(),
+                           Direction=new(),
+                           MapId=0,
+
+                       },
+                       InstKey="",
+                       IsDeactive=true,
+                       Power = new()
+                       {
+
+                       },
+                       ComponentPos={
+                           {11, 1}
+                       },
+                       Components =
+                       {
+                           new ScdFacCom()
+                           {
+                               ComponentId=1,
+                               ComponentType=4,
+                               Inventory = new()
+                               {
+                                   Items =
+                                   {
+
+                                   }
+                               },
+                               
+                           }
+                       }
+                   }
                 },
                 Blackboard = new()
                 {
@@ -39,7 +77,7 @@ namespace ArkFieldPS.Packets.Sc
                         PowerSaveCurrent=0,
                         PowerCost=0
                     },
-                    InventoryNodeId=0
+                    InventoryNodeId=1
                 },
                 Statistic = new()
                 {
@@ -66,7 +104,6 @@ namespace ArkFieldPS.Packets.Sc
                 },
                 Scenes =
                 {
-                    
                 },
                 
                 

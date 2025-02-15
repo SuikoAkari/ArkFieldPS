@@ -36,6 +36,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="92_ScSyncAllBitset.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="93_ScSceneMapMarkSync.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Data\GachaHistory\index_noplayerfound.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -57,6 +63,9 @@
 	<None Update="Data\PlayerConsole\index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+	<None Update="ScFactorySyncChapter.json">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
     <None Update="TableCfg\AbilityEntityTable.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

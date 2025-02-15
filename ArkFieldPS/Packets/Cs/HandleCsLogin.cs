@@ -153,6 +153,10 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(new PacketScSyncAllGameVar(session));
             session.Send(new PacketScSyncAllUnlock(session));
             session.Send(new PacketScSyncAllBitset(session));
+
+            string json = File.ReadAllText("93_ScSceneMapMarkSync.json");
+            ScSceneMapMarkSync chapter = Newtonsoft.Json.JsonConvert.DeserializeObject<ScSceneMapMarkSync>(json);
+            session.Send(ScMessageId.ScSceneMapMarkSync, chapter);
             session.Send(new PacketScAdventureSyncAll(session));
             ScFactorySync fsync = new()
             {
@@ -178,8 +182,8 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(ScMessageId.ScFactorySync, fsync);
             //session.Send(new PacketScFactorySync(session));
             session.Send(new PacketScFactorySyncScope(session));
-            session.Send(new PacketScFactorySyncChapter(session, "domain_1"),0,2,0);
-            session.Send(new PacketScFactorySyncChapter(session, "domain_2"),0,2,1);
+            session.Send(new PacketScFactorySyncChapter(session, "domain_1"));
+            session.Send(new PacketScFactorySyncChapter(session, "domain_2"));
             session.Send(new PacketScSyncCharBagInfo(session));
             session.Send(new PacketScSyncAllDialog(session));
             session.Send(new PacketScSpaceshipSync(session));
