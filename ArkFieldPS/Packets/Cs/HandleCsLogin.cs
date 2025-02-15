@@ -189,24 +189,10 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(new PacketScSpaceshipSync(session));
             session.Send(new PacketScSyncFullDungeonStatus(session));
             session.Send(new PacketScActivitySync(session));
-            session.Send(ScMessageId.ScSyncAllMission, new ScSyncAllMission()
-            {
-                CurQuests =
-                {
-                    {"e5m2_q#5d3", new Quest()
-                    {
-                        QuestId="e5m2_q#5d3",
-                        QuestState=1,
-                        QuestObjectives =
-                        {
-                            new QuestObjective()
-                            {
-                                
-                            }
-                        }
-                    } }
-                }
-            });
+            string json1 = File.ReadAllText("44_ScSyncAllMission.json");
+            ScSyncAllMission m = Newtonsoft.Json.JsonConvert.DeserializeObject<ScSyncAllMission>(json1);
+            
+            session.Send(ScMessageId.ScSyncAllMission, m);
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene();
             session.Initialized = true;

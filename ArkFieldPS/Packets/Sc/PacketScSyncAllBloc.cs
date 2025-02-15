@@ -20,6 +20,22 @@ namespace ArkFieldPS.Packets.Sc
                 Blocs =
                 {
 
+                },
+                Shops =
+                {
+                    new ShopInfo()
+                    {
+                        Shopid="bloc01_shop",
+                    },
+                    new ShopInfo()
+                    {
+                        Shopid="bloc02_shop",
+                    },
+                    new ShopInfo()
+                    {
+                        Shopid="temp_shop",
+                        Type=1,
+                    }
                 }
             };
             foreach (var bloc in blocDataTable)

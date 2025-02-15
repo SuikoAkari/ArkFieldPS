@@ -142,6 +142,16 @@ namespace ArkFieldPS.Game.Inventory
             return found;
         }
 
+        public Dictionary<uint, int> GetInventoryChapter(string chapterId)
+        {
+            Dictionary<uint, int> dir= new Dictionary<uint, int>();
+            List<Item> citems = items.FindAll(i=>!i.InstanceType());
+            foreach (Item item in citems)
+            {
+                dir.Add((uint)ResourceManager.strIdNumTable.item_id.dic[item.id], item.amount);
+            }
 
+            return dir;
+        }
     }
 }

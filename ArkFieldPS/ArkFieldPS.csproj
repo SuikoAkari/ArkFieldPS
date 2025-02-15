@@ -36,6 +36,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="44_ScSyncAllMission.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="92_ScSyncAllBitset.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

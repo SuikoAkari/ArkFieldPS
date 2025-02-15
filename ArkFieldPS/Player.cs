@@ -230,6 +230,9 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.Dungeon);
             unlockedSystems.Add((int)UnlockSystemType.RacingDungeon);
             unlockedSystems.Add((int)UnlockSystemType.CheckIn);
+            unlockedSystems.Add((int)UnlockSystemType.SubmitEther);
+            unlockedSystems.Add((int)UnlockSystemType.FacZone);
+
         }
         public void EnterScene()
         {

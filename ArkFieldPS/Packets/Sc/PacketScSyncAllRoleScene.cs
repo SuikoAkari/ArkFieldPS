@@ -1,5 +1,7 @@
 ﻿using ArkFieldPS.Network;
 using ArkFieldPS.Protocol;
+using ArkFieldPS.Resource;
+using ArkFieldPS.Resource.Table;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,13 +31,14 @@ namespace ArkFieldPS.Packets.Sc
                 SubmitEtherLevel = 1,
 
             };
-            foreach (var scene in levelDatas)
+           
+            foreach (var scene in ResourceManager.levelGradeTable)
             {
                 role.SceneGradeInfo.Add(new SceneGradeInfo()
                 {
                     Grade=1,
-                    LastDownTs= DateTime.UtcNow.ToUnixTimestampMilliseconds()/1000,
-                    SceneNumId=scene.idNum,
+                    //LastDownTs= DateTime.UtcNow.ToUnixTimestampMilliseconds()/1000,
+                    SceneNumId=GetSceneNumIdFromLevelData(scene.Value.name),
                     
                 });
             }
@@ -54,7 +57,7 @@ namespace ArkFieldPS.Packets.Sc
                 foreach (var area in areas)
                 {
 
-                    u.UnlockAreaId.Add(area.areaId);
+                  //  u.UnlockAreaId.Add(area.areaId);
                 }
                 role.UnlockAreaInfo.Add(u);
             }
