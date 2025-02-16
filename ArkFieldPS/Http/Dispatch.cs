@@ -122,6 +122,17 @@ namespace ArkFieldPS.Http
 
             await ctx.Response.SendAsync(resp);
         }
+        [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/3/prod-cbt/default/Windows/game_config")]
+        public static async Task game_config_cn(HttpContext ctx)
+        {
+            string resp = "{\"mockLogin\": false, \"selectSrv\": false, \"enableHotUpdate\": false, \"enableEntitySpawnLog\": false}";
+
+            ctx.Response.StatusCode = 200;
+            ctx.Response.ContentLength = resp.Length;
+            ctx.Response.ContentType = "application/json";
+
+            await ctx.Response.SendAsync(resp);
+        }
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/gameBulletin/version")]
         public static async Task Version(HttpContext ctx)
         {
