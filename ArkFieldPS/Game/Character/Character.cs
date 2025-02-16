@@ -64,6 +64,7 @@ namespace ArkFieldPS.Game.Character
                 attributes[AttributeType.Atk] = (attributes[AttributeType.Atk].baseVal + curve.baseAtk, attributes[AttributeType.Atk].baseVal + curve.baseAtk);
 
             }
+            
             //Won't be very precise but for now
             foreach (var equip in equipCol)
             {
@@ -88,6 +89,7 @@ namespace ArkFieldPS.Game.Character
                     }
                 }
             }
+            attributes[AttributeType.MaxHp] = (attributes[AttributeType.MaxHp].baseVal, attributes[AttributeType.MaxHp].val + attributes[AttributeType.Str].val * 10);
             return attributes;
         }
         public double GetValueDic(Dictionary<AttributeType, (double baseVal, double val)> dic, AttributeType type)

@@ -100,6 +100,17 @@ namespace ArkFieldPS.Http
 
             await ctx.Response.SendAsync(resp);
         }
+        [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/3/prod-cbt/default/default/network_config")]
+        public static async Task network_config_cn(HttpContext ctx)
+        {
+            string resp = "{\"asset\":\"https://beyond.hg-cdn.com/asset/\",\"hgage\":\"\",\"sdkenv\":\"2\",\"u8root\":\"https://u8.gryphline.com/u8\",\"appcode\":4,\"channel\":\"prod\",\"netlogid\":\"GFz8RRMDN45w\",\"gameclose\":false,\"netlogurl\":\"http://native-log-collect.gryphline.com:32000/\",\"accounturl\":\"https://binding-api-account-prod.gryphline.com\",\"launcherurl\":\"https://launcher.gryphline.com\"}";
+
+            ctx.Response.StatusCode = 200;
+            ctx.Response.ContentLength = resp.Length;
+            ctx.Response.ContentType = "application/json";
+
+            await ctx.Response.SendAsync(resp);
+        }
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/1003/prod-cbt/default/Windows/game_config")]
         public static async Task game_config(HttpContext ctx)
         {
@@ -142,13 +153,40 @@ namespace ArkFieldPS.Http
         public struct LoginJson
         {
             public string email;
+            public string phone;
             public int from;
             public string password;
         }
-       
-       
-        
 
+        [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/3/prod-cbt/default/Windows/res_version")]
+        public static async Task cn_res_version(HttpContext ctx)
+        {
+
+            string resp = "{\"version\": \"2089329-32\", \"kickFlag\": true}";
+
+
+            ctx.Response.StatusCode = 200;
+            //ctx.Response.ContentLength = resp.Length;
+            ctx.Response.ContentType = "application/json";
+
+            await ctx.Response.SendAsync(resp);
+        }
+
+        [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/3/prod-cbt/default/default/server_config_China")]
+        public static async Task server_config_China(HttpContext ctx)
+        {
+            string requestBody = ctx.Request.DataAsString;
+            Console.WriteLine(requestBody);
+            string resp = "{\"addr\": \"" + Server.config.gameServer.accessAddress + "\", \"port\": " + Server.config.gameServer.accessPort + "}";
+
+
+
+            ctx.Response.StatusCode = 200;
+
+            ctx.Response.ContentType = "application/json";
+
+            await ctx.Response.SendAsync(resp);
+        }
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/api/remote_config/get_remote_config/1003/prod-cbt/default/default/server_config_EUAndUS")]
         public static async Task server_config_EUAndUS(HttpContext ctx)
         {

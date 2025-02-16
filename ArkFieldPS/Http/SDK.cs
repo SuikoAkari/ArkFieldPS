@@ -13,6 +13,47 @@ namespace ArkFieldPS.Http
 {
     public class SDK
     {
+        
+        [StaticRoute(HttpServerLite.HttpMethod.POST, "/user/info/v1/authenticate")]
+        public static async Task cn_authenticate(HttpContext ctx)
+        {
+            string requestBody = ctx.Request.DataAsString;
+            Console.WriteLine(requestBody);
+            string resp = "{}";
+            
+
+            ctx.Response.StatusCode = 200;
+            //ctx.Response.ContentLength = resp.Length;
+            ctx.Response.ContentType = "application/json";
+
+            await ctx.Response.SendAsync(resp);
+
+        }
+
+        [StaticRoute(HttpServerLite.HttpMethod.POST, "/user/auth/v1/token_by_phone_password")]
+        public static async Task token_login_phone_cn(HttpContext ctx)
+        {
+            string requestBody = ctx.Request.DataAsString;
+            LoginJson body = Newtonsoft.Json.JsonConvert.DeserializeObject<LoginJson>(requestBody);
+            Account account = DatabaseManager.db.GetAccountByUsername(body.phone);
+            Console.WriteLine(requestBody);
+            string resp = "{}";
+            if (account != null)
+            {
+                resp = "{\"msg\":\"OK\",\"status\":0,\"type\":\"A\",\"data\":{\"token\":\"" + account.token + "\"}}";
+            }
+            else
+            {
+                resp = "{\"msg\":\"Account not found\",\"status\":2,\"type\":\"A\"}";
+            }
+
+            ctx.Response.StatusCode = 200;
+            //ctx.Response.ContentLength = resp.Length;
+            ctx.Response.ContentType = "application/json";
+
+            await ctx.Response.SendAsync(resp);
+
+        }
         [StaticRoute(HttpServerLite.HttpMethod.POST, "/user/auth/v1/token_by_email_password")]
         public static async Task token_login(HttpContext ctx)
         {
@@ -37,6 +78,8 @@ namespace ArkFieldPS.Http
             await ctx.Response.SendAsync(resp);
 
         }
+        
+        
         [StaticRoute(HttpServerLite.HttpMethod.GET, "/user/info/v1/basic")]
         public static async Task account_info_get(HttpContext ctx)
         {
@@ -45,7 +88,7 @@ namespace ArkFieldPS.Http
             string resp = "{\"data\":{\"hgId\":\"1799321925\",\"email\":\"dispatch@endfield.ps\",\"realEmail\":\"dispatch@endfield.ps\",\"isLatestUserAgreement\":true,\"nickName\":\"ArkField PS\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
             if (account != null)
             {
-                resp = "{\"data\":{\"hgId\":\"" + account.id + "\",\"email\":\"" + account.username +Server.config.dispatchServer.emailFormat +"\",\"realEmail\":\"" + account.username + Server.config.dispatchServer.emailFormat + "\",\"isLatestUserAgreement\":true,\"nickName\":\"" + account.username + "\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
+                resp = "{\"data\":{\"idCardNum\": 110102200610048887,\"hgId\":\"" + account.id + "\",\"email\":\"" + account.username +Server.config.dispatchServer.emailFormat +"\",\"realEmail\":\"" + account.username + Server.config.dispatchServer.emailFormat + "\",\"isLatestUserAgreement\":true,\"nickName\":\"" + account.username + "\",\"name\":\"AAAA\"},\"msg\":\"OK\",\"status\":0,\"type\":1}";
             }
             else
             {
@@ -104,6 +147,7 @@ namespace ArkFieldPS.Http
 
             await ctx.Response.SendAsync(resp);
         }
+        
         public class TokenChannelData
         {
             public string channelToken;
@@ -122,7 +166,7 @@ namespace ArkFieldPS.Http
                 Console.WriteLine(requestBody);
                 TokenChannelData data = Newtonsoft.Json.JsonConvert.DeserializeObject<TokenChannelData>(requestBody);
                 ChannelTokenData channelTokenBody = Newtonsoft.Json.JsonConvert.DeserializeObject<ChannelTokenData>(data.channelToken);
-                string resp = "{  \"data\": {    \"token\":\"" + channelTokenBody.code + "\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"\"}";
+                string resp = "{  \"data\": {    \"token\":\"" + channelTokenBody.code + "\"  },  \"msg\": \"OK\",  \"status\": 0,  \"type\": \"A\"}";
 
                 ctx.Response.StatusCode = 200;
 
