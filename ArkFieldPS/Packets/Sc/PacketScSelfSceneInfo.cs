@@ -1,4 +1,5 @@
-﻿using ArkFieldPS.Network;
+﻿using ArkFieldPS.Game.Entities;
+using ArkFieldPS.Network;
 using ArkFieldPS.Protocol;
 using ArkFieldPS.Resource;
 using System;
@@ -33,8 +34,12 @@ namespace ArkFieldPS.Packets.Sc
                 Detail = new()
                 {
                     TeamIndex = session.teamIndex,
-
+                    
                         
+                },
+                LevelScripts =
+                {
+
                 }
             };
             if (session.currentDungeon != null)
@@ -60,8 +65,17 @@ namespace ArkFieldPS.Packets.Sc
             {
                 sceneInfo.Detail.CharList.Add(session.chars.Find(c => c.guid == m).ToSceneProto());
             });
-               
-                
+
+            //Levelscripts here?
+            ResourceManager.GetLevelData(session.curSceneNumId).levelData.levelScripts.ForEach(l =>
+            {
+                sceneInfo.LevelScripts.Add(new LevelScriptInfo()
+                {
+                    ScriptId = l.scriptId,
+                    IsDone=true,
+                    State=2
+                });
+            });
             SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
             
            

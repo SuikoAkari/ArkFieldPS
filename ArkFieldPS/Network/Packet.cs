@@ -148,6 +148,25 @@ namespace ArkFieldPS.Network
 
             return data;
         }
+        public static byte[] EncodePacket(int msgId, byte[] body, ulong seqNext_ = 0, uint totalPackCount = 1, uint currentPackIndex = 0)
+        {
+            if (seqNext_ == 0)
+            {
+                seqNext_ = seqNext;
+            }
+            seqNext++;
+            CSHead head = new() { Msgid = msgId, UpSeqid = seqNext_, DownSeqid = seqNext, TotalPackCount = totalPackCount, CurrentPackIndex = currentPackIndex };
+            int totalSerializedDataSize = 3 + head.ToByteArray().Length + body.Length;
+            byte[] data = new byte[totalSerializedDataSize];
+            PutByte(data, (byte)head.ToByteArray().Length, 0);
+            PutUInt16(data, (ushort)body.Length, 1);
+            PutByteArray(data, head.ToByteArray(), 3);
+            PutByteArray(data, body, 3 + head.ToByteArray().Length);
+            if (Server.config.logOptions.packets)
+                Logger.Print($"Sending packet: {((ScMessageId)msgId).ToString().Pastel(Color.LightBlue)} id: {msgId} with {data.Length} bytes");
+
+            return data;
+        }
         public static Packet Read(Player client,byte[] byteArray)
         {
             byte headLength = GetByte(byteArray, 0);

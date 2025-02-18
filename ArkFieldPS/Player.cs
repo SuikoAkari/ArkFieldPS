@@ -33,10 +33,34 @@ namespace ArkFieldPS
     public class GuidRandomizer
     {
         public ulong v = 1;
+        public List<ulong> usedGuids = new();
+        public Random random = new();
         public ulong Next()
         {
             v++;
             return (ulong)v;
+        }
+        
+        public ulong NextRand()
+        {
+            ulong val = (ulong)random.NextInt64((long)10000000);
+            if(val >= IdConst.MAX_GLOBAL_ID)
+            {
+                return NextRand();
+            }
+            if(val <= v)
+            {
+                return NextRand();
+            }
+            if (usedGuids.Contains(val))
+            {
+                return NextRand();
+            }
+            else
+            {
+                usedGuids.Add(val);
+                return val;
+            }
         }
     }
     public class Player
@@ -301,6 +325,32 @@ namespace ArkFieldPS
         public void Send(ScMessageId id,IMessage mes, ulong seq = 0, uint totalPackCount = 1, uint currentPackIndex = 0)
         {
             Send(Packet.EncodePacket((int)id, mes, seq, totalPackCount, currentPackIndex));
+        }
+        public void Send(Packet packet)
+        {
+            byte[] datas = packet.set_body.ToByteArray();
+            int maxChunkSize = 65535;
+            int totalChunks = (int)Math.Ceiling((double)datas.Length / maxChunkSize);
+            List<byte[]> chunks = new List<byte[]>();
+            for (int i = 0; i < totalChunks; i++)
+            {
+                int offset = i * maxChunkSize;
+                int chunkSize = Math.Min(maxChunkSize, datas.Length - offset);
+
+                // Crea un nuovo chunk
+                byte[] chunk = new byte[chunkSize];
+                Array.Copy(datas, offset, chunk, 0, chunkSize);
+
+                // Aggiungi il chunk alla lista
+                chunks.Add(chunk);
+            }
+
+            // Stampa i chunk (opzionale)
+            for (int i = 0; i < chunks.Count; i++)
+            {
+                byte[] data = chunks[i];
+                Send(Packet.EncodePacket(packet.cmdId, data,0, (uint)chunks.Count, (uint)i));
+            }
         }
         public void Send(byte[] data)
         {

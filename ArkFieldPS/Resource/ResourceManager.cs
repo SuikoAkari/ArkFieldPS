@@ -3,10 +3,12 @@ using ArkFieldPS.Resource.Table;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static ArkFieldPS.Resource.ResourceManager;
+using static ArkFieldPS.Resource.ResourceManager.LevelScene;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ArkFieldPS.Resource
@@ -21,7 +23,7 @@ namespace ArkFieldPS.Resource
         static System.Int32 LOCAL_ID_SEGMENT = 10000;
         static System.Int32 MAX_LOCAL_ID_BOUND = 100000000;
         static System.Int32 MAX_LEVEL_ID_BOUND = 100000;
-        static System.UInt64 MAX_GLOBAL_ID = 10000000000000;
+        public static System.UInt64 MAX_GLOBAL_ID = 10000000000000;
         static System.UInt64 MAX_RUNTIME_CLIENT_ID = 2305843009213693952;
     }
     //TODO Move all tables to separated class
@@ -62,7 +64,7 @@ namespace ArkFieldPS.Resource
         public static Dictionary<string, LevelGradeTable> levelGradeTable = new();
         public static StrIdNumTable dialogIdTable = new();
 
-        public static List<LevelData> levelDatas = new();
+        public static List<LevelScene> levelDatas = new();
 
         public static int GetSceneNumIdFromLevelData(string name)
         {
@@ -146,7 +148,7 @@ namespace ArkFieldPS.Resource
         {
             return itemTable[id];
         }
-        public static LevelData GetLevelData(int sceneNumId)
+        public static LevelScene GetLevelData(int sceneNumId)
         {
            return levelDatas.Find(e => e.idNum == sceneNumId);
         }
@@ -264,11 +266,11 @@ namespace ArkFieldPS.Resource
             
             return bits;
         }
-        public static LevelData GetLevelData(string sceneId)
+        public static LevelScene GetLevelData(string sceneId)
         {
             if(levelDatas.Find(e => e.id == sceneId) == null)
             {
-                return new LevelData();
+                return new LevelScene();
             }
             return levelDatas.Find(e => e.id==sceneId);
         }
@@ -283,7 +285,26 @@ namespace ArkFieldPS.Resource
             string[] jsonFiles = Directory.GetFiles(directoryPath, "*.json", SearchOption.AllDirectories);
             foreach(string json in jsonFiles)
             {
-                LevelData data = JsonConvert.DeserializeObject<LevelData>(ReadJsonFile(json));
+                if (json.Contains("_lv_data"))
+                {
+                    continue;
+                }
+                LevelScene data = JsonConvert.DeserializeObject<LevelScene>(ReadJsonFile(json));
+                try
+                {
+                    
+                    LevelData data_lv = JsonConvert.DeserializeObject<LevelData>(File.ReadAllText("Json/"+data.levelDataPaths[0]));
+                    data.levelData = data_lv;
+
+                }
+                catch (Exception ex)
+                {
+                    //Logger.PrintError(ex.Message);
+                    Logger.PrintWarn("Missing levelData natural spawns for scene " + data.mapIdStr+" path: "+data.levelDataPaths[0]);
+                    data.levelData = new();
+                }
+                
+                
                 levelDatas.Add(data);
                // Print("Loading " + data.id);
             }
@@ -367,7 +388,7 @@ namespace ArkFieldPS.Resource
             public string systemId;
 
         }
-        public class LevelData
+        public class LevelScene
         {
             public string id;
             public int idNum;
@@ -376,6 +397,67 @@ namespace ArkFieldPS.Resource
 
             public Vector3f playerInitPos;
             public Vector3f playerInitRot;
+            public List<string> levelDataPaths;
+            [JsonIgnore]
+            public LevelData levelData;
+            public class LevelData
+            {
+                public string sceneId="";
+                public int levelIdNum;
+                public List<LevelEnemyData> enemies=new();
+                public List<LevelInteractiveData> interactives = new();
+                public List<LevelNpcData> npcs = new();
+                public List<LevelScriptData> levelScripts = new();
+                public class LevelScriptData
+                {
+                    public ulong scriptId;
+                }
+                public class LevelNpcData
+                {
+                    public ulong levelLogicId;
+                    public ulong belongLevelScriptId;
+                    public ObjectType entityType;
+                    public string entityDataIdKey;
+                    public bool defaultHide;
+                    public Vector3f position;
+                    public Vector3f rotation;
+                    public Vector3f scale;
+                    public bool forceLoad;
+                    public bool doPatrol;
+                    public string npcGroupId;
+                }
+                public class LevelInteractiveData
+                {
+                    public ulong levelLogicId;
+                    public ulong belongLevelScriptId;
+                    public ObjectType entityType;
+                    public string entityDataIdKey;
+                    public bool defaultHide;
+                    public Vector3f position;
+                    public Vector3f rotation;
+                    public Vector3f scale;
+                    public bool forceLoad;
+                    public int level;
+                    public int dependencyGroupId;
+                }
+                public class LevelEnemyData
+                {
+                    public ulong levelLogicId;
+                    public ulong belongLevelScriptId;
+                    public ObjectType entityType;
+                    public string entityDataIdKey;
+                    public bool defaultHide;
+                    public Vector3f position;
+                    public Vector3f rotation;
+                    public Vector3f scale;
+                    public bool forceLoad;
+                    public int level;
+                    public string overrideAIConfig;
+                    public int enemyGroupId;
+                    public bool respawnable;
+
+                }
+            }
         }
         public class Vector3f
         {

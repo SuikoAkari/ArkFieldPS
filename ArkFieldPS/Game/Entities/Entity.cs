@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ArkFieldPS.Resource;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,10 @@ namespace ArkFieldPS.Game.Entities
         public int level;
         public ulong worldOwner;
         public double curHp;
-
+        public ulong levelLogicId;
+        public ulong belongLevelScriptId;
+        public int dependencyGroupId;
+        public ObjectType type;
         public Vector3f Position=new();
         public Vector3f Rotation = new();
         public Entity()

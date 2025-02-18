@@ -16,9 +16,16 @@ namespace ArkFieldPS.Game.Entities
         {
 
         }
-        public EntityInteractive(string templateId, ulong worldOwner, Vector3f pos, Vector3f rot)
+        public EntityInteractive(string templateId, ulong worldOwner, Vector3f pos, Vector3f rot,ulong g=0)
         {
-            this.guid = (ulong)new Random().NextInt64();
+            if (g == 0)
+            {
+                this.guid = (ulong)new Random().NextInt64();
+            }
+            else
+            {
+                this.guid = g;
+            }
             this.level = 1;
             this.worldOwner = worldOwner;
             this.Position = pos;
@@ -29,6 +36,7 @@ namespace ArkFieldPS.Game.Entities
         
         public SceneInteractive ToProto()
         {
+            
             SceneInteractive proto = new SceneInteractive()
             {
                 CommonInfo = new()
@@ -36,14 +44,24 @@ namespace ArkFieldPS.Game.Entities
                     Hp = 100,
                     Id = guid,
                     Templateid = templateId,
-                    
+                    BelongLevelScriptId = belongLevelScriptId,
+
                     SceneNumId = GetOwner().curSceneNumId,
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
-                    
-                    Type = 32, 
+
+                    Type = (int)type,
                 },
-                
+
+                Meta =dependencyGroupId,
+                BattleInfo = new()
+                {
+                    
+                },
+                Properties =
+                {
+                   
+                }
 
             };
             return proto;

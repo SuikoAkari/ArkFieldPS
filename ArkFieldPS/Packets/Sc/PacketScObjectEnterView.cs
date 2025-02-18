@@ -20,10 +20,15 @@ namespace ArkFieldPS.Packets.Sc
             {
                 Detail = new()
                 {
-                    
+                    SummonList =
+                    {
+                      
+                    }
                 },
                 
+                HasExtraObject = true
             };
+            
             foreach (Entity entity in entities)
             {
                 if (entity is EntityMonster)

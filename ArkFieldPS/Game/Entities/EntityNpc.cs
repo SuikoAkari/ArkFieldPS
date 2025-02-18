@@ -36,14 +36,15 @@ namespace ArkFieldPS.Game.Entities
                     Hp = 100,
                     Id = guid,
                     Templateid = templateId,
-
+                    BelongLevelScriptId=belongLevelScriptId,
+                    
                     SceneNumId = GetOwner().curSceneNumId,
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
 
-                    Type = 0, 
+                    Type = (int)type, 
                 },
-
+                
 
             };
             return proto;

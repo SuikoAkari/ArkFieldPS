@@ -9,6 +9,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using static ArkFieldPS.Resource.ResourceManager;
 
 namespace ArkFieldPS.Game
 {
@@ -27,6 +28,7 @@ namespace ArkFieldPS.Game
 
             if (scene != null)
             {
+                player.random.usedGuids.Clear();
                 scene.Unload();
             }
 
@@ -114,7 +116,7 @@ namespace ArkFieldPS.Game
             {
                 scenes.Add(new Scene()
                 {
-                    guid = (ulong)new Random().NextInt64(1000000000000),
+                    guid = (ulong)player.random.NextRand(),
                     ownerId=player.roleId,
                     sceneNumId=level.idNum,
 
@@ -152,10 +154,46 @@ namespace ArkFieldPS.Game
                     entities.Add(npc);
                 }*/
             }
-            //Load actual scene entities (Missing full LevelData for that)
-
-            //Send all entities excluding chars that are spawned different
+            LevelScene lv_scene = ResourceManager.GetLevelData(sceneNumId);
+            lv_scene.levelData.interactives.ForEach(en =>
+            {
+                //if (en.defaultHide && en.entityDataIdKey!= "int_spacestation_center_controller" && !en.entityDataIdKey.Contains("hub")) return;
+                EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation,GetOwner().random.NextRand())
+                {
+                    belongLevelScriptId=en.belongLevelScriptId,
+                    dependencyGroupId=en.dependencyGroupId,
+                    levelLogicId=en.levelLogicId,
+                    type = en.entityType,
+                };
+                entities.Add(entity);
+            });
+            lv_scene.levelData.enemies.ForEach(en =>
+            {
+                if(en.defaultHide) return;
+                EntityMonster entity = new(en.entityDataIdKey,en.level,ownerId,en.position,en.rotation,GetOwner().random.NextRand())
+                {
+                    type=en.entityType,
+                    belongLevelScriptId=en.belongLevelScriptId,
+                    levelLogicId=en.levelLogicId
+                };
+                entities.Add(entity);
+            });
+            lv_scene.levelData.npcs.ForEach(en =>
+            {
+                if (en.defaultHide) return;
+                if (en.npcGroupId.Contains("chr")) return;
+                EntityNpc entity = new(en.entityDataIdKey,ownerId,en.position,en.rotation,GetOwner().random.NextRand())
+                {
+                    belongLevelScriptId = en.belongLevelScriptId,
+                    levelLogicId = en.levelLogicId,
+                    type = en.entityType,
+                    
+                };
+                entities.Add(entity);
+            });
+            
             GetOwner().Send(new PacketScObjectEnterView(GetOwner(), GetEntityExcludingChar()));
+           
         }
        
         public Player GetOwner()

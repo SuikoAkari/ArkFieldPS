@@ -105,7 +105,21 @@ namespace ArkFieldPS.Resource
         RemoteFactoryEntity = 2048,
         Creature = 4096
     }
-    public enum EntityDataType // TypeDefIndex: 24999
+enum ParamValueType
+{
+
+    Invalid = 0,
+    Bool = 1,
+    BoolList = 2,
+    Int = 3,
+    IntList = 4,
+    Float = 5,
+    FloatList = 6,
+    String = 7,
+    StringList = 8,
+
+}
+public enum EntityDataType // TypeDefIndex: 24999
     {
         Character = 0,
         Enemy = 1,

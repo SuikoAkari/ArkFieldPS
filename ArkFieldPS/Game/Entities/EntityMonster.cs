@@ -16,9 +16,17 @@ namespace ArkFieldPS.Game.Entities
         {
 
         }
-        public EntityMonster(string templateId, int level, ulong worldOwner, Vector3f pos, Vector3f rot)
+        public EntityMonster(string templateId, int level, ulong worldOwner, Vector3f pos, Vector3f rot,ulong g=0)
         {
-            this.guid = (ulong)new Random().NextInt64();
+            if (g == 0)
+            {
+                this.guid = (ulong)new Random().NextInt64();
+            }
+            else
+            {
+                this.guid = g;
+            }
+            
             this.level = level;
             this.worldOwner = worldOwner;
             this.Position = pos;
@@ -70,12 +78,12 @@ namespace ArkFieldPS.Game.Entities
                     Hp = curHp,
                     Id = guid,
                     Templateid = templateId,
-
+                    BelongLevelScriptId = belongLevelScriptId,
                     SceneNumId = GetOwner().curSceneNumId,
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
 
-                    Type = 3, 
+                    Type = (int)type, 
                 },
                 Attrs =
                 {
@@ -85,7 +93,7 @@ namespace ArkFieldPS.Game.Entities
                 {
                     
                 },
-
+                
             };
             return proto;
         }
