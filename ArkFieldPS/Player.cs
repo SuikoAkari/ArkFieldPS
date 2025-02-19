@@ -188,7 +188,7 @@ namespace ArkFieldPS
             teams.Add(new Team());
             teams.Add(new Team());
 
-            mails.Add(new Mail()
+            /*mails.Add(new Mail()
             {
                 expireTime=DateTime.UtcNow.AddDays(30).Ticks,
                 sendTime=DateTime.UtcNow.Ticks,
@@ -204,7 +204,7 @@ namespace ArkFieldPS
                     templateId="",
                 }
 
-            });
+            });*/
 
             UnlockImportantSystems();
             spaceshipManager.Load();
@@ -397,10 +397,10 @@ namespace ArkFieldPS
                                 Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
                                 Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());
                             }
-
+                            NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
                             try
                             {
-                                NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
+                               
                             }
                             catch (Exception e)
                             {

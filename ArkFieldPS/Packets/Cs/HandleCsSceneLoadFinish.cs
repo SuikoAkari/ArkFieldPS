@@ -26,9 +26,14 @@ namespace ArkFieldPS.Packets.Cs
         {
             CsSceneLoadFinish req = packet.DecodeBody<CsSceneLoadFinish>();
             session.Send(new PacketScSelfSceneInfo(session, SelfInfoReasonType.SlrEnterScene));
-
+            
             session.sceneManager.LoadCurrentTeamEntities();
             session.sceneManager.LoadCurrent();
+            session.Send(ScMessageId.ScSceneClientIdInfo, new ScSceneClientIdInfo()
+            {
+                RoleIdx = (uint)session.roleId,
+                LastMaxIdx = session.random.usedGuids.Max()
+            });
             if (session.curSceneNumId == 98)
             {
                 session.Send(new PacketScSyncGameMode(session, "spaceship"));

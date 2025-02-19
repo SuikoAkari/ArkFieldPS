@@ -155,10 +155,11 @@ namespace ArkFieldPS.Game
                 }*/
             }
             LevelScene lv_scene = ResourceManager.GetLevelData(sceneNumId);
+            GetOwner().random.NextRand();
             lv_scene.levelData.interactives.ForEach(en =>
             {
                 //if (en.defaultHide && en.entityDataIdKey!= "int_spacestation_center_controller" && !en.entityDataIdKey.Contains("hub")) return;
-                EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation,GetOwner().random.NextRand())
+                EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation, en.levelLogicId)
                 {
                     belongLevelScriptId=en.belongLevelScriptId,
                     dependencyGroupId=en.dependencyGroupId,
@@ -172,7 +173,7 @@ namespace ArkFieldPS.Game
             lv_scene.levelData.enemies.ForEach(en =>
             {
                 if(en.defaultHide) return;
-                EntityMonster entity = new(en.entityDataIdKey,en.level,ownerId,en.position,en.rotation,GetOwner().random.NextRand())
+                EntityMonster entity = new(en.entityDataIdKey,en.level,ownerId,en.position,en.rotation, en.levelLogicId)
                 {
                     type=en.entityType,
                     belongLevelScriptId=en.belongLevelScriptId,
@@ -184,7 +185,7 @@ namespace ArkFieldPS.Game
             {
                 if (en.defaultHide) return;
                 if (en.npcGroupId.Contains("chr")) return;
-                EntityNpc entity = new(en.entityDataIdKey,ownerId,en.position,en.rotation,GetOwner().random.NextRand())
+                EntityNpc entity = new(en.entityDataIdKey,ownerId,en.position,en.rotation,en.levelLogicId)
                 {
                     belongLevelScriptId = en.belongLevelScriptId,
                     levelLogicId = en.levelLogicId,

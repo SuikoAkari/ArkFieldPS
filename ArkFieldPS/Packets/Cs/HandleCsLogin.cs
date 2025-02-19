@@ -154,7 +154,7 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(new PacketScSyncAllUnlock(session));
             session.Send(new PacketScSyncAllBitset(session));
             session.Send(new PacketScSyncAllMiniGame(session));
-
+           
             string json = File.ReadAllText("93_ScSceneMapMarkSync.json");
             ScSceneMapMarkSync chapter = Newtonsoft.Json.JsonConvert.DeserializeObject<ScSceneMapMarkSync>(json);
             session.Send(ScMessageId.ScSceneMapMarkSync, chapter);
