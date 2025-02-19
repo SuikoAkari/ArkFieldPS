@@ -78,7 +78,7 @@
 
 ## Additional Information
 
-You can achieve a teleportation effect by editing the `players` entry in the `endfieldps` collection of your MongoDB. This allows you to explore areas that are normally blocked off by Invisible Walls, such as `dung01_bdg001`:
+You can achieve a teleportation effect by editing the `players` entry in the `ArkFieldPS` collection of your MongoDB. This allows you to explore areas that are normally blocked off by Invisible Walls, such as `dung01_bdg001`:
 ![Image](./LevelImages/210_1.png)
 ```
 position:Object

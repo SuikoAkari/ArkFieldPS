@@ -1,9 +1,9 @@
-# EndField PS
+# ArkField PS
 [EN](../README.md) | [IT](./README_it-IT.md) | [RU](./README_ru-RU.md) | [CN](./README_zh-CN.md) | [NL](./README_nl-NL.md)
 
-![Logo](https://socialify.git.ci/SuikoAkari/EndFieldPS/image?custom_description=Private+server+for+EndField&amp;description=1&amp;font=Jost&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Farknights.wiki.gg%2Fimages%2F3%2F31%2FArknights_Endfield_logo.png&amp;name=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark)
+![Logo](https://socialify.git.ci/SuikoAkari/ArkFieldPS/image?custom_description=Private+server+for+EndField&amp;description=1&amp;font=Jost&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Farknights.wiki.gg%2Fimages%2F3%2F31%2FArknights_Endfield_logo.png&amp;name=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark)
 
-EndFieldPS - приватный сервер для Arknights EndField CBT2.
+ArkFieldPS - приватный сервер для Arknights EndField CBT2.
 
 ## Текущие возможности
 
@@ -22,9 +22,9 @@ EndFieldPS - приватный сервер для Arknights EndField CBT2.
    * [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) (или [mitmproxy](https://mitmproxy.org/));
    1. При установке *Fiddler Classic* убедитесь, что вы **включили** "Decrypt HTTPS traffic" и **установили** сертификат!
    2. Вам нужно включить две функции: перейдите в Tools (в левом верхнем меню) -> Options -> HTTPS -> Включите "Capture HTTPS CONNECTs" и "Decrypt HTTPS traffic". Вы также можете переустановить сертификаты с помощью Actions (напротив "Capture HTTPS CONNECTs") -> Trust Root Certificate и нажать "Yes".
-2. Скачайте [скомпилированную версию](https://github.com/SuikoAkari/EndFieldPS/releases/latest) или скомпилируйте самостоятельно.
-3. Положите `Json` и `TableCfg` папки рядом с `EndFieldPS.exe` (вы можете скачать их [здесь](https://github.com/PotRooms/EndFieldData/tree/main)).
-4. Запустите сервер (`EndFieldPS.exe`).
+2. Скачайте [скомпилированную версию](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) или скомпилируйте самостоятельно.
+3. Положите `Json` и `TableCfg` папки рядом с `ArkFieldPS.exe` (вы можете скачать их [здесь](https://github.com/PotRooms/EndFieldData/tree/main)).
+4. Запустите сервер (`ArkFieldPS.exe`).
 5. Измените `C:\Users\<ВашеИмяПользователя>\Documents\Fiddler2\Scripts\CustomRules.js` скрипт (или сохраните копию стандартного скрипта и создайте новый файл с таким-же названием) со следующим скриптом:
     * Вы также можете запустить *Fiddler Classic*, затем перейти в `Rules -> Customize Rules` (CTRL + R) и сохранить скрипт, либо выбрать вкладку *FiddlerScript*.
 

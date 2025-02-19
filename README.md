@@ -1,9 +1,9 @@
-# EndField PS
+# ArkField PS
 [EN](README.md) | [IT](docs/README_it-IT.md) | [RU](docs/README_ru-RU.md) | [CN](docs/README_zh-CN.md) | [NL](docs/README_nl-NL.md)
 
-![Logo](https://socialify.git.ci/SuikoAkari/EndFieldPS/image?custom_description=Private+server+for+EndField&amp;description=1&amp;font=Jost&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Farknights.wiki.gg%2Fimages%2F3%2F31%2FArknights_Endfield_logo.png&amp;name=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark)
+![Logo](https://socialify.git.ci/SuikoAkari/ArkFieldPS/image?custom_description=Private+server+for+EndField&amp;description=1&amp;font=Jost&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Farknights.wiki.gg%2Fimages%2F3%2F31%2FArknights_Endfield_logo.png&amp;name=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark)
 
-EndFieldPS is a private server for EndField CBT2.
+ArkFieldPS is a private server for EndField CBT2.
 
 ## Current Features
 
@@ -22,9 +22,9 @@ EndFieldPS is a private server for EndField CBT2.
 
     1. When installing *Fiddler Classic*, make sure to **enable** "Decrypt HTTPS traffic" and **install** the certificate!
     1. You have to enable two features via Tools (top left in menubar) -> Options -> HTTPS -> Check "Capture HTTPS CONNECTs" and "Decrypt HTTPS traffic". You can also re-install the certificate via Actions (right next to "Capture HTTPS CONNECTs") -> Trust Root Certificate and press "Yes"
-2. Download the [precompiled build](https://github.com/SuikoAkari/EndFieldPS/releases/latest) or build it by yourself
-3. Put the `Json` and `TableCfg` folders inside the `EndFieldPS.exe` folder (you can download a copy [here](https://github.com/PotRooms/EndFieldData/tree/main))
-4. Run the server (`EndFieldPS.exe`)
+2. Download the [precompiled build](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) or build it by yourself
+3. Put the `Json` and `TableCfg` folders inside the `ArkFieldPS.exe` folder (you can download a copy [here](https://github.com/PotRooms/EndFieldData/tree/main))
+4. Run the server (`ArkFieldPS.exe`)
 5. Overwrite the `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` script (or backup the default one and create a new file with the same name) with the following script:
     * You can also run *Fiddler Classic*, go to `Rules -> Customize Rules` (CTRL + R) and save it, or by selecting the *FiddlerScript* tab
 

@@ -1,9 +1,9 @@
-# EndField PS
+# ArkField PS
 [EN](../README.md) | [IT](./README_it-IT.md) | [RU](./README_ru-RU.md) | [CN](./README_zh-CN.md) | [NL](./README_nl-NL.md)
 
-![Logo](https://socialify.git.ci/SuikoAkari/EndFieldPS/image?custom_description=Private+server+for+EndField&amp;description=1&amp;font=Jost&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Farknights.wiki.gg%2Fimages%2F3%2F31%2FArknights_Endfield_logo.png&amp;name=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark)  
+![Logo](https://socialify.git.ci/SuikoAkari/ArkFieldPS/image?custom_description=Private+server+for+EndField&amp;description=1&amp;font=Jost&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Farknights.wiki.gg%2Fimages%2F3%2F31%2FArknights_Endfield_logo.png&amp;name=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark)  
 
-EndFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本地服务端项目。  
+ArkFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本地服务端项目。  
 
 ## 当前功能  
 
@@ -23,9 +23,9 @@ EndFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本�
    1. 安装 *Fiddler Classic* 时，请确保启用了**解密 HTTPS 流量**并**安装证书**！  
    2. 需要通过菜单栏左上角的 Tools -> Options -> HTTPS，勾选 “Capture HTTPS CONNECTs” 和 “Decrypt HTTPS traffic”。您还可以通过 Actions（位于 “Capture HTTPS CONNECTs” 右侧）-> Trust Root Certificate 重新安装证书，点击 “Yes” 以确认。  
 
-2. 下载 [预编译版本](https://github.com/SuikoAkari/EndFieldPS/releases/latest) 或自行构建项目。  
-3. 将 `Json` 和 `TableCfg` 文件夹放入 `EndFieldPS.exe` 所在的目录（可以从 [这里](https://github.com/PotRooms/EndFieldData/tree/main) 下载副本）。  
-4. 运行服务端（`EndFieldPS.exe`）。  
+2. 下载 [预编译版本](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) 或自行构建项目。  
+3. 将 `Json` 和 `TableCfg` 文件夹放入 `ArkFieldPS.exe` 所在的目录（可以从 [这里](https://github.com/PotRooms/EndFieldData/tree/main) 下载副本）。  
+4. 运行服务端（`ArkFieldPS.exe`）。  
 5. 覆盖 `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` 脚本（或者备份原有脚本并创建一个同名的新文件），替换为以下脚本：  
    - 您还可以运行 *Fiddler Classic*，转到 “Rules -> Customize Rules” (快捷键 CTRL + R) 保存脚本，或者通过 *FiddlerScript* 选项卡进行编辑。  
 
