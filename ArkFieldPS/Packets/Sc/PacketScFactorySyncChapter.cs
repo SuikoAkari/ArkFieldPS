@@ -125,7 +125,7 @@ namespace ArkFieldPS.Packets.Sc
                 });
                 LevelGradeInfo sceneGrade = ResourceManager.levelGradeTable[levelGroup].grades[0];
                 chapter.Blackboard.Power.PowerGen += sceneGrade.bandwidth;
-
+                chapter.Blackboard.Power.PowerSaveMax += sceneGrade.bandwidth;
                 var scene = new ScdFactorySyncScene()
                 {
                     SceneId = GetSceneNumIdFromLevelData(levelGroup),

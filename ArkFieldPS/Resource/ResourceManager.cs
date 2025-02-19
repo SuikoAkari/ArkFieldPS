@@ -125,7 +125,7 @@ namespace ArkFieldPS.Resource
             dungeonTable = JsonConvert.DeserializeObject<Dictionary<string, DungeonTable>>(ReadJsonFile("TableCfg/DungeonTable.json"));
             equipSuitTable = JsonConvert.DeserializeObject<Dictionary<string, EquipSuitTable>>(ReadJsonFile("TableCfg/EquipSuitTable.json"));
             levelGradeTable = JsonConvert.DeserializeObject<Dictionary<string, LevelGradeTable>>(ReadJsonFile("TableCfg/LevelGradeTable.json"));
-            levelShortIdTable = JsonConvert.DeserializeObject<Dictionary<string, LevelShortIdTable>>(ReadJsonFile("TableCfg/LevelShortIdTable.json"));
+            levelShortIdTable = JsonConvert.DeserializeObject<Dictionary<string, LevelShortIdTable>>(ReadJsonFile("DynamicAssets/gamedata/gameplayconfig/jsoncfg/LevelShortIdTable.json"));
             rewardTable = JsonConvert.DeserializeObject<Dictionary<string, RewardTable>>(ReadJsonFile("TableCfg/RewardTable.json"));
             LoadLevelDatas(); 
             if (missingResources)
@@ -467,7 +467,7 @@ namespace ArkFieldPS.Resource
                 public List<LevelNpcData> npcs = new();
                 public List<LevelScriptData> levelScripts = new();
                 public List<WorldWayPointSets> worldWayPointSets = new();
-                
+                public List<LevelFactoryRegionData> factoryRegions = new();
                 public void Merge(LevelData other)
                 {
                     this.sceneId = other.sceneId;
@@ -477,7 +477,9 @@ namespace ArkFieldPS.Resource
                     this.npcs.AddRange(other.npcs);
                     this.levelScripts.AddRange(other.levelScripts);
                     this.worldWayPointSets.AddRange(other.worldWayPointSets);
+                    this.factoryRegions.AddRange(other.factoryRegions);
                 }
+                
                 public class WorldWayPointSets
                 {
                     public int id;
@@ -487,6 +489,19 @@ namespace ArkFieldPS.Resource
                 {
                     public ulong scriptId;
                     public List<ParamKeyValue> properties;
+                }
+                public class LevelFactoryRegionData
+                {
+                    public ulong levelLogicId;
+                    public ulong belongLevelScriptId;
+                    public ObjectType entityType;
+                    public string entityDataIdKey;
+                    public bool defaultHide;
+                    public Vector3f position;
+                    public Vector3f rotation;
+                    public Vector3f scale;
+                    public bool forceLoad;
+                    public string regionId;
                 }
                 public class LevelNpcData
                 {

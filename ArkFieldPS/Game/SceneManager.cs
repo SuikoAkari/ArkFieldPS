@@ -314,6 +314,21 @@ namespace ArkFieldPS.Game
                 };
                 entities.Add(entity);
             });
+            lv_scene.levelData.factoryRegions.ForEach(en =>
+            {
+                if (en.defaultHide || GetOwner().noSpawnAnymore.Contains(en.levelLogicId))
+                {
+                    return;
+                }
+                EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation, en.levelLogicId)
+                {
+                    belongLevelScriptId = en.belongLevelScriptId,
+                    dependencyGroupId = 0,
+                    levelLogicId = en.levelLogicId,
+                    type = en.entityType,
+                };
+                entities.Add(entity);
+            });
             lv_scene.levelData.enemies.ForEach(en =>
             {
                 if(en.defaultHide || GetOwner().noSpawnAnymore.Contains(en.levelLogicId)) return;
