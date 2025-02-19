@@ -229,7 +229,7 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.Map);
             unlockedSystems.Add((int)UnlockSystemType.FacZone);
             unlockedSystems.Add((int)UnlockSystemType.FacHub);
-            unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
+            //unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
             unlockedSystems.Add((int)UnlockSystemType.FacSystem);
             unlockedSystems.Add((int)UnlockSystemType.CharUI);
             unlockedSystems.Add((int)UnlockSystemType.EquipProduce);
@@ -330,7 +330,7 @@ namespace ArkFieldPS
         {
             byte[] datas = packet.set_body.ToByteArray();
             int maxChunkSize = 65535;
-            int totalChunks = (int)Math.Ceiling((double)datas.Length / maxChunkSize);
+            int totalChunks = Math.Max((int)Math.Ceiling((double)datas.Length / maxChunkSize), 1);
             List<byte[]> chunks = new List<byte[]>();
             for (int i = 0; i < totalChunks; i++)
             {
