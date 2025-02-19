@@ -42,7 +42,7 @@ namespace ArkFieldPS.Game.Entities
         {
 
         }
-        public virtual bool Interact()
+        public virtual bool Interact(string eventName, Google.Protobuf.Collections.MapField<string, DynamicParameter> properties)
         {
             return false;
         }

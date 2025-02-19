@@ -35,9 +35,11 @@ namespace ArkFieldPS.Database
         public List<Team> teams = new List<Team>();
         public ulong totalGuidCount = 1;
         public List<int> unlockedSystems = new();
+        public List<ulong> noSpawnAnymore = new();
         public long maxDashEnergy = 250;
         public uint curStamina;
         public long nextRecoverTime;
+        public List<Scene> scenes = new();
     }
     public class Account
     {
@@ -133,7 +135,9 @@ namespace ArkFieldPS.Database
                 unlockedSystems = player.unlockedSystems,
                 maxDashEnergy = player.maxDashEnergy,
                 curStamina = player.curStamina,
-                nextRecoverTime = player.nextRecoverTime
+                nextRecoverTime = player.nextRecoverTime,
+                noSpawnAnymore = player.noSpawnAnymore,
+                scenes=player.sceneManager.scenes,
             };
             UpsertPlayerData(data);
         }

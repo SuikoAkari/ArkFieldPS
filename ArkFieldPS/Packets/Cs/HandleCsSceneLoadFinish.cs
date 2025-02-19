@@ -52,7 +52,7 @@ namespace ArkFieldPS.Packets.Cs
                 }
                     
             }
-            
+            session.LoadFinish = true;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using ArkFieldPS.Protocol;
+﻿using ArkFieldPS.Packets.Sc;
+using ArkFieldPS.Protocol;
 using ArkFieldPS.Resource;
 using System;
 using System.Collections.Generic;
@@ -53,7 +54,7 @@ namespace ArkFieldPS.Game.Entities
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
                     
-                    Type = (int)type,
+                    Type = (int)5,
                 },
 
                 //Meta =dependencyGroupId,
@@ -100,7 +101,39 @@ namespace ArkFieldPS.Game.Entities
         {
             
         }
-
+        public override bool Interact(string eventName, Google.Protobuf.Collections.MapField<string, DynamicParameter> props)
+        {
+            
+            if (eventName == "open_chest")
+            {
+                ScSceneUpdateInteractiveProperty update = new()
+                {
+                    Id = guid,
+                    SceneNumId = GetOwner().curSceneNumId,
+                    Properties =
+                    {
+                        {4, new DynamicParameter()
+                        {
+                            RealType=3,
+                            ValueType=3,
+                            ValueIntList={1}
+                        } }
+                    }
+                };
+               
+                GetOwner().Send(ScMessageId.ScSceneUpdateInteractiveProperty, update);
+                GetOwner().inventoryManager.AddRewards(properties.Find(p=>p.key== "reward_id").value.valueArray[0].valueString,Position,1);
+                GetOwner().sceneManager.KillEntity(guid,true,1);
+                GetOwner().noSpawnAnymore.Add(guid);
+                GetOwner().sceneManager.GetCurScene().AddCollection("int_trchest_common", 1);
+                GetOwner().Send(new PacketScSceneCollectionSync(GetOwner()));
+                return true;
+            }else if(eventName == "pick_inst")
+            {
+                //TODO
+            }
+            return false;
+        }
         public override void Heal(double heal)
         {
             

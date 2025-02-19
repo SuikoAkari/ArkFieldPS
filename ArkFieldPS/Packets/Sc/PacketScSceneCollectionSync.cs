@@ -8,6 +8,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using ArkFieldPS.Resource;
+using ArkFieldPS.Game;
 
 namespace ArkFieldPS.Packets.Sc
 {
@@ -29,9 +30,15 @@ namespace ArkFieldPS.Packets.Sc
             {
                 foreach (var item1 in ResourceManager.collectionTable)
                 {
+                    int value = 0;
+                    Scene scene = client.sceneManager.scenes.Find(s => s.sceneNumId == item.idNum);
+                    if (scene != null)
+                    {
+                        value = scene.GetCollection(item1.Value.prefabId);
+                    }
                     proto.CollectionList.Add(new SceneCollection()
                     {
-                        Count = 0,
+                        Count = value,
                         PrefabId = item1.Value.prefabId,
                         SceneName = item.id,
                         

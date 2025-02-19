@@ -61,9 +61,19 @@ namespace ArkFieldPS.Packets.Sc
                 {
                     proto.Depot[i].InstList.Add(item.ToProto());
                 }
-                else
+                else 
                 {
-                    proto.Depot[(int)i].StackableItems.Add(item.id, item.amount);
+
+                    if (proto.Depot[(int)i].StackableItems.ContainsKey(item.id))
+                    {
+                        proto.Depot[(int)i].StackableItems[item.id]+= item.amount;
+                    }
+                    else
+                    {
+                        proto.Depot[(int)i].StackableItems.Add(item.id, item.amount);
+                    }
+                    
+            
                 }
             });
             

@@ -81,8 +81,6 @@ namespace ArkFieldPS.Packets.Sc
                             531424959210205184,
                             590604267523,
                             17039360
-
-                         //ResourceManager.ToBitsetValue(ResourceManager.CalculateChapterIdsBitset())
                         }
                     },
                     new BitsetData()
@@ -94,6 +92,8 @@ namespace ArkFieldPS.Packets.Sc
                             0,
                             17042430230528,
                             17180393728
+                           // ResourceManager.GetBitset(ResourceManager.GetAllShortIds())
+                          // ResourceManager.ToLongBitsetValue(ResourceManager.CalculateWaypointIdsBitset())
                         }
                     },
                     new BitsetData()

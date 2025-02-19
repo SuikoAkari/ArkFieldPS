@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static ArkFieldPS.Resource.ResourceManager;
 using static ArkFieldPS.Resource.ResourceManager.LevelScene;
+using static ArkFieldPS.Resource.ResourceManager.LevelScene.LevelData;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ArkFieldPS.Resource
@@ -18,13 +19,13 @@ namespace ArkFieldPS.Resource
         static System.Int32 ID_SERVER_SET_TYPE_BIT = 62;
         static System.Int32 ID_CLIENT_RUNTIME_SET_TYPE_BIT = 61;
         static System.Int32 ID_ROLE_INDEX_SHIFT = 57;
-        static System.UInt64 LOGIC_ID_SEGMENT = 10000;
-        static System.UInt64 MAX_LOGIC_ID_BOUND = 100000000;
-        static System.Int32 LOCAL_ID_SEGMENT = 10000;
-        static System.Int32 MAX_LOCAL_ID_BOUND = 100000000;
-        static System.Int32 MAX_LEVEL_ID_BOUND = 100000;
+        public static System.UInt64 LOGIC_ID_SEGMENT = 10000;
+        public static System.UInt64 MAX_LOGIC_ID_BOUND = 100000000;
+        public static System.Int32 LOCAL_ID_SEGMENT = 10000;
+        public static System.Int32 MAX_LOCAL_ID_BOUND = 100000000;
+        public static System.Int32 MAX_LEVEL_ID_BOUND = 100000;
         public static System.UInt64 MAX_GLOBAL_ID = 10000000000000;
-        static System.UInt64 MAX_RUNTIME_CLIENT_ID = 2305843009213693952;
+        public static System.UInt64 MAX_RUNTIME_CLIENT_ID = 2305843009213693952;
     }
     //TODO Move all tables to separated class
     public class ResourceManager
@@ -62,8 +63,9 @@ namespace ArkFieldPS.Resource
         public static Dictionary<string, SpaceshipRoomInsTable> spaceshipRoomInsTable = new();
         public static Dictionary<string, DungeonTable> dungeonTable = new();
         public static Dictionary<string, LevelGradeTable> levelGradeTable = new();
+        public static Dictionary<string, RewardTable> rewardTable = new();  
         public static StrIdNumTable dialogIdTable = new();
-
+        public static Dictionary<string, LevelShortIdTable> levelShortIdTable = new();  
         public static List<LevelScene> levelDatas = new();
 
         public static int GetSceneNumIdFromLevelData(string name)
@@ -123,11 +125,22 @@ namespace ArkFieldPS.Resource
             dungeonTable = JsonConvert.DeserializeObject<Dictionary<string, DungeonTable>>(ReadJsonFile("TableCfg/DungeonTable.json"));
             equipSuitTable = JsonConvert.DeserializeObject<Dictionary<string, EquipSuitTable>>(ReadJsonFile("TableCfg/EquipSuitTable.json"));
             levelGradeTable = JsonConvert.DeserializeObject<Dictionary<string, LevelGradeTable>>(ReadJsonFile("TableCfg/LevelGradeTable.json"));
+            levelShortIdTable = JsonConvert.DeserializeObject<Dictionary<string, LevelShortIdTable>>(ReadJsonFile("TableCfg/LevelShortIdTable.json"));
+            rewardTable = JsonConvert.DeserializeObject<Dictionary<string, RewardTable>>(ReadJsonFile("TableCfg/RewardTable.json"));
             LoadLevelDatas(); 
             if (missingResources)
             {
                 Logger.PrintWarn("Missing some resources. The gameserver will probably crash.");
             }
+        }
+        public static List<int> GetAllShortIds()
+        {
+            List<int> IDS = new List<int>();
+            foreach (LevelShortIdTable table in levelShortIdTable.Values)
+            {
+                IDS.AddRange(table.ids.Values);
+            }
+            return IDS;
         }
         public static string GetEquipSuitTableKey(string suitTableId)
         {
@@ -152,14 +165,36 @@ namespace ArkFieldPS.Resource
         {
            return levelDatas.Find(e => e.idNum == sceneNumId);
         }
-        public static List<string> CalculateChapterIdsBitset()
+        public static List<ulong> GetBitset(List<int> ids)
         {
+            Dictionary<string, ulong> stringToIdMap = new Dictionary<string, ulong>(); // Mappa inversa
+            HashSet<ulong> result = new HashSet<ulong>();
+            int i = 0;
+            foreach (int var in ids) // values è l'insieme di stringhe
+            {
+                ulong bitPos = (ulong)i;
+                ulong baseBit = bitPos / 64 * 64;
+                ulong bitMask = 1UL << (int)(bitPos % 64);
+
+                if (!result.Contains(baseBit))
+                    result.Add(baseBit);
+
+                result.Add(result.Contains(baseBit) ? result.First(x => x == baseBit) | bitMask : bitMask);
+                i++;
+            }
+            return result.ToList();
+        }
+        public static List<string> CalculateWaypointIdsBitset()
+        {
+            Logger.Print("getting waypoints");
             string bitset = "";
-            int maxValue = strIdNumTable.area_id.dic.Values.Max();
+            List<int> waypoints = GetAllShortIds();
+            int maxValue = waypoints.Max();
             int chunkSize = 64;
+            Logger.Print("max waypoint id:"+maxValue);
             for (int i = 0; i <= maxValue; i++)
             {
-                if (strIdNumTable.area_id.dic.Values.ToList().Contains(i))
+                if (waypoints.Contains(i))
                 {
                     bitset += "1";
                 }
@@ -294,10 +329,7 @@ namespace ArkFieldPS.Resource
                 int i = 0;
                 foreach (string path in data.levelDataPaths)
                 {
-                    if(i > 5)
-                    {
-                        continue;
-                    }
+                    
                     try
                     {
 
@@ -392,6 +424,22 @@ namespace ArkFieldPS.Resource
             public string id;
             public int roomType;
         }
+        public class RewardTable
+        {
+            public string rewardId;
+
+            public List<ItemBundle> itemBundles;
+            public class ItemBundle
+            {
+                public int count;
+                public string id;
+            }
+        }
+        public class LevelShortIdTable
+        {
+            public string sceneName;
+            public Dictionary<long, int> ids;
+        }
         public class GameSystemConfigTable
         {
             public int unlockSystemType;
@@ -418,6 +466,8 @@ namespace ArkFieldPS.Resource
                 public List<LevelInteractiveData> interactives = new();
                 public List<LevelNpcData> npcs = new();
                 public List<LevelScriptData> levelScripts = new();
+                public List<WorldWayPointSets> worldWayPointSets = new();
+                
                 public void Merge(LevelData other)
                 {
                     this.sceneId = other.sceneId;
@@ -426,6 +476,12 @@ namespace ArkFieldPS.Resource
                     this.interactives.AddRange(other.interactives);
                     this.npcs.AddRange(other.npcs);
                     this.levelScripts.AddRange(other.levelScripts);
+                    this.worldWayPointSets.AddRange(other.worldWayPointSets);
+                }
+                public class WorldWayPointSets
+                {
+                    public int id;
+                    public Dictionary<string, int> pointIdToIndex = new();
                 }
                 public class LevelScriptData
                 {
@@ -685,6 +741,7 @@ namespace ArkFieldPS.Resource
             public string id;
             public int maxStackCount;
             public bool backpackCanDiscard;
+            public string modelKey;
         }
         public class WeaponBasicTable
         {

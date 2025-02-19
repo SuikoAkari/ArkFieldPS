@@ -14,17 +14,21 @@ namespace ArkFieldPS.Packets.Sc
     public class PacketScObjectLeaveView : Packet
     {
 
-        public PacketScObjectLeaveView(Player session, ulong guid) {
+        public PacketScObjectLeaveView(Player session, List<ulong> guids) {
 
             ScObjectLeaveView proto = new()
             {
                 
             };
-            proto.ObjList.Add(new LeaveObjectInfo()
+            foreach(ulong guid in guids)
             {
-                ObjId = guid,
-                
-            });
+                proto.ObjList.Add(new LeaveObjectInfo()
+                {
+                    ObjId = guid,
+                    
+                });
+            }
+           
 
             SetData(ScMessageId.ScObjectLeaveView, proto);
         }

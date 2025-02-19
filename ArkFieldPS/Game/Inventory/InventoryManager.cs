@@ -8,6 +8,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using static ArkFieldPS.Resource.ResourceManager;
 
 namespace ArkFieldPS.Game.Inventory
 {
@@ -42,6 +43,65 @@ namespace ArkFieldPS.Game.Inventory
             owner = o;
         
         }
+        public void AddRewards(string rewardTemplateId, Vector3f pos, int sourceType=1)
+        {
+            try
+            {
+                ScRewardToastBegin begin = new ScRewardToastBegin()
+                {
+                    RewardSourceType = sourceType,
+                    RewardToastInstId = owner.random.NextRand(),
+
+                };
+                ScRewardToSceneBegin begin2 = new ScRewardToSceneBegin()
+                {
+                    RewardSourceType = sourceType,
+                    SourceTemplateId = rewardTemplateId,
+                };
+                ScRewardToastEnd end = new()
+                {
+                    RewardToastInstId = begin.RewardToastInstId,
+
+                };
+                List<RewardTable.ItemBundle> bundles = rewardTable[rewardTemplateId].itemBundles;
+                foreach(RewardTable.ItemBundle bundle in bundles)
+                {
+                    Item item = new Item()
+                    {
+                        id=bundle.id
+                    };
+                    
+                    if (!item.InstanceType())
+                    {
+                        item = AddItem(bundle.id, bundle.count);
+                        end.RewardVirtualList.Add(new RewardItem()
+                        {
+                            Count = bundle.count,
+                            Id = bundle.id,
+                            Inst=item.ToProto().Inst,
+                        });
+
+                    }
+                    else
+                    {
+                        owner.sceneManager.CreateDrop(pos, bundle);
+                        //TODO drops
+                    }
+                }
+                owner.Send(Protocol.ScMessageId.ScRewardToastBegin, begin);
+                owner.Send(Protocol.ScMessageId.ScRewardToSceneBegin, begin2);
+                
+
+                owner.Send(Protocol.ScMessageId.ScRewardToastEnd, end);
+                owner.Send(Protocol.ScMessageId.ScRewardToSceneEnd, new ScRewardToSceneEnd());
+                owner.Send(new PacketScSyncWallet(owner));
+            }
+            catch (Exception e)
+            {
+                Logger.PrintError(e.Message);
+            }
+            
+        }
         public Item AddWeapon(string id, ulong level)
         {
             Item item = new Item(owner.roleId, id, level);
@@ -61,16 +121,23 @@ namespace ArkFieldPS.Game.Inventory
         }
         public Item AddItem(string id, int amt)
         {
-            if((int)ResourceManager.itemTable[id].valuableTabType > 5)
+            Item it = new()
             {
+                id = id,
+            };
+            if(!it.InstanceType())
+            {
+                
                 Item item = items.Find(i=>i.id == id);
                 if (item != null)
                 {
+                   // Logger.Print(id + ": " + amt+" added to existing");
                     item.amount += amt;
                     return item;
                 }
                 else
                 {
+                   // Logger.Print(id + ": " + amt + " added to new");
                     item = new Item(owner.roleId, id, amt);
                     items.Add(item);
                     return item;
@@ -78,12 +145,11 @@ namespace ArkFieldPS.Game.Inventory
             }
             else
             {
+                //Logger.Print(id + ": " + amt + " added to new as instance");
                 Item item = new Item(owner.roleId, id, amt);
                 items.Add(item);
                 return item;
-            }
-
-            
+            } 
         }
         public void RemoveItem(Item item,int amt)
         {

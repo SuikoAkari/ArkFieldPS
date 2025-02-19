@@ -35,20 +35,33 @@ namespace ArkFieldPS
         public ulong v = 1;
         public List<ulong> usedGuids = new();
         public Random random = new();
+        public Player player;
+        public GuidRandomizer(Player p)
+        {
+            this.player = p;
+        }
         public ulong Next()
         {
+            if(v+1>= IdConst.LOGIC_ID_SEGMENT)
+            {
+                v = IdConst.MAX_LOGIC_ID_BOUND;
+            }
             v++;
             return (ulong)v;
         }
         
         public ulong NextRand()
         {
-            ulong val = (ulong)random.NextInt64((long)10000000);
-            if(val >= IdConst.MAX_GLOBAL_ID)
+            var maxGuid = IdConst.MAX_LOGIC_ID_BOUND;
+            
+            ulong val = (ulong)random.NextInt64((long)maxGuid,(long)IdConst.MAX_RUNTIME_CLIENT_ID);
+           
+            if(val <= v)
             {
                 return NextRand();
             }
-            if(val <= v)
+            if(player.sceneManager.GetCurScene()!=null)
+            if (player.sceneManager.GetCurScene().entities.Find(e => e.guid == val) != null)
             {
                 return NextRand();
             }
@@ -66,7 +79,7 @@ namespace ArkFieldPS
     public class Player
     {
         public List<string> temporanyChatMessages = new(); //for cbt2 only as no chat exist
-        public GuidRandomizer random = new GuidRandomizer();
+        public GuidRandomizer random;
         public Thread receivorThread;
         public Socket socket;
         //Data
@@ -89,6 +102,7 @@ namespace ArkFieldPS
         public List<Team> teams= new List<Team>();
         public List<Mail> mails = new List<Mail>();
         public List<int> unlockedSystems = new();
+        public List<ulong> noSpawnAnymore = new();
         public long maxDashEnergy = 250;
         public uint curStamina = 10;
         public long nextRecoverTime = 0;
@@ -103,6 +117,7 @@ namespace ArkFieldPS
         
         public Player(Socket socket)
         {
+            this.random = new(this);
             this.socket = socket;
             roleId = (ulong)new Random().Next();
             inventoryManager = new(this);
@@ -133,6 +148,8 @@ namespace ArkFieldPS
                 teamIndex = data.teamIndex;
                 if(data.unlockedSystems!=null)
                 unlockedSystems = data.unlockedSystems;
+                if (data.noSpawnAnymore != null)
+                    noSpawnAnymore = data.noSpawnAnymore;
                 maxDashEnergy = data.maxDashEnergy;
                 curStamina = data.curStamina;
                 nextRecoverTime=data.nextRecoverTime;
@@ -140,6 +157,10 @@ namespace ArkFieldPS
                 mails = DatabaseManager.db.LoadMails(roleId);
                 inventoryManager.Load();
                 spaceshipManager.Load();
+                if (data.scenes != null)
+                {
+                    sceneManager.scenes = data.scenes;
+                }
             }
             else
             {
@@ -266,19 +287,21 @@ namespace ArkFieldPS
             }
             else
             {
-                sceneManager.UnloadCurrent();
+                sceneManager.UnloadCurrent(false);
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
             }
         }
+        public bool LoadFinish = true;
         public void EnterScene(int sceneNumId, Vector3f pos, Vector3f rot)
         {
+            if (!LoadFinish) return;
             if (GetLevelData(sceneNumId) != null)
             {
-                sceneManager.UnloadCurrent();
+                
                 curSceneNumId = sceneNumId;
                 position = pos;
                 rotation = rot;
-
+                LoadFinish = false;
                 Send(new PacketScEnterSceneNotify(this, sceneNumId));
 
             }
@@ -291,7 +314,7 @@ namespace ArkFieldPS
         {
             if(GetLevelData(sceneNumId) != null)
             {
-                sceneManager.UnloadCurrent();
+                sceneManager.UnloadCurrent(true);
                 curSceneNumId = sceneNumId;
                 position = GetLevelData(sceneNumId).playerInitPos;
                 rotation = GetLevelData(sceneNumId).playerInitRot;
@@ -368,6 +391,7 @@ namespace ArkFieldPS
         {
             return array1.Concat(array2).ToArray();
         }
+        
         public void Receive()
         {
             try
@@ -397,10 +421,10 @@ namespace ArkFieldPS
                                 Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
                                 Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());
                             }
-                            NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
+                            
                             try
                             {
-                               
+                                NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
                             }
                             catch (Exception e)
                             {

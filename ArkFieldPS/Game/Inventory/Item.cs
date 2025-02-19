@@ -78,6 +78,25 @@ namespace ArkFieldPS.Game.Inventory
             {
                 switch (ItemType)
                 {
+                    case ItemValuableDepotType.WeaponGem:
+                        return new ScdItemGrid()
+                        {
+                            Count = 1,
+                            Id = id,
+
+                            Inst = new()
+                            {
+                                InstId = guid,
+                                Gem = new()
+                                {
+                                    GemId = guid,
+                                    TemplateId= ResourceManager.GetItemTemplateId(id),
+                                    WeaponId= GetOwner().inventoryManager.items.Find(i=>i.attachGemId==guid)!=null ? GetOwner().inventoryManager.items.Find(i => i.attachGemId == guid).guid: 0,
+                                
+                                },
+                                IsLock = locked
+                            }
+                        };
                     case ItemValuableDepotType.Weapon:
                         return new ScdItemGrid()
                         {
@@ -95,9 +114,11 @@ namespace ArkFieldPS.Game.Inventory
                                     TemplateId = ResourceManager.GetItemTemplateId(id),
                                     Exp = xp,
                                     AttachGemId = attachGemId,
+                                    
                                     BreakthroughLv = breakthroughLv,
                                     RefineLv = refineLv
                                 },
+                                
                                 IsLock = locked
                             }
                         };
@@ -220,7 +241,7 @@ namespace ArkFieldPS.Game.Inventory
                 case ItemValuableDepotType.Weapon:
                     return true;
                 case ItemValuableDepotType.WeaponGem:
-                    return false;
+                    return true;
                 case ItemValuableDepotType.Equip:
                     return true;
                 case ItemValuableDepotType.SpecialItem:

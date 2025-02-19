@@ -83,7 +83,7 @@ namespace ArkFieldPS.Game.Entities
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
 
-                    Type = (int)type, 
+                    Type =(int) ObjectTypeIndex.Enemy, 
                 },
                 Attrs =
                 {

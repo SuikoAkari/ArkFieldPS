@@ -1,4 +1,5 @@
 ﻿using ArkFieldPS.Game.Entities;
+using ArkFieldPS.Game.Inventory;
 using ArkFieldPS.Packets.Sc;
 using ArkFieldPS.Resource;
 using MongoDB.Bson.Serialization.Attributes;
@@ -8,8 +9,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using static ArkFieldPS.Resource.ResourceManager;
+using static ArkFieldPS.Resource.ResourceManager.LevelScene.LevelData;
 
 namespace ArkFieldPS.Game
 {
@@ -22,12 +25,21 @@ namespace ArkFieldPS.Game
             this.player = player;   
             
         }
-        public void UnloadCurrent()
+        public void UnloadCurrent(bool v)
         {
             Scene scene = scenes.Find(s => s.sceneNumId == player.curSceneNumId);
 
             if (scene != null)
             {
+                if (v)
+                {
+                    List<ulong> g = new();
+                    foreach (Entity e in scene.entities) {
+                        g.Add(e.guid);
+                    }
+                    PacketScObjectLeaveView leave = new(player, g);
+                    player.Send(leave);
+                }
                 player.random.usedGuids.Clear();
                 scene.Unload();
             }
@@ -87,7 +99,7 @@ namespace ArkFieldPS.Game
                 player.Send(new PacketScObjectEnterView(player,new List<Entity>{ entity }));
             }
         }
-        public void KillEntity(ulong guid)
+        public void KillEntity(ulong guid, bool killClient=false, int reason=1)
         {
             Scene scene = GetCurScene();
 
@@ -96,15 +108,120 @@ namespace ArkFieldPS.Game
                 if(GetEntity(guid) is EntityMonster)
                 {
                     EntityMonster monster = (EntityMonster)GetEntity(guid);
-                    EntityInteractive drop=new EntityInteractive("item_gem_rarity_3", player.roleId, monster.Position, monster.Rotation);
-                    SpawnEntity(drop);
+                    CreateDrop(monster.Position, new RewardTable.ItemBundle()
+                    {
+                        id = "item_gem_rarity_3",
+                        count=1
+                    });
+                    LevelScene lv_scene = ResourceManager.GetLevelData(GetCurScene().sceneNumId);
+                    LevelEnemyData d = lv_scene.levelData.enemies.Find(l => l.levelLogicId == monster.guid);
+                    if (d != null)
+                    {
+                        if (!d.respawnable)
+                        {
+                            player.noSpawnAnymore.Add(monster.guid);
+                        }
+                    }
                 }
                 scene.entities.Remove(GetEntity(guid));
+                if (killClient)
+                {
+                    ScSceneDestroyEntity destroy = new()
+                    {
+                        Id = guid,
+                        Reason = reason,
+                        SceneNumId = player.curSceneNumId,
+                    };
+                    player.Send(Protocol.ScMessageId.ScSceneDestroyEntity, destroy);
+                }
                 //Leave packet disabled for now
                 //player.Send(new PacketScObjectLeaveView(player, guid));
             }
         }
+        public void CreateDrop(Vector3f pos,ResourceManager.RewardTable.ItemBundle bundle)
+        {
+            ItemTable info = ResourceManager.itemTable[bundle.id];
+            Item item = new Item(player.roleId, info.id, bundle.count);
+            EntityInteractive drop = new(info.modelKey, player.roleId, pos, new Vector3f())
+            {
+                type = (ObjectType)5,
+                curHp = 100,
+                properties =
+                {
+                    new ParamKeyValue()
+                    {
+                        key="nothing",
+                        value = new()
+                        {
+                            type=ParamRealType.String,
+                            valueArray=new ParamKeyValue.ParamValueAtom[1]
+                            {
+                                new ParamKeyValue.ParamValueAtom()
+                                {
 
+                                    valueString=info.id,
+                                }
+                            }
+                        }
+                    },
+                    new ParamKeyValue()
+                    {
+                        key="item_id",
+                        value = new()
+                        {
+                            type=ParamRealType.String,
+                            valueArray=new ParamKeyValue.ParamValueAtom[1]
+                            {
+                                new ParamKeyValue.ParamValueAtom()
+                                {
+                                    
+                                    valueString=info.id,
+                                }
+                            }
+                        }
+                    },
+
+                }
+                
+            };
+           
+            
+            drop.properties.Add(new ParamKeyValue()
+            {
+                key = "item_count",
+                value = new()
+                {
+                    type = ParamRealType.Int,
+                    
+                    valueArray = new ParamKeyValue.ParamValueAtom[1]
+                    {
+                        new ParamKeyValue.ParamValueAtom()
+                        {
+                            valueBit64=bundle.count
+                        }
+                    }
+                }
+            });
+            if (item.InstanceType())
+            {
+                drop.properties.Add(new ParamKeyValue()
+                {
+                    key = "item_instance",
+                    value = new()
+                    {
+                        type = ParamRealType.String,
+                        valueArray = new ParamKeyValue.ParamValueAtom[1]
+                        {
+                            new ParamKeyValue.ParamValueAtom()
+                            {
+                                valueString=Newtonsoft.Json.JsonConvert.SerializeObject(item.ToProto().Inst)
+                            }
+                        }
+                    }
+                });
+            }
+            SpawnEntity(drop);
+        }
         public ulong GetSceneGuid(int sceneNumId)
         {
             return scenes.Find(s=>s.sceneNumId == sceneNumId).guid;
@@ -114,12 +231,13 @@ namespace ArkFieldPS.Game
         {
             foreach (var level in ResourceManager.levelDatas)
             {
+                if(scenes.Find(s=>s.sceneNumId==level.idNum) == null)
                 scenes.Add(new Scene()
                 {
-                    guid = (ulong)player.random.NextRand(),
+                    guid = (ulong)player.random.Next(),
                     ownerId=player.roleId,
                     sceneNumId=level.idNum,
-
+                    
                 });
             }
         }
@@ -130,9 +248,31 @@ namespace ArkFieldPS.Game
         public ulong ownerId;
         public ulong guid;
         public int sceneNumId;
-        [BsonIgnore]
+        public Dictionary<string, int> collections = new();
+        [BsonIgnore,JsonIgnore]
         public List<Entity> entities = new();
+        [BsonIgnore, JsonIgnore]
+        public bool alreadyLoaded = false;
+        public int GetCollection(string id)
+        {
+            if (collections.ContainsKey(id))
+            {
+                return collections[id];
+            }
+            return 0; 
+        }
 
+        public void AddCollection(string id,int amt)
+        {
+            if (collections.ContainsKey(id))
+            {
+                collections[id] += amt;
+            }
+            else
+            {
+                collections.Add(id, amt);
+            }
+        }
         public List<Entity> GetEntityExcludingChar()
         {
             return entities.FindAll(c => c is not EntityCharacter);
@@ -144,6 +284,7 @@ namespace ArkFieldPS.Game
         
         public void Load()
         {
+            
             if (sceneNumId == 98)
             {
                 //Load spaceship manager chars
@@ -158,12 +299,15 @@ namespace ArkFieldPS.Game
             GetOwner().random.NextRand();
             lv_scene.levelData.interactives.ForEach(en =>
             {
-                //if (en.defaultHide && en.entityDataIdKey!= "int_spacestation_center_controller" && !en.entityDataIdKey.Contains("hub")) return;
+                if (en.defaultHide || GetOwner().noSpawnAnymore.Contains(en.levelLogicId))
+                {
+                    return;
+                }
                 EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation, en.levelLogicId)
                 {
                     belongLevelScriptId=en.belongLevelScriptId,
                     dependencyGroupId=en.dependencyGroupId,
-                    levelLogicId=en.levelLogicId,
+                    levelLogicId= en.levelLogicId,
                     type = en.entityType,
                     properties= en.properties,
                     componentProperties=en.componentProperties,
@@ -172,12 +316,12 @@ namespace ArkFieldPS.Game
             });
             lv_scene.levelData.enemies.ForEach(en =>
             {
-                if(en.defaultHide) return;
+                if(en.defaultHide || GetOwner().noSpawnAnymore.Contains(en.levelLogicId)) return;
                 EntityMonster entity = new(en.entityDataIdKey,en.level,ownerId,en.position,en.rotation, en.levelLogicId)
                 {
                     type=en.entityType,
                     belongLevelScriptId=en.belongLevelScriptId,
-                    levelLogicId=en.levelLogicId
+                    levelLogicId = en.levelLogicId
                 };
                 entities.Add(entity);
             });

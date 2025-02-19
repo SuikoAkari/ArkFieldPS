@@ -1,4 +1,5 @@
 ﻿using ArkFieldPS.Game.Character;
+using ArkFieldPS.Game.Entities;
 using ArkFieldPS.Network;
 using ArkFieldPS.Protocol;
 using Google.Protobuf;
@@ -24,7 +25,19 @@ namespace ArkFieldPS.Packets.Cs
             {
                 
             };
-            session.Send(ScMessageId.ScSceneInteractiveEventTrigger, rsp,packet.csHead.DownSeqid);
+            
+            EntityInteractive entity = (EntityInteractive)session.sceneManager.GetEntity(req.Id);
+            if (entity != null)
+            {
+                entity.Interact(req.EventName, req.Properties);
+            }
+            /*ScSceneTriggerClientInteractiveEvent tr = new()
+            {
+                EventName = req.EventName,
+                Id = req.Id,
+                SceneNumId = req.SceneNumId,
+            };
+            session.Send(ScMessageId.ScSceneTriggerClientInteractiveEvent, tr);*/
         }
        
     }

@@ -59,7 +59,7 @@ namespace ArkFieldPS.Packets.Sc
                                {
                                    Items =
                                    {
-                                       client.inventoryManager.GetInventoryChapter(chapterId)
+                                       //client.inventoryManager.GetInventoryChapter(chapterId)
                                    }
                                },
                                
