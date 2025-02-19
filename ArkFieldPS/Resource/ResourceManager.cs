@@ -123,7 +123,7 @@ namespace ArkFieldPS.Resource
             dungeonTable = JsonConvert.DeserializeObject<Dictionary<string, DungeonTable>>(ReadJsonFile("TableCfg/DungeonTable.json"));
             equipSuitTable = JsonConvert.DeserializeObject<Dictionary<string, EquipSuitTable>>(ReadJsonFile("TableCfg/EquipSuitTable.json"));
             levelGradeTable = JsonConvert.DeserializeObject<Dictionary<string, LevelGradeTable>>(ReadJsonFile("TableCfg/LevelGradeTable.json"));
-            LoadLevelDatas();
+            LoadLevelDatas(); 
             if (missingResources)
             {
                 Logger.PrintWarn("Missing some resources. The gameserver will probably crash.");
@@ -290,19 +290,29 @@ namespace ArkFieldPS.Resource
                     continue;
                 }
                 LevelScene data = JsonConvert.DeserializeObject<LevelScene>(ReadJsonFile(json));
-                try
+                data.levelData = new();
+                int i = 0;
+                foreach (string path in data.levelDataPaths)
                 {
-                    
-                    LevelData data_lv = JsonConvert.DeserializeObject<LevelData>(File.ReadAllText("Json/"+data.levelDataPaths[0]));
-                    data.levelData = data_lv;
+                    if(i > 5)
+                    {
+                        continue;
+                    }
+                    try
+                    {
 
+                        LevelData data_lv = JsonConvert.DeserializeObject<LevelData>(File.ReadAllText("Json/" + path));
+                        data.levelData.Merge(data_lv);
+                        i++;
+                    }
+                    catch (Exception ex)
+                    {
+                        //Logger.PrintError(ex.Message);
+                        Logger.PrintWarn("Missing levelData natural spawns file for scene " + data.mapIdStr + " path: " + path);
+                        
+                    }
                 }
-                catch (Exception ex)
-                {
-                    //Logger.PrintError(ex.Message);
-                    Logger.PrintWarn("Missing levelData natural spawns for scene " + data.mapIdStr+" path: "+data.levelDataPaths[0]);
-                    data.levelData = new();
-                }
+               
                 
                 
                 levelDatas.Add(data);
@@ -408,9 +418,19 @@ namespace ArkFieldPS.Resource
                 public List<LevelInteractiveData> interactives = new();
                 public List<LevelNpcData> npcs = new();
                 public List<LevelScriptData> levelScripts = new();
+                public void Merge(LevelData other)
+                {
+                    this.sceneId = other.sceneId;
+                    this.levelIdNum = other.levelIdNum;
+                    this.enemies.AddRange(other.enemies);
+                    this.interactives.AddRange(other.interactives);
+                    this.npcs.AddRange(other.npcs);
+                    this.levelScripts.AddRange(other.levelScripts);
+                }
                 public class LevelScriptData
                 {
                     public ulong scriptId;
+                    public List<ParamKeyValue> properties;
                 }
                 public class LevelNpcData
                 {
@@ -439,6 +459,114 @@ namespace ArkFieldPS.Resource
                     public bool forceLoad;
                     public int level;
                     public int dependencyGroupId;
+                    public List<ParamKeyValue> properties;
+                    public Dictionary<InteractiveComponentType, List<ParamKeyValue>> componentProperties = new();
+                }
+                public class ParamKeyValue
+                {
+                    public string key;
+                    public ParamValue value;
+
+                    public DynamicParameter ToProto()
+                    {
+                        DynamicParameter param = new()
+                        {
+                            RealType = (int)value.type,
+                            ValueType= (int)value.type,
+                            
+                        };
+                        foreach(var val in value.valueArray)
+                        {
+                            switch (value.type)
+                            {
+                                case ParamRealType.LangKey:
+                                    param.ValueStringList.Add(val.valueString);
+                                    param.ValueType = (int)ParamValueType.String;
+                                    break;
+                                case ParamRealType.LangKeyList:
+                                    param.ValueStringList.Add(val.valueString);
+                                    param.ValueType = (int)ParamValueType.StringList;
+                                    break;
+                                case ParamRealType.String:
+                                    param.ValueStringList.Add(val.valueString);
+                                    param.ValueType = (int)ParamValueType.String;
+                                    break;
+                                case ParamRealType.StringList:
+                                    param.ValueStringList.Add(val.valueString);
+                                    param.ValueType = (int)ParamValueType.StringList;
+                                    break;
+                                case ParamRealType.Vector3:
+                                    param.ValueFloatList.Add(val.ToFloat());
+                                    param.ValueType = (int)ParamValueType.FloatList;
+                                    break;
+                                 case ParamRealType.Float:
+                                     param.ValueFloatList.Add(val.ToFloat());
+                                    param.ValueType = (int)ParamValueType.Float;
+                                    break;
+                                case ParamRealType.FloatList:
+                                    param.ValueFloatList.Add(val.ToFloat());
+                                    param.ValueType = (int)ParamValueType.FloatList;
+                                    break;
+                                case ParamRealType.Int:
+                                     param.ValueIntList.Add(val.valueBit64);
+                                    param.ValueType = (int)ParamValueType.Int;
+                                    break;
+                                case ParamRealType.IntList:
+                                    param.ValueIntList.Add(val.valueBit64);
+                                    param.ValueType = (int)ParamValueType.IntList;
+                                    break;
+                                case ParamRealType.Bool:
+                                    param.ValueBoolList.Add(false);
+                                    param.ValueType = (int)ParamValueType.Bool;
+                                    break;
+                                case ParamRealType.Vector3List:
+                                    param.ValueFloatList.Add(val.ToFloat());
+                                    param.ValueType = (int)ParamValueType.FloatList;
+                                    break;
+                                case ParamRealType.BoolList:
+                                    param.ValueBoolList.Add(false);
+                                    param.ValueType = (int)ParamValueType.BoolList;
+                                    break;
+                                case ParamRealType.EntityPtr:
+                                    param.ValueIntList.Add(val.valueBit64);
+                                    param.ValueType = (int)ParamValueType.Int;
+                                    break;
+                                case ParamRealType.UInt64:
+                                    param.ValueIntList.Add(val.valueBit64);
+                                    param.ValueType = (int)ParamValueType.Int;
+                                    break;
+                                default:
+                                    return null;
+                                    break;
+                            }
+                        }
+                        
+                        return param;
+                    }
+
+                    public class ParamValue
+                    {
+                        public ParamRealType type;
+                        public ParamValueAtom[] valueArray;
+                    }
+                    public class ParamValueAtom
+                    {
+                        public long valueBit64;
+                        public string valueString;
+
+                        public float ToFloat()
+                        {
+                            int intValueFromBit64 = (int)valueBit64; // Converti long in int
+                            float floatValueFromBit64 = BitConverter.ToSingle(BitConverter.GetBytes(intValueFromBit64), 0);
+                            return floatValueFromBit64;
+                        }
+                        public int ToInt()
+                        {
+                            int intValueFromBit64 = (int)valueBit64; // Converti long in int
+                           
+                            return intValueFromBit64;
+                        }
+                    }
                 }
                 public class LevelEnemyData
                 {

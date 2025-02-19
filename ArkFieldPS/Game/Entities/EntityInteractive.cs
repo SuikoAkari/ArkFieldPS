@@ -6,12 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static ArkFieldPS.Resource.ResourceManager;
+using static ArkFieldPS.Resource.ResourceManager.LevelScene.LevelData;
 
 namespace ArkFieldPS.Game.Entities
 {
     public class EntityInteractive : Entity
     {
         public string templateId;
+        public Dictionary<InteractiveComponentType, List<ParamKeyValue>> componentProperties = new();
         public EntityInteractive()
         {
 
@@ -42,30 +44,58 @@ namespace ArkFieldPS.Game.Entities
                 CommonInfo = new()
                 {
                     Hp = 100,
+                    
                     Id = guid,
                     Templateid = templateId,
                     BelongLevelScriptId = belongLevelScriptId,
-
+                    
                     SceneNumId = GetOwner().curSceneNumId,
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
-
+                    
                     Type = (int)type,
                 },
 
-                Meta =dependencyGroupId,
+                //Meta =dependencyGroupId,
                 BattleInfo = new()
                 {
                     
                 },
                 Properties =
                 {
-                   
+                    
                 }
-
+                
             };
+            int i = 1;
+            
+                foreach (var prop in properties)
+                {
+                    DynamicParameter p = prop.ToProto();
+                    if (p != null)
+                    {
+                        proto.Properties.Add(i, p);
+                        i++;
+                    }
+
+                }
+                foreach (var comp in componentProperties)
+                {
+                    foreach (var prop in comp.Value)
+                    {
+                        DynamicParameter p = prop.ToProto();
+                        if (p != null)
+                        {
+                            proto.Properties.Add(i, p);
+                            i++;
+                        }
+                    }
+                }
+            
+            
             return proto;
         }
+
         public override void Damage(double dmg)
         {
             

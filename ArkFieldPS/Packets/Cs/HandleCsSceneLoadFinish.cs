@@ -25,8 +25,8 @@ namespace ArkFieldPS.Packets.Cs
         public static void HandleSceneFinish(Player session, CsMessageId cmdId, Packet packet)
         {
             CsSceneLoadFinish req = packet.DecodeBody<CsSceneLoadFinish>();
+            session.Send(new PacketScSelfSceneInfo(session, SelfInfoReasonType.SlrEnterScene));
 
-            
             session.sceneManager.LoadCurrentTeamEntities();
             session.sceneManager.LoadCurrent();
             if (session.curSceneNumId == 98)
@@ -47,7 +47,7 @@ namespace ArkFieldPS.Packets.Cs
                 }
                     
             }
-            session.Send(new PacketScSelfSceneInfo(session, SelfInfoReasonType.SlrEnterScene));
+            
         }
     }
 }

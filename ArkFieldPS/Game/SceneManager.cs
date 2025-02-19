@@ -164,6 +164,8 @@ namespace ArkFieldPS.Game
                     dependencyGroupId=en.dependencyGroupId,
                     levelLogicId=en.levelLogicId,
                     type = en.entityType,
+                    properties= en.properties,
+                    componentProperties=en.componentProperties,
                 };
                 entities.Add(entity);
             });
@@ -191,8 +193,11 @@ namespace ArkFieldPS.Game
                 };
                 entities.Add(entity);
             });
+            GetEntityExcludingChar().ForEach(e =>
+            {
+                GetOwner().Send(new PacketScObjectEnterView(GetOwner(),new List<Entity>() { e}));
+            });
             
-            GetOwner().Send(new PacketScObjectEnterView(GetOwner(), GetEntityExcludingChar()));
            
         }
        

@@ -69,12 +69,21 @@ namespace ArkFieldPS.Packets.Sc
             //Levelscripts here?
             ResourceManager.GetLevelData(session.curSceneNumId).levelData.levelScripts.ForEach(l =>
             {
-                sceneInfo.LevelScripts.Add(new LevelScriptInfo()
+                LevelScriptInfo script = new LevelScriptInfo()
                 {
                     ScriptId = l.scriptId,
-                    IsDone=true,
-                    State=2
-                });
+                    IsDone = false,
+                    State = 0,
+
+                };
+                int i = 0;
+                foreach (var item in l.properties)
+                {
+                    DynamicParameter p=item.ToProto();
+                    if (p != null)
+                    script.Properties.Add(i++, p);
+                }
+                sceneInfo.LevelScripts.Add(script);
             });
             SetData(ScMessageId.ScSelfSceneInfo, sceneInfo);
             
