@@ -32,7 +32,11 @@ namespace ArkFieldPS.Resource
 
         public LongBitSet(ICollection<int> values)
         {
-            int max = values.Max();
+            int max = 0;
+            if (values.Count > 0)
+            {
+                max = values.Max();
+            }
             InitializeWithBitCount(max);
             foreach(var i in values)
             {
@@ -143,7 +147,16 @@ namespace ArkFieldPS.Resource
                     values.Add(i);
             }
         }
-
+        public List<int> ConvertToIntValues()
+        {
+            List<int> values=new();
+            for (int i = 0; i < bitCount; i++)
+            {
+                if (IsBitSet(i))
+                    values.Add(i);
+            }
+            return values;
+        }
         public override int GetHashCode()
         {
             return base.GetHashCode();

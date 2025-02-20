@@ -98,6 +98,7 @@ namespace ArkFieldPS
         public SpaceshipManager spaceshipManager;
         public SceneManager sceneManager;
         public GachaManager gachaManager;
+        public BitsetManager bitsetManager;
         public int teamIndex = 0;
         public List<Team> teams= new List<Team>();
         public List<Mail> mails = new List<Mail>();
@@ -107,6 +108,7 @@ namespace ArkFieldPS
         public uint curStamina = 10;
         public long nextRecoverTime = 0;
         public Dungeon currentDungeon;
+        
         public uint maxStamina {
             get{
                 return (uint)200;
@@ -120,6 +122,7 @@ namespace ArkFieldPS
             this.random = new(this);
             this.socket = socket;
             roleId = (ulong)new Random().Next();
+            bitsetManager = new(this);
             inventoryManager = new(this);
             sceneManager = new(this);
             gachaManager = new(this);
@@ -161,6 +164,7 @@ namespace ArkFieldPS
                 {
                     sceneManager.scenes = data.scenes;
                 }
+                bitsetManager.Load(data.bitsets);
             }
             else
             {
@@ -295,7 +299,7 @@ namespace ArkFieldPS
         public bool LoadFinish = true;
         public void EnterScene(int sceneNumId, Vector3f pos, Vector3f rot)
         {
-            if (!LoadFinish) return;
+           // if (!LoadFinish) return;
             if (GetLevelData(sceneNumId) != null)
             {
                 string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
@@ -436,14 +440,16 @@ namespace ArkFieldPS
                                 Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
                                 Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());
                             }
-                            
+                           
                             try
                             {
                                 NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
                             }
                             catch (Exception e)
+                            
                             {
-                                Logger.PrintError("Error while notify packet: " + e.Message);
+                                
+                                Logger.PrintError("Error while notify packet: " + e.Message+": "+ e.StackTrace);
                             }
 
                         }

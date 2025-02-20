@@ -1,5 +1,7 @@
 ﻿using ArkFieldPS.Database;
+using ArkFieldPS.Packets.Sc;
 using ArkFieldPS.Protocol;
+using ArkFieldPS.Resource;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,6 @@ namespace ArkFieldPS.Commands.Handlers
         [Server.Command("unlockall", "Unlock all systems",true)]
         public static void Handle(Player sender,string cmd, string[] args, Player target)
         {
-
             target.unlockedSystems.Clear();
             target.UnlockImportantSystems();
             target.maxDashEnergy = 250;
@@ -25,6 +26,12 @@ namespace ArkFieldPS.Commands.Handlers
                 };
                 target.Send(ScMessageId.ScUnlockSystem, unlocked);
             }
+            foreach (int i in ResourceManager.GetAllShortIds())
+            {
+                target.bitsetManager.AddValue(BitsetType.InteractiveActive, i);
+            }
+            target.Send(new PacketScSyncAllBitset(target));
+            CommandManager.SendMessage(sender, "Unlocked everything");
         }
     }
 }

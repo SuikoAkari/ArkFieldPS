@@ -21,7 +21,7 @@ namespace ArkFieldPS.Packets.Sc
 
                 Bitset =
                 {
-                    new BitsetData()
+                    /*new BitsetData()
                     {
                         Type=(int)BitsetType.CharVoice,
 
@@ -91,10 +91,8 @@ namespace ArkFieldPS.Packets.Sc
                             /*503839996,
                             0,
                             17042430230528,
-                            17180393728*/
-                           ResourceManager.CalculateWaypointIdsBitset()
-                            // ResourceManager.GetBitset(ResourceManager.GetAllShortIds())
-                          // ResourceManager.ToLongBitsetValue(ResourceManager.CalculateWaypointIdsBitset())
+                            17180393728
+                            ResourceManager.CalculateWaypointIdsBitset()
                         }
                     },
                     new BitsetData()
@@ -112,10 +110,20 @@ namespace ArkFieldPS.Packets.Sc
                         {
                             new LongBitSet(ResourceManager.strIdNumTable.wiki_id.dic.Values).Bits
                         }
-                    },
+                    },*/
                 }
             };
-           
+            foreach (var keyValuePair in client.bitsetManager.bitsets)
+            {
+                bitset.Bitset.Add(new BitsetData()
+                {
+                    Type = keyValuePair.Key,
+                    Value =
+                    {
+                        new LongBitSet(keyValuePair.Value).Bits
+                    }
+                });
+            }
             SetData(ScMessageId.ScSyncAllBitset, bitset);
         }
 

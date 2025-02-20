@@ -81,7 +81,7 @@ namespace ArkFieldPS.Packets.Sc
                 {
                     DynamicParameter p=item.ToProto();
                     if (p != null)
-                    script.Properties.Add(i++, p);
+                    script.Properties.Add(l.GetPropertyId(item.key,script.Properties.Keys.ToList()), p);
                 }
                 sceneInfo.LevelScripts.Add(script);
             });

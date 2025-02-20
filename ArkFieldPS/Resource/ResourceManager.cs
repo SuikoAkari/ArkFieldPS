@@ -165,25 +165,6 @@ namespace ArkFieldPS.Resource
         {
            return levelDatas.Find(e => e.idNum == sceneNumId);
         }
-        public static List<ulong> GetBitset(List<int> ids)
-        {
-            Dictionary<string, ulong> stringToIdMap = new Dictionary<string, ulong>(); // Mappa inversa
-            HashSet<ulong> result = new HashSet<ulong>();
-            int i = 0;
-            foreach (int var in ids) // values è l'insieme di stringhe
-            {
-                ulong bitPos = (ulong)i;
-                ulong baseBit = bitPos / 64 * 64;
-                ulong bitMask = 1UL << (int)(bitPos % 64);
-
-                if (!result.Contains(baseBit))
-                    result.Add(baseBit);
-
-                result.Add(result.Contains(baseBit) ? result.First(x => x == baseBit) | bitMask : bitMask);
-                i++;
-            }
-            return result.ToList();
-        }
         public static ulong[] CalculateWaypointIdsBitset()
         {
             return new LongBitSet(GetAllShortIds()).Bits;
@@ -192,48 +173,9 @@ namespace ArkFieldPS.Resource
         {
             return new LongBitSet(strIdNumTable.char_doc_id.dic.Values).Bits;
         }
-
-        public static List<string> CalculateBitsets(List<int> ids)
-        {
-            string bitset = "";
-            int maxValue = ids.Max();
-            int chunkSize = 64;
-            for (int i = 0; i <= maxValue; i++)
-            {
-                if (ids.Contains(i))
-                {
-                    bitset += "1";
-                }
-                else
-                {
-                    bitset += "0";
-                }
-            }
-            List<string> chunks = new List<string>();
-
-            for (int i = 0; i < bitset.Length; i += chunkSize)
-            {
-                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
-            }
-
-            return chunks;
-        }
         public static ulong[] CalculateVoiceIdsBitset()
         {
             return new LongBitSet(strIdNumTable.char_voice_id.dic.Values).Bits;
-        }
-        public static List<ulong> ToLongBitsetValue(List<string> binaryString)
-        {
-            //string binaryString = "1101"; // Numero binario
-            List<ulong> bits = new List<ulong>();
-
-            foreach (string bitset in binaryString)
-            {
-                ulong decimalValue = (ulong)Convert.ToUInt64(bitset, 2); // Converti in decimale
-                bits.Add(decimalValue);
-            }
-            
-            return bits;
         }
         public static LevelScene GetLevelData(string sceneId)
         {
@@ -424,6 +366,20 @@ namespace ArkFieldPS.Resource
                 {
                     public ulong scriptId;
                     public List<ParamKeyValue> properties;
+                    public Dictionary<int, string> propertyIdToKeyMap;
+
+
+                    public int GetPropertyId(string key, List<int> toExclude)
+                    {
+                        foreach(var keyValuePair in propertyIdToKeyMap)
+                        {
+                            if(keyValuePair.Value == key && !toExclude.Contains(keyValuePair.Key))
+                            {
+                                return keyValuePair.Key;
+                            }
+                        }
+                        return 0;
+                    }
                 }
                 public class LevelFactoryRegionData
                 {
@@ -472,7 +428,7 @@ namespace ArkFieldPS.Resource
                 {
                     public string key;
                     public ParamValue value;
-
+                    
                     public DynamicParameter ToProto()
                     {
                         DynamicParameter param = new()
@@ -522,7 +478,7 @@ namespace ArkFieldPS.Resource
                                     param.ValueType = (int)ParamValueType.IntList;
                                     break;
                                 case ParamRealType.Bool:
-                                    param.ValueBoolList.Add(false);
+                                    param.ValueBoolList.Add(val.valueBit64 == 1);
                                     param.ValueType = (int)ParamValueType.Bool;
                                     break;
                                 case ParamRealType.Vector3List:
@@ -530,14 +486,22 @@ namespace ArkFieldPS.Resource
                                     param.ValueType = (int)ParamValueType.FloatList;
                                     break;
                                 case ParamRealType.BoolList:
-                                    param.ValueBoolList.Add(false);
+                                    param.ValueBoolList.Add(val.valueBit64 == 1);
                                     param.ValueType = (int)ParamValueType.BoolList;
                                     break;
                                 case ParamRealType.EntityPtr:
                                     param.ValueIntList.Add(val.valueBit64);
                                     param.ValueType = (int)ParamValueType.Int;
                                     break;
+                                case ParamRealType.EntityPtrList:
+                                    param.ValueIntList.Add(val.valueBit64);
+                                    param.ValueType = (int)ParamValueType.Int;
+                                    break;
                                 case ParamRealType.UInt64:
+                                    param.ValueIntList.Add(val.valueBit64);
+                                    param.ValueType = (int)ParamValueType.Int;
+                                    break;
+                                case ParamRealType.WaterVolumePtr:
                                     param.ValueIntList.Add(val.valueBit64);
                                     param.ValueType = (int)ParamValueType.Int;
                                     break;

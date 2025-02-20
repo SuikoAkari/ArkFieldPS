@@ -40,6 +40,7 @@ namespace ArkFieldPS.Database
         public uint curStamina;
         public long nextRecoverTime;
         public List<Scene> scenes = new();
+        public Dictionary<int, List<int>> bitsets = new();
     }
     public class Account
     {
@@ -138,6 +139,7 @@ namespace ArkFieldPS.Database
                 nextRecoverTime = player.nextRecoverTime,
                 noSpawnAnymore = player.noSpawnAnymore,
                 scenes=player.sceneManager.scenes,
+                bitsets=player.bitsetManager.bitsets
             };
             UpsertPlayerData(data);
         }

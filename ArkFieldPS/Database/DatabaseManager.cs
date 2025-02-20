@@ -58,12 +58,14 @@ namespace ArkFieldPS.Database
         object IBsonSerializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args) =>
             Deserialize(context, args);
     }
+
     public class DatabaseManager
     {
         public static Database db;
         public static void Init()
         {
             BsonSerializer.RegisterSerializer(typeof(Dictionary<int, ulong>), new CustomDictionarySerializer<int, ulong>());
+            BsonSerializer.RegisterSerializer(typeof(Dictionary<int, List<int>>), new CustomDictionarySerializer<int, List<int>>());
             Logger.Print("Connecting to MongoDB..."); 
             try
             {
