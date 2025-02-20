@@ -29,6 +29,8 @@ sudo apt install git wget curl zip
 3. Установите .Net 8:
     Следуйте инструкции на официальном сайте [Microsoft](https://learn.microsoft.com/ru-ru/dotnet/core/install/linux-debian?tabs=dotnet8)
 
+[Установка ArkFieldPS =>](#установка-ArkFieldPS)
+
 ---
 
 ### Arch Linux
@@ -46,6 +48,8 @@ paru -S dotnet-runtime-8.0 mongodb-bin
 ```bash
 sudo pacman -S git zip wget
 ```
+
+[Установка ArkFieldPS =>](#установка-ArkFieldPS)
 
 ---
 
@@ -94,6 +98,8 @@ sudo systemctl enable mongod.service
 sudo dnf install dotnet-sdk-8.0
 ```
 
+[Установка ArkFieldPS =>](#установка-ArkFieldPS)
+
 ---
 
 ### Ubuntu
@@ -115,6 +121,8 @@ sudo apt install git wget zip
     Следуйте инструкции на официальном сайте [Microsoft](https://learn.microsoft.com/ru-ru/dotnet/core/install/linux-ubuntu-install?tabs=dotnet8)
 > [!WARNING]
 > Также не забудьте выбрать вашу версию Ubuntu.
+
+[Установка ArkFieldPS =>](#установка-ArkFieldPS)
 
 ---
 
@@ -139,7 +147,7 @@ cp -r GameData/EndFieldData/DynamicAssets DynamicAssets
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
-===
+
 
 ## Настройка ArkFieldPS
 

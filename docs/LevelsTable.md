@@ -68,17 +68,17 @@
 |216|True        |indie_dg003             |![Image](./LevelImages/216.png)|      |
 |128|True        |indie_race001           |![Image](./LevelImages/128.png)|      |
 |124|False       |indie_rpg001            |                               |      |
-|21 |False       |map01_lv001             |                               |All main maps (`map01_lv*`) aren't working at the moment|
-|2  |False       |map01_lv002             |                               |      |
-|3  |False       |map01_lv003             |                               |      |
-|34 |False       |map01_lv005             |                               |      |
-|35 |False       |map01_lv006             |                               |      |
-|28 |False       |map01_lv007             |                               |      |
+|21 |True        |map01_lv001 (Valley IV - The Hub)|![Image](./LevelImages/21.png)|All main maps (map01_lv*) loads only through ingame map|
+|2  |True        |map01_lv002 (Valley IV - Valley Pass)|![Image](./LevelImages/2.png)|      |
+|3  |True        |map01_lv003 (Valley IV - Aburrey Quarry)|![Image](./LevelImages/3.png)|      |
+|34 |True        |map01_lv005 (Valley IV - Originium Science Park)|![Image](./LevelImages/34.png)|      |
+|35 |True        |map01_lv006 (Valley IV - Origin Lodespring)|![Image](./LevelImages/35.png)|      |
+|28 |True        |map01_lv007 (Valley IV - Power Plateau)|![Image](./LevelImages/28.png)|      |
 |101|True        |map02_lv001             |![Image](./LevelImages/101.png)|      |
 
 ## Additional Information
 
-You can achieve a teleportation effect by editing the `players` entry in the `ArkFieldPS` collection of your MongoDB. This allows you to explore areas that are normally blocked off by Invisible Walls, such as `dung01_bdg001`:
+You can achieve a teleportation effect by editing the `players` entry in the `ArkFieldPS` collection of your MongoDB (or just use /tp command). This allows you to explore areas that are normally blocked off by Invisible Walls, such as `dung01_bdg001`:
 ![Image](./LevelImages/210_1.png)
 ```
 position:Object
