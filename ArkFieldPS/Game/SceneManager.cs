@@ -65,6 +65,10 @@ namespace ArkFieldPS.Game
            
 
         }
+        public Scene GetScene(int sceneId)
+        {
+            return scenes.Find(s=>s.sceneNumId==sceneId);
+        }
         public Scene GetCurScene()
         {
             return scenes.Find(s => s.sceneNumId == player.curSceneNumId);
@@ -105,7 +109,6 @@ namespace ArkFieldPS.Game
                         }
                     }
                 }
-                scenes.Find(s=>s.sceneNumId== GetEntity(guid).sceneNumId).entities.Remove(GetEntity(guid));
                 if (killClient)
                 {
                     ScSceneDestroyEntity destroy = new()
@@ -116,6 +119,8 @@ namespace ArkFieldPS.Game
                     };
                     player.Send(Protocol.ScMessageId.ScSceneDestroyEntity, destroy);
                 }
+                scenes.Find(s=>s.sceneNumId== GetEntity(guid).sceneNumId).entities.Remove(GetEntity(guid));
+                
             }
         }
         public void CreateDrop(Vector3f pos,ResourceManager.RewardTable.ItemBundle bundle)

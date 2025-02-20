@@ -126,7 +126,7 @@ namespace ArkFieldPS.Game.Entities
                 GetOwner().inventoryManager.AddRewards(properties.Find(p=>p.key== "reward_id").value.valueArray[0].valueString,Position,1);
                 GetOwner().sceneManager.KillEntity(guid,true,1);
                 GetOwner().noSpawnAnymore.Add(guid);
-                GetOwner().sceneManager.GetCurScene().AddCollection("int_trchest_common", 1);
+                GetOwner().sceneManager.GetScene(sceneNumId).AddCollection("int_trchest_common", 1);
                 GetOwner().Send(new PacketScSceneCollectionSync(GetOwner()));
                 return true;
             }else if(eventName == "pick_inst")
