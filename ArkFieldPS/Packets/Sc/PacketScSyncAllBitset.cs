@@ -15,6 +15,7 @@ namespace ArkFieldPS.Packets.Sc
 
         public PacketScSyncAllBitset(Player client) {
 
+            LongBitSet waypointsSet = new LongBitSet(ResourceManager.GetAllShortIds());
             ScSyncAllBitset bitset = new()
             {
 
@@ -86,12 +87,13 @@ namespace ArkFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.InteractiveActive,
-                        Value =
+                        Value = 
                         {
-                            503839996,
+                            waypointsSet.Bits
+                            /*503839996,
                             0,
                             17042430230528,
-                            17180393728
+                            17180393728*/
                            // ResourceManager.GetBitset(ResourceManager.GetAllShortIds())
                           // ResourceManager.ToLongBitsetValue(ResourceManager.CalculateWaypointIdsBitset())
                         }
