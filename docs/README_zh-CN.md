@@ -24,7 +24,7 @@ ArkFieldPS 是一个为 《明日方舟：终末地》再次测试 提供的本�
    2. 需要通过菜单栏左上角的 Tools -> Options -> HTTPS，勾选 “Capture HTTPS CONNECTs” 和 “Decrypt HTTPS traffic”。您还可以通过 Actions（位于 “Capture HTTPS CONNECTs” 右侧）-> Trust Root Certificate 重新安装证书，点击 “Yes” 以确认。  
 
 2. 下载 [预编译版本](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) 或自行构建项目。  
-3. 将 `Json` 和 `TableCfg` 文件夹放入 `ArkFieldPS.exe` 所在的目录（可以从 [这里](https://github.com/PotRooms/EndFieldData/tree/main) 下载副本）。  
+3. 将 `Json`、 `TableCfg` 和 `DynamicAssets` 文件夹放入 `ArkFieldPS.exe` 所在的目录（可以从 [这里](https://github.com/PotRooms/EndFieldData/tree/main) 下载副本）。  
 4. 运行服务端（`ArkFieldPS.exe`）。  
 5. 覆盖 `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` 脚本（或者备份原有脚本并创建一个同名的新文件），替换为以下脚本：  
    - 您还可以运行 *Fiddler Classic*，转到 “Rules -> Customize Rules” (快捷键 CTRL + R) 保存脚本，或者通过 *FiddlerScript* 选项卡进行编辑。  

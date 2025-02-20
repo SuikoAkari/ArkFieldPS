@@ -122,19 +122,20 @@ sudo apt install git wget zip
 1. Установите [приватный сервер](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) и [игровые значения](https://github.com/PotRooms/EndFieldData/tree/main):
 
 ```bash
-cd \ 
-mkdir ArkFieldPS && cd ArkFieldPS \ 
-wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
-mkdir GameData && cd GameData \ 
+cd
+mkdir ArkFieldPS && cd ArkFieldPS
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip
+mkdir GameData && cd GameData
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
 2. Извлеките ArkFieldPS и скопируйте файлы:
 
 ```bash
-cd .. \
-unzip ArkFieldPS-master-Linux.zip \ 
-cp -r GameData/EndFieldData/Json Json \ 
+cd ..
+unzip ArkFieldPS-master-Linux.zip
+cp -r GameData/EndFieldData/Json Json
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 

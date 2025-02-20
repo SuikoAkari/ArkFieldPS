@@ -31,19 +31,20 @@ sudo apt install git wget curl zip
 1. Download PS and Data
 
 ```bash
-cd \ 
-mkdir ArkFieldPS && cd ArkFieldPS \ 
-wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
-mkdir GameData && cd GameData \ 
+cd
+mkdir ArkFieldPS && cd ArkFieldPS
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip
+mkdir GameData && cd GameData
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
 2. Extract ArkFieldPS and Copy Files
 
 ```bash
-cd .. \
-unzip ArkFieldPS-master-Linux.zip \ 
-cp -r GameData/EndFieldData/Json Json \ 
+cd ..
+unzip ArkFieldPS-master-Linux.zip
+cp -r GameData/EndFieldData/Json Json
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
@@ -114,19 +115,20 @@ sudo pacman -S git zip wget
 1. Download PS and Data
 
 ```bash
-cd \ 
-mkdir ArkFieldPS && cd ArkFieldPS \ 
-wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
-mkdir GameData && cd GameData \ 
+cd
+mkdir ArkFieldPS && cd ArkFieldPS
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip 
+mkdir GameData && cd GameData
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
 2. Extract ArkFieldPS and Copy Files
 
 ```bash
-cd .. \
-unzip ArkFieldPS-master-Linux.zip \ 
-cp -r GameData/EndFieldData/Json Json \ 
+cd ..
+unzip ArkFieldPS-master-Linux.zip
+cp -r GameData/EndFieldData/Json Json
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
@@ -225,19 +227,20 @@ sudo dnf install dotnet-sdk-8.0
 1. Download PS and Data
 
 ```bash
-cd \ 
-mkdir ArkFieldPS && cd ArkFieldPS \ 
-wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
-mkdir GameData && cd GameData \ 
+cd
+mkdir ArkFieldPS && cd ArkFieldPS
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip 
+mkdir GameData && cd GameData
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
 2. Extract ArkFieldPS and Copy Files
 
 ```bash
-cd .. \
-unzip ArkFieldPS-master-Linux.zip \ 
-cp -r GameData/EndFieldData/Json Json \ 
+cd ..
+unzip ArkFieldPS-master-Linux.zip
+cp -r GameData/EndFieldData/Json Json
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
@@ -313,19 +316,20 @@ sudo apt install git wget zip
 1. Download PS and Data
 
 ```bash
-cd \ 
-mkdir ArkFieldPS && cd ArkFieldPS \ 
-wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
-mkdir GameData && cd GameData \ 
+cd
+mkdir ArkFieldPS && cd ArkFieldPS
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip 
+mkdir GameData && cd GameData
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
 2. Extract ArkFieldPS and Copy Files
 
 ```bash
-cd .. \
-unzip ArkFieldPS-master-Linux.zip \ 
-cp -r GameData/EndFieldData/Json Json \ 
+cd ..
+unzip ArkFieldPS-master-Linux.zip
+cp -r GameData/EndFieldData/Json Json
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 

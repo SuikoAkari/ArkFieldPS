@@ -39,9 +39,10 @@ git clone https://github.com/PotRooms/EndFieldData.git
 2. 解压服务端并复制文件
 
 ```bash
-cd .. \
-unzip ArkFieldPS-master-Linux.zip \
-cp -r GameData/EndFieldData/Json Json \
+cd .. && \
+unzip ArkFieldPS-master-Linux.zip && \
+cp -r GameData/EndFieldData/Json Json && \
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets && \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
@@ -139,6 +140,7 @@ git clone https://github.com/PotRooms/EndFieldData.git
 cd .. && \
 unzip ArkFieldPS-master-Linux.zip && \
 cp -r GameData/EndFieldData/Json Json && \
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets && \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
@@ -255,7 +257,8 @@ git clone https://github.com/PotRooms/EndFieldData.git
 ```bash
 cd .. && \
 unzip ArkFieldPS-master-Linux.zip && \ 
-cp -r GameData/EndFieldData/Json Json &&\ 
+cp -r GameData/EndFieldData/Json Json && \
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets && \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
@@ -341,7 +344,8 @@ git clone https://github.com/PotRooms/EndFieldData.git
 ```bash
 cd .. && \
 unzip ArkFieldPS-master-Linux.zip && \ 
-cp -r GameData/EndFieldData/Json Json && \ 
+cp -r GameData/EndFieldData/Json Json && \
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets && \ 
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
