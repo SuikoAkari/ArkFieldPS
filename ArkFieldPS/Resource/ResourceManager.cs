@@ -184,58 +184,13 @@ namespace ArkFieldPS.Resource
             }
             return result.ToList();
         }
-        public static List<string> CalculateWaypointIdsBitset()
+        public static ulong[] CalculateWaypointIdsBitset()
         {
-            Logger.Print("getting waypoints");
-            string bitset = "";
-            List<int> waypoints = GetAllShortIds();
-            int maxValue = waypoints.Max();
-            int chunkSize = 64;
-            Logger.Print("max waypoint id:"+maxValue);
-            for (int i = 0; i <= maxValue; i++)
-            {
-                if (waypoints.Contains(i))
-                {
-                    bitset += "1";
-                }
-                else
-                {
-                    bitset += "0";
-                }
-            }
-            List<string> chunks = new List<string>();
-
-            for (int i = 0; i < bitset.Length; i += chunkSize)
-            {
-                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
-            }
-
-            return chunks;
+            return new LongBitSet(GetAllShortIds()).Bits;
         }
-        public static List<string> CalculateDocsIdsBitset()
+        public static ulong[] CalculateDocsIdsBitset()
         {
-            string bitset = "";
-            int maxValue = strIdNumTable.char_doc_id.dic.Values.Max();
-            int chunkSize = 64;
-            for (int i = 0; i <= maxValue; i++)
-            {
-                if (strIdNumTable.char_doc_id.dic.Values.ToList().Contains(i))
-                {
-                    bitset += "1";
-                }
-                else
-                {
-                    bitset += "0";
-                }
-            }
-            List<string> chunks = new List<string>();
-
-            for (int i = 0; i < bitset.Length; i += chunkSize)
-            {
-                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
-            }
-
-            return chunks;
+            return new LongBitSet(strIdNumTable.char_doc_id.dic.Values).Bits;
         }
 
         public static List<string> CalculateBitsets(List<int> ids)
@@ -263,30 +218,9 @@ namespace ArkFieldPS.Resource
 
             return chunks;
         }
-        public static List<string> CalculateVoiceIdsBitset()
+        public static ulong[] CalculateVoiceIdsBitset()
         {
-            string bitset = "";
-            int maxValue = strIdNumTable.char_voice_id.dic.Values.Max();
-            int chunkSize = 64;
-            for (int i = 0; i <= maxValue; i++)
-            {
-                if (strIdNumTable.char_voice_id.dic.Values.ToList().Contains(i))
-                {
-                    bitset += "1";
-                }
-                else
-                {
-                    bitset += "0";
-                }
-            }
-            List<string> chunks = new List<string>();
-
-            for (int i = 0; i < bitset.Length; i += chunkSize)
-            {
-                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
-            }
-
-            return chunks;
+            return new LongBitSet(strIdNumTable.char_voice_id.dic.Values).Bits;
         }
         public static List<ulong> ToLongBitsetValue(List<string> binaryString)
         {

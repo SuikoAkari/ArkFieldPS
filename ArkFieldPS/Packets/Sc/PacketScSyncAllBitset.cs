@@ -27,7 +27,7 @@ namespace ArkFieldPS.Packets.Sc
 
                         Value =
                         {
-                            ResourceManager.ToLongBitsetValue(ResourceManager.CalculateVoiceIdsBitset())
+                            ResourceManager.CalculateVoiceIdsBitset()
                         }
                     },
                     new BitsetData()
@@ -35,7 +35,7 @@ namespace ArkFieldPS.Packets.Sc
                         Type=(int)BitsetType.CharDoc,
                         Value =
                         {
-                             ResourceManager.ToLongBitsetValue(ResourceManager.CalculateDocsIdsBitset())
+                             ResourceManager.CalculateDocsIdsBitset()
                         }
                     },
                     new BitsetData()
@@ -86,13 +86,14 @@ namespace ArkFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.InteractiveActive,
-                        Value =
+                        Value = 
                         {
-                            503839996,
+                            /*503839996,
                             0,
                             17042430230528,
-                            17180393728
-                           // ResourceManager.GetBitset(ResourceManager.GetAllShortIds())
+                            17180393728*/
+                           ResourceManager.CalculateWaypointIdsBitset()
+                            // ResourceManager.GetBitset(ResourceManager.GetAllShortIds())
                           // ResourceManager.ToLongBitsetValue(ResourceManager.CalculateWaypointIdsBitset())
                         }
                     },
@@ -109,7 +110,7 @@ namespace ArkFieldPS.Packets.Sc
                         Type=(int)BitsetType.Wiki,
                         Value =
                         {
-                            ResourceManager.ToLongBitsetValue(ResourceManager.CalculateBitsets(ResourceManager.strIdNumTable.wiki_id.dic.Values.ToList()))
+                            new LongBitSet(ResourceManager.strIdNumTable.wiki_id.dic.Values).Bits
                         }
                     },
                 }
