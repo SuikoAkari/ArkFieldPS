@@ -16,7 +16,7 @@ namespace ArkFieldPS.Game.Entities
         {
 
         }
-        public EntityMonster(string templateId, int level, ulong worldOwner, Vector3f pos, Vector3f rot,ulong g=0)
+        public EntityMonster(string templateId, int level, ulong worldOwner, Vector3f pos, Vector3f rot, int scene, ulong g=0)
         {
             if (g == 0)
             {
@@ -33,6 +33,7 @@ namespace ArkFieldPS.Game.Entities
             this.Rotation = rot;
             this.templateId = templateId;
             this.curHp = GetAttribValue(AttributeType.MaxHp);
+            this.sceneNumId=scene;
         }
         public double GetAttribValue(AttributeType type)
         {
@@ -79,7 +80,7 @@ namespace ArkFieldPS.Game.Entities
                     Id = guid,
                     Templateid = templateId,
                     BelongLevelScriptId = belongLevelScriptId,
-                    SceneNumId = GetOwner().curSceneNumId,
+                    SceneNumId = sceneNumId,
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
 

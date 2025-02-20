@@ -22,16 +22,17 @@ namespace ArkFieldPS.Game.Entities
         public Vector3f Position=new();
         public Vector3f Rotation = new();
         public List<ParamKeyValue> properties=new();
+        public int sceneNumId;
         public Entity()
         {
 
         }
-        public Entity(ulong guid, int level, ulong worldOwner)
+        public Entity(ulong guid, int level, ulong worldOwner,int scene)
         {
             this.guid = guid;
             this.level = level;
             this.worldOwner = worldOwner;
-
+            this.sceneNumId = scene;
         }
         public virtual void Damage(double dmg)
         {

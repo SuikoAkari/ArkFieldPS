@@ -26,7 +26,7 @@ namespace ArkFieldPS.Packets.Sc
                     }
                 },
                 
-                HasExtraObject = true
+                HasExtraObject = entities.Count > 1
             };
             
             foreach (Entity entity in entities)

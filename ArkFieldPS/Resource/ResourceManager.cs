@@ -385,6 +385,7 @@ namespace ArkFieldPS.Resource
             public string id;
             public int idNum;
             public string mapIdStr;
+            public bool isSeamless;
             public DefaultState defaultState;
 
             public Vector3f playerInitPos;
@@ -619,6 +620,7 @@ namespace ArkFieldPS.Resource
         public class DefaultState
         {
             public string sourceSceneName;
+            public string exportedSceneConfigPath;
         }
         public class SettlementBasicDataTable
         {

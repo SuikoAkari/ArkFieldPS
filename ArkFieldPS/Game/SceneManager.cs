@@ -20,35 +20,21 @@ namespace ArkFieldPS.Game
     {
         public List<Scene> scenes = new List<Scene>();
         public Player player;
+        public List<Entity> globalEntities = new List<Entity>();
         public SceneManager(Player player) {
         
             this.player = player;   
             
         }
-        public void UnloadCurrent(bool v)
-        {
-            Scene scene = scenes.Find(s => s.sceneNumId == player.curSceneNumId);
-
-            if (scene != null)
-            {
-                if (v)
-                {
-                    List<ulong> g = new();
-                    foreach (Entity e in scene.entities) {
-                        g.Add(e.guid);
-                    }
-                    PacketScObjectLeaveView leave = new(player, g);
-                    player.Send(leave);
-                }
-                player.random.usedGuids.Clear();
-                scene.Unload();
-            }
-
-        }
+       
         public Entity GetEntity(ulong guid)
         {
             Scene scene = scenes.Find(s => s.sceneNumId == player.curSceneNumId);
-
+            Entity en = globalEntities.Find(e => e.guid == guid);
+            if (en != null)
+            {
+                return en;
+            }
             if (scene != null)
             {
                 return scene.entities.Find(e => e.guid == guid);
@@ -58,29 +44,25 @@ namespace ArkFieldPS.Game
         }
         public void LoadCurrentTeamEntities()
         {
-            Scene scene = GetCurScene();
-
-            if (scene != null)
+            globalEntities.RemoveAll(e => e is EntityCharacter);
+            foreach (Character.Character chara in player.GetCurTeam())
             {
-                scene.entities.RemoveAll(e => e is EntityCharacter);
-                foreach (Character.Character chara in player.GetCurTeam())
-                {
-                    EntityCharacter ch = new(chara.guid, player.roleId);
-                    scene.entities.Add(ch);
-                }
+                EntityCharacter ch = new(chara.guid, player.roleId);
+                globalEntities.Add(ch);
             }
-            
-            
-
         }
         public void LoadCurrent()
         {
-            Scene scene = GetCurScene();
-
-            if (scene != null)
+            Scene curscene = GetCurScene();
+            string sceneConfigPath = curscene.info().defaultState.exportedSceneConfigPath;
+            foreach(Scene scene in scenes.FindAll(s => s.info().defaultState.exportedSceneConfigPath == sceneConfigPath))
             {
-                scene.Load();
+                if (scene != null)
+                {
+                    scene.Load();
+                }
             }
+           
 
         }
         public Scene GetCurScene()
@@ -113,7 +95,7 @@ namespace ArkFieldPS.Game
                         id = "item_gem_rarity_3",
                         count=1
                     });
-                    LevelScene lv_scene = ResourceManager.GetLevelData(GetCurScene().sceneNumId);
+                    LevelScene lv_scene = ResourceManager.GetLevelData(GetEntity(guid).sceneNumId);
                     LevelEnemyData d = lv_scene.levelData.enemies.Find(l => l.levelLogicId == monster.guid);
                     if (d != null)
                     {
@@ -123,26 +105,24 @@ namespace ArkFieldPS.Game
                         }
                     }
                 }
-                scene.entities.Remove(GetEntity(guid));
+                scenes.Find(s=>s.sceneNumId== GetEntity(guid).sceneNumId).entities.Remove(GetEntity(guid));
                 if (killClient)
                 {
                     ScSceneDestroyEntity destroy = new()
                     {
                         Id = guid,
                         Reason = reason,
-                        SceneNumId = player.curSceneNumId,
+                        SceneNumId = GetEntity(guid).sceneNumId,
                     };
                     player.Send(Protocol.ScMessageId.ScSceneDestroyEntity, destroy);
                 }
-                //Leave packet disabled for now
-                //player.Send(new PacketScObjectLeaveView(player, guid));
             }
         }
         public void CreateDrop(Vector3f pos,ResourceManager.RewardTable.ItemBundle bundle)
         {
             ItemTable info = ResourceManager.itemTable[bundle.id];
             Item item = new Item(player.roleId, info.id, bundle.count);
-            EntityInteractive drop = new(info.modelKey, player.roleId, pos, new Vector3f())
+            EntityInteractive drop = new(info.modelKey, player.roleId, pos, new Vector3f(), GetCurScene().sceneNumId)
             {
                 type = (ObjectType)5,
                 curHp = 100,
@@ -241,6 +221,18 @@ namespace ArkFieldPS.Game
                 });
             }
         }
+
+        public void UnloadAllByConfigPath(string sceneConfigPath)
+        {
+            foreach (Scene scene in scenes.FindAll(s => s.info().defaultState.exportedSceneConfigPath == sceneConfigPath))
+            {
+                if (scene != null)
+                {
+                    scene.alreadyLoaded = false;
+                    scene.Unload();
+                }
+            }
+        }
     }
 
     public class Scene
@@ -279,31 +271,32 @@ namespace ArkFieldPS.Game
         }
         public void Unload()
         {
+            List<ulong> guids = new();
+            foreach(Entity e in entities)
+            {
+                guids.Add(e.guid);
+            }
             entities.Clear();
+            GetOwner().Send(new PacketScObjectLeaveView(GetOwner(), guids));
         }
-        
+        public LevelScene info()
+        {
+            return levelDatas.Find(l => l.idNum == sceneNumId);
+        }
         public void Load()
         {
-            
-            if (sceneNumId == 98)
-            {
-                //Load spaceship manager chars
-                //Disabled as seem the client already spawn npcs automatically
-                /*foreach (var chara in GetOwner().spaceshipManager.chars)
-                {
-                    EntityNpc npc = new EntityNpc(chara.GetNpcId(), chara.owner,chara.position,chara.rotation,chara.guid);
-                    entities.Add(npc);
-                }*/
-            }
+            if (info().isSeamless && alreadyLoaded) return;
+            alreadyLoaded = true;
+            Unload();
             LevelScene lv_scene = ResourceManager.GetLevelData(sceneNumId);
-            GetOwner().random.NextRand();
+           
             lv_scene.levelData.interactives.ForEach(en =>
             {
                 if (en.defaultHide || GetOwner().noSpawnAnymore.Contains(en.levelLogicId))
                 {
                     return;
                 }
-                EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation, en.levelLogicId)
+                EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation, sceneNumId, en.levelLogicId)
                 {
                     belongLevelScriptId=en.belongLevelScriptId,
                     dependencyGroupId=en.dependencyGroupId,
@@ -320,7 +313,7 @@ namespace ArkFieldPS.Game
                 {
                     return;
                 }
-                EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation, en.levelLogicId)
+                EntityInteractive entity = new(en.entityDataIdKey, ownerId, en.position, en.rotation, sceneNumId, en.levelLogicId)
                 {
                     belongLevelScriptId = en.belongLevelScriptId,
                     dependencyGroupId = 0,
@@ -332,7 +325,7 @@ namespace ArkFieldPS.Game
             lv_scene.levelData.enemies.ForEach(en =>
             {
                 if(en.defaultHide || GetOwner().noSpawnAnymore.Contains(en.levelLogicId)) return;
-                EntityMonster entity = new(en.entityDataIdKey,en.level,ownerId,en.position,en.rotation, en.levelLogicId)
+                EntityMonster entity = new(en.entityDataIdKey,en.level,ownerId,en.position,en.rotation, sceneNumId, en.levelLogicId)
                 {
                     type=en.entityType,
                     belongLevelScriptId=en.belongLevelScriptId,
@@ -344,7 +337,7 @@ namespace ArkFieldPS.Game
             {
                 if (en.defaultHide) return;
                 if (en.npcGroupId.Contains("chr")) return;
-                EntityNpc entity = new(en.entityDataIdKey,ownerId,en.position,en.rotation,en.levelLogicId)
+                EntityNpc entity = new(en.entityDataIdKey,ownerId,en.position,en.rotation, sceneNumId, en.levelLogicId)
                 {
                     belongLevelScriptId = en.belongLevelScriptId,
                     levelLogicId = en.levelLogicId,

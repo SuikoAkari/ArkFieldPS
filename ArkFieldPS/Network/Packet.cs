@@ -154,7 +154,11 @@ namespace ArkFieldPS.Network
             {
                 seqNext_ = seqNext;
             }
-            seqNext++;
+            if(currentPackIndex==0)
+            {
+                seqNext++;
+            }
+            
             CSHead head = new() { Msgid = msgId, UpSeqid = seqNext_, DownSeqid = seqNext, TotalPackCount = totalPackCount, CurrentPackIndex = currentPackIndex };
             int totalSerializedDataSize = 3 + head.ToByteArray().Length + body.Length;
             byte[] data = new byte[totalSerializedDataSize];

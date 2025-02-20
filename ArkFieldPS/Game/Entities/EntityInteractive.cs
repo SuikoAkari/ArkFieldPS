@@ -19,7 +19,7 @@ namespace ArkFieldPS.Game.Entities
         {
 
         }
-        public EntityInteractive(string templateId, ulong worldOwner, Vector3f pos, Vector3f rot,ulong g=0)
+        public EntityInteractive(string templateId, ulong worldOwner, Vector3f pos, Vector3f rot, int scene, ulong g=0)
         {
             if (g == 0)
             {
@@ -34,6 +34,7 @@ namespace ArkFieldPS.Game.Entities
             this.Position = pos;
             this.Rotation = rot;
             this.templateId = templateId;
+            this.sceneNumId = scene;
         }
         
         
@@ -50,7 +51,7 @@ namespace ArkFieldPS.Game.Entities
                     Templateid = templateId,
                     BelongLevelScriptId = belongLevelScriptId,
                     
-                    SceneNumId = GetOwner().curSceneNumId,
+                    SceneNumId = sceneNumId,
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
                     

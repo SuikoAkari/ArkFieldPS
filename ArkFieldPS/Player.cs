@@ -44,7 +44,7 @@ namespace ArkFieldPS
         {
             if(v+1>= IdConst.LOGIC_ID_SEGMENT)
             {
-                v = IdConst.MAX_LOGIC_ID_BOUND;
+                v = IdConst.MAX_LOGIC_ID_BOUND+1;
             }
             v++;
             return (ulong)v;
@@ -52,7 +52,7 @@ namespace ArkFieldPS
         
         public ulong NextRand()
         {
-            var maxGuid = IdConst.MAX_LOGIC_ID_BOUND;
+            var maxGuid = IdConst.MAX_LOGIC_ID_BOUND+1;
             
             ulong val = (ulong)random.NextInt64((long)maxGuid,(long)IdConst.MAX_RUNTIME_CLIENT_ID);
            
@@ -287,7 +287,8 @@ namespace ArkFieldPS
             }
             else
             {
-                sceneManager.UnloadCurrent(false);
+                //sceneManager.UnloadCurrent(false);
+                //sceneManager.LoadCurrent();
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
             }
         }
@@ -297,13 +298,18 @@ namespace ArkFieldPS
             if (!LoadFinish) return;
             if (GetLevelData(sceneNumId) != null)
             {
-                
+                string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
+                string sceneConfigPathNew = GetLevelData(sceneNumId).defaultState.exportedSceneConfigPath;
+                if (sceneConfigPathCur != sceneConfigPathNew)
+                {
+                    sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
+                }
                 curSceneNumId = sceneNumId;
                 position = pos;
                 rotation = rot;
                 LoadFinish = false;
                 Send(new PacketScEnterSceneNotify(this, sceneNumId));
-
+                //sceneManager.LoadCurrent();
             }
             else
             {
@@ -314,11 +320,17 @@ namespace ArkFieldPS
         {
             if(GetLevelData(sceneNumId) != null)
             {
-                sceneManager.UnloadCurrent(true);
+                //sceneManager.UnloadCurrent(true);
+                string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
+                string sceneConfigPathNew = GetLevelData(sceneNumId).defaultState.exportedSceneConfigPath;
+                if(sceneConfigPathCur != sceneConfigPathNew)
+                {
+                   sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
+                }
                 curSceneNumId = sceneNumId;
                 position = GetLevelData(sceneNumId).playerInitPos;
                 rotation = GetLevelData(sceneNumId).playerInitRot;
-                
+               // sceneManager.LoadCurrent();
                 Send(new PacketScEnterSceneNotify(this, sceneNumId));
                 
             }
@@ -353,26 +365,29 @@ namespace ArkFieldPS
         {
             byte[] datas = packet.set_body.ToByteArray();
             int maxChunkSize = 65535;
+
+            if(datas.Length < maxChunkSize)
+            {
+                Send(Packet.EncodePacket(packet));
+                return;
+            }
             int totalChunks = Math.Max((int)Math.Ceiling((double)datas.Length / maxChunkSize), 1);
             List<byte[]> chunks = new List<byte[]>();
             for (int i = 0; i < totalChunks; i++)
             {
                 int offset = i * maxChunkSize;
                 int chunkSize = Math.Min(maxChunkSize, datas.Length - offset);
-
-                // Crea un nuovo chunk
                 byte[] chunk = new byte[chunkSize];
                 Array.Copy(datas, offset, chunk, 0, chunkSize);
-
-                // Aggiungi il chunk alla lista
                 chunks.Add(chunk);
             }
-
+            ulong seqNext = Packet.seqNext;
             // Stampa i chunk (opzionale)
             for (int i = 0; i < chunks.Count; i++)
             {
                 byte[] data = chunks[i];
-                Send(Packet.EncodePacket(packet.cmdId, data,0, (uint)chunks.Count, (uint)i));
+                
+                Send(Packet.EncodePacket(packet.cmdId, data, seqNext, (uint)chunks.Count, (uint)i));
             }
         }
         public void Send(byte[] data)
