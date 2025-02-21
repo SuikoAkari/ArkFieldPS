@@ -125,7 +125,6 @@ namespace ArkFieldPS
         }
         public bool Initialized = false;
 
-        
         public Player(Socket socket)
         {
             this.random = new(this);
@@ -193,6 +192,7 @@ namespace ArkFieldPS
         {
             return chars.Find(c => c.guid == guid);
         }
+        
         public Character GetCharacter(string templateId)
         {
             return chars.Find(c => c.id==templateId);
@@ -264,10 +264,26 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.SNS);
             unlockedSystems.Add((int)UnlockSystemType.Settlement);
             unlockedSystems.Add((int)UnlockSystemType.Map);
+
             unlockedSystems.Add((int)UnlockSystemType.FacZone);
+            unlockedSystems.Add((int)UnlockSystemType.FacSplitter);
+            unlockedSystems.Add((int)UnlockSystemType.FacConveyor);
+            unlockedSystems.Add((int)UnlockSystemType.FacBridge);
+            unlockedSystems.Add((int)UnlockSystemType.FacPipe);
+            unlockedSystems.Add((int)UnlockSystemType.FacBuildingPin);
+            unlockedSystems.Add((int)UnlockSystemType.FacBUS);
+            unlockedSystems.Add((int)UnlockSystemType.FacPipeConnector);
+            unlockedSystems.Add((int)UnlockSystemType.FacOverview);
+            unlockedSystems.Add((int)UnlockSystemType.FacCraftPin);
+            unlockedSystems.Add((int)UnlockSystemType.FacMerger);
+            unlockedSystems.Add((int)UnlockSystemType.FacYieldStats);
+            unlockedSystems.Add((int)UnlockSystemType.FacTransferPort);
             unlockedSystems.Add((int)UnlockSystemType.FacHub);
-            unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
+            unlockedSystems.Add((int)UnlockSystemType.FacMode);
             unlockedSystems.Add((int)UnlockSystemType.FacSystem);
+            unlockedSystems.Add((int)UnlockSystemType.FacPipeSplitter);
+            unlockedSystems.Add((int)UnlockSystemType.FacPipeConverger);
+            unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
             unlockedSystems.Add((int)UnlockSystemType.CharUI);
             unlockedSystems.Add((int)UnlockSystemType.EquipProduce);
             unlockedSystems.Add((int)UnlockSystemType.EquipTech);
@@ -282,17 +298,17 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.AIBark);
             unlockedSystems.Add((int)UnlockSystemType.AdventureExpAndLv);
             unlockedSystems.Add((int)UnlockSystemType.CharTeam);
-            unlockedSystems.Add((int)UnlockSystemType.FacMode);
-            unlockedSystems.Add((int)UnlockSystemType.FacOverview);
+            
+            
             unlockedSystems.Add((int)UnlockSystemType.SpaceshipSystem);
             unlockedSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
-            unlockedSystems.Add((int)UnlockSystemType.FacBUS);
+            
             unlockedSystems.Add((int)UnlockSystemType.PRTS);
             unlockedSystems.Add((int)UnlockSystemType.Dungeon);
             unlockedSystems.Add((int)UnlockSystemType.RacingDungeon);
             unlockedSystems.Add((int)UnlockSystemType.CheckIn);
             unlockedSystems.Add((int)UnlockSystemType.SubmitEther);
-            unlockedSystems.Add((int)UnlockSystemType.FacZone);
+            
 
         }
         public void EnterScene()

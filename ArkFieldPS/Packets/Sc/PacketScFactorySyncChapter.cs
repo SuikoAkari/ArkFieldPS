@@ -20,6 +20,7 @@ namespace ArkFieldPS.Packets.Sc
         public PacketScFactorySyncChapter(Player client, string chapterId) {
 
             string json = File.ReadAllText("ScFactorySyncChapter.json");
+            
             //ScFactorySyncChapter chapter = Newtonsoft.Json.JsonConvert.DeserializeObject<ScFactorySyncChapter>(json);
             ScFactorySyncChapter chapter = new()
             {
@@ -128,6 +129,7 @@ namespace ArkFieldPS.Packets.Sc
                 LevelGradeInfo sceneGrade = ResourceManager.levelGradeTable[levelGroup].grades[0];
                 chapter.Blackboard.Power.PowerGen += sceneGrade.bandwidth;
                 chapter.Blackboard.Power.PowerSaveMax += sceneGrade.bandwidth;
+                chapter.Blackboard.Power.PowerSaveCurrent += sceneGrade.bandwidth;
                 var scene = new ScdFactorySyncScene()
                 {
                     SceneId = GetSceneNumIdFromLevelData(levelGroup),
@@ -151,6 +153,37 @@ namespace ArkFieldPS.Packets.Sc
 
                     }
                 };
+                int index = 0;
+                LevelScene scen = GetLevelData(GetSceneNumIdFromLevelData(levelGroup));
+                foreach (var reg in scen.levelData.factoryRegions)
+                {
+                    foreach(var area in reg.areas)
+                    {
+                        if(area.levelData.Last().levelBounds.Count > 0)
+                        {
+                            var bounds = area.levelData.Last().levelBounds[0];
+                            scene.Panels.Add(new ScdFactorySyncScenePanel()
+                            {
+                                Index = index,
+                                Level= area.levelData.Count,
+                                MainMesh =
+                                {
+                                    new ScdRectInt()
+                                    {
+                                        X=(int)bounds.start.x,
+                                        Z=(int)bounds.start.z,
+                                        Y=(int)bounds.start.y,
+                                        W=(int)bounds.size.x,
+                                        H=(int)bounds.size.y,
+                                        L=(int)bounds.size.z,
+                                    }
+                                }
+                            });
+                            index++;
+                        }
+                        
+                    }
+                }
                 chapter.Scenes.Add(scene);
 
 

@@ -18,6 +18,7 @@ namespace ArkFieldPS.Game
         
             this.player = player;
         }
+        
         public void Load(Dictionary<int, List<int>> savedBitset)
         {
             if (savedBitset != null)
@@ -33,11 +34,21 @@ namespace ArkFieldPS.Game
                 17039360
             };
             LongBitSet levelHaveBeen=new LongBitSet(hardcodedLevelHaveBeen.ToArray());
-            foreach(int v in levelHaveBeen.ConvertToIntValues())
+            List<ulong> hardcodedReadActiveBlackbox = new()
+            {
+                1081145935319335202,
+                2267743508524
+            };
+            LongBitSet readActiveBlackbox = new LongBitSet(hardcodedReadActiveBlackbox.ToArray());
+            foreach (int v in levelHaveBeen.ConvertToIntValues())
             {
                 AddValue(BitsetType.LevelHaveBeen, v);
             }
-            foreach(int v in strIdNumTable.char_doc_id.dic.Values)
+            foreach (int v in readActiveBlackbox.ConvertToIntValues())
+            {
+                AddValue(BitsetType.ReadActiveBlackbox, v);
+            }
+            foreach (int v in strIdNumTable.char_doc_id.dic.Values)
             {
                 AddValue(BitsetType.CharDoc, v);
             }

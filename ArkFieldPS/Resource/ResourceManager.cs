@@ -479,6 +479,25 @@ namespace ArkFieldPS.Resource
                     public Vector3f scale;
                     public bool forceLoad;
                     public string regionId;
+                    public List<LevelFactoryRegionAreaData> areas;
+
+                    public class LevelFactoryRegionAreaData
+                    {
+                        public List<AreaDataLevel> levelData;
+
+                        public class AreaDataLevel
+                        {
+                            public int level;
+                            public List<AreaDataBound> levelBounds;
+
+                            public class AreaDataBound
+                            {
+                                public Vector3f start;
+                                public Vector3f size;
+                            }
+                        }
+                    }
+
                 }
                 public class LevelNpcData
                 {

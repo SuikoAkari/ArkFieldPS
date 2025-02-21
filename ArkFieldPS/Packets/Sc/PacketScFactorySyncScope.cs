@@ -25,7 +25,7 @@ namespace ArkFieldPS.Packets.Sc
                             "item_port_battle_turret_1",
                             "item_port_miner_2",
                             "item_port_miner_3",
-                            "item_port_soil_moss_1"
+                            "item_port_sp_hub_1"
                         }
                     },
                     new ScdFactorySyncQuickbar()

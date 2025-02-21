@@ -33,6 +33,41 @@ namespace ArkFieldPS.Packets.Sc
 
                             },
 
+                        },
+                        new ScdItemGrid()
+                        {
+                            GridIndex=1,
+                            Count=1,
+                            Id="item_port_travel_pole_1",
+                            Inst = new()
+                            {
+                                InstId=300000000001,
+
+                            },
+
+                        },
+                        new ScdItemGrid()
+                        {
+                            GridIndex=2,
+                            Count=1,
+                            Id="item_port_grinder_1",
+                            Inst = new()
+                            {
+                                InstId=300000000002,
+
+                            },
+
+                        },
+                        new ScdItemGrid()
+                        {
+                            GridIndex=3,
+                            Count=1,
+                            Id="item_port_sp_hub_1",
+                            Inst = new()
+                            {
+                                InstId=300000000003,
+
+                            },
                         }
                     }
                 },

@@ -2,6 +2,7 @@
 using ArkFieldPS.Packets.Sc;
 using ArkFieldPS.Protocol;
 using ArkFieldPS.Resource;
+using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,12 +87,12 @@ namespace ArkFieldPS.Game.Factory
             FactoryNode node = new()
             {
                 nodeId = nodeId,
-                templateId=place.TemplateId,
-                mapId=place.MapId,
-                nodeType=table.GetNodeType(),
-                position=new Vector3f(place.Position),
+                templateId = place.TemplateId,
+                mapId = place.MapId,
+                nodeType = table.GetNodeType(),
+                position = new Vector3f(place.Position),
                 direction = new Vector3f(place.Direction),
-                
+                guid = GetOwner().random.NextRand()
             };
             
             node.InitComponents(this);
@@ -100,8 +101,9 @@ namespace ArkFieldPS.Game.Factory
             {
                 ChapterId = chapterId,
                 Tms = DateTime.UtcNow.ToUnixTimestampMilliseconds(),
+                
             };
-            
+            GetOwner().Send(new PacketScFactorySyncChapter(GetOwner(), chapterId));
             edit.Nodes.Add(node.ToProto());
             Logger.Print(Newtonsoft.Json.JsonConvert.SerializeObject(edit, Newtonsoft.Json.Formatting.Indented));
             GetOwner().Send(ScMessageId.ScFactoryModifyChapterNodes, edit);
@@ -118,7 +120,8 @@ namespace ArkFieldPS.Game.Factory
                 templateId= "__inventory__",
                 nodeType=FCNodeType.Inventory,
                 mapId=0,
-                deactive=true
+                deactive=true,
+                guid = GetOwner().random.NextRand()
             };
             node.InitComponents(this);
             nodes.Add(node);
@@ -138,20 +141,35 @@ namespace ArkFieldPS.Game.Factory
         public string instKey="";
         public bool deactive = false;
         public int mapId;
+        public bool forcePowerOn = false;
         public List<FComponent> components = new();
+        public ulong guid;
+        public bool InPower()
+        {
+            if (forcePowerOn)
+            {
+                return true;
+            }
+            return false;
+        }
+        public FComponent GetComponent<FComponent>() where FComponent : class
+        {
+            return components.Find(c => c is FComponent) as FComponent;
+        }
         public FMesh GetMesh()
         {
             FMesh mesh = new FMesh();
             
             if (ResourceManager.factoryBuildingTable.ContainsKey(templateId))
             {
+                //TODO calculation with counting rotation
                 FactoryBuildingTable table = ResourceManager.factoryBuildingTable[templateId];
                 mesh.points.Add(position);
                 mesh.points.Add(new Vector3f()
                 {
-                    x = position.x+table.range.width,
+                    x = position.x + table.range.width,
                     z = position.z + table.range.depth,
-                    y = position.y+table.range.height,
+                    y = position.y + table.range.height,
                 });
             }
             return mesh;
@@ -168,7 +186,8 @@ namespace ArkFieldPS.Game.Factory
                 IsDeactive= deactive,
                 Power = new()
                 {
-
+                    InPower= InPower(),
+                    
                 },
                 
                 NodeType=(int)nodeType,
@@ -188,7 +207,7 @@ namespace ArkFieldPS.Game.Factory
                 node.Transform.WorldRotation = direction.ToProto();
                 node.InteractiveObject = new()
                 {
-
+                    ObjectId=guid,
                 };
             }
             foreach(FComponent comp in components)
@@ -219,12 +238,36 @@ namespace ArkFieldPS.Game.Factory
                 case FCNodeType.PowerPole:
                     components.Add(new FComponentPowerPole(chapter.nextCompV()).Init());
                     break;
+                case FCNodeType.TravelPole:
+                    components.Add(new FComponentTravelPole(chapter.nextCompV()).Init());
+                    break;
+                case FCNodeType.Hub:
+                    components.Add(new FComponentSelector(chapter.nextCompV()).Init());
+                    components.Add(new FComponentPowerPole(chapter.nextCompV()).Init());
+                    components.Add(new FComponentPowerSave(chapter.nextCompV()).Init());
+                    components.Add(new FComponentStablePower(chapter.nextCompV()).Init());
+                    components.Add(new FComponentBusLoader(chapter.nextCompV()).Init());    
+                    components.Add(new FComponentPortManager(chapter.nextCompV(),GetComponent<FComponentBusLoader>().compId).Init());
+                    forcePowerOn = true;
+                    break;
+                case FCNodeType.SubHub:
+                    components.Add(new FComponentSubHub(chapter.nextCompV()).Init());
+                    components.Add(new FComponentSelector(chapter.nextCompV()).Init());
+                    components.Add(new FComponentPowerPole(chapter.nextCompV()).Init());
+                    components.Add(new FComponentPowerSave(chapter.nextCompV()).Init());
+                    components.Add(new FComponentStablePower(chapter.nextCompV()).Init());
+                    components.Add(new FComponentBusLoader(chapter.nextCompV()).Init());
+                    components.Add(new FComponentPortManager(chapter.nextCompV(), GetComponent<FComponentBusLoader>().compId).Init());
+                    forcePowerOn = true;
+                    break;
                 default:
                     components.Add(new FComponent(chapter.nextCompV(), GetMainCompType()).Init());
                     break;
             }
 
         }
+        [BsonDiscriminator(Required = true)] // Abilita il campo "_t" per identificare il tipo
+        [BsonKnownTypes(typeof(FComponentSelector))] // Dichiarazione dei tipi derivati
 
         public class FComponent
         {
@@ -241,6 +284,7 @@ namespace ArkFieldPS.Game.Factory
             public uint compId;
             public FCComponentType type;
             public FCompInventory inventory;
+            
             public FComponent(uint id, FCComponentType t)
             {
                 this.compId = id;
