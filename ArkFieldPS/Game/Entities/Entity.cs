@@ -21,8 +21,11 @@ namespace ArkFieldPS.Game.Entities
         public ObjectType type;
         public Vector3f Position=new();
         public Vector3f Rotation = new();
+        public Vector3f BornPos=new();
+        public Vector3f BornRot=new();
         public List<ParamKeyValue> properties=new();
         public int sceneNumId;
+        public bool spawned = false;
         public Entity()
         {
 

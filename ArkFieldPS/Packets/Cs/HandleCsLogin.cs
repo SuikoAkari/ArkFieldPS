@@ -113,7 +113,7 @@ namespace ArkFieldPS.Packets.Cs
                 },
                 
             };
-            session.Send(ScMessageId.ScSyncAllMission, missions);
+            //session.Send(ScMessageId.ScSyncAllMission, missions);
 
             session.Send(new PacketScGachaSync(session));
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
@@ -162,6 +162,7 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(new PacketScAdventureSyncAll(session));
             ScFactorySync fsync = new()
             {
+                
                 Stt = new()
                 {
                     Layers =

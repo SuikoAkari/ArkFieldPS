@@ -23,6 +23,8 @@ namespace ArkFieldPS.Game.Entities
             this.worldOwner = worldOwner;
             this.Position = pos;
             this.Rotation = rot;
+            this.BornPos = pos;
+            this.BornRot = rot;
             this.templateId = templateId;
             this.sceneNumId = scene;
         }

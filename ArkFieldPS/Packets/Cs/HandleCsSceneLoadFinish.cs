@@ -30,7 +30,7 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(new PacketScSelfSceneInfo(session, SelfInfoReasonType.SlrEnterScene));
             session.sceneManager.LoadCurrentTeamEntities();
             session.sceneManager.LoadCurrent();
-            
+            session.LoadFinish = true;
             /*session.Send(ScMessageId.ScSceneClientIdInfo, new ScSceneClientIdInfo()
             {
                 RoleIdx = (uint)session.roleId,

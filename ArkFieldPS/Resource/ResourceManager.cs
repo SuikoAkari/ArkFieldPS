@@ -570,7 +570,13 @@ namespace ArkFieldPS.Resource
             {
                 this.x=v.X; this.y=v.Y; this.z=v.Z; 
             }
-
+            public float Distance(Vector3f other)
+            {
+                float dx = x - other.x;
+                float dy = y - other.y;
+                float dz = z - other.z;
+                return MathF.Sqrt(dx * dx + dy * dy + dz * dz);
+            }
             public Vector ToProto()
             {
                 return new Vector()

@@ -26,7 +26,11 @@ namespace ArkFieldPS.Game
             this.player = player;   
             
         }
-       
+        public void Update()
+        {
+            if (GetCurScene()!=null)
+            GetCurScene().UpdateShowEntities();
+        }
         public Entity GetEntity(ulong guid)
         {
             Scene scene = scenes.Find(s => s.sceneNumId == player.curSceneNumId);
@@ -351,14 +355,40 @@ namespace ArkFieldPS.Game
                 };
                 entities.Add(entity);
             });
-            GetEntityExcludingChar().ForEach(e =>
+            /*GetEntityExcludingChar().ForEach(e =>
             {
                 GetOwner().Send(new PacketScObjectEnterView(GetOwner(),new List<Entity>() { e}));
-            });
-            
-           
+            });*/
+            UpdateShowEntities();
+
+
         }
-       
+        public void UpdateShowEntities()
+        {
+            foreach(Entity en in GetEntityExcludingChar())
+            {
+                if (en.Position.Distance(GetOwner().position) < 100)
+                {
+                    if (!en.spawned)
+                    {
+                        en.spawned = true;
+                        GetOwner().Send(new PacketScObjectEnterView(GetOwner(), new List<Entity>() { en }));
+                    }
+                }
+                else
+                {
+                    if (en.spawned)
+                    {
+                        
+                        en.spawned = false;
+                        GetOwner().Send(new PacketScObjectLeaveView(GetOwner(), new List<ulong>() { en.guid }));
+                        en.Position=en.BornPos;
+                        en.Rotation = en.Rotation;
+                    }
+                }
+            }
+        }
+        
         public Player GetOwner()
         {
             return Server.clients.Find(c => c.roleId == ownerId);

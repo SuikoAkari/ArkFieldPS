@@ -293,6 +293,7 @@ namespace ArkFieldPS
             {
                 //sceneManager.UnloadCurrent(false);
                 //sceneManager.LoadCurrent();
+                LoadFinish = false;
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
             }
         }
@@ -334,7 +335,8 @@ namespace ArkFieldPS
                 curSceneNumId = sceneNumId;
                 position = GetLevelData(sceneNumId).playerInitPos;
                 rotation = GetLevelData(sceneNumId).playerInitRot;
-               // sceneManager.LoadCurrent();
+                // sceneManager.LoadCurrent();
+                LoadFinish = false;
                 Send(new PacketScEnterSceneNotify(this, sceneNumId));
                 
             }
@@ -517,6 +519,8 @@ namespace ArkFieldPS
                 nextRecoverTime= DateTime.UtcNow.AddMinutes(7).ToUnixTimestampMilliseconds();
                 AddStamina(1);
             }
+            if(LoadFinish)
+            sceneManager.Update();
         }
         public void SaveMails()
         {
