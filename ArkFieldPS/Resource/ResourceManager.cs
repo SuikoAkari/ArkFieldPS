@@ -63,7 +63,8 @@ namespace ArkFieldPS.Resource
         public static Dictionary<string, SpaceshipRoomInsTable> spaceshipRoomInsTable = new();
         public static Dictionary<string, DungeonTable> dungeonTable = new();
         public static Dictionary<string, LevelGradeTable> levelGradeTable = new();
-        public static Dictionary<string, RewardTable> rewardTable = new();  
+        public static Dictionary<string, RewardTable> rewardTable = new();
+        public static Dictionary<string, AdventureTaskTable> adventureTaskTable = new();
         public static StrIdNumTable dialogIdTable = new();
         public static Dictionary<string, LevelShortIdTable> levelShortIdTable = new();  
         public static List<LevelScene> levelDatas = new();
@@ -127,6 +128,7 @@ namespace ArkFieldPS.Resource
             levelGradeTable = JsonConvert.DeserializeObject<Dictionary<string, LevelGradeTable>>(ReadJsonFile("TableCfg/LevelGradeTable.json"));
             levelShortIdTable = JsonConvert.DeserializeObject<Dictionary<string, LevelShortIdTable>>(ReadJsonFile("DynamicAssets/gamedata/gameplayconfig/jsoncfg/LevelShortIdTable.json"));
             rewardTable = JsonConvert.DeserializeObject<Dictionary<string, RewardTable>>(ReadJsonFile("TableCfg/RewardTable.json"));
+            adventureTaskTable = JsonConvert.DeserializeObject<Dictionary<string, AdventureTaskTable>>(ReadJsonFile("TableCfg/AdventureTaskTable.json"));
             LoadLevelDatas(); 
             if (missingResources)
             {
@@ -161,6 +163,7 @@ namespace ArkFieldPS.Resource
         {
             return itemTable[id];
         }
+
         public static LevelScene GetLevelData(int sceneNumId)
         {
            return levelDatas.Find(e => e.idNum == sceneNumId);
@@ -233,7 +236,24 @@ namespace ArkFieldPS.Resource
         {
             return strIdNumTable.item_id.dic[item_id];
         }
-
+        public class AdventureTaskTable
+        {
+            public int adventureBookStage;
+            public string adventureTaskId;
+            public string conditionId;
+            public int conditionType;
+            public string jumpSystemId;
+            public int progressToCompare;
+            public string rewardId;
+            public int sortId;
+            public TaskDescription taskDesc;
+            public int taskType;
+        }
+        public class TaskDescription
+        {
+            public string Id;
+            public string Text;
+        }
         public class DungeonTable
         {
             public string dungeonId;
