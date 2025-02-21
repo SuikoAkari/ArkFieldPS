@@ -67,6 +67,7 @@ namespace ArkFieldPS.Resource
         public static StrIdNumTable dialogIdTable = new();
         public static Dictionary<string, LevelShortIdTable> levelShortIdTable = new();  
         public static List<LevelScene> levelDatas = new();
+        public static Dictionary<string, AdventureTask> adventureTaskTable = new();
 
         public static int GetSceneNumIdFromLevelData(string name)
         {
@@ -127,6 +128,7 @@ namespace ArkFieldPS.Resource
             levelGradeTable = JsonConvert.DeserializeObject<Dictionary<string, LevelGradeTable>>(ReadJsonFile("TableCfg/LevelGradeTable.json"));
             levelShortIdTable = JsonConvert.DeserializeObject<Dictionary<string, LevelShortIdTable>>(ReadJsonFile("DynamicAssets/gamedata/gameplayconfig/jsoncfg/LevelShortIdTable.json"));
             rewardTable = JsonConvert.DeserializeObject<Dictionary<string, RewardTable>>(ReadJsonFile("TableCfg/RewardTable.json"));
+            adventureTaskTable = JsonConvert.DeserializeObject<Dictionary<string, AdventureTask>>(ReadJsonFile("TableCfg/AdventureTaskTable.json"));
             LoadLevelDatas(); 
             if (missingResources)
             {
@@ -746,7 +748,23 @@ namespace ArkFieldPS.Resource
             public int attrType;
             public double attrValue;
         }
-
-
+        public class AdventureTask
+        {
+            public int AdventureBookStage;
+            public string AdventureTaskId;
+            public string ConditionId;
+            public int ConditionType;
+            public string JumpSystemId;
+            public int ProgressToCompare;
+            public string RewardId;
+            public int SortId;
+            public TaskDescription TaskDesc;
+            public int TaskType;
+        }
+        public class TaskDescription
+        {
+            public string Id;
+            public string Text;
+        }
     }
 }

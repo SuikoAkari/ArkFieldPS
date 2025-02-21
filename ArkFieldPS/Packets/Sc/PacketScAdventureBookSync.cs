@@ -1,5 +1,3 @@
-using ArkFieldPS.Network;
-using ArkFieldPS.Protocol;
 using ArkFieldPS.Resource;
 using System;
 using System.Collections.Generic;
@@ -7,6 +5,9 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using static ArkFieldPS.Resource.ResourceManager;
+using ArkFieldPS.Network;
+using ArkFieldPS.Protocol;
 
 namespace ArkFieldPS.Packets.Sc
 {
@@ -17,13 +18,14 @@ namespace ArkFieldPS.Packets.Sc
                 AdventureBookStage=1,
                 DailyActivation=100,
             };
-            foreach(var i in ResourceManager.adventureTaskTable)
+
+            foreach(var i in adventureTaskTable)
             {
-                if (i.Value.adventureBookStage == 1)                    
+                if (i.Value.AdventureBookStage == 1)                    
                 {
                     proto.Tasks.Add(new AdventureTask()
                     {
-                        TaskId = i.Value.adventureTaskId,
+                        TaskId = i.Value.AdventureTaskId,
                         State = 1
                     });
                 }
