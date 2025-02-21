@@ -159,7 +159,7 @@ namespace ArkFieldPS.Packets.Sc
             {
                 chapter.Nodes.Add(node.ToProto());
             }
-            Logger.Print(Newtonsoft.Json.JsonConvert.SerializeObject(chapter,Newtonsoft.Json.Formatting.Indented));
+            //Logger.Print(Newtonsoft.Json.JsonConvert.SerializeObject(chapter,Newtonsoft.Json.Formatting.Indented));
             SetData(ScMessageId.ScFactorySyncChapter, chapter);
         }
 

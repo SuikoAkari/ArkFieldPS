@@ -82,7 +82,26 @@ namespace ArkFieldPS.Packets.Cs
             }
             session.Send(new PacketScSyncBaseData(session));
             ScItemBagCommonSync common = new()
-            { 
+            {
+                LostAndFound = new()
+                {
+                    InstList =
+                    {
+                        new ScdItemGrid()
+                        {
+                            GridIndex=0,
+                            Count=1,
+                            Id="item_port_power_pole_2",
+                            Inst = new()
+                            {
+                                InstId=300000000000,
+                                
+                            },
+                            
+                        }
+                    }
+                },
+                
             };
             session.Send(ScMessageId.ScItemBagCommonSync, common);
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Weapon));

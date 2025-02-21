@@ -19,7 +19,7 @@ namespace ArkFieldPS.Packets.Cs
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsFactoryOp req = packet.DecodeBody<CsFactoryOp>();
-            session.factoryManager.PlaceOp(req);
+            session.factoryManager.ExecOp(req,packet.csHead.UpSeqid);
         }
        
     }

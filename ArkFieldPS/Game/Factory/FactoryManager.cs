@@ -4,6 +4,7 @@ using ArkFieldPS.Resource;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using static ArkFieldPS.Resource.ResourceManager;
@@ -27,13 +28,13 @@ namespace ArkFieldPS.Game.Factory
             chapters.Add(new FactoryChapter("domain_1", player.roleId));
             chapters.Add(new FactoryChapter("domain_2", player.roleId));
         }
-        public void PlaceOp(CsFactoryOp op)
+        public void ExecOp(CsFactoryOp op, ulong seq)
         {
             FactoryChapter chapter = GetChapter(op.ChapterId);
             if (chapter != null)
             {
-                chapter.PlaceOp(op);
-                player.Send(new PacketScFactoryOpRet(player, op));
+                chapter.ExecOp(op, seq);
+                
             }
             else
             {
@@ -42,7 +43,7 @@ namespace ArkFieldPS.Game.Factory
                     RetCode = FactoryOpRetCode.Fail,
                     
                 };
-                player.Send(ScMessageId.ScFactoryOpRet, ret);
+                player.Send(ScMessageId.ScFactoryOpRet, ret, seq);
             }
         }
         public FactoryChapter GetChapter(string id)
@@ -58,13 +59,13 @@ namespace ArkFieldPS.Game.Factory
         public uint v = 1;
         public uint compV = 0;
         
-        public void PlaceOp(CsFactoryOp op)
+        public void ExecOp(CsFactoryOp op, ulong seq)
         {
             
             switch (op.OpType)
             {
                 case FactoryOpType.Place:
-                    CreateNode(op.Place);
+                    CreateNode(op.Place, seq);
                     break;
                 default:
                     break;
@@ -76,9 +77,10 @@ namespace ArkFieldPS.Game.Factory
             compV++;
             return compV;
         }
-        private void CreateNode(CsdFactoryOpPlace place)
+        private void CreateNode(CsdFactoryOpPlace place, ulong seq)
         {
-            uint nodeId = v++;
+            v++;
+            uint nodeId = v;
             FactoryBuildingTable table = ResourceManager.factoryBuildingTable[place.TemplateId];
             FactoryNode node = new()
             {
@@ -100,7 +102,9 @@ namespace ArkFieldPS.Game.Factory
             };
             
             edit.Nodes.Add(node.ToProto());
+            Logger.Print(Newtonsoft.Json.JsonConvert.SerializeObject(edit, Newtonsoft.Json.Formatting.Indented));
             GetOwner().Send(ScMessageId.ScFactoryModifyChapterNodes, edit);
+            GetOwner().Send(new PacketScFactoryOpRet(GetOwner(), node.nodeId,FactoryOpType.Place),seq);
         }
 
         public FactoryChapter(string chapterId,ulong ownerId)
@@ -196,11 +200,8 @@ namespace ArkFieldPS.Game.Factory
         }
         public uint GetStableId()
         {
-            if (templateId == "__inventory__")
-            {
-                return 0;
-            }
-            return 10000+nodeId-1;
+            
+            return 10000+nodeId;
         }
         public FCComponentType GetMainCompType()
         {

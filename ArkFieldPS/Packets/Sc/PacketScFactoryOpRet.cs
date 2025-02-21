@@ -12,12 +12,22 @@ namespace ArkFieldPS.Packets.Sc
     public class PacketScFactoryOpRet : Packet
     {
 
-        public PacketScFactoryOpRet(Player client,CsFactoryOp op) {
+        public PacketScFactoryOpRet(Player client, uint nodeId,FactoryOpType type) {
 
             ScFactoryOpRet proto = new ScFactoryOpRet()
             {
-                RetCode=0,
+                RetCode=FactoryOpRetCode.Ok,
+                OpType=type,
+
             };
+            if(type == FactoryOpType.Place)
+            {
+                proto.Place = new()
+                {
+                    NodeId = nodeId
+                };
+                proto.Index = "CHANNLE_BUILDING";
+            }
             
             SetData(ScMessageId.ScFactoryOpRet, proto);
         }
