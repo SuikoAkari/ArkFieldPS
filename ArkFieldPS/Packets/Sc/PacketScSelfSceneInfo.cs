@@ -73,7 +73,7 @@ namespace ArkFieldPS.Packets.Sc
                 {
                     ScriptId = l.scriptId,
                     IsDone = false,
-                    State = 0,
+                    State = 1,
 
                 };
                 int i = 0;
