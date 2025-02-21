@@ -254,7 +254,7 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.Map);
             unlockedSystems.Add((int)UnlockSystemType.FacZone);
             unlockedSystems.Add((int)UnlockSystemType.FacHub);
-            //unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
+            unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
             unlockedSystems.Add((int)UnlockSystemType.FacSystem);
             unlockedSystems.Add((int)UnlockSystemType.CharUI);
             unlockedSystems.Add((int)UnlockSystemType.EquipProduce);

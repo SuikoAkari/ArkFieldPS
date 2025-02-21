@@ -31,7 +31,7 @@ namespace ArkFieldPS.Packets.Cs
                 switch (req.OpType)
                 {
                     case SpInteractiveOpType.CommonActive:
-                        session.bitsetManager.AddValue(Resource.BitsetType.InteractiveActive, ResourceManager.levelShortIdTable[scene.mapIdStr].ids[(long)entity.guid]);
+                        session.bitsetManager.AddValue(Resource.BitsetType.InteractiveActive, ResourceManager.levelShortIdTable[scene.id].ids[(long)entity.guid]);
                         break;
                     default:
                         break;
