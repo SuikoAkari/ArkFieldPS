@@ -1,4 +1,5 @@
-﻿using ArkFieldPS.Packets.Sc;
+﻿using ArkFieldPS.Game.Factory.Components;
+using ArkFieldPS.Packets.Sc;
 using ArkFieldPS.Protocol;
 using ArkFieldPS.Resource;
 using System;
@@ -200,7 +201,6 @@ namespace ArkFieldPS.Game.Factory
         }
         public uint GetStableId()
         {
-            
             return 10000+nodeId;
         }
         public FCComponentType GetMainCompType()
@@ -210,26 +210,19 @@ namespace ArkFieldPS.Game.Factory
             {
                 return fromName;
             }
-            
             return FCComponentType.Invalid;
         }
         public void InitComponents(FactoryChapter chapter)
         {
-            FComponent compBase = new FComponent()
-            {
-                compId=chapter.nextCompV(),
-                type= GetMainCompType()
-                
-            };
-            compBase.Init();
-
-            components.Add(compBase);
-            /*switch (nodeType)
+            switch (nodeType)
             {
                 case FCNodeType.PowerPole:
-
-
-            }*/
+                    components.Add(new FComponentPowerPole(chapter.nextCompV()).Init());
+                    break;
+                default:
+                    components.Add(new FComponent(chapter.nextCompV(), GetMainCompType()).Init());
+                    break;
+            }
 
         }
 
@@ -248,7 +241,11 @@ namespace ArkFieldPS.Game.Factory
             public uint compId;
             public FCComponentType type;
             public FCompInventory inventory;
-
+            public FComponent(uint id, FCComponentType t)
+            {
+                this.compId = id;
+                this.type = t;
+            }
             public FCComponentPos GetComPos()
             {
 
@@ -272,20 +269,26 @@ namespace ArkFieldPS.Game.Factory
                     ComponentId = compId,
 
                 };
+                SetComponentInfo(proto);
+                return proto;
+            }
+
+            public virtual void SetComponentInfo(ScdFacCom proto)
+            {
                 if (inventory != null)
                 {
                     proto.Inventory = inventory.ToProto();
-                }else if(type == FCComponentType.PowerPole)
+                }
+                else if (type == FCComponentType.PowerPole)
                 {
                     proto.PowerPole = new()
                     {
-                        
+
                     };
                 }
-                
-                return proto;
             }
-            public void Init()
+
+            public virtual FComponent Init()
             {
                 switch (type)
                 {
@@ -295,6 +298,7 @@ namespace ArkFieldPS.Game.Factory
                     default:
                         break;
                 }
+                return this;    
             }
         }
         public class FMesh
