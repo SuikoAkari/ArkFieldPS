@@ -76,6 +76,12 @@ namespace ArkFieldPS
             }
         }
     }
+    public class PlayerSafeZoneInfo
+    {
+        public int sceneNumId;
+        public Vector3f position;
+        public Vector3f rotation;
+    }
     public class Player
     {
         public List<string> temporanyChatMessages = new(); //for cbt2 only as no chat exist
@@ -108,6 +114,7 @@ namespace ArkFieldPS
         public uint curStamina = 10;
         public long nextRecoverTime = 0;
         public Dungeon currentDungeon;
+        public PlayerSafeZoneInfo savedSaveZone;
         
         public uint maxStamina {
             get{
@@ -165,6 +172,7 @@ namespace ArkFieldPS
                     sceneManager.scenes = data.scenes;
                 }
                 bitsetManager.Load(data.bitsets);
+                savedSaveZone = data.savedSafeZone;
             }
             else
             {
@@ -287,7 +295,7 @@ namespace ArkFieldPS
         {
             if (curSceneNumId == 0)
             {
-                EnterScene(Server.config.serverOptions.defaultSceneNumId); //or 101
+                EnterScene(Server.config.serverOptions.defaultSceneNumId); //or 101                
             }
             else
             {
@@ -296,9 +304,18 @@ namespace ArkFieldPS
                 LoadFinish = false;
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
             }
+            if (savedSaveZone == null || savedSaveZone.sceneNumId == 0)
+            {
+                savedSaveZone = new PlayerSafeZoneInfo()
+                {
+                    sceneNumId = curSceneNumId,
+                    position = this.position,
+                    rotation = this.rotation
+                };
+            }
         }
         public bool LoadFinish = true;
-        public void EnterScene(int sceneNumId, Vector3f pos, Vector3f rot)
+        public void EnterScene(int sceneNumId, Vector3f pos, Vector3f rot, PassThroughData passThroughData = null)
         {
            // if (!LoadFinish) return;
             if (GetLevelData(sceneNumId) != null)
@@ -313,7 +330,7 @@ namespace ArkFieldPS
                 position = pos;
                 rotation = rot;
                 LoadFinish = false;
-                Send(new PacketScEnterSceneNotify(this, sceneNumId));
+                Send(new PacketScEnterSceneNotify(this, sceneNumId, pos, passThroughData));
                 //sceneManager.LoadCurrent();
             }
             else
@@ -437,7 +454,7 @@ namespace ArkFieldPS
                             buffer = ConcatenateByteArrays(buffer, moreData);
                             packet = Packet.Read(this, buffer);
 
-                            if (Server.config.logOptions.packets)
+                            if (Server.config.logOptions.packets && !Packet.ignoredCsLog.Contains((CsMessageId)packet.csHead.Msgid))
                             {
                                 Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
                                 Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());
