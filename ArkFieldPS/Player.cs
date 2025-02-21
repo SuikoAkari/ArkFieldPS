@@ -26,6 +26,7 @@ using ArkFieldPS.Game;
 using ArkFieldPS.Game.Gacha;
 using ArkFieldPS.Game.Spaceship;
 using ArkFieldPS.Game.Dungeons;
+using ArkFieldPS.Game.Factory;
 
 
 namespace ArkFieldPS
@@ -105,6 +106,7 @@ namespace ArkFieldPS
         public SceneManager sceneManager;
         public GachaManager gachaManager;
         public BitsetManager bitsetManager;
+        public FactoryManager factoryManager;
         public int teamIndex = 0;
         public List<Team> teams= new List<Team>();
         public List<Mail> mails = new List<Mail>();
@@ -134,6 +136,7 @@ namespace ArkFieldPS
             sceneManager = new(this);
             gachaManager = new(this);
             spaceshipManager = new(this);   
+            factoryManager = new(this);
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
@@ -179,6 +182,7 @@ namespace ArkFieldPS
                 Initialize(); //only if no account found
             }
             sceneManager.Load();
+            factoryManager.Load();
         }
         public void LoadCharacters()
         {
@@ -454,7 +458,7 @@ namespace ArkFieldPS
                             buffer = ConcatenateByteArrays(buffer, moreData);
                             packet = Packet.Read(this, buffer);
 
-                            if (Server.config.logOptions.packets && !Packet.ignoredCsLog.Contains((CsMessageId)packet.csHead.Msgid))
+                            if (Server.config.logOptions.packets && !Server.csMessageToHide.Contains((CsMessageId)packet.csHead.Msgid))
                             {
                                 Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
                                 Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());

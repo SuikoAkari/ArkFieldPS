@@ -367,7 +367,7 @@ namespace ArkFieldPS.Game
         {
             foreach(Entity en in GetEntityExcludingChar())
             {
-                if (en.Position.Distance(GetOwner().position) < 100)
+                if (en.Position.Distance(GetOwner().position) < 200)
                 {
                     if (!en.spawned)
                     {

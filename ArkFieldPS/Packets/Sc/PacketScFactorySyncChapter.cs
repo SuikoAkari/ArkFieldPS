@@ -1,4 +1,5 @@
-﻿using ArkFieldPS.Game.Inventory;
+﻿using ArkFieldPS.Game.Factory;
+using ArkFieldPS.Game.Inventory;
 using ArkFieldPS.Network;
 using ArkFieldPS.Protocol;
 using ArkFieldPS.Resource;
@@ -28,7 +29,7 @@ namespace ArkFieldPS.Packets.Sc
 
                 Nodes =
                 {
-                   new ScdFacNode()
+                   /*new ScdFacNode()
                    {
                        NodeId=1,
                        NodeType=1,
@@ -62,10 +63,11 @@ namespace ArkFieldPS.Packets.Sc
                                        //client.inventoryManager.GetInventoryChapter(chapterId)
                                    }
                                },
+
                                
                            }
                        }
-                   }
+                   }*/
                 },
                 Blackboard = new()
                 {
@@ -146,14 +148,18 @@ namespace ArkFieldPS.Packets.Sc
 
                     Panels =
                     {
-                        
+
                     }
                 };
                 chapter.Scenes.Add(scene);
 
 
             });
-
+            foreach(FactoryNode node in client.factoryManager.GetChapter(chapterId).nodes)
+            {
+                chapter.Nodes.Add(node.ToProto());
+            }
+            Logger.Print(Newtonsoft.Json.JsonConvert.SerializeObject(chapter,Newtonsoft.Json.Formatting.Indented));
             SetData(ScMessageId.ScFactorySyncChapter, chapter);
         }
 

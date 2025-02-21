@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Net;
+using System.Net.Sockets;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
@@ -143,7 +144,7 @@ namespace ArkFieldPS.Network
             PutUInt16(data, (ushort)body.ToByteArray().Length, 1);
             PutByteArray(data, head.ToByteArray(), 3);
             PutByteArray(data, body.ToByteArray(), 3+head.ToByteArray().Length);
-            if(Server.config.logOptions.packets)
+            if(Server.config.logOptions.packets && !Server.scMessageToHide.Contains((ScMessageId)msgId))
                 Logger.Print($"Sending packet: {((ScMessageId)msgId).ToString().Pastel(Color.LightBlue)} id: {msgId} with {data.Length} bytes");
 
             return data;
@@ -166,7 +167,7 @@ namespace ArkFieldPS.Network
             PutUInt16(data, (ushort)body.Length, 1);
             PutByteArray(data, head.ToByteArray(), 3);
             PutByteArray(data, body, 3 + head.ToByteArray().Length);
-            if (Server.config.logOptions.packets)
+            if (Server.config.logOptions.packets && !Server.scMessageToHide.Contains((ScMessageId)msgId))
                 Logger.Print($"Sending packet: {((ScMessageId)msgId).ToString().Pastel(Color.LightBlue)} id: {msgId} with {data.Length} bytes");
 
             return data;

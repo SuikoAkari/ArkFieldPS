@@ -20,7 +20,21 @@ namespace ArkFieldPS.Packets.Sc
                 Bag = new()
                 {
                     GridLimit = 30,
-                    
+                    Grids =
+                    {
+                        new ScdItemGrid()
+                        {
+                            GridIndex=0,
+                            Count=1,
+                            Id="item_port_power_pole_2",
+                            Inst = new()
+                            {
+                                InstId=300000000000,
+
+                            },
+
+                        }
+                    }
                 },
                 FactoryDepot =
                 {

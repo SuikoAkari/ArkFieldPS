@@ -82,12 +82,7 @@ namespace ArkFieldPS.Packets.Cs
             }
             session.Send(new PacketScSyncBaseData(session));
             ScItemBagCommonSync common = new()
-            {
-                LostAndFound =
-                {
-
-                },
-
+            { 
             };
             session.Send(ScMessageId.ScItemBagCommonSync, common);
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.Weapon));

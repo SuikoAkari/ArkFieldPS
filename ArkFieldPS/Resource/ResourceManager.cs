@@ -66,7 +66,8 @@ namespace ArkFieldPS.Resource
         public static Dictionary<string, RewardTable> rewardTable = new();
         public static Dictionary<string, AdventureTaskTable> adventureTaskTable = new();
         public static StrIdNumTable dialogIdTable = new();
-        public static Dictionary<string, LevelShortIdTable> levelShortIdTable = new();  
+        public static Dictionary<string, LevelShortIdTable> levelShortIdTable = new();
+        public static Dictionary<string, FactoryBuildingTable> factoryBuildingTable = new();
         public static List<LevelScene> levelDatas = new();
 
         public static int GetSceneNumIdFromLevelData(string name)
@@ -129,6 +130,7 @@ namespace ArkFieldPS.Resource
             levelShortIdTable = JsonConvert.DeserializeObject<Dictionary<string, LevelShortIdTable>>(ReadJsonFile("DynamicAssets/gamedata/gameplayconfig/jsoncfg/LevelShortIdTable.json"));
             rewardTable = JsonConvert.DeserializeObject<Dictionary<string, RewardTable>>(ReadJsonFile("TableCfg/RewardTable.json"));
             adventureTaskTable = JsonConvert.DeserializeObject<Dictionary<string, AdventureTaskTable>>(ReadJsonFile("TableCfg/AdventureTaskTable.json"));
+            factoryBuildingTable = JsonConvert.DeserializeObject<Dictionary<string, FactoryBuildingTable>>(ReadJsonFile("TableCfg/FactoryBuildingTable.json"));
             LoadLevelDatas(); 
             if (missingResources)
             {
@@ -235,6 +237,70 @@ namespace ArkFieldPS.Resource
         public static int GetItemTemplateId(string item_id)
         {
             return strIdNumTable.item_id.dic[item_id];
+        }
+        public class FactoryBuildingTable
+        {
+            public int bandwidth;
+            public bool canDelete;
+            public string id;
+            public bool needPower;
+            public int powerConsume;
+            public FacBuildingType type;
+            public FBuildingRange range;
+
+            public FCNodeType GetNodeType()
+            {
+                string nodeTypeName = type.ToString();
+                if (Enum.TryParse(nodeTypeName, out FCNodeType fromName))
+                {
+                    return fromName;
+                }
+                return FCNodeType.Invalid;
+            }
+            public struct FBuildingRange
+            {
+                public int depth;
+                public int height;
+                public int width;
+                public int x;
+                public int y;
+                public int z;
+            }
+            public enum FacBuildingType
+            {
+                Unknown = 0,
+                Hub = 1,
+                PowerPole = 2,
+                PowerStation = 3,
+                Storager = 4,
+                Crafter = 5,
+                MachineCrafter = 6,
+                Workshop = 7,
+                Miner = 8,
+                Trader = 9,
+                Loader = 10,
+                Unloader = 11,
+                Recycler = 12,
+                Manufact = 13,
+                Medic = 14,
+                Soil = 15,
+                TravelPole = 16,
+                PowerTerminal = 17,
+                PowerPort = 18,
+                PowerGate = 19,
+                Processor = 20,
+                Battle = 21,
+                SubHub = 22,
+                PowerDiffuser = 23,
+                FluidContainer = 24,
+                FluidPumpIn = 25,
+                FluidPumpOut = 26,
+                FluidReaction = 27,
+                FluidConsume = 28,
+                FluidSpray = 29,
+                VirtualFluidContainer = 30,
+                Empty = 32
+            }
         }
         public class AdventureTaskTable
         {
@@ -582,6 +648,8 @@ namespace ArkFieldPS.Resource
             public float x;
             public float y;
             public float z;
+            
+
             public Vector3f()
             {
 
@@ -590,12 +658,27 @@ namespace ArkFieldPS.Resource
             {
                 this.x=v.X; this.y=v.Y; this.z=v.Z; 
             }
+
+            public Vector3f(ScdVec3Int v)
+            {
+                this.x = v.X; this.y = v.Y; this.z = v.Z;
+            }
+
             public float Distance(Vector3f other)
             {
                 float dx = x - other.x;
                 float dy = y - other.y;
                 float dz = z - other.z;
                 return MathF.Sqrt(dx * dx + dy * dy + dz * dz);
+            }
+            public ScdVec3Int ToProtoScd()
+            {
+                return new ScdVec3Int()
+                {
+                    X = (int)x,
+                    Y = (int)y,
+                    Z = (int)z,
+                };
             }
             public Vector ToProto()
             {
