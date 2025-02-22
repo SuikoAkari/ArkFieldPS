@@ -344,18 +344,15 @@ namespace ArkFieldPS
            // if (!LoadFinish) return;
             if (GetLevelData(sceneNumId) != null)
             {
-                try
+                LevelScene curLvData = GetLevelData(curSceneNumId);
+                if (curLvData != null)
                 {
-                    string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
-                    string sceneConfigPathNew = GetLevelData(sceneNumId).defaultState.exportedSceneConfigPath;
+                    string sceneConfigPathCur = curLvData.defaultState.exportedSceneConfigPath;
+                    string sceneConfigPathNew = curLvData.defaultState.exportedSceneConfigPath;
                     if (sceneConfigPathCur != sceneConfigPathNew)
                     {
                         sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
                     }
-                }
-                catch (Exception e)
-                {
-
                 }
                 curSceneNumId = sceneNumId;
                 position = pos;
@@ -374,20 +371,17 @@ namespace ArkFieldPS
             if(GetLevelData(sceneNumId) != null)
             {
                 //sceneManager.UnloadCurrent(true);
-                try
+                LevelScene curLvData = GetLevelData(curSceneNumId);
+                if (curLvData != null)
                 {
-                    string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
-                    string sceneConfigPathNew = GetLevelData(sceneNumId).defaultState.exportedSceneConfigPath;
+                    string sceneConfigPathCur = curLvData.defaultState.exportedSceneConfigPath;
+                    string sceneConfigPathNew = curLvData.defaultState.exportedSceneConfigPath;
                     if (sceneConfigPathCur != sceneConfigPathNew)
                     {
                         sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
                     }
                 }
-                catch(Exception e)
-                {
 
-                }
-                
                 curSceneNumId = sceneNumId;
                 position = GetLevelData(sceneNumId).playerInitPos;
                 rotation = GetLevelData(sceneNumId).playerInitRot;
