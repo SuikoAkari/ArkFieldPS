@@ -174,30 +174,7 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(ScMessageId.ScSceneMapMarkSync, chapter);
             session.Send(new PacketScAdventureBookSync(session));
             session.Send(new PacketScAdventureSyncAll(session));
-            ScFactorySync fsync = new()
-            {
-                
-                Stt = new()
-                {
-                    Layers =
-                    {
-                        new ScdFactorySttLayer()
-                        {
-                            Id="tech_group_tundra_quartz",
-                            State=1,
-                        }
-                    },
-
-                },
-                FormulaMan = new()
-                {
-                    
-                }
-                
-            };
-            
-            session.Send(ScMessageId.ScFactorySync, fsync);
-            //session.Send(new PacketScFactorySync(session));
+            session.Send(new PacketScFactorySync(session));
             session.Send(new PacketScFactorySyncScope(session));
             session.Send(new PacketScFactorySyncChapter(session, "domain_1"));
             session.Send(new PacketScFactorySyncChapter(session, "domain_2"));

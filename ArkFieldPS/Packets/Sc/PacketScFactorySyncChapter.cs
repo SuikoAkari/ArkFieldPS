@@ -90,6 +90,7 @@ namespace ArkFieldPS.Packets.Sc
                     },
                     Other = new()
                     {
+                        InPowerBuilding=1
                         
                     }
                 },
@@ -117,7 +118,7 @@ namespace ArkFieldPS.Packets.Sc
             }
             domainDataTable[chapterId].levelGroup.ForEach(levelGroup =>
             {
-                chapter.Maps.Add(new ScdFactorySyncMap()
+                /*chapter.Maps.Add(new ScdFactorySyncMap()
                 {
                     MapId = GetSceneNumIdFromLevelData(levelGroup),
                     
@@ -125,7 +126,7 @@ namespace ArkFieldPS.Packets.Sc
                     {
                     },
 
-                });
+                });*/
                 LevelGradeInfo sceneGrade = ResourceManager.levelGradeTable[levelGroup].grades[0];
                 chapter.Blackboard.Power.PowerGen += sceneGrade.bandwidth;
                 chapter.Blackboard.Power.PowerSaveMax += sceneGrade.bandwidth;

@@ -68,6 +68,8 @@ namespace ArkFieldPS.Resource
         public static StrIdNumTable dialogIdTable = new();
         public static Dictionary<string, LevelShortIdTable> levelShortIdTable = new();
         public static Dictionary<string, FactoryBuildingTable> factoryBuildingTable = new();
+        public static Dictionary<string, FacSTTNodeTable> facSTTNodeTable = new();
+        public static Dictionary<string, FacSTTLayerTable> facSTTLayerTable = new();
         public static List<LevelScene> levelDatas = new();
 
         public static int GetSceneNumIdFromLevelData(string name)
@@ -131,6 +133,8 @@ namespace ArkFieldPS.Resource
             rewardTable = JsonConvert.DeserializeObject<Dictionary<string, RewardTable>>(ReadJsonFile("TableCfg/RewardTable.json"));
             adventureTaskTable = JsonConvert.DeserializeObject<Dictionary<string, AdventureTaskTable>>(ReadJsonFile("TableCfg/AdventureTaskTable.json"));
             factoryBuildingTable = JsonConvert.DeserializeObject<Dictionary<string, FactoryBuildingTable>>(ReadJsonFile("TableCfg/FactoryBuildingTable.json"));
+            facSTTNodeTable = JsonConvert.DeserializeObject<Dictionary<string, FacSTTNodeTable>>(ReadJsonFile("TableCfg/FacSTTNodeTable.json"));
+            facSTTLayerTable = JsonConvert.DeserializeObject<Dictionary<string, FacSTTLayerTable>>(ReadJsonFile("TableCfg/FacSTTLayerTable.json"));
             LoadLevelDatas(); 
             if (missingResources)
             {
@@ -408,13 +412,27 @@ namespace ArkFieldPS.Resource
             public string systemId;
 
         }
+        public class FacSTTLayerTable
+        {
+            public string groupId;
+            public string layerId;
+        }
+        public class FacSTTNodeTable
+        {
+            public string techId;
+            public string groupId;
+            public bool alreadyUnlock;
+            public List<int> uiPos;
+            public int sortId;
+            public string category;
+        }
         public class LevelScene
         {
             public string id;
             public int idNum;
             public string mapIdStr;
             public bool isSeamless;
-            public DefaultState defaultState;
+            public DefaultState defaultState=new();
 
             public Vector3f playerInitPos;
             public Vector3f playerInitRot;
@@ -711,8 +729,8 @@ namespace ArkFieldPS.Resource
         }
         public class DefaultState
         {
-            public string sourceSceneName;
-            public string exportedSceneConfigPath;
+            public string sourceSceneName="";
+            public string exportedSceneConfigPath = "";
         }
         public class SettlementBasicDataTable
         {
@@ -730,6 +748,7 @@ namespace ArkFieldPS.Resource
             public StrIdDic area_id;
             public StrIdDic map_mark_temp_id;
             public StrIdDic wiki_id;
+            public StrIdDic client_game_var_string_id;
         }
         public class GachaCharPoolTable
         {

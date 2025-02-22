@@ -26,14 +26,14 @@ namespace ArkFieldPS.Packets.Cs
                 ClientTs = req.ClientTs,
                 ServerTs = (ulong)curtimestamp,
             }));
-            ScFactoryHsSync s = new()
+            /*ScFactoryHsSync s = new()
             {
                 Blackboard = new()
                 {
                     InventoryNodeId = 0,
                     Power = new()
                     {
-
+                        
                     }
                 },
                 CcList =
@@ -44,7 +44,7 @@ namespace ArkFieldPS.Packets.Cs
                 ChapterId = session.GetCurrentChapter()
             };
             
-            session.Send(ScMessageId.ScFactoryHsSync,s);
+            session.Send(ScMessageId.ScFactoryHsSync,s);*/
 
             //Logger.Print("Server: " + curtimestamp + " client: " + req.ClientTs);
         }

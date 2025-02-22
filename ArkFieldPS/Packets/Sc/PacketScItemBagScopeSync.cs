@@ -68,6 +68,17 @@ namespace ArkFieldPS.Packets.Sc
                                 InstId=300000000003,
 
                             },
+                        },
+                        new ScdItemGrid
+                        {
+                            GridIndex=4,
+                            Count=1,
+                            Id="item_port_power_diffuser_1",
+                            Inst = new()
+                            {
+                                InstId=300000000004,
+
+                            },
                         }
                     }
                 },

@@ -248,7 +248,7 @@ namespace ArkFieldPS
         }
         public void UnlockImportantSystems()
         {
-            unlockedSystems.Add((int)UnlockSystemType.Watch);
+            /*unlockedSystems.Add((int)UnlockSystemType.Watch);
             unlockedSystems.Add((int)UnlockSystemType.Weapon);
             unlockedSystems.Add((int)UnlockSystemType.Equip);
             unlockedSystems.Add((int)UnlockSystemType.EquipEnhance);
@@ -265,6 +265,7 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.Settlement);
             unlockedSystems.Add((int)UnlockSystemType.Map);
 
+            unlockedSystems.Add((int)UnlockSystemType.FacTechTree);
             unlockedSystems.Add((int)UnlockSystemType.FacZone);
             unlockedSystems.Add((int)UnlockSystemType.FacSplitter);
             unlockedSystems.Add((int)UnlockSystemType.FacConveyor);
@@ -307,9 +308,12 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.Dungeon);
             unlockedSystems.Add((int)UnlockSystemType.RacingDungeon);
             unlockedSystems.Add((int)UnlockSystemType.CheckIn);
-            unlockedSystems.Add((int)UnlockSystemType.SubmitEther);
+            unlockedSystems.Add((int)UnlockSystemType.SubmitEther);*/
             
-
+            foreach(UnlockSystemType type in Enum.GetValues(typeof(UnlockSystemType)))
+            {
+                unlockedSystems.Add((int)type);
+            }
         }
         public void EnterScene()
         {
@@ -340,11 +344,18 @@ namespace ArkFieldPS
            // if (!LoadFinish) return;
             if (GetLevelData(sceneNumId) != null)
             {
-                string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
-                string sceneConfigPathNew = GetLevelData(sceneNumId).defaultState.exportedSceneConfigPath;
-                if (sceneConfigPathCur != sceneConfigPathNew)
+                try
                 {
-                    sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
+                    string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
+                    string sceneConfigPathNew = GetLevelData(sceneNumId).defaultState.exportedSceneConfigPath;
+                    if (sceneConfigPathCur != sceneConfigPathNew)
+                    {
+                        sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
+                    }
+                }
+                catch (Exception e)
+                {
+
                 }
                 curSceneNumId = sceneNumId;
                 position = pos;
@@ -363,12 +374,20 @@ namespace ArkFieldPS
             if(GetLevelData(sceneNumId) != null)
             {
                 //sceneManager.UnloadCurrent(true);
-                string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
-                string sceneConfigPathNew = GetLevelData(sceneNumId).defaultState.exportedSceneConfigPath;
-                if(sceneConfigPathCur != sceneConfigPathNew)
+                try
                 {
-                   sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
+                    string sceneConfigPathCur = GetLevelData(curSceneNumId).defaultState.exportedSceneConfigPath;
+                    string sceneConfigPathNew = GetLevelData(sceneNumId).defaultState.exportedSceneConfigPath;
+                    if (sceneConfigPathCur != sceneConfigPathNew)
+                    {
+                        sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
+                    }
                 }
+                catch(Exception e)
+                {
+
+                }
+                
                 curSceneNumId = sceneNumId;
                 position = GetLevelData(sceneNumId).playerInitPos;
                 rotation = GetLevelData(sceneNumId).playerInitRot;
@@ -485,7 +504,6 @@ namespace ArkFieldPS
                                 NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
                             }
                             catch (Exception e)
-                            
                             {
                                 
                                 Logger.PrintError("Error while notify packet: " + e.Message+": "+ e.StackTrace);
@@ -520,6 +538,13 @@ namespace ArkFieldPS
             Server.clients.Remove(this);
             if (Initialized)
             {
+                if (currentDungeon != null)
+                {
+                    curSceneNumId = currentDungeon.prevPlayerSceneNumId;
+                    position = currentDungeon.prevPlayerPos;
+                    rotation = currentDungeon.prevPlayerRot;
+                    currentDungeon = null;
+                }
                 Initialized = false;
                 Save();
                 Logger.Print($"{nickname} Disconnected");
@@ -531,6 +556,7 @@ namespace ArkFieldPS
         public void Save()
         {
             //Save playerdata
+            
             DatabaseManager.db.SavePlayerData(this);
             inventoryManager.Save();
             spaceshipManager.Save();
@@ -558,6 +584,7 @@ namespace ArkFieldPS
             }
             if(LoadFinish)
             sceneManager.Update();
+            factoryManager.Update();
         }
         public void SaveMails()
         {
@@ -613,17 +640,22 @@ namespace ArkFieldPS
 
         public string GetCurrentChapter()
         {
-            
-            DomainDataTable table = domainDataTable.Values.ToList().Find(c => c.levelGroup.Contains(GetLevelData(curSceneNumId).id));
-            if (table != null)
+            try
             {
-                return table.domainId;
+                DomainDataTable table = domainDataTable.Values.ToList().Find(c => c.levelGroup.Contains(GetLevelData(curSceneNumId).id));
+                if (table != null)
+                {
+                    return table.domainId;
+                }
+                else
+                {
+                    return "";
+                }
             }
-            else
+            catch(Exception e)
             {
                 return "";
             }
-           
         }
     }
 }

@@ -48,6 +48,13 @@ namespace ArkFieldPS.Game.Factory
                 player.Send(ScMessageId.ScFactoryOpRet, ret, seq);
             }
         }
+        public void Update()
+        {
+            foreach (FactoryChapter chapter in chapters)
+            {
+                chapter.Update();
+            }
+        }
         public FactoryChapter GetChapter(string id)
         {
             return chapters.Find(c=>c.chapterId==id);
@@ -60,6 +67,26 @@ namespace ArkFieldPS.Game.Factory
         public List<FactoryNode> nodes=new();
         public uint v = 1;
         public uint compV = 0;
+
+        public void Update()
+        {
+            try
+            {
+                foreach (FactoryNode node in nodes)
+                {
+                    node.Update(this);
+                }
+            }
+            catch (Exception e)
+            {
+
+            }
+
+        }
+        public List<FactoryNode> GetNodesInRange(Vector3f pos,float range)
+        {
+            return nodes.FindAll(n => n.position.Distance(pos) <= range);
+        }
         
         public void ExecOp(CsFactoryOp op, ulong seq)
         {
@@ -143,14 +170,49 @@ namespace ArkFieldPS.Game.Factory
         public int mapId;
         public bool forcePowerOn = false;
         public List<FComponent> components = new();
+        [BsonIgnore]
+        public bool powered = false;
+        public uint connectedPowerNode = 0;
         public ulong guid;
+        public void Update(FactoryChapter chapter)
+        {
+            if(!templateId.Contains("hub"))
+            if (GetComponent<FComponentPowerPole>() != null)
+            {
+                FactoryNode curEnergyNode = chapter.nodes.Find(n => n.nodeId == connectedPowerNode && n.position.Distance(position) <= 20 && n.InPower());
+                if (templateId != "power_pole_2")
+                {
+                    FactoryNode energyNode = chapter.GetNodesInRange(position, 20).Find(n=>n.GetComponent< FComponentPowerPole>()!=null && n.InPower());
+                    if (energyNode != null && curEnergyNode==null && energyNode.connectedPowerNode!=nodeId)
+                    {
+                        powered= true;
+                        connectedPowerNode = energyNode.nodeId;
+                        chapter.GetOwner().Send(ScMessageId.ScFactoryModifyChapterNodes, new ScFactoryModifyChapterNodes() { Tms = DateTime.UtcNow.ToUnixTimestampMilliseconds(), Nodes = { this.ToProto()} });
+                    }
+                    else
+                    {
+                        if (curEnergyNode == null && powered==true)
+                        {
+                            powered = false;
+                            connectedPowerNode = 0;
+                            chapter.GetOwner().Send(ScMessageId.ScFactoryModifyChapterNodes, new ScFactoryModifyChapterNodes() { Tms = DateTime.UtcNow.ToUnixTimestampMilliseconds(), Nodes = { this.ToProto() } });
+                        }
+                    }
+                }
+                else
+                {
+                    //Check near 
+                }
+            }
+        }
+        //public ulong guid;
         public bool InPower()
         {
             if (forcePowerOn)
             {
                 return true;
             }
-            return false;
+            return powered;
         }
         public FComponent GetComponent<FComponent>() where FComponent : class
         {
@@ -187,7 +249,7 @@ namespace ArkFieldPS.Game.Factory
                 Power = new()
                 {
                     InPower= InPower(),
-                    
+                    NeedInPower=true,
                 },
                 
                 NodeType=(int)nodeType,
@@ -207,8 +269,10 @@ namespace ArkFieldPS.Game.Factory
                 node.Transform.WorldRotation = direction.ToProto();
                 node.InteractiveObject = new()
                 {
-                    ObjectId=guid,
+                   
                 };
+                node.Flag = 0;
+                node.InstKey = "";
             }
             foreach(FComponent comp in components)
             {
@@ -236,6 +300,9 @@ namespace ArkFieldPS.Game.Factory
             switch (nodeType)
             {
                 case FCNodeType.PowerPole:
+                    components.Add(new FComponentPowerPole(chapter.nextCompV()).Init());
+                    break;
+                case FCNodeType.PowerDiffuser:
                     components.Add(new FComponentPowerPole(chapter.nextCompV()).Init());
                     break;
                 case FCNodeType.TravelPole:
