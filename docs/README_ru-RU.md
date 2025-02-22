@@ -112,6 +112,7 @@ ArkFieldPS - приватный сервер для Arknights EndField CBT2.
 Список всех сцен находится [тут](./LevelsTable.md).<br>
 Список всех врагов - [тут](./EnemiesTable.md).<br>
 Список всех персонажей - [тут](./CharactersTable.md).<br>
+Список всех предметов - [тут](./ItemsTable.md).<br>
 Вы можете открыть внутриигровую консоль, перейдя во вкладку `Settings -> Platform & Account -> Account Settings (кнопка Access Account)`. Чтобы просмотреть доступные команды, пропишите `help`.
 
 ## Discord

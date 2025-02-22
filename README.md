@@ -111,6 +111,7 @@ You can find the description of all server commands [here](docs/CommandList/comm
 The list of all scenes is [here](docs/LevelsTable.md).<br>
 The list of all enemies is [here](docs/EnemiesTable.md).<br>
 The list of all characters is [here](docs/CharactersTable.md).<br>
+The list of all items is [here](docs/ItemsTable.md).<br>
 
 If you want to open the in-game console, go to `Settings -> Platform & Account -> Account Settings (Access Account button)`. To view avaiable commands, type `help`.
 
