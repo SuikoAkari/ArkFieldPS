@@ -224,7 +224,7 @@ namespace ArkFieldPS
             teams.Add(new Team());
             teams.Add(new Team());
             teams.Add(new Team());
-
+            bitsetManager.Load(new Dictionary<int, List<int>>());
             /*mails.Add(new Mail()
             {
                 expireTime=DateTime.UtcNow.AddDays(30).Ticks,
