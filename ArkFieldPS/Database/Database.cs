@@ -332,7 +332,7 @@ namespace ArkFieldPS.Database
             }
             catch (Exception e)
             {
-                Logger.PrintError("No account found with token: " + token);
+                Logger.PrintError("Error: " + e.Message);
                 return null;
             }
         }
@@ -344,7 +344,7 @@ namespace ArkFieldPS.Database
             }
             catch (Exception e)
             {
-                Logger.PrintError("No account found with grant token: " + token);
+                Logger.PrintError("Error: " + e.Message);
                 return null;
             }
         }
@@ -356,7 +356,7 @@ namespace ArkFieldPS.Database
             }
             catch (Exception e)
             {
-                Logger.PrintError("No account found with username: "+username);
+                Logger.PrintError("Error: "+e.Message);
                 return null;
             }
         }

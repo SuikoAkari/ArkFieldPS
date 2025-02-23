@@ -691,6 +691,13 @@ namespace ArkFieldPS.Resource
             {
 
             }
+            public Vector3f(float x, float y, float z)
+            {
+                this.x = x;
+                this.y = y;
+                this.z = z;
+            }
+
             public Vector3f(Vector v) : this()
             {
                 this.x=v.X; this.y=v.Y; this.z=v.Z; 

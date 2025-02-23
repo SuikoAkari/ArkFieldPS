@@ -221,22 +221,51 @@ namespace ArkFieldPS.Game.Factory
         public FMesh GetMesh()
         {
             FMesh mesh = new FMesh();
-            
+
             if (ResourceManager.factoryBuildingTable.ContainsKey(templateId))
             {
-                //TODO calculation with counting rotation
                 FactoryBuildingTable table = ResourceManager.factoryBuildingTable[templateId];
-                mesh.points.Add(position);
-                mesh.points.Add(new Vector3f()
-                {
-                    x = position.x + table.range.width,
-                    z = position.z + table.range.depth,
-                    y = position.y + table.range.height,
-                });
+
+                // Calcola il centro della struttura (origine della rotazione)
+                double centerX = position.x + table.range.width / 2.0;
+                double centerZ = position.z + table.range.depth / 2.0;
+
+                // Punto A (base)
+                Vector3f p1 = new Vector3f(position.x, position.y, position.z);
+
+                // Punto B (calcolato rispetto alla larghezza e profondità)
+                Vector3f p2 = new Vector3f(
+                    position.x + table.range.width,
+                    position.y + table.range.height,
+                    position.z + table.range.depth
+                );
+
+                // Ruota entrambi i punti attorno al centro della struttura
+                p1 = RotateAroundY(p1, new Vector3f((float)centerX, position.y, (float)centerZ), direction.y);
+                p2 = RotateAroundY(p2, new Vector3f((float)centerX, position.y, (float)centerZ), direction.y);
+
+                // Aggiunge i due punti alla mesh
+                mesh.points.Add(p1);
+                mesh.points.Add(p2);
             }
             return mesh;
         }
 
+        // Metodo per ruotare un punto attorno all'asse Y rispetto a un'origine
+        private Vector3f RotateAroundY(Vector3f point, Vector3f origin, double angleDegrees)
+        {
+            double angleRadians = angleDegrees * (Math.PI / 180.0);
+            double cosTheta = Math.Cos(angleRadians);
+            double sinTheta = Math.Sin(angleRadians);
+
+            double dx = point.x - origin.x;
+            double dz = point.z - origin.z;
+
+            double rotatedX = origin.x + (dx * cosTheta - dz * sinTheta);
+            double rotatedZ = origin.z + (dx * sinTheta + dz * cosTheta);
+
+            return new Vector3f((float)rotatedX, point.y, (float)rotatedZ);
+        }
         public ScdFacNode ToProto()
         {
             ScdFacNode node = new ScdFacNode()
