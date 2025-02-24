@@ -172,6 +172,7 @@ namespace ArkFieldPS.Game.Factory
         public List<FComponent> components = new();
         [BsonIgnore]
         public bool powered = false;
+        [BsonIgnore]
         public uint connectedPowerNode = 0;
         public ulong guid;
         public void Update(FactoryChapter chapter)
@@ -205,7 +206,6 @@ namespace ArkFieldPS.Game.Factory
                 }
             }
         }
-        //public ulong guid;
         public bool InPower()
         {
             if (forcePowerOn)
@@ -226,32 +226,23 @@ namespace ArkFieldPS.Game.Factory
             {
                 FactoryBuildingTable table = ResourceManager.factoryBuildingTable[templateId];
 
-                // Calcola il centro della struttura (origine della rotazione)
                 double centerX = position.x + table.range.width / 2.0;
                 double centerZ = position.z + table.range.depth / 2.0;
 
-                // Punto A (base)
                 Vector3f p1 = new Vector3f(position.x, position.y, position.z);
-
-                // Punto B (calcolato rispetto alla larghezza e profondità)
                 Vector3f p2 = new Vector3f(
                     position.x + table.range.width,
                     position.y + table.range.height,
                     position.z + table.range.depth
                 );
 
-                // Ruota entrambi i punti attorno al centro della struttura
                 p1 = RotateAroundY(p1, new Vector3f((float)centerX, position.y, (float)centerZ), direction.y);
                 p2 = RotateAroundY(p2, new Vector3f((float)centerX, position.y, (float)centerZ), direction.y);
-
-                // Aggiunge i due punti alla mesh
                 mesh.points.Add(p1);
                 mesh.points.Add(p2);
             }
             return mesh;
         }
-
-        // Metodo per ruotare un punto attorno all'asse Y rispetto a un'origine
         private Vector3f RotateAroundY(Vector3f point, Vector3f origin, double angleDegrees)
         {
             double angleRadians = angleDegrees * (Math.PI / 180.0);
@@ -278,7 +269,7 @@ namespace ArkFieldPS.Game.Factory
                 Power = new()
                 {
                     InPower= InPower(),
-                    NeedInPower=true,
+                    NeedInPower=false,
                 },
                 
                 NodeType=(int)nodeType,
@@ -362,8 +353,8 @@ namespace ArkFieldPS.Game.Factory
             }
 
         }
-        [BsonDiscriminator(Required = true)] // Abilita il campo "_t" per identificare il tipo
-        [BsonKnownTypes(typeof(FComponentSelector))] // Dichiarazione dei tipi derivati
+        [BsonDiscriminator(Required = true)]
+        [BsonKnownTypes(typeof(FComponentSelector))]
 
         public class FComponent
         {

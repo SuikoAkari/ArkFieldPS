@@ -123,7 +123,14 @@ namespace ArkFieldPS.Game
                     };
                     player.Send(Protocol.ScMessageId.ScSceneDestroyEntity, destroy);
                 }
-                scenes.Find(s=>s.sceneNumId== GetEntity(guid).sceneNumId).entities.Remove(GetEntity(guid));
+                if (GetEntity(guid) != null)
+                {
+                    if(scenes.Find(s => s.sceneNumId == GetEntity(guid).sceneNumId) != null)
+                    {
+                        scenes.Find(s => s.sceneNumId == GetEntity(guid).sceneNumId).entities.Remove(GetEntity(guid));
+                    }
+                }
+                
                 
             }
         }
