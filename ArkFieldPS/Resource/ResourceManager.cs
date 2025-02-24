@@ -70,7 +70,9 @@ namespace ArkFieldPS.Resource
         public static Dictionary<string, FactoryBuildingTable> factoryBuildingTable = new();
         public static Dictionary<string, FacSTTNodeTable> facSTTNodeTable = new();
         public static Dictionary<string, FacSTTLayerTable> facSTTLayerTable = new();
+        public static InteractiveTable interactiveTable = new();
         public static List<LevelScene> levelDatas = new();
+        public static List<InteractiveData> interactiveData = new();    
 
         public static int GetSceneNumIdFromLevelData(string name)
         {
@@ -135,7 +137,10 @@ namespace ArkFieldPS.Resource
             factoryBuildingTable = JsonConvert.DeserializeObject<Dictionary<string, FactoryBuildingTable>>(ReadJsonFile("TableCfg/FactoryBuildingTable.json"));
             facSTTNodeTable = JsonConvert.DeserializeObject<Dictionary<string, FacSTTNodeTable>>(ReadJsonFile("TableCfg/FacSTTNodeTable.json"));
             facSTTLayerTable = JsonConvert.DeserializeObject<Dictionary<string, FacSTTLayerTable>>(ReadJsonFile("TableCfg/FacSTTLayerTable.json"));
+            interactiveTable = JsonConvert.DeserializeObject<InteractiveTable>(ReadJsonFile("Json/Interactive/InteractiveTable.json"));
+            LoadInteractiveData();
             LoadLevelDatas(); 
+             
             if (missingResources)
             {
                 Logger.PrintWarn("Missing some resources. The gameserver will probably crash.");
@@ -198,6 +203,21 @@ namespace ArkFieldPS.Resource
         {
             return weaponBasicTable.Values.ToList().Find(x => x.weaponType == type).weaponId;  
         }
+        public static void LoadInteractiveData()
+        {
+            Logger.Print("Loading InteractiveData resources");
+            string directoryPath = @"Json/Interactive/InteractiveData";
+            string[] jsonFiles = Directory.GetFiles(directoryPath, "*.json", SearchOption.AllDirectories);
+            foreach (string json in jsonFiles)
+            {
+                InteractiveData data = JsonConvert.DeserializeObject<InteractiveData>(ReadJsonFile(json));
+                if (data != null)
+                {
+                    interactiveData.Add(data);
+                }
+            }
+            Logger.Print($"Loaded {interactiveData.Count} InteractiveData");
+        }
         public static void LoadLevelDatas()
         {
             Logger.Print("Loading LevelData resources");
@@ -241,6 +261,11 @@ namespace ArkFieldPS.Resource
         public static int GetItemTemplateId(string item_id)
         {
             return strIdNumTable.item_id.dic[item_id];
+        }
+        public class InteractiveData
+        {
+            public string id;
+            public Dictionary<string, int> propertyKeyToIdMap;
         }
         public class FactoryBuildingTable
         {
@@ -375,6 +400,15 @@ namespace ArkFieldPS.Resource
         public class WikiGroupTable
         {
             public List<WikiGroup> list;
+        }
+        public class InteractiveTable
+        {
+            public Dictionary<string, InteractiveTemplate> interactiveDataDict = new();
+
+            public class InteractiveTemplate
+            {
+                public string templateId;
+            }
         }
         public class WikiGroup
         {

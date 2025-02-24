@@ -71,35 +71,57 @@ namespace ArkFieldPS.Game.Entities
                 }
                 
             };
-            int i = 1;
             
-                foreach (var prop in properties)
+            foreach (var prop in properties)
+            {
+                DynamicParameter p = prop.ToProto();
+                (bool, int) index = GetPropertyIndex(prop.key, proto.Properties.Keys.Count > 0 ? proto.Properties.Keys.Max() : 0);
+                if (p != null && index.Item1)
+                {
+                    proto.Properties.Add(index.Item2, p);
+
+                }
+
+            }
+            foreach (var comp in componentProperties)
+            {
+                foreach (var prop in comp.Value)
                 {
                     DynamicParameter p = prop.ToProto();
-                    if (p != null)
+                    (bool, int) index = GetPropertyIndex(prop.key, proto.Properties.Keys.Count > 0 ? proto.Properties.Keys.Max() : 0);
+                    if (p != null && index.Item1)
                     {
-                        proto.Properties.Add(i, p);
-                        i++;
+                        proto.Properties.Add(index.Item2, p);
+                       
                     }
+                }
+            }
 
-                }
-                foreach (var comp in componentProperties)
-                {
-                    foreach (var prop in comp.Value)
-                    {
-                        DynamicParameter p = prop.ToProto();
-                        if (p != null)
-                        {
-                            proto.Properties.Add(i, p);
-                            i++;
-                        }
-                    }
-                }
-            
-            
+
             return proto;
         }
+        
+        public (bool,int) GetPropertyIndex(string key, int maxCur)
+        {
+            int i= maxCur;
+            try
+            {
+                string oriTemplateId = ResourceManager.interactiveTable.interactiveDataDict[templateId].templateId;
+                InteractiveData data=ResourceManager.interactiveData.Find(i=>i.id == oriTemplateId);
+                if(data != null)
+                {
+                    return (true,data.propertyKeyToIdMap[key]);
+                }
+                return (false, maxCur + 1);
+            }
+            catch (Exception ex)
+            {
+                //Logger.PrintError(ex.Message);
+                return (false,maxCur+1);
+            }
 
+            
+        }
         public override void Damage(double dmg)
         {
             

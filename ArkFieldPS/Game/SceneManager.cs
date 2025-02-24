@@ -139,16 +139,16 @@ namespace ArkFieldPS.Game
                 {
                     new ParamKeyValue()
                     {
-                        key="nothing",
+                        key="is_collected",
                         value = new()
                         {
-                            type=ParamRealType.String,
+                            type=ParamRealType.Bool,
                             valueArray=new ParamKeyValue.ParamValueAtom[1]
                             {
                                 new ParamKeyValue.ParamValueAtom()
                                 {
 
-                                    valueString=info.id,
+                                    
                                 }
                             }
                         }
@@ -177,7 +177,7 @@ namespace ArkFieldPS.Game
             
             drop.properties.Add(new ParamKeyValue()
             {
-                key = "item_count",
+                key = "count",
                 value = new()
                 {
                     type = ParamRealType.Int,
@@ -195,7 +195,7 @@ namespace ArkFieldPS.Game
             {
                 drop.properties.Add(new ParamKeyValue()
                 {
-                    key = "item_instance",
+                    key = "item_inst",
                     value = new()
                     {
                         type = ParamRealType.String,
