@@ -23,7 +23,7 @@ ArkFieldPS is a private server for EndField CBT2.
     1. When installing *Fiddler Classic*, make sure to **enable** "Decrypt HTTPS traffic" and **install** the certificate!
     1. You have to enable two features via Tools (top left in menubar) -> Options -> HTTPS -> Check "Capture HTTPS CONNECTs" and "Decrypt HTTPS traffic". You can also re-install the certificate via Actions (right next to "Capture HTTPS CONNECTs") -> Trust Root Certificate and press "Yes"
 2. Download the [precompiled build](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) or build it by yourself
-3. Put the `Json` and `TableCfg` folders inside the `ArkFieldPS.exe` folder (you can download a copy [here](https://github.com/PotRooms/EndFieldData/tree/main))
+3. Put the `Json`, `TableCfg` and `DynamicAssets` folders inside the `ArkFieldPS.exe` folder (you can download a copy [here](https://github.com/PotRooms/EndFieldData/tree/main))
 4. Run the server (`ArkFieldPS.exe`)
 5. Overwrite the `C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js` script (or backup the default one and create a new file with the same name) with the following script:
     * You can also run *Fiddler Classic*, go to `Rules -> Customize Rules` (CTRL + R) and save it, or by selecting the *FiddlerScript* tab
@@ -111,6 +111,7 @@ You can find the description of all server commands [here](docs/CommandList/comm
 The list of all scenes is [here](docs/LevelsTable.md).<br>
 The list of all enemies is [here](docs/EnemiesTable.md).<br>
 The list of all characters is [here](docs/CharactersTable.md).<br>
+The list of all items is [here](docs/ItemsTable.md).<br>
 
 If you want to open the in-game console, go to `Settings -> Platform & Account -> Account Settings (Access Account button)`. To view avaiable commands, type `help`.
 

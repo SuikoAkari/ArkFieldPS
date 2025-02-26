@@ -16,14 +16,17 @@ namespace ArkFieldPS.Game.Entities
         {
 
         }
-        public EntityNpc(string templateId, ulong worldOwner, Vector3f pos, Vector3f rot,ulong guid)
+        public EntityNpc(string templateId, ulong worldOwner, Vector3f pos, Vector3f rot,int scene,ulong guid)
         {
             this.guid = (ulong)guid;
             this.level = 1;
             this.worldOwner = worldOwner;
             this.Position = pos;
             this.Rotation = rot;
+            this.BornPos = pos;
+            this.BornRot = rot;
             this.templateId = templateId;
+            this.sceneNumId = scene;
         }
         
         
@@ -38,7 +41,7 @@ namespace ArkFieldPS.Game.Entities
                     Templateid = templateId,
                     BelongLevelScriptId=belongLevelScriptId,
                     
-                    SceneNumId = GetOwner().curSceneNumId,
+                    SceneNumId =sceneNumId,
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
 

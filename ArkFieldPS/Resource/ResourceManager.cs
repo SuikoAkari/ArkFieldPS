@@ -63,10 +63,16 @@ namespace ArkFieldPS.Resource
         public static Dictionary<string, SpaceshipRoomInsTable> spaceshipRoomInsTable = new();
         public static Dictionary<string, DungeonTable> dungeonTable = new();
         public static Dictionary<string, LevelGradeTable> levelGradeTable = new();
-        public static Dictionary<string, RewardTable> rewardTable = new();  
+        public static Dictionary<string, RewardTable> rewardTable = new();
+        public static Dictionary<string, AdventureTaskTable> adventureTaskTable = new();
         public static StrIdNumTable dialogIdTable = new();
-        public static Dictionary<string, LevelShortIdTable> levelShortIdTable = new();  
+        public static Dictionary<string, LevelShortIdTable> levelShortIdTable = new();
+        public static Dictionary<string, FactoryBuildingTable> factoryBuildingTable = new();
+        public static Dictionary<string, FacSTTNodeTable> facSTTNodeTable = new();
+        public static Dictionary<string, FacSTTLayerTable> facSTTLayerTable = new();
+        public static InteractiveTable interactiveTable = new();
         public static List<LevelScene> levelDatas = new();
+        public static List<InteractiveData> interactiveData = new();    
 
         public static int GetSceneNumIdFromLevelData(string name)
         {
@@ -127,7 +133,14 @@ namespace ArkFieldPS.Resource
             levelGradeTable = JsonConvert.DeserializeObject<Dictionary<string, LevelGradeTable>>(ReadJsonFile("TableCfg/LevelGradeTable.json"));
             levelShortIdTable = JsonConvert.DeserializeObject<Dictionary<string, LevelShortIdTable>>(ReadJsonFile("DynamicAssets/gamedata/gameplayconfig/jsoncfg/LevelShortIdTable.json"));
             rewardTable = JsonConvert.DeserializeObject<Dictionary<string, RewardTable>>(ReadJsonFile("TableCfg/RewardTable.json"));
+            adventureTaskTable = JsonConvert.DeserializeObject<Dictionary<string, AdventureTaskTable>>(ReadJsonFile("TableCfg/AdventureTaskTable.json"));
+            factoryBuildingTable = JsonConvert.DeserializeObject<Dictionary<string, FactoryBuildingTable>>(ReadJsonFile("TableCfg/FactoryBuildingTable.json"));
+            facSTTNodeTable = JsonConvert.DeserializeObject<Dictionary<string, FacSTTNodeTable>>(ReadJsonFile("TableCfg/FacSTTNodeTable.json"));
+            facSTTLayerTable = JsonConvert.DeserializeObject<Dictionary<string, FacSTTLayerTable>>(ReadJsonFile("TableCfg/FacSTTLayerTable.json"));
+            interactiveTable = JsonConvert.DeserializeObject<InteractiveTable>(ReadJsonFile("Json/Interactive/InteractiveTable.json"));
+            LoadInteractiveData();
             LoadLevelDatas(); 
+             
             if (missingResources)
             {
                 Logger.PrintWarn("Missing some resources. The gameserver will probably crash.");
@@ -161,145 +174,22 @@ namespace ArkFieldPS.Resource
         {
             return itemTable[id];
         }
+
         public static LevelScene GetLevelData(int sceneNumId)
         {
            return levelDatas.Find(e => e.idNum == sceneNumId);
         }
-        public static List<ulong> GetBitset(List<int> ids)
+        public static ulong[] CalculateWaypointIdsBitset()
         {
-            Dictionary<string, ulong> stringToIdMap = new Dictionary<string, ulong>(); // Mappa inversa
-            HashSet<ulong> result = new HashSet<ulong>();
-            int i = 0;
-            foreach (int var in ids) // values è l'insieme di stringhe
-            {
-                ulong bitPos = (ulong)i;
-                ulong baseBit = bitPos / 64 * 64;
-                ulong bitMask = 1UL << (int)(bitPos % 64);
-
-                if (!result.Contains(baseBit))
-                    result.Add(baseBit);
-
-                result.Add(result.Contains(baseBit) ? result.First(x => x == baseBit) | bitMask : bitMask);
-                i++;
-            }
-            return result.ToList();
+            return new LongBitSet(GetAllShortIds()).Bits;
         }
-        public static List<string> CalculateWaypointIdsBitset()
+        public static ulong[] CalculateDocsIdsBitset()
         {
-            Logger.Print("getting waypoints");
-            string bitset = "";
-            List<int> waypoints = GetAllShortIds();
-            int maxValue = waypoints.Max();
-            int chunkSize = 64;
-            Logger.Print("max waypoint id:"+maxValue);
-            for (int i = 0; i <= maxValue; i++)
-            {
-                if (waypoints.Contains(i))
-                {
-                    bitset += "1";
-                }
-                else
-                {
-                    bitset += "0";
-                }
-            }
-            List<string> chunks = new List<string>();
-
-            for (int i = 0; i < bitset.Length; i += chunkSize)
-            {
-                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
-            }
-
-            return chunks;
+            return new LongBitSet(strIdNumTable.char_doc_id.dic.Values).Bits;
         }
-        public static List<string> CalculateDocsIdsBitset()
+        public static ulong[] CalculateVoiceIdsBitset()
         {
-            string bitset = "";
-            int maxValue = strIdNumTable.char_doc_id.dic.Values.Max();
-            int chunkSize = 64;
-            for (int i = 0; i <= maxValue; i++)
-            {
-                if (strIdNumTable.char_doc_id.dic.Values.ToList().Contains(i))
-                {
-                    bitset += "1";
-                }
-                else
-                {
-                    bitset += "0";
-                }
-            }
-            List<string> chunks = new List<string>();
-
-            for (int i = 0; i < bitset.Length; i += chunkSize)
-            {
-                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
-            }
-
-            return chunks;
-        }
-
-        public static List<string> CalculateBitsets(List<int> ids)
-        {
-            string bitset = "";
-            int maxValue = ids.Max();
-            int chunkSize = 64;
-            for (int i = 0; i <= maxValue; i++)
-            {
-                if (ids.Contains(i))
-                {
-                    bitset += "1";
-                }
-                else
-                {
-                    bitset += "0";
-                }
-            }
-            List<string> chunks = new List<string>();
-
-            for (int i = 0; i < bitset.Length; i += chunkSize)
-            {
-                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
-            }
-
-            return chunks;
-        }
-        public static List<string> CalculateVoiceIdsBitset()
-        {
-            string bitset = "";
-            int maxValue = strIdNumTable.char_voice_id.dic.Values.Max();
-            int chunkSize = 64;
-            for (int i = 0; i <= maxValue; i++)
-            {
-                if (strIdNumTable.char_voice_id.dic.Values.ToList().Contains(i))
-                {
-                    bitset += "1";
-                }
-                else
-                {
-                    bitset += "0";
-                }
-            }
-            List<string> chunks = new List<string>();
-
-            for (int i = 0; i < bitset.Length; i += chunkSize)
-            {
-                chunks.Add(bitset.Substring(i, Math.Min(chunkSize, bitset.Length - i)));
-            }
-
-            return chunks;
-        }
-        public static List<ulong> ToLongBitsetValue(List<string> binaryString)
-        {
-            //string binaryString = "1101"; // Numero binario
-            List<ulong> bits = new List<ulong>();
-
-            foreach (string bitset in binaryString)
-            {
-                ulong decimalValue = (ulong)Convert.ToUInt64(bitset, 2); // Converti in decimale
-                bits.Add(decimalValue);
-            }
-            
-            return bits;
+            return new LongBitSet(strIdNumTable.char_voice_id.dic.Values).Bits;
         }
         public static LevelScene GetLevelData(string sceneId)
         {
@@ -312,6 +202,21 @@ namespace ArkFieldPS.Resource
         public static string GetDefaultWeapon(int type)
         {
             return weaponBasicTable.Values.ToList().Find(x => x.weaponType == type).weaponId;  
+        }
+        public static void LoadInteractiveData()
+        {
+            Logger.Print("Loading InteractiveData resources");
+            string directoryPath = @"Json/Interactive/InteractiveData";
+            string[] jsonFiles = Directory.GetFiles(directoryPath, "*.json", SearchOption.AllDirectories);
+            foreach (string json in jsonFiles)
+            {
+                InteractiveData data = JsonConvert.DeserializeObject<InteractiveData>(ReadJsonFile(json));
+                if (data != null)
+                {
+                    interactiveData.Add(data);
+                }
+            }
+            Logger.Print($"Loaded {interactiveData.Count} InteractiveData");
         }
         public static void LoadLevelDatas()
         {
@@ -357,7 +262,93 @@ namespace ArkFieldPS.Resource
         {
             return strIdNumTable.item_id.dic[item_id];
         }
+        public class InteractiveData
+        {
+            public string id;
+            public Dictionary<string, int> propertyKeyToIdMap;
+        }
+        public class FactoryBuildingTable
+        {
+            public int bandwidth;
+            public bool canDelete;
+            public string id;
+            public bool needPower;
+            public int powerConsume;
+            public FacBuildingType type;
+            public FBuildingRange range;
 
+            public FCNodeType GetNodeType()
+            {
+                string nodeTypeName = type.ToString();
+                if (Enum.TryParse(nodeTypeName, out FCNodeType fromName))
+                {
+                    return fromName;
+                }
+                return FCNodeType.Invalid;
+            }
+            public struct FBuildingRange
+            {
+                public int depth;
+                public int height;
+                public int width;
+                public int x;
+                public int y;
+                public int z;
+            }
+            public enum FacBuildingType
+            {
+                Unknown = 0,
+                Hub = 1,
+                PowerPole = 2,
+                PowerStation = 3,
+                Storager = 4,
+                Crafter = 5,
+                MachineCrafter = 6,
+                Workshop = 7,
+                Miner = 8,
+                Trader = 9,
+                Loader = 10,
+                Unloader = 11,
+                Recycler = 12,
+                Manufact = 13,
+                Medic = 14,
+                Soil = 15,
+                TravelPole = 16,
+                PowerTerminal = 17,
+                PowerPort = 18,
+                PowerGate = 19,
+                Processor = 20,
+                Battle = 21,
+                SubHub = 22,
+                PowerDiffuser = 23,
+                FluidContainer = 24,
+                FluidPumpIn = 25,
+                FluidPumpOut = 26,
+                FluidReaction = 27,
+                FluidConsume = 28,
+                FluidSpray = 29,
+                VirtualFluidContainer = 30,
+                Empty = 32
+            }
+        }
+        public class AdventureTaskTable
+        {
+            public int adventureBookStage;
+            public string adventureTaskId;
+            public string conditionId;
+            public int conditionType;
+            public string jumpSystemId;
+            public int progressToCompare;
+            public string rewardId;
+            public int sortId;
+            public TaskDescription taskDesc;
+            public int taskType;
+        }
+        public class TaskDescription
+        {
+            public string Id;
+            public string Text;
+        }
         public class DungeonTable
         {
             public string dungeonId;
@@ -410,6 +401,15 @@ namespace ArkFieldPS.Resource
         {
             public List<WikiGroup> list;
         }
+        public class InteractiveTable
+        {
+            public Dictionary<string, InteractiveTemplate> interactiveDataDict = new();
+
+            public class InteractiveTemplate
+            {
+                public string templateId;
+            }
+        }
         public class WikiGroup
         {
             public string groupId;
@@ -446,12 +446,27 @@ namespace ArkFieldPS.Resource
             public string systemId;
 
         }
+        public class FacSTTLayerTable
+        {
+            public string groupId;
+            public string layerId;
+        }
+        public class FacSTTNodeTable
+        {
+            public string techId;
+            public string groupId;
+            public bool alreadyUnlock;
+            public List<int> uiPos;
+            public int sortId;
+            public string category;
+        }
         public class LevelScene
         {
             public string id;
             public int idNum;
             public string mapIdStr;
-            public DefaultState defaultState;
+            public bool isSeamless;
+            public DefaultState defaultState=new();
 
             public Vector3f playerInitPos;
             public Vector3f playerInitRot;
@@ -489,6 +504,20 @@ namespace ArkFieldPS.Resource
                 {
                     public ulong scriptId;
                     public List<ParamKeyValue> properties;
+                    public Dictionary<int, string> propertyIdToKeyMap;
+
+
+                    public int GetPropertyId(string key, List<int> toExclude)
+                    {
+                        foreach(var keyValuePair in propertyIdToKeyMap)
+                        {
+                            if(keyValuePair.Value == key && !toExclude.Contains(keyValuePair.Key))
+                            {
+                                return keyValuePair.Key;
+                            }
+                        }
+                        return 0;
+                    }
                 }
                 public class LevelFactoryRegionData
                 {
@@ -502,6 +531,25 @@ namespace ArkFieldPS.Resource
                     public Vector3f scale;
                     public bool forceLoad;
                     public string regionId;
+                    public List<LevelFactoryRegionAreaData> areas;
+
+                    public class LevelFactoryRegionAreaData
+                    {
+                        public List<AreaDataLevel> levelData;
+
+                        public class AreaDataLevel
+                        {
+                            public int level;
+                            public List<AreaDataBound> levelBounds;
+
+                            public class AreaDataBound
+                            {
+                                public Vector3f start;
+                                public Vector3f size;
+                            }
+                        }
+                    }
+
                 }
                 public class LevelNpcData
                 {
@@ -537,7 +585,7 @@ namespace ArkFieldPS.Resource
                 {
                     public string key;
                     public ParamValue value;
-
+                    
                     public DynamicParameter ToProto()
                     {
                         DynamicParameter param = new()
@@ -587,7 +635,7 @@ namespace ArkFieldPS.Resource
                                     param.ValueType = (int)ParamValueType.IntList;
                                     break;
                                 case ParamRealType.Bool:
-                                    param.ValueBoolList.Add(false);
+                                    param.ValueBoolList.Add(val.valueBit64 == 1);
                                     param.ValueType = (int)ParamValueType.Bool;
                                     break;
                                 case ParamRealType.Vector3List:
@@ -595,14 +643,22 @@ namespace ArkFieldPS.Resource
                                     param.ValueType = (int)ParamValueType.FloatList;
                                     break;
                                 case ParamRealType.BoolList:
-                                    param.ValueBoolList.Add(false);
+                                    param.ValueBoolList.Add(val.valueBit64 == 1);
                                     param.ValueType = (int)ParamValueType.BoolList;
                                     break;
                                 case ParamRealType.EntityPtr:
                                     param.ValueIntList.Add(val.valueBit64);
                                     param.ValueType = (int)ParamValueType.Int;
                                     break;
+                                case ParamRealType.EntityPtrList:
+                                    param.ValueIntList.Add(val.valueBit64);
+                                    param.ValueType = (int)ParamValueType.Int;
+                                    break;
                                 case ParamRealType.UInt64:
+                                    param.ValueIntList.Add(val.valueBit64);
+                                    param.ValueType = (int)ParamValueType.Int;
+                                    break;
+                                case ParamRealType.WaterVolumePtr:
                                     param.ValueIntList.Add(val.valueBit64);
                                     param.ValueType = (int)ParamValueType.Int;
                                     break;
@@ -663,15 +719,45 @@ namespace ArkFieldPS.Resource
             public float x;
             public float y;
             public float z;
+            
+
             public Vector3f()
             {
 
             }
+            public Vector3f(float x, float y, float z)
+            {
+                this.x = x;
+                this.y = y;
+                this.z = z;
+            }
+
             public Vector3f(Vector v) : this()
             {
                 this.x=v.X; this.y=v.Y; this.z=v.Z; 
             }
 
+            public Vector3f(ScdVec3Int v)
+            {
+                this.x = v.X; this.y = v.Y; this.z = v.Z;
+            }
+
+            public float Distance(Vector3f other)
+            {
+                float dx = x - other.x;
+                float dy = y - other.y;
+                float dz = z - other.z;
+                return MathF.Sqrt(dx * dx + dy * dy + dz * dz);
+            }
+            public ScdVec3Int ToProtoScd()
+            {
+                return new ScdVec3Int()
+                {
+                    X = (int)x,
+                    Y = (int)y,
+                    Z = (int)z,
+                };
+            }
             public Vector ToProto()
             {
                 return new Vector()
@@ -684,7 +770,8 @@ namespace ArkFieldPS.Resource
         }
         public class DefaultState
         {
-            public string sourceSceneName;
+            public string sourceSceneName="";
+            public string exportedSceneConfigPath = "";
         }
         public class SettlementBasicDataTable
         {
@@ -702,6 +789,7 @@ namespace ArkFieldPS.Resource
             public StrIdDic area_id;
             public StrIdDic map_mark_temp_id;
             public StrIdDic wiki_id;
+            public StrIdDic client_game_var_string_id;
         }
         public class GachaCharPoolTable
         {

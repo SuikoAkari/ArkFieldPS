@@ -19,7 +19,7 @@ namespace ArkFieldPS.Game.Entities
         {
 
         }
-        public EntityInteractive(string templateId, ulong worldOwner, Vector3f pos, Vector3f rot,ulong g=0)
+        public EntityInteractive(string templateId, ulong worldOwner, Vector3f pos, Vector3f rot, int scene, ulong g=0)
         {
             if (g == 0)
             {
@@ -33,7 +33,10 @@ namespace ArkFieldPS.Game.Entities
             this.worldOwner = worldOwner;
             this.Position = pos;
             this.Rotation = rot;
+            this.BornPos = pos;
+            this.BornRot = rot;
             this.templateId = templateId;
+            this.sceneNumId = scene;
         }
         
         
@@ -50,7 +53,7 @@ namespace ArkFieldPS.Game.Entities
                     Templateid = templateId,
                     BelongLevelScriptId = belongLevelScriptId,
                     
-                    SceneNumId = GetOwner().curSceneNumId,
+                    SceneNumId = sceneNumId,
                     Position = Position.ToProto(),
                     Rotation = Rotation.ToProto(),
                     
@@ -68,35 +71,57 @@ namespace ArkFieldPS.Game.Entities
                 }
                 
             };
-            int i = 1;
             
-                foreach (var prop in properties)
+            foreach (var prop in properties)
+            {
+                DynamicParameter p = prop.ToProto();
+                (bool, int) index = GetPropertyIndex(prop.key, proto.Properties.Keys.Count > 0 ? proto.Properties.Keys.Max() : 0);
+                if (p != null && index.Item1)
+                {
+                    proto.Properties.Add(index.Item2, p);
+
+                }
+
+            }
+            foreach (var comp in componentProperties)
+            {
+                foreach (var prop in comp.Value)
                 {
                     DynamicParameter p = prop.ToProto();
-                    if (p != null)
+                    (bool, int) index = GetPropertyIndex(prop.key, proto.Properties.Keys.Count > 0 ? proto.Properties.Keys.Max() : 0);
+                    if (p != null && index.Item1)
                     {
-                        proto.Properties.Add(i, p);
-                        i++;
+                        proto.Properties.Add(index.Item2, p);
+                       
                     }
+                }
+            }
 
-                }
-                foreach (var comp in componentProperties)
-                {
-                    foreach (var prop in comp.Value)
-                    {
-                        DynamicParameter p = prop.ToProto();
-                        if (p != null)
-                        {
-                            proto.Properties.Add(i, p);
-                            i++;
-                        }
-                    }
-                }
-            
-            
+
             return proto;
         }
+        
+        public (bool,int) GetPropertyIndex(string key, int maxCur)
+        {
+            int i= maxCur;
+            try
+            {
+                string oriTemplateId = ResourceManager.interactiveTable.interactiveDataDict[templateId].templateId;
+                InteractiveData data=ResourceManager.interactiveData.Find(i=>i.id == oriTemplateId);
+                if(data != null)
+                {
+                    return (true,data.propertyKeyToIdMap[key]);
+                }
+                return (false, maxCur + 1);
+            }
+            catch (Exception ex)
+            {
+                //Logger.PrintError(ex.Message);
+                return (false,maxCur+1);
+            }
 
+            
+        }
         public override void Damage(double dmg)
         {
             
@@ -125,7 +150,7 @@ namespace ArkFieldPS.Game.Entities
                 GetOwner().inventoryManager.AddRewards(properties.Find(p=>p.key== "reward_id").value.valueArray[0].valueString,Position,1);
                 GetOwner().sceneManager.KillEntity(guid,true,1);
                 GetOwner().noSpawnAnymore.Add(guid);
-                GetOwner().sceneManager.GetCurScene().AddCollection("int_trchest_common", 1);
+                GetOwner().sceneManager.GetScene(sceneNumId).AddCollection("int_trchest_common", 1);
                 GetOwner().Send(new PacketScSceneCollectionSync(GetOwner()));
                 return true;
             }else if(eventName == "pick_inst")

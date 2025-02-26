@@ -21,23 +21,28 @@ namespace ArkFieldPS.Packets.Cs
         public static void Handle(Player session, CsMessageId cmdId, Packet packet)
         {
             CsSceneInteractiveEventTrigger  req = packet.DecodeBody<CsSceneInteractiveEventTrigger>();
-            ScSceneInteractiveEventTrigger rsp = new()
-            {
-                
-            };
+            
             
             EntityInteractive entity = (EntityInteractive)session.sceneManager.GetEntity(req.Id);
             if (entity != null)
             {
-                entity.Interact(req.EventName, req.Properties);
+                if(entity.Interact(req.EventName, req.Properties))
+                {
+
+                }
+                else
+                {
+                    ScSceneTriggerClientInteractiveEvent tr = new()
+                    {
+                        EventName = req.EventName,
+                        Id = req.Id,
+                        SceneNumId = req.SceneNumId,
+                        
+                    };
+                    session.Send(ScMessageId.ScSceneTriggerClientInteractiveEvent, tr);
+                }
             }
-            /*ScSceneTriggerClientInteractiveEvent tr = new()
-            {
-                EventName = req.EventName,
-                Id = req.Id,
-                SceneNumId = req.SceneNumId,
-            };
-            session.Send(ScMessageId.ScSceneTriggerClientInteractiveEvent, tr);*/
+            
         }
        
     }

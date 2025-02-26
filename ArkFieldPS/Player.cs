@@ -26,6 +26,7 @@ using ArkFieldPS.Game;
 using ArkFieldPS.Game.Gacha;
 using ArkFieldPS.Game.Spaceship;
 using ArkFieldPS.Game.Dungeons;
+using ArkFieldPS.Game.Factory;
 
 
 namespace ArkFieldPS
@@ -44,7 +45,7 @@ namespace ArkFieldPS
         {
             if(v+1>= IdConst.LOGIC_ID_SEGMENT)
             {
-                v = IdConst.MAX_LOGIC_ID_BOUND;
+                v = IdConst.MAX_LOGIC_ID_BOUND+1;
             }
             v++;
             return (ulong)v;
@@ -52,7 +53,7 @@ namespace ArkFieldPS
         
         public ulong NextRand()
         {
-            var maxGuid = IdConst.MAX_LOGIC_ID_BOUND;
+            var maxGuid = IdConst.MAX_LOGIC_ID_BOUND+1;
             
             ulong val = (ulong)random.NextInt64((long)maxGuid,(long)IdConst.MAX_RUNTIME_CLIENT_ID);
            
@@ -76,6 +77,12 @@ namespace ArkFieldPS
             }
         }
     }
+    public class PlayerSafeZoneInfo
+    {
+        public int sceneNumId;
+        public Vector3f position;
+        public Vector3f rotation;
+    }
     public class Player
     {
         public List<string> temporanyChatMessages = new(); //for cbt2 only as no chat exist
@@ -98,6 +105,8 @@ namespace ArkFieldPS
         public SpaceshipManager spaceshipManager;
         public SceneManager sceneManager;
         public GachaManager gachaManager;
+        public BitsetManager bitsetManager;
+        public FactoryManager factoryManager;
         public int teamIndex = 0;
         public List<Team> teams= new List<Team>();
         public List<Mail> mails = new List<Mail>();
@@ -107,6 +116,8 @@ namespace ArkFieldPS
         public uint curStamina = 10;
         public long nextRecoverTime = 0;
         public Dungeon currentDungeon;
+        public PlayerSafeZoneInfo savedSaveZone;
+        
         public uint maxStamina {
             get{
                 return (uint)200;
@@ -114,16 +125,17 @@ namespace ArkFieldPS
         }
         public bool Initialized = false;
 
-        
         public Player(Socket socket)
         {
             this.random = new(this);
             this.socket = socket;
             roleId = (ulong)new Random().Next();
+            bitsetManager = new(this);
             inventoryManager = new(this);
             sceneManager = new(this);
             gachaManager = new(this);
             spaceshipManager = new(this);   
+            factoryManager = new(this);
             receivorThread = new Thread(new ThreadStart(Receive));
            
         }
@@ -161,12 +173,15 @@ namespace ArkFieldPS
                 {
                     sceneManager.scenes = data.scenes;
                 }
+                bitsetManager.Load(data.bitsets);
+                savedSaveZone = data.savedSafeZone;
             }
             else
             {
                 Initialize(); //only if no account found
             }
             sceneManager.Load();
+            factoryManager.Load();
         }
         public void LoadCharacters()
         {
@@ -177,6 +192,7 @@ namespace ArkFieldPS
         {
             return chars.Find(c => c.guid == guid);
         }
+        
         public Character GetCharacter(string templateId)
         {
             return chars.Find(c => c.id==templateId);
@@ -208,7 +224,7 @@ namespace ArkFieldPS
             teams.Add(new Team());
             teams.Add(new Team());
             teams.Add(new Team());
-
+            bitsetManager.Load(new Dictionary<int, List<int>>());
             /*mails.Add(new Mail()
             {
                 expireTime=DateTime.UtcNow.AddDays(30).Ticks,
@@ -232,7 +248,7 @@ namespace ArkFieldPS
         }
         public void UnlockImportantSystems()
         {
-            unlockedSystems.Add((int)UnlockSystemType.Watch);
+            /*unlockedSystems.Add((int)UnlockSystemType.Watch);
             unlockedSystems.Add((int)UnlockSystemType.Weapon);
             unlockedSystems.Add((int)UnlockSystemType.Equip);
             unlockedSystems.Add((int)UnlockSystemType.EquipEnhance);
@@ -248,10 +264,27 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.SNS);
             unlockedSystems.Add((int)UnlockSystemType.Settlement);
             unlockedSystems.Add((int)UnlockSystemType.Map);
+
+            unlockedSystems.Add((int)UnlockSystemType.FacTechTree);
             unlockedSystems.Add((int)UnlockSystemType.FacZone);
+            unlockedSystems.Add((int)UnlockSystemType.FacSplitter);
+            unlockedSystems.Add((int)UnlockSystemType.FacConveyor);
+            unlockedSystems.Add((int)UnlockSystemType.FacBridge);
+            unlockedSystems.Add((int)UnlockSystemType.FacPipe);
+            unlockedSystems.Add((int)UnlockSystemType.FacBuildingPin);
+            unlockedSystems.Add((int)UnlockSystemType.FacBUS);
+            unlockedSystems.Add((int)UnlockSystemType.FacPipeConnector);
+            unlockedSystems.Add((int)UnlockSystemType.FacOverview);
+            unlockedSystems.Add((int)UnlockSystemType.FacCraftPin);
+            unlockedSystems.Add((int)UnlockSystemType.FacMerger);
+            unlockedSystems.Add((int)UnlockSystemType.FacYieldStats);
+            unlockedSystems.Add((int)UnlockSystemType.FacTransferPort);
             unlockedSystems.Add((int)UnlockSystemType.FacHub);
-            //unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
+            unlockedSystems.Add((int)UnlockSystemType.FacMode);
             unlockedSystems.Add((int)UnlockSystemType.FacSystem);
+            unlockedSystems.Add((int)UnlockSystemType.FacPipeSplitter);
+            unlockedSystems.Add((int)UnlockSystemType.FacPipeConverger);
+            unlockedSystems.Add((int)UnlockSystemType.AdventureBook);
             unlockedSystems.Add((int)UnlockSystemType.CharUI);
             unlockedSystems.Add((int)UnlockSystemType.EquipProduce);
             unlockedSystems.Add((int)UnlockSystemType.EquipTech);
@@ -266,44 +299,67 @@ namespace ArkFieldPS
             unlockedSystems.Add((int)UnlockSystemType.AIBark);
             unlockedSystems.Add((int)UnlockSystemType.AdventureExpAndLv);
             unlockedSystems.Add((int)UnlockSystemType.CharTeam);
-            unlockedSystems.Add((int)UnlockSystemType.FacMode);
-            unlockedSystems.Add((int)UnlockSystemType.FacOverview);
+            
+            
             unlockedSystems.Add((int)UnlockSystemType.SpaceshipSystem);
             unlockedSystems.Add((int)UnlockSystemType.SpaceshipControlCenter);
-            unlockedSystems.Add((int)UnlockSystemType.FacBUS);
+            
             unlockedSystems.Add((int)UnlockSystemType.PRTS);
             unlockedSystems.Add((int)UnlockSystemType.Dungeon);
             unlockedSystems.Add((int)UnlockSystemType.RacingDungeon);
             unlockedSystems.Add((int)UnlockSystemType.CheckIn);
-            unlockedSystems.Add((int)UnlockSystemType.SubmitEther);
-            unlockedSystems.Add((int)UnlockSystemType.FacZone);
-
+            unlockedSystems.Add((int)UnlockSystemType.SubmitEther);*/
+            
+            foreach(UnlockSystemType type in Enum.GetValues(typeof(UnlockSystemType)))
+            {
+                unlockedSystems.Add((int)type);
+            }
         }
         public void EnterScene()
         {
             if (curSceneNumId == 0)
             {
-                EnterScene(Server.config.serverOptions.defaultSceneNumId); //or 101
+                EnterScene(Server.config.serverOptions.defaultSceneNumId); //or 101                
             }
             else
             {
-                sceneManager.UnloadCurrent(false);
+                //sceneManager.UnloadCurrent(false);
+                //sceneManager.LoadCurrent();
+                LoadFinish = false;
                 Send(new PacketScEnterSceneNotify(this, curSceneNumId));
+            }
+            if (savedSaveZone == null || savedSaveZone.sceneNumId == 0)
+            {
+                savedSaveZone = new PlayerSafeZoneInfo()
+                {
+                    sceneNumId = curSceneNumId,
+                    position = this.position,
+                    rotation = this.rotation
+                };
             }
         }
         public bool LoadFinish = true;
-        public void EnterScene(int sceneNumId, Vector3f pos, Vector3f rot)
+        public void EnterScene(int sceneNumId, Vector3f pos, Vector3f rot, PassThroughData passThroughData = null)
         {
-            if (!LoadFinish) return;
+           // if (!LoadFinish) return;
             if (GetLevelData(sceneNumId) != null)
             {
-                
+                LevelScene curLvData = GetLevelData(curSceneNumId);
+                if (curLvData != null)
+                {
+                    string sceneConfigPathCur = curLvData.defaultState.exportedSceneConfigPath;
+                    string sceneConfigPathNew = curLvData.defaultState.exportedSceneConfigPath;
+                    if (sceneConfigPathCur != sceneConfigPathNew)
+                    {
+                        sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
+                    }
+                }
                 curSceneNumId = sceneNumId;
                 position = pos;
                 rotation = rot;
                 LoadFinish = false;
-                Send(new PacketScEnterSceneNotify(this, sceneNumId));
-
+                Send(new PacketScEnterSceneNotify(this, sceneNumId, pos, passThroughData));
+                //sceneManager.LoadCurrent();
             }
             else
             {
@@ -314,11 +370,23 @@ namespace ArkFieldPS
         {
             if(GetLevelData(sceneNumId) != null)
             {
-                sceneManager.UnloadCurrent(true);
+                //sceneManager.UnloadCurrent(true);
+                LevelScene curLvData = GetLevelData(curSceneNumId);
+                if (curLvData != null)
+                {
+                    string sceneConfigPathCur = curLvData.defaultState.exportedSceneConfigPath;
+                    string sceneConfigPathNew = curLvData.defaultState.exportedSceneConfigPath;
+                    if (sceneConfigPathCur != sceneConfigPathNew)
+                    {
+                        sceneManager.UnloadAllByConfigPath(sceneConfigPathCur);
+                    }
+                }
+
                 curSceneNumId = sceneNumId;
                 position = GetLevelData(sceneNumId).playerInitPos;
                 rotation = GetLevelData(sceneNumId).playerInitRot;
-                
+                // sceneManager.LoadCurrent();
+                LoadFinish = false;
                 Send(new PacketScEnterSceneNotify(this, sceneNumId));
                 
             }
@@ -353,26 +421,29 @@ namespace ArkFieldPS
         {
             byte[] datas = packet.set_body.ToByteArray();
             int maxChunkSize = 65535;
+
+            if(datas.Length < maxChunkSize)
+            {
+                Send(Packet.EncodePacket(packet));
+                return;
+            }
             int totalChunks = Math.Max((int)Math.Ceiling((double)datas.Length / maxChunkSize), 1);
             List<byte[]> chunks = new List<byte[]>();
             for (int i = 0; i < totalChunks; i++)
             {
                 int offset = i * maxChunkSize;
                 int chunkSize = Math.Min(maxChunkSize, datas.Length - offset);
-
-                // Crea un nuovo chunk
                 byte[] chunk = new byte[chunkSize];
                 Array.Copy(datas, offset, chunk, 0, chunkSize);
-
-                // Aggiungi il chunk alla lista
                 chunks.Add(chunk);
             }
-
+            ulong seqNext = Packet.seqNext;
             // Stampa i chunk (opzionale)
             for (int i = 0; i < chunks.Count; i++)
             {
                 byte[] data = chunks[i];
-                Send(Packet.EncodePacket(packet.cmdId, data,0, (uint)chunks.Count, (uint)i));
+                
+                Send(Packet.EncodePacket(packet.cmdId, data, seqNext, (uint)chunks.Count, (uint)i));
             }
         }
         public void Send(byte[] data)
@@ -416,19 +487,20 @@ namespace ArkFieldPS
                             buffer = ConcatenateByteArrays(buffer, moreData);
                             packet = Packet.Read(this, buffer);
 
-                            if (Server.config.logOptions.packets)
+                            if (Server.config.logOptions.packets && !Server.csMessageToHide.Contains((CsMessageId)packet.csHead.Msgid))
                             {
                                 Logger.Print("CmdId: " + (CsMessageId)packet.csHead.Msgid);
                                 Logger.Print(BitConverter.ToString(packet.finishedBody).Replace("-", string.Empty).ToLower());
                             }
-                            
+                           
                             try
                             {
                                 NotifyManager.Notify(this, (CsMessageId)packet.cmdId, packet);
                             }
                             catch (Exception e)
                             {
-                                Logger.PrintError("Error while notify packet: " + e.Message);
+                                
+                                Logger.PrintError("Error while notify packet: " + e.Message+": "+ e.StackTrace);
                             }
 
                         }
@@ -460,6 +532,13 @@ namespace ArkFieldPS
             Server.clients.Remove(this);
             if (Initialized)
             {
+                if (currentDungeon != null)
+                {
+                    curSceneNumId = currentDungeon.prevPlayerSceneNumId;
+                    position = currentDungeon.prevPlayerPos;
+                    rotation = currentDungeon.prevPlayerRot;
+                    currentDungeon = null;
+                }
                 Initialized = false;
                 Save();
                 Logger.Print($"{nickname} Disconnected");
@@ -471,6 +550,7 @@ namespace ArkFieldPS
         public void Save()
         {
             //Save playerdata
+            
             DatabaseManager.db.SavePlayerData(this);
             inventoryManager.Save();
             spaceshipManager.Save();
@@ -496,6 +576,9 @@ namespace ArkFieldPS
                 nextRecoverTime= DateTime.UtcNow.AddMinutes(7).ToUnixTimestampMilliseconds();
                 AddStamina(1);
             }
+            if(LoadFinish)
+            sceneManager.Update();
+            factoryManager.Update();
         }
         public void SaveMails()
         {
@@ -551,17 +634,22 @@ namespace ArkFieldPS
 
         public string GetCurrentChapter()
         {
-            
-            DomainDataTable table = domainDataTable.Values.ToList().Find(c => c.levelGroup.Contains(GetLevelData(curSceneNumId).id));
-            if (table != null)
+            try
             {
-                return table.domainId;
+                DomainDataTable table = domainDataTable.Values.ToList().Find(c => c.levelGroup.Contains(GetLevelData(curSceneNumId).id));
+                if (table != null)
+                {
+                    return table.domainId;
+                }
+                else
+                {
+                    return "";
+                }
             }
-            else
+            catch(Exception e)
             {
                 return "";
             }
-           
         }
     }
 }

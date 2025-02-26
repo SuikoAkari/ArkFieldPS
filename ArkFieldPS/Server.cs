@@ -63,12 +63,14 @@ namespace ArkFieldPS
             public delegate void HandlerDelegate(Player sender, string command, string[] args, Player target);
         }
         public static List<Player> clients = new List<Player>();
-        public static string ServerVersion = "1.1.0";
+        public static string ServerVersion = "1.1.1";
         public static bool Initialized = false;
         public static bool showLogs = true;
         public static Dispatch dispatch;
         public static ResourceManager resourceManager;
         public static ConfigFile config;
+        public static List<CsMessageId> csMessageToHide = new() { CsMessageId.CsMoveObjectMove, CsMessageId.CsBattleOp,CsMessageId.CsPing };
+        public static List<ScMessageId> scMessageToHide = new() { ScMessageId.ScMoveObjectMove, ScMessageId.ScPing };
         public static ResourceManager GetResources()
         {
             return resourceManager;

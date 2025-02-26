@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using MongoDB.Bson.IO;
 using MongoDB.Bson;
+using System.Reflection;
+using static ArkFieldPS.Game.Factory.FactoryNode;
 
 namespace ArkFieldPS.Database
 {
@@ -58,12 +60,15 @@ namespace ArkFieldPS.Database
         object IBsonSerializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args) =>
             Deserialize(context, args);
     }
+
     public class DatabaseManager
     {
         public static Database db;
         public static void Init()
         {
             BsonSerializer.RegisterSerializer(typeof(Dictionary<int, ulong>), new CustomDictionarySerializer<int, ulong>());
+            BsonSerializer.RegisterSerializer(typeof(Dictionary<int, List<int>>), new CustomDictionarySerializer<int, List<int>>());
+            RegisterSubclasses<FComponent>();
             Logger.Print("Connecting to MongoDB..."); 
             try
             {
@@ -76,6 +81,21 @@ namespace ArkFieldPS.Database
                 Logger.PrintError("Without initialized database the game server will crash. You can't run this server without MongoDB");
             }
            
+        }
+        static void RegisterSubclasses<TBase>()
+        {
+            // Trova tutte le classi che ereditano da TBase
+            var derivedTypes = Assembly.GetExecutingAssembly()
+                                       .GetTypes()
+                                       .Where(t => t.IsClass && !t.IsAbstract && typeof(TBase).IsAssignableFrom(t));
+
+            foreach (var type in derivedTypes)
+            {
+                if (!BsonClassMap.IsClassMapRegistered(type))
+                {
+                    BsonClassMap.LookupClassMap(type); // Registra automaticamente il mapping BSON
+                }
+            }
         }
     }
 }

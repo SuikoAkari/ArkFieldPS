@@ -29,6 +29,8 @@ sudo apt install git wget curl zip
 3. Установите .Net 8:
     Следуйте инструкции на официальном сайте [Microsoft](https://learn.microsoft.com/ru-ru/dotnet/core/install/linux-debian?tabs=dotnet8)
 
+[Установка ArkFieldPS =>](#установка-ArkFieldPS)
+
 ---
 
 ### Arch Linux
@@ -46,6 +48,8 @@ paru -S dotnet-runtime-8.0 mongodb-bin
 ```bash
 sudo pacman -S git zip wget
 ```
+
+[Установка ArkFieldPS =>](#установка-ArkFieldPS)
 
 ---
 
@@ -94,6 +98,8 @@ sudo systemctl enable mongod.service
 sudo dnf install dotnet-sdk-8.0
 ```
 
+[Установка ArkFieldPS =>](#установка-ArkFieldPS)
+
 ---
 
 ### Ubuntu
@@ -116,29 +122,32 @@ sudo apt install git wget zip
 > [!WARNING]
 > Также не забудьте выбрать вашу версию Ubuntu.
 
+[Установка ArkFieldPS =>](#установка-ArkFieldPS)
+
 ---
 
 ## Установка ArkFieldPS
 1. Установите [приватный сервер](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) и [игровые значения](https://github.com/PotRooms/EndFieldData/tree/main):
 
 ```bash
-cd \ 
-mkdir ArkFieldPS && cd ArkFieldPS \ 
-wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip \ 
-mkdir GameData && cd GameData \ 
+cd
+mkdir ArkFieldPS && cd ArkFieldPS
+wget https://github.com/SuikoAkari/ArkFieldPS/releases/latest/download/ArkFieldPS-master-Linux.zip
+mkdir GameData && cd GameData
 git clone https://github.com/PotRooms/EndFieldData.git
 ```
 
 2. Извлеките ArkFieldPS и скопируйте файлы:
 
 ```bash
-cd .. \
-unzip ArkFieldPS-master-Linux.zip \ 
-cp -r GameData/EndFieldData/Json Json \ 
+cd ..
+unzip ArkFieldPS-master-Linux.zip
+cp -r GameData/EndFieldData/Json Json
+cp -r GameData/EndFieldData/DynamicAssets DynamicAssets
 cp -r GameData/EndFieldData/TableCfg/. TableCfg
 ```
 
-===
+
 
 ## Настройка ArkFieldPS
 

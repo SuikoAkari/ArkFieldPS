@@ -19,10 +19,13 @@ namespace ArkFieldPS.Packets.Sc
             {
                 ServerVars =
                 {
-                    {(int)ServerGameVarEnum.ServerGameVarDashEnergyLimit,client.maxDashEnergy } //Dash
+                    {(int)ServerGameVarEnum.ServerGameVarDashEnergyLimit,client.maxDashEnergy }, //Dash
                 }
             };
-
+            foreach(var id in ResourceManager.strIdNumTable.client_game_var_string_id.dic)
+            {
+                proto.ClientVars.Add(id.Value, 1);
+            }
             SetData(ScMessageId.ScSyncAllGameVar, proto);
         }
 

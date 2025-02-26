@@ -33,9 +33,8 @@ namespace ArkFieldPS.Packets.Cs
                     Position = req.Position,
                     Rotation = req.Rotation,
                     SceneNumId = req.SceneNumId,
-                    TpUuid = 20000000,
-
                 };
+                session.curSceneNumId = t.SceneNumId;
                 session.Send(ScMessageId.ScSceneTeleport, t);
             }
             

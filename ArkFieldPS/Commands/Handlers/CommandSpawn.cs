@@ -31,7 +31,7 @@ namespace ArkFieldPS.Commands.Handlers
                 case "eny":
                     if (ResourceManager.enemyTable.ContainsKey(templateId))
                     {
-                        EntityMonster mon = new(templateId, level, target.roleId, target.position, target.rotation);
+                        EntityMonster mon = new(templateId, level, target.roleId, target.position, target.rotation,target.curSceneNumId);
                         target.sceneManager.SpawnEntity(mon);
                     }
                     else

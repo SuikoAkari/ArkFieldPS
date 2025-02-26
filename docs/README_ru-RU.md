@@ -10,8 +10,9 @@ ArkFieldPS - приватный сервер для Arknights EndField CBT2.
 * Вход;
 * Переключение персонажей;
 * Переключение отрядов;
-* Переключение карт (пока работает только для некоторых карт);
+* Переключение сцен;
 * Спавн врагов;
+* Гача система (только персонажи);
 * Сохранение данных с помощью MongoDB;
 
 ## Шаги для установки (Windows)
@@ -23,7 +24,7 @@ ArkFieldPS - приватный сервер для Arknights EndField CBT2.
    1. При установке *Fiddler Classic* убедитесь, что вы **включили** "Decrypt HTTPS traffic" и **установили** сертификат!
    2. Вам нужно включить две функции: перейдите в Tools (в левом верхнем меню) -> Options -> HTTPS -> Включите "Capture HTTPS CONNECTs" и "Decrypt HTTPS traffic". Вы также можете переустановить сертификаты с помощью Actions (напротив "Capture HTTPS CONNECTs") -> Trust Root Certificate и нажать "Yes".
 2. Скачайте [скомпилированную версию](https://github.com/SuikoAkari/ArkFieldPS/releases/latest) или скомпилируйте самостоятельно.
-3. Положите `Json` и `TableCfg` папки рядом с `ArkFieldPS.exe` (вы можете скачать их [здесь](https://github.com/PotRooms/EndFieldData/tree/main)).
+3. Положите `Json`, `TableCfg` и `DynamicAssets` папки рядом с `ArkFieldPS.exe` (вы можете скачать их [здесь](https://github.com/PotRooms/EndFieldData/tree/main)).
 4. Запустите сервер (`ArkFieldPS.exe`).
 5. Измените `C:\Users\<ВашеИмяПользователя>\Documents\Fiddler2\Scripts\CustomRules.js` скрипт (или сохраните копию стандартного скрипта и создайте новый файл с таким-же названием) со следующим скриптом:
     * Вы также можете запустить *Fiddler Classic*, затем перейти в `Rules -> Customize Rules` (CTRL + R) и сохранить скрипт, либо выбрать вкладку *FiddlerScript*.
@@ -57,7 +58,7 @@ ArkFieldPS - приватный сервер для Arknights EndField CBT2.
         }
     };
     ```
-    By Xannix
+
     Или вы можете использовать команду mitmproxy:
 
     ```shell
@@ -110,7 +111,8 @@ ArkFieldPS - приватный сервер для Arknights EndField CBT2.
 Описание всех команд сервера вы можете найти [здесь](./CommandList/commands_ru-RU.md).<br>
 Список всех сцен находится [тут](./LevelsTable.md).<br>
 Список всех врагов - [тут](./EnemiesTable.md).<br>
-Список всех персонажей - [тут](docs/CharactersTable.md).<br>
+Список всех персонажей - [тут](./CharactersTable.md).<br>
+Список всех предметов - [тут](./ItemsTable.md).<br>
 Вы можете открыть внутриигровую консоль, перейдя во вкладку `Settings -> Platform & Account -> Account Settings (кнопка Access Account)`. Чтобы просмотреть доступные команды, пропишите `help`.
 
 ## Discord

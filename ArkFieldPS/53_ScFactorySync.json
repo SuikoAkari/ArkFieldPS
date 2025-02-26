@@ -1,0 +1,424 @@
+{
+    "FormulaMan": {
+      "Unlocked": [
+        "component_mc_1",
+        "power_station_1",
+        "seedcollector_1",
+        "filling_powder_mc_1",
+        "handwork_anglem_flower2_1",
+        "handwork_plant_moss_powder_1",
+        "handwork_plant_moss_spc_powder_2",
+        "planter_1",
+        "handwork_bottled_rec_hp_2",
+        "furnance_1",
+        "handwork_corp2_flower2_1",
+        "handwork_bottled_food_1",
+        "tools_assebling_mc_1",
+        "handwork_bottled_insec1_1",
+        "handwork_plant_moss_powder_2",
+        "battle_frost_1",
+        "handwork_ebs_flower1_1",
+        "handwork_bottled_flower2spc_1",
+        "handwork_bottled_rec_hp_1",
+        "handwork_angles_flower2_1",
+        "miner_1",
+        "handwork_bottled_flower1spc_1",
+        "handwork_plant_moss_spc_powder_1",
+        "battle_cannon_1",
+        "handwork_port_soil_bbflower_1",
+        "winder_1",
+        "unloader_1",
+        "handwork_bottled_flower1spc_2",
+        "miner_3",
+        "shaper_1",
+        "handwork_port_soil_moss_1",
+        "handwork_ebm_flower1_1",
+        "battle_medic_1",
+        "travel_pole_1",
+        "miner_2",
+        "handwork_port_soil_sp_1",
+        "storager_1",
+        "handwork_bottled_insec2_1",
+        "battle_laser_1",
+        "power_diffuser_1",
+        "power_pole_2",
+        "handwork_corp1_flower1_1",
+        "thickener_1",
+        "travel_pole_2",
+        "handwork_animal_angles_1",
+        "loader_1",
+        "grinder_1",
+        "handwork_port_soil_moss_2",
+        "battle_turret_1",
+        "handwork_port_soil_sp_2"
+      ],
+      "Visible": [
+        "handwork_plant_moss_powder_1",
+        "winder_equip_script_1",
+        "handwork_bottled_flower2spc_1",
+        "loader_1",
+        "planter_plant_moss_1_1",
+        "grinder_plant_moss_powder_2_1",
+        "winder_1",
+        "thickener_plant_moss_enr_powder_2_1",
+        "planter_plant_bbflower_1",
+        "winder_equip_script_3",
+        "tools_proc_bomb_1_1",
+        "shaper_1",
+        "grinder_plant_moss_powder_1_1",
+        "filling_bottled_rec_hp_3_1",
+        "travel_pole_1",
+        "grinder_plant_bbflower_powder_1_1",
+        "tools_proc_battery_2_1",
+        "tools_proc_battery_3_1",
+        "handwork_bottled_insec2_1",
+        "handwork_angles_flower2_1",
+        "handwork_bottled_insec1_1",
+        "handwork_port_soil_bbflower_1",
+        "component_glass_cmpt_1",
+        "thickener_originium_enr_powder_1",
+        "component_mc_1",
+        "grinder_crystal_powder_1",
+        "handwork_bottled_flower1spc_1",
+        "handwork_plant_moss_powder_2",
+        "grinder_quartz_powder_1",
+        "furnance_crystal_enr_powder_1",
+        "component_glass_enr_cmpt_1",
+        "handwork_ebs_flower1_1",
+        "battle_frost_1",
+        "thickener_iron_enr_powder_1",
+        "handwork_plant_moss_spc_powder_1",
+        "planter_plant_moss_2_1",
+        "furnance_carbon_enr_1",
+        "furnance_quartz_enr_1",
+        "filling_bottled_food_3_1",
+        "furnance_iron_nugget_1",
+        "battle_cannon_1",
+        "handwork_port_soil_sp_2",
+        "shaper_glass_bottle_1",
+        "battle_laser_1",
+        "handwork_bottled_rec_hp_1",
+        "filling_powder_mc_1",
+        "handwork_bottled_rec_hp_2",
+        "handwork_port_soil_sp_1",
+        "handwork_bottled_flower1spc_2",
+        "thickener_plant_moss_enr_powder_1_1",
+        "seedcollector_plant_sp_2",
+        "power_station_1",
+        "filling_bottled_rec_hp_2_1",
+        "component_iron_enr_cmpt_1",
+        "furnance_carbon_material_1",
+        "furnance_iron_enr_1",
+        "grinder_originium_powder_1",
+        "thickener_carbon_enr_powder_1",
+        "filling_bottled_rec_hp_1_1",
+        "battle_medic_1",
+        "shaper_iron_enr_bottle_1",
+        "tools_proc_battery_1_1",
+        "seedcollector_1",
+        "handwork_bottled_food_1",
+        "grinder_iron_powder_1",
+        "thickener_1",
+        "thickener_quartz_enr_powder_1",
+        "handwork_corp1_flower1_1",
+        "handwork_port_soil_moss_1",
+        "travel_pole_2",
+        "battle_turret_1",
+        "miner_3",
+        "furnance_crystal_enr_1",
+        "handwork_corp2_flower2_1",
+        "grinder_carbon_powder_1",
+        "seedcollector_plant_bbflower_1",
+        "handwork_ebm_flower1_1",
+        "tools_assebling_mc_1",
+        "unloader_1",
+        "filling_bottled_food_2_1",
+        "storager_1",
+        "shaper_iron_bottle_1",
+        "miner_2",
+        "furnance_quartz_glass_1",
+        "handwork_anglem_flower2_1",
+        "handwork_port_soil_moss_2",
+        "planter_1",
+        "seedcollector_plant_sp_1",
+        "furnance_crystal_shell_1",
+        "handwork_animal_angles_1",
+        "handwork_plant_moss_spc_powder_2",
+        "shaper_glass_enr_bottle_1",
+        "furnance_carbon_powder_1",
+        "thickener_crystal_enr_powder_1",
+        "seedcollector_plant_moss_1_1",
+        "component_iron_cmpt_1",
+        "seedcollector_plant_moss_2_1",
+        "winder_equip_script_2",
+        "filling_bottled_food_1_1"
+      ],
+      "Modes": {
+        "Liquid": {
+          "BuildingIds": [
+            "pump_1",
+            "liquid_storager_nop_1",
+            "liquid_cleaner_1",
+            "miner_4",
+            "squirter_1",
+            "liquid_storager_1",
+            "squirter_nop_1",
+            "mix_pool_1",
+            "v_fluid_container_1",
+            "dumper_nop_1",
+            "dumper_1"
+          ]
+        }
+      },
+      "LevelUp": [
+        "item_animal_angles_1"
+      ],
+      "ProductManual": [
+        "hdwk_item_plant_moss_spc_1_10",
+        "hdwk_item_drop_eb_m_1_1",
+        "hdwk_item_plant_bbflower_1_1",
+        "hdwk_item_drop_angle_m_1_1",
+        "hdwk_item_plant_tundra_insect_1_1",
+        "hdwk_item_plant_tundra_insect_2_10",
+        "hdwk_item_drop_animal_1_30",
+        "hdwk_item_drop_angle_s_1_1",
+        "hdwk_item_plant_moss_1_150",
+        "hdwk_item_plant_moss_2_1",
+        "hdwk_item_plant_tundra_insect_2_1",
+        "hdwk_item_plant_moss_spc_1_1",
+        "hdwk_item_plant_moss_2_50",
+        "hdwk_item_drop_eb_s_1_30",
+        "hdwk_item_plant_moss_spc_1_30",
+        "hdwk_item_plant_moss_1_1",
+        "hdwk_item_plant_tundra_insect_1_20",
+        "hdwk_item_drop_eb_s_1_1",
+        "hdwk_item_drop_animal_1_1",
+        "hdwk_item_plant_moss_1_15",
+        "hdwk_item_plant_sp_2_1",
+        "hdwk_item_plant_moss_2_30",
+        "hdwk_item_plant_moss_spc_2_10",
+        "hdwk_item_plant_sp_1_1",
+        "hdwk_item_plant_moss_spc_2_1",
+        "hdwk_item_drop_animal_1_10",
+        "hdwk_item_plant_moss_1_100",
+        "hdwk_item_drop_eb_s_1_10",
+        "hdwk_item_drop_angle_s_1_10"
+      ]
+    },
+    "Stt": {
+      "Nodes": [
+        {
+          "Id": "tech_jinlong_1_dumper_1"
+        },
+        {
+          "Id": "tech_jinlong_1_filling_mode_1"
+        },
+        {
+          "Id": "tech_jinlong_1_liquid_storager_1"
+        },
+        {
+          "Id": "tech_jinlong_1_mix_1"
+        },
+        {
+          "Id": "tech_jinlong_1_pipe_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_jinlong_1_planter_mode_1"
+        },
+        {
+          "Id": "tech_jinlong_1_pump_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_jinlong_1_splitter_1"
+        },
+        {
+          "Id": "tech_jinlong_2_connector_1"
+        },
+        {
+          "Id": "tech_jinlong_2_converger_1"
+        },
+        {
+          "Id": "tech_jinlong_2_furnance_mode_1"
+        },
+        {
+          "Id": "tech_jinlong_2_liquid_cleaner_1"
+        },
+        {
+          "Id": "tech_jinlong_2_miner_4"
+        },
+        {
+          "Id": "tech_jinlong_2_mix_1_unlock_1"
+        },
+        {
+          "Id": "tech_jinlong_2_shaper_mode_1"
+        },
+        {
+          "Id": "tech_jinlong_2_squirter_1"
+        },
+        {
+          "Id": "tech_tundra_1_battle_medic_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_battle_turret_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_cmpt_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_diffuser_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_furnance_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_grinder_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_miner_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_pole_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_shaper_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_storager_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_1_winder_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_asm_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_battle_cannon_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_battle_frost_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_battle_laser_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_belt_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_connector_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_field_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_filling_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_miner_2",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_plant_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_power_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_splitter_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_2_travel_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_3_battle_cannon_2"
+        },
+        {
+          "Id": "tech_tundra_3_battle_laser_2"
+        },
+        {
+          "Id": "tech_tundra_3_battle_lightning_1"
+        },
+        {
+          "Id": "tech_tundra_3_battle_shockwave_1"
+        },
+        {
+          "Id": "tech_tundra_3_battle_sniper_1"
+        },
+        {
+          "Id": "tech_tundra_3_battle_turret_2"
+        },
+        {
+          "Id": "tech_tundra_3_converger_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_3_field_2",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_3_miner_3",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_3_thickener_1",
+          "State": 1
+        },
+        {
+          "Id": "tech_tundra_3_travel_2",
+          "State": 1
+        }
+      ],
+      "Packages": [
+        {
+          "Id": "tech_group_jinlong",
+          "State": 1
+        },
+        {
+          "Id": "tech_group_tundra",
+          "State": 1
+        }
+      ],
+      "Layers": [
+        {
+          "Id": "tech_group_jinlong_liquid",
+          "State": 1
+        },
+        {
+          "Id": "tech_group_tundra_iron",
+          "State": 1
+        },
+        {
+          "Id": "tech_group_tundra_originium",
+          "State": 1
+        },
+        {
+          "Id": "tech_group_tundra_quartz",
+          "State": 1
+        }
+      ]
+    }
+  }

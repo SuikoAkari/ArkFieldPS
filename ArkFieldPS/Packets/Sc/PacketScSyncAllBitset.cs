@@ -21,13 +21,13 @@ namespace ArkFieldPS.Packets.Sc
 
                 Bitset =
                 {
-                    new BitsetData()
+                    /*new BitsetData()
                     {
                         Type=(int)BitsetType.CharVoice,
 
                         Value =
                         {
-                            ResourceManager.ToLongBitsetValue(ResourceManager.CalculateVoiceIdsBitset())
+                            ResourceManager.CalculateVoiceIdsBitset()
                         }
                     },
                     new BitsetData()
@@ -35,7 +35,7 @@ namespace ArkFieldPS.Packets.Sc
                         Type=(int)BitsetType.CharDoc,
                         Value =
                         {
-                             ResourceManager.ToLongBitsetValue(ResourceManager.CalculateDocsIdsBitset())
+                             ResourceManager.CalculateDocsIdsBitset()
                         }
                     },
                     new BitsetData()
@@ -86,14 +86,13 @@ namespace ArkFieldPS.Packets.Sc
                     new BitsetData()
                     {
                         Type=(int)BitsetType.InteractiveActive,
-                        Value =
+                        Value = 
                         {
-                            503839996,
+                            /*503839996,
                             0,
                             17042430230528,
                             17180393728
-                           // ResourceManager.GetBitset(ResourceManager.GetAllShortIds())
-                          // ResourceManager.ToLongBitsetValue(ResourceManager.CalculateWaypointIdsBitset())
+                            ResourceManager.CalculateWaypointIdsBitset()
                         }
                     },
                     new BitsetData()
@@ -109,12 +108,22 @@ namespace ArkFieldPS.Packets.Sc
                         Type=(int)BitsetType.Wiki,
                         Value =
                         {
-                            ResourceManager.ToLongBitsetValue(ResourceManager.CalculateBitsets(ResourceManager.strIdNumTable.wiki_id.dic.Values.ToList()))
+                            new LongBitSet(ResourceManager.strIdNumTable.wiki_id.dic.Values).Bits
                         }
-                    },
+                    },*/
                 }
             };
-           
+            foreach (var keyValuePair in client.bitsetManager.bitsets)
+            {
+                bitset.Bitset.Add(new BitsetData()
+                {
+                    Type = keyValuePair.Key,
+                    Value =
+                    {
+                        new LongBitSet(keyValuePair.Value).Bits
+                    }
+                });
+            }
             SetData(ScMessageId.ScSyncAllBitset, bitset);
         }
 
