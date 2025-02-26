@@ -150,6 +150,32 @@ namespace ArkFieldPS.Game.Character
             this.weaponGuid = GetOwner().inventoryManager.AddWeapon(ResourceManager.charGrowthTable[id].defaultWeaponId, 1).guid;
             this.curHp = CalcAttributes()[AttributeType.MaxHp].val;
         }
+        public int GetSkillMaxLevel()
+        {
+            if (GetBreakStage() == 0)
+            {
+                return 1;
+            }else if (GetBreakStage() == 1)
+            {
+                return 3;
+            }
+            else if (GetBreakStage() == 2)
+            {
+                return 6;
+            }
+            else if (GetBreakStage() == 3)
+            {
+                return 9;
+            }
+            else if (GetBreakStage() == 4)
+            {
+                return 12;
+            }
+            else
+            {
+                return 12;
+            }
+        }
         public List<ResourceManager.Attribute> GetAttributes()
         {
             int lev = level - 1 + GetBreakStage();
@@ -179,9 +205,9 @@ namespace ArkFieldPS.Game.Character
 
                                         },
                                         InstId=GetOwner().random.Next(),
-                                        Level=1,
+                                        Level=GetSkillMaxLevel(),
                                         Source=BattleSkillSource.Default,
-                                        PotentialLv=1,
+                                        PotentialLv=GetSkillMaxLevel(),
                                         SkillId=id+"_NormalSkill",
                                     },
                                     new ServerSkill()
@@ -191,9 +217,9 @@ namespace ArkFieldPS.Game.Character
 
                                         },
                                         InstId=GetOwner().random.Next(),
-                                        Level=1,
+                                        Level=GetSkillMaxLevel(),
                                         Source=BattleSkillSource.Default,
-                                        PotentialLv=1,
+                                        PotentialLv=GetSkillMaxLevel(),
                                         SkillId=id+"_ComboSkill",
                                     },
                                     new ServerSkill()
@@ -203,9 +229,9 @@ namespace ArkFieldPS.Game.Character
 
                                         },
                                         InstId=GetOwner().random.Next(),
-                                        Level=1,
+                                        Level=GetSkillMaxLevel(),
                                         Source=BattleSkillSource.Default,
-                                        PotentialLv=1,
+                                        PotentialLv=GetSkillMaxLevel(),
                                         SkillId=id+"_UltimateSkill",
                                     },
                                     new ServerSkill()
@@ -215,9 +241,9 @@ namespace ArkFieldPS.Game.Character
 
                                         },
                                         InstId=GetOwner().random.Next(),
-                                        Level=1,
+                                        Level=GetSkillMaxLevel(),
                                         Source=BattleSkillSource.Default,
-                                        PotentialLv=1,
+                                        PotentialLv=GetSkillMaxLevel(),
                                         SkillId=id+"_NormalAttack",
                                     }
                                 }
@@ -321,7 +347,7 @@ namespace ArkFieldPS.Game.Character
                 },
                 BattleMgrInfo = new()
                 {
-
+                    
                 },
                 BattleInfo = new()
                 {
@@ -342,35 +368,40 @@ namespace ArkFieldPS.Game.Character
                         new SkillLevelInfo()
                         {
                             SkillId=id+"_NormalAttack",
-                            SkillLevel=1,
-                            SkillMaxLevel=1,
-                            SkillEnhancedLevel=1
+                            SkillLevel=GetSkillMaxLevel(),
+                            SkillMaxLevel=GetSkillMaxLevel(),
+                            SkillEnhancedLevel=GetSkillMaxLevel()
                         },
                         new SkillLevelInfo()
                         {
                             SkillId=id+"_NormalSkill",
-                            SkillLevel=1,
-                            SkillMaxLevel=1,
-                            SkillEnhancedLevel=1
+                            SkillLevel=GetSkillMaxLevel(),
+                            SkillMaxLevel=GetSkillMaxLevel(),
+                            SkillEnhancedLevel=GetSkillMaxLevel()
                         },
                         new SkillLevelInfo()
                         {
                             SkillId=id+"_UltimateSkill",
-                            SkillLevel=1,
-                            SkillMaxLevel=1,
-                            SkillEnhancedLevel=1
+                            SkillLevel=GetSkillMaxLevel(),
+                            SkillMaxLevel=GetSkillMaxLevel(),
+                            SkillEnhancedLevel=GetSkillMaxLevel()
                         },
                         new SkillLevelInfo()
                         {
                             SkillId=id+"_ComboSkill",
-                            SkillLevel=1,
-                            SkillMaxLevel=1,
-                            SkillEnhancedLevel=1
+                            SkillLevel=GetSkillMaxLevel(),
+                            SkillMaxLevel=GetSkillMaxLevel(),
+                            SkillEnhancedLevel=GetSkillMaxLevel()
                         },
 
                     }
                 }
             };
+            Item wep = GetOwner().inventoryManager.items.Find(w => w.guid == weaponGuid);
+            if (wep != null)
+            {
+                //TODO weapon skills
+            }
             foreach (ulong equipGuid in equipCol.Values)
             {
                 Item item = GetOwner().inventoryManager.items.Find(i => i.guid == equipGuid);

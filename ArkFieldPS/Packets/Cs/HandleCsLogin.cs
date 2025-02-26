@@ -7,6 +7,7 @@ using ArkFieldPS.Protocol;
 using ArkFieldPS.Resource;
 using System.Security.Cryptography;
 using static ArkFieldPS.Resource.ResourceManager;
+using System.Reflection;
 
 namespace ArkFieldPS.Packets.Cs
 {
@@ -16,7 +17,7 @@ namespace ArkFieldPS.Packets.Cs
         public static void HandleCsCreateRole(Player session, CsMessageId cmdId, Packet packet)
         {
             CsCreateRole req = packet.DecodeBody<CsCreateRole>();
-
+            
             
         }
         [Server.Handler(CsMessageId.CsLogin)]
@@ -112,22 +113,70 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(new PacketScItemBagScopeSync(session, ItemValuableDepotType.SpecialItem));
             session.Send(new PacketScSyncAllMail(session));
             session.Send(new PacketScSceneCollectionSync(session));
-            ScSyncAllMission missions = new()
+            /*ScSyncAllMission missions = new()
             {
                 Missions =
                 {
-                    {"f1m15", 
+                    {"e0m0", 
                         new Mission()
                         {
-                            MissionId="f1m15",
-                            MissionState=(int)MissionState.Available,
-                            
+                            MissionId="e0m0",
+                            MissionState=(int)MissionState.Processing,
+                            Properties =
+                            {
+                                {1,new DynamicParameter()
+                                {
+                                   ValueType=1,
+                                   RealType=1,
+                                    ValueBoolList =
+                                    {
+                                        true
+                                    }
+                                } 
+                                },
+                                {2,new DynamicParameter()
+                                {
+                                   ValueType=1,
+                                   RealType=1,
+                                    ValueBoolList =
+                                    {
+                                        false
+                                    }
+                                }
+                                },
+                                {3,new DynamicParameter()
+                                {
+                                   ValueType=1,
+                                   RealType=1,
+                                    ValueBoolList =
+                                    {
+                                        false
+                                    }
+                                }
+                                }
+                            }
                         } 
                     }
                 },
-                
-            };
+                TrackMissionId= "e0m0",
+                CurQuests =
+                {
+                    {"e0m0#1", new Quest(){
+                        QuestId="e0m0#1",
+                        QuestState=2,
+                        QuestObjectives =
+                        {
+                            
+                        }
+                    }}
+                }
+            };*/
             //session.Send(ScMessageId.ScSyncAllMission, missions);
+            string json1 = File.ReadAllText("44_ScSyncAllMission.json");
+            ScSyncAllMission m = Newtonsoft.Json.JsonConvert.DeserializeObject<ScSyncAllMission>(json1);
+            m.TrackMissionId = "";
+            session.Send(ScMessageId.ScSyncAllMission, m);
+            
 
             session.Send(new PacketScGachaSync(session));
             ScSettlementSyncAll settlements = new ScSettlementSyncAll()
@@ -183,10 +232,7 @@ namespace ArkFieldPS.Packets.Cs
             session.Send(new PacketScSpaceshipSync(session));
             session.Send(new PacketScSyncFullDungeonStatus(session));
             session.Send(new PacketScActivitySync(session));
-            string json1 = File.ReadAllText("44_ScSyncAllMission.json");
-            ScSyncAllMission m = Newtonsoft.Json.JsonConvert.DeserializeObject<ScSyncAllMission>(json1);
             
-            session.Send(ScMessageId.ScSyncAllMission, m);
             session.Send(ScMessageId.ScSyncFullDataEnd, new ScSyncFullDataEnd());
             session.EnterScene();
             session.Initialized = true;
