@@ -207,16 +207,24 @@ namespace ArkFieldPS.Resource
         {
             Logger.Print("Loading InteractiveData resources");
             string directoryPath = @"Json/Interactive/InteractiveData";
-            string[] jsonFiles = Directory.GetFiles(directoryPath, "*.json", SearchOption.AllDirectories);
-            foreach (string json in jsonFiles)
+            try
             {
-                InteractiveData data = JsonConvert.DeserializeObject<InteractiveData>(ReadJsonFile(json));
-                if (data != null)
+                string[] jsonFiles = Directory.GetFiles(directoryPath, "*.json", SearchOption.AllDirectories);
+                foreach (string json in jsonFiles)
                 {
-                    interactiveData.Add(data);
+                    InteractiveData data = JsonConvert.DeserializeObject<InteractiveData>(ReadJsonFile(json));
+                    if (data != null)
+                    {
+                        interactiveData.Add(data);
+                    }
                 }
+                Logger.Print($"Loaded {interactiveData.Count} InteractiveData");
             }
-            Logger.Print($"Loaded {interactiveData.Count} InteractiveData");
+            catch(Exception e)
+            {
+                Logger.PrintError($"Error occured when loading InteractiveData: " + e.Message);
+            }
+           
         }
         public static void LoadLevelDatas()
         {
